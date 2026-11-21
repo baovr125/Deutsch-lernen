@@ -1,0 +1,85 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:deutsch-lernen:content:grammar-topic",
+  "title": "Chủ điểm ngữ pháp",
+  "description": "File: content/<level>/grammar/<id>.yaml. Mỗi chủ điểm được giải thích theo đúng mức độ của cấp độ đó.",
+  "type": "object",
+  "required": [
+    "id", "level", "title_de", "title_vi", "introduced_in", "source", "prerequisites",
+    "explanation_vi", "usage_vi", "structure", "rules", "tables", "examples",
+    "common_mistakes", "comparison_vi", "vietnamese_contrast_vi", "exercises", "summary_vi"
+  ],
+  "properties": {
+    "id": { "type": "string", "pattern": "^g-(a1|a2|b1|b2|c1|c2)-[a-z0-9-]+$" },
+    "level": { "$ref": "urn:deutsch-lernen:content:common#/$defs/level" },
+    "title_de": { "type": "string", "minLength": 1 },
+    "title_vi": { "type": "string", "minLength": 1 },
+    "introduced_in": { "$ref": "urn:deutsch-lernen:content:common#/$defs/id" },
+    "source": { "$ref": "urn:deutsch-lernen:content:common#/$defs/source" },
+    "prerequisites": { "type": "array", "items": { "type": "string" } },
+    "explanation_vi": { "type": "string", "minLength": 50 },
+    "usage_vi": { "type": "string", "minLength": 20 },
+    "structure": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["pattern", "example_de", "example_vi"],
+        "properties": {
+          "pattern": { "type": "string" },
+          "example_de": { "type": "string" },
+          "example_vi": { "type": "string" }
+        },
+        "additionalProperties": false
+      }
+    },
+    "rules": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["rule_vi", "examples"],
+        "properties": {
+          "rule_vi": { "type": "string", "minLength": 10 },
+          "examples": { "type": "array", "minItems": 1, "items": { "$ref": "urn:deutsch-lernen:content:common#/$defs/example" } }
+        },
+        "additionalProperties": false
+      }
+    },
+    "tables": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["title_vi", "columns", "rows"],
+        "properties": {
+          "title_vi": { "type": "string" },
+          "columns": { "type": "array", "minItems": 2, "items": { "type": "string" } },
+          "rows": { "type": "array", "minItems": 1, "items": { "type": "array", "items": { "type": "string" } } },
+          "note_vi": { "type": "string" }
+        },
+        "additionalProperties": false
+      }
+    },
+    "examples": { "type": "array", "minItems": 4, "items": { "$ref": "urn:deutsch-lernen:content:common#/$defs/example" } },
+    "common_mistakes": {
+      "type": "array",
+      "minItems": 2,
+      "items": {
+        "type": "object",
+        "required": ["wrong", "right", "explanation_vi"],
+        "properties": {
+          "wrong": { "type": "string" },
+          "right": { "type": "string" },
+          "explanation_vi": { "type": "string", "minLength": 10 }
+        },
+        "additionalProperties": false
+      }
+    },
+    "comparison_vi": { "type": "string", "minLength": 20 },
+    "vietnamese_contrast_vi": { "type": "string", "minLength": 20 },
+    "exercises": { "type": "array", "minItems": 2, "items": { "$ref": "urn:deutsch-lernen:content:common#/$defs/exercise" } },
+    "summary_vi": { "type": "string", "minLength": 20 },
+    "next_level_note_vi": { "type": "string", "description": "Ghi chú phạm vi: phần nào để dành cho cấp độ sau (không phát triển nội dung)" }
+  },
+  "additionalProperties": false
+}

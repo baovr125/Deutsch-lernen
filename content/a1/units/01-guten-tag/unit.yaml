@@ -1,0 +1,31 @@
+id: a1-k01
+level: A1
+order: 1
+kind: kapitel
+title_de: "Guten Tag!"
+title_vi: "Xin chào!"
+source:
+  type: netzwerk-neu
+  kapitel: 1
+  sections:
+    - "Guten Tag! (Kapitelauftakt)"
+    - "Hallo! Tschüs!"
+    - "Guten Tag! Auf Wiedersehen!"
+    - "Woher kommen Sie?"
+    - "Zahlen und Buchstaben"
+    - "Landeskunde: Länder und Sprachen"
+    - "Film: Die Netzwerk-WG"
+    - "kurz und klar: Redemittel und Grammatik"
+  note_vi: "Trình tự và phạm vi theo Stoffverteilungsplan Netzwerk neu A1.1 (Kapitel 1, 10 UE). Toàn bộ giảng giải, hội thoại, bài đọc và bài tập là nội dung tự biên soạn."
+summary_vi: "Kapitel đầu tiên: chào hỏi thân mật và trang trọng, giới thiệu bản thân và người khác, hỏi về quê quán, nơi ở và ngôn ngữ, đếm từ 0 đến 20, đọc số điện thoại, đánh vần tên và email, nói tên các nước và ngôn ngữ. Ngữ pháp: du/Sie, chia động từ ở số ít, câu hỏi W- và câu kể với động từ ở vị trí 2."
+cefr: [A1.SI1, A1.SI2, A1.SI3, A1.H1, A1.H3, A1.L1, A1.L3, A1.SP1, A1.S1, A1.S2, A1.S4]
+lessons: [a1-k01-l01, a1-k01-l02, a1-k01-l03, a1-k01-l04, a1-k01-l05]
+review: a1-k01-review
+grammar_topics: [g-a1-du-und-sie, g-a1-verben-ich-du-sie, g-a1-verben-singular, g-a1-w-fragen, g-a1-aussagesatz]
+vocabulary_file: vocabulary/01-guten-tag.csv
+estimated_minutes: 435
+status: ready
+not_covered_vi:
+  - "Film „Die Netzwerk-WG“ (Szene 1–3): video của giáo trình có bản quyền, không sao chép. Thay bằng các hội thoại nghe tự biên soạn trong từng bài."
+  - "Audio gốc của Kursbuch/Übungsbuch: không sử dụng. Mọi bài nghe dùng kịch bản tự viết, audio sẽ được tạo bằng TTS (trạng thái pending-tts)."
+  - "Bài tập của Übungsbuch (Arbeitsbuch) và mục „Das kann ich nach Kapitel 1“: không sao chép. Thay bằng bài tập riêng và danh sách tự kiểm tra (self_check)."

@@ -1,0 +1,338 @@
+id: a1-k01-l01
+kind: lesson
+level: A1
+unit: a1-k01
+order: 1
+title_de: "Hallo! Tschüs!"
+title_vi: "Chào hỏi thân mật và tự giới thiệu"
+topic_vi: "Chào, giới thiệu bản thân và người khác, hỏi thăm sức khỏe (thân mật)"
+source:
+  type: netzwerk-neu
+  kapitel: 1
+  sections: ["Guten Tag! (Kapitelauftakt)", "Hallo! Tschüs!"]
+  note_vi: "Sprachhandlungen theo giáo trình: Begrüßung und Verabschiedung; sich und andere vorstellen; nach dem Befinden fragen und darauf reagieren (Kurzdialoge informell)."
+cefr: [A1.SI1, A1.SI2, A1.H1, A1.SP1]
+objectives:
+  - { id: o1, vi: "Chào khi gặp và khi chia tay trong tình huống thân mật." }
+  - { id: o2, vi: "Tự giới thiệu (Ich bin… / Ich heiße…) và hỏi tên người khác (Wie heißt du? / Wer bist du?)." }
+  - { id: o3, vi: "Giới thiệu người khác bằng “Das ist…” và đáp lại “Freut mich!”." }
+  - { id: o4, vi: "Hỏi thăm sức khỏe và trả lời với nhiều mức độ (sehr gut, gut, ganz gut, es geht, nicht so gut)." }
+estimated_minutes: 60
+prerequisites: [a1-u00-l04]
+intro_vi: |
+  **Kapitel 1 bắt đầu!** Trong bài này bạn ở một buổi gặp mặt của lớp tiếng Đức: mọi người là sinh viên trẻ,
+  nên tất cả nói chuyện **thân mật** với nhau (xưng *du*).
+
+  **Bạn đã biết nhiều từ tiếng Đức hơn bạn nghĩ.** Một số từ tiếng Đức đã "di cư" sang các ngôn ngữ khác:
+  tiếng Anh dùng *Kindergarten* (nhà trẻ), *Rucksack* (ba lô), *Angst* (nỗi sợ). Ngược lại, tiếng Đức cũng dùng nhiều từ
+  quốc tế mà bạn đã học ở phần nhập môn: *Hotel, Taxi, Kaffee, Pizza*.
+
+  **Mục tiêu của bài:** sau 60 phút, bạn có thể chào một bạn học mới, nói tên mình, hỏi tên bạn ấy, giới thiệu một người
+  bạn khác và hỏi thăm "Khỏe không?".
+
+  **Lưu ý ngữ pháp:** trong bài này, *ich bin, du bist, ich heiße, du heißt* được học như **cụm câu cố định**.
+  Quy tắc chia động từ được giải thích kỹ ở bài 2.
+vocabulary:
+  file: vocabulary/01-guten-tag.csv
+  new: [a1-k01-v001, a1-k01-v002, a1-k01-v003, a1-k01-v004, a1-k01-v005, a1-k01-v006, a1-k01-v007, a1-k01-v008, a1-k01-v009, a1-k01-v010, a1-k01-v011, a1-k01-v012, a1-k01-v013, a1-k01-v014, a1-k01-v015, a1-k01-v016, a1-k01-v017, a1-k01-v018, a1-k01-v019, a1-k01-v020, a1-k01-v021]
+  review: [a1-u00-v018, a1-u00-v019, a1-u00-v020, a1-u00-v021, a1-u00-v022, a1-u00-v023, a1-u00-v024]
+grammar:
+  topics: []
+  notes:
+    - title_vi: "Hai cách nói tên mình"
+      explanation_vi: "“Ich bin + tên” và “Ich heiße + tên” đều dùng được để giới thiệu và gần như cùng nghĩa. Đừng ghép hai động từ: “Ich bin heiße Lan” là sai. Tiếng Việt có thể nói “Mình Lan nè” – tiếng Đức bắt buộc có động từ."
+      examples:
+        - { de: "Ich bin Lan.", vi: "Mình là Lan." }
+        - { de: "Ich heiße Lan.", vi: "Mình tên là Lan." }
+    - title_vi: "Giới thiệu người khác với “Das ist …”"
+      explanation_vi: "“Das ist + tên” dùng cho cả nam và nữ, một người hay đồ vật. “das” ở đây nghĩa là “đây/đó”, không phải mạo từ của danh từ."
+      examples:
+        - { de: "Das ist Paul.", vi: "Đây là Paul." }
+        - { de: "Das ist Lisa.", vi: "Đây là Lisa." }
+    - title_vi: "Hỏi tên: Wie heißt du? – không phải “Was heißt du?”"
+      explanation_vi: "Người Việt dịch từng chữ “Bạn tên là gì?” thành “Was heißt du?” – sai. Tiếng Đức hỏi “Bạn được gọi như thế nào?”: Wie heißt du?"
+      examples:
+        - { de: "Wie heißt du?", vi: "Bạn tên là gì?" }
+        - { de: "Wer bist du?", vi: "Bạn là ai?", note_vi: "Hơi trực tiếp; thường dùng khi chỉ vào ai đó hoặc giữa bạn trẻ." }
+redemittel:
+  - id: a1-k01-l01-r01
+    de: "Hallo! / Hi!"
+    vi: "Chào!"
+    context_vi: "Chào khi gặp bạn bè, bạn học, người trẻ."
+    register: informal
+    dialogue:
+      - { speaker: "Lisa", de: "Hallo!", vi: "Chào!" }
+      - { speaker: "Minh", de: "Hi!", vi: "Chào!" }
+  - id: a1-k01-l01-r02
+    de: "Ich bin … / Ich heiße …"
+    vi: "Mình là … / Mình tên là …"
+    context_vi: "Tự giới thiệu tên."
+    register: neutral
+    dialogue:
+      - { speaker: "Lisa", de: "Hallo, ich bin Lisa.", vi: "Chào, mình là Lisa." }
+      - { speaker: "Minh", de: "Hallo, Lisa. Ich heiße Minh.", vi: "Chào Lisa. Mình tên là Minh." }
+  - id: a1-k01-l01-r03
+    de: "Wie heißt du? / Wer bist du?"
+    vi: "Bạn tên là gì? / Bạn là ai?"
+    context_vi: "Hỏi tên trong tình huống thân mật."
+    register: informal
+    dialogue:
+      - { speaker: "Paul", de: "Hallo! Wie heißt du?", vi: "Chào! Bạn tên là gì?" }
+      - { speaker: "Mai", de: "Ich heiße Mai. Und du?", vi: "Mình tên là Mai. Còn bạn?" }
+      - { speaker: "Paul", de: "Ich bin Paul.", vi: "Mình là Paul." }
+  - id: a1-k01-l01-r04
+    de: "Das ist … – Freut mich!"
+    vi: "Đây là … – Rất vui được gặp bạn!"
+    context_vi: "Giới thiệu một người với người khác và đáp lại."
+    register: neutral
+    dialogue:
+      - { speaker: "Lisa", de: "Minh, das ist Paul.", vi: "Minh, đây là Paul." }
+      - { speaker: "Minh", de: "Hallo, Paul! Freut mich!", vi: "Chào Paul! Rất vui được gặp bạn!" }
+      - { speaker: "Paul", de: "Freut mich auch!", vi: "Mình cũng rất vui!" }
+  - id: a1-k01-l01-r05
+    de: "Wie geht's? – Gut, danke. Und dir?"
+    vi: "Khỏe không? – Khỏe, cảm ơn. Còn bạn?"
+    context_vi: "Hỏi thăm sức khỏe giữa bạn bè. Thang trả lời: Sehr gut! > Gut. > Ganz gut. > Es geht. > Nicht so gut."
+    register: informal
+    dialogue:
+      - { speaker: "Mai", de: "Hallo, Paul! Wie geht's?", vi: "Chào Paul! Khỏe không?" }
+      - { speaker: "Paul", de: "Sehr gut, danke! Und dir?", vi: "Rất khỏe, cảm ơn! Còn bạn?" }
+      - { speaker: "Mai", de: "Es geht.", vi: "Tạm được." }
+  - id: a1-k01-l01-r06
+    de: "Tschüs! / Ciao! / Bis bald!"
+    vi: "Tạm biệt! / Chào nhé! / Hẹn sớm gặp lại!"
+    context_vi: "Chào khi chia tay trong tình huống thân mật."
+    register: informal
+    dialogue:
+      - { speaker: "Lisa", de: "Tschüs, Minh! Bis bald!", vi: "Tạm biệt Minh! Hẹn sớm gặp lại!" }
+      - { speaker: "Minh", de: "Ciao, Lisa!", vi: "Chào nhé, Lisa!" }
+pronunciation:
+  - id: a1-k01-l01-p01
+    focus_vi: "ü trong tschüs, ß trong heißen, eu trong Freut"
+    explanation_vi: "tschüs [tʃyːs]: tròn môi khi đọc ü, kéo dài. heißen [ˈhaɪ̯sn̩]: ß đọc như s không rung. Freut mich [ˈfʁɔʏ̯t mɪç]: eu đọc gần “oi”, ch sau i đọc [ç]."
+    examples:
+      - { de: "tschüs", vi: "tạm biệt", ipa: "[tʃyːs]" }
+      - { de: "Ich heiße …", vi: "Tôi tên là …", ipa: "[ɪç ˈhaɪ̯sə]" }
+      - { de: "Freut mich!", vi: "Rất vui!", ipa: "[ˈfʁɔʏ̯t mɪç]" }
+    practice_vi: "Đọc liền: “Hallo, ich heiße … Freut mich! Tschüs!” 3 lần, mỗi lần nhanh hơn một chút."
+  - id: a1-k01-l01-p02
+    focus_vi: "Ngữ điệu: Wie geht's? ↘ – Und dir? ↗"
+    explanation_vi: "“Wie geht's?” là câu hỏi W- → xuống giọng. “Und dir?” là câu hỏi ngắn kiểu có/không → lên giọng ở cuối."
+    examples:
+      - { de: "Wie geht's? ↘", vi: "Khỏe không?" }
+      - { de: "Und dir? ↗", vi: "Còn bạn?" }
+    practice_vi: "Nghe và bắt chước ngữ điệu trong hội thoại mẫu."
+examples:
+  - { de: "Hallo, ich bin Minh. Und du?", vi: "Chào, mình là Minh. Còn bạn?" }
+  - { de: "Ich heiße Lisa.", vi: "Mình tên là Lisa." }
+  - { de: "Das ist Paul.", vi: "Đây là Paul." }
+  - { de: "Wie geht's? – Ganz gut, danke.", vi: "Khỏe không? – Khá ổn, cảm ơn." }
+  - { de: "Bist du Mai? – Ja. / Nein, ich bin Lan.", vi: "Bạn là Mai à? – Ừ. / Không, mình là Lan." }
+  - { de: "Ich heiße auch Anna!", vi: "Mình cũng tên là Anna!" }
+  - { de: "Tschüs, bis bald!", vi: "Tạm biệt, hẹn sớm gặp lại!" }
+skills:
+  listening:
+    - id: a1-k01-l01-listen-01
+      title_vi: "Buổi gặp mặt lớp tiếng Đức"
+      situation_vi: "Buổi tối đầu tiên của khóa học. Ba đoạn hội thoại ngắn: gặp nhau, giới thiệu bạn, chia tay."
+      audio: { status: pending-tts, speed: slow }
+      script:
+        - { speaker: "Lisa", de: "Hallo! Ich bin Lisa. Wie heißt du?", vi: "Chào! Mình là Lisa. Bạn tên là gì?" }
+        - { speaker: "Minh", de: "Hallo, Lisa! Ich heiße Minh.", vi: "Chào Lisa! Mình tên là Minh." }
+        - { speaker: "Lisa", de: "Minh? Wie geht's, Minh?", vi: "Minh à? Khỏe không Minh?" }
+        - { speaker: "Minh", de: "Gut, danke. Und dir?", vi: "Khỏe, cảm ơn. Còn bạn?" }
+        - { speaker: "Lisa", de: "Sehr gut! Oh, das ist Paul. Paul, das ist Minh.", vi: "Rất khỏe! Ồ, đây là Paul. Paul, đây là Minh." }
+        - { speaker: "Paul", de: "Hallo, Minh! Freut mich!", vi: "Chào Minh! Rất vui được gặp bạn!" }
+        - { speaker: "Minh", de: "Freut mich auch!", vi: "Mình cũng rất vui!" }
+        - { speaker: "Paul", de: "Tschüs, Lisa! Tschüs, Minh! Bis bald!", vi: "Tạm biệt Lisa! Tạm biệt Minh! Hẹn sớm gặp lại!" }
+        - { speaker: "Minh", de: "Ciao, Paul!", vi: "Chào nhé, Paul!" }
+      exercises: [a1-k01-l01-ex02, a1-k01-l01-ex03]
+  reading:
+    - id: a1-k01-l01-read-01
+      title_vi: "Nhóm chat của lớp"
+      text_type_vi: "Tin nhắn trong nhóm chat"
+      text_de: |
+        Lisa: Hallo! Ich bin Lisa. 😊
+        Minh: Hi, Lisa! Ich heiße Minh. Wie geht's?
+        Lisa: Super, danke! Und dir?
+        Minh: Es geht. 😴
+        Paul: Hallo, Leute! Ich bin Paul. Ich bin auch neu.
+        Lisa: Hi, Paul! Das ist Minh. 🙂
+        Paul: Hallo, Minh! Freut mich!
+      translation_vi: |
+        Lisa: Chào cả nhà! Mình là Lisa. 😊
+        Minh: Chào Lisa! Mình tên là Minh. Khỏe không?
+        Lisa: Tuyệt, cảm ơn! Còn bạn?
+        Minh: Tạm được. 😴
+        Paul: Chào mọi người! Mình là Paul. Mình cũng mới vào.
+        Lisa: Chào Paul! Đây là Minh. 🙂
+        Paul: Chào Minh! Rất vui được làm quen!
+      glossary:
+        - { de: "die Leute", vi: "mọi người (luôn ở số nhiều)" }
+        - { de: "neu", vi: "mới" }
+        - { de: "super", vi: "tuyệt" }
+      exercises: [a1-k01-l01-ex07]
+  speaking:
+    - id: a1-k01-l01-speak-01
+      title_vi: "Làm quen với bạn học mới"
+      task_vi: "Đóng vai: bạn gặp một bạn học mới, chào, giới thiệu tên, hỏi tên, hỏi thăm sức khỏe và tạm biệt. Nếu học một mình, hãy ghi âm cả hai vai."
+      steps_vi:
+        - "Chào và nói tên của bạn."
+        - "Hỏi tên bạn kia."
+        - "Hỏi “Wie geht's?” và trả lời bằng một mức độ khác “gut”."
+        - "Chào tạm biệt."
+      model:
+        - { speaker: "A", de: "Hallo! Ich bin Lan.", vi: "Chào! Mình là Lan." }
+        - { speaker: "B", de: "Hallo, Lan! Ich heiße Tom.", vi: "Chào Lan! Mình tên là Tom." }
+        - { speaker: "A", de: "Wie geht's, Tom?", vi: "Khỏe không Tom?" }
+        - { speaker: "B", de: "Ganz gut, danke. Und dir?", vi: "Khá ổn, cảm ơn. Còn bạn?" }
+        - { speaker: "A", de: "Sehr gut! Tschüs, Tom!", vi: "Rất khỏe! Tạm biệt Tom!" }
+        - { speaker: "B", de: "Tschüs! Bis bald!", vi: "Tạm biệt! Hẹn sớm gặp lại!" }
+      exercises: [a1-k01-l01-ex09]
+  writing:
+    - id: a1-k01-l01-write-01
+      title_vi: "Tin nhắn chào nhóm chat"
+      task_vi: "Viết tin nhắn đầu tiên vào nhóm chat của lớp: chào, nói tên, hỏi thăm mọi người (3 câu)."
+      model_de: "Hallo, Leute! Ich heiße Lan. Wie geht's?"
+      model_vi: "Chào mọi người! Mình tên là Lan. Mọi người khỏe không?"
+      checklist_vi:
+        - "Có lời chào thân mật (Hallo/Hi)."
+        - "Có câu giới thiệu với Ich bin… hoặc Ich heiße…"
+        - "Có câu hỏi thăm (Wie geht's?)."
+        - "Chữ đầu câu viết hoa, câu hỏi có dấu ?"
+      exercises: [a1-k01-l01-ex10]
+exercises:
+  - id: a1-k01-l01-ex01
+    type: matching
+    skill: vocabulary
+    objectives: [o1, o4]
+    difficulty: 1
+    instructions_vi: "Nối câu tiếng Đức với nghĩa tiếng Việt."
+    items:
+      - id: q1
+        pairs:
+          - { left: "Wie geht's?", right: "Khỏe không?" }
+          - { left: "Es geht.", right: "Tạm được." }
+          - { left: "Nicht so gut.", right: "Không khỏe lắm." }
+          - { left: "Bis bald!", right: "Hẹn sớm gặp lại!" }
+          - { left: "Freut mich!", right: "Rất vui được gặp bạn!" }
+        explanation_vi: "Đây là các câu cố định – hãy học nguyên cụm."
+  - id: a1-k01-l01-ex02
+    type: multiple-choice
+    skill: listening
+    objectives: [o2, o3]
+    difficulty: 1
+    stimulus: a1-k01-l01-listen-01
+    instructions_vi: "Nghe hội thoại “Buổi gặp mặt lớp tiếng Đức”. Chọn đáp án đúng."
+    items:
+      - { id: q1, prompt: "Ai hỏi tên Minh?", options: ["Lisa", "Paul", "Mai"], answer: "Lisa", explanation_vi: "Lisa: “Ich bin Lisa. Wie heißt du?”" }
+      - { id: q2, prompt: "Ai giới thiệu Paul với Minh?", options: ["Lisa", "Paul", "Minh"], answer: "Lisa", explanation_vi: "Lisa: “Paul, das ist Minh.”" }
+      - { id: q3, prompt: "Paul nói gì khi được giới thiệu?", options: ["Wie bitte?", "Freut mich!", "Gute Nacht!"], answer: "Freut mich!", explanation_vi: "Freut mich! = Rất vui được gặp bạn." }
+  - id: a1-k01-l01-ex03
+    type: true-false
+    skill: listening
+    objectives: [o4, o1]
+    difficulty: 1
+    stimulus: a1-k01-l01-listen-01
+    instructions_vi: "Nghe lại. Đúng hay sai?"
+    items:
+      - { id: q1, prompt: "Minh khỏe.", answer: true, explanation_vi: "Minh: “Gut, danke.”" }
+      - { id: q2, prompt: "Lisa không khỏe lắm.", answer: false, explanation_vi: "Lisa: “Sehr gut!” – rất khỏe." }
+      - { id: q3, prompt: "Paul nói “Bis bald!” khi chia tay.", answer: true, explanation_vi: "Paul: “Tschüs, Lisa! Tschüs, Minh! Bis bald!”" }
+  - id: a1-k01-l01-ex04
+    type: gap-fill
+    skill: grammar
+    objectives: [o2, o3]
+    difficulty: 1
+    instructions_vi: "Điền bin, bist, heiße, heißt hoặc ist."
+    items:
+      - { id: q1, prompt: "Hallo, ich ___ Lan.", answer: ["bin"], accept: [["heiße"]], explanation_vi: "Ich bin… hoặc Ich heiße… đều đúng." }
+      - { id: q2, prompt: "Wie ___ du?", answer: ["heißt"], explanation_vi: "Hỏi tên: Wie heißt du?" }
+      - { id: q3, prompt: "Wer ___ du?", answer: ["bist"], explanation_vi: "Wer bist du? – du bist." }
+      - { id: q4, prompt: "Das ___ Paul.", answer: ["ist"], explanation_vi: "Giới thiệu người khác: Das ist …" }
+      - { id: q5, prompt: "Ich ___ auch Anna.", answer: ["heiße"], accept: [["bin"]], explanation_vi: "Ich heiße auch Anna / Ich bin auch Anna." }
+  - id: a1-k01-l01-ex05
+    type: ordering
+    skill: grammar
+    objectives: [o2, o4]
+    difficulty: 1
+    instructions_vi: "Sắp xếp thành câu đúng."
+    items:
+      - { id: q1, tokens: ["du", "heißt", "Wie"], answer: "Wie heißt du?", explanation_vi: "Wie (từ để hỏi) – heißt (động từ) – du." }
+      - { id: q2, tokens: ["Paul", "ist", "Das"], answer: "Das ist Paul.", explanation_vi: "Das – ist – Paul." }
+      - { id: q3, tokens: ["gut", "Ganz", "danke", ","], answer: "Ganz gut, danke.", explanation_vi: "Ganz gut, danke. – khá ổn, cảm ơn." }
+  - id: a1-k01-l01-ex06
+    type: multiple-choice
+    skill: vocabulary
+    objectives: [o4, o1]
+    difficulty: 2
+    instructions_vi: "Chọn câu trả lời phù hợp nhất."
+    items:
+      - { id: q1, prompt: "Bạn vừa thi đỗ, rất vui. Bạn của bạn hỏi: „Wie geht's?“", options: ["Sehr gut!", "Nicht so gut.", "Es geht."], answer: "Sehr gut!", explanation_vi: "Rất vui → Sehr gut!" }
+      - { id: q2, prompt: "Bạn bị cảm. Bạn của bạn hỏi: „Wie geht's?“", options: ["Super!", "Nicht so gut.", "Freut mich!"], answer: "Nicht so gut.", explanation_vi: "Không khỏe → Nicht so gut." }
+      - { id: q3, prompt: "Một bạn học nói: „Ich bin Paul.“ Bạn đáp:", options: ["Freut mich! Ich bin Lan.", "Gute Nacht!", "Bis bald!"], answer: "Freut mich! Ich bin Lan.", explanation_vi: "Khi làm quen: Freut mich + giới thiệu bản thân." }
+      - { id: q4, prompt: "Bạn chia tay một người bạn sau giờ học.", options: ["Hallo!", "Tschüs!", "Wie geht's?"], answer: "Tschüs!", explanation_vi: "Tschüs = tạm biệt (thân mật)." }
+  - id: a1-k01-l01-ex07
+    type: true-false
+    skill: reading
+    objectives: [o2, o3, o4]
+    difficulty: 1
+    stimulus: a1-k01-l01-read-01
+    instructions_vi: "Đọc nhóm chat. Đúng hay sai?"
+    items:
+      - { id: q1, prompt: "Minh hỏi thăm Lisa.", answer: true, explanation_vi: "Minh: “Wie geht's?”" }
+      - { id: q2, prompt: "Minh rất khỏe.", answer: false, explanation_vi: "Minh: “Es geht.” – tạm được." }
+      - { id: q3, prompt: "Paul là người mới trong nhóm.", answer: true, explanation_vi: "Paul: “Ich bin auch neu.”" }
+      - { id: q4, prompt: "Lisa giới thiệu Minh với Paul.", answer: true, explanation_vi: "Lisa: “Hi, Paul! Das ist Minh.”" }
+  - id: a1-k01-l01-ex08
+    type: translation
+    skill: vocabulary
+    objectives: [o2, o4]
+    difficulty: 2
+    direction: vi-de
+    instructions_vi: "Dịch sang tiếng Đức (tình huống thân mật)."
+    items:
+      - { id: q1, prompt: "Chào, mình tên là Hoa.", answer: "Hallo, ich heiße Hoa.", accept: ["Hallo, ich bin Hoa.", "Hi, ich heiße Hoa.", "Hi, ich bin Hoa."], explanation_vi: "Ich heiße / Ich bin đều đúng." }
+      - { id: q2, prompt: "Bạn tên là gì?", answer: "Wie heißt du?", explanation_vi: "Dùng wie, không dùng was." }
+      - { id: q3, prompt: "Khỏe không? – Tạm được. Còn bạn?", answer: "Wie geht's? – Es geht. Und dir?", accept: ["Wie geht es dir? – Es geht. Und dir?"], explanation_vi: "Und dir? = còn bạn? (thân mật)." }
+  - id: a1-k01-l01-ex09
+    type: speaking
+    skill: speaking
+    objectives: [o1, o2, o4]
+    difficulty: 1
+    grading: self
+    instructions_vi: "Ghi âm hội thoại làm quen (phần Nói). Nghe lại và tự chấm."
+    rubric:
+      - { criterion_vi: "Có đủ 4 bước: chào – giới thiệu & hỏi tên – hỏi thăm – tạm biệt", points: 4 }
+      - { criterion_vi: "Không trộn hai động từ (bin + heiße) trong một câu", points: 1 }
+      - { criterion_vi: "Phát âm rõ: heiße [ˈhaɪ̯sə], tschüs [tʃyːs]", points: 1 }
+    items:
+      - { id: q1, prompt: "Làm quen với bạn học mới.", model_answer: "Hallo! Ich bin Lan. Wie heißt du? – Ich heiße Tom. – Wie geht's, Tom? – Ganz gut, danke. Und dir? – Sehr gut! Tschüs! – Tschüs! Bis bald!", explanation_vi: "So sánh với hội thoại mẫu ở phần Nói." }
+  - id: a1-k01-l01-ex10
+    type: writing
+    skill: writing
+    objectives: [o1, o2]
+    difficulty: 1
+    grading: self
+    instructions_vi: "Viết tin nhắn chào nhóm chat (3 câu) theo phần Viết."
+    rubric:
+      - { criterion_vi: "Có lời chào, câu giới thiệu tên, câu hỏi thăm", points: 3 }
+      - { criterion_vi: "Chính tả và dấu câu đúng", points: 1 }
+    items:
+      - { id: q1, prompt: "Tin nhắn đầu tiên vào nhóm chat của lớp.", model_answer: "Hallo, Leute! Ich heiße Lan. Wie geht's?", explanation_vi: "Có thể thêm “Ich bin neu.” (Mình là người mới)." }
+  - id: a1-k01-l01-ex11
+    type: sentence-building
+    skill: grammar
+    objectives: [o2, o3]
+    difficulty: 2
+    instructions_vi: "Viết câu hoàn chỉnh từ các từ gợi ý."
+    items:
+      - { id: q1, prompt: "ich / heißen / Minh", answer: "Ich heiße Minh.", explanation_vi: "ich → heiße." }
+      - { id: q2, prompt: "das / sein / Lisa", answer: "Das ist Lisa.", explanation_vi: "Das ist …" }
+      - { id: q3, prompt: "wer / sein / du ?", answer: "Wer bist du?", explanation_vi: "du → bist; câu hỏi W-: Wer – bist – du." }
+summary_vi: "Chào thân mật: Hallo/Hi – Tschüs/Ciao/Bis bald. Giới thiệu: Ich bin…/Ich heiße…; hỏi tên: Wie heißt du?/Wer bist du?; giới thiệu người khác: Das ist… – Freut mich! Hỏi thăm: Wie geht's? – Sehr gut/Gut/Ganz gut/Es geht/Nicht so gut. Und dir?"
+self_check:
+  - "Tôi có thể chào và tạm biệt bạn bè bằng tiếng Đức."
+  - "Tôi có thể nói tên mình và hỏi tên người khác."
+  - "Tôi có thể giới thiệu một người bạn: Das ist …"
+  - "Tôi có thể hỏi thăm và trả lời “Wie geht's?” theo cảm nhận thật của mình."

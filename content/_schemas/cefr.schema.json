@@ -1,0 +1,30 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:deutsch-lernen:content:cefr",
+  "title": "Danh mục can-do CEFR của một cấp độ",
+  "description": "File: content/<level>/cefr-<level>.yaml. Diễn giải tiếng Việt, có ghi thang mô tả CEFR tương ứng.",
+  "type": "object",
+  "required": ["level", "sources", "descriptors"],
+  "properties": {
+    "level": { "$ref": "urn:deutsch-lernen:content:common#/$defs/level" },
+    "sources": { "type": "array", "minItems": 1, "items": { "type": "string" } },
+    "descriptors": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "skill", "cefr_scale", "can_do_vi", "evidence_vi"],
+        "properties": {
+          "id": { "type": "string", "pattern": "^A1\\.(H|L|SI|SP|S)[0-9]+$" },
+          "skill": { "enum": ["listening", "reading", "spoken-interaction", "spoken-production", "writing"] },
+          "cefr_scale": { "type": "string" },
+          "can_do_vi": { "type": "string", "minLength": 10 },
+          "evidence_vi": { "type": "string", "minLength": 10 },
+          "out_of_scope_vi": { "type": "string" }
+        },
+        "additionalProperties": false
+      }
+    }
+  },
+  "additionalProperties": false
+}

@@ -1,0 +1,46 @@
+# Lộ trình học A1 — German A1 Learning Path
+# Trình tự Kapitel/Plattform theo Netzwerk neu A1 (đã xác minh từ Stoffverteilungsplan A1.1 và A1.2 của Klett).
+# Toàn bộ giảng giải, ví dụ, bài tập là nội dung tự biên soạn — không sao chép giáo trình.
+id: a1
+level: A1
+title_de: "Deutsch A1 – Lernpfad"
+title_vi: "Tiếng Đức A1 – Lộ trình cho người mới bắt đầu từ con số 0"
+description_vi: >-
+  Lộ trình A1 dành cho người Việt tự học, giải thích bằng tiếng Việt. Bắt đầu bằng phần nhập môn
+  (chữ cái, phát âm, cấu trúc câu cơ bản), sau đó đi theo trình tự 12 Kapitel của Netzwerk neu A1,
+  xen kẽ 4 Plattform ôn tập và kết thúc bằng bài đánh giá tổng kết A1.
+primary_source:
+  title: "Netzwerk neu A1 (Kurs- und Übungsbuch; Teilbände A1.1 = Kapitel 1–6, A1.2 = Kapitel 7–12)"
+  publisher: "Ernst Klett Sprachen GmbH, Stuttgart"
+  authors: ["Stefanie Dengler", "Tanja Mayr-Sieber", "Paul Rusch", "Helen Schmitz"]
+  isbn:
+    - "978-3-12-607161-1 (A1.1, Hybride Ausgabe allango)"
+    - "978-3-12-607169-7 (A1.2, Hybride Ausgabe allango)"
+  edition_note_vi: >-
+    Phiên bản "Netzwerk neu" (không phải "Netzwerk" bản 2012 — tên một số Kapitel khác nhau giữa hai bản).
+    Chưa xác minh được năm xuất bản của sách in; tài liệu đi kèm ghi © 2019 (Kapitelwortschatz) và © 2023 (Stoffverteilungsplan).
+  verified_from:
+    - "Klett Sprachen: Stoffverteilungsplan Netzwerk neu A1.1 (© 2023) — https://www.klett-sprachen.de/downloads/31495/netzwerk-neu-a1-1-stoffverteilungsplan/pdf"
+    - "Klett Sprachen: Stoffverteilungsplan Netzwerk neu A1.2 (© 2023) — https://www.klett-sprachen.de/downloads/31496/netzwerk-neu-a1-2-stoffverteilungsplan/pdf"
+    - "Klett Sprachen: Kapitelwortschatz Netzwerk neu A1, Kapitel 1–12 (© 2019) — https://www.klett-sprachen.de/downloads/22483/netzwerk-neu-a1-kapitelwortschatz-kapitel-1-12/pdf"
+    - "Klett Sprachen: trang sản phẩm Netzwerk neu A1.1 — https://www.klett-sprachen.de/netzwerk-neu-a1/t-1/9783126071611"
+status: in-progress
+path:
+  - { id: a1-u00, order: 0, kind: intro, title_de: "Einstieg", title_vi: "Nhập môn: chữ cái, phát âm, câu đầu tiên", dir: units/00-einstieg, status: ready }
+  - { id: a1-k01, order: 1, kind: kapitel, kapitel: 1, title_de: "Guten Tag!", title_vi: "Xin chào!", dir: units/01-guten-tag, status: ready }
+  - { id: a1-k02, order: 2, kind: kapitel, kapitel: 2, title_de: "Freunde, Kollegen und ich", title_vi: "Bạn bè, đồng nghiệp và tôi", status: planned }
+  - { id: a1-k03, order: 3, kind: kapitel, kapitel: 3, title_de: "In Hamburg", title_vi: "Ở Hamburg", status: planned }
+  - { id: a1-p1, order: 4, kind: plattform, covers: [1, 2, 3], title_de: "Plattform 1", title_vi: "Ôn tập 1 (Kapitel 1–3)", status: planned }
+  - { id: a1-k04, order: 5, kind: kapitel, kapitel: 4, title_de: "Guten Appetit!", title_vi: "Chúc ngon miệng!", status: planned }
+  - { id: a1-k05, order: 6, kind: kapitel, kapitel: 5, title_de: "Alltag und Familie", title_vi: "Cuộc sống hằng ngày và gia đình", status: planned }
+  - { id: a1-k06, order: 7, kind: kapitel, kapitel: 6, title_de: "Zeit mit Freunden", title_vi: "Thời gian với bạn bè", status: planned }
+  - { id: a1-p2, order: 8, kind: plattform, covers: [4, 5, 6], title_de: "Plattform 2", title_vi: "Ôn tập 2 (Kapitel 4–6)", status: planned }
+  - { id: a1-k07, order: 9, kind: kapitel, kapitel: 7, title_de: "Arbeitsalltag", title_vi: "Một ngày làm việc", status: planned }
+  - { id: a1-k08, order: 10, kind: kapitel, kapitel: 8, title_de: "Fit und gesund", title_vi: "Khỏe mạnh và cân đối", status: planned }
+  - { id: a1-k09, order: 11, kind: kapitel, kapitel: 9, title_de: "Meine Wohnung", title_vi: "Căn hộ của tôi", status: planned }
+  - { id: a1-p3, order: 12, kind: plattform, covers: [7, 8, 9], title_de: "Plattform 3", title_vi: "Ôn tập 3 (Kapitel 7–9)", status: planned }
+  - { id: a1-k10, order: 13, kind: kapitel, kapitel: 10, title_de: "Studium und Beruf", title_vi: "Học đại học và nghề nghiệp", status: planned }
+  - { id: a1-k11, order: 14, kind: kapitel, kapitel: 11, title_de: "Die Jacke gefällt mir!", title_vi: "Tôi thích cái áo khoác này!", status: planned }
+  - { id: a1-k12, order: 15, kind: kapitel, kapitel: 12, title_de: "Ab in den Urlaub!", title_vi: "Đi nghỉ thôi!", status: planned }
+  - { id: a1-p4, order: 16, kind: plattform, covers: [10, 11, 12], title_de: "Plattform 4", title_vi: "Ôn tập 4 (Kapitel 10–12)", status: planned }
+  - { id: a1-final, order: 17, kind: final-assessment, title_de: "Abschlusstest A1", title_vi: "Đánh giá tổng kết A1", status: planned }

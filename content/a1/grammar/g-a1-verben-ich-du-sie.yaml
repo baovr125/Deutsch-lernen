@@ -1,0 +1,116 @@
+id: g-a1-verben-ich-du-sie
+level: A1
+title_de: "Verben und Personalpronomen: ich, du, Sie"
+title_vi: "Chia động từ với ich, du và Sie (thì hiện tại)"
+introduced_in: a1-k01-l02
+source:
+  type: netzwerk-neu
+  kapitel: 1
+  sections: ["Guten Tag! Auf Wiedersehen!"]
+  note_vi: "Tương ứng Grammatik „Verben und Personalpronomen (ich, du, Sie)“ của Kapitel 1."
+prerequisites: [g-a1-satzbau-grundlagen, g-a1-du-und-sie]
+explanation_vi: |
+  **Đại từ nhân xưng** (Personalpronomen) là các từ chỉ người nói hoặc người được nói tới: *ich* (tôi), *du* (bạn – thân mật), *Sie* (ông/bà – trang trọng).
+
+  Trong tiếng Đức, **động từ thay đổi đuôi** tùy theo đại từ đứng trước nó. Việc thay đổi này gọi là **chia động từ** (konjugieren).
+
+  **Bước 1 – Tìm gốc động từ.** Động từ trong từ điển ở dạng nguyên mẫu (Infinitiv), thường tận cùng bằng **-en**.
+  Bỏ -en đi, ta có **gốc**: *heiß-en → heiß-*, *hör-en → hör-*, *schreib-en → schreib-*.
+
+  **Bước 2 – Gắn đuôi theo người:**
+  - **ich** → gốc + **-e**: *ich höre, ich schreibe, ich heiße*
+  - **du** → gốc + **-st**: *du hörst, du schreibst*
+  - **Sie** → gốc + **-en** (giống hệt dạng nguyên mẫu): *Sie hören, Sie schreiben, Sie heißen*
+
+  **Hai trường hợp đặc biệt cần nhớ ngay:**
+  1. *heißen*: gốc *heiß-* đã kết thúc bằng âm s (ß), nên với *du* chỉ thêm **-t**: *du heißt* (không phải "du heißst").
+  2. *sein* (là) **bất quy tắc hoàn toàn**: *ich bin, du bist, Sie sind*. Phải học thuộc.
+usage_vi: "Dùng mỗi khi nói một câu có chủ ngữ ich, du hoặc Sie: giới thiệu tên, hỏi tên, hỏi thăm. Ở bài 3 bạn sẽ học thêm er/sie (anh ấy, cô ấy)."
+structure:
+  - pattern: "ich + gốc-e"
+    example_de: "Ich heiße Lan."
+    example_vi: "Tôi tên là Lan."
+  - pattern: "du + gốc-st"
+    example_de: "Hörst du?"
+    example_vi: "Bạn có nghe không?"
+  - pattern: "Sie + gốc-en (= nguyên mẫu)"
+    example_de: "Wie heißen Sie?"
+    example_vi: "Ông/Bà tên là gì?"
+rules:
+  - rule_vi: "Gốc động từ = nguyên mẫu bỏ đuôi -en."
+    examples:
+      - { de: "heißen → heiß-", vi: "tên là" }
+      - { de: "schreiben → schreib-", vi: "viết" }
+  - rule_vi: "ich → gốc + e; du → gốc + st; Sie → gốc + en."
+    examples:
+      - { de: "ich höre – du hörst – Sie hören", vi: "tôi nghe – bạn nghe – ông/bà nghe" }
+      - { de: "ich schreibe – du schreibst – Sie schreiben", vi: "tôi viết – bạn viết – ông/bà viết" }
+  - rule_vi: "Gốc tận cùng bằng s, ß, z: với du chỉ thêm -t."
+    examples:
+      - { de: "du heißt", vi: "bạn tên là" }
+  - rule_vi: "sein là động từ bất quy tắc: ich bin, du bist, Sie sind."
+    examples:
+      - { de: "Ich bin Minh. Bist du Anna? Sind Sie Herr Weber?", vi: "Tôi là Minh. Bạn là Anna à? Ông là ông Weber phải không ạ?" }
+tables:
+  - title_vi: "Bảng chia động từ (thì hiện tại – Präsens)"
+    columns: ["", "heißen", "hören", "schreiben", "sein"]
+    rows:
+      - ["ich", "heiße", "höre", "schreibe", "bin"]
+      - ["du", "heißt", "hörst", "schreibst", "bist"]
+      - ["Sie", "heißen", "hören", "schreiben", "sind"]
+    note_vi: "Phần in đậm cần nhớ: du heißt (chỉ -t) và cả cột sein."
+examples:
+  - { de: "Ich heiße Mai. Und wie heißt du?", vi: "Mình tên là Mai. Còn bạn tên gì?" }
+  - { de: "Guten Tag! Wie heißen Sie?", vi: "Xin chào! Ông/Bà tên là gì?" }
+  - { de: "Ich bin Herr Tran.", vi: "Tôi là ông Trần." }
+  - { de: "Bist du Lisa?", vi: "Bạn là Lisa à?", note_vi: "Trong câu hỏi có/không, động từ đứng đầu câu – học kỹ ở Kapitel 2." }
+  - { de: "Sind Sie Frau Berg?", vi: "Bà có phải là bà Berg không ạ?" }
+common_mistakes:
+  - wrong: "Du heißst Tom."
+    right: "Du heißt Tom."
+    explanation_vi: "Gốc heiß- đã có âm s, không thêm -st mà chỉ thêm -t."
+  - wrong: "Ich heißen Lan."
+    right: "Ich heiße Lan."
+    explanation_vi: "Với ich phải dùng đuôi -e. Dạng -en chỉ dùng với Sie (và với wir/sie số nhiều – Kapitel 2)."
+  - wrong: "Sie ist Frau Weber? (khi hỏi người đối diện)"
+    right: "Sind Sie Frau Weber?"
+    explanation_vi: "Sie (trang trọng) luôn đi với dạng động từ -en/sind, không đi với ist."
+  - wrong: "Ich bin heiße Minh."
+    right: "Ich heiße Minh. / Ich bin Minh."
+    explanation_vi: "Một câu đơn chỉ có MỘT động từ chia. Chọn hoặc heiße, hoặc bin."
+comparison_vi: "So sánh với sein: “Ich bin Minh” và “Ich heiße Minh” đều dùng để giới thiệu tên và gần như cùng nghĩa. “Mein Name ist Minh” trang trọng hơn một chút. Không ghép hai động từ: “Ich bin heiße…” là sai."
+vietnamese_contrast_vi: "Tiếng Việt: “tôi nghe, bạn nghe, ông nghe” – động từ không đổi. Tiếng Đức: ich höre, du hörst, Sie hören – đuôi đổi. Người Việt thường quên chia động từ khi nói nhanh; hãy tập nói thật chậm, chú ý âm cuối (-e, -st, -en) cho tới khi thành phản xạ."
+exercises:
+  - id: g-a1-verben-ich-du-sie-ex01
+    type: gap-fill
+    skill: grammar
+    objectives: [r2, r3]
+    difficulty: 1
+    instructions_vi: "Chia động từ trong ngoặc."
+    items:
+      - { id: q1, prompt: "Ich ___ Lan. (heißen)", answer: ["heiße"], explanation_vi: "ich → gốc heiß + e." }
+      - { id: q2, prompt: "Wie ___ du? (heißen)", answer: ["heißt"], explanation_vi: "Gốc kết thúc bằng ß → du + t." }
+      - { id: q3, prompt: "Wie ___ Sie? (heißen)", answer: ["heißen"], explanation_vi: "Sie → giống dạng nguyên mẫu." }
+      - { id: q4, prompt: "___ du? (hören)", answer: ["Hörst"], explanation_vi: "du → gốc hör + st; đứng đầu câu nên viết hoa." }
+      - { id: q5, prompt: "Ich ___. (schreiben)", answer: ["schreibe"], explanation_vi: "ich → schreib + e." }
+  - id: g-a1-verben-ich-du-sie-ex02
+    type: multiple-choice
+    skill: grammar
+    objectives: [r4]
+    difficulty: 1
+    instructions_vi: "Chọn dạng đúng của sein."
+    items:
+      - { id: q1, prompt: "Ich ___ Minh.", options: ["bin", "bist", "sind"], answer: "bin", explanation_vi: "ich bin." }
+      - { id: q2, prompt: "___ du Anna?", options: ["Bin", "Bist", "Sind"], answer: "Bist", explanation_vi: "du bist." }
+      - { id: q3, prompt: "___ Sie Herr Klein?", options: ["Bist", "Ist", "Sind"], answer: "Sind", explanation_vi: "Sie sind." }
+  - id: g-a1-verben-ich-du-sie-ex03
+    type: multiple-choice
+    skill: grammar
+    objectives: [r1]
+    difficulty: 1
+    instructions_vi: "Gốc của động từ là gì?"
+    items:
+      - { id: q1, prompt: "hören", options: ["hö-", "hör-", "hören-"], answer: "hör-", explanation_vi: "Bỏ -en: hör-." }
+      - { id: q2, prompt: "schreiben", options: ["schreib-", "schreibe-", "schrei-"], answer: "schreib-", explanation_vi: "Bỏ -en: schreib-." }
+summary_vi: "ich → -e, du → -st (heißen: du heißt), Sie → -en. Riêng sein: ich bin, du bist, Sie sind."
+next_level_note_vi: "er/sie/es học ở bài 3 (Kapitel 1). wir, ihr, sie (số nhiều) và động từ bất quy tắc khác học ở Kapitel 2."

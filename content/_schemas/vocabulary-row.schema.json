@@ -1,0 +1,33 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:deutsch-lernen:content:vocabulary-row",
+  "title": "Một dòng trong file từ vựng CSV",
+  "description": "File: content/<level>/vocabulary/<unit-slug>.csv (UTF-8, có header, phân cách bằng dấu phẩy, trường chứa dấu phẩy phải đặt trong ngoặc kép). Mỗi cột rỗng được đọc thành chuỗi rỗng.",
+  "type": "object",
+  "required": ["id", "unit", "lesson", "lemma", "article", "plural", "pos", "forms", "ipa", "meaning_vi", "example_de", "example_vi", "usage_vi", "level", "tags", "source"],
+  "properties": {
+    "id": { "type": "string", "pattern": "^[a-z0-9]+-[a-z0-9]+-v[0-9]{3}$" },
+    "unit": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+    "lesson": { "type": "string", "pattern": "^[a-z0-9]+(-[a-z0-9]+)*$" },
+    "lemma": { "type": "string", "minLength": 1 },
+    "article": { "enum": ["der", "die", "das", ""] },
+    "plural": { "type": "string", "description": "Dạng số nhiều đầy đủ (không kèm mạo từ). '—' nếu không có số nhiều." },
+    "pos": { "enum": ["noun", "name", "verb", "adj", "adv", "pron", "art", "prep", "conj", "num", "q-word", "particle", "interj", "phrase"] },
+    "forms": { "type": "string", "description": "Dạng động từ cần nhớ ở thì hiện tại, vd: 'du sprichst, er spricht'" },
+    "ipa": { "type": "string", "minLength": 1 },
+    "meaning_vi": { "type": "string", "minLength": 1 },
+    "example_de": { "type": "string", "minLength": 3 },
+    "example_vi": { "type": "string", "minLength": 3 },
+    "usage_vi": { "type": "string" },
+    "level": { "$ref": "urn:deutsch-lernen:content:common#/$defs/level" },
+    "tags": { "type": "string", "pattern": "^([a-z0-9-]+(;[a-z0-9-]+)*)?$" },
+    "source": { "enum": ["nwn-lern", "nwn", "supplement"] }
+  },
+  "additionalProperties": false,
+  "allOf": [
+    {
+      "if": { "properties": { "pos": { "const": "noun" } } },
+      "then": { "properties": { "article": { "enum": ["der", "die", "das"] }, "plural": { "minLength": 1 } } }
+    }
+  ]
+}
