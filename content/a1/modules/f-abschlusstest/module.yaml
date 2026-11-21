@@ -1,0 +1,33 @@
+schema_version: "2.0"
+content_type: module
+id: a1.final
+level: A1
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  references:
+    - { work: "Dự án Deutsch-lernen (docs/curriculum/a1/a1-assessment-spec.md §6)", scope: "Bản thiết kế Abschlusstest A1: 5 phần (Hören, Lesen, Schreiben, Sprechen, Wortschatz & Grammatik), điều kiện đạt, hai đề tương đương", verification: proposed }
+  notes_vi: "Cấu trúc theo dạng đề A1 quen thuộc nhưng đề hoàn toàn tự soạn, không dùng đề của giáo trình hay đề thi chính thức. Hai điều kiện ‘độ phủ CEFR 20/20’ và ‘độ nhớ từ vựng ≥ 80%’ do hệ thống tiến độ học tính, không nằm trong dữ liệu. Chưa có audio. Số câu đã giảm so với bản thiết kế để vừa với dữ liệu hiện có; ngân hàng đề mới có 2 phiên bản (A, B)."
+  tags: ["abschlusstest", "assessment"]
+kind: assessment
+order: 17
+title_de: "Abschlusstest A1"
+title_vi: "Đánh giá tổng kết A1"
+summary_vi: "Bài thi tổng kết trình độ A1 gồm năm phần (Nghe, Đọc, Viết, Nói, Từ vựng và Ngữ pháp). Có hai đề tương đương (A và B) để thi lại."
+cefr: [A1.H1, A1.H2, A1.H3, A1.H4, A1.L1, A1.L2, A1.L3, A1.L4, A1.SI1, A1.SI2, A1.SI3, A1.SI4, A1.SI5, A1.SP1, A1.SP2, A1.SP3, A1.S1, A1.S2, A1.S3, A1.S4]
+prerequisites: [a1.p4]
+objectives:
+  - { id: a1.final.obj.hoeren, text_vi: "Bạn hiểu hội thoại, thông báo và tin nhắn thoại ngắn thường ngày.", skill: listening }
+  - { id: a1.final.obj.lesen, text_vi: "Bạn hiểu e-mail, quảng cáo và biển báo ngắn.", skill: reading }
+  - { id: a1.final.obj.schreiben, text_vi: "Bạn điền được phiếu đăng ký và viết được tin nhắn ngắn.", skill: writing }
+  - { id: a1.final.obj.sprechen, text_vi: "Bạn tự giới thiệu, hỏi đáp đơn giản và đưa ra lời nhờ lịch sự.", skill: speaking }
+  - { id: a1.final.obj.sprache, text_vi: "Bạn dùng đúng từ vựng và ngữ pháp trọng tâm của A1.", skill: grammar }
+assessments:
+  - { id: a1.final.test-a, file: assessment-a.yaml }
+  - { id: a1.final.test-b, file: assessment-b.yaml }
+estimated_hours: 2

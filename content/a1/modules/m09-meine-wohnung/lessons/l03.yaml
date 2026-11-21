@@ -1,0 +1,68 @@
+schema_version: "2.0"
+content_type: lesson
+id: a1.m09.l03
+level: A1
+module: a1.m09
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  references:
+    - { work: "Netzwerk neu A1.2 – Stoffverteilungsplan (Klett)", scope: "Kapitel 9, Mục Die neue Wohnung; Wechselpräpositionen + Dativ; Wortschatz Möbel und Geräte", verification: verified }
+  tags: ["moebel", "dativ"]
+order: 3
+title_de: "Die neue Wohnung"
+title_vi: "Căn hộ mới"
+duration_min: 50
+difficulty: 2
+objectives:
+  - { id: a1.m09.l03.obj1, text_vi: "Bạn có thể dùng Wechselpräpositionen + Dativ và stehen/liegen để nói đồ vật ở đâu.", skill: grammar }
+  - { id: a1.m09.l03.obj2, text_vi: "Bạn có thể nghe một đoạn mô tả căn phòng và hiểu đồ vật nào ở đâu.", skill: listening }
+vocabulary_refs: [a1.m09.v.moebel, a1.m09.v.tisch, a1.m09.v.stuhl, a1.m09.v.bett, a1.m09.v.sofa, a1.m09.v.schrank, a1.m09.v.regal, a1.m09.v.lampe, a1.m09.v.teppich, a1.m09.v.kuehlschrank, a1.m09.v.stehen, a1.m09.v.liegen]
+grammar_refs: [a1.g.wechselpraepositionen]
+expression_refs: [a1.m09.x.wo-steht, a1.m09.x.moebel-beschreiben]
+exercise_set_ref: a1.m09.l03.ex
+blocks:
+  - id: a1.m09.l03.b1
+    kind: explanation
+    skill: vocabulary
+    title_vi: "Bắt đầu: đồ đạc và vị trí"
+    body_vi: |
+      Học đồ nội thất kèm mạo từ: **der Tisch, der Stuhl, der Schrank, das Bett, das Sofa, das Regal, die Lampe, der Teppich**.
+      Khi nói vị trí, dùng **stehen** (đứng thẳng), **liegen** (nằm phẳng): *Der Schrank steht … / Der Teppich liegt …*
+  - id: a1.m09.l03.b2
+    kind: dialogue
+    skill: speaking
+    title_vi: "Hội thoại: Dọn vào nhà mới"
+    lines:
+      - { speaker: "Mia", de: "Wo steht das Sofa?", vi: "Ghế sofa để ở đâu?" }
+      - { speaker: "Ben", de: "Es steht im Wohnzimmer, vor dem Fenster.", vi: "Nó ở trong phòng khách, trước cửa sổ." }
+      - { speaker: "Mia", de: "Und die Lampe? Sie steht neben dem Sofa, oder?", vi: "Còn cái đèn? Nó đứng cạnh ghế sofa đúng không?" }
+      - { speaker: "Ben", de: "Ja. Der Teppich liegt unter dem Tisch.", vi: "Đúng. Tấm thảm nằm dưới cái bàn." }
+      - { speaker: "Mia", de: "Super! Dann steht der Kühlschrank in der Küche, neben dem Tisch.", vi: "Tuyệt! Vậy tủ lạnh đứng trong bếp, cạnh cái bàn." }
+  - id: a1.m09.l03.b3
+    kind: listening
+    skill: listening
+    title_vi: "Nghe: Căn phòng của Emma"
+    audio_status: pending-tts
+    lines:
+      - { speaker: "Emma", de: "Mein Zimmer ist klein, aber gemütlich.", vi: "Phòng của mình nhỏ nhưng ấm cúng." }
+      - { speaker: "Emma", de: "Das Bett steht an der Wand. Neben dem Bett steht ein Schrank.", vi: "Cái giường kê sát tường. Cạnh giường có một cái tủ." }
+      - { speaker: "Emma", de: "Der Teppich liegt vor dem Fenster.", vi: "Tấm thảm nằm trước cửa sổ." }
+  - id: a1.m09.l03.b4
+    kind: explanation
+    skill: grammar
+    title_vi: "Ngữ pháp: Wechselpräpositionen + Dativ"
+    body_vi: |
+      Chín giới từ: **an, auf, hinter, in, neben, über, unter, vor, zwischen**. Khi nói vị trí (**Wo?**) dùng **Dativ**: *neben dem Sofa, auf dem Tisch, an der Wand, unter den Betten.*
+      Xem chủ điểm a1.g.wechselpraepositionen.
+  - id: a1.m09.l03.b5
+    kind: culture
+    skill: reading
+    title_vi: "Văn hóa: nhà thuê ở Đức"
+    body_vi: |
+      Ở Đức nhiều căn hộ cho thuê **không có bếp hoặc tủ lạnh** (chỉ có chỗ để đặt), người thuê tự mang đến. Nhà thường được mô tả bằng **số Zimmer** và **Quadratmeter**.

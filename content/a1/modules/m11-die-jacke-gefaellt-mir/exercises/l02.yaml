@@ -1,0 +1,137 @@
+schema_version: "2.0"
+content_type: exercise-set
+id: a1.m11.l02.ex
+level: A1
+module: a1.m11
+lesson: a1.m11.l02
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  tags: ["geschaefte", "artikel"]
+exercises:
+  - id: a1.m11.l02.ex.01
+    type: multiple-choice
+    skill: vocabulary
+    difficulty: 1
+    objective_refs: [a1.m11.l02.obj2, a1.m11.obj.einkaufen]
+    instructions_vi: "Chọn đáp án đúng."
+    items:
+      - id: a1.m11.l02.ex.01.q1
+        prompt: "Was bedeutet „Öffnungszeiten“?"
+        options: [{ id: a, text: "Giờ mở cửa" }, { id: b, text: "Giá cả" }, { id: c, text: "Tầng" }]
+        answer: [a]
+        explanation_vi: "Öffnungszeiten = giờ mở cửa (öffnen + Zeit)."
+      - id: a1.m11.l02.ex.01.q2
+        prompt: "Wo bezahlt man im Kaufhaus?"
+        options: [{ id: a, text: "Am Eingang." }, { id: b, text: "An der Kasse." }, { id: c, text: "In der Umkleidekabine." }]
+        answer: [b]
+        explanation_vi: "Thanh toán ở quầy thu ngân (die Kasse)."
+      - id: a1.m11.l02.ex.01.q3
+        prompt: "Welchen Artikel hat „Geschäft“?"
+        options: [{ id: a, text: "der" }, { id: b, text: "die" }, { id: c, text: "das" }]
+        answer: [c]
+        explanation_vi: "Đúng là „das Geschäft“ (số nhiều die Geschäfte)."
+      - id: a1.m11.l02.ex.01.q4
+        prompt: "Das Gegenteil von „öffnen“ ist ___."
+        options: [{ id: a, text: "bezahlen" }, { id: b, text: "schließen" }, { id: c, text: "suchen" }]
+        answer: [b]
+        explanation_vi: "öffnen (mở) – schließen (đóng)."
+  - id: a1.m11.l02.ex.02
+    type: fill-blank
+    skill: grammar
+    difficulty: 2
+    objective_refs: [a1.m11.l02.obj1, a1.g.welcher-dieser.obj1, a1.m11.obj.welcher]
+    instructions_vi: "Điền welcher, welche hoặc welches."
+    word_bank: ["Welcher", "Welche", "Welches"]
+    items:
+      - { id: a1.m11.l02.ex.02.q1, prompt: "___ Jacke gefällt dir?", answers: ["Welche"], explanation_vi: "„Jacke“ giống cái → welche." }
+      - { id: a1.m11.l02.ex.02.q2, prompt: "___ Pullover ist teuer?", answers: ["Welcher"], explanation_vi: "„Pullover“ giống đực → welcher." }
+      - { id: a1.m11.l02.ex.02.q3, prompt: "___ Kleid gefällt Ihnen?", answers: ["Welches"], explanation_vi: "„Kleid“ giống trung → welches." }
+      - { id: a1.m11.l02.ex.02.q4, prompt: "___ Schuhe sind das?", answers: ["Welche"], explanation_vi: "Số nhiều → welche." }
+  - id: a1.m11.l02.ex.03
+    type: fill-blank
+    skill: grammar
+    difficulty: 2
+    objective_refs: [a1.m11.l02.obj1, a1.g.welcher-dieser.obj1, a1.m11.obj.welcher]
+    instructions_vi: "Điền dạng đúng của „dieser“."
+    items:
+      - { id: a1.m11.l02.ex.03.q1, prompt: "Ich nehme ___ Pullover.", hint_vi: "tân ngữ giống đực", answers: ["diesen"], explanation_vi: "Akkusativ giống đực: dieser → diesen." }
+      - { id: a1.m11.l02.ex.03.q2, prompt: "___ Jacke ist günstig.", hint_vi: "chủ ngữ giống cái", answers: ["Diese"], explanation_vi: "Giống cái: diese." }
+      - { id: a1.m11.l02.ex.03.q3, prompt: "Ich möchte ___ Kleid.", hint_vi: "tân ngữ giống trung", answers: ["dieses"], explanation_vi: "Giống trung: dieses (Akkusativ không đổi)." }
+      - { id: a1.m11.l02.ex.03.q4, prompt: "Ich kaufe ___ Schuhe.", hint_vi: "số nhiều", answers: ["diese"], explanation_vi: "Số nhiều: diese." }
+  - id: a1.m11.l02.ex.04
+    type: reading-comprehension
+    skill: reading
+    difficulty: 2
+    objective_refs: [a1.m11.l02.obj2, a1.m11.obj.einkaufen]
+    instructions_vi: "Đọc biển hướng dẫn và trả lời."
+    stimulus:
+      text_de: "Kaufhaus Merkur. Erdgeschoss: Eingang, Kasse, Taschen. Erste Etage: Damenkleidung und Schuhe. Zweite Etage: Herrenkleidung und Angebote. Öffnungszeiten: Montag bis Samstag, 9 bis 20 Uhr."
+      text_vi: "Trung tâm bách hóa Merkur. Tầng trệt: lối vào, quầy thu ngân, túi xách. Tầng 1: quần áo nữ và giày. Tầng 2: quần áo nam và hàng khuyến mãi. Giờ mở cửa: thứ Hai đến thứ Bảy, 9 đến 20 giờ."
+    items:
+      - id: a1.m11.l02.ex.04.q1
+        prompt: "Wo gibt es Damenkleidung?"
+        options: [{ id: a, text: "In der ersten Etage." }, { id: b, text: "Im Erdgeschoss." }, { id: c, text: "In der zweiten Etage." }]
+        answer: [a]
+        explanation_vi: "„Erste Etage: Damenkleidung und Schuhe“."
+      - id: a1.m11.l02.ex.04.q2
+        prompt: "Wann öffnet das Kaufhaus?"
+        options: [{ id: a, text: "Um acht Uhr." }, { id: b, text: "Um neun Uhr." }, { id: c, text: "Um zwanzig Uhr." }]
+        answer: [b]
+        explanation_vi: "„9 bis 20 Uhr“ → mở cửa lúc 9 giờ."
+      - id: a1.m11.l02.ex.04.q3
+        prompt: "Was gibt es in der zweiten Etage?"
+        options: [{ id: a, text: "Taschen." }, { id: b, text: "Schuhe." }, { id: c, text: "Herrenkleidung und Angebote." }]
+        answer: [c]
+        explanation_vi: "„Zweite Etage: Herrenkleidung und Angebote“."
+  - id: a1.m11.l02.ex.05
+    type: matching
+    skill: reading
+    difficulty: 1
+    objective_refs: [a1.m11.l02.obj2, a1.m11.obj.einkaufen]
+    instructions_vi: "Nối tầng với nội dung (theo biển hướng dẫn)."
+    items:
+      - { id: a1.m11.l02.ex.05.q1, left: "Erdgeschoss", right: "Kasse und Taschen", explanation_vi: "Tầng trệt: lối vào, quầy thu ngân, túi xách." }
+      - { id: a1.m11.l02.ex.05.q2, left: "Erste Etage", right: "Damenkleidung und Schuhe", explanation_vi: "Tầng 1: quần áo nữ và giày." }
+      - { id: a1.m11.l02.ex.05.q3, left: "Zweite Etage", right: "Herrenkleidung und Angebote", explanation_vi: "Tầng 2: quần áo nam và khuyến mãi." }
+      - { id: a1.m11.l02.ex.05.q4, left: "Öffnungszeiten", right: "Montag bis Samstag, 9 bis 20 Uhr", explanation_vi: "Giờ mở cửa của trung tâm." }
+  - id: a1.m11.l02.ex.06
+    type: translation
+    skill: writing
+    difficulty: 2
+    objective_refs: [a1.m11.l02.obj1, a1.g.welcher-dieser.obj1]
+    instructions_vi: "Dịch sang tiếng Đức."
+    items:
+      - { id: a1.m11.l02.ex.06.q1, direction: vi-de, source: "Bạn thích chiếc áo khoác nào?", answers: ["Welche Jacke gefällt dir?", "Welche Jacke gefällt Ihnen?"], explanation_vi: "„Jacke“ giống cái → welche; Dativ dir/Ihnen." }
+      - { id: a1.m11.l02.ex.06.q2, direction: vi-de, source: "Tôi lấy chiếc áo len này.", answers: ["Ich nehme diesen Pullover."], explanation_vi: "Tân ngữ giống đực ở Akkusativ → diesen." }
+      - { id: a1.m11.l02.ex.06.q3, direction: vi-de, source: "Cửa hàng mở cửa lúc chín giờ.", answers: ["Das Geschäft öffnet um neun Uhr."], explanation_vi: "„öffnen“ + cụm thời gian „um neun Uhr“." }
+  - id: a1.m11.l02.ex.07
+    type: listening-practice
+    skill: listening
+    difficulty: 2
+    objective_refs: [a1.m11.l02.obj2, a1.m11.obj.einkaufen]
+    instructions_vi: "Nghe thông báo (hoặc đọc transcript) rồi chọn đáp án."
+    stimulus:
+      text_de: "Liebe Kunden, heute gibt es im Erdgeschoss Angebote für Jacken und Mäntel. Das Kaufhaus schließt heute um zwanzig Uhr."
+      audio_status: pending-tts
+    items:
+      - id: a1.m11.l02.ex.07.q1
+        prompt: "Wo gibt es Angebote?"
+        options: [{ id: a, text: "Im Erdgeschoss." }, { id: b, text: "In der zweiten Etage." }, { id: c, text: "Am Eingang." }]
+        answer: [a]
+        explanation_vi: "„im Erdgeschoss Angebote“."
+      - id: a1.m11.l02.ex.07.q2
+        prompt: "Für was gibt es Angebote?"
+        options: [{ id: a, text: "Schuhe und Taschen." }, { id: b, text: "Jacken und Mäntel." }, { id: c, text: "T-Shirts und Hosen." }]
+        answer: [b]
+        explanation_vi: "„Angebote für Jacken und Mäntel“."
+      - id: a1.m11.l02.ex.07.q3
+        prompt: "Wann schließt das Kaufhaus heute?"
+        options: [{ id: a, text: "Um achtzehn Uhr." }, { id: b, text: "Um neunzehn Uhr." }, { id: c, text: "Um zwanzig Uhr." }]
+        answer: [c]
+        explanation_vi: "„schließt heute um zwanzig Uhr“."

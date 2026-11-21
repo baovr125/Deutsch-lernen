@@ -1,0 +1,266 @@
+schema_version: '2.0'
+content_type: grammar-topic
+id: a1.g.w-fragen
+level: A1
+introduced_in: a1.m01
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+  references:
+  - work: Netzwerk neu A1 (Klett)
+    scope: 'Kapitel 1: Woher kommen Sie?'
+    verification: verified
+  notes_vi: Tương ứng Grammatik „W-Frage“ của Kapitel 1.
+introduced_in_lesson: a1.m01.l03
+title_de: W-Fragen
+title_vi: Câu hỏi với từ để hỏi W- (W-Fragen)
+summary_vi: '**W-Fragen** là câu hỏi bắt đầu bằng một **từ để hỏi** (Fragewort). Hầu hết từ để hỏi tiếng Đức bắt đầu bằng chữ **W** – vì vậy có tên W-Fragen.
+
+
+  **Trật tự từ – rất quan trọng:**
+
+
+  | Vị trí 1 | Vị trí 2 | Vị trí 3 | … |
+
+  |---|---|---|---|
+
+  | **Từ để hỏi** | **Động từ chia** | Chủ ngữ | (phần còn lại) |
+
+  | Wie | heißt | du | ? |
+
+  | Woher | kommen | Sie | ? |
+
+  | Wo | wohnt | Anna | ? |
+
+
+  Động từ **luôn đứng ở vị trí 2**, ngay sau từ để hỏi – giống như trong câu kể.
+
+
+  **Các từ để hỏi trong Kapitel 1:**
+
+  - **wer?** – ai? → *Wer ist das?*
+
+  - **was?** – cái gì? → *Was ist das?*
+
+  - **wie?** – như thế nào? → *Wie heißt du? Wie geht''s?*
+
+  - **wo?** – ở đâu? → *Wo wohnst du?*
+
+  - **woher?** – từ đâu? → *Woher kommen Sie?*
+
+  - **welche?** – (những) … nào? → *Welche Sprachen sprechen Sie?*
+
+
+  **Ngữ điệu:** trong W-Frage, giọng thường **đi xuống** ở cuối câu (↘), không lên giọng như câu hỏi có/không.'
+usage_vi: 'Dùng để hỏi thông tin cụ thể: tên, quê quán, nơi ở, ngôn ngữ. Trả lời bằng câu kể đầy đủ hoặc chỉ bằng thông tin chính.'
+objectives:
+- id: a1.g.w-fragen.obj1
+  text_vi: Lập và trả lời câu hỏi với từ để hỏi W-.
+  skill: grammar
+rules:
+- id: a1.g.w-fragen.r1
+  title_vi: Từ để hỏi ở vị trí 1
+  body_vi: Từ để hỏi đứng ở vị trí 1, động từ chia đứng ở vị trí 2, chủ ngữ đứng sau động từ.
+  examples:
+  - de: Wie heißen Sie?
+    vi: Ông/Bà tên là gì?
+  - de: Wo wohnt Paul?
+    vi: Paul sống ở đâu?
+- id: a1.g.w-fragen.r2
+  title_vi: Chọn từ để hỏi theo thông tin
+  body_vi: 'Chọn đúng từ để hỏi theo thông tin cần hỏi: wer (người), was (vật), wie (cách thức, tên, tình trạng), wo (nơi chốn), woher (xuất xứ).'
+  examples:
+  - de: Wer ist das? – Das ist Frau Lang.
+    vi: Đó là ai? – Đó là bà Lang.
+  - de: Woher kommt sie? – Aus Spanien.
+    vi: Cô ấy đến từ đâu? – Từ Tây Ban Nha.
+- id: a1.g.w-fragen.r3
+  title_vi: Trả lời cho wo và woher
+  body_vi: Câu trả lời cho wo dùng in; câu trả lời cho woher dùng aus.
+  examples:
+  - de: Wo wohnst du? – In Hanoi.
+    vi: Bạn sống ở đâu? – Ở Hà Nội.
+  - de: Woher kommst du? – Aus Vietnam.
+    vi: Bạn đến từ đâu? – Từ Việt Nam.
+- id: a1.g.w-fragen.r4
+  title_vi: Ngữ điệu đi xuống
+  body_vi: W-Frage có ngữ điệu đi xuống ở cuối câu.
+  examples:
+  - de: Wie heißt du? ↘
+    vi: Bạn tên là gì?
+sentence_structures:
+- pattern: W-Wort (1) + Verb (2) + Subjekt (3) + …?
+  example:
+    de: Woher kommst du?
+    vi: Bạn đến từ đâu?
+- pattern: W-Wort (1) + Verb (2) + Subjekt (3) + Ergänzung?
+  example:
+    de: Welche Sprachen sprechen Sie?
+    vi: Ông/Bà nói những ngôn ngữ nào?
+tables:
+- title_vi: Từ để hỏi và câu trả lời
+  header:
+  - Từ để hỏi
+  - Nghĩa
+  - Hỏi về
+  - Ví dụ câu hỏi
+  - Ví dụ trả lời
+  rows:
+  - - wer
+    - ai
+    - người
+    - Wer ist das?
+    - Das ist Tom.
+  - - was
+    - cái gì
+    - vật, sự việc
+    - Was ist das?
+    - Das ist ein Taxi.
+  - - wie
+    - thế nào
+    - tên, cách thức, tình trạng
+    - Wie heißt du?
+    - Ich heiße Mai.
+  - - wo
+    - ở đâu
+    - nơi chốn
+    - Wo wohnen Sie?
+    - In Köln.
+  - - woher
+    - từ đâu
+    - xuất xứ
+    - Woher kommst du?
+    - Aus Vietnam.
+  - - welche
+    - nào
+    - lựa chọn trong một nhóm
+    - Welche Sprachen sprichst du?
+    - Deutsch und Englisch.
+examples:
+- de: Wie heißt du?
+  vi: Bạn tên là gì?
+- de: Woher kommen Sie?
+  vi: Ông/Bà đến từ đâu?
+- de: Wo wohnt Herr Schmidt?
+  vi: Ông Schmidt sống ở đâu?
+- de: Wer ist das?
+  vi: Đó là ai?
+- de: Welche Sprachen spricht sie?
+  vi: Cô ấy nói những ngôn ngữ nào?
+common_mistakes:
+- wrong: Woher du kommst?
+  right: Woher kommst du?
+  explanation_vi: 'Tiếng Việt nói “Bạn đến từ đâu?” (chủ ngữ trước). Tiếng Đức: từ để hỏi – ĐỘNG TỪ – chủ ngữ.'
+- wrong: Was heißt du?
+  right: Wie heißt du?
+  explanation_vi: 'Hỏi tên dùng wie, không dùng was. (“Was heißt …?” có nghĩa khác: … nghĩa là gì?)'
+- wrong: Wo kommst du?
+  right: Woher kommst du?
+  explanation_vi: kommen (đến từ) đi với woher; wohnen (sống ở) đi với wo.
+- wrong: Wer wohnst du?
+  right: Wo wohnst du?
+  explanation_vi: wer = ai, wo = ở đâu. Ba từ wer/wo/wie rất dễ nhầm, hãy học kèm ví dụ.
+comparison_vi: 'So với câu kể: cả hai đều có động từ ở vị trí 2. Câu kể: Ich (1) komme (2) aus Vietnam. W-Frage: Woher (1) kommst (2) du? So với tiếng Anh: Where do you live? cần trợ động từ “do”, tiếng Đức thì không: Wo wohnst du?'
+vietnamese_contrast_vi: 'Tiếng Việt để từ để hỏi ở CUỐI hoặc giữa câu (Bạn tên là GÌ? Bạn sống ở ĐÂU?), tiếng Đức luôn đưa từ để hỏi lên ĐẦU câu. Ngoài ra tiếng Việt dùng thanh điệu cho từng chữ, còn tiếng Đức dùng ngữ điệu cả câu: W-Frage hạ giọng ở cuối.'
+recap_vi: 'W-Frage: từ để hỏi (1) – động từ (2) – chủ ngữ (3). wer = ai, was = gì, wie = thế nào, wo = ở đâu (→ in), woher = từ đâu (→ aus). Hạ giọng ở cuối câu.'
+next_level_note_vi: 'Câu hỏi có/không (Ja/Nein-Frage: Kommst du aus Vietnam?) học ở Kapitel 2. Các từ để hỏi wann, wie lange, wohin học ở Kapitel 5 và 9.'
+prerequisites:
+- g-a1-verben-singular
+exercises:
+- id: a1.g.w-fragen.ex.01
+  type: multiple-choice
+  skill: grammar
+  difficulty: 1
+  objective_refs:
+  - a1.g.w-fragen.r2
+  - a1.g.w-fragen.r3
+  - a1.g.w-fragen.obj1
+  instructions_vi: Chọn từ để hỏi đúng.
+  items:
+  - id: a1.g.w-fragen.ex.01.q1
+    prompt: ___ kommst du? – Aus Japan.
+    options:
+    - id: a
+      text: Wo
+    - id: b
+      text: Woher
+    - id: c
+      text: Wer
+    answer:
+    - b
+    explanation_vi: Trả lời bằng aus → hỏi woher.
+  - id: a1.g.w-fragen.ex.01.q2
+    prompt: ___ wohnt Anna? – In Wien.
+    options:
+    - id: a
+      text: Woher
+    - id: b
+      text: Wo
+    - id: c
+      text: Wie
+    answer:
+    - b
+    explanation_vi: Trả lời bằng in → hỏi wo.
+  - id: a1.g.w-fragen.ex.01.q3
+    prompt: ___ heißen Sie? – Weber.
+    options:
+    - id: a
+      text: Wie
+    - id: b
+      text: Was
+    - id: c
+      text: Wer
+    answer:
+    - a
+    explanation_vi: Hỏi tên dùng wie.
+  - id: a1.g.w-fragen.ex.01.q4
+    prompt: ___ ist das? – Das ist Paul.
+    options:
+    - id: a
+      text: Was
+    - id: b
+      text: Wer
+    - id: c
+      text: Wo
+    answer:
+    - b
+    explanation_vi: Hỏi người → wer.
+- id: a1.g.w-fragen.ex.02
+  type: word-order
+  skill: grammar
+  difficulty: 2
+  objective_refs:
+  - a1.g.w-fragen.r1
+  - a1.g.w-fragen.obj1
+  instructions_vi: Sắp xếp thành câu hỏi đúng.
+  items:
+  - id: a1.g.w-fragen.ex.02.q1
+    tokens:
+    - du
+    - wohnst
+    - Wo
+    answer: Wo wohnst du?
+    explanation_vi: W-Wort (Wo) – động từ (wohnst) – chủ ngữ (du).
+  - id: a1.g.w-fragen.ex.02.q2
+    tokens:
+    - Sie
+    - Woher
+    - kommen
+    answer: Woher kommen Sie?
+    explanation_vi: Woher – kommen – Sie.
+  - id: a1.g.w-fragen.ex.02.q3
+    tokens:
+    - sprichst
+    - Sprachen
+    - du
+    - Welche
+    answer: Welche Sprachen sprichst du?
+    explanation_vi: Vị trí 1 là cả cụm “Welche Sprachen”, động từ vẫn ở vị trí 2.

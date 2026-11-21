@@ -1,0 +1,68 @@
+schema_version: "2.0"
+content_type: grammar-topic
+id: a1.g.welcher-dieser
+level: A1
+introduced_in: a1.m11
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  references:
+    - { work: "Netzwerk neu A1.2 – Stoffverteilungsplan (Klett)", scope: "Kapitel 11, Grammatik: Welcher? – dieser", verification: verified }
+  tags: ["artikel", "frage", "demonstrativ"]
+title_de: "Welcher? – dieser"
+title_vi: "„Welcher?“ (cái nào?) và „dieser“ (cái này)"
+summary_vi: "„welcher/welche/welches“ dùng để hỏi ‘cái nào / người nào’ trong một nhóm. „dieser/diese/dieses“ để chỉ ‘cái này’. Cả hai biến đổi đuôi giống như mạo từ xác định (der/die/das)."
+usage_vi: "Khi mua sắm, chọn lựa: „Welche Jacke gefällt dir?“ – „Diese Jacke.“"
+objectives:
+  - { id: a1.g.welcher-dieser.obj1, text_vi: "Dùng welcher/dieser đúng giống và cách (Nominativ, Akkusativ).", skill: grammar }
+rules:
+  - id: a1.g.welcher-dieser.r1
+    title_vi: "Đuôi theo giống và số"
+    body_vi: "Đuôi của welcher/dieser giống đuôi của mạo từ xác định: giống đực -er, giống cái -e, giống trung -es, số nhiều -e (ở Nominativ)."
+    table:
+      header: ["Giống", "Mạo từ", "welch-", "dies-"]
+      rows:
+        - ["der Pullover (đực)", "der", "welcher", "dieser"]
+        - ["die Jacke (cái)", "die", "welche", "diese"]
+        - ["das Kleid (trung)", "das", "welches", "dieses"]
+        - ["die Schuhe (số nhiều)", "die", "welche", "diese"]
+    examples:
+      - { de: "Welcher Pullover gefällt dir? – Dieser Pullover.", vi: "Chiếc áo len nào bạn thích? – Chiếc này." }
+      - { de: "Welches Kleid ist günstig? – Dieses Kleid.", vi: "Chiếc váy nào rẻ? – Chiếc váy này." }
+  - id: a1.g.welcher-dieser.r2
+    title_vi: "Akkusativ: chỉ giống đực đổi"
+    body_vi: "Khi đóng vai tân ngữ (kaufen, nehmen, brauchen…), giống đực đổi thành -en: welchen, diesen. Giống cái, trung và số nhiều giữ nguyên."
+    table:
+      header: ["Giống", "Nominativ", "Akkusativ"]
+      rows:
+        - ["đực", "welcher/dieser", "welchen/diesen"]
+        - ["cái", "welche/diese", "welche/diese"]
+        - ["trung", "welches/dieses", "welches/dieses"]
+        - ["số nhiều", "welche/diese", "welche/diese"]
+    examples:
+      - { de: "Welchen Pullover nimmst du? – Diesen Pullover.", vi: "Bạn lấy chiếc áo len nào? – Chiếc này." }
+      - { de: "Ich nehme diese Jacke.", vi: "Tôi lấy chiếc áo khoác này." }
+  - id: a1.g.welcher-dieser.r3
+    title_vi: "Hỏi và trả lời theo cặp"
+    body_vi: "Câu hỏi với „welch-“ thường được trả lời bằng „dies-“ hoặc bằng màu/đặc điểm. Cặp hỏi–đáp giúp bạn nhớ đuôi."
+    examples:
+      - { de: "Welche Schuhe passen dir? – Diese Schuhe passen mir gut.", vi: "Đôi giày nào vừa với bạn? – Đôi này vừa với tôi." }
+      - { de: "Welchen Mantel kaufst du? – Diesen Mantel hier.", vi: "Bạn mua chiếc áo măng tô nào? – Chiếc này đây." }
+sentence_structures:
+  - { pattern: "Welch- + Nomen + Verb + Subjekt?", example: { de: "Welche Hose gefällt dir?", vi: "Cái quần nào bạn thích?" } }
+  - { pattern: "Subjekt + Verb + dies- + Nomen (Akk)", example: { de: "Ich nehme diesen Rock.", vi: "Tôi lấy chiếc chân váy này." } }
+examples:
+  - { de: "Welcher Mantel ist teuer?", vi: "Chiếc áo măng tô nào đắt?" }
+  - { de: "Dieses Hemd ist zu groß.", vi: "Chiếc áo sơ mi này quá rộng." }
+  - { de: "Welche Schuhe kaufst du?", vi: "Bạn mua đôi giày nào?" }
+  - { de: "Ich möchte diesen Pullover anprobieren.", vi: "Tôi muốn thử chiếc áo len này." }
+common_mistakes:
+  - { wrong: "Welche Pullover gefällt dir?", right: "Welcher Pullover gefällt dir?", explanation_vi: "„Pullover“ giống đực nên dùng „welcher“ (Nominativ)." }
+  - { wrong: "Ich nehme dieser Pullover.", right: "Ich nehme diesen Pullover.", explanation_vi: "Tân ngữ giống đực ở Akkusativ: dieser → diesen." }
+  - { wrong: "Welcher Jacke gefällt dir?", right: "Welche Jacke gefällt dir?", explanation_vi: "„Jacke“ giống cái nên dùng „welche“." }
+exercise_refs: [a1.m11.l02.ex.02, a1.m11.l02.ex.03]

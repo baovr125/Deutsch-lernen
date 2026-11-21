@@ -1,0 +1,237 @@
+schema_version: '2.0'
+content_type: lesson
+id: a1.m03.l04
+level: A1
+module: a1.m03
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+  references:
+  - work: Netzwerk neu A1 (Klett)
+    scope: 'Kapitel 3: Links, rechts, geradeaus'
+    verification: verified
+  notes_vi: 'Sprachhandlungen: Wegbeschreibungen verstehen; Redemittel-Clip; nach dem Weg fragen und den Weg beschreiben. Grammatik: Imperativ mit Sie. Wortschatz: Wegbeschreibung. Aussprache: Richtungen. (Redemittel-Clip của giáo trình không sử dụng.)'
+order: 4
+title_de: Links, rechts, geradeaus
+title_vi: Hỏi đường và chỉ đường – câu mệnh lệnh với Sie
+topic_vi: Chỉ đường; Imperativ mit Sie; thứ tự zuerst – dann
+duration_min: 70
+difficulty: 2
+cefr:
+- A1.SI5
+- A1.H2
+- A1.L4
+- A1.SI3
+prerequisites:
+- a1.m03.l03
+objectives:
+- id: a1.m03.l04.obj1
+  text_vi: 'Hỏi đường lịch sự: Entschuldigung, wo ist …? / Wie komme ich zum …?'
+  skill: vocabulary
+- id: a1.m03.l04.obj2
+  text_vi: 'Chỉ đường bằng câu mệnh lệnh với Sie: Gehen Sie geradeaus/links/rechts.'
+  skill: grammar
+- id: a1.m03.l04.obj3
+  text_vi: Hiểu lời chỉ đường đơn giản (nghe/đọc) và theo dõi trên bản đồ.
+  skill: listening
+- id: a1.m03.l04.obj4
+  text_vi: 'Sắp xếp các bước bằng zuerst – dann và cảm ơn: Vielen Dank!'
+  skill: grammar
+vocabulary_refs:
+- a1.m03.v.links
+- a1.m03.v.geradeaus
+- a1.m03.v.dank
+- a1.m03.v.einfach
+- a1.m03.v.genau
+- a1.m03.v.mal
+- a1.m03.v.markt
+- a1.m03.v.park
+- a1.m03.v.ziel
+- a1.m03.v.dann
+- a1.m03.v.zuerst
+- a1.m03.v.wegbeschreibung
+review_vocabulary_refs:
+- a1.m03.v.rechts
+- a1.m03.v.weg
+- a1.m03.v.plan
+- a1.m03.v.bahnhof
+- a1.m01.v.wo
+- a1.m00.v.entschuldigung
+grammar_refs:
+- a1.g.imperativ-sie
+grammar_focus:
+- ref: a1.g.imperativ-sie
+  focus_vi: Verb + Sie (+ bitte); Seien Sie; động từ tách.
+expression_refs:
+- a1.m03.x.entschuldigung-wo-ist-wie-komme-ich-zum
+- a1.m03.x.gehen-sie-zuerst-dann
+- a1.m03.x.vielen-dank-bitte-gern
+- a1.m03.x.ja-genau-ist-das-einfach
+exercise_set_ref: a1.m03.l04.ex
+summary_vi: 'Hỏi đường: Entschuldigung, wo ist …? / Wie komme ich zum/zur …? Chỉ đường: Gehen Sie geradeaus / links / rechts. Thứ tự: zuerst … dann … Cảm ơn: Vielen Dank! – Bitte, gern! Imperativ mit Sie: động từ nguyên mẫu + Sie đầu câu.'
+self_check:
+- Tôi hỏi đường được một cách lịch sự.
+- Tôi chỉ đường được bằng câu mệnh lệnh với Sie.
+- Tôi hiểu một lời chỉ đường đơn giản.
+- Tôi dùng được zuerst và dann.
+blocks:
+- id: a1.m03.l04.b1
+  kind: explanation
+  title_vi: Giới thiệu bài học
+  body_vi: 'Ở một thành phố lạ, câu hỏi bạn dùng nhiều nhất có lẽ là: **„Entschuldigung, wo ist …?“** – Xin lỗi, … ở đâu ạ?
+
+
+    Người Đức sẽ chỉ đường bằng **câu mệnh lệnh lịch sự với Sie**: *Gehen Sie geradeaus. Dann gehen Sie links.*
+
+    Cấu tạo rất đơn giản: **động từ (nguyên mẫu) + Sie** đứng đầu câu (chủ điểm *Câu mệnh lệnh với Sie*).
+
+
+    Ba từ chỉ hướng cần thuộc lòng: **links** (trái) ⬅️, **rechts** (phải) ➡️, **geradeaus** (thẳng) ⬆️.'
+- id: a1.m03.l04.b2
+  kind: explanation
+  title_vi: zum / zur – đến (chỉ học như cụm)
+  skill: grammar
+  body_vi: 'Khi hỏi đường: Wie komme ich zum Bahnhof? (der/das → zum) / zur Kirche? (die → zur). Đây là zu + Dativ, sẽ học ở Kapitel 7. Bây giờ chỉ cần nhớ: zum + der/das-Wort, zur + die-Wort.'
+  examples:
+  - de: Wie komme ich zum Bahnhof?
+    vi: Làm sao để tôi đến nhà ga?
+  - de: Wie komme ich zur Kirche?
+    vi: Làm sao để tôi đến nhà thờ?
+- id: a1.m03.l04.b3
+  kind: pronunciation
+  title_vi: 'Từ chỉ hướng: links, rechts, geradeaus'
+  skill: pronunciation
+  body_vi: 'Từ chỉ hướng: links, rechts, geradeaus
+
+
+    links [lɪŋks]: n trước k đọc [ŋ]. rechts [ʁɛçts]: ch [ç] + ts – đọc rõ cả cụm. geradeaus [ɡəʁaːdəˈʔaʊ̯s]: nhấn AUS ở cuối, có ngắt nhẹ trước aus.
+
+
+    Luyện tập: Vừa nói vừa chỉ tay: links ⬅️ – rechts ➡️ – geradeaus ⬆️, nhanh dần.'
+  items:
+  - de: links
+    vi: trái
+    ipa: '[lɪŋks]'
+  - de: rechts
+    vi: phải
+    ipa: '[ʁɛçts]'
+  - de: geradeaus
+    vi: thẳng
+    ipa: '[ɡəʁaːdəˈʔaʊ̯s]'
+- id: a1.m03.l04.b4
+  kind: examples
+  title_vi: Câu ví dụ
+  examples:
+  - de: Entschuldigung, wo ist der Bahnhof?
+    vi: Xin lỗi, nhà ga ở đâu ạ?
+  - de: Gehen Sie geradeaus und dann rechts.
+    vi: Hãy đi thẳng rồi rẽ phải.
+  - de: Fahren Sie zuerst links, dann geradeaus.
+    vi: Hãy rẽ trái trước, rồi đi thẳng.
+  - de: Das Ziel ist der Park.
+    vi: Điểm đến là công viên.
+  - de: Vielen Dank! Das ist ganz einfach.
+    vi: Cảm ơn nhiều! Cái đó rất đơn giản.
+- id: a1.m03.l04.b5
+  kind: listening
+  title_vi: Hỏi đường đến chợ
+  lines:
+  - speaker: Minh
+    de: Entschuldigung, wo ist der Markt?
+    vi: Xin lỗi, chợ ở đâu ạ?
+  - speaker: Frau
+    de: Der Markt? Gehen Sie zuerst hier geradeaus. Dann gehen Sie links. Da ist ein Park. Gehen Sie durch den Park. Dann sehen Sie den Markt.
+    vi: Chợ à? Trước tiên anh đi thẳng đây. Rồi rẽ trái. Ở đó có một công viên. Anh đi xuyên qua công viên. Rồi anh sẽ thấy chợ.
+  - speaker: Minh
+    de: Also geradeaus, links, durch den Park?
+    vi: Vậy là đi thẳng, rẽ trái, đi qua công viên ạ?
+  - speaker: Frau
+    de: Ja, genau! Ganz einfach.
+    vi: Đúng vậy! Rất đơn giản.
+  - speaker: Minh
+    de: Vielen Dank!
+    vi: Cảm ơn nhiều!
+  - speaker: Frau
+    de: Bitte, gern!
+    vi: Không có gì!
+  audio_status: pending-tts
+  situation_vi: Minh hỏi một người phụ nữ đường đến chợ.
+  skill: listening
+  audio:
+    speed: slow
+- id: a1.m03.l04.b6
+  kind: reading
+  title_vi: Chỉ đường đến khách sạn
+  paragraphs:
+  - de: 'Liebe Frau Pham,
+
+      Ihr Hotel „Elbblick“: So kommen Sie vom Bahnhof zum Hotel:
+
+      Gehen Sie zuerst rechts. Gehen Sie dann circa 300 Meter geradeaus.
+
+      Da ist eine Kirche. Gehen Sie links. Das Hotel ist dann rechts.
+
+      Zu Fuß: circa 10 Minuten.
+
+      Viele Grüße, Ihr Hotel-Team'
+    vi: 'Kính gửi chị Phạm,
+
+      Khách sạn “Elbblick” của chị: Đi từ nhà ga đến khách sạn như sau:
+
+      Trước tiên chị rẽ phải. Sau đó đi thẳng khoảng 300 mét.
+
+      Ở đó có một nhà thờ. Chị rẽ trái. Khách sạn sẽ ở bên phải.
+
+      Đi bộ: khoảng 10 phút.
+
+      Trân trọng, đội ngũ khách sạn'
+  text_type_vi: Email xác nhận đặt phòng có chỉ đường
+  skill: reading
+  glossary:
+  - de: Liebe Frau …
+    vi: Kính gửi bà/chị … (mở đầu thư)
+  - de: so
+    vi: như thế này
+  - de: die Minute, die Minuten
+    vi: phút
+  - de: Viele Grüße
+    vi: Trân trọng (kết thư)
+- id: a1.m03.l04.b7
+  kind: speaking
+  title_vi: 'Đóng vai: hỏi và chỉ đường'
+  skill: speaking
+  task_vi: 'Nhìn bản đồ đơn giản: Bahnhof → (geradeaus) → Kirche → (links) → Park → (rechts) → Museum. Vai A hỏi đường đến bảo tàng, vai B chỉ đường.'
+  steps_vi:
+  - 'A: Entschuldigung, wo ist das Museum?'
+  - 'B: Gehen Sie zuerst …, dann …'
+  - A xác nhận lại và cảm ơn.
+  lines:
+  - speaker: A
+    de: Entschuldigung, wo ist das Museum?
+    vi: Xin lỗi, bảo tàng ở đâu ạ?
+  - speaker: B
+    de: Gehen Sie zuerst geradeaus. Da ist eine Kirche. Gehen Sie links. Da ist ein Park. Gehen Sie dann rechts. Da ist das Museum.
+    vi: Trước tiên đi thẳng. Ở đó có một nhà thờ. Rẽ trái. Ở đó có một công viên. Sau đó rẽ phải. Bảo tàng ở đó.
+  - speaker: A
+    de: Geradeaus, links, rechts. Vielen Dank!
+    vi: Thẳng, trái, phải. Cảm ơn nhiều!
+- id: a1.m03.l04.b8
+  kind: writing
+  title_vi: Chỉ đường đến nhà bạn
+  skill: writing
+  task_vi: Viết tin nhắn chỉ đường (4–5 câu) từ trạm xe buýt/nhà ga đến nhà bạn cho một người bạn sắp đến chơi (dùng Imperativ mit Sie nếu là người không quen, hoặc viết như hướng dẫn chung).
+  model:
+    de: Gehen Sie zuerst geradeaus. Dann gehen Sie rechts. Da ist ein Markt. Gehen Sie links. Mein Haus ist dann rechts, Nummer 12.
+    vi: Trước tiên đi thẳng. Sau đó rẽ phải. Ở đó có một cái chợ. Rẽ trái. Nhà tôi khi đó ở bên phải, số 12.
+  checklist_vi:
+  - 'Câu mệnh lệnh: động từ + Sie ở đầu câu.'
+  - Có zuerst và dann.
+  - Có ít nhất một địa điểm mốc với ein/eine.

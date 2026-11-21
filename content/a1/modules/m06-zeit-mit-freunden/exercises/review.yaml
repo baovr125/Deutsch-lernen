@@ -1,0 +1,245 @@
+schema_version: '2.0'
+content_type: exercise-set
+id: a1.m06.review.ex
+level: A1
+module: a1.m06
+lesson: a1.m06.review
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+exercises:
+- id: a1.m06.review.ex.01
+  type: matching
+  skill: vocabulary
+  difficulty: 1
+  objective_refs:
+  - a1.m06.review.obj1
+  instructions_vi: Nối từ vựng Kapitel 6 với định nghĩa hoặc ngữ cảnh phù hợp.
+  items:
+  - id: a1.m06.review.ex.01.q1
+    pairs:
+    - left: der Treffpunkt
+      right: Nơi hẹn gặp nhau của nhóm bạn
+    - left: das Geburtstagskind
+      right: Người có ngày sinh nhật được ăn mừng
+    - left: der Gutschein
+      right: Phiếu mua hàng dùng làm quà tặng
+    - left: getrennt zahlen
+      right: Mỗi người tự trả tiền phần ăn uống của mình
+    - left: stimmt so
+      right: Câu nói khi boa tiền thừa cho bồi bàn
+    - left: der Biergarten
+      right: Quán bia ngoài trời sân vườn đặc trưng của Đức
+    explanation_vi: Các từ vựng và thành ngữ văn hóa tiêu biểu của Kapitel 6.
+- id: a1.m06.review.ex.02
+  type: multiple-choice
+  skill: grammar
+  difficulty: 1
+  objective_refs:
+  - a1.m06.review.obj2
+  instructions_vi: Chọn đáp án đúng nhất cho mỗi câu ngữ pháp.
+  items:
+  - id: a1.m06.review.ex.02.q1
+    prompt: Wann fängt die Geburtstagsparty ___?
+    options:
+    - id: a
+      text: an
+    - id: b
+      text: mit
+    - id: c
+      text: vorbei
+    - id: d
+      text: aus
+    answer:
+    - a
+    explanation_vi: anfangen (bắt đầu) → tiền tố an ở cuối câu.
+  - id: a1.m06.review.ex.02.q2
+    prompt: Mein Geburtstag ist am ___ (20.) Mai.
+    options:
+    - id: a
+      text: zwanzigste
+    - id: b
+      text: zwanzig
+    - id: c
+      text: zwanzigsten
+    - id: d
+      text: zwanzigster
+    answer:
+    - c
+    explanation_vi: 'Sau am, số thứ tự từ 20 trở lên thêm đuôi -sten: am zwanzigsten.'
+  - id: a1.m06.review.ex.02.q3
+    prompt: Das Geschenk ist für ___ (mein) Bruder.
+    options:
+    - id: a
+      text: meinen
+    - id: b
+      text: meinem
+    - id: c
+      text: meine
+    - id: d
+      text: mein
+    answer:
+    - a
+    explanation_vi: 'Giới từ für + Akkusativ: der Bruder đổi thành meinen Bruder.'
+  - id: a1.m06.review.ex.02.q4
+    prompt: Rufst du ___ (ich) heute Abend an?
+    options:
+    - id: a
+      text: mich
+    - id: b
+      text: ich
+    - id: c
+      text: mir
+    - id: d
+      text: dich
+    answer:
+    - a
+    explanation_vi: Tân ngữ trực tiếp (ngôi ich) chia ở Akkusativ là mich.
+  - id: a1.m06.review.ex.02.q5
+    prompt: Gestern ___ das Wetter sehr sonnig und wir ___ viel Spaß.
+    options:
+    - id: a
+      text: hatte ... waren
+    - id: b
+      text: waren ... hatten
+    - id: c
+      text: war ... waren
+    - id: d
+      text: war ... hatten
+    answer:
+    - d
+    explanation_vi: das Wetter (ngôi es) → war; wir → hatten.
+- id: a1.m06.review.ex.03
+  type: multiple-choice
+  skill: listening
+  difficulty: 2
+  objective_refs:
+  - a1.m06.review.obj3
+  instructions_vi: Nghe đoạn thoại giữa David và Anna rồi chọn đáp án chính xác.
+  stimulus:
+    ref: a1.m06.review.b5
+  items:
+  - id: a1.m06.review.ex.03.q1
+    prompt: Wann hat Sofia Geburtstag?
+    options:
+    - id: a
+      text: am 2. Mai
+    - id: b
+      text: am 20. Mai
+    - id: c
+      text: am 31. Mai
+    - id: d
+      text: am 15. Mai
+    answer:
+    - b
+    explanation_vi: 'David nói: ''Sofia hat am zwanzigsten Mai Geburtstag''.'
+  - id: a1.m06.review.ex.03.q2
+    prompt: Wo möchte David den Tisch reservieren?
+    options:
+    - id: a
+      text: in der Schule
+    - id: b
+      text: im Biergarten vom Gasthaus am Park
+    - id: c
+      text: im Kino
+    - id: d
+      text: zu Hause
+    answer:
+    - b
+    explanation_vi: 'David chọn: ''Im Gasthaus am Park. Sie haben einen wunderschönen Biergarten''.'
+- id: a1.m06.review.ex.04
+  type: true-false
+  skill: listening
+  difficulty: 2
+  objective_refs:
+  - a1.m06.review.obj3
+  instructions_vi: Nghe lại và xác định các câu sau là Đúng (true) hay Sai (false).
+  stimulus:
+    ref: a1.m06.review.b5
+  items:
+  - id: a1.m06.review.ex.04.q1
+    prompt: Anna lädt alle Freunde per E-Mail zur Party ein.
+    answer: true
+    explanation_vi: Đúng. 'Ich lade alle Freunde per Mail ein'.
+  - id: a1.m06.review.ex.04.q2
+    prompt: Anna kauft keine Blumen für Sofia.
+    answer: false
+    explanation_vi: 'Sai. Anna nói: ''ich besorge einen Blumenstrauß und ein Geschenk für sie''.'
+- id: a1.m06.review.ex.05
+  type: true-false
+  skill: reading
+  difficulty: 2
+  objective_refs:
+  - a1.m06.review.obj4
+  instructions_vi: Đọc nhật ký của Sarah và xác định các nhận định sau là Đúng (true) hay Sai (false).
+  stimulus:
+    ref: a1.m06.review.b6
+  items:
+  - id: a1.m06.review.ex.05.q1
+    prompt: Sofia feierte ihren 25. Geburtstag am 20. Mai.
+    answer: true
+    explanation_vi: Đúng. 'Am letzten Samstag war der 20. Mai – der 25. Geburtstag...'.
+  - id: a1.m06.review.ex.05.q2
+    prompt: Die Freunde machten am Nachmittag eine Fahrradtour an den See.
+    answer: true
+    explanation_vi: Đúng. 'machten wir bei sonnigem Wetter eine Fahrradtour an den See'.
+  - id: a1.m06.review.ex.05.q3
+    prompt: Im Gasthaus bezahlte Sarah die ganze Rechnung für alle Gäste allein.
+    answer: false
+    explanation_vi: Sai. Cả nhóm trả tiền riêng ('zahlten am Ende getrennt').
+  - id: a1.m06.review.ex.05.q4
+    prompt: Sofia wusste vorher schon alles über die Party.
+    answer: false
+    explanation_vi: Sai. Sofia hoàn toàn bất ngờ ('Sofia war total überrascht und glücklich!').
+- id: a1.m06.review.ex.06
+  type: fill-blank
+  skill: speaking
+  difficulty: 2
+  objective_refs:
+  - a1.m06.review.obj2
+  - a1.m06.review.obj5
+  instructions_vi: Điền từ thích hợp vào chỗ trống.
+  items:
+  - id: a1.m06.review.ex.06.q1
+    prompt: Die Rechnung bitte! Zahlen Sie zusammen oder ___? – Getrennt, bitte. Hier sind 20 Euro, ___ so!
+    answers:
+    - getrennt
+    - stimmt
+    explanation_vi: 1. getrennt (riêng). 2. stimmt (stimmt so = khỏi thối lại).
+- id: a1.m06.review.ex.07
+  type: word-order
+  skill: writing
+  difficulty: 2
+  objective_refs:
+  - a1.m06.review.obj2
+  - a1.m06.review.obj5
+  instructions_vi: Sắp xếp các từ bị xáo trộn thành câu hoàn chỉnh đúng ngữ pháp.
+  items:
+  - id: a1.m06.review.ex.07.q1
+    tokens:
+    - hatten
+    - gestern
+    - Spaß
+    - Wir
+    - viel
+    answer: Wir hatten gestern viel Spaß.
+    prompt_vi: 'Sắp xếp câu ở thì quá khứ:'
+    explanation_vi: Chủ ngữ 'Wir' + động từ 'hatten' vị trí 2 + 'gestern' + 'viel Spaß'.
+  - id: a1.m06.review.ex.07.q2
+    tokens:
+    - ist
+    - dich
+    - Geschenk
+    - Das
+    - für
+    answer: Das Geschenk ist für dich.
+    prompt_vi: 'Sắp xếp câu với giới từ für và đại từ Akkusativ:'
+    explanation_vi: Chủ ngữ 'Das Geschenk' + động từ 'ist' + 'für dich'.

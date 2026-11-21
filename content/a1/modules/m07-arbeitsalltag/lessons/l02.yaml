@@ -1,0 +1,73 @@
+schema_version: "2.0"
+content_type: lesson
+id: a1.m07.l02
+level: A1
+module: a1.m07
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  references:
+    - { work: "Netzwerk neu A1.2 – Stoffverteilungsplan (Klett)", scope: "Kapitel 7, Mục Mit wem muss ich sprechen?; Grammatik mit + Dativ; Wortschatz Probleme mit Medien", verification: verified }
+  tags: ["arbeit", "medien", "dativ"]
+order: 2
+title_de: "Mit wem muss ich sprechen?"
+title_vi: "Tôi phải nói chuyện với ai?"
+duration_min: 50
+difficulty: 2
+objectives:
+  - { id: a1.m07.l02.obj1, text_vi: "Bạn có thể dùng mit + Dativ để nói làm việc/nói chuyện với ai, đi bằng gì.", skill: grammar }
+  - { id: a1.m07.l02.obj2, text_vi: "Bạn có thể nghe và hiểu một thông báo ngắn về sự cố máy móc ở văn phòng và biết cần làm gì.", skill: listening }
+vocabulary_refs: [a1.m07.v.computer, a1.m07.v.drucker, a1.m07.v.telefon, a1.m07.v.email, a1.m07.v.schreibtisch, a1.m07.v.passwort, a1.m07.v.internet, a1.m07.v.problem, a1.m07.v.fehler, a1.m07.v.frage, a1.m07.v.kunde, a1.m07.v.sprechen, a1.m07.v.drucken, a1.m07.v.anrufen, a1.m07.v.helfen, a1.m07.v.brauchen, a1.m07.v.funktionieren, a1.m07.v.kaputt, a1.m07.v.mit]
+grammar_refs: [a1.g.mit-dativ]
+expression_refs: [a1.m07.x.mit-wem, a1.m07.x.problem-melden, a1.m07.x.funktioniert-nicht, a1.m07.x.hilfe-bitten]
+exercise_set_ref: a1.m07.l02.ex
+blocks:
+  - id: a1.m07.l02.b1
+    kind: explanation
+    skill: vocabulary
+    title_vi: "Bắt đầu: thiết bị và sự cố ở văn phòng"
+    body_vi: |
+      Bạn mới vào làm và gặp sự cố: máy in hỏng, quên mật khẩu, Internet không chạy. Bài này giúp bạn **báo vấn đề** và **hỏi ai có thể giúp**.
+      Cụm quan trọng: *Ich habe ein Problem mit dem Drucker.* — chú ý „mit dem“ (Dativ).
+  - id: a1.m07.l02.b2
+    kind: dialogue
+    skill: speaking
+    title_vi: "Hội thoại: Máy in bị hỏng"
+    lines:
+      - { speaker: "Ayşe", de: "Entschuldigung, Lukas. Ich habe ein Problem mit dem Drucker.", vi: "Xin lỗi Lukas. Tôi có vấn đề với máy in." }
+      - { speaker: "Lukas", de: "Was ist das Problem?", vi: "Vấn đề là gì vậy?" }
+      - { speaker: "Ayşe", de: "Er funktioniert nicht. Ich brauche den Brief aber sofort.", vi: "Nó không hoạt động. Mà tôi cần bức thư này ngay." }
+      - { speaker: "Lukas", de: "Mit wem musst du sprechen? Mit der Chefin?", vi: "Bạn phải nói chuyện với ai? Với sếp nữ à?" }
+      - { speaker: "Ayşe", de: "Nein, mit dem Kollegen aus dem Support. Wie ist seine Nummer?", vi: "Không, với đồng nghiệp ở bộ phận hỗ trợ. Số của anh ấy là gì?" }
+      - { speaker: "Lukas", de: "Du kannst den Kollegen anrufen oder eine E-Mail schreiben. Das Telefon ist hier am Schreibtisch.", vi: "Bạn có thể gọi cho đồng nghiệp đó hoặc viết e-mail. Điện thoại ở đây, trên bàn làm việc." }
+      - { speaker: "Ayşe", de: "Danke, ich rufe ihn an.", vi: "Cảm ơn, tôi sẽ gọi anh ấy." }
+  - id: a1.m07.l02.b3
+    kind: listening
+    skill: listening
+    title_vi: "Nghe: Tin nhắn thoại từ bộ phận IT"
+    audio_status: pending-tts
+    lines:
+      - { speaker: "IT-Support", de: "Guten Tag, hier ist der IT-Support.", vi: "Xin chào, đây là bộ phận hỗ trợ IT." }
+      - { speaker: "IT-Support", de: "Das Internet funktioniert heute Morgen nicht.", vi: "Sáng nay Internet không hoạt động." }
+      - { speaker: "IT-Support", de: "Wir arbeiten schon daran, aber es dauert eine Stunde.", vi: "Chúng tôi đang xử lý nhưng sẽ mất một tiếng." }
+      - { speaker: "IT-Support", de: "Bei Fragen rufen Sie bitte die Nummer eins zwei drei an.", vi: "Nếu có câu hỏi, xin gọi số một hai ba." }
+  - id: a1.m07.l02.b4
+    kind: explanation
+    skill: grammar
+    title_vi: "Ngữ pháp: mit + Dativ"
+    body_vi: |
+      Sau **mit** mạo từ đổi: **der/das → dem**, **die → der**, **số nhiều → den**.
+      *mit dem Chef · mit dem Kind · mit der Kollegin · mit den Kollegen.*
+      Dùng cho người (mit wem?) và phương tiện/công cụ (mit dem Bus). Xem chủ điểm a1.g.mit-dativ.
+  - id: a1.m07.l02.b5
+    kind: culture
+    skill: speaking
+    title_vi: "Mẹo: nhờ giúp lịch sự"
+    body_vi: |
+      Với người lạ hoặc cấp trên dùng **Sie**: *Können Sie mir bitte helfen?* (học thuộc cả cụm). Với đồng nghiệp thân dùng **du**: *Kannst du mir helfen?*
+      Mở đầu bằng **Entschuldigung** trước khi ngắt lời người khác.

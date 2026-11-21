@@ -1,0 +1,47 @@
+schema_version: "2.0"
+content_type: module
+id: a1.m07
+level: A1
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  references:
+    - { work: "Netzwerk neu A1.2 – Stoffverteilungsplan (Klett, © 2023)", scope: "Kapitel 7 'Arbeitsalltag': tên Kapitel, các mục, Grammatik (und/oder/aber; mit + Dativ; Präpositionen mit Dativ + Kurzformen), Aussprache (s, sch, st/scht)", verification: verified }
+    - { work: "Dự án Deutsch-lernen", scope: "Từ vựng cụ thể, hội thoại, bài đọc, bài tập hoàn toàn tự biên soạn; bài học chia thành 4 bài thay vì theo từng mục của sách", verification: proposed }
+  notes_vi: "Chưa đối chiếu từng từ với Kapitelwortschatz K7 (bản scan chưa được đọc trong đợt này). Chưa có audio (pending-tts)."
+  tags: ["arbeit"]
+order: 9
+title_de: "Arbeitsalltag"
+title_vi: "Một ngày làm việc"
+summary_vi: "Nói về ngày làm việc, nhờ giúp khi thiết bị gặp sự cố, nói về nơi chốn quanh chỗ làm và viết e-mail ngắn."
+prerequisites: []
+objectives:
+  - { id: a1.m07.obj.tagesablauf, text_vi: "Bạn có thể kể về ngày làm việc của mình với giờ giấc và địa điểm.", skill: speaking }
+  - { id: a1.m07.obj.verbinden, text_vi: "Bạn có thể nối câu bằng und, oder, aber.", skill: grammar }
+  - { id: a1.m07.obj.medien, text_vi: "Bạn có thể báo và hiểu sự cố đơn giản với máy tính, máy in, Internet.", skill: listening }
+  - { id: a1.m07.obj.mit, text_vi: "Bạn có thể dùng mit + Dativ cho người và phương tiện.", skill: grammar }
+  - { id: a1.m07.obj.orte, text_vi: "Bạn có thể nói ở đâu, đi đâu, từ đâu đến bằng giới từ + Dativ.", skill: grammar }
+  - { id: a1.m07.obj.email, text_vi: "Bạn có thể viết một e-mail ngắn trang trọng hoặc thân mật.", skill: writing }
+lessons:
+  - { id: a1.m07.l01, file: lessons/l01.yaml }
+  - { id: a1.m07.l02, file: lessons/l02.yaml }
+  - { id: a1.m07.l03, file: lessons/l03.yaml }
+  - { id: a1.m07.l04, file: lessons/l04.yaml }
+grammar:
+  - { id: a1.g.konjunktionen, file: ../../grammar/konjunktionen.yaml }
+  - { id: a1.g.mit-dativ, file: ../../grammar/mit-dativ.yaml }
+  - { id: a1.g.ortspraepositionen, file: ../../grammar/ortspraepositionen.yaml }
+vocabulary: { id: a1.m07.vocab, file: vocabulary.yaml }
+expressions: { id: a1.m07.expr, file: expressions.yaml }
+exercises:
+  - { id: a1.m07.l01.ex, file: exercises/l01.yaml }
+  - { id: a1.m07.l02.ex, file: exercises/l02.yaml }
+  - { id: a1.m07.l03.ex, file: exercises/l03.yaml }
+  - { id: a1.m07.l04.ex, file: exercises/l04.yaml }
+assessment: { id: a1.m07.test, file: assessment.yaml }
+estimated_hours: 6

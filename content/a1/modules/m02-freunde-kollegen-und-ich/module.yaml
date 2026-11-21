@@ -1,0 +1,92 @@
+schema_version: '2.0'
+content_type: module
+id: a1.m02
+level: A1
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+  references:
+  - work: Netzwerk neu A1 (Klett)
+    scope: 'Kapitel 2: Freunde, Kollegen und ich; Meine Hobbys, meine Freunde; Gehen wir ins Kino?; Mein Beruf; Strategie: Artikel lernen; Landeskunde: Neu im Club; Film: Die Netzwerk-WG; kurz und klar: Redemittel und Grammatik'
+    verification: verified
+  notes_vi: 'Trình tự và phạm vi theo Stoffverteilungsplan Netzwerk neu A1.1 (Kapitel 2, 10 UE) và Kapitelwortschatz. Mục „Mein Beruf“ (3 UE) được chia thành 2 bài; „Strategie: Artikel lernen“ được gộp vào bài „Mein Beruf“. Mọi nội dung là tự biên soạn.'
+kind: kapitel
+order: 2
+title_de: Freunde, Kollegen und ich
+title_vi: Bạn bè, đồng nghiệp và tôi
+summary_vi: Sở thích và hoạt động thời gian rảnh (gern), chia động từ đầy đủ ở số nhiều và động từ bất quy tắc, câu hỏi có/không, ngày trong tuần và hẹn đi chơi, nghề nghiệp và mạo từ xác định, số nhiều, haben/sein, số từ 20 đến 1 triệu, điền biểu mẫu đăng ký câu lạc bộ.
+cefr:
+- A1.SI2
+- A1.SI5
+- A1.SP1
+- A1.SP2
+- A1.SP3
+- A1.H1
+- A1.H3
+- A1.H4
+- A1.L1
+- A1.L2
+- A1.L3
+- A1.S1
+- A1.S2
+- A1.S3
+not_covered_vi:
+- 'Film „Die Netzwerk-WG“ (Szene 4–5): không sử dụng video giáo trình.'
+- Một số từ trong đề bài của giáo trình (ankreuzen, zuordnen, ergänzen…) và từ chỉ dùng trong bài tập của giáo trình (Sensation, Endung, Infinitiv, Lernwortschatz…) không đưa vào danh sách học.
+- kein/keine (Lernwortschatz ở mục Neu im Club) được dạy cùng chủ điểm ngữ pháp phủ định ở Kapitel 3.
+lessons:
+- id: a1.m02.l01
+  file: lessons/l01.yaml
+- id: a1.m02.l02
+  file: lessons/l02.yaml
+- id: a1.m02.l03
+  file: lessons/l03.yaml
+- id: a1.m02.l04
+  file: lessons/l04.yaml
+- id: a1.m02.l05
+  file: lessons/l05.yaml
+- id: a1.m02.l06
+  file: lessons/l06.yaml
+- id: a1.m02.review
+  file: lessons/review.yaml
+grammar:
+- id: a1.g.verben-praesens
+  file: ../../grammar/verben-praesens.yaml
+- id: a1.g.ja-nein-frage
+  file: ../../grammar/ja-nein-frage.yaml
+- id: a1.g.bestimmter-artikel
+  file: ../../grammar/bestimmter-artikel.yaml
+- id: a1.g.plural
+  file: ../../grammar/plural.yaml
+- id: a1.g.haben-sein
+  file: ../../grammar/haben-sein.yaml
+vocabulary:
+  id: a1.m02.vocab
+  file: vocabulary.yaml
+expressions:
+  id: a1.m02.expr
+  file: expressions.yaml
+exercises:
+- id: a1.m02.l01.ex
+  file: exercises/l01.yaml
+- id: a1.m02.l02.ex
+  file: exercises/l02.yaml
+- id: a1.m02.l03.ex
+  file: exercises/l03.yaml
+- id: a1.m02.l04.ex
+  file: exercises/l04.yaml
+- id: a1.m02.l05.ex
+  file: exercises/l05.yaml
+- id: a1.m02.l06.ex
+  file: exercises/l06.yaml
+- id: a1.m02.review.ex
+  file: exercises/review.yaml
+estimated_hours: 8.7

@@ -1,0 +1,232 @@
+schema_version: '2.0'
+content_type: expression-set
+id: a1.m04.expr
+level: A1
+module: a1.m04
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+  references:
+  - work: Netzwerk neu A1 (Klett)
+    scope: 'Kapitel 4: Guten Appetit!; Kommt ihr?; Einkaufen im Supermarkt; Die Grillparty; Frühstück, Mittagessen, Abendessen; Wörter lernen: Strategie; Landeskunde: Berufe rund ums Essen; kurz und klar: Redemittel und Grammatik'
+    verification: verified
+  notes_vi: Trình tự và phạm vi theo Stoffverteilungsplan Netzwerk neu A1.1 (Kapitel 4, 10 UE) và Kapitelwortschatz. Toàn bộ hội thoại, bài đọc, bài tập biên soạn mới hoàn toàn.
+entries:
+- id: a1.m04.x.guten-appetit-danke-gleichfalls
+  de: Guten Appetit! – Danke, gleichfalls!
+  vi: Chúc ngon miệng! – Cảm ơn, bạn/quý vị cũng vậy!
+  register: neutral
+  situation_vi: Lời chúc lịch sự trước khi bắt đầu bữa ăn và cách đáp lại.
+  dialogue:
+  - speaker: Markus
+    de: Das Essen ist fertig. Guten Appetit!
+    vi: Đồ ăn xong rồi. Chúc mọi người ngon miệng!
+  - speaker: Linh
+    de: Danke, gleichfalls!
+    vi: Cảm ơn anh, chúc anh cũng ngon miệng nhé!
+  lesson_refs:
+  - a1.m04.l01
+- id: a1.m04.x.wo-kaufst-du-ich-kaufe-im-in-der
+  de: Wo kaufst du ...? – Ich kaufe ... im / in der ...
+  vi: Bạn mua ... ở đâu? – Tôi mua ... ở ...
+  register: informal
+  situation_vi: Hỏi và trả lời về địa điểm mua các loại thực phẩm.
+  dialogue:
+  - speaker: Anna
+    de: Wo kaufst du Fleisch und Wurst?
+    vi: Bạn mua thịt và xúc xích ở đâu?
+  - speaker: Jan
+    de: Fleisch kaufe ich immer in der Metzgerei.
+    vi: Thịt thì tôi luôn mua ở tiệm thịt.
+  lesson_refs:
+  - a1.m04.l01
+- id: a1.m04.x.kommst-du-zur-ja-gern-tut-mir-leid-ich-h
+  de: Kommst du zur ...? – Ja, gern! / Tut mir leid, ich habe keine Zeit.
+  vi: Bạn đến ... chứ? – Có, rất sẵn lòng! / Tiếc quá, tôi không có thời gian.
+  register: informal
+  situation_vi: Mời bạn bè tham gia tiệc hoặc sự kiện và cách phản hồi.
+  dialogue:
+  - speaker: Ben
+    de: Hallo Jonas, wir grillen am Samstag. Kommst du zur Grillparty?
+    vi: Chào Jonas, thứ Bảy tụi mình nướng thịt. Bạn đến tiệc nướng chứ?
+  - speaker: Jonas
+    de: Ja, sehr gern! Danke für die Einladung!
+    vi: Có chứ, rất sẵn lòng! Cảm ơn vì lời mời nhé!
+  lesson_refs:
+  - a1.m04.l02
+- id: a1.m04.x.wir-brauchen-noch-ich-bringe-mit
+  de: Wir brauchen noch ... – Ich bringe ... mit.
+  vi: Chúng ta cần thêm ... – Mình sẽ mang ... đến.
+  register: informal
+  situation_vi: Bàn bạc phân công mang đồ ăn đồ uống cho bữa tiệc chung.
+  dialogue:
+  - speaker: Sophie
+    de: Wir brauchen noch Getränke und Brot.
+    vi: Chúng mình còn cần thêm đồ uống và bánh mì.
+  - speaker: Linh
+    de: Kein Problem, ich bringe Orangensaft und einen Kuchen mit!
+    vi: Không sao, mình sẽ mang nước cam và một chiếc bánh ngọt đến!
+  lesson_refs:
+  - a1.m04.l02
+- id: a1.m04.x.was-kostet-wie-viel-kostet-kostet-euro
+  de: Was kostet ...? / Wie viel kostet ...? – ... kostet ... Euro.
+  vi: '... giá bao nhiêu? – ... có giá ... Euro.'
+  register: neutral
+  situation_vi: Hỏi và thông báo giá tiền của hàng hóa.
+  dialogue:
+  - speaker: Kunde
+    de: Entschuldigung, wie viel kostet ein Kilo Äpfel?
+    vi: Xin lỗi, một ký táo giá bao nhiêu ạ?
+  - speaker: Verkäufer
+    de: Ein Kilo Äpfel kostet zwei Euro zwanzig.
+    vi: Một ký táo giá 2 euro 20 xu.
+  lesson_refs:
+  - a1.m04.l03
+- id: a1.m04.x.sonst-noch-etwas-nein-danke-das-ist-alle
+  de: Sonst noch etwas? – Nein, danke. Das ist alles.
+  vi: Còn gì nữa không ạ? – Dạ không, cảm ơn. Thế là đủ rồi ạ.
+  register: neutral
+  situation_vi: Đoạn thoại kết thúc mua hàng tại quầy phục vụ hoặc thu ngân.
+  dialogue:
+  - speaker: Verkäufer
+    de: Hier bitte, 200 Gramm Käse. Sonst noch etwas?
+    vi: Của anh đây, 200 gam phô mai. Còn gì nữa không ạ?
+  - speaker: Kunde
+    de: Nein, danke. Das ist alles. Was macht das zusammen?
+    vi: Dạ không, cảm ơn. Thế là hết rồi ạ. Tổng cộng hết bao nhiêu tiền ạ?
+  lesson_refs:
+  - a1.m04.l03
+- id: a1.m04.x.moechtest-du-ja-gerne-bitte-nein-danke-i
+  de: Möchtest du ...? – Ja gerne, bitte. / Nein danke, ich bin satt.
+  vi: Bạn có muốn dùng thêm ... không? – Vâng rất sẵn lòng. / Dạ không cảm ơn, mình no rồi.
+  register: informal
+  situation_vi: Mời đồ ăn thức uống và phản hồi lịch sự.
+  dialogue:
+  - speaker: Host
+    de: Möchtest du noch etwas Salat?
+    vi: Bạn có muốn ăn thêm chút salad không?
+  - speaker: Gast
+    de: Ja gerne, der Salat schmeckt fantastisch!
+    vi: Vâng rất sẵn lòng, món salad có vị ngon tuyệt vời!
+  lesson_refs:
+  - a1.m04.l04
+- id: a1.m04.x.prost-zum-wohl-auf-uns
+  de: Prost! / Zum Wohl! – Auf uns!
+  vi: Nâng ly! / Chúc sức khỏe! – Vì chúng ta!
+  register: neutral
+  situation_vi: Lời chúc tụng khi cụng ly cùng bạn bè hoặc đồng nghiệp.
+  dialogue:
+  - speaker: Markus
+    de: Alle Gläser hoch! Auf die Grillparty! Prost!
+    vi: Tất cả mọi người nâng ly nào! Vì bữa tiệc nướng! Dzô!
+  - speaker: Alle
+    de: Prost! Zum Wohl!
+    vi: Dzô! Chúc sức khỏe tất cả mọi người!
+  lesson_refs:
+  - a1.m04.l04
+- id: a1.m04.x.was-isst-du-zum-fruehstueck-zu-mittag-zu
+  de: Was isst du zum Frühstück / zu Mittag / zu Abend? – Zum Frühstück esse ich ...
+  vi: Bạn ăn gì cho bữa sáng / bữa trưa / bữa tối? – Cho bữa sáng mình ăn ...
+  register: informal
+  situation_vi: Hỏi và chia sẻ về thực đơn trong các bữa ăn thường ngày.
+  dialogue:
+  - speaker: Lukas
+    de: Was isst du normalerweise zum Frühstück?
+    vi: Cậu thường ăn gì cho bữa sáng?
+  - speaker: Mai
+    de: Zum Frühstück esse ich zwei Eier und ein Brötchen mit Butter.
+    vi: Bữa sáng mình ăn hai quả trứng và một cái bánh mì nhỏ với bơ.
+  lesson_refs:
+  - a1.m04.l05
+- id: a1.m04.x.magst-du-ja-ich-mag-nein-ich-mag-keinen
+  de: Magst du ...? – Ja, ich mag ... / Nein, ich mag keinen/keine ...
+  vi: Bạn có thích ... không? – Có, mình thích ... / Không, mình không thích ...
+  register: informal
+  situation_vi: Hỏi và bày tỏ sở thích đối với các loại thức ăn, đồ uống.
+  dialogue:
+  - speaker: Tim
+    de: Magst du Döner?
+    vi: Bạn có thích ăn bánh mì Döner không?
+  - speaker: Sarah
+    de: Ja, total gerne! Döner schmeckt super lecker.
+    vi: Có chứ, cực kỳ thích! Döner có vị rất ngon.
+  lesson_refs:
+  - a1.m04.l05
+- id: a1.m04.x.als-was-arbeiten-sie-ich-arbeite-als
+  de: Als was arbeiten Sie? – Ich arbeite als ...
+  vi: Bạn làm nghề gì? – Tôi làm nghề ...
+  register: formal
+  situation_vi: Hỏi và giới thiệu về công việc trong ngành ẩm thực.
+  dialogue:
+  - speaker: A
+    de: Als was arbeiten Sie im Restaurant?
+    vi: Anh làm nghề gì ở nhà hàng ạ?
+  - speaker: B
+    de: Ich arbeite als Koch. Kochen ist meine Leidenschaft!
+    vi: Tôi làm đầu bếp. Nấu ăn là niềm đam mê của tôi!
+  lesson_refs:
+  - a1.m04.l06
+- id: a1.m04.x.die-arbeit-macht-spass-aber-sie-ist-manc
+  de: Die Arbeit macht Spaß, aber sie ist manchmal stressig.
+  vi: Công việc rất vui, nhưng đôi khi cũng khá áp lực.
+  register: neutral
+  situation_vi: Nhận xét, chia sẻ về môi trường và đặc thù công việc.
+  dialogue:
+  - speaker: Anna
+    de: Wie ist die Arbeit in der Küche?
+    vi: Công việc trong bếp thế nào?
+  - speaker: Jan
+    de: Wir sind ein tolles Team và die Arbeit macht Spaß, aber am Wochenende ist es echt stressig.
+    vi: Tụi mình là một đội tuyệt vời và công việc rất vui, nhưng cuối tuần thì thật sự rất áp lực.
+  lesson_refs:
+  - a1.m04.l06
+- id: a1.m04.x.beim-einkaufen-was-moechten-sie-ich-nehm
+  de: 'Beim Einkaufen: Was möchten Sie? – Ich nehme / möchte ... Wie viel kostet ...? – ... kostet ...'
+  vi: Khi đi chợ, mua sắm
+  register: neutral
+  situation_vi: Tổng kết bài 1 và bài 3.
+  dialogue:
+  - speaker: Verkäufer
+    de: Guten Tag! Was möchten Sie?
+    vi: Xin chào! Quý khách muốn mua gì ạ?
+  - speaker: Kunde
+    de: Ich nehme ein Kilo Tomaten. Wie viel kostet das? – Das macht zwei Euro.
+    vi: Tôi lấy một ký cà chua. Hết bao nhiêu ạ? – Dạ hai euro ạ.
+  lesson_refs:
+  - a1.m04.review
+- id: a1.m04.x.beim-essen-guten-appetit-danke-gleichfal
+  de: 'Beim Essen: Guten Appetit! – Danke, gleichfalls! Prost! – Zum Wohl! Ich bin satt.'
+  vi: Giao tiếp tại bàn ăn
+  register: neutral
+  situation_vi: Tổng kết bài 2 và bài 4.
+  dialogue:
+  - speaker: A
+    de: Das Essen ist fertig. Guten Appetit! Prost!
+    vi: Đồ ăn xong rồi. Chúc ngon miệng! Nâng ly nào!
+  - speaker: B
+    de: Danke, gleichfalls! Zum Wohl!
+    vi: Cảm ơn, bạn cũng vậy nhé! Chúc sức khỏe!
+  lesson_refs:
+  - a1.m04.review
+- id: a1.m04.x.essgewohnheiten-was-isst-du-morgens-morg
+  de: 'Essgewohnheiten: Was isst du morgens? – Morgens trinke ich nur Kaffee. Ich mag ...'
+  vi: Nói về thói quen ăn uống
+  register: informal
+  situation_vi: Tổng kết bài 5 và bài 6.
+  dialogue:
+  - speaker: A
+    de: Was isst du morgens zum Frühstück?
+    vi: Buổi sáng bạn ăn gì cho bữa sáng?
+  - speaker: B
+    de: Morgens esse ich ein Brötchen mit Käse. Ich mag Käse sehr.
+    vi: Buổi sáng mình ăn một cái bánh mì nhỏ với phô mai. Mình rất thích phô mai.
+  lesson_refs:
+  - a1.m04.review

@@ -1,0 +1,140 @@
+schema_version: "2.0"
+content_type: exercise-set
+id: a1.m10.l03.ex
+level: A1
+module: a1.m10
+lesson: a1.m10.l03
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  tags: ["perfekt", "partizip"]
+exercises:
+  - id: a1.m10.l03.ex.01
+    type: matching
+    skill: grammar
+    difficulty: 2
+    objective_refs: [a1.m10.l03.obj1, a1.g.partizip2-unregelmaessig.obj1, a1.m10.obj.partizip]
+    instructions_vi: "Nối nguyên mẫu với Partizip II."
+    items:
+      - { id: a1.m10.l03.ex.01.q1, left: "lesen", right: "gelesen", explanation_vi: "Bất quy tắc: ge + les + en." }
+      - { id: a1.m10.l03.ex.01.q2, left: "essen", right: "gegessen", explanation_vi: "Bất quy tắc: ge + gess + en." }
+      - { id: a1.m10.l03.ex.01.q3, left: "trinken", right: "getrunken", explanation_vi: "i → u: getrunken." }
+      - { id: a1.m10.l03.ex.01.q4, left: "treffen", right: "getroffen", explanation_vi: "e → o: getroffen." }
+      - { id: a1.m10.l03.ex.01.q5, left: "finden", right: "gefunden", explanation_vi: "i → u: gefunden." }
+  - id: a1.m10.l03.ex.02
+    type: fill-blank
+    skill: grammar
+    difficulty: 2
+    objective_refs: [a1.m10.l03.obj1, a1.g.partizip2-ieren.obj1, a1.m10.obj.partizip]
+    instructions_vi: "Điền Partizip II của động từ -ieren."
+    items:
+      - { id: a1.m10.l03.ex.02.q1, prompt: "Er hat lange ___.", hint_vi: "telefonieren", answers: ["telefoniert"], explanation_vi: "Động từ -ieren: không có „ge-“, thêm -t." }
+      - { id: a1.m10.l03.ex.02.q2, prompt: "Wir haben die Stadt ___.", hint_vi: "fotografieren", answers: ["fotografiert"], explanation_vi: "fotografieren → fotografiert." }
+      - { id: a1.m10.l03.ex.02.q3, prompt: "Sie hat in Berlin ___.", hint_vi: "studieren", answers: ["studiert"], explanation_vi: "studieren → studiert." }
+  - id: a1.m10.l03.ex.03
+    type: fill-blank
+    skill: grammar
+    difficulty: 2
+    objective_refs: [a1.m10.l03.obj1, a1.g.partizip2-unregelmaessig.obj1, a1.m10.obj.partizip]
+    instructions_vi: "Điền Partizip II bất quy tắc."
+    items:
+      - { id: a1.m10.l03.ex.03.q1, prompt: "Ich habe einen Film ___.", hint_vi: "sehen", answers: ["gesehen"], explanation_vi: "sehen → gesehen." }
+      - { id: a1.m10.l03.ex.03.q2, prompt: "Wir haben Pizza ___.", hint_vi: "essen", answers: ["gegessen"], explanation_vi: "essen → gegessen." }
+      - { id: a1.m10.l03.ex.03.q3, prompt: "Hast du das Buch ___?", hint_vi: "lesen", answers: ["gelesen"], explanation_vi: "lesen → gelesen." }
+      - { id: a1.m10.l03.ex.03.q4, prompt: "Er hat Tee ___.", hint_vi: "trinken", answers: ["getrunken"], explanation_vi: "trinken → getrunken." }
+  - id: a1.m10.l03.ex.04
+    type: multiple-choice
+    skill: grammar
+    difficulty: 2
+    objective_refs: [a1.m10.l03.obj1, a1.g.partizip2-unregelmaessig.obj1, a1.g.perfekt-satzklammer.obj1]
+    instructions_vi: "Chọn dạng đúng."
+    items:
+      - id: a1.m10.l03.ex.04.q1
+        prompt: "Wir haben im Café ___."
+        options: [{ id: a, text: "getrinkt" }, { id: b, text: "getrunken" }, { id: c, text: "trinken" }]
+        answer: [b]
+        explanation_vi: "trinken → getrunken (i → u, đuôi -en)."
+      - id: a1.m10.l03.ex.04.q2
+        prompt: "Sie hat gestern lange ___."
+        options: [{ id: a, text: "geschlaft" }, { id: b, text: "schlafen" }, { id: c, text: "geschlafen" }]
+        answer: [c]
+        explanation_vi: "schlafen → geschlafen."
+      - id: a1.m10.l03.ex.04.q3
+        prompt: "Er hat Freunde ___."
+        options: [{ id: a, text: "getroffen" }, { id: b, text: "getreffen" }, { id: c, text: "treffen" }]
+        answer: [a]
+        explanation_vi: "treffen → getroffen (e → o)."
+      - id: a1.m10.l03.ex.04.q4
+        prompt: "Hat er das Foto ___?"
+        options: [{ id: a, text: "gefindet" }, { id: b, text: "gefunden" }, { id: c, text: "finden" }]
+        answer: [b]
+        explanation_vi: "finden → gefunden."
+      - id: a1.m10.l03.ex.04.q5
+        prompt: "Ich ___ gestern nach Hause gegangen."
+        options: [{ id: a, text: "habe" }, { id: b, text: "bin" }, { id: c, text: "hat" }]
+        answer: [b]
+        explanation_vi: "„gehen“ là động từ di chuyển → dùng „sein“: ich bin gegangen."
+  - id: a1.m10.l03.ex.05
+    type: listening-practice
+    skill: listening
+    difficulty: 2
+    objective_refs: [a1.m10.l03.obj2, a1.m10.obj.erzaehlen]
+    instructions_vi: "Nghe (hoặc đọc transcript) và chọn đáp án."
+    stimulus:
+      text_de: "Am Wochenende habe ich viel gemacht. Am Samstag habe ich Freunde getroffen und wir haben Pizza gegessen. Am Sonntag habe ich lange geschlafen und einen Film gesehen."
+      audio_status: pending-tts
+    items:
+      - id: a1.m10.l03.ex.05.q1
+        prompt: "Was hat Mira am Samstag gegessen?"
+        options: [{ id: a, text: "Pizza." }, { id: b, text: "Kuchen." }, { id: c, text: "Brot." }]
+        answer: [a]
+        explanation_vi: "„wir haben Pizza gegessen“."
+      - id: a1.m10.l03.ex.05.q2
+        prompt: "Wann hat sie lange geschlafen?"
+        options: [{ id: a, text: "Am Samstag." }, { id: b, text: "Am Sonntag." }, { id: c, text: "Am Freitag." }]
+        answer: [b]
+        explanation_vi: "„Am Sonntag habe ich lange geschlafen“."
+      - id: a1.m10.l03.ex.05.q3
+        prompt: "Was hat sie am Sonntag gesehen?"
+        options: [{ id: a, text: "Eine Stadt." }, { id: b, text: "Ihre Freunde." }, { id: c, text: "Einen Film." }]
+        answer: [c]
+        explanation_vi: "„einen Film gesehen“."
+  - id: a1.m10.l03.ex.06
+    type: word-order
+    skill: grammar
+    difficulty: 2
+    objective_refs: [a1.m10.l03.obj1, a1.g.partizip2-unregelmaessig.obj1]
+    instructions_vi: "Sắp xếp các từ thành câu Perfekt đúng."
+    items:
+      - id: a1.m10.l03.ex.06.q1
+        tokens: ["gegessen.", "Pizza", "Wir", "haben"]
+        answer: "Wir haben Pizza gegessen."
+        translation_vi: "Chúng tôi đã ăn pizza."
+        explanation_vi: "haben ở vị trí 2, Partizip II cuối câu."
+      - id: a1.m10.l03.ex.06.q2
+        tokens: ["gesehen.", "Er", "einen", "hat", "Film"]
+        answer: "Er hat einen Film gesehen."
+        translation_vi: "Anh ấy đã xem một bộ phim."
+        explanation_vi: "Satzklammer: hat … gesehen."
+      - id: a1.m10.l03.ex.06.q3
+        tokens: ["gefunden.", "Ich", "das", "Foto", "habe"]
+        answer: "Ich habe das Foto gefunden."
+        translation_vi: "Tôi đã tìm thấy tấm ảnh."
+        explanation_vi: "finden → gefunden."
+  - id: a1.m10.l03.ex.07
+    type: speaking-practice
+    skill: speaking
+    difficulty: 2
+    objective_refs: [a1.m10.l03.obj1, a1.m10.obj.erzaehlen]
+    instructions_vi: "Hãy kể 3–4 câu về cuối tuần vừa rồi bằng Perfekt."
+    items:
+      - id: a1.m10.l03.ex.07.q1
+        prompt_vi: "Kể bạn đã gặp ai, ăn gì, xem gì."
+        model_answer: { de: "Am Samstag habe ich meine Freunde getroffen. Wir haben Pizza gegessen. Am Sonntag habe ich einen Film gesehen.", vi: "Thứ Bảy tôi đã gặp bạn bè. Chúng tôi đã ăn pizza. Chủ nhật tôi đã xem một bộ phim." }
+        rubric_vi: ["Dùng haben + Partizip II đúng.", "Partizip II bất quy tắc đúng (getroffen, gegessen, gesehen).", "Có cụm thời gian (am Samstag, am Sonntag).", "Nói trôi chảy."]
+        explanation_vi: "Bài mẫu dùng ba Partizip II bất quy tắc."

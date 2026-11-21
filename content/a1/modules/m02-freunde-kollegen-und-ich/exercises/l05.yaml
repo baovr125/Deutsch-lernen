@@ -1,0 +1,326 @@
+schema_version: '2.0'
+content_type: exercise-set
+id: a1.m02.l05.ex
+level: A1
+module: a1.m02
+lesson: a1.m02.l05
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+exercises:
+- id: a1.m02.l05.ex.01
+  type: matching
+  skill: vocabulary
+  difficulty: 1
+  objective_refs:
+  - a1.m02.l05.obj2
+  instructions_vi: Nối số với cách đọc.
+  items:
+  - id: a1.m02.l05.ex.01.q1
+    pairs:
+    - left: '21'
+      right: einundzwanzig
+    - left: '35'
+      right: fünfunddreißig
+    - left: '47'
+      right: siebenundvierzig
+    - left: '66'
+      right: sechsundsechzig
+    - left: '100'
+      right: hundert
+    explanation_vi: 'Đơn vị + und + chục. 66: sechs + und + sechzig.'
+- id: a1.m02.l05.ex.02
+  type: dictation
+  skill: listening
+  difficulty: 2
+  objective_refs:
+  - a1.m02.l05.obj2
+  instructions_vi: Nghe và viết số bằng chữ số.
+  items:
+  - id: a1.m02.l05.ex.02.q1
+    tts: dreiundzwanzig
+    answers:
+    - '23'
+    explanation_vi: drei + und + zwanzig.
+  - id: a1.m02.l05.ex.02.q2
+    tts: achtundfünfzig
+    answers:
+    - '58'
+    explanation_vi: acht + und + fünfzig.
+  - id: a1.m02.l05.ex.02.q3
+    tts: zweihundertvierzig
+    answers:
+    - '240'
+    explanation_vi: zweihundert + vierzig.
+  - id: a1.m02.l05.ex.02.q4
+    tts: tausendfünfhundert
+    answers:
+    - '1500'
+    explanation_vi: tausend + fünfhundert = 1500 (hoặc 1.500).
+- id: a1.m02.l05.ex.03
+  type: fill-blank
+  skill: grammar
+  difficulty: 1
+  objective_refs:
+  - a1.m02.l05.obj1
+  instructions_vi: Điền dạng đúng của haben hoặc sein.
+  items:
+  - id: a1.m02.l05.ex.03.q1
+    prompt: Ich ___ 22 Jahre alt.
+    answers:
+    - bin
+    explanation_vi: Tuổi → sein.
+  - id: a1.m02.l05.ex.03.q2
+    prompt: Er ___ am Montag frei.
+    answers:
+    - hat
+    explanation_vi: frei|haben → er hat … frei.
+  - id: a1.m02.l05.ex.03.q3
+    prompt: ___ du ein Auto?
+    answers:
+    - Hast
+    explanation_vi: du hast.
+  - id: a1.m02.l05.ex.03.q4
+    prompt: Wir ___ Krankenpfleger.
+    answers:
+    - sind
+    explanation_vi: Nghề → sein; wir sind.
+  - id: a1.m02.l05.ex.03.q5
+    prompt: Ihr ___ viel Arbeit.
+    answers:
+    - habt
+    explanation_vi: ihr habt.
+- id: a1.m02.l05.ex.04
+  type: multiple-choice
+  skill: listening
+  difficulty: 2
+  objective_refs:
+  - a1.m02.l05.obj2
+  - a1.m02.l05.obj4
+  instructions_vi: Nghe phỏng vấn trên radio. Chọn số đúng.
+  stimulus:
+    ref: a1.m02.l05.b6
+  items:
+  - id: a1.m02.l05.ex.04.q1
+    prompt: Ông Kaya bao nhiêu tuổi?
+    options:
+    - id: a
+      text: '36'
+    - id: b
+      text: '64'
+    - id: c
+      text: '46'
+    answer:
+    - c
+    explanation_vi: sechsundvierzig = 46.
+  - id: a1.m02.l05.ex.04.q2
+    prompt: Ông Kaya lái bao nhiêu km mỗi ngày?
+    options:
+    - id: a
+      text: '520'
+    - id: b
+      text: '150'
+    - id: c
+      text: '250'
+    answer:
+    - c
+    explanation_vi: zweihundertfünfzig.
+  - id: a1.m02.l05.ex.04.q3
+    prompt: Bệnh viện có bao nhiêu phòng?
+    options:
+    - id: a
+      text: '180'
+    - id: b
+      text: '80'
+    - id: c
+      text: '800'
+    answer:
+    - c
+    explanation_vi: achthundert.
+- id: a1.m02.l05.ex.05
+  type: true-false
+  skill: listening
+  difficulty: 2
+  objective_refs:
+  - a1.m02.l05.obj4
+  instructions_vi: Nghe lại. Đúng hay sai?
+  stimulus:
+    ref: a1.m02.l05.b6
+  items:
+  - id: a1.m02.l05.ex.05.q1
+    prompt: Ông Kaya thường làm ban đêm.
+    answer: true
+    explanation_vi: “Ich arbeite meistens nachts.”
+  - id: a1.m02.l05.ex.05.q2
+    prompt: Chị Trần làm 40 giờ mỗi tuần.
+    answer: false
+    explanation_vi: 38 Stunden pro Woche.
+- id: a1.m02.l05.ex.06
+  type: multiple-choice
+  skill: reading
+  difficulty: 2
+  objective_refs:
+  - a1.m02.l05.obj4
+  instructions_vi: Đọc ba đoạn văn. Chọn đáp án đúng.
+  stimulus:
+    ref: a1.m02.l05.b7
+  items:
+  - id: a1.m02.l05.ex.06.q1
+    prompt: Mai học gì?
+    options:
+    - id: a
+      text: Deutsch
+    - id: b
+      text: Informatik
+    - id: c
+      text: Medizin
+    answer:
+    - c
+    explanation_vi: „Ich studiere Medizin …“
+  - id: a1.m02.l05.ex.06.q2
+    prompt: Jonas thường nghỉ khi nào?
+    options:
+    - id: a
+      text: am Montag
+    - id: b
+      text: am Wochenende
+    - id: c
+      text: am Nachmittag
+    answer:
+    - c
+    explanation_vi: „… am Nachmittag habe ich meistens frei.“
+  - id: a1.m02.l05.ex.06.q3
+    prompt: Nhà hàng nấu cho bao nhiêu khách mỗi ngày?
+    options:
+    - id: a
+      text: '102'
+    - id: b
+      text: '220'
+    - id: c
+      text: '120'
+    answer:
+    - c
+    explanation_vi: „… jeden Tag für 120 Gäste.“
+  - id: a1.m02.l05.ex.06.q4
+    prompt: Ai làm việc vào cuối tuần?
+    options:
+    - id: a
+      text: Jonas
+    - id: b
+      text: Mai
+    - id: c
+      text: Frau Weber
+    answer:
+    - b
+    explanation_vi: 'Mai: „Am Wochenende arbeite ich im Café.“'
+- id: a1.m02.l05.ex.07
+  type: fill-blank
+  skill: grammar
+  difficulty: 2
+  objective_refs:
+  - a1.m02.l05.obj3
+  instructions_vi: Viết dạng số nhiều.
+  items:
+  - id: a1.m02.l05.ex.07.q1
+    prompt: der Patient → die ___
+    answers:
+    - Patienten
+    explanation_vi: -en.
+  - id: a1.m02.l05.ex.07.q2
+    prompt: die Stunde → die ___
+    answers:
+    - Stunden
+    explanation_vi: -n.
+  - id: a1.m02.l05.ex.07.q3
+    prompt: das Krankenhaus → die ___
+    answers:
+    - Krankenhäuser
+    explanation_vi: ¨-er.
+  - id: a1.m02.l05.ex.07.q4
+    prompt: das Zimmer → die ___
+    answers:
+    - Zimmer
+    explanation_vi: Không đổi (-er).
+  - id: a1.m02.l05.ex.07.q5
+    prompt: drei ___ (das Jahr)
+    answers:
+    - Jahre
+    explanation_vi: 'Sau số đếm dùng số nhiều: Jahre.'
+- id: a1.m02.l05.ex.08
+  type: translation
+  skill: grammar
+  difficulty: 2
+  objective_refs:
+  - a1.m02.l05.obj1
+  - a1.m02.l05.obj2
+  instructions_vi: Dịch sang tiếng Đức.
+  items:
+  - id: a1.m02.l05.ex.08.q1
+    direction: vi-de
+    source: Tôi 25 tuổi.
+    answers:
+    - Ich bin 25 Jahre alt.
+    - Ich bin 25.
+    - Ich bin fünfundzwanzig Jahre alt.
+    - Ich bin fünfundzwanzig.
+    explanation_vi: Tuổi dùng sein.
+  - id: a1.m02.l05.ex.08.q2
+    direction: vi-de
+    source: Thứ Hai tôi được nghỉ.
+    answers:
+    - Am Montag habe ich frei.
+    - Ich habe am Montag frei.
+    explanation_vi: frei|haben; frei ở cuối câu.
+- id: a1.m02.l05.ex.09
+  type: speaking-practice
+  skill: speaking
+  difficulty: 2
+  objective_refs:
+  - a1.m02.l05.obj1
+  - a1.m02.l05.obj2
+  - a1.m02.l05.obj4
+  instructions_vi: Trả lời 5 câu hỏi về công việc (phần Nói). Ghi âm.
+  grading: self
+  rubric:
+  - criterion_vi: Trả lời đủ 5 câu bằng câu hoàn chỉnh
+    points: 2
+  - criterion_vi: Dùng đúng sein (tuổi, nghề) và haben (ngày nghỉ)
+    points: 2
+  - criterion_vi: Đọc số đúng (đơn vị + und + chục)
+    points: 1
+  items:
+  - id: a1.m02.l05.ex.09.q1
+    prompt_vi: Phỏng vấn về công việc
+    model_answer:
+      de: Ich bin Verkäuferin. Ich bin 29 Jahre alt. Ich arbeite bei Rewe. Ich arbeite 30 Stunden pro Woche. Am Sonntag habe ich frei.
+    explanation_vi: So sánh với mẫu ở phần Nói.
+- id: a1.m02.l05.ex.10
+  type: writing-practice
+  skill: writing
+  difficulty: 2
+  objective_refs:
+  - a1.m02.l05.obj4
+  - a1.m02.l05.obj1
+  instructions_vi: 'Viết đoạn văn 5–6 câu: Nghề của tôi (phần Viết).'
+  grading: self
+  rubric:
+  - criterion_vi: 'Nội dung: đủ 6 thông tin'
+    points: 3
+  - criterion_vi: haben/sein đúng; nghề không mạo từ; frei ở cuối câu
+    points: 2
+  - criterion_vi: 'Chính tả: danh từ viết hoa'
+    points: 1
+  items:
+  - id: a1.m02.l05.ex.10.q1
+    prompt_vi: Nghề của tôi
+    model_answer:
+      de: Ich heiße Minh und bin 26 Jahre alt. Ich bin Informatiker. Ich arbeite bei einer Firma in Hamburg. Ich arbeite 40 Stunden pro Woche, von Montag bis Freitag. Am Wochenende habe ich frei.
+    explanation_vi: So sánh với bài mẫu.

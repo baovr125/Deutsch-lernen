@@ -1,0 +1,292 @@
+schema_version: '2.0'
+content_type: lesson
+id: a1.m01.l03
+level: A1
+module: a1.m01
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+  references:
+  - work: Netzwerk neu A1 (Klett)
+    scope: 'Kapitel 1: Woher kommen Sie?'
+    verification: verified
+  notes_vi: 'Sprachhandlungen: Hörtext verstehen und Antworten zuordnen; einen Dialog variieren; Interviews durchführen; Personen vorstellen. Grammatik: W-Frage, Aussagesatz, Verben und Personalpronomen (Singular). Wortschatz: Herkunft.'
+order: 3
+title_de: Woher kommen Sie?
+title_vi: Bạn đến từ đâu? – Quê quán, nơi ở và ngôn ngữ
+topic_vi: Hỏi và nói về quê quán, nơi ở, ngôn ngữ; giới thiệu người khác
+duration_min: 80
+difficulty: 2
+cefr:
+- A1.SI2
+- A1.SP1
+- A1.H1
+- A1.L1
+prerequisites:
+- a1.m01.l02
+objectives:
+- id: a1.m01.l03.obj1
+  text_vi: 'Hỏi và nói quê quán: Woher kommst du / kommen Sie? – Ich komme aus …'
+  skill: grammar
+- id: a1.m01.l03.obj2
+  text_vi: 'Hỏi và nói nơi ở: Wo wohnst du / wohnen Sie? – Ich wohne in …'
+  skill: grammar
+- id: a1.m01.l03.obj3
+  text_vi: 'Hỏi và nói về ngôn ngữ: Welche Sprachen sprichst du? – Ich spreche …'
+  skill: grammar
+- id: a1.m01.l03.obj4
+  text_vi: Giới thiệu người khác bằng er/sie với động từ chia đúng (er kommt, sie spricht).
+  skill: grammar
+- id: a1.m01.l03.obj5
+  text_vi: Đặt câu hỏi W- và trả lời bằng câu kể với động từ ở vị trí 2.
+  skill: grammar
+vocabulary_refs:
+- a1.m01.v.kommen
+- a1.m01.v.aus
+- a1.m01.v.woher
+- a1.m01.v.wo
+- a1.m01.v.wohnen
+- a1.m01.v.in
+- a1.m01.v.sprechen
+- a1.m01.v.deutschland
+- a1.m01.v.vietnam
+- a1.m01.v.deutsch
+- a1.m01.v.vietnamesisch
+- a1.m01.v.englisch
+- a1.m01.v.sprache
+- a1.m01.v.welche
+- a1.m01.v.er
+- a1.m01.v.sie-pron
+- a1.m01.v.person
+- a1.m01.v.frage
+- a1.m01.v.antwort
+- a1.m01.v.reisefuehrer
+- a1.m01.v.reisefuehrerin
+- a1.m01.v.partner
+- a1.m01.v.partnerin
+- a1.m01.v.vor-stellen
+- a1.m01.v.was
+review_vocabulary_refs:
+- a1.m01.v.ich
+- a1.m01.v.du
+- a1.m01.v.sein
+- a1.m01.v.heissen
+- a1.m01.v.wer
+- a1.m01.v.wie
+- a1.m01.v.sie
+- a1.m01.v.frau
+- a1.m01.v.herr
+- a1.m01.v.mein
+grammar_refs:
+- a1.g.verben-singular
+- a1.g.w-fragen
+- a1.g.aussagesatz
+grammar_focus:
+- ref: a1.g.verben-singular
+  focus_vi: Thêm er/sie/es (-t); sprechen đổi e → i; phân biệt sie và Sie.
+- ref: a1.g.w-fragen
+  focus_vi: Từ để hỏi wer, was, wie, wo, woher, welche; trật tự W-Wort – động từ – chủ ngữ.
+- ref: a1.g.aussagesatz
+  focus_vi: Động từ ở vị trí 2; vị trí 1 có thể gồm nhiều từ; nối câu bằng und.
+expression_refs:
+- a1.m01.x.woher-kommst-du-woher-kommen-sie-ich-kom
+- a1.m01.x.wo-wohnst-du-wo-wohnen-sie-ich-wohne-in
+- a1.m01.x.welche-sprachen-sprichst-du-ich-spreche
+- a1.m01.x.das-ist-er-sie-kommt-aus-und-wohnt-in
+exercise_set_ref: a1.m01.l03.ex
+summary_vi: 'Woher kommst du/kommen Sie? – Ich komme aus … | Wo wohnst du/wohnen Sie? – Ich wohne in … | Welche Sprachen sprichst du? – Ich spreche … | Das ist … Er/Sie kommt aus … Câu hỏi W-: W-Wort – động từ – chủ ngữ; câu kể: động từ ở vị trí 2. er/sie + -t; sprechen: du sprichst, er spricht.'
+self_check:
+- 'Tôi hỏi và trả lời được: Bạn đến từ đâu? Bạn sống ở đâu? Bạn nói ngôn ngữ nào?'
+- Tôi không nhầm woher (→ aus) và wo (→ in).
+- Tôi giới thiệu được một người khác bằng er/sie.
+- Tôi đặt được câu hỏi W- với động từ ở vị trí 2.
+blocks:
+- id: a1.m01.l03.b1
+  kind: explanation
+  title_vi: Giới thiệu bài học
+  body_vi: 'Sau tên, câu hỏi tiếp theo khi làm quen thường là: **Bạn đến từ đâu? Bạn sống ở đâu? Bạn nói những thứ tiếng nào?**
+
+
+    Trong bài này bạn học:
+
+    - Ba câu hỏi W- quan trọng: **Woher …? Wo …? Welche Sprachen …?** (chủ điểm *Câu hỏi W-*)
+
+    - Câu kể với **động từ ở vị trí 2** (chủ điểm *Câu kể*)
+
+    - Chia động từ cho **er** (anh ấy) và **sie** (cô ấy) để giới thiệu người khác (chủ điểm *Chia động từ ở số ít*)
+
+
+    **Cặp dễ nhầm số 1 của người Việt:**
+
+    - *Woher kommst du?* → trả lời bằng **aus**: *Ich komme **aus** Vietnam.*
+
+    - *Wo wohnst du?* → trả lời bằng **in**: *Ich wohne **in** Berlin.*'
+- id: a1.m01.l03.b2
+  kind: explanation
+  title_vi: 'Nói nghề nghiệp: không dùng mạo từ'
+  skill: grammar
+  body_vi: 'Khi nói ai đó làm nghề gì, tiếng Đức KHÔNG dùng mạo từ: Er ist Reiseführer (không nói “Er ist der Reiseführer” hay “ein Reiseführer”). Với nữ, thêm -in: Sie ist Reiseführerin. Bạn sẽ học thêm nhiều nghề ở Kapitel 2.'
+  examples:
+  - de: Er ist Reiseführer.
+    vi: Anh ấy là hướng dẫn viên du lịch.
+  - de: Sie ist Reiseführerin.
+    vi: Cô ấy là hướng dẫn viên du lịch.
+- id: a1.m01.l03.b3
+  kind: pronunciation
+  title_vi: 'sp đầu từ = [ʃp]: sprechen, Sprache'
+  skill: pronunciation
+  body_vi: 'sp đầu từ = [ʃp]: sprechen, Sprache
+
+
+    Ở đầu từ (hoặc đầu phần từ), sp đọc [ʃp] và st đọc [ʃt] – như có chữ “sch” phía trước. sprechen [ˈʃpʁɛçn̩], Sprache [ˈʃpʁaːxə]. Không đọc “x-prê-khen”.
+
+
+    Luyện tập: Đọc: Ich spreche – du sprichst – er spricht. Bật rõ t cuối trong spricht.'
+  items:
+  - de: sprechen
+    vi: nói
+    ipa: '[ˈʃpʁɛçn̩]'
+  - de: Sprache
+    vi: ngôn ngữ
+    ipa: '[ˈʃpʁaːxə]'
+  - de: spricht
+    vi: (anh ấy) nói
+    ipa: '[ʃpʁɪçt]'
+- id: a1.m01.l03.b4
+  kind: pronunciation
+  title_vi: woher [voˈheːɐ̯] và ngữ điệu câu hỏi W-
+  skill: pronunciation
+  body_vi: 'woher [voˈheːɐ̯] và ngữ điệu câu hỏi W-
+
+
+    woher nhấn ở âm tiết thứ hai: wo-HER. Câu hỏi W- xuống giọng ở cuối: Woher kommen Sie? ↘
+
+
+    Luyện tập: Nói 5 câu hỏi W- của bài, mỗi câu kết thúc bằng giọng đi xuống.'
+  items:
+  - de: Woher kommen Sie? ↘
+    vi: Ông/Bà đến từ đâu?
+    ipa: '[voˈheːɐ̯ ˈkɔmən ziː]'
+  - de: Wo wohnst du? ↘
+    vi: Bạn sống ở đâu?
+- id: a1.m01.l03.b5
+  kind: examples
+  title_vi: Câu ví dụ
+  examples:
+  - de: Woher kommen Sie? – Ich komme aus Vietnam.
+    vi: Ông/Bà đến từ đâu? – Tôi đến từ Việt Nam.
+  - de: Wo wohnst du? – Ich wohne in Hamburg.
+    vi: Bạn sống ở đâu? – Mình sống ở Hamburg.
+  - de: Welche Sprachen sprechen Sie? – Deutsch und Englisch.
+    vi: Ông/Bà nói những ngôn ngữ nào? – Tiếng Đức và tiếng Anh.
+  - de: Das ist Herr Novak. Er wohnt in Berlin.
+    vi: Đây là ông Novak. Ông ấy sống ở Berlin.
+  - de: Sie heißt Mai und spricht Vietnamesisch.
+    vi: Cô ấy tên là Mai và nói tiếng Việt.
+  - de: Wer ist die Person? – Das ist Frau Koch. Sie ist Reiseführerin.
+    vi: Người đó là ai? – Đó là bà Koch. Bà ấy là hướng dẫn viên du lịch.
+  - de: Was ist das? – Das ist ein Hotel.
+    vi: Đó là cái gì? – Đó là một khách sạn.
+- id: a1.m01.l03.b6
+  kind: listening
+  title_vi: Phỏng vấn ở quán cà phê của trường ngôn ngữ
+  lines:
+  - speaker: Interviewerin
+    de: Hallo! Wie heißt du?
+    vi: Chào bạn! Bạn tên là gì?
+  - speaker: Minh
+    de: Ich heiße Minh.
+    vi: Mình tên là Minh.
+  - speaker: Interviewerin
+    de: Woher kommst du, Minh?
+    vi: Minh đến từ đâu?
+  - speaker: Minh
+    de: Ich komme aus Vietnam, aus Hanoi.
+    vi: Mình đến từ Việt Nam, từ Hà Nội.
+  - speaker: Interviewerin
+    de: Und wo wohnst du?
+    vi: Còn bạn sống ở đâu?
+  - speaker: Minh
+    de: Ich wohne in Leipzig.
+    vi: Mình sống ở Leipzig.
+  - speaker: Interviewerin
+    de: Guten Tag! Wie heißen Sie?
+    vi: Xin chào! Bà tên là gì ạ?
+  - speaker: Frau Schneider
+    de: Schneider. Ich bin Reiseführerin.
+    vi: Schneider. Tôi là hướng dẫn viên du lịch.
+  - speaker: Interviewerin
+    de: Woher kommen Sie, Frau Schneider?
+    vi: Bà đến từ đâu, thưa bà Schneider?
+  - speaker: Frau Schneider
+    de: Aus Deutschland. Ich wohne in Hamburg.
+    vi: Từ Đức. Tôi sống ở Hamburg.
+  - speaker: Interviewerin
+    de: Welche Sprachen sprechen Sie?
+    vi: Bà nói những ngôn ngữ nào?
+  - speaker: Frau Schneider
+    de: Deutsch, Englisch und ein bisschen Vietnamesisch!
+    vi: Tiếng Đức, tiếng Anh và một chút tiếng Việt!
+  audio_status: pending-tts
+  situation_vi: 'Một sinh viên làm phỏng vấn ngắn cho tờ báo của trường. Người thứ nhất: Minh (xưng du). Người thứ hai: bà Schneider (xưng Sie).'
+  skill: listening
+  audio:
+    speed: slow
+- id: a1.m01.l03.b7
+  kind: reading
+  title_vi: Danh thiếp và lời giới thiệu
+  paragraphs:
+  - de: "┌─────────────────────────────┐\n  Sabine Koch\n  Reiseführerin\n  Stadtführungen in Berlin\n  Sprachen: Deutsch · Englisch · Spanisch\n└─────────────────────────────┘\n\nDas ist Sabine Koch. Sie kommt aus Österreich, aus Wien.\nSie wohnt in Berlin. Sie ist Reiseführerin.\nSie spricht Deutsch, Englisch und Spanisch."
+    vi: 'Sabine Koch – Hướng dẫn viên du lịch – Dẫn tour tham quan thành phố ở Berlin –
+
+      Ngôn ngữ: tiếng Đức · tiếng Anh · tiếng Tây Ban Nha
+
+
+      Đây là Sabine Koch. Cô ấy đến từ Áo, từ Viên.
+
+      Cô ấy sống ở Berlin. Cô ấy là hướng dẫn viên du lịch.
+
+      Cô ấy nói tiếng Đức, tiếng Anh và tiếng Tây Ban Nha.'
+  text_type_vi: Danh thiếp và đoạn giới thiệu ngắn
+  skill: reading
+  glossary:
+  - de: die Stadtführung
+    vi: chuyến tham quan thành phố có hướng dẫn
+  - de: Österreich
+    vi: nước Áo (học ở bài 5)
+  - de: Spanisch
+    vi: tiếng Tây Ban Nha (học ở bài 5)
+- id: a1.m01.l03.b8
+  kind: speaking
+  title_vi: Phỏng vấn và giới thiệu bạn cùng nhóm
+  skill: speaking
+  task_vi: Phỏng vấn một người (bạn học, người thân, hoặc tự trả lời cho một nhân vật tưởng tượng) bằng 4 câu hỏi W-, sau đó giới thiệu người đó bằng er/sie.
+  steps_vi:
+  - 'Hỏi: Wie heißt du? Woher kommst du? Wo wohnst du? Welche Sprachen sprichst du?'
+  - Ghi chú câu trả lời.
+  - 'Giới thiệu: Das ist … Er/Sie kommt aus … Er/Sie wohnt in … Er/Sie spricht …'
+  lines:
+  - speaker: Lan
+    de: Das ist Tom. Er kommt aus Deutschland. Er wohnt in Köln. Er spricht Deutsch und Englisch.
+    vi: Đây là Tom. Anh ấy đến từ Đức. Anh ấy sống ở Köln. Anh ấy nói tiếng Đức và tiếng Anh.
+- id: a1.m01.l03.b9
+  kind: writing
+  title_vi: Viết về một người từ phiếu thông tin
+  skill: writing
+  task_vi: 'Đọc phiếu thông tin và viết 4 câu giới thiệu người đó. Phiếu: Name: Paul Weber · Herkunft: Deutschland (Hamburg) · Wohnort: München · Sprachen: Deutsch, Englisch'
+  model:
+    de: Das ist Paul Weber. Er kommt aus Deutschland, aus Hamburg. Er wohnt in München. Er spricht Deutsch und Englisch.
+    vi: Đây là Paul Weber. Anh ấy đến từ Đức, từ Hamburg. Anh ấy sống ở München. Anh ấy nói tiếng Đức và tiếng Anh.
+  checklist_vi:
+  - Dùng er cho người nam (sie cho người nữ).
+  - 'Động từ có đuôi -t: kommt, wohnt, spricht.'
+  - kommen + aus, wohnen + in.
+  - Động từ ở vị trí 2 trong mỗi câu.

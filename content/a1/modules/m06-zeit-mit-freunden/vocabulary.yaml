@@ -1,0 +1,1866 @@
+schema_version: '2.0'
+content_type: vocabulary-set
+id: a1.m06.vocab
+level: A1
+module: a1.m06
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+  references:
+  - work: Netzwerk neu A1 (Klett)
+    scope: 'Kapitel 6: Zeit mit Freunden; Eine Überraschung für Sofia; Im Restaurant; Landeskunde: Kneipen & Co in D-A-CH; Landeskunde: Was ist los in ...?; kurz und klar: Redemittel und Grammatik'
+    verification: verified
+  notes_vi: Trình tự và phạm vi theo Stoffverteilungsplan Netzwerk neu A1.1 (Kapitel 6, 10 UE) và Kapitelwortschatz. Toàn bộ hội thoại, bài tập, bài đọc tự biên soạn mới hoàn toàn.
+entries:
+- id: a1.m06.v.vorbeikommen
+  de: vorbeikommen
+  pos: verb
+  vi: ghé qua chơi, tạt qua thăm
+  forms:
+    text: du kommst vorbei, er kommt vorbei
+    er: kommt vorbei
+    separable: true
+  ipa: /foːɐ̯ˈbaɪ̯ˌkɔmən/
+  example:
+    de: Kommst du heute Abend bei mir vorbei?
+    vi: Tối nay bạn ghé qua nhà mình chơi nhé?
+  usage_vi: 'Động từ tách: vorbei ở cuối câu.'
+  lesson_refs:
+  - a1.m06.l01
+  tags:
+  - verb
+  - freizeit
+  - trennbar
+  source: nwn-lern
+- id: a1.m06.v.ausgehen
+  de: ausgehen
+  pos: verb
+  vi: đi ra ngoài chơi, đi chơi tối
+  forms:
+    text: du gehst aus, er geht aus
+    er: geht aus
+    separable: true
+  ipa: /ˈaʊ̯sˌɡeːən/
+  example:
+    de: Am Freitag wollen wir ausgehen.
+    vi: Tối thứ Sáu chúng tôi muốn đi chơi.
+  usage_vi: 'Động từ tách: aus ở cuối câu.'
+  lesson_refs:
+  - a1.m06.l01
+  tags:
+  - verb
+  - freizeit
+  - trennbar
+  source: nwn-lern
+- id: a1.m06.v.mitmachen
+  de: mitmachen
+  pos: verb
+  vi: tham gia cùng
+  forms:
+    text: du machst mit, er macht mit
+    er: macht mit
+    separable: true
+  ipa: /ˈmɪtˌmaxn̩/
+  example:
+    de: Wer will beim Spiel mitmachen?
+    vi: Ai muốn tham gia trò chơi cùng không?
+  usage_vi: 'Động từ tách: mit ở cuối câu.'
+  lesson_refs:
+  - a1.m06.l01
+  tags:
+  - verb
+  - freizeit
+  - trennbar
+  source: nwn-lern
+- id: a1.m06.v.mitfeiern
+  de: mitfeiern
+  pos: verb
+  vi: cùng ăn mừng, chung vui tiệc
+  forms:
+    text: du feierst mit, er feiert mit
+    er: feiert mit
+    separable: true
+  ipa: /ˈmɪtˌfaɪ̯ɐn/
+  example:
+    de: Wir wollen heute zusammen mitfeiern.
+    vi: Hôm nay chúng tôi muốn cùng chung vui tiệc.
+  usage_vi: 'Động từ tách: mit ở cuối câu.'
+  lesson_refs:
+  - a1.m06.l01
+  tags:
+  - verb
+  - fest
+  - trennbar
+  source: nwn-lern
+- id: a1.m06.v.treffpunkt
+  de: Treffpunkt
+  pos: noun
+  article: der
+  plural: Treffpunkte
+  vi: điểm hẹn, nơi gặp nhau
+  ipa: /ˈtʁɛfˌpʊŋkt/
+  example:
+    de: Der Treffpunkt ist am Hauptbahnhof.
+    vi: Điểm hẹn là ở ga trung tâm.
+  usage_vi: treffen + der Punkt.
+  lesson_refs:
+  - a1.m06.l01
+  tags:
+  - freizeit
+  - ort
+  source: nwn-lern
+- id: a1.m06.v.ausflug
+  de: Ausflug
+  pos: noun
+  article: der
+  plural: Ausflüge
+  vi: chuyến dã ngoại, chuyến đi chơi ngắn
+  ipa: /ˈaʊ̯sˌfluːk/
+  example:
+    de: Am Sonntag machen wir einen Ausflug.
+    vi: Chủ Nhật chúng tôi đi dã ngoại.
+  usage_vi: einen Ausflug machen = đi dã ngoại.
+  lesson_refs:
+  - a1.m06.l01
+  tags:
+  - freizeit
+  - reise
+  source: nwn-lern
+- id: a1.m06.v.fahrradtour
+  de: Fahrradtour
+  pos: noun
+  article: die
+  plural: Fahrradtouren
+  vi: chuyến đi xe đạp dạo chơi
+  ipa: /ˈfaːɐ̯ʁaːtˌtuːɐ̯/
+  example:
+    de: Wir machen eine Fahrradtour an den See.
+    vi: Chúng tôi làm một chuyến đạp xe ra hồ.
+  usage_vi: das Fahrrad + die Tour.
+  lesson_refs:
+  - a1.m06.l01
+  tags:
+  - freizeit
+  - sport
+  source: nwn-lern
+- id: a1.m06.v.badesee
+  de: Badesee
+  pos: noun
+  article: der
+  plural: Badeseen
+  vi: hồ tắm tự nhiên ngoài trời
+  ipa: /ˈbaːdəˌzeː/
+  example:
+    de: Im Sommer fahren wir an den Badesee.
+    vi: Mùa hè chúng tôi ra hồ tắm ngoài trời.
+  usage_vi: baden + der See.
+  lesson_refs:
+  - a1.m06.l01
+  tags:
+  - natur
+  - ort
+  source: nwn-lern
+- id: a1.m06.v.freibad
+  de: Freibad
+  pos: noun
+  article: das
+  plural: Freibäder
+  vi: bể bơi ngoài trời
+  ipa: /ˈfʁaɪ̯ˌbaːt/
+  example:
+    de: Das Freibad öffnet ab Mai.
+    vi: Bể bơi ngoài trời mở cửa từ tháng 5.
+  usage_vi: frei + das Bad.
+  lesson_refs:
+  - a1.m06.l01
+  tags:
+  - freizeit
+  - sport
+  source: nwn-lern
+- id: a1.m06.v.bummeln
+  de: bummeln
+  pos: verb
+  vi: đi dạo thong thả ngắm phố
+  forms:
+    text: du bummelst, er bummelt
+    er: bummelt
+  ipa: /ˈbʊml̩n/
+  example:
+    de: Wir bummeln gern durch die Altstadt.
+    vi: Chúng tôi thích đi dạo ngắm khu phố cổ.
+  usage_vi: 'Khẩu ngữ: đi dạo thong thả, ngắm cửa hàng, không vội. „einen Stadtbummel machen“ = đi dạo phố.'
+  lesson_refs:
+  - a1.m06.l01
+  tags:
+  - verb
+  - freizeit
+  source: nwn-lern
+- id: a1.m06.v.losgehen
+  de: losgehen
+  pos: verb
+  vi: bắt đầu, khởi hành
+  forms:
+    text: es geht los
+    er: geht los
+    separable: true
+  ipa: /ˈloːsˌɡeːən/
+  example:
+    de: Wann geht es los? – Um acht Uhr.
+    vi: Khi nào bắt đầu? – Lúc 8 giờ.
+  usage_vi: 'Động từ tách: los ở cuối câu.'
+  lesson_refs:
+  - a1.m06.l01
+  tags:
+  - verb
+  - zeit
+  - trennbar
+  source: nwn-lern
+- id: a1.m06.v.dabeisein
+  de: dabeisein
+  pos: verb
+  vi: có mặt, tham gia cùng
+  forms:
+    text: du bist dabei, er ist dabei
+    er: ist dabei
+  ipa: /daˈbaɪ̯ˌzaɪ̯n/
+  example:
+    de: Bist du am Samstag auch dabei?
+    vi: Thứ Bảy bạn cũng có mặt tham gia chứ?
+  usage_vi: dabei sein = có mặt tham gia.
+  lesson_refs:
+  - a1.m06.l01
+  tags:
+  - verb
+  - freizeit
+  source: nwn-lern
+- id: a1.m06.v.gemeinsam
+  de: gemeinsam
+  pos: adjective
+  vi: cùng nhau, chung
+  ipa: /ɡəˈmaɪ̯nzaːm/
+  example:
+    de: Wir kochen gemeinsam das Abendessen.
+    vi: Chúng tôi cùng nhau nấu bữa tối.
+  usage_vi: 'Đồng nghĩa: zusammen.'
+  lesson_refs:
+  - a1.m06.l01
+  tags:
+  - soziales
+  source: nwn-lern
+- id: a1.m06.v.freizeitaktivitaet
+  de: Freizeitaktivität
+  pos: noun
+  article: die
+  plural: Freizeitaktivitäten
+  vi: hoạt động giải trí thời gian rảnh
+  ipa: /ˈfʁaɪ̯tsaɪ̯tʔaktiˌviˈtɛːt/
+  example:
+    de: Sport ist meine liebste Freizeitaktivität.
+    vi: Thể thao là hoạt động giải trí yêu thích nhất của tôi.
+  usage_vi: die Freizeit + die Aktivität.
+  lesson_refs:
+  - a1.m06.l01
+  tags:
+  - freizeit
+  source: nwn
+- id: a1.m06.v.grillplatz
+  de: Grillplatz
+  pos: noun
+  article: der
+  plural: Grillplätze
+  vi: bãi nướng thịt ngoài trời
+  ipa: /ˈɡʁɪlˌplats/
+  example:
+    de: Wir treffen uns am Grillplatz im Park.
+    vi: Chúng mình gặp nhau ở bãi nướng thịt trong công viên.
+  usage_vi: grillen + der Platz.
+  lesson_refs:
+  - a1.m06.l01
+  tags:
+  - freizeit
+  - essen
+  source: nwn
+- id: a1.m06.v.vorhaben
+  de: vorhaben
+  pos: verb
+  vi: có dự định, có kế hoạch
+  forms:
+    text: du hast vor, er hat vor
+    er: hat vor
+    separable: true
+  ipa: /ˈfoːɐ̯ˌhaːbn̩/
+  example:
+    de: Was hast du am Wochenende vor?
+    vi: Cuối tuần bạn có dự định gì không?
+  usage_vi: 'Động từ tách: vor ở cuối câu.'
+  lesson_refs:
+  - a1.m06.l01
+  tags:
+  - verb
+  - termin
+  - trennbar
+  source: nwn-lern
+- id: a1.m06.v.lust-haben
+  de: Lust haben
+  pos: phrase
+  vi: có hứng thú, thích làm gì
+  ipa: /lʊst ˈhaːbn̩/
+  example:
+    de: Hast du Lust auf ein Eis?
+    vi: Bạn có hứng ăn kem không?
+  usage_vi: Cụm cố định đi với auf + Akk.
+  lesson_refs:
+  - a1.m06.l01
+  tags:
+  - phrase
+  - freizeit
+  source: nwn-lern
+- id: a1.m06.v.treffen
+  de: Treffen
+  pos: noun
+  article: das
+  plural: Treffen
+  vi: buổi gặp mặt, cuộc hẹn
+  ipa: /ˈtʁɛfn̩/
+  example:
+    de: Das Treffen war sehr interessant.
+    vi: Buổi gặp mặt đã rất thú vị.
+  usage_vi: Danh từ hóa từ động từ treffen.
+  lesson_refs:
+  - a1.m06.l01
+  tags:
+  - freizeit
+  - termin
+  source: nwn-lern
+- id: a1.m06.v.geburtstag
+  de: Geburtstag
+  pos: noun
+  article: der
+  plural: Geburtstage
+  vi: ngày sinh nhật
+  ipa: /ɡəˈbuːɐ̯tsˌtaːk/
+  example:
+    de: Wann hast du Geburtstag?
+    vi: Khi nào sinh nhật bạn?
+  usage_vi: die Geburt + der Tag.
+  lesson_refs:
+  - a1.m06.l02
+  tags:
+  - fest
+  - zeit
+  source: nwn-lern
+- id: a1.m06.v.geburtstagsparty
+  de: Geburtstagsparty
+  pos: noun
+  article: die
+  plural: Geburtstagspartys
+  vi: bữa tiệc sinh nhật
+  ipa: /ɡəˈbuːɐ̯tsˌtaːksˌpaːɐ̯ti/
+  example:
+    de: Kommst du zu meiner Geburtstagsparty?
+    vi: Bạn đến dự tiệc sinh nhật của mình nhé?
+  usage_vi: der Geburtstag + die Party.
+  lesson_refs:
+  - a1.m06.l02
+  tags:
+  - fest
+  - freizeit
+  source: nwn-lern
+- id: a1.m06.v.geburtstagskind
+  de: Geburtstagskind
+  pos: noun
+  article: das
+  plural: Geburtstagskinder
+  vi: người có ngày sinh nhật (chủ nhân tiệc)
+  ipa: /ɡəˈbuːɐ̯tsˌtaːksˌkɪnt/
+  example:
+    de: Das Geburtstagskind bekommt viele Geschenke.
+    vi: Chủ nhân bữa tiệc nhận được nhiều quà.
+  usage_vi: Dùng cho cả người lớn lẫn trẻ em.
+  lesson_refs:
+  - a1.m06.l02
+  tags:
+  - fest
+  - person
+  source: nwn-lern
+- id: a1.m06.v.datum
+  de: Datum
+  pos: noun
+  article: das
+  plural: Daten
+  vi: ngày tháng
+  ipa: /ˈdaːtʊm/
+  example:
+    de: Welches Datum haben wir heute?
+    vi: Hôm nay là ngày mấy tháng mấy?
+  usage_vi: 'Số nhiều: Daten. Hỏi ngày: „Welches Datum haben wir heute?“ hoặc „Den Wievielten haben wir heute?“'
+  lesson_refs:
+  - a1.m06.l02
+  tags:
+  - zeit
+  source: nwn-lern
+- id: a1.m06.v.feiern
+  de: feiern
+  pos: verb
+  vi: ăn mừng, tổ chức tiệc
+  forms:
+    text: du feierst, er feiert
+    er: feiert
+  ipa: /ˈfaɪ̯ɐn/
+  example:
+    de: Wir feiern heute seinen Geburtstag.
+    vi: Hôm nay chúng tôi ăn mừng sinh nhật anh ấy.
+  usage_vi: 'Đi với Akkusativ: „Geburtstag feiern“ = tổ chức sinh nhật. Danh từ liên quan: das Fest, die Feier.'
+  lesson_refs:
+  - a1.m06.l02
+  tags:
+  - verb
+  - fest
+  source: nwn-lern
+- id: a1.m06.v.gratulieren
+  de: gratulieren
+  pos: verb
+  vi: chúc mừng
+  forms:
+    text: du gratulierst, er gratuliert
+    er: gratuliert
+  ipa: /ɡʁatuˈliːʁən/
+  example:
+    de: Ich gratuliere dir zum Geburtstag!
+    vi: Tôi chúc mừng sinh nhật bạn!
+  usage_vi: 'Đi với Dativ: jemandem gratulieren.'
+  lesson_refs:
+  - a1.m06.l02
+  tags:
+  - verb
+  - fest
+  - hoeflichkeit
+  source: nwn-lern
+- id: a1.m06.v.lebensjahr
+  de: Lebensjahr
+  pos: noun
+  article: das
+  plural: Lebensjahre
+  vi: năm tuổi đời
+  ipa: /ˈleːbn̩sˌjaːɐ̯/
+  example:
+    de: Alles Gute zum neuen Lebensjahr!
+    vi: Chúc mọi điều tốt đẹp cho tuổi mới!
+  usage_vi: das Leben + das Jahr.
+  lesson_refs:
+  - a1.m06.l02
+  tags:
+  - fest
+  - zeit
+  source: nwn-lern
+- id: a1.m06.v.glueckwunsch
+  de: Glückwunsch
+  pos: noun
+  article: der
+  plural: Glückwünsche
+  vi: lời chúc mừng
+  ipa: /ˈɡlʏkˌvʊnʃ/
+  example:
+    de: Herzlichen Glückwunsch zum Geburtstag!
+    vi: Nhiệt liệt chúc mừng sinh nhật bạn!
+  usage_vi: das Glück + der Wunsch.
+  lesson_refs:
+  - a1.m06.l02
+  tags:
+  - fest
+  - hoeflichkeit
+  source: nwn-lern
+- id: a1.m06.v.herzlich
+  de: herzlich
+  pos: adjective
+  vi: thân tình, nồng hậu, chân thành
+  ipa: /ˈhɛʁtslɪç/
+  example:
+    de: Herzliche Grüße aus Wien!
+    vi: Lời chào thân thương từ Viên!
+  usage_vi: das Herz (trái tim).
+  lesson_refs:
+  - a1.m06.l02
+  tags:
+  - hoeflichkeit
+  source: nwn-lern
+- id: a1.m06.v.geburtstagskarte
+  de: Geburtstagskarte
+  pos: noun
+  article: die
+  plural: Geburtstagskarten
+  vi: thiệp chúc mừng sinh nhật
+  ipa: /ɡəˈbuːɐ̯tsˌtaːksˌkaʁtə/
+  example:
+    de: Ich schreibe eine Geburtstagskarte.
+    vi: Tôi viết một tấm thiệp sinh nhật.
+  usage_vi: der Geburtstag + die Karte.
+  lesson_refs:
+  - a1.m06.l02
+  tags:
+  - fest
+  - post
+  source: nwn
+- id: a1.m06.v.geburtstagsdatum
+  de: Geburtstagsdatum
+  pos: noun
+  article: das
+  plural: Geburtstagsdaten
+  vi: ngày sinh nhật (trên giấy tờ)
+  ipa: /ɡəˈbuːɐ̯tsˌtaːksˌdaːtʊm/
+  example:
+    de: Bitte tragen Sie Ihr Geburtsdatum ein.
+    vi: Xin vui lòng điền ngày sinh nhật của quý vị.
+  usage_vi: der Geburtstag + das Datum.
+  lesson_refs:
+  - a1.m06.l02
+  tags:
+  - fest
+  - dokument
+  source: nwn-lern
+- id: a1.m06.v.zweite
+  de: zweite
+  pos: numeral
+  vi: thứ hai, ngày mùng 2
+  ipa: /ˈtsvaɪ̯tə/
+  example:
+    de: Mein Sohn ist in der zweiten Klasse.
+    vi: Con trai tôi học lớp hai.
+  usage_vi: 'Sau am: am zweiten.'
+  lesson_refs:
+  - a1.m06.l02
+  tags:
+  - ordinalzahl
+  - zeit
+  source: nwn-lern
+- id: a1.m06.v.dritte
+  de: dritte
+  pos: numeral
+  vi: thứ ba, ngày mùng 3
+  ipa: /ˈdʁɪtə/
+  example:
+    de: Am dritten Oktober ist Feiertag.
+    vi: Ngày mùng 3 tháng 10 là ngày quốc khánh.
+  usage_vi: 'Bất quy tắc: drei → dritt-.'
+  lesson_refs:
+  - a1.m06.l02
+  tags:
+  - ordinalzahl
+  - zeit
+  source: nwn-lern
+- id: a1.m06.v.vierte
+  de: vierte
+  pos: numeral
+  vi: thứ tư, ngày mùng 4
+  ipa: /ˈfiːɐ̯tə/
+  example:
+    de: Wir wohnen im vierten Stock.
+    vi: Chúng tôi sống ở tầng bốn.
+  usage_vi: 'Sau am: am vierten.'
+  lesson_refs:
+  - a1.m06.l02
+  tags:
+  - ordinalzahl
+  - zeit
+  source: nwn-lern
+- id: a1.m06.v.fuenfte
+  de: fünfte
+  pos: numeral
+  vi: thứ năm, ngày mùng 5
+  ipa: /ˈfʏnftə/
+  example:
+    de: Der fünfte Mai ist ein Sonntag.
+    vi: Ngày mùng 5 tháng 5 là Chủ Nhật.
+  usage_vi: 'Sau am: am fünften.'
+  lesson_refs:
+  - a1.m06.l02
+  tags:
+  - ordinalzahl
+  - zeit
+  source: nwn-lern
+- id: a1.m06.v.siebte
+  de: siebte
+  pos: numeral
+  vi: thứ bảy, ngày mùng 7
+  ipa: /ˈziːptə/
+  example:
+    de: Sie kommt am siebten Juli an.
+    vi: Cô ấy đến vào ngày mùng 7 tháng 7.
+  usage_vi: 'Bất quy tắc: siebt- (không phải siebent-).'
+  lesson_refs:
+  - a1.m06.l02
+  tags:
+  - ordinalzahl
+  - zeit
+  source: nwn-lern
+- id: a1.m06.v.achte
+  de: achte
+  pos: numeral
+  vi: thứ tám, ngày mùng 8
+  ipa: /ˈaxtə/
+  example:
+    de: Am achten März ist Frauentag.
+    vi: Ngày mùng 8 tháng 3 là ngày Quốc tế Phụ nữ.
+  usage_vi: Chỉ thêm -te (acht + e).
+  lesson_refs:
+  - a1.m06.l02
+  tags:
+  - ordinalzahl
+  - zeit
+  source: nwn-lern
+- id: a1.m06.v.zwanzigste
+  de: zwanzigste
+  pos: numeral
+  vi: thứ hai mươi, ngày 20
+  ipa: /ˈtsvant͡sɪçstə/
+  example:
+    de: Er feiert seinen zwanzigsten Geburtstag.
+    vi: Anh ấy kỷ niệm sinh nhật lần thứ 20.
+  usage_vi: Từ 20 trở lên thêm -ste / -sten.
+  lesson_refs:
+  - a1.m06.l02
+  tags:
+  - ordinalzahl
+  - zeit
+  source: nwn-lern
+- id: a1.m06.v.einunddreissigste
+  de: einunddreißigste
+  pos: numeral
+  vi: thứ ba mươi mốt, ngày 31
+  ipa: /ˈaɪ̯nʔʊntˌdʁaɪ̯sɪçstə/
+  example:
+    de: Am einunddreißigsten Dezember ist Silvester.
+    vi: Ngày 31 tháng 12 là giao thừa.
+  usage_vi: 'Sau am: am einunddreißigsten.'
+  lesson_refs:
+  - a1.m06.l02
+  tags:
+  - ordinalzahl
+  - zeit
+  source: nwn-lern
+- id: a1.m06.v.ueberraschung
+  de: Überraschung
+  pos: noun
+  article: die
+  plural: Überraschungen
+  vi: sự bất ngờ, ngạc nhiên
+  ipa: /yːbɐˈʁaʃʊŋ/
+  example:
+    de: Das Fest war eine große Überraschung!
+    vi: Bữa tiệc đã là một sự bất ngờ lớn!
+  usage_vi: -ung → die.
+  lesson_refs:
+  - a1.m06.l03
+  tags:
+  - fest
+  - gefuehl
+  source: nwn-lern
+- id: a1.m06.v.ueberraschen
+  de: überraschen
+  pos: verb
+  vi: làm bất ngờ, tạo bất ngờ
+  forms:
+    text: du überraschst, er überrascht
+    er: überrascht
+  ipa: /yːbɐˈʁaʃn̩/
+  example:
+    de: Wir wollen Sofia zum Geburtstag überraschen.
+    vi: Chúng tôi muốn tạo bất ngờ cho Sofia nhân dịp sinh nhật.
+  usage_vi: 'Tiền tố über- không tách, Partizip II: überrascht. Danh từ: die Überraschung (điều bất ngờ).'
+  lesson_refs:
+  - a1.m06.l03
+  tags:
+  - verb
+  - fest
+  source: nwn
+- id: a1.m06.v.geschenk
+  de: Geschenk
+  pos: noun
+  article: das
+  plural: Geschenke
+  vi: món quà, quà tặng
+  ipa: /ɡəˈʃɛŋk/
+  example:
+    de: Vielen Dank für das schöne Geschenk!
+    vi: Cảm ơn rất nhiều vì món quà đẹp!
+  usage_vi: schenken → das Geschenk.
+  lesson_refs:
+  - a1.m06.l03
+  tags:
+  - fest
+  - gegenstand
+  source: nwn-lern
+- id: a1.m06.v.schenken
+  de: schenken
+  pos: verb
+  vi: tặng quà, cho tặng
+  forms:
+    text: du schenkst, er schenkt
+    er: schenkt
+  ipa: /ˈʃɛŋkn̩/
+  example:
+    de: Was schenken wir Peter zum Geburtstag?
+    vi: Chúng ta tặng gì cho Peter nhân dịp sinh nhật?
+  usage_vi: 'Đi với Akkusativ cho món quà: „Blumen schenken“. Danh từ: das Geschenk (món quà). Người nhận ở Dativ (sẽ học thêm sau).'
+  lesson_refs:
+  - a1.m06.l03
+  tags:
+  - verb
+  - fest
+  source: nwn-lern
+- id: a1.m06.v.einladen
+  de: einladen
+  pos: verb
+  vi: mời
+  forms:
+    text: du lädst ein, er lädt ein
+    er: lädt ein
+    separable: true
+  ipa: /ˈaɪ̯nˌlaːdn̩/
+  example:
+    de: Ich lade dich zu meiner Party ein.
+    vi: Mình mời bạn đến dự tiệc của mình.
+  usage_vi: 'Động từ tách: ein ở cuối câu. Đổi a → ä.'
+  lesson_refs:
+  - a1.m06.l03
+  tags:
+  - verb
+  - fest
+  - trennbar
+  source: nwn-lern
+- id: a1.m06.v.einladungskarte
+  de: Einladungskarte
+  pos: noun
+  article: die
+  plural: Einladungskarten
+  vi: thiệp mời tiệc
+  ipa: /ˈaɪ̯nlaːdʊŋsˌkaʁtə/
+  example:
+    de: Ich schicke dir eine Einladungskarte.
+    vi: Tôi gửi cho bạn một tấm thiệp mời.
+  usage_vi: die Einladung + die Karte.
+  lesson_refs:
+  - a1.m06.l03
+  tags:
+  - fest
+  - post
+  source: nwn-lern
+- id: a1.m06.v.einladungsmail
+  de: Einladungsmail
+  pos: noun
+  article: die
+  plural: Einladungsmails
+  vi: thư điện tử mời tiệc
+  ipa: /ˈaɪ̯nlaːdʊŋsˌmeːl/
+  example:
+    de: Ich habe die Einladungsmail gestern geschickt.
+    vi: Tôi đã gửi email mời tiệc vào hôm qua.
+  usage_vi: die Einladung + die Mail.
+  lesson_refs:
+  - a1.m06.l03
+  tags:
+  - fest
+  - kommunikation
+  source: nwn
+- id: a1.m06.v.besucher
+  de: Besucher
+  pos: noun
+  article: der
+  plural: Besucher
+  vi: khách tham quan, khách đến thăm
+  ipa: /bəˈzuːxɐ/
+  example:
+    de: Viele Besucher kommen zum Fest.
+    vi: Nhiều khách đến tham dự lễ hội.
+  usage_vi: besuchen → der Besucher.
+  lesson_refs:
+  - a1.m06.l03
+  tags:
+  - fest
+  - person
+  source: nwn-lern
+- id: a1.m06.v.gastgeber
+  de: Gastgeber
+  pos: noun
+  article: der
+  plural: Gastgeber
+  vi: chủ nhà, người chủ trì bữa tiệc
+  ipa: /ˈɡastˌɡeːbɐ/
+  example:
+    de: Florian ist ein wunderbarer Gastgeber.
+    vi: Florian là một người chủ tiệc tuyệt vời.
+  usage_vi: der Gast + geben.
+  lesson_refs:
+  - a1.m06.l03
+  tags:
+  - fest
+  - person
+  source: nwn
+- id: a1.m06.v.blumenstrauss
+  de: Blumenstrauß
+  pos: noun
+  article: der
+  plural: Blumensträuße
+  vi: bó hoa tươi
+  ipa: /ˈbluːmənˌʃtʁaʊ̯s/
+  example:
+    de: Er bringt einen bunten Blumenstrauß mit.
+    vi: Anh ấy mang theo một bó hoa rực rỡ.
+  usage_vi: die Blume + der Strauß.
+  lesson_refs:
+  - a1.m06.l03
+  tags:
+  - geschenk
+  - natur
+  source: nwn-lern
+- id: a1.m06.v.praline
+  de: Praline
+  pos: noun
+  article: die
+  plural: Pralinen
+  vi: kẹo sô-cô-la nhân đặc biệt
+  ipa: /pʁaˈliːnə/
+  example:
+    de: Hier ist eine Schachtel Pralinen für dich.
+    vi: Đây là một hộp kẹo sô-cô-la dành cho bạn.
+  usage_vi: Món quà tặng rất phổ biến.
+  lesson_refs:
+  - a1.m06.l03
+  tags:
+  - geschenk
+  - essen
+  source: nwn-lern
+- id: a1.m06.v.gutschein
+  de: Gutschein
+  pos: noun
+  article: der
+  plural: Gutscheine
+  vi: phiếu quà tặng, voucher
+  ipa: /ˈɡuːtˌʃaɪ̯n/
+  example:
+    de: Ich schenke ihr einen Bücher-Gutschein.
+    vi: Tôi tặng cô ấy một phiếu mua sách.
+  usage_vi: gut + der Schein.
+  lesson_refs:
+  - a1.m06.l03
+  tags:
+  - geschenk
+  - einkaufen
+  source: nwn-lern
+- id: a1.m06.v.mitnehmen
+  de: mitnehmen
+  pos: verb
+  vi: mang theo bên mình, cầm theo
+  forms:
+    text: du nimmst mit, er nimmt mit
+    er: nimmt mit
+    separable: true
+  ipa: /ˈmɪtˌneːmən/
+  example:
+    de: Nimmst du einen Regenschirm mit?
+    vi: Bạn có cầm theo ô không?
+  usage_vi: 'Động từ tách: mit ở cuối câu. Đổi e → i.'
+  lesson_refs:
+  - a1.m06.l03
+  tags:
+  - verb
+  - trennbar
+  source: nwn-lern
+- id: a1.m06.v.mich
+  de: mich
+  pos: pronoun
+  vi: tôi (cách Akkusativ)
+  ipa: /mɪç/
+  example:
+    de: Rufst du mich heute Abend an?
+    vi: Tối nay bạn gọi điện cho tôi nhé?
+  usage_vi: Dạng Akkusativ của ich.
+  lesson_refs:
+  - a1.m06.l03
+  tags:
+  - pronomen
+  - akkusativ
+  source: nwn-lern
+- id: a1.m06.v.dich
+  de: dich
+  pos: pronoun
+  vi: bạn (cách Akkusativ)
+  ipa: /dɪç/
+  example:
+    de: Ich besuche dich am Samstag.
+    vi: Thứ Bảy mình đến thăm bạn.
+  usage_vi: Dạng Akkusativ của du.
+  lesson_refs:
+  - a1.m06.l03
+  tags:
+  - pronomen
+  - akkusativ
+  source: nwn-lern
+- id: a1.m06.v.ihn
+  de: ihn
+  pos: pronoun
+  vi: anh ấy / nó (Akkusativ)
+  ipa: /iːn/
+  example:
+    de: Kennst du Peter? – Ja, ich kenne ihn.
+    vi: Bạn biết Peter không? – Có, tôi biết anh ấy.
+  usage_vi: Dạng Akkusativ của er (danh từ der).
+  lesson_refs:
+  - a1.m06.l03
+  tags:
+  - pronomen
+  - akkusativ
+  source: nwn-lern
+- id: a1.m06.v.uns
+  de: uns
+  pos: pronoun
+  vi: chúng tôi (cách Akkusativ)
+  ipa: /ʊns/
+  example:
+    de: Lukas lädt uns zu seiner Feier ein.
+    vi: Lukas mời chúng tôi đến bữa tiệc của anh ấy.
+  usage_vi: Dạng Akkusativ của wir.
+  lesson_refs:
+  - a1.m06.l03
+  tags:
+  - pronomen
+  - akkusativ
+  source: nwn-lern
+- id: a1.m06.v.euch
+  de: euch
+  pos: pronoun
+  vi: các bạn (cách Akkusativ)
+  ipa: /ɔɪ̯ç/
+  example:
+    de: Ich sehe euch morgen in der Schule.
+    vi: Ngày mai tôi gặp các bạn ở trường.
+  usage_vi: Dạng Akkusativ của ihr.
+  lesson_refs:
+  - a1.m06.l03
+  tags:
+  - pronomen
+  - akkusativ
+  source: nwn-lern
+- id: a1.m06.v.lokal
+  de: Lokal
+  pos: noun
+  article: das
+  plural: Lokale
+  vi: quán ăn, nhà hàng địa phương
+  ipa: /loˈkaːl/
+  example:
+    de: Wir gehen heute Abend in ein schönes Lokal.
+    vi: Tối nay chúng tôi đến một quán ăn đẹp.
+  usage_vi: 'Cách nói thân mật cho quán ăn, quán nhậu. Số nhiều: Lokale. Gần nghĩa: das Restaurant, die Gaststätte.'
+  lesson_refs:
+  - a1.m06.l04
+  tags:
+  - essen
+  - ort
+  source: nwn-lern
+- id: a1.m06.v.gasthaus
+  de: Gasthaus
+  pos: noun
+  article: das
+  plural: Gasthäuser
+  vi: quán ăn truyền thống, nhà trọ quán ăn
+  ipa: /ˈɡastˌhaʊ̯s/
+  example:
+    de: In Bayern gibt es viele gemütliche Gasthäuser.
+    vi: Ở Bayern có nhiều quán ăn truyền thống ấm cúng.
+  usage_vi: der Gast + das Haus.
+  lesson_refs:
+  - a1.m06.l04
+  tags:
+  - essen
+  - ort
+  source: nwn-lern
+- id: a1.m06.v.bedienung
+  de: Bedienung
+  pos: noun
+  article: die
+  plural: Bedienungen
+  vi: người phục vụ, việc phục vụ
+  ipa: /bəˈdiːnʊŋ/
+  example:
+    de: Die Bedienung in diesem Café ist sehr freundlich.
+    vi: Việc phục vụ ở quán cà phê này rất thân thiện.
+  usage_vi: bedienen → die Bedienung.
+  lesson_refs:
+  - a1.m06.l04
+  tags:
+  - beruf
+  - essen
+  source: nwn-lern
+- id: a1.m06.v.servicekraft
+  de: Servicekraft
+  pos: noun
+  article: die
+  plural: Servicekräfte
+  vi: nhân viên phục vụ
+  ipa: /ˈzœːɐ̯vɪsˌkʁaft/
+  example:
+    de: Das Restaurant sucht eine neue Servicekraft.
+    vi: Nhà hàng đang tìm một nhân viên phục vụ mới.
+  usage_vi: der Service + die Kraft.
+  lesson_refs:
+  - a1.m06.l04
+  tags:
+  - beruf
+  - essen
+  source: nwn
+- id: a1.m06.v.speisekarte
+  de: Speisekarte
+  pos: noun
+  article: die
+  plural: Speisekarten
+  vi: thực đơn món ăn
+  ipa: /ˈʃpaɪ̯zəˌkaʁtə/
+  example:
+    de: Können wir bitte die Speisekarte haben?
+    vi: Cho chúng tôi xin thực đơn được không ạ?
+  usage_vi: die Speise + die Karte.
+  lesson_refs:
+  - a1.m06.l04
+  tags:
+  - essen
+  - restaurant
+  source: nwn-lern
+- id: a1.m06.v.getraenkekarte
+  de: Getränkekarte
+  pos: noun
+  article: die
+  plural: Getränkekarten
+  vi: thực đơn đồ uống
+  ipa: /ɡəˈtʁɛŋkəˌkaʁtə/
+  example:
+    de: Bringen Sie uns auch die Getränkekarte, bitte!
+    vi: Xin mang cho chúng tôi cả thực đơn đồ uống nữa ạ!
+  usage_vi: das Getränk + die Karte.
+  lesson_refs:
+  - a1.m06.l04
+  tags:
+  - essen
+  - restaurant
+  source: nwn
+- id: a1.m06.v.bestellen
+  de: bestellen
+  pos: verb
+  vi: gọi món, đặt hàng
+  forms:
+    text: du bestellst, er bestellt
+    er: bestellt
+  ipa: /bəˈʃtɛlən/
+  example:
+    de: Was möchten Sie bestellen?
+    vi: Quý khách muốn gọi món gì ạ?
+  usage_vi: Tiền tố be- không tách.
+  lesson_refs:
+  - a1.m06.l04
+  tags:
+  - verb
+  - essen
+  - restaurant
+  source: nwn-lern
+- id: a1.m06.v.endbetrag
+  de: Endbetrag
+  pos: noun
+  article: der
+  plural: Endbeträge
+  vi: tổng số tiền thanh toán cuối cùng
+  ipa: /ˈɛntbəˌtʁaːk/
+  example:
+    de: Der Endbetrag steht unten auf der Rechnung.
+    vi: Tổng số tiền thanh toán nằm ở dưới cùng của hóa đơn.
+  usage_vi: das Ende + der Betrag.
+  lesson_refs:
+  - a1.m06.l04
+  tags:
+  - essen
+  - geld
+  source: nwn
+- id: a1.m06.v.bezahlen
+  de: bezahlen
+  pos: verb
+  vi: thanh toán, trả tiền
+  forms:
+    text: du bezahlst, er bezahlt
+    er: bezahlt
+  ipa: /bəˈtsaːlən/
+  example:
+    de: Wir möchten gern bezahlen.
+    vi: Chúng tôi muốn thanh toán tiền ạ.
+  usage_vi: 'Đồng nghĩa: zahlen. Tiền tố be- không tách.'
+  lesson_refs:
+  - a1.m06.l04
+  tags:
+  - verb
+  - geld
+  source: nwn-lern
+- id: a1.m06.v.zahlen
+  de: zahlen
+  pos: verb
+  vi: trả tiền
+  forms:
+    text: du zahlst, er zahlt
+    er: zahlt
+  ipa: /ˈtsaːlən/
+  example:
+    de: Zahlen Sie zusammen oder getrennt?
+    vi: Quý khách trả chung hay trả riêng ạ?
+  usage_vi: 'Khi muốn tính tiền nói: „Zahlen, bitte!“. Hỏi cách trả: „Zusammen oder getrennt?“'
+  lesson_refs:
+  - a1.m06.l04
+  tags:
+  - verb
+  - geld
+  source: nwn-lern
+- id: a1.m06.v.getrennt
+  de: getrennt
+  pos: adjective
+  vi: riêng rẽ, tách riêng
+  ipa: /ɡəˈtʁɛnt/
+  example:
+    de: Wir zahlen bitte getrennt.
+    vi: Làm ơn tính tiền riêng cho chúng tôi.
+  usage_vi: Văn hóa trả tiền riêng phổ biến ở Đức.
+  lesson_refs:
+  - a1.m06.l04
+  tags:
+  - restaurant
+  - geld
+  source: nwn-lern
+- id: a1.m06.v.aufrunden
+  de: aufrunden
+  pos: verb
+  vi: làm tròn (số tiền khi boa)
+  forms:
+    text: du rundest auf, er rundet auf
+    er: rundet auf
+    separable: true
+  ipa: /ˈaʊ̯fˌʁʊndn̩/
+  example:
+    de: Sollen wir den Betrag auf 20 Euro aufrunden?
+    vi: Chúng ta có nên làm tròn số tiền lên 20 euro không?
+  usage_vi: 'Động từ tách: auf ở cuối câu.'
+  lesson_refs:
+  - a1.m06.l04
+  tags:
+  - verb
+  - geld
+  - trennbar
+  source: nwn
+- id: a1.m06.v.trinkgeld
+  de: Trinkgeld
+  pos: noun
+  article: das
+  no_plural: true
+  vi: tiền boa, tiền boa bồi bàn
+  ipa: /ˈtʁɪŋkˌɡɛlt/
+  example:
+    de: In Deutschland gibt man circa 5 bis 10 Prozent Trinkgeld.
+    vi: Ở Đức người ta thường boa khoảng 5 đến 10 phần trăm.
+  usage_vi: trinken + das Geld.
+  lesson_refs:
+  - a1.m06.l04
+  tags:
+  - restaurant
+  - geld
+  - kultur
+  - sg-only
+  source: nwn-lern
+- id: a1.m06.v.stimmt-so
+  de: stimmt so
+  pos: phrase
+  vi: khỏi thối lại, giữ tiền thừa đi
+  ipa: /ʃtɪmt zoː/
+  example:
+    de: Das macht 18 Euro. Hier sind 20 Euro, stimmt so!
+    vi: Hết 18 euro. Gửi anh 20 euro, khỏi thối lại nhé!
+  usage_vi: Mẫu câu thông dụng khi boa tiền thừa.
+  lesson_refs:
+  - a1.m06.l04
+  tags:
+  - phrase
+  - restaurant
+  - geld
+  source: nwn-lern
+- id: a1.m06.v.quittung
+  de: Quittung
+  pos: noun
+  article: die
+  plural: Quittungen
+  vi: biên lai, hóa đơn chứng từ
+  ipa: /ˈkvɪtʊŋ/
+  example:
+    de: Brauchen Sie eine Quittung?
+    vi: Quý khách có cần biên lai không ạ?
+  usage_vi: 'Số nhiều: Quittungen. Biên lai xác nhận đã trả tiền; khác với die Rechnung (hóa đơn yêu cầu thanh toán).'
+  lesson_refs:
+  - a1.m06.l04
+  tags:
+  - geld
+  - dokument
+  source: nwn-lern
+- id: a1.m06.v.bar
+  de: bar
+  pos: adverb
+  vi: bằng tiền mặt
+  ipa: /baːɐ̯/
+  example:
+    de: Kann ich bar bezahlen?
+    vi: Tôi có thể trả bằng tiền mặt không?
+  usage_vi: bar bezahlen = trả tiền mặt.
+  lesson_refs:
+  - a1.m06.l04
+  tags:
+  - geld
+  source: nwn-lern
+- id: a1.m06.v.kreditkarte
+  de: Kreditkarte
+  pos: noun
+  article: die
+  plural: Kreditkarten
+  vi: thẻ tín dụng
+  ipa: /kʁeˈdiːtˌkaʁtə/
+  example:
+    de: Zahlen Sie mit Kreditkarte?
+    vi: Quý khách thanh toán bằng thẻ tín dụng ạ?
+  usage_vi: „mit Kreditkarte zahlen“. Ở Đức nhiều nơi chỉ nhận tiền mặt („bar“) hoặc thẻ ghi nợ, nên nên hỏi trước.
+  lesson_refs:
+  - a1.m06.l04
+  tags:
+  - geld
+  source: nwn-lern
+- id: a1.m06.v.guten-appetit
+  de: Guten Appetit
+  pos: phrase
+  vi: chúc ngon miệng
+  ipa: /ˌɡuːtn̩ ʔapeˈtiːt/
+  example:
+    de: Guten Appetit allerseits!
+    vi: Chúc tất cả mọi người ngon miệng!
+  usage_vi: Câu chúc quen thuộc trước bữa ăn.
+  lesson_refs:
+  - a1.m06.l04
+  tags:
+  - phrase
+  - essen
+  - hoeflichkeit
+  source: nwn-lern
+- id: a1.m06.v.gestern
+  de: gestern
+  pos: adverb
+  vi: ngày hôm qua
+  ipa: /ˈɡɛstɐn/
+  example:
+    de: Gestern war ich den ganzen Tag zu Hause.
+    vi: Hôm qua tôi đã ở nhà cả ngày.
+  usage_vi: Thời gian quá khứ.
+  lesson_refs:
+  - a1.m06.l05
+  tags:
+  - zeit
+  source: nwn-lern
+- id: a1.m06.v.vorgestern
+  de: vorgestern
+  pos: adverb
+  vi: hôm kia (ngày trước hôm qua)
+  ipa: /ˈfoːɐ̯ˌɡɛstɐn/
+  example:
+    de: Vorgestern hatten wir ein wichtiges Treffen.
+    vi: Hôm kia chúng tôi đã có một cuộc họp quan trọng.
+  usage_vi: vor + gestern.
+  lesson_refs:
+  - a1.m06.l05
+  tags:
+  - zeit
+  source: nwn-lern
+- id: a1.m06.v.damals
+  de: damals
+  pos: adverb
+  vi: hồi đó, khi xưa
+  ipa: /ˈdaːmaːls/
+  example:
+    de: Damals wohnte ich noch in Leipzig.
+    vi: Hồi đó tôi còn sống ở Leipzig.
+  usage_vi: Từ chỉ mốc thời gian quá khứ.
+  lesson_refs:
+  - a1.m06.l05
+  tags:
+  - zeit
+  source: nwn
+- id: a1.m06.v.wetter
+  de: Wetter
+  pos: noun
+  article: das
+  no_plural: true
+  vi: thời tiết
+  ipa: /ˈvɛtɐ/
+  example:
+    de: Wie war das Wetter gestern?
+    vi: Hôm qua thời tiết thế nào?
+  usage_vi: 'Chỉ dùng số ít. Hỏi: „Wie ist das Wetter?“ Từ ghép: Wetterbericht (dự báo thời tiết).'
+  lesson_refs:
+  - a1.m06.l05
+  tags:
+  - wetter
+  - sg-only
+  source: nwn-lern
+- id: a1.m06.v.sonnig
+  de: sonnig
+  pos: adjective
+  vi: có nắng, nắng ấm
+  ipa: /ˈzɔnɪç/
+  example:
+    de: Am Samstag war das Wetter sehr sonnig.
+    vi: Thứ Bảy thời tiết rất có nắng.
+  usage_vi: die Sonne → sonnig.
+  lesson_refs:
+  - a1.m06.l05
+  tags:
+  - wetter
+  source: nwn-lern
+- id: a1.m06.v.bewoelkt
+  de: bewölkt
+  pos: adjective
+  vi: nhiều mây, u ám
+  ipa: /bəˈvœlkt/
+  example:
+    de: Heute ist der Himmel ganz bewölkt.
+    vi: Hôm nay bầu trời nhiều mây u ám.
+  usage_vi: die Wolke (mây).
+  lesson_refs:
+  - a1.m06.l05
+  tags:
+  - wetter
+  source: nwn-lern
+- id: a1.m06.v.regnen
+  de: regnen
+  pos: verb
+  vi: trời mưa
+  forms:
+    text: es regnet
+    er: regnet
+  ipa: /ˈʁeːɡn̩n/
+  example:
+    de: Gestern hat es den ganzen Tag geregnet.
+    vi: Hôm qua trời đã mưa cả ngày.
+  usage_vi: 'Động từ vô nhân xưng: es regnet.'
+  lesson_refs:
+  - a1.m06.l05
+  tags:
+  - verb
+  - wetter
+  source: nwn-lern
+- id: a1.m06.v.regen
+  de: Regen
+  pos: noun
+  article: der
+  no_plural: true
+  vi: cơn mưa
+  ipa: /ˈʁeːɡn̩/
+  example:
+    de: Der Regen hat endlich aufgehört.
+    vi: Cơn mưa cuối cùng cũng tạnh.
+  usage_vi: 'Chỉ dùng số ít. „bei Regen“ = khi trời mưa. Động từ liên quan: regnen („Es regnet.“).'
+  lesson_refs:
+  - a1.m06.l05
+  tags:
+  - wetter
+  - sg-only
+  source: nwn-lern
+- id: a1.m06.v.sonne
+  de: Sonne
+  pos: noun
+  article: die
+  no_plural: true
+  vi: mặt trời, ánh nắng
+  ipa: /ˈzɔnə/
+  example:
+    de: Die Sonne scheint warm vom Himmel.
+    vi: Ánh mặt trời chiếu ấm áp từ bầu trời.
+  usage_vi: Chỉ dùng số ít. „Die Sonne scheint.“ = trời nắng. „in der Sonne“ = dưới nắng.
+  lesson_refs:
+  - a1.m06.l05
+  tags:
+  - wetter
+  - natur
+  - sg-only
+  source: nwn-lern
+- id: a1.m06.v.scheinen
+  de: scheinen
+  pos: verb
+  vi: chiếu sáng, tỏa nắng
+  forms:
+    text: die Sonne scheint
+  ipa: /ˈʃaɪ̯nən/
+  example:
+    de: Heute scheint wieder die Sonne!
+    vi: Hôm nay trời lại tỏa nắng!
+  usage_vi: die Sonne scheint.
+  lesson_refs:
+  - a1.m06.l05
+  tags:
+  - verb
+  - wetter
+  source: nwn-lern
+- id: a1.m06.v.fantastisch
+  de: fantastisch
+  pos: adjective
+  vi: tuyệt diệu, tuyệt vời
+  ipa: /fanˈtastɪʃ/
+  example:
+    de: Unser Ausflug war einfach fantastisch!
+    vi: Chuyến dã ngoại của chúng tôi thật sự tuyệt vời!
+  usage_vi: 'Đồng nghĩa: super, toll.'
+  lesson_refs:
+  - a1.m06.l05
+  tags:
+  - bewertung
+  source: nwn-lern
+- id: a1.m06.v.wunderbar
+  de: wunderbar
+  pos: adjective
+  vi: kỳ diệu, rất hay
+  ipa: /ˈvʊndɐbaːɐ̯/
+  example:
+    de: Das Wochenende war wirklich wunderbar.
+    vi: Cuối tuần đã thực sự rất tuyệt vời.
+  usage_vi: das Wunder (điều kỳ diệu).
+  lesson_refs:
+  - a1.m06.l05
+  tags:
+  - bewertung
+  source: nwn-lern
+- id: a1.m06.v.langweilig
+  de: langweilig
+  pos: adjective
+  vi: nhàm chán, buồn tẻ
+  ipa: /ˈlaŋˌvaɪ̯lɪç/
+  example:
+    de: Der Film gestern war leider sehr langweilig.
+    vi: Bộ phim hôm qua tiếc là rất chán.
+  usage_vi: 'Trái nghĩa: interessant, spannend.'
+  lesson_refs:
+  - a1.m06.l05
+  tags:
+  - bewertung
+  source: nwn-lern
+- id: a1.m06.v.erholsam
+  de: erholsam
+  pos: adjective
+  vi: thư thái, giúp hồi phục sức lực
+  ipa: /ɛɐ̯ˈhoːlzaːm/
+  example:
+    de: Wir hatten ein sehr erholsames Wochenende.
+    vi: Chúng tôi đã có một cuối tuần rất thư thái hồi sức.
+  usage_vi: sich erholen → erholsam.
+  lesson_refs:
+  - a1.m06.l05
+  tags:
+  - bewertung
+  - freizeit
+  source: nwn-lern
+- id: a1.m06.v.anstrengend
+  de: anstrengend
+  pos: adjective
+  vi: mệt mỏi, tốn nhiều sức
+  ipa: /ˈanˌʃtʁɛŋənt/
+  example:
+    de: Die lange Wanderung war anstrengend.
+    vi: Chuyến đi bộ đường dài rất tốn sức.
+  usage_vi: 'Dùng cho công việc, chuyến đi, ngày dài. Liên quan: „sich anstrengen“ = cố gắng, nỗ lực.'
+  lesson_refs:
+  - a1.m06.l05
+  tags:
+  - bewertung
+  source: nwn-lern
+- id: a1.m06.v.faulenzen
+  de: faulenzen
+  pos: verb
+  vi: lười biếng thư giãn, không làm gì cả
+  forms:
+    text: du faulenzt, er faulenzt
+    er: faulenzt
+  ipa: /ˈfaʊ̯lɛntsn̩/
+  example:
+    de: Am Sonntag habe ich nur gefaulenzt.
+    vi: Chủ Nhật tôi chỉ nằm dài lười biếng thư giãn.
+  usage_vi: faul (lười).
+  lesson_refs:
+  - a1.m06.l05
+  tags:
+  - verb
+  - freizeit
+  source: nwn-lern
+- id: a1.m06.v.ausruhen
+  de: ausruhen
+  pos: verb
+  vi: nghỉ ngơi, tĩnh dưỡng
+  forms:
+    text: du ruhst dich aus, er ruht sich aus
+    er: ruht sich aus
+    separable: true
+  ipa: /ˈaʊ̯sˌʁuːən/
+  example:
+    de: Nach der Arbeit muss ich mich ausruhen.
+    vi: Sau giờ làm tôi phải nghỉ ngơi.
+  usage_vi: 'Động từ phản thân tách: aus ở cuối câu.'
+  lesson_refs:
+  - a1.m06.l05
+  tags:
+  - verb
+  - gesundheit
+  - trennbar
+  source: nwn-lern
+- id: a1.m06.v.spaziergang
+  de: Spaziergang
+  pos: noun
+  article: der
+  plural: Spaziergänge
+  vi: chuyến đi dạo, cuộc tản bộ
+  ipa: /ʃpaˈtsiːɐ̯ˌɡaŋ/
+  example:
+    de: Wir machen einen Spaziergang im Park.
+    vi: Chúng tôi đi dạo một vòng trong công viên.
+  usage_vi: spazieren + der Gang.
+  lesson_refs:
+  - a1.m06.l05
+  tags:
+  - freizeit
+  - sport
+  source: nwn-lern
+- id: a1.m06.v.kneipe
+  de: Kneipe
+  pos: noun
+  article: die
+  plural: Kneipen
+  vi: quán rượu, quán bia bình dân
+  ipa: /ˈknaɪ̯pə/
+  example:
+    de: Gehen wir am Freitag in die Kneipe?
+    vi: Thứ Sáu mình vào quán rượu bình dân nhé?
+  usage_vi: Nét văn hóa gặp gỡ bạn bè đặc trưng ở D-A-CH.
+  lesson_refs:
+  - a1.m06.l06
+  tags:
+  - kultur
+  - ort
+  source: nwn-lern
+- id: a1.m06.v.biergarten
+  de: Biergarten
+  pos: noun
+  article: der
+  plural: Biergärten
+  vi: quán bia ngoài trời sân vườn
+  ipa: /ˈbiːɐ̯ˌɡaʁtn̩/
+  example:
+    de: Im Sommer sitzen die Leute gern im Biergarten.
+    vi: Mùa hè mọi người rất thích ngồi ở quán bia ngoài trời.
+  usage_vi: das Bier + der Garten. Đặc trưng xứ Bayern.
+  lesson_refs:
+  - a1.m06.l06
+  tags:
+  - kultur
+  - ort
+  source: nwn-lern
+- id: a1.m06.v.bar-noun
+  de: Bar
+  pos: noun
+  article: die
+  plural: Bars
+  vi: quán bar
+  ipa: /baːɐ̯/
+  example:
+    de: Wir trinken einen Cocktail in der Bar.
+    vi: Chúng tôi uống một ly cocktail ở quán bar.
+  usage_vi: Từ quốc tế.
+  lesson_refs:
+  - a1.m06.l06
+  tags:
+  - freizeit
+  - ort
+  source: nwn-lern
+- id: a1.m06.v.konzertabend
+  de: Konzertabend
+  pos: noun
+  article: der
+  plural: Konzertabende
+  vi: buổi tối xem hòa nhạc
+  ipa: /kɔnˈtsɛʁtˌʔaːbn̩t/
+  example:
+    de: Das war ein unvergesslicher Konzertabend.
+    vi: Đó đã là một buổi tối xem hòa nhạc khó quên.
+  usage_vi: das Konzert + der Abend.
+  lesson_refs:
+  - a1.m06.l06
+  tags:
+  - kultur
+  - musik
+  source: nwn
+- id: a1.m06.v.stadtfest
+  de: Stadtfest
+  pos: noun
+  article: das
+  plural: Stadtfeste
+  vi: lễ hội đường phố thành phố
+  ipa: /ˈʃtatˌfɛst/
+  example:
+    de: Am Wochenende feiern wir das Stadtfest.
+    vi: Cuối tuần chúng tôi đi trẩy hội thành phố.
+  usage_vi: die Stadt + das Fest.
+  lesson_refs:
+  - a1.m06.l06
+  tags:
+  - kultur
+  - fest
+  source: nwn-lern
+- id: a1.m06.v.band
+  de: Band
+  pos: noun
+  article: die
+  plural: Bands
+  vi: ban nhạc
+  ipa: /bɛnt/
+  example:
+    de: Die Band spielt heute Abend live.
+    vi: Ban nhạc biểu diễn trực tiếp tối nay.
+  usage_vi: Từ mượn tiếng Anh.
+  lesson_refs:
+  - a1.m06.l06
+  tags:
+  - musik
+  - kultur
+  source: nwn-lern
+- id: a1.m06.v.live-musik
+  de: Live-Musik
+  pos: noun
+  article: die
+  no_plural: true
+  vi: nhạc sống, biểu diễn trực tiếp
+  ipa: /ˈlaɪ̯fmuˌziːk/
+  example:
+    de: In dieser Kneipe gibt es tolle Live-Musik.
+    vi: Ở quán rượu này có nhạc sống rất tuyệt.
+  usage_vi: die Musik; số ít.
+  lesson_refs:
+  - a1.m06.l06
+  tags:
+  - musik
+  - kultur
+  - sg-only
+  source: nwn-lern
+- id: a1.m06.v.eintritt
+  de: Eintritt
+  pos: noun
+  article: der
+  no_plural: true
+  vi: vé vào cửa, tiền vào cửa
+  ipa: /ˈaɪ̯nˌtʁɪt/
+  example:
+    de: Der Eintritt kostet acht Euro.
+    vi: Vé vào cửa có giá 8 euro.
+  usage_vi: eintreten → der Eintritt.
+  lesson_refs:
+  - a1.m06.l06
+  tags:
+  - kultur
+  - geld
+  - sg-only
+  source: nwn-lern
+- id: a1.m06.v.eintrittskarte
+  de: Eintrittskarte
+  pos: noun
+  article: die
+  plural: Eintrittskarten
+  vi: vé vào cửa (tấm vé giấy/điện tử)
+  ipa: /ˈaɪ̯ntʁɪtsˌkaʁtə/
+  example:
+    de: Ich kaufe zwei Eintrittskarten online.
+    vi: Tôi mua hai vé vào cửa trực tuyến.
+  usage_vi: der Eintritt + die Karte.
+  lesson_refs:
+  - a1.m06.l06
+  tags:
+  - kultur
+  - dokument
+  source: nwn-lern
+- id: a1.m06.v.konzertkarte
+  de: Konzertkarte
+  pos: noun
+  article: die
+  plural: Konzertkarten
+  vi: vé xem hòa nhạc
+  ipa: /kɔnˈtsɛʁtˌkaʁtə/
+  example:
+    de: Ich habe zwei Konzertkarten für Samstag.
+    vi: Tôi có hai vé xem hòa nhạc vào thứ Bảy.
+  usage_vi: das Konzert + die Karte.
+  lesson_refs:
+  - a1.m06.l06
+  tags:
+  - kultur
+  - dokument
+  source: nwn-lern
+- id: a1.m06.v.theaterstueck
+  de: Theaterstück
+  pos: noun
+  article: das
+  plural: Theaterstücke
+  vi: vở kịch sân khấu
+  ipa: /teˈaːtɐˌʃtʏk/
+  example:
+    de: Das Theaterstück beginnt um 19:30 Uhr.
+    vi: Vở kịch bắt đầu lúc 19:30.
+  usage_vi: das Theater + das Stück.
+  lesson_refs:
+  - a1.m06.l06
+  tags:
+  - kultur
+  - kunst
+  source: nwn-lern
+- id: a1.m06.v.museumsbesuch
+  de: Museumsbesuch
+  pos: noun
+  article: der
+  plural: Museumsbesuche
+  vi: chuyến tham quan bảo tàng
+  ipa: /muˈzeːʊmsbəˌzuːx/
+  example:
+    de: Der Museumsbesuch hat uns sehr gefallen.
+    vi: Chuyến tham quan bảo tàng đã làm chúng tôi rất thích thú.
+  usage_vi: das Museum + der Besuch.
+  lesson_refs:
+  - a1.m06.l06
+  tags:
+  - kultur
+  - kunst
+  source: nwn
+- id: a1.m06.v.kunst
+  de: Kunst
+  pos: noun
+  article: die
+  plural: Künste
+  vi: nghệ thuật, mỹ thuật
+  ipa: /kʊnst/
+  example:
+    de: Sie studiert Kunst und Geschichte.
+    vi: Cô ấy học ngành nghệ thuật và lịch sử.
+  usage_vi: 'Thường chỉ dùng số ít. „Kunst studieren“ = học mỹ thuật; từ ghép: Kunstmuseum (bảo tàng nghệ thuật).'
+  lesson_refs:
+  - a1.m06.l06
+  tags:
+  - kultur
+  - bildung
+  source: nwn-lern
+- id: a1.m06.v.stattfinden
+  de: stattfinden
+  pos: verb
+  vi: diễn ra, được tổ chức
+  forms:
+    text: es findet statt
+    er: findet statt
+    separable: true
+  ipa: /ˈʃtatˌfɪndn̩/
+  example:
+    de: Wo findet das Konzert statt?
+    vi: Buổi hòa nhạc diễn ra ở đâu?
+  usage_vi: 'Động từ tách: statt ở cuối câu.'
+  lesson_refs:
+  - a1.m06.l06
+  tags:
+  - verb
+  - kultur
+  - trennbar
+  source: nwn-lern
+- id: a1.m06.v.los-sein
+  de: los sein
+  pos: phrase
+  vi: có chuyện gì diễn ra, sôi động
+  ipa: /ˈloːs zaɪ̯n/
+  example:
+    de: Was ist heute in der Stadt los?
+    vi: Hôm nay trong thành phố có sự kiện gì diễn ra thế?
+  usage_vi: Was ist los? = Có chuyện gì thế / Có gì vui?
+  lesson_refs:
+  - a1.m06.l06
+  tags:
+  - phrase
+  - kultur
+  source: nwn-lern
+- id: a1.m06.v.reservieren
+  de: reservieren
+  pos: verb
+  vi: đặt bàn trước, đặt chỗ
+  forms:
+    text: du reservierst, er reserviert
+    er: reserviert
+  ipa: /ʁezɛʁˈviːʁən/
+  example:
+    de: Ich möchte einen Tisch für vier Personen reservieren.
+    vi: Tôi muốn đặt một bàn cho 4 người.
+  usage_vi: 'Thường đi với einen Tisch (đặt bàn). Đuôi -ieren nên Partizip II không có ge-: reserviert. Danh từ: die Reservierung.'
+  lesson_refs:
+  - a1.m06.l06
+  tags:
+  - verb
+  - restaurant
+  source: nwn-lern
+- id: a1.m06.v.reservierung
+  de: Reservierung
+  pos: noun
+  article: die
+  plural: Reservierungen
+  vi: sự đặt bàn, đặt chỗ trước
+  ipa: /ʁezɛʁˈviːʁʊŋ/
+  example:
+    de: Haben Sie eine Reservierung?
+    vi: Quý khách có đặt chỗ trước không ạ?
+  usage_vi: reservieren → die Reservierung.
+  lesson_refs:
+  - a1.m06.l06
+  tags:
+  - restaurant
+  - termin
+  source: nwn-lern
+- id: a1.m06.v.geoeffnet
+  de: geöffnet
+  pos: adjective
+  vi: mở cửa (nhà hàng, viện bảo tàng)
+  ipa: /ɡəˈʔœfnət/
+  example:
+    de: Das Museum ist von 10 bis 18 Uhr geöffnet.
+    vi: Bảo tàng mở cửa từ 10 đến 18 giờ.
+  usage_vi: 'Trái nghĩa: geschlossen.'
+  lesson_refs:
+  - a1.m06.l06
+  tags:
+  - ort
+  - zeit
+  source: nwn-lern
+- id: a1.m06.v.kinoabend
+  de: Kinoabend
+  pos: noun
+  article: der
+  plural: Kinoabende
+  vi: buổi tối đi xem phim rạp
+  ipa: /ˈkiːnoˌʔaːbn̩t/
+  example:
+    de: Wir machen heute einen gemütlichen Kinoabend.
+    vi: Tối nay chúng mình làm một buổi đi xem phim rạp ấm cúng.
+  usage_vi: das Kino + der Abend.
+  lesson_refs:
+  - a1.m06.l06
+  tags:
+  - freizeit
+  - kultur
+  source: nwn

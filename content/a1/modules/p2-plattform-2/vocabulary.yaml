@@ -1,0 +1,119 @@
+schema_version: '2.0'
+content_type: vocabulary-set
+id: a1.p2.vocab
+level: A1
+module: a1.p2
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+  references:
+  - work: Netzwerk neu A1 (Klett)
+    scope: 'Plattform 2: Plattform 2: wiederholen und trainieren (Kapitel 4–6); Landeskunde: Essen und Feste in D-A-CH; Prüfungstraining: Lesen Teil 1, Schreiben Teil 1, Sprechen Teil 2'
+    verification: verified
+  notes_vi: 'Theo Stoffverteilungsplan Netzwerk neu A1.1 (Plattform 2: 5 UE Kursbuch + 2 UE Prüfungstraining). Bài ôn tổng hợp kết nối ẩm thực, thời gian biểu, gia đình và gặp gỡ bạn bè; đề luyện thi tự biên soạn theo cấu trúc chuẩn Goethe/ÖSD A1.'
+entries:
+- id: a1.p2.v.spezialitaet
+  de: Spezialität
+  pos: noun
+  article: die
+  plural: Spezialitäten
+  vi: món ăn đặc sản
+  ipa: /ʃpetsi̯aliˈtɛːt/
+  example:
+    de: Probieren Sie die bayerische Spezialität!
+    vi: Hãy nếm thử món đặc sản vùng Bayern!
+  usage_vi: 'Đuôi -ität luôn là „die“. Số nhiều: Spezialitäten. Hay gặp trên thực đơn: „Spezialitäten der Region“.'
+  lesson_refs:
+  - a1.p2.l02
+  tags:
+  - essen
+  - kultur
+  source: supplement
+- id: a1.p2.v.tradition
+  de: Tradition
+  pos: noun
+  article: die
+  plural: Traditionen
+  vi: truyền thống
+  ipa: /tʁadiˈtsi̯oːn/
+  example:
+    de: Das Oktoberfest hat eine lange Tradition.
+    vi: Lễ hội bia Oktoberfest có truyền thống lâu đời.
+  usage_vi: 'Đuôi -ion luôn là „die“. Số nhiều: Traditionen. Tính từ: traditionell.'
+  lesson_refs:
+  - a1.p2.l02
+  tags:
+  - kultur
+  source: supplement
+- id: a1.p2.v.traditionell
+  de: traditionell
+  pos: adjective
+  vi: thuộc về truyền thống
+  ipa: /tʁaditsi̯oˈnɛl/
+  example:
+    de: Wir essen heute ein traditionelles Gericht.
+    vi: Hôm nay chúng tôi ăn một món ăn truyền thống.
+  usage_vi: Tính từ từ die Tradition. Sau sein không đổi đuôi; trong ví dụ có đuôi -es (traditionelles Gericht, chưa học) nên chỉ cần nhớ cả cụm.
+  lesson_refs:
+  - a1.p2.l02
+  tags:
+  - kultur
+  source: supplement
+- id: a1.p2.v.festessen
+  de: Festessen
+  pos: noun
+  article: das
+  plural: Festessen
+  vi: bữa tiệc thịnh soạn, bữa ăn ngày lễ
+  ipa: /ˈfɛstˌʔɛsn̩/
+  example:
+    de: Zu Weihnachten gibt es ein großes Festessen.
+    vi: Vào dịp Giáng sinh có một bữa tiệc thịnh soạn.
+  usage_vi: das Fest + das Essen.
+  lesson_refs:
+  - a1.p2.l02
+  tags:
+  - fest
+  - essen
+  source: supplement
+- id: a1.p2.v.brauch
+  de: Brauch
+  pos: noun
+  article: der
+  plural: Bräuche
+  vi: phong tục, tập quán
+  ipa: /bʁaʊ̯x/
+  example:
+    de: Das ist ein alter Brauch in Österreich.
+    vi: Đó là một phong tục cổ ở Áo.
+  usage_vi: 'Số nhiều có Umlaut: Bräuche. Gần nghĩa: die Tradition, die Sitte.'
+  lesson_refs:
+  - a1.p2.l02
+  tags:
+  - kultur
+  source: supplement
+- id: a1.p2.v.feiertag
+  de: Feiertag
+  pos: noun
+  article: der
+  plural: Feiertage
+  vi: ngày lễ, ngày nghỉ lễ
+  ipa: /ˈfaɪ̯ɐˌtaːk/
+  example:
+    de: Der erste Mai ist ein gesetzlicher Feiertag.
+    vi: Ngày 1 tháng 5 là ngày nghỉ lễ theo luật.
+  usage_vi: feiern + der Tag.
+  lesson_refs:
+  - a1.p2.l02
+  tags:
+  - zeit
+  - fest
+  source: supplement

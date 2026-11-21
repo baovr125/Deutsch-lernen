@@ -1,0 +1,182 @@
+schema_version: '2.0'
+content_type: grammar-topic
+id: a1.g.ordinalzahlen
+level: A1
+introduced_in: a1.m06
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+  references:
+  - work: Netzwerk neu A1 (Klett)
+    scope: 'Kapitel 6: Eine Überraschung für Sofia'
+    verification: verified
+  notes_vi: Tương ứng Grammatik „Ordinalzahlen (Datum)“ của Kapitel 6.
+introduced_in_lesson: a1.m06.l02
+title_de: Ordinalzahlen und Datumsangaben
+title_vi: Số thứ tự và cách nói ngày tháng
+summary_vi: "Số thứ tự (Ordinalzahlen) được dùng để nói về ngày tháng (Datum), thứ hạng hoặc ngày sinh nhật trong tiếng Đức.\n\n**1. Quy tắc thành lập số thứ tự:**\n- **Từ 1 đến 19:** Lấy số đếm + **-te** (hoặc **-ten** sau giới từ am):\n  * 1.: *der erste* (bất quy tắc: ein $\\rightarrow$ erst)\n  * 2.: *der zweite*\n  * 3.: *der dritte* (bất quy tắc: drei $\\rightarrow$ dritt)\n  * 4.: *der vierte*\n  * 7.: *der siebte* (chú ý: sieb-te, không phải siebente)\n  * 8.: *der achte* (chỉ thêm -te: acht + e)\n- **Từ 20 trở lên:** Lấy số đếm + **-ste** (hoặc **-sten** sau giới từ am):\n  * 20.: *der zwanzigste*\n  * 21.: *der einundzwanzigste*\n  * 30.: *der dreißigste*\n  * 31.: *der einunddreißigste*\n\n**2. Cách nói ngày trong tháng (Datumsangabe):**\n- Khi có giới từ **am** (vào ngày nào): Đuôi luôn là **-ten** (hoặc **-sten** từ 20 trở lên):\n  * *am ersten Mai* (vào ngày mùng 1 tháng 5)\n  * *am dritten Oktober* (vào ngày mùng 3 tháng 10)\n  * *am zwanzigsten Juli* (vào ngày 20 tháng 7)\n\
+  - Trong văn viết, dấu chấm sau con số biểu thị số thứ tự:\n  * *1. Mai* = *der erste Mai* hoặc *am ersten Mai*."
+usage_vi: Dùng để nói về ngày sinh nhật, hẹn ngày gặp, ngày lễ và thứ hạng. Đi với am + đuôi -ten / -sten.
+objectives:
+- id: a1.g.ordinalzahlen.obj1
+  text_vi: Đọc và nói số thứ tự và ngày tháng.
+  skill: grammar
+rules:
+- id: a1.g.ordinalzahlen.r1
+  title_vi: Đuôi -te và -ste
+  body_vi: Số thứ tự từ 1 đến 19 thêm đuôi -te (sau am thêm -ten), từ 20 trở lên thêm đuôi -ste (sau am thêm -sten).
+  examples:
+  - de: der vierte – am vierten Mai
+    vi: ngày 4 – vào ngày 4 tháng 5
+  - de: der zwanzigste – am zwanzigsten August
+    vi: ngày 20 – vào ngày 20 tháng 8
+- id: a1.g.ordinalzahlen.r2
+  title_vi: Các số thứ tự bất quy tắc
+  body_vi: 'Các dạng bất quy tắc quan trọng: 1. (erst-), 3. (dritt-), 7. (siebt-), 8. (acht-).'
+  examples:
+  - de: am ersten Januar
+    vi: vào ngày mùng 1 tháng 1
+  - de: am dritten März
+    vi: vào ngày mùng 3 tháng 3
+sentence_structures:
+- pattern: Wann hast du Geburtstag? – Am + Số thứ tự (-ten/-sten) + Tháng.
+  example:
+    de: Ich habe am vierten Juli Geburtstag.
+    vi: Tôi sinh nhật vào ngày 4 tháng 7.
+- pattern: Der wievielte ist heute? – Heute ist der + Số thứ tự (-te/-ste) + Tháng.
+  example:
+    de: Heute ist der dritte Oktober.
+    vi: Hôm nay là ngày 3 tháng 10.
+tables:
+- title_vi: Bảng số thứ tự và ngày tháng cơ bản
+  header:
+  - Số
+  - Dạng đứng sau der (Nominativ)
+  - Dạng đứng sau am (Dativ)
+  rows:
+  - - '1.'
+    - der erste
+    - am ersten
+  - - '2.'
+    - der zweite
+    - am zweiten
+  - - '3.'
+    - der dritte
+    - am dritten
+  - - '4.'
+    - der vierte
+    - am vierten
+  - - '7.'
+    - der siebte
+    - am siebten
+  - - '8.'
+    - der achte
+    - am achten
+  - - '20.'
+    - der zwanzigste
+    - am zwanzigsten
+  - - '21.'
+    - der einundzwanzigste
+    - am einundzwanzigsten
+  - - '31.'
+    - der einunddreißigste
+    - am einunddreißigsten
+examples:
+- de: Mein Geburtstag ist am fünfzehnten September.
+  vi: Sinh nhật của tôi vào ngày 15 tháng 9.
+- de: Das Fest findet am zweiten Juni statt.
+  vi: Lễ hội diễn ra vào ngày 2 tháng 6.
+- de: Vom ersten bis zum zehnten August habe ich Urlaub.
+  vi: Từ mùng 1 đến mùng 10 tháng 8 tôi nghỉ phép.
+- de: Heute ist der einunddreißigste Dezember, Silvester!
+  vi: Hôm nay là ngày 31 tháng 12, đêm giao thừa!
+common_mistakes:
+- wrong: Ich habe am ein Mai Geburtstag.
+  right: Ich habe am ersten Mai Geburtstag.
+  explanation_vi: Nói ngày tháng phải dùng số thứ tự sau am (am ersten), không dùng số đếm (am ein).
+- wrong: am dreiten Oktober
+  right: am dritten Oktober
+  explanation_vi: 'Số thứ tự 3 là bất quy tắc: dritt- (không phải dreit-).'
+comparison_vi: 'Trong tiếng Anh: dùng hậu tố st, nd, rd, th (1st, 2nd, 3rd, 4th). Trong tiếng Đức: văn viết chỉ đặt một dấu chấm sau số (1., 2., 3., 4.).'
+vietnamese_contrast_vi: 'Tiếng Việt nói ''ngày một tháng năm'' dùng số đếm thông thường. Tiếng Đức bắt buộc dùng số thứ tự có biến đuôi: ''am ersten Mai'' (thêm đuôi -ten sau am).'
+recap_vi: 'Số thứ tự: 1–19 thêm đuôi -te, từ 20 trở lên thêm đuôi -ste. Khi nói ngày tháng sau giới từ am, tất cả đều thêm đuôi -en (am ersten, am zwanzigsten). Các dạng bất quy tắc: 1. (erst), 3. (dritt), 7. (siebt), 8. (acht).'
+next_level_note_vi: Ở trình độ cao hơn, số thứ tự sẽ được học đầy đủ cách chia tính từ khi đứng trước danh từ ở các cách khác nhau (Nominativ, Akkusativ, Dativ, Genitiv).
+prerequisites:
+- g-a1-zeitangaben-wann
+- g-a1-definitartikel
+exercises:
+- id: a1.g.ordinalzahlen.ex.01
+  type: multiple-choice
+  skill: grammar
+  difficulty: 1
+  objective_refs:
+  - a1.g.ordinalzahlen.r1
+  - a1.g.ordinalzahlen.obj1
+  instructions_vi: Chọn dạng đúng của số thứ tự đi sau am.
+  items:
+  - id: a1.g.ordinalzahlen.ex.01.q1
+    prompt: Wann hast du Geburtstag? – Am ___ (1.) Mai.
+    options:
+    - id: a
+      text: erst
+    - id: b
+      text: eins
+    - id: c
+      text: ersten
+    - id: d
+      text: erste
+    answer:
+    - c
+    explanation_vi: 'Sau am, số thứ tự thêm đuôi -ten: am ersten.'
+  - id: a1.g.ordinalzahlen.ex.01.q2
+    prompt: Das Konzert ist am ___ (20.) Juli.
+    options:
+    - id: a
+      text: zwanzigste
+    - id: b
+      text: zwanzig
+    - id: c
+      text: zwanzigsten
+    - id: d
+      text: zwanzigster
+    answer:
+    - c
+    explanation_vi: 'Từ 20 trở lên, sau am thêm đuôi -sten: am zwanzigsten.'
+  - id: a1.g.ordinalzahlen.ex.01.q3
+    prompt: Wir treffen uns am ___ (3.) Oktober.
+    options:
+    - id: a
+      text: dritten
+    - id: b
+      text: dritte
+    - id: c
+      text: drei
+    - id: d
+      text: dreiten
+    answer:
+    - a
+    explanation_vi: 'Số 3 biến đổi bất quy tắc thành dritt- và thêm đuôi -en: am dritten.'
+- id: a1.g.ordinalzahlen.ex.02
+  type: fill-blank
+  skill: grammar
+  difficulty: 2
+  objective_refs:
+  - a1.g.ordinalzahlen.r2
+  - a1.g.ordinalzahlen.obj1
+  instructions_vi: Điền dạng chữ của số thứ tự vào chỗ trống (am achten, am siebten, am ersten).
+  items:
+  - id: a1.g.ordinalzahlen.ex.02.q1
+    prompt: Der Neujahrstag ist ___ (1.) Januar. Mein Vater hat ___ (7.) März Geburtstag und meine Mutter ___ (8.) August.
+    answers:
+    - am ersten
+    - am siebten
+    - am achten
+    explanation_vi: 1. am ersten (mùng 1). 2. am siebten (mùng 7). 3. am achten (mùng 8).

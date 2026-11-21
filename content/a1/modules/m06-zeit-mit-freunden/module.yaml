@@ -1,0 +1,86 @@
+schema_version: '2.0'
+content_type: module
+id: a1.m06
+level: A1
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+  references:
+  - work: Netzwerk neu A1 (Klett)
+    scope: 'Kapitel 6: Zeit mit Freunden; Eine Überraschung für Sofia; Im Restaurant; Landeskunde: Kneipen & Co in D-A-CH; Landeskunde: Was ist los in ...?; kurz und klar: Redemittel und Grammatik'
+    verification: verified
+  notes_vi: Trình tự và phạm vi theo Stoffverteilungsplan Netzwerk neu A1.1 (Kapitel 6, 10 UE) và Kapitelwortschatz. Toàn bộ hội thoại, bài tập, bài đọc tự biên soạn mới hoàn toàn.
+kind: kapitel
+order: 7
+title_de: Zeit mit Freunden
+title_vi: Thời gian với bạn bè
+summary_vi: 'Chủ đề giải trí và thời gian cùng bạn bè: các hoạt động ngoài trời và dạo phố, động từ tách (mitmachen, ausgehen, vorbeikommen...), tổ chức sinh nhật bất ngờ, số thứ tự và ngày tháng (am ersten Mai...), quà tặng và thiệp mời với für + Akkusativ, đại từ nhân xưng ở Akkusativ (mich, dich, ihn, uns...), gọi món và văn hóa thanh toán tại nhà hàng (getrennt, zusammen, Trinkgeld), kể lại sự việc cuối tuần với thì quá khứ của sein và haben (war, hatte), cùng văn hóa quán xá Kneipen & sự kiện giải trí ở D-A-CH.'
+cefr:
+- A1.SI2
+- A1.H3
+- A1.H4
+- A1.L2
+- A1.L3
+- A1.SP1
+- A1.SP2
+- A1.S2
+- A1.S3
+not_covered_vi:
+- 'Film „Die Netzwerk-WG“ (Szene 12): không dùng video bản quyền của giáo trình.'
+- Các bài nghe và ngữ liệu lấy từ giáo trình được thay bằng bài nghe và văn bản tự sáng tác độc quyền.
+lessons:
+- id: a1.m06.l01
+  file: lessons/l01.yaml
+- id: a1.m06.l02
+  file: lessons/l02.yaml
+- id: a1.m06.l03
+  file: lessons/l03.yaml
+- id: a1.m06.l04
+  file: lessons/l04.yaml
+- id: a1.m06.l05
+  file: lessons/l05.yaml
+- id: a1.m06.l06
+  file: lessons/l06.yaml
+- id: a1.m06.review
+  file: lessons/review.yaml
+grammar:
+- id: a1.g.trennbare-verben
+  file: ../../grammar/trennbare-verben.yaml
+- id: a1.g.ordinalzahlen
+  file: ../../grammar/ordinalzahlen.yaml
+- id: a1.g.fuer-akkusativ
+  file: ../../grammar/fuer-akkusativ.yaml
+- id: a1.g.personalpronomen-akkusativ
+  file: ../../grammar/personalpronomen-akkusativ.yaml
+- id: a1.g.praeteritum-haben-sein
+  file: ../../grammar/praeteritum-haben-sein.yaml
+vocabulary:
+  id: a1.m06.vocab
+  file: vocabulary.yaml
+expressions:
+  id: a1.m06.expr
+  file: expressions.yaml
+exercises:
+- id: a1.m06.l01.ex
+  file: exercises/l01.yaml
+- id: a1.m06.l02.ex
+  file: exercises/l02.yaml
+- id: a1.m06.l03.ex
+  file: exercises/l03.yaml
+- id: a1.m06.l04.ex
+  file: exercises/l04.yaml
+- id: a1.m06.l05.ex
+  file: exercises/l05.yaml
+- id: a1.m06.l06.ex
+  file: exercises/l06.yaml
+- id: a1.m06.review.ex
+  file: exercises/review.yaml
+estimated_hours: 8.5

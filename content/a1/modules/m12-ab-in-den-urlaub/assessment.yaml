@@ -1,0 +1,142 @@
+schema_version: "2.0"
+content_type: assessment
+id: a1.m12.test
+level: A1
+module: a1.m12
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  notes_vi: "Ngưỡng đạt 60% là đề xuất, chưa được xác nhận."
+  tags: ["test"]
+title_vi: "Kiểm tra Kapitel 12 – Ab in den Urlaub!"
+duration_min: 40
+pass_percent: 60
+exercises:
+  - id: a1.m12.test.01
+    type: listening-practice
+    skill: listening
+    difficulty: 2
+    objective_refs: [a1.m12.obj.urlaub, a1.m12.obj.wetter]
+    instructions_vi: "Nghe (hoặc đọc transcript) và chọn đáp án."
+    stimulus:
+      text_de: "Hallo, hier ist Mia. Ich bin gestern in Hamburg angekommen. Im Norden regnet es, aber ich bleibe nicht im Hotel, denn man kann viel besichtigen. Am Samstag fahre ich nach München."
+      audio_status: pending-tts
+    items:
+      - id: a1.m12.test.01.q1
+        prompt: "Wo ist Mia gestern angekommen?"
+        options: [{ id: a, text: "In Hamburg." }, { id: b, text: "In München." }, { id: c, text: "In Wien." }]
+        answer: [a]
+        explanation_vi: "„in Hamburg angekommen“."
+      - id: a1.m12.test.01.q2
+        prompt: "Wie ist das Wetter im Norden?"
+        options: [{ id: a, text: "Es scheint die Sonne." }, { id: b, text: "Es regnet." }, { id: c, text: "Es schneit." }]
+        answer: [b]
+        explanation_vi: "„Im Norden regnet es.“"
+  - id: a1.m12.test.02
+    type: reading-comprehension
+    skill: reading
+    difficulty: 2
+    objective_refs: [a1.m12.obj.wetter, a1.m12.obj.man]
+    instructions_vi: "Đọc và chọn đáp án đúng."
+    stimulus:
+      text_de: "Köln liegt im Westen von Deutschland. Man kann dort den Dom besichtigen. Im Sommer ist es oft warm."
+      text_vi: "Köln nằm ở phía tây nước Đức. Ở đó có thể tham quan nhà thờ lớn. Mùa hè trời thường ấm."
+    items:
+      - id: a1.m12.test.02.q1
+        prompt: "Wo liegt Köln?"
+        options: [{ id: a, text: "Im Westen." }, { id: b, text: "Im Osten." }, { id: c, text: "Im Süden." }]
+        answer: [a]
+        explanation_vi: "„Köln liegt im Westen“."
+      - id: a1.m12.test.02.q2
+        prompt: "Wie ist es dort im Sommer?"
+        options: [{ id: a, text: "Kalt." }, { id: b, text: "Oft warm." }, { id: c, text: "Immer kalt." }]
+        answer: [b]
+        explanation_vi: "„Im Sommer ist es oft warm.“"
+  - id: a1.m12.test.03
+    type: fill-blank
+    skill: grammar
+    difficulty: 2
+    objective_refs: [a1.m12.obj.zeit, a1.m12.obj.fragen, a1.m12.obj.man, a1.m12.obj.denn]
+    instructions_vi: "Điền từ thích hợp."
+    items:
+      - { id: a1.m12.test.03.q1, prompt: "___ Juli fliege ich nach Rom.", hint_vi: "tháng", answers: ["Im"], explanation_vi: "Tháng → im." }
+      - { id: a1.m12.test.03.q2, prompt: "___ fährst du? – Nach Rom.", answers: ["Wohin"], explanation_vi: "Hỏi nơi đến → Wohin." }
+      - { id: a1.m12.test.03.q3, prompt: "Hier ___ man nicht rauchen.", hint_vi: "dürfen", answers: ["darf"], explanation_vi: "man darf nicht = cấm." }
+      - { id: a1.m12.test.03.q4, prompt: "Ich bleibe zu Hause, ___ es regnet.", answers: ["denn"], explanation_vi: "Nêu lý do → denn." }
+  - id: a1.m12.test.04
+    type: multiple-choice
+    skill: vocabulary
+    difficulty: 1
+    objective_refs: [a1.m12.obj.urlaub, a1.m12.obj.wetter]
+    instructions_vi: "Chọn đáp án đúng."
+    items:
+      - id: a1.m12.test.04.q1
+        prompt: "Welchen Artikel hat „Wetter“?"
+        options: [{ id: a, text: "der" }, { id: b, text: "die" }, { id: c, text: "das" }]
+        answer: [c]
+        explanation_vi: "das Wetter."
+      - id: a1.m12.test.04.q2
+        prompt: "Im ___ scheint oft die Sonne. (phía nam)"
+        options: [{ id: a, text: "Norden" }, { id: b, text: "Süden" }, { id: c, text: "Westen" }]
+        answer: [b]
+        explanation_vi: "Süden = phía nam."
+      - id: a1.m12.test.04.q3
+        prompt: "„Wie war’s?“ – Antwort:"
+        options: [{ id: a, text: "Es war toll!" }, { id: b, text: "Ich fahre morgen." }, { id: c, text: "Gute Nacht!" }]
+        answer: [a]
+        explanation_vi: "„Wie war’s?“ hỏi cảm nhận; trả lời bằng „Es war …“."
+  - id: a1.m12.test.05
+    type: word-order
+    skill: grammar
+    difficulty: 2
+    objective_refs: [a1.m12.obj.denn, a1.m12.obj.zeit]
+    instructions_vi: "Sắp xếp thành câu đúng."
+    items:
+      - id: a1.m12.test.05.q1
+        tokens: ["denn", "Ich", "zu", "bleibe", "Hause,", "ich", "bin", "krank."]
+        answer: "Ich bleibe zu Hause, denn ich bin krank."
+        translation_vi: "Tôi ở nhà vì tôi bị ốm."
+        explanation_vi: "Sau „denn“ trật tự câu giữ nguyên."
+      - id: a1.m12.test.05.q2
+        tokens: ["nach", "fliegen", "Im", "wir", "Juli", "Spanien."]
+        answer: "Im Juli fliegen wir nach Spanien."
+        translation_vi: "Tháng Bảy chúng tôi bay đến Tây Ban Nha."
+        explanation_vi: "Cụm thời gian ở vị trí 1 nên động từ ở vị trí 2."
+  - id: a1.m12.test.06
+    type: translation
+    skill: writing
+    difficulty: 2
+    objective_refs: [a1.m12.obj.fragen, a1.m12.obj.zeit]
+    instructions_vi: "Dịch sang tiếng Đức."
+    items:
+      - { id: a1.m12.test.06.q1, direction: vi-de, source: "Khi nào tàu khởi hành?", answers: ["Wann fährt der Zug ab?"], explanation_vi: "Wann ở vị trí 1; động từ tách fährt … ab." }
+      - { id: a1.m12.test.06.q2, direction: vi-de, source: "Thứ Sáu tôi bay đến Wien.", answers: ["Am Freitag fliege ich nach Wien."], explanation_vi: "am + thứ; động từ ở vị trí 2." }
+  - id: a1.m12.test.07
+    type: writing-practice
+    skill: writing
+    difficulty: 3
+    objective_refs: [a1.m12.obj.berichten, a1.m12.obj.urlaub]
+    instructions_vi: "Viết bưu thiếp ngắn (3–4 câu) cho một người bạn: bạn đang nghỉ ở đâu, thời tiết thế nào, bạn đã làm gì."
+    items:
+      - id: a1.m12.test.07.q1
+        prompt_vi: "Viết bưu thiếp từ kỳ nghỉ."
+        model_answer: { de: "Liebe Anna, liebe Grüße aus Spanien! Das Wetter ist toll: Die Sonne scheint und es ist heiß. Ich habe viele Fotos gemacht. Bis bald, Tom", vi: "Anna thân mến, gửi những lời thân ái từ Tây Ban Nha! Thời tiết tuyệt: trời nắng và nóng. Tôi đã chụp nhiều ảnh. Hẹn sớm gặp lại, Tom" }
+        rubric_vi: ["Có lời chào và lời kết thân mật.", "Mô tả thời tiết đúng.", "Dùng Perfekt đúng (habe … gemacht).", "Chính tả và dấu câu đúng."]
+        explanation_vi: "Bài mẫu có chào, thời tiết, việc đã làm và lời kết."
+  - id: a1.m12.test.08
+    type: speaking-practice
+    skill: speaking
+    difficulty: 2
+    objective_refs: [a1.m12.obj.urlaub, a1.m12.obj.wetter]
+    instructions_vi: "Nói 3–4 câu: kế hoạch nghỉ của bạn và thời tiết ở nơi bạn muốn đến."
+    items:
+      - id: a1.m12.test.08.q1
+        prompt_vi: "Kể nơi đi, thời gian và thời tiết dự kiến."
+        model_answer: { de: "Im August fahre ich nach Italien. Dort ist es warm und die Sonne scheint oft. Am Strand möchte ich schwimmen.", vi: "Tháng Tám tôi đi Ý. Ở đó trời ấm và thường có nắng. Ở bãi biển tôi muốn bơi." }
+        rubric_vi: ["Nêu nơi đến và thời gian (im August).", "Mô tả thời tiết.", "Động từ ở vị trí 2 đúng.", "Nói trôi chảy."]
+        explanation_vi: "Bài mẫu kết hợp kế hoạch, thời tiết và hoạt động."

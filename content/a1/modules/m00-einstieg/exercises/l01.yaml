@@ -1,0 +1,235 @@
+schema_version: '2.0'
+content_type: exercise-set
+id: a1.m00.l01.ex
+level: A1
+module: a1.m00
+lesson: a1.m00.l01
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+exercises:
+- id: a1.m00.l01.ex.01
+  type: matching
+  skill: pronunciation
+  difficulty: 1
+  objective_refs:
+  - a1.m00.l01.obj1
+  - a1.m00.l01.obj3
+  instructions_vi: Nối chữ cái với cách đọc đúng.
+  items:
+  - id: a1.m00.l01.ex.01.q1
+    pairs:
+    - left: V
+      right: '[faʊ̯]'
+    - left: W
+      right: '[veː]'
+    - left: J
+      right: '[jɔt]'
+    - left: Z
+      right: '[tsɛt]'
+    - left: E
+      right: '[eː]'
+    - left: I
+      right: '[iː]'
+    explanation_vi: V đọc như “phao”, W đọc như “vê”, J đọc “giót”, Z đọc “tset”, E đọc “ê”, I đọc “i”.
+- id: a1.m00.l01.ex.02
+  type: multiple-choice
+  skill: listening
+  difficulty: 1
+  objective_refs:
+  - a1.m00.l01.obj3
+  instructions_vi: Nghe đoạn đánh vần. Từ nào được đánh vần?
+  stimulus:
+    ref: a1.m00.l01.b6
+  items:
+  - id: a1.m00.l01.ex.02.q1
+    prompt: 'Từ thứ ba được đánh vần là:'
+    options:
+    - id: a
+      text: Weber
+    - id: b
+      text: Wever
+    - id: c
+      text: Veber
+    answer:
+    - a
+    explanation_vi: W [veː] – E – B – E – R. Chữ đầu là W (vê), không phải V (phao).
+  - id: a1.m00.l01.ex.02.q2
+    prompt: 'Từ thứ tư được đánh vần là:'
+    options:
+    - id: a
+      text: Julia
+    - id: b
+      text: Gulia
+    - id: c
+      text: Yulia
+    answer:
+    - a
+    explanation_vi: Chữ đầu đọc [jɔt] là J.
+- id: a1.m00.l01.ex.03
+  type: dictation
+  skill: listening
+  difficulty: 2
+  objective_refs:
+  - a1.m00.l01.obj1
+  - a1.m00.l01.obj3
+  instructions_vi: Nghe đánh vần và viết lại từ (viết hoa chữ cái đầu).
+  items:
+  - id: a1.m00.l01.ex.03.q1
+    tts: Z – O – O. Zoo.
+    answers:
+    - Zoo
+    explanation_vi: Z đọc [tsɛt]. Zoo = vườn thú.
+  - id: a1.m00.l01.ex.03.q2
+    tts: V – A – S – E. Vase.
+    answers:
+    - Vase
+    explanation_vi: V đọc [faʊ̯]. Vase = bình hoa.
+  - id: a1.m00.l01.ex.03.q3
+    tts: J – E – N – S. Jens.
+    answers:
+    - Jens
+    explanation_vi: J đọc [jɔt], E đọc [eː]. Jens là một tên nam.
+- id: a1.m00.l01.ex.04
+  type: true-false
+  skill: vocabulary
+  difficulty: 1
+  objective_refs:
+  - a1.m00.l01.obj2
+  instructions_vi: Đúng hay sai?
+  items:
+  - id: a1.m00.l01.ex.04.q1
+    prompt: Chữ ß có thể đứng ở đầu từ.
+    answer: false
+    explanation_vi: ß không bao giờ đứng đầu từ.
+  - id: a1.m00.l01.ex.04.q2
+    prompt: schon và schön có cùng nghĩa.
+    answer: false
+    explanation_vi: schon = đã/rồi, schön = đẹp. Umlaut làm thay đổi nghĩa.
+  - id: a1.m00.l01.ex.04.q3
+    prompt: Ở Thụy Sĩ, người ta viết ss thay cho ß.
+    answer: true
+    explanation_vi: Tiếng Đức ở Thụy Sĩ không dùng ß.
+  - id: a1.m00.l01.ex.04.q4
+    prompt: Để đọc ü, ta đặt lưỡi như đọc “i” và tròn môi như đọc “u”.
+    answer: true
+    explanation_vi: Đây là cách tập âm ü [y].
+- id: a1.m00.l01.ex.05
+  type: fill-blank
+  skill: writing
+  difficulty: 1
+  objective_refs:
+  - a1.m00.l01.obj4
+  instructions_vi: Viết lại không dùng Umlaut/ß. Điền phần còn thiếu.
+  items:
+  - id: a1.m00.l01.ex.05.q1
+    prompt: Müller → M___ller
+    answers:
+    - ue
+    explanation_vi: ü → ue.
+  - id: a1.m00.l01.ex.05.q2
+    prompt: Straße → Stra___e
+    answers:
+    - ss
+    explanation_vi: ß → ss.
+  - id: a1.m00.l01.ex.05.q3
+    prompt: Österreich → ___sterreich
+    answers:
+    - Oe
+    explanation_vi: Ö → Oe (giữ chữ hoa).
+  - id: a1.m00.l01.ex.05.q4
+    prompt: Bäckerei → B___ckerei
+    answers:
+    - ae
+    explanation_vi: ä → ae.
+- id: a1.m00.l01.ex.06
+  type: multiple-choice
+  skill: reading
+  difficulty: 1
+  objective_refs:
+  - a1.m00.l01.obj2
+  instructions_vi: Đọc các biển hiệu. Trả lời câu hỏi.
+  stimulus:
+    ref: a1.m00.l01.b7
+  items:
+  - id: a1.m00.l01.ex.06.q1
+    prompt: Từ nào có chữ ß?
+    options:
+    - id: a
+      text: Hauptstraße
+    - id: b
+      text: Café
+    - id: c
+      text: Bäckerei
+    answer:
+    - a
+    explanation_vi: Haupt-stra-ß-e.
+  - id: a1.m00.l01.ex.06.q2
+    prompt: Biển nào có chữ ö?
+    options:
+    - id: a
+      text: Fußball heute!
+    - id: b
+      text: Café Schön
+    - id: c
+      text: Bäckerei Müller
+    answer:
+    - b
+    explanation_vi: Schön có ö. (Österreich cũng có Ö.)
+  - id: a1.m00.l01.ex.06.q3
+    prompt: Tiệm bánh tên là gì?
+    options:
+    - id: a
+      text: Bäckerei Müller
+    - id: b
+      text: Café Schön
+    - id: c
+      text: Hotel Österreich
+    answer:
+    - a
+    explanation_vi: 'die Bäckerei = tiệm bánh; tên chủ: Müller.'
+- id: a1.m00.l01.ex.07
+  type: speaking-practice
+  skill: speaking
+  difficulty: 1
+  objective_refs:
+  - a1.m00.l01.obj1
+  - a1.m00.l01.obj3
+  instructions_vi: Ghi âm bạn đánh vần tên và họ của mình. Nghe lại và tự chấm theo tiêu chí.
+  grading: self
+  rubric:
+  - criterion_vi: Đọc đúng tên chữ cái (đặc biệt E, I, G, J, V, W, Y, Z)
+    points: 2
+  - criterion_vi: Đọc chậm, rõ, có ngắt giữa các chữ
+    points: 1
+  items:
+  - id: a1.m00.l01.ex.07.q1
+    prompt_vi: Đánh vần tên và họ của bạn.
+    model_answer:
+      de: 'Lan: L – A – N. Nguyen: N – G – U – Y – E – N.'
+    explanation_vi: 'Chú ý: G [ɡeː], U [uː], Y [ˈʏpsilɔn], E [eː].'
+- id: a1.m00.l01.ex.08
+  type: writing-practice
+  skill: writing
+  difficulty: 1
+  objective_refs:
+  - a1.m00.l01.obj4
+  instructions_vi: 'Viết lại 3 từ sau không dùng Umlaut/ß: Schön, Fußball, Tür.'
+  grading: self
+  rubric:
+  - criterion_vi: Chuyển đổi đúng cả 3 từ
+    points: 3
+  items:
+  - id: a1.m00.l01.ex.08.q1
+    prompt_vi: Schön, Fußball, Tür
+    model_answer:
+      de: Schoen, Fussball, Tuer
+    explanation_vi: ö → oe, ß → ss, ü → ue.

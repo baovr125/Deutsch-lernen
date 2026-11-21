@@ -1,0 +1,61 @@
+schema_version: '2.0'
+content_type: module
+id: a1.m00
+level: A1
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+  references:
+  - work: Dự án Deutsch-lernen
+    scope: nội dung bổ sung ngoài giáo trình
+    verification: proposed
+  notes_vi: Phần nhập môn bổ sung dành cho người bắt đầu từ con số 0. Không thuộc Kapitel nào của Netzwerk neu A1. Một số từ của Kapitel 1 (hallo, tschüs, danke, bitte…) được giới thiệu sớm ở đây như từ giao tiếp sống còn; Kapitel 1 sẽ ôn lại và mở rộng.
+kind: intro
+order: 0
+title_de: Einstieg
+title_vi: 'Nhập môn: chữ cái, phát âm và những câu đầu tiên'
+summary_vi: 'Bốn bài ngắn giúp bạn làm quen với tiếng Đức trước Kapitel 1: bảng chữ cái và chữ đặc biệt (ä, ö, ü, ß); cách đọc nguyên âm, phụ âm và ký hiệu phiên âm IPA; trọng âm và ngữ điệu; những câu giao tiếp đầu tiên và 5 đặc điểm cơ bản của câu tiếng Đức.'
+cefr:
+- A1.H2
+- A1.SP3
+- A1.S4
+- A1.SI1
+- A1.SI3
+- A1.L1
+- A1.L4
+lessons:
+- id: a1.m00.l01
+  file: lessons/l01.yaml
+- id: a1.m00.l02
+  file: lessons/l02.yaml
+- id: a1.m00.l03
+  file: lessons/l03.yaml
+- id: a1.m00.l04
+  file: lessons/l04.yaml
+grammar:
+- id: a1.g.satzbau-grundlagen
+  file: ../../grammar/satzbau-grundlagen.yaml
+vocabulary:
+  id: a1.m00.vocab
+  file: vocabulary.yaml
+expressions:
+  id: a1.m00.expr
+  file: expressions.yaml
+exercises:
+- id: a1.m00.l01.ex
+  file: exercises/l01.yaml
+- id: a1.m00.l02.ex
+  file: exercises/l02.yaml
+- id: a1.m00.l03.ex
+  file: exercises/l03.yaml
+- id: a1.m00.l04.ex
+  file: exercises/l04.yaml
+estimated_hours: 3.7

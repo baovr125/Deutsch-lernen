@@ -1,0 +1,221 @@
+schema_version: '2.0'
+content_type: exercise-set
+id: a1.m03.l06.ex
+level: A1
+module: a1.m03
+lesson: a1.m03.l06
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+exercises:
+- id: a1.m03.l06.ex.01
+  type: word-order
+  skill: vocabulary
+  difficulty: 1
+  objective_refs:
+  - a1.m03.l06.obj1
+  instructions_vi: Sắp xếp các tháng theo thứ tự (cách nhau bằng dấu cách).
+  items:
+  - id: a1.m03.l06.ex.01.q1
+    tokens:
+    - Mai
+    - Januar
+    - April
+    - März
+    - Februar
+    answer: Januar Februar März April Mai
+    explanation_vi: Tháng 1 → tháng 5.
+  - id: a1.m03.l06.ex.01.q2
+    tokens:
+    - Dezember
+    - Oktober
+    - September
+    - November
+    answer: September Oktober November Dezember
+    explanation_vi: Tháng 9 → tháng 12.
+- id: a1.m03.l06.ex.02
+  type: fill-blank
+  skill: grammar
+  difficulty: 1
+  objective_refs:
+  - a1.m03.l06.obj2
+  instructions_vi: Điền am hoặc im.
+  items:
+  - id: a1.m03.l06.ex.02.q1
+    prompt: ___ Sommer schwimme ich.
+    answers:
+    - Im
+    explanation_vi: Mùa → im.
+  - id: a1.m03.l06.ex.02.q2
+    prompt: ___ Montag arbeite ich.
+    answers:
+    - Am
+    explanation_vi: Ngày → am.
+  - id: a1.m03.l06.ex.02.q3
+    prompt: Das Festival ist ___ Juni.
+    answers:
+    - im
+    explanation_vi: Tháng → im.
+  - id: a1.m03.l06.ex.02.q4
+    prompt: ___ Wochenende fahre ich Ski.
+    answers:
+    - Am
+    explanation_vi: am Wochenende.
+- id: a1.m03.l06.ex.03
+  type: multiple-choice
+  skill: listening
+  difficulty: 2
+  objective_refs:
+  - a1.m03.l06.obj3
+  instructions_vi: Nghe ba người. Mỗi người thích mùa nào?
+  stimulus:
+    ref: a1.m03.l06.b5
+  items:
+  - id: a1.m03.l06.ex.03.q1
+    prompt: Lukas
+    options:
+    - id: a
+      text: Winter
+    - id: b
+      text: Sommer
+    - id: c
+      text: Herbst
+    answer:
+    - a
+    explanation_vi: „Der Winter ist super!“
+  - id: a1.m03.l06.ex.03.q2
+    prompt: Nina
+    options:
+    - id: a
+      text: Sommer
+    - id: b
+      text: Frühling
+    - id: c
+      text: Winter
+    answer:
+    - a
+    explanation_vi: „Im Sommer schwimme ich gern im See.“
+  - id: a1.m03.l06.ex.03.q3
+    prompt: Jan
+    options:
+    - id: a
+      text: Frühling
+    - id: b
+      text: Sommer
+    - id: c
+      text: Herbst
+    answer:
+    - c
+    explanation_vi: „Ich mag den Herbst.“
+- id: a1.m03.l06.ex.04
+  type: true-false
+  skill: reading
+  difficulty: 1
+  objective_refs:
+  - a1.m03.l06.obj1
+  - a1.m03.l06.obj2
+  instructions_vi: Đọc lịch sự kiện. Đúng hay sai?
+  stimulus:
+    ref: a1.m03.l06.b6
+  items:
+  - id: a1.m03.l06.ex.04.q1
+    prompt: Chợ Giáng sinh vào tháng Mười Hai.
+    answer: true
+    explanation_vi: 'Dezember: Weihnachtsmärkte.'
+  - id: a1.m03.l06.ex.04.q2
+    prompt: Oktoberfest chỉ diễn ra vào tháng Mười.
+    answer: false
+    explanation_vi: September/Oktober – bắt đầu từ tháng Chín.
+  - id: a1.m03.l06.ex.04.q3
+    prompt: Lễ hội âm nhạc trong công viên vào tháng Sáu.
+    answer: true
+    explanation_vi: 'Juni: Musikfestivals im Park.'
+- id: a1.m03.l06.ex.05
+  type: matching
+  skill: vocabulary
+  difficulty: 1
+  objective_refs:
+  - a1.m03.l06.obj1
+  instructions_vi: Nối mùa với nghĩa tiếng Việt.
+  items:
+  - id: a1.m03.l06.ex.05.q1
+    pairs:
+    - left: der Frühling
+      right: mùa xuân
+    - left: der Sommer
+      right: mùa hè
+    - left: der Herbst
+      right: mùa thu
+    - left: der Winter
+      right: mùa đông
+    explanation_vi: Bốn mùa đều là der.
+- id: a1.m03.l06.ex.06
+  type: translation
+  skill: vocabulary
+  difficulty: 2
+  objective_refs:
+  - a1.m03.l06.obj2
+  - a1.m03.l06.obj3
+  instructions_vi: Dịch sang tiếng Đức.
+  items:
+  - id: a1.m03.l06.ex.06.q1
+    direction: vi-de
+    source: Mùa hè tôi đi bơi.
+    answers:
+    - Im Sommer schwimme ich.
+    - Ich schwimme im Sommer.
+    explanation_vi: Im Sommer (1) – schwimme (2) – ich.
+  - id: a1.m03.l06.ex.06.q2
+    direction: vi-de
+    source: Tôi thích mùa thu.
+    answers:
+    - Ich mag den Herbst.
+    explanation_vi: Cụm „Ich mag den …“ (Redemittel của bài); mögen học kỹ ở Kapitel 4.
+- id: a1.m03.l06.ex.07
+  type: speaking-practice
+  skill: speaking
+  difficulty: 2
+  objective_refs:
+  - a1.m03.l06.obj3
+  - a1.m03.l06.obj4
+  instructions_vi: Ghi âm phần so sánh mùa (phần Nói).
+  grading: self
+  rubric:
+  - criterion_vi: Nói mùa/tháng yêu thích và hoạt động
+    points: 2
+  - criterion_vi: Dùng đúng im + tháng/mùa; động từ ở vị trí 2
+    points: 2
+  items:
+  - id: a1.m03.l06.ex.07.q1
+    prompt_vi: Mùa ở Việt Nam và ở D-A-CH
+    model_answer:
+      de: Ich mag den Frühling. Im April und im Mai gehe ich gern in den Park. In Vietnam ist es im Mai sehr heiß. In Deutschland ist es im Mai schön.
+    explanation_vi: So sánh với mẫu.
+- id: a1.m03.l06.ex.08
+  type: writing-practice
+  skill: writing
+  difficulty: 1
+  objective_refs:
+  - a1.m03.l06.obj2
+  - a1.m03.l06.obj3
+  instructions_vi: Viết nội dung áp phích “Một năm của tôi” (phần Viết).
+  grading: self
+  rubric:
+  - criterion_vi: 4 câu cho 4 mùa, im đúng
+    points: 2
+  - criterion_vi: 'Đảo chủ ngữ đúng: Im Sommer schwimme ich'
+    points: 2
+  items:
+  - id: a1.m03.l06.ex.08.q1
+    prompt_vi: Một năm của tôi
+    model_answer:
+      de: Im Frühling gehe ich in den Park. Im Sommer schwimme ich. Im Herbst lese ich viel. Im Winter koche ich gern.
+    explanation_vi: Khi Im + mùa đứng đầu, động từ ở vị trí 2 và chủ ngữ ra sau (quy tắc học kỹ ở Kapitel 4).

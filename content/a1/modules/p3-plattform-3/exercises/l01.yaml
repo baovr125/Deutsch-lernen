@@ -1,0 +1,160 @@
+schema_version: "2.0"
+content_type: exercise-set
+id: a1.p3.l01.ex
+level: A1
+module: a1.p3
+lesson: a1.p3.l01
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+exercises:
+  - id: a1.p3.l01.ex.01
+    type: multiple-choice
+    skill: vocabulary
+    difficulty: 1
+    objective_refs: [a1.p3.l01.obj1]
+    instructions_vi: "Chọn đáp án đúng."
+    items:
+      - id: a1.p3.l01.ex.01.q1
+        prompt: "Das Gegenteil von „hell“ ist ___."
+        options: [{ id: a, text: "dunkel" }, { id: b, text: "teuer" }, { id: c, text: "kurz" }]
+        answer: [a]
+        explanation_vi: "hell (sáng) – dunkel (tối)."
+      - id: a1.p3.l01.ex.01.q2
+        prompt: "Wo schläft man?"
+        options: [{ id: a, text: "Im Badezimmer." }, { id: b, text: "Im Schlafzimmer." }, { id: c, text: "In der Küche." }]
+        answer: [b]
+        explanation_vi: "Ngủ ở phòng ngủ (das Schlafzimmer)."
+      - id: a1.p3.l01.ex.01.q3
+        prompt: "Wer hilft bei einer Krankheit?"
+        options: [{ id: a, text: "Der Chef." }, { id: b, text: "Der Arzt." }, { id: c, text: "Der Kunde." }]
+        answer: [b]
+        explanation_vi: "Bác sĩ (der Arzt) giúp khi bị bệnh."
+      - id: a1.p3.l01.ex.01.q4
+        prompt: "Was braucht man zum Drucken?"
+        options: [{ id: a, text: "Einen Drucker." }, { id: b, text: "Ein Sofa." }, { id: c, text: "Einen Herd." }]
+        answer: [a]
+        explanation_vi: "Để in cần máy in (der Drucker)."
+  - id: a1.p3.l01.ex.02
+    type: matching
+    skill: vocabulary
+    difficulty: 2
+    objective_refs: [a1.p3.l01.obj1]
+    instructions_vi: "Nối vấn đề với cách xử lý hợp lý."
+    items:
+      - id: a1.p3.l01.ex.02.q1
+        pairs:
+          - { left: "Der Drucker ist kaputt.", right: "Ich rufe den Support an." }
+          - { left: "Mein Kopf tut weh.", right: "Ich nehme eine Tablette." }
+          - { left: "Das Zimmer ist dunkel.", right: "Ich mache die Lampe an." }
+          - { left: "Ich habe Hunger.", right: "Ich gehe in die Kantine." }
+        explanation_vi: "Máy in hỏng → gọi bộ phận hỗ trợ; đau đầu → uống thuốc; phòng tối → bật đèn; đói → đi căng-tin."
+  - id: a1.p3.l01.ex.03
+    type: fill-blank
+    skill: grammar
+    difficulty: 2
+    objective_refs: [a1.p3.l01.obj2]
+    instructions_vi: "Điền từ thích hợp (mạo từ, động từ hoặc giới từ)."
+    items:
+      - { id: a1.p3.l01.ex.03.q1, prompt: "Ich spreche mit ___ Kollegin.", answers: ["der"], explanation_vi: "mit + Dativ; Kollegin giống cái → der." }
+      - { id: a1.p3.l01.ex.03.q2, prompt: "___ bitte pünktlich! (ihr, kommen)", answers: ["Kommt"], explanation_vi: "Imperativ ihr: dạng ihr bỏ „ihr“." }
+      - { id: a1.p3.l01.ex.03.q3, prompt: "Hier ___ man nicht rauchen.", hint_vi: "dürfen", answers: ["darf"], explanation_vi: "man darf nicht = cấm." }
+      - { id: a1.p3.l01.ex.03.q4, prompt: "Das Sofa steht ___ Wohnzimmer.", hint_vi: "in dem", answers: ["im"], explanation_vi: "Wo? → in + dem = im." }
+      - { id: a1.p3.l01.ex.03.q5, prompt: "Ich gehe in ___ Küche.", hint_vi: "Wohin?", answers: ["die"], explanation_vi: "Wohin → Akkusativ: die Küche." }
+  - id: a1.p3.l01.ex.04
+    type: word-order
+    skill: grammar
+    difficulty: 2
+    objective_refs: [a1.p3.l01.obj2]
+    instructions_vi: "Sắp xếp các từ thành câu đúng."
+    items:
+      - id: a1.p3.l01.ex.04.q1
+        tokens: ["soll", "Arzt", "trinken.", "ich", "viel", "Der", "sagt,", "Tee"]
+        answer: "Der Arzt sagt, ich soll viel Tee trinken."
+        translation_vi: "Bác sĩ bảo tôi nên uống nhiều trà."
+        explanation_vi: "Sau dấu phẩy: ich soll … trinken (động từ chính ở cuối)."
+      - id: a1.p3.l01.ex.04.q2
+        tokens: ["dem", "Lampe", "steht", "Sofa.", "neben", "Die"]
+        answer: "Die Lampe steht neben dem Sofa."
+        translation_vi: "Cái đèn đứng cạnh ghế sofa."
+        explanation_vi: "neben + Dativ."
+      - id: a1.p3.l01.ex.04.q3
+        tokens: ["zum", "der", "gehe", "Nach", "ich", "Arbeit", "Supermarkt."]
+        answer: "Nach der Arbeit gehe ich zum Supermarkt."
+        translation_vi: "Sau giờ làm tôi đi siêu thị."
+        explanation_vi: "Cụm thời gian ở vị trí 1 nên động từ ở vị trí 2."
+  - id: a1.p3.l01.ex.05
+    type: true-false
+    skill: reading
+    difficulty: 1
+    objective_refs: [a1.p3.l01.obj3]
+    instructions_vi: "Đọc e-mail của Lara (khối đọc ở trên) và chọn Richtig hoặc Falsch."
+    stimulus: { ref: a1.p3.l01.b4 }
+    items:
+      - { id: a1.p3.l01.ex.05.q1, prompt: "Die Wohnung hat drei Zimmer.", answer: false, explanation_vi: "E-mail ghi: zwei Zimmer und einen Balkon." }
+      - { id: a1.p3.l01.ex.05.q2, prompt: "Lara geht zu Fuß zur Firma.", answer: true, explanation_vi: "„Ich gehe zu Fuß zur Firma.“" }
+      - { id: a1.p3.l01.ex.05.q3, prompt: "Die Party ist am Sonntag.", answer: false, explanation_vi: "„Am Samstag mache ich eine Einweihungsparty.“" }
+      - { id: a1.p3.l01.ex.05.q4, prompt: "Das Wohnzimmer ist dunkel.", answer: false, explanation_vi: "Phòng khách „groß und hell“." }
+      - { id: a1.p3.l01.ex.05.q5, prompt: "Lara lädt Tante Elke ein.", answer: true, explanation_vi: "„Kommst du?“ là lời mời." }
+  - id: a1.p3.l01.ex.06
+    type: multiple-choice
+    skill: listening
+    difficulty: 2
+    objective_refs: [a1.p3.l01.obj3]
+    instructions_vi: "Nghe đoạn hội thoại chuyển nhà (khối nghe ở trên) và chọn đáp án."
+    stimulus: { ref: a1.p3.l01.b3 }
+    items:
+      - id: a1.p3.l01.ex.06.q1
+        prompt: "Wo soll das Sofa stehen?"
+        options: [{ id: a, text: "Im Wohnzimmer, vor dem Fenster." }, { id: b, text: "In der Küche." }, { id: c, text: "Im Schlafzimmer." }]
+        answer: [a]
+        explanation_vi: "„Das Sofa kommt ins Wohnzimmer … vor dem Fenster.“"
+      - id: a1.p3.l01.ex.06.q2
+        prompt: "Wo steht der Tisch?"
+        options: [{ id: a, text: "Neben dem Bett." }, { id: b, text: "In der Küche, neben dem Kühlschrank." }, { id: c, text: "Im Flur." }]
+        answer: [b]
+        explanation_vi: "„Der Tisch steht in der Küche, neben dem Kühlschrank.“"
+      - id: a1.p3.l01.ex.06.q3
+        prompt: "Was machen die beiden danach?"
+        options: [{ id: a, text: "Sie räumen das Regal ein." }, { id: b, text: "Sie gehen schlafen." }, { id: c, text: "Sie kochen." }]
+        answer: [a]
+        explanation_vi: "„Danach räumen wir das Regal ein.“"
+  - id: a1.p3.l01.ex.07
+    type: sentence-construction
+    skill: writing
+    difficulty: 2
+    objective_refs: [a1.p3.l01.obj2, a1.p3.l01.obj4]
+    instructions_vi: "Viết một câu tiếng Đức với các từ bắt buộc."
+    items:
+      - { id: a1.p3.l01.ex.07.q1, prompt_vi: "Sau giờ làm tôi đi đến bác sĩ.", required_words: ["Arzt", "Arbeit"], answers: ["Nach der Arbeit gehe ich zum Arzt."], explanation_vi: "nach + Dativ (der Arbeit); zum Arzt (zu + dem)." }
+      - { id: a1.p3.l01.ex.07.q2, prompt_vi: "Cái đèn đứng cạnh giường.", required_words: ["Lampe", "neben", "Bett"], answers: ["Die Lampe steht neben dem Bett."], explanation_vi: "neben + Dativ (dem Bett)." }
+      - { id: a1.p3.l01.ex.07.q3, prompt_vi: "Hỏi: Tôi phải nói chuyện với ai?", required_words: ["Mit", "wem", "muss"], answers: ["Mit wem muss ich sprechen?"], explanation_vi: "W-Frage: Mit wem ở vị trí 1, muss ở vị trí 2." }
+  - id: a1.p3.l01.ex.08
+    type: speaking-practice
+    skill: speaking
+    difficulty: 2
+    objective_refs: [a1.p3.l01.obj4]
+    instructions_vi: "Nói 4–5 câu về ngày làm việc và căn hộ của bạn (xem khối nói ở trên)."
+    items:
+      - id: a1.p3.l01.ex.08.q1
+        prompt_vi: "Giờ làm, cách đi làm, căn hộ và vị trí một món đồ."
+        model_answer: { de: "Mein Arbeitstag fängt um acht Uhr an. Ich fahre mit dem Bus zur Firma. Meine Wohnung hat zwei Zimmer, aber sie ist hell. Das Sofa steht vor dem Fenster.", vi: "Ngày làm việc của tôi bắt đầu lúc tám giờ. Tôi đi xe buýt đến công ty. Căn hộ của tôi có hai phòng nhưng sáng. Ghế sofa đặt trước cửa sổ." }
+        rubric_vi: ["Nêu giờ làm với um … Uhr.", "Dùng mit dem + phương tiện.", "Dùng sein + tính từ và aber đúng.", "Dùng neben/vor/an + Dativ đúng."]
+        explanation_vi: "Bài mẫu dùng mit + Dativ, aber và giới từ vị trí."
+  - id: a1.p3.l01.ex.09
+    type: writing-practice
+    skill: writing
+    difficulty: 3
+    objective_refs: [a1.p3.l01.obj4]
+    instructions_vi: "Viết e-mail 40–50 từ cho một người bạn: bạn vừa chuyển nhà, căn hộ thế nào, và mời bạn đến vào thứ Bảy."
+    items:
+      - id: a1.p3.l01.ex.09.q1
+        prompt_vi: "Viết e-mail theo cấu trúc: chào – căn hộ – vị trí đồ vật – lời mời – kết."
+        model_answer: { de: "Lieber Max, ich wohne jetzt in einer neuen Wohnung. Sie hat drei Zimmer, aber die Küche ist klein. Das Bett steht neben dem Schrank. Am Samstag um sieben Uhr mache ich eine Party. Kommst du? Viele Grüße, Tom", vi: "Max thân mến, bây giờ mình sống trong một căn hộ mới. Nó có ba phòng nhưng nhà bếp nhỏ. Cái giường đặt cạnh tủ. Thứ Bảy lúc bảy giờ mình tổ chức tiệc. Bạn đến chứ? Thân ái, Tom" }
+        rubric_vi: ["Có lời chào và lời kết thân mật.", "Mô tả căn hộ bằng sein + tính từ.", "Có một câu về vị trí đồ vật.", "Có lời mời với ngày giờ."]
+        explanation_vi: "Bài mẫu đủ bốn khối: chào, mô tả, vị trí, lời mời."

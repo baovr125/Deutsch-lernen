@@ -1,0 +1,63 @@
+schema_version: "2.0"
+content_type: lesson
+id: a1.m08.l01
+level: A1
+module: a1.m08
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  references:
+    - { work: "Netzwerk neu A1.2 – Stoffverteilungsplan (Klett)", scope: "Kapitel 8, Mục Fit und gesund, Die Fitness-App; Imperativ mit du", verification: verified }
+  tags: ["sport", "imperativ"]
+order: 1
+title_de: "Fit und gesund"
+title_vi: "Khỏe mạnh và cân đối"
+duration_min: 45
+difficulty: 1
+objectives:
+  - { id: a1.m08.l01.obj1, text_vi: "Bạn có thể nói bạn tập môn gì, bao lâu một lần và cảm thấy thế nào.", skill: speaking }
+  - { id: a1.m08.l01.obj2, text_vi: "Bạn có thể dùng Imperativ du để khuyên hoặc nhắc bạn bè.", skill: grammar }
+vocabulary_refs: [a1.m08.v.sport, a1.m08.v.training, a1.m08.v.fitnessstudio, a1.m08.v.trainer, a1.m08.v.gesundheit, a1.m08.v.trainieren, a1.m08.v.joggen, a1.m08.v.schwimmen, a1.m08.v.fit, a1.m08.v.gesund]
+grammar_refs: [a1.g.imperativ-du]
+expression_refs: [a1.m08.x.sport-haeufigkeit, a1.m08.x.vorschlag-joggen]
+exercise_set_ref: a1.m08.l01.ex
+blocks:
+  - id: a1.m08.l01.b1
+    kind: explanation
+    skill: vocabulary
+    title_vi: "Bắt đầu: thể thao và sức khỏe"
+    body_vi: |
+      Bài này giúp bạn nói về việc tập luyện hằng ngày: **Ich mache zweimal pro Woche Sport.** (Tôi tập hai lần mỗi tuần.)
+      Hãy nhớ hai danh từ hay đi với „machen“: **Sport machen**, **Pause machen**. Và nhớ rằng „Sport“ không đếm được, không có số nhiều.
+  - id: a1.m08.l01.b2
+    kind: dialogue
+    skill: speaking
+    title_vi: "Hội thoại: Rủ bạn đi chạy bộ"
+    lines:
+      - { speaker: "Lena", de: "Hallo Mehmet! Machst du heute Sport?", vi: "Chào Mehmet! Hôm nay bạn có tập thể thao không?" }
+      - { speaker: "Mehmet", de: "Ja, ich gehe nach der Arbeit joggen. Komm mit!", vi: "Có, sau giờ làm mình đi chạy bộ. Đi cùng nhé!" }
+      - { speaker: "Lena", de: "Gute Idee! Ich bin aber nicht sehr fit.", vi: "Ý hay đấy! Nhưng mình không khỏe lắm." }
+      - { speaker: "Mehmet", de: "Kein Problem. Lauf einfach langsam und trink genug Wasser!", vi: "Không sao. Cứ chạy chậm thôi và uống đủ nước nhé!" }
+      - { speaker: "Lena", de: "Okay. Und am Samstag gehen wir schwimmen, oder?", vi: "Được rồi. Và thứ Bảy chúng ta đi bơi nhé?" }
+      - { speaker: "Mehmet", de: "Ja, super! Dann wirst du richtig fit.", vi: "Ừ, tuyệt! Khi đó bạn sẽ khỏe hẳn lên." }
+  - id: a1.m08.l01.b3
+    kind: reading
+    skill: reading
+    title_vi: "Bài đọc: Meine Fitness-App"
+    paragraphs:
+      - { de: "Jonas hat eine Fitness-App auf dem Handy. Die App sagt jeden Morgen: „Steh auf und mach Sport!“", vi: "Jonas có một ứng dụng thể dục trên điện thoại. Mỗi sáng ứng dụng nhắc: ‘Dậy đi và tập thể thao!’" }
+      - { de: "Am Montag und am Mittwoch joggt er im Park. Am Freitag schwimmt er im Hallenbad.", vi: "Thứ Hai và thứ Tư anh ấy chạy bộ trong công viên. Thứ Sáu anh ấy bơi ở bể bơi trong nhà." }
+      - { de: "Nach dem Training ist Jonas müde, aber er fühlt sich gesund.", vi: "Sau buổi tập Jonas mệt nhưng anh ấy thấy mình khỏe mạnh." }
+  - id: a1.m08.l01.b4
+    kind: explanation
+    skill: grammar
+    title_vi: "Ngữ pháp: Imperativ với du"
+    body_vi: |
+      Lấy **thân động từ** (bỏ -en), không đặt „du“: *kommen → Komm!, trinken → Trink!*
+      Động từ đổi e→i giữ nguyên: *nehmen → Nimm!*; đổi a→ä thì bỏ ä: *fahren → Fahr!*
+      Động từ tách: *Steh auf!* Xem chủ điểm a1.g.imperativ-du.

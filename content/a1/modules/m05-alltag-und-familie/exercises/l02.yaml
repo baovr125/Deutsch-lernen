@@ -1,0 +1,182 @@
+schema_version: '2.0'
+content_type: exercise-set
+id: a1.m05.l02.ex
+level: A1
+module: a1.m05
+lesson: a1.m05.l02
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+exercises:
+- id: a1.m05.l02.ex.01
+  type: matching
+  skill: vocabulary
+  difficulty: 1
+  objective_refs:
+  - a1.m05.l02.obj1
+  - a1.m05.l02.obj2
+  instructions_vi: Nối giờ chính thức với cách nói thông thường hằng ngày tương ứng.
+  items:
+  - id: a1.m05.l02.ex.01.q1
+    pairs:
+    - left: 08:15 Uhr
+      right: Viertel nach acht
+    - left: 08:30 Uhr
+      right: halb neun
+    - left: 08:45 Uhr
+      right: Viertel vor neun
+    - left: 08:10 Uhr
+      right: zehn nach acht
+    - left: 08:50 Uhr
+      right: zehn vor neun
+    explanation_vi: Quy tắc chuyển đổi từ giờ điện tử sang giờ giao tiếp đời thường.
+- id: a1.m05.l02.ex.02
+  type: multiple-choice
+  skill: grammar
+  difficulty: 1
+  objective_refs:
+  - a1.m05.l02.obj3
+  instructions_vi: Chọn giới từ thời gian đúng.
+  items:
+  - id: a1.m05.l02.ex.02.q1
+    prompt: Der Zug kommt genau ___ 14:35 Uhr an.
+    options:
+    - id: a
+      text: um
+    - id: b
+      text: von
+    - id: c
+      text: im
+    - id: d
+      text: am
+    answer:
+    - a
+    explanation_vi: Mốc giờ dùng giới từ um.
+  - id: a1.m05.l02.ex.02.q2
+    prompt: Die Praxis öffnet ___ Montag ___ Donnerstag.
+    options:
+    - id: a
+      text: in ... vor
+    - id: b
+      text: an ... nach
+    - id: c
+      text: um ... bis
+    - id: d
+      text: von ... bis
+    answer:
+    - d
+    explanation_vi: Từ thứ Hai đến thứ Năm dùng von ... bis.
+- id: a1.m05.l02.ex.03
+  type: multiple-choice
+  skill: listening
+  difficulty: 2
+  objective_refs:
+  - a1.m05.l02.obj4
+  instructions_vi: Nghe hội thoại tại nhà ga và chọn câu trả lời đúng.
+  stimulus:
+    ref: a1.m05.l02.b5
+  items:
+  - id: a1.m05.l02.ex.03.q1
+    prompt: Wie spät ist es bei der Anfrage?
+    options:
+    - id: a
+      text: Viertel vor zwei (13:45 Uhr)
+    - id: b
+      text: zwei Uhr
+    - id: c
+      text: halb drei (14:30 Uhr)
+    - id: d
+      text: zehn nach zwei (14:10 Uhr)
+    answer:
+    - d
+    explanation_vi: 'Nhân viên nói: ''Es ist jetzt genau zehn nach zwei''.'
+  - id: a1.m05.l02.ex.03.q2
+    prompt: Wann fährt der ICE nach Hamburg ab?
+    options:
+    - id: a
+      text: um 14:35 Uhr
+    - id: b
+      text: um 15:00 Uhr
+    - id: c
+      text: um 14:20 Uhr
+    - id: d
+      text: um 14:10 Uhr
+    answer:
+    - a
+    explanation_vi: 'Nhân viên trả lời: ''Der ICE fährt um 14:35 Uhr auf Gleis 7 ab''.'
+- id: a1.m05.l02.ex.04
+  type: true-false
+  skill: listening
+  difficulty: 2
+  objective_refs:
+  - a1.m05.l02.obj4
+  instructions_vi: Nghe lại và xác định câu sau là Đúng hay Sai.
+  stimulus:
+    ref: a1.m05.l02.b5
+  items:
+  - id: a1.m05.l02.ex.04.q1
+    prompt: Der Zug nach Hamburg hat 25 Minuten Verspätung.
+    answer: false
+    explanation_vi: Sai, tàu đúng giờ ('Der Zug ist pünktlich'); 25 phút là thời gian từ lúc hỏi (14:10) đến lúc tàu chạy (14:35).
+  - id: a1.m05.l02.ex.04.q2
+    prompt: Der Zug fährt von Gleis 7 ab.
+    answer: true
+    explanation_vi: 'Đúng, nhân viên nói: ''auf Gleis 7 ab''.'
+- id: a1.m05.l02.ex.05
+  type: true-false
+  skill: reading
+  difficulty: 2
+  objective_refs:
+  - a1.m05.l02.obj4
+  instructions_vi: Đọc lịch mở cửa và trả lời Đúng hoặc Sai.
+  stimulus:
+    ref: a1.m05.l02.b6
+  items:
+  - id: a1.m05.l02.ex.05.q1
+    prompt: Am Freitagnachmittag ist das Ärztehaus geöffnet.
+    answer: false
+    explanation_vi: Sai, thứ Sáu buổi chiều đóng cửa ('nachmittags geschlossen').
+  - id: a1.m05.l02.ex.05.q2
+    prompt: Am Wochenende ist das Ärztehaus geschlossen.
+    answer: true
+    explanation_vi: 'Đúng, bảng ghi rõ: ''Samstag und Sonntag: geschlossen''.'
+- id: a1.m05.l02.ex.06
+  type: fill-blank
+  skill: speaking
+  difficulty: 2
+  objective_refs:
+  - a1.m05.l02.obj2
+  instructions_vi: Điền từ còn thiếu để diễn đạt giờ 10:30 trong văn nói.
+  items:
+  - id: a1.m05.l02.ex.06.q1
+    prompt: 10:30 Uhr = Es ist halb ___.
+    answers:
+    - elf
+    explanation_vi: 10:30 = còn nửa tiếng nữa tới 11 giờ → halb elf.
+- id: a1.m05.l02.ex.07
+  type: word-order
+  skill: writing
+  difficulty: 2
+  objective_refs:
+  - a1.m05.l02.obj3
+  instructions_vi: Sắp xếp các từ thành câu hoàn chỉnh về giờ bắt đầu.
+  items:
+  - id: a1.m05.l02.ex.07.q1
+    tokens:
+    - um
+    - Der
+    - acht
+    - beginnt
+    - Kurs
+    - Uhr
+    answer: Der Kurs beginnt um acht Uhr.
+    prompt_vi: 'Sắp xếp: Der / beginnt / Kurs / acht / um / Uhr .'
+    explanation_vi: Der Kurs (chủ ngữ) + beginnt (động từ vị trí 2) + um acht Uhr (thời gian).

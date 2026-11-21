@@ -1,0 +1,136 @@
+schema_version: "2.0"
+content_type: exercise-set
+id: a1.m12.l01.ex
+level: A1
+module: a1.m12
+lesson: a1.m12.l01
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  tags: ["urlaub", "zeit"]
+exercises:
+  - id: a1.m12.l01.ex.01
+    type: multiple-choice
+    skill: vocabulary
+    difficulty: 1
+    objective_refs: [a1.m12.l01.obj1, a1.m12.obj.urlaub]
+    instructions_vi: "Chọn đáp án đúng."
+    items:
+      - id: a1.m12.l01.ex.01.q1
+        prompt: "Welchen Artikel hat „Urlaub“?"
+        options: [{ id: a, text: "der" }, { id: b, text: "die" }, { id: c, text: "das" }]
+        answer: [a]
+        explanation_vi: "Đúng là „der Urlaub“ (không có số nhiều)."
+      - id: a1.m12.l01.ex.01.q2
+        prompt: "Was packt man für die Reise?"
+        options: [{ id: a, text: "Den Strand" }, { id: b, text: "Den Koffer" }, { id: c, text: "Das Meer" }]
+        answer: [b]
+        explanation_vi: "Người ta sắp xếp va li (den Koffer packen)."
+      - id: a1.m12.l01.ex.01.q3
+        prompt: "Wie heißt der Plural von „der Strand“?"
+        options: [{ id: a, text: "die Strands" }, { id: b, text: "die Strände" }, { id: c, text: "die Stränden" }]
+        answer: [b]
+        explanation_vi: "Số nhiều có Umlaut: die Strände."
+      - id: a1.m12.l01.ex.01.q4
+        prompt: "Was bedeutet „buchen“?"
+        options: [{ id: a, text: "đặt (phòng, vé)" }, { id: b, text: "đóng gói" }, { id: c, text: "bay" }]
+        answer: [a]
+        explanation_vi: "buchen = đặt (Hotel, Reise)."
+  - id: a1.m12.l01.ex.02
+    type: matching
+    skill: vocabulary
+    difficulty: 1
+    objective_refs: [a1.m12.l01.obj1]
+    instructions_vi: "Nối từ tiếng Đức với nghĩa tiếng Việt."
+    items:
+      - { id: a1.m12.l01.ex.02.q1, left: "der Koffer", right: "va li", explanation_vi: "der Koffer, số nhiều không đổi." }
+      - { id: a1.m12.l01.ex.02.q2, left: "das Flugzeug", right: "máy bay", explanation_vi: "fliegen + Zeug." }
+      - { id: a1.m12.l01.ex.02.q3, left: "die Fahrkarte", right: "vé tàu xe", explanation_vi: "fahren + Karte." }
+      - { id: a1.m12.l01.ex.02.q4, left: "das Meer", right: "biển", explanation_vi: "das Meer, số nhiều die Meere." }
+      - { id: a1.m12.l01.ex.02.q5, left: "der Berg", right: "núi", explanation_vi: "der Berg, số nhiều die Berge." }
+  - id: a1.m12.l01.ex.03
+    type: fill-blank
+    skill: grammar
+    difficulty: 2
+    objective_refs: [a1.m12.l01.obj2, a1.g.zeitangaben-dativ.obj1, a1.m12.obj.zeit]
+    instructions_vi: "Điền giới từ thời gian đúng (im, am, um, vor)."
+    word_bank: ["Im", "Am", "um", "Vor"]
+    items:
+      - { id: a1.m12.l01.ex.03.q1, prompt: "___ August fliege ich nach Spanien.", hint_vi: "tháng", answers: ["Im"], explanation_vi: "Tháng và mùa dùng „im“." }
+      - { id: a1.m12.l01.ex.03.q2, prompt: "___ Samstag fahre ich nach Wien.", hint_vi: "thứ trong tuần", answers: ["Am"], explanation_vi: "Thứ trong tuần dùng „am“." }
+      - { id: a1.m12.l01.ex.03.q3, prompt: "Der Zug fährt ___ zehn Uhr ab.", hint_vi: "giờ", answers: ["um"], explanation_vi: "Giờ chính xác dùng „um“." }
+      - { id: a1.m12.l01.ex.03.q4, prompt: "___ dem Urlaub packe ich den Koffer.", hint_vi: "trước", answers: ["Vor"], explanation_vi: "„vor“ + Dativ: vor dem Urlaub." }
+  - id: a1.m12.l01.ex.04
+    type: word-order
+    skill: grammar
+    difficulty: 2
+    objective_refs: [a1.m12.l01.obj2, a1.g.zeitangaben-dativ.obj1]
+    instructions_vi: "Sắp xếp các từ thành câu đúng."
+    items:
+      - id: a1.m12.l01.ex.04.q1
+        tokens: ["nach", "fahren", "Im", "wir", "Sommer", "Italien."]
+        answer: "Im Sommer fahren wir nach Italien."
+        translation_vi: "Mùa hè chúng tôi đi Ý."
+        explanation_vi: "Cụm thời gian ở vị trí 1 nên động từ ở vị trí 2, chủ ngữ ở vị trí 3."
+      - id: a1.m12.l01.ex.04.q2
+        tokens: ["den", "Am", "Montag", "ich", "packe", "Koffer."]
+        answer: "Am Montag packe ich den Koffer."
+        translation_vi: "Thứ Hai tôi sắp xếp va li."
+        explanation_vi: "am + thứ; động từ vị trí 2."
+      - id: a1.m12.l01.ex.04.q3
+        tokens: ["Urlaub", "ein", "buche", "dem", "Vor", "ich", "Hotel."]
+        answer: "Vor dem Urlaub buche ich ein Hotel."
+        translation_vi: "Trước kỳ nghỉ tôi đặt khách sạn."
+        explanation_vi: "vor + Dativ (dem Urlaub)."
+  - id: a1.m12.l01.ex.05
+    type: reading-comprehension
+    skill: reading
+    difficulty: 1
+    objective_refs: [a1.m12.l01.obj1, a1.m12.obj.urlaub]
+    instructions_vi: "Đọc và trả lời."
+    stimulus:
+      text_de: "Familie Koç macht im August Urlaub. Sie fliegt nach Spanien. Vor dem Urlaub packt sie die Koffer und bucht ein Hotel. Am Strand schwimmt sie jeden Tag."
+      text_vi: "Gia đình Koç nghỉ vào tháng Tám. Họ bay đến Tây Ban Nha. Trước kỳ nghỉ họ sắp xếp va li và đặt khách sạn. Ở bãi biển họ bơi mỗi ngày."
+    items:
+      - id: a1.m12.l01.ex.05.q1
+        prompt: "Wann macht die Familie Urlaub?"
+        options: [{ id: a, text: "Im August." }, { id: b, text: "Im Juli." }, { id: c, text: "Im Winter." }]
+        answer: [a]
+        explanation_vi: "„im August“."
+      - id: a1.m12.l01.ex.05.q2
+        prompt: "Wohin fliegt die Familie?"
+        options: [{ id: a, text: "Nach Italien." }, { id: b, text: "Nach Spanien." }, { id: c, text: "Nach Wien." }]
+        answer: [b]
+        explanation_vi: "„Sie fliegt nach Spanien.“"
+      - id: a1.m12.l01.ex.05.q3
+        prompt: "Was macht die Familie vor dem Urlaub?"
+        options: [{ id: a, text: "Sie packt die Koffer und bucht ein Hotel." }, { id: b, text: "Sie schwimmt." }, { id: c, text: "Sie kocht." }]
+        answer: [a]
+        explanation_vi: "„Vor dem Urlaub packt sie die Koffer und bucht ein Hotel.“"
+  - id: a1.m12.l01.ex.06
+    type: translation
+    skill: writing
+    difficulty: 2
+    objective_refs: [a1.m12.l01.obj1, a1.m12.l01.obj2, a1.g.zeitangaben-dativ.obj1]
+    instructions_vi: "Dịch sang tiếng Đức."
+    items:
+      - { id: a1.m12.l01.ex.06.q1, direction: vi-de, source: "Tháng Bảy tôi đi nghỉ.", answers: ["Im Juli mache ich Urlaub.", "Im Juli fahre ich in den Urlaub."], explanation_vi: "im + tháng; động từ ở vị trí 2." }
+      - { id: a1.m12.l01.ex.06.q2, direction: vi-de, source: "Thứ Bảy chúng tôi bay đến Rome.", answers: ["Am Samstag fliegen wir nach Rom."], explanation_vi: "am + thứ; fliegen + nach + thành phố." }
+      - { id: a1.m12.l01.ex.06.q3, direction: vi-de, source: "Trước kỳ nghỉ tôi đặt khách sạn.", answers: ["Vor dem Urlaub buche ich ein Hotel."], explanation_vi: "vor + Dativ." }
+  - id: a1.m12.l01.ex.07
+    type: speaking-practice
+    skill: speaking
+    difficulty: 2
+    objective_refs: [a1.m12.l01.obj1, a1.m12.obj.urlaub]
+    instructions_vi: "Hãy nói 3–4 câu về kế hoạch nghỉ của bạn: đi đâu, khi nào, bằng gì."
+    items:
+      - id: a1.m12.l01.ex.07.q1
+        prompt_vi: "Nói kế hoạch nghỉ của bạn."
+        model_answer: { de: "Im August fliege ich nach Griechenland. Vor dem Urlaub buche ich ein Hotel. Am Strand möchte ich schwimmen.", vi: "Tháng Tám tôi bay đến Hy Lạp. Trước kỳ nghỉ tôi đặt khách sạn. Ở bãi biển tôi muốn bơi." }
+        rubric_vi: ["Nêu nơi đến (nach + địa danh).", "Dùng ít nhất hai giới từ thời gian đúng (im, am, vor…).", "Động từ ở vị trí 2 khi cụm thời gian đứng đầu.", "Phát âm rõ."]
+        explanation_vi: "Bài mẫu dùng im, vor, am với đúng trật tự câu."

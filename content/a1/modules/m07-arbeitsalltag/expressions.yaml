@@ -1,0 +1,31 @@
+schema_version: "2.0"
+content_type: expression-set
+id: a1.m07.expr
+level: A1
+module: a1.m07
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  references:
+    - { work: "Netzwerk neu A1.2 – Stoffverteilungsplan (Klett)", scope: "Kapitel 7: Redemittel zu Arbeitsalltag, Probleme mit Medien, Briefe schreiben, Smalltalk", verification: verified }
+    - { work: "Dự án Deutsch-lernen", scope: "Câu mẫu cụ thể do dự án tự viết", verification: proposed }
+  tags: ["redemittel"]
+entries:
+  - { id: a1.m07.x.arbeitsbeginn, de: "Mein Arbeitstag beginnt um … Uhr.", vi: "Ngày làm việc của tôi bắt đầu lúc … giờ.", register: neutral, function: "Kể về ngày làm việc", situation_vi: "Giới thiệu lịch làm việc với đồng nghiệp mới hoặc trong lớp học.", lesson_refs: [a1.m07.l01] }
+  - { id: a1.m07.x.feierabend-wunsch, de: "Schönen Feierabend!", vi: "Chúc buổi tối vui vẻ nhé! (khi tan làm)", register: neutral, function: "Chào khi tan làm", situation_vi: "Nói với đồng nghiệp khi họ ra về.", reply: { de: "Danke, dir auch!", vi: "Cảm ơn, bạn cũng vậy nhé!" }, lesson_refs: [a1.m07.l01] }
+  - { id: a1.m07.x.pause-vorschlag, de: "Machen wir jetzt Pause?", vi: "Giờ chúng ta nghỉ giải lao nhé?", register: neutral, function: "Gợi ý", situation_vi: "Đề nghị nghỉ giải lao giữa buổi họp hoặc giờ làm.", reply: { de: "Ja, gern. Ich brauche einen Kaffee.", vi: "Vâng, được. Tôi cần một ly cà phê." }, lesson_refs: [a1.m07.l01] }
+  - { id: a1.m07.x.mit-wem, de: "Mit wem muss ich sprechen?", vi: "Tôi phải nói chuyện với ai?", register: neutral, function: "Hỏi người phụ trách", situation_vi: "Ở công ty mới, hỏi ai giải quyết một việc.", reply: { de: "Sprechen Sie bitte mit Frau Berger.", vi: "Xin hãy nói chuyện với bà Berger." }, lesson_refs: [a1.m07.l02] }
+  - { id: a1.m07.x.problem-melden, de: "Ich habe ein Problem mit dem Drucker.", vi: "Tôi có vấn đề với máy in.", register: neutral, function: "Báo sự cố", situation_vi: "Báo với đồng nghiệp hoặc bộ phận hỗ trợ khi thiết bị gặp lỗi.", lesson_refs: [a1.m07.l02] }
+  - { id: a1.m07.x.funktioniert-nicht, de: "Das Internet funktioniert nicht.", vi: "Internet không hoạt động.", register: neutral, function: "Báo sự cố", situation_vi: "Nói khi mạng, máy tính hoặc thiết bị không chạy.", lesson_refs: [a1.m07.l02] }
+  - { id: a1.m07.x.hilfe-bitten, de: "Können Sie mir bitte helfen?", vi: "Ông/bà có thể giúp tôi được không ạ?", register: formal, function: "Nhờ giúp đỡ", situation_vi: "Nhờ người lạ hoặc người trên cấp giúp. Học thuộc như một cụm cố định („mir“ sẽ được giải thích ở Kapitel 11).", reply: { de: "Natürlich. Was ist das Problem?", vi: "Tất nhiên. Vấn đề là gì vậy?" }, lesson_refs: [a1.m07.l02] }
+  - { id: a1.m07.x.wohin-gehst-du, de: "Wohin gehst du?", vi: "Bạn đi đâu đấy?", register: informal, function: "Hỏi nơi đến", situation_vi: "Hỏi đồng nghiệp hoặc bạn bè đang định đi đâu.", reply: { de: "Ich gehe zur Post.", vi: "Tôi đi bưu điện." }, lesson_refs: [a1.m07.l03] }
+  - { id: a1.m07.x.wo-ist, de: "Wo ist hier die Apotheke?", vi: "Hiệu thuốc ở đâu quanh đây?", register: neutral, function: "Hỏi đường", situation_vi: "Hỏi người đi đường.", reply: { de: "Neben der Bank, links.", vi: "Cạnh ngân hàng, bên trái." }, lesson_refs: [a1.m07.l03] }
+  - { id: a1.m07.x.brief-anrede, de: "Sehr geehrte Frau Berger,", vi: "Kính gửi bà Berger,", register: formal, function: "Mở đầu thư trang trọng", situation_vi: "Dòng đầu của e-mail/thư gửi người chưa quen hoặc cấp trên.", lesson_refs: [a1.m07.l04] }
+  - { id: a1.m07.x.brief-gruss, de: "Mit freundlichen Grüßen", vi: "Trân trọng (kết thư)", register: formal, function: "Kết thư trang trọng", situation_vi: "Dòng cuối trước tên người gửi.", lesson_refs: [a1.m07.l04] }
+  - { id: a1.m07.x.brief-informell, de: "Liebe Anna, viele Grüße", vi: "Anna thân mến, thân ái", register: informal, function: "Mở và kết thư thân mật", situation_vi: "Viết cho bạn bè, người thân.", lesson_refs: [a1.m07.l04] }
+  - { id: a1.m07.x.smalltalk, de: "Wie war dein Tag?", vi: "Ngày hôm nay của bạn thế nào?", register: informal, function: "Trò chuyện xã giao", situation_vi: "Trò chuyện nhẹ với đồng nghiệp ở căng-tin hoặc cuối ngày.", reply: { de: "Ganz gut, aber ein bisschen anstrengend.", vi: "Khá ổn nhưng hơi mệt." }, lesson_refs: [a1.m07.l04] }

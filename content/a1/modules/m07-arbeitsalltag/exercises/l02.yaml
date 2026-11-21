@@ -1,0 +1,122 @@
+schema_version: "2.0"
+content_type: exercise-set
+id: a1.m07.l02.ex
+level: A1
+module: a1.m07
+lesson: a1.m07.l02
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  tags: ["dativ", "medien"]
+exercises:
+  - id: a1.m07.l02.ex.01
+    type: fill-blank
+    skill: grammar
+    difficulty: 1
+    objective_refs: [a1.m07.l02.obj1, a1.g.mit-dativ.obj1, a1.m07.obj.mit]
+    instructions_vi: "Điền mạo từ Dativ đúng (dem, der, den, einem…)."
+    items:
+      - { id: a1.m07.l02.ex.01.q1, prompt: "Ich spreche mit ___ Chef.", answers: ["dem"], explanation_vi: "„Chef“ giống đực: der → dem sau mit." }
+      - { id: a1.m07.l02.ex.01.q2, prompt: "Sie arbeitet mit ___ Kollegin.", answers: ["der"], explanation_vi: "„Kollegin“ giống cái: die → der ở Dativ." }
+      - { id: a1.m07.l02.ex.01.q3, prompt: "Wir essen mit ___ Kollegen.", answers: ["den"], explanation_vi: "Số nhiều ở Dativ dùng „den“ (danh từ có đuôi -n)." }
+      - { id: a1.m07.l02.ex.01.q4, prompt: "Ich habe einen Termin mit ___ Kunden.", hint_vi: "mạo từ không xác định", answers: ["einem"], explanation_vi: "„Kunde“ giống đực: ein → einem ở Dativ." }
+  - id: a1.m07.l02.ex.02
+    type: multiple-choice
+    skill: grammar
+    difficulty: 2
+    objective_refs: [a1.m07.l02.obj1, a1.g.mit-dativ.obj1]
+    instructions_vi: "Chọn câu / dạng đúng."
+    items:
+      - id: a1.m07.l02.ex.02.q1
+        prompt: "Welcher Satz ist richtig?"
+        options: [{ id: a, text: "Ich fahre mit der Bus zur Arbeit." }, { id: b, text: "Ich fahre mit dem Bus zur Arbeit." }, { id: c, text: "Ich fahre mit den Bus zur Arbeit." }]
+        answer: [b]
+        explanation_vi: "„Bus“ giống đực nên Dativ là „dem“."
+      - id: a1.m07.l02.ex.02.q2
+        prompt: "Welcher Satz ist richtig?"
+        options: [{ id: a, text: "Er telefoniert mit der Kundin." }, { id: b, text: "Er telefoniert mit die Kundin." }, { id: c, text: "Er telefoniert mit dem Kundin." }]
+        answer: [a]
+        explanation_vi: "„Kundin“ giống cái: Dativ là „der“."
+      - id: a1.m07.l02.ex.02.q3
+        prompt: "Ich spiele mit ___ Kindern."
+        options: [{ id: a, text: "dem" }, { id: b, text: "den" }, { id: c, text: "der" }]
+        answer: [b]
+        explanation_vi: "Số nhiều Dativ: „den“ + danh từ có -n (Kindern)."
+      - id: a1.m07.l02.ex.02.q4
+        prompt: "Mit ___ Telefon rufe ich den Kunden an."
+        options: [{ id: a, text: "die" }, { id: b, text: "der" }, { id: c, text: "dem" }]
+        answer: [c]
+        explanation_vi: "„das Telefon“ giống trung: Dativ là „dem“."
+  - id: a1.m07.l02.ex.03
+    type: listening-practice
+    skill: listening
+    difficulty: 2
+    objective_refs: [a1.m07.l02.obj2, a1.m07.obj.medien]
+    instructions_vi: "Nghe tin nhắn thoại (hoặc đọc transcript khi chưa có audio) rồi chọn đáp án."
+    stimulus:
+      text_de: "Guten Tag, hier ist der IT-Support. Das Internet funktioniert heute Morgen nicht. Wir arbeiten schon daran, aber es dauert eine Stunde. Bei Fragen rufen Sie bitte die Nummer eins zwei drei an."
+      audio_status: pending-tts
+    items:
+      - id: a1.m07.l02.ex.03.q1
+        prompt: "Was funktioniert nicht?"
+        options: [{ id: a, text: "Der Drucker." }, { id: b, text: "Das Internet." }, { id: c, text: "Das Telefon." }]
+        answer: [b]
+        explanation_vi: "Câu thứ hai: „Das Internet funktioniert heute Morgen nicht.“"
+      - id: a1.m07.l02.ex.03.q2
+        prompt: "Wie lange dauert es?"
+        options: [{ id: a, text: "Eine Stunde." }, { id: b, text: "Zwei Stunden." }, { id: c, text: "Einen Tag." }]
+        answer: [a]
+        explanation_vi: "„es dauert eine Stunde“ = sẽ mất một tiếng."
+      - id: a1.m07.l02.ex.03.q3
+        prompt: "Was kann man bei Fragen machen?"
+        options: [{ id: a, text: "Eine E-Mail schreiben." }, { id: b, text: "Den IT-Support anrufen." }, { id: c, text: "Zum Chef gehen." }]
+        answer: [b]
+        explanation_vi: "„Bei Fragen rufen Sie bitte die Nummer … an“ — gọi điện cho bộ phận hỗ trợ."
+  - id: a1.m07.l02.ex.04
+    type: matching
+    skill: vocabulary
+    difficulty: 2
+    objective_refs: [a1.m07.l02.obj2, a1.m07.obj.medien]
+    instructions_vi: "Nối sự cố với việc nên làm."
+    items:
+      - { id: a1.m07.l02.ex.04.q1, left: "Der Drucker ist kaputt.", right: "Ich rufe den Support an.", explanation_vi: "Máy in hỏng → gọi bộ phận hỗ trợ (anrufen + Akkusativ)." }
+      - { id: a1.m07.l02.ex.04.q2, left: "Ich brauche ein neues Passwort.", right: "Ich schreibe eine E-Mail an die IT.", explanation_vi: "Cần mật khẩu mới → gửi e-mail cho bộ phận IT." }
+      - { id: a1.m07.l02.ex.04.q3, left: "Das Internet funktioniert nicht.", right: "Ich spreche mit dem Kollegen aus dem Support.", explanation_vi: "Mạng không chạy → nói chuyện với đồng nghiệp bên hỗ trợ (mit + Dativ)." }
+      - { id: a1.m07.l02.ex.04.q4, left: "Ich habe eine Frage zum Text.", right: "Ich spreche mit der Kollegin.", explanation_vi: "Có câu hỏi về văn bản → hỏi đồng nghiệp nữ (mit + Dativ: der Kollegin)." }
+  - id: a1.m07.l02.ex.05
+    type: sentence-construction
+    skill: writing
+    difficulty: 2
+    objective_refs: [a1.m07.l02.obj1, a1.g.mit-dativ.obj1]
+    instructions_vi: "Viết một câu tiếng Đức đúng với từ bắt buộc."
+    items:
+      - { id: a1.m07.l02.ex.05.q1, prompt_vi: "Tôi nói chuyện với đồng nghiệp nữ.", required_words: ["mit", "Kollegin"], answers: ["Ich spreche mit der Kollegin.", "Ich spreche mit meiner Kollegin."], explanation_vi: "Dativ giống cái: „der Kollegin“ hoặc „meiner Kollegin“." }
+      - { id: a1.m07.l02.ex.05.q2, prompt_vi: "Tôi đi làm bằng xe buýt.", required_words: ["mit", "Bus"], answers: ["Ich fahre mit dem Bus zur Arbeit."], explanation_vi: "Phương tiện đi với „mit dem“ (Bus giống đực); „zur Arbeit“ = đến chỗ làm." }
+      - { id: a1.m07.l02.ex.05.q3, prompt_vi: "Bạn có cuộc hẹn với ai?", required_words: ["Mit", "wem", "Termin"], answers: ["Mit wem hast du einen Termin?"], explanation_vi: "Từ để hỏi: „Mit wem“ đứng đầu, động từ „hast“ ở vị trí 2." }
+  - id: a1.m07.l02.ex.06
+    type: word-order
+    skill: grammar
+    difficulty: 2
+    objective_refs: [a1.m07.l02.obj1, a1.g.mit-dativ.obj1]
+    instructions_vi: "Sắp xếp các từ thành câu đúng."
+    items:
+      - id: a1.m07.l02.ex.06.q1
+        tokens: ["dem", "spreche", "Ich", "Chef.", "mit"]
+        answer: "Ich spreche mit dem Chef."
+        translation_vi: "Tôi nói chuyện với sếp."
+        explanation_vi: "Chủ ngữ + động từ + mit + dem Chef."
+      - id: a1.m07.l02.ex.06.q2
+        tokens: ["Auto", "Wir", "dem", "zur", "mit", "fahren", "Besprechung."]
+        answer: "Wir fahren mit dem Auto zur Besprechung."
+        translation_vi: "Chúng tôi đi họp bằng ô tô."
+        explanation_vi: "„mit dem Auto“ (phương tiện) rồi „zur Besprechung“ (đích đến)."
+      - id: a1.m07.l02.ex.06.q3
+        tokens: ["du?", "sprichst", "wem", "Mit"]
+        answer: "Mit wem sprichst du?"
+        translation_vi: "Bạn đang nói chuyện với ai?"
+        explanation_vi: "Câu hỏi có từ để hỏi: „Mit wem“ ở vị trí 1, động từ chia ở vị trí 2."

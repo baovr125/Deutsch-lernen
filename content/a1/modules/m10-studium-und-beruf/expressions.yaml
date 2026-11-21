@@ -1,0 +1,30 @@
+schema_version: "2.0"
+content_type: expression-set
+id: a1.m10.expr
+level: A1
+module: a1.m10
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  references:
+    - { work: "Netzwerk neu A1.2 – Stoffverteilungsplan (Klett)", scope: "Kapitel 10: Redemittel Beruf, Tagesablauf, „Am Telefon“", verification: verified }
+    - { work: "Dự án Deutsch-lernen", scope: "Câu mẫu cụ thể do dự án tự viết", verification: proposed }
+  tags: ["redemittel"]
+entries:
+  - { id: a1.m10.x.beruf-fragen, de: "Was sind Sie von Beruf?", vi: "Nghề nghiệp của ông/bà là gì?", register: formal, function: "Hỏi nghề nghiệp", situation_vi: "Làm quen trang trọng, điền biểu mẫu.", reply: { de: "Ich bin Ingenieur.", vi: "Tôi là kỹ sư." }, lesson_refs: [a1.m10.l01] }
+  - { id: a1.m10.x.studium, de: "Ich studiere Informatik an der Universität.", vi: "Tôi học ngành tin học ở trường đại học.", register: neutral, function: "Nói về việc học", situation_vi: "Giới thiệu bản thân với bạn mới.", lesson_refs: [a1.m10.l01] }
+  - { id: a1.m10.x.arbeitsort, de: "Ich arbeite als Verkäuferin in einem Supermarkt.", vi: "Tôi làm nhân viên bán hàng ở một siêu thị.", register: neutral, function: "Nói về công việc", situation_vi: "Giới thiệu nghề và nơi làm việc. Cấu trúc „arbeiten als + nghề“.", lesson_refs: [a1.m10.l01] }
+  - { id: a1.m10.x.gestern-fragen, de: "Was hast du gestern gemacht?", vi: "Hôm qua bạn đã làm gì?", register: informal, function: "Hỏi chuyện đã xảy ra", situation_vi: "Trò chuyện với bạn bè, đồng nghiệp.", reply: { de: "Ich habe gekocht und aufgeräumt.", vi: "Tôi đã nấu ăn và dọn dẹp." }, lesson_refs: [a1.m10.l02] }
+  - { id: a1.m10.x.tagesablauf, de: "Morgens habe ich gefrühstückt, mittags habe ich gearbeitet.", vi: "Buổi sáng tôi đã ăn sáng, buổi trưa tôi đã làm việc.", register: neutral, function: "Kể diễn biến một ngày", situation_vi: "Kể cho bạn bè nghe một ngày đã qua.", lesson_refs: [a1.m10.l02] }
+  - { id: a1.m10.x.schon-gemacht, de: "Hast du schon gegessen?", vi: "Bạn ăn chưa?", register: informal, function: "Hỏi đã làm chưa", situation_vi: "Câu hỏi thân mật hằng ngày.", lesson_refs: [a1.m10.l02] }
+  - { id: a1.m10.x.wochenende-fragen, de: "Wie war dein Wochenende?", vi: "Cuối tuần của bạn thế nào?", register: informal, function: "Hỏi thăm cuối tuần", situation_vi: "Mở đầu câu chuyện vào sáng thứ Hai.", reply: { de: "Schön! Ich habe Freunde getroffen.", vi: "Vui! Mình đã gặp bạn bè." }, lesson_refs: [a1.m10.l03] }
+  - { id: a1.m10.x.erzaehlen, de: "Am Samstag haben wir einen Film gesehen und Pizza gegessen.", vi: "Thứ Bảy chúng tôi đã xem phim và ăn pizza.", register: neutral, function: "Kể một sự kiện", situation_vi: "Kể ngắn gọn cuối tuần của mình.", lesson_refs: [a1.m10.l03] }
+  - { id: a1.m10.x.am-telefon-melden, de: "Guten Tag, hier ist Anna Weber.", vi: "Xin chào, đây là Anna Weber.", register: formal, function: "Tự giới thiệu khi gọi điện", situation_vi: "Mở đầu cuộc gọi.", lesson_refs: [a1.m10.l04] }
+  - { id: a1.m10.x.sprechen-mit, de: "Kann ich bitte Herrn Berger sprechen?", vi: "Tôi có thể nói chuyện với ông Berger được không ạ?", register: formal, function: "Xin gặp người cần gọi", situation_vi: "Nói với lễ tân hoặc người nghe máy.", reply: { de: "Einen Moment, bitte.", vi: "Xin đợi một chút." }, lesson_refs: [a1.m10.l04] }
+  - { id: a1.m10.x.nicht-da, de: "Herr Berger ist leider nicht da. Ich rufe Sie später zurück.", vi: "Tiếc là ông Berger không có đây. Tôi sẽ gọi lại cho ông/bà sau.", register: formal, function: "Thông báo người đó vắng", situation_vi: "Người nghe máy trả lời khi người cần gọi không có.", lesson_refs: [a1.m10.l04] }
+  - { id: a1.m10.x.nachricht, de: "Können Sie bitte eine Nachricht aufschreiben?", vi: "Ông/bà có thể ghi giúp một tin nhắn được không ạ?", register: formal, function: "Nhờ ghi lại tin nhắn", situation_vi: "Khi người cần gọi vắng mặt.", lesson_refs: [a1.m10.l04] }

@@ -1,0 +1,183 @@
+schema_version: '2.0'
+content_type: exercise-set
+id: a1.p2.l03.ex
+level: A1
+module: a1.p2
+lesson: a1.p2.l03
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+exercises:
+- id: a1.p2.l03.ex.01
+  type: true-false
+  skill: reading
+  difficulty: 1
+  objective_refs:
+  - a1.p2.l03.obj1
+  instructions_vi: Đọc Văn bản 1 (thư mời công ty) và xác định Đúng (true) hay Sai (false).
+  stimulus:
+    ref: a1.p2.l03.b6
+  items:
+  - id: a1.p2.l03.ex.01.q1
+    prompt: Das Firmenfest findet am Freitag, den 18. Oktober, statt.
+    answer: true
+    explanation_vi: 'Văn bản nêu: ''am nächsten Freitag, den 18. Oktober, feiern wir unser Firmenjubiläum''.'
+  - id: a1.p2.l03.ex.01.q2
+    prompt: Die Mitarbeiter müssen selbst Essen für das Fest mitbringen.
+    answer: false
+    explanation_vi: 'Sai, công ty đã chuẩn bị buffet: ''Wir haben ein großes Büfett für alle Mitarbeiter vorbereitet''.'
+  - id: a1.p2.l03.ex.01.q3
+    prompt: Die Kollegen müssen bis Dienstag Bescheid geben.
+    answer: true
+    explanation_vi: 'Đúng, thư ghi: ''Bitte gebt mir bis Dienstag Bescheid''.'
+- id: a1.p2.l03.ex.02
+  type: true-false
+  skill: reading
+  difficulty: 1
+  objective_refs:
+  - a1.p2.l03.obj1
+  instructions_vi: Đọc Văn bản 2 (xác nhận đặt bàn) và xác định Đúng (true) hay Sai (false).
+  stimulus:
+    ref: a1.p2.l03.b6
+  items:
+  - id: a1.p2.l03.ex.02.q1
+    prompt: Herr Rossi hat einen Tisch für vier Personen reserviert.
+    answer: true
+    explanation_vi: 'Thư nêu: ''einen Tisch für 4 Personen reserviert''.'
+  - id: a1.p2.l03.ex.02.q2
+    prompt: Herr Rossi kann im Restaurant mit Kreditkarte bezahlen.
+    answer: false
+    explanation_vi: 'Sai, nhà hàng chỉ nhận tiền mặt: ''Kartenzahlung ist bei uns leider nicht möglich, bitte zahlen Sie bar''.'
+- id: a1.p2.l03.ex.03
+  type: fill-blank
+  skill: writing
+  difficulty: 2
+  objective_refs:
+  - a1.p2.l03.obj2
+  instructions_vi: Điền 5 thông tin của Maria Santos vào phiếu đăng ký lớp học nấu ăn.
+  stimulus:
+    ref: a1.p2.l03.b6
+  items:
+  - id: a1.p2.l03.ex.03.q1
+    prompt: 'Familienname: ___'
+    answers:
+    - Santos
+    explanation_vi: Họ của người đăng ký là Santos.
+  - id: a1.p2.l03.ex.03.q2
+    prompt: 'Vorname: ___'
+    answers:
+    - Maria
+    explanation_vi: Tên của người đăng ký là Maria.
+  - id: a1.p2.l03.ex.03.q3
+    prompt: 'Anzahl der Personen: ___'
+    answers:
+    - '1'
+    explanation_vi: 'Cô ấy đi một mình: ''Sie kommt allein (1 Person)''.'
+  - id: a1.p2.l03.ex.03.q4
+    prompt: 'Kursdatum: ___'
+    answers:
+    - 15. November
+    explanation_vi: Ngày học là 15. November.
+  - id: a1.p2.l03.ex.03.q5
+    prompt: 'Zahlungsweise (bar / Karte): ___'
+    answers:
+    - bar
+    explanation_vi: 'Thanh toán bằng tiền mặt: ''bezahlt bar vor Ort''.'
+- id: a1.p2.l03.ex.04
+  type: matching
+  skill: speaking
+  difficulty: 1
+  objective_refs:
+  - a1.p2.l03.obj3
+  instructions_vi: Nối thẻ chủ đề và từ khóa với câu hỏi tương ứng trong bài thi Nói Teil 2.
+  items:
+  - id: a1.p2.l03.ex.04.q1
+    pairs:
+    - left: 'Thema: Essen und Trinken | Wort: Lieblingsessen'
+      right: Was ist dein Lieblingsessen?
+    - left: 'Thema: Freizeit | Wort: Wochenende'
+      right: Was machst du am Wochenende?
+    - left: 'Thema: Familie | Wort: Geschwister'
+      right: Hast du Geschwister?
+    - left: 'Thema: Einkaufen | Wort: Supermarkt'
+      right: Wann gehst du im Supermarkt einkaufen?
+    explanation_vi: Mỗi câu hỏi ứng với đúng chủ đề và chứa từ khóa trên thẻ thi.
+- id: a1.p2.l03.ex.05
+  type: sentence-construction
+  skill: speaking
+  difficulty: 2
+  objective_refs:
+  - a1.p2.l03.obj3
+  instructions_vi: Viết câu hỏi hoàn chỉnh cho bài thi Nói Teil 2 từ các từ gợi ý.
+  items:
+  - id: a1.p2.l03.ex.05.q1
+    prompt_vi: Trinken / Sie / morgens / Kaffee ?
+    answers:
+    - Trinken Sie morgens Kaffee?
+    explanation_vi: 'Câu hỏi Ja/Nein: Trinken Sie morgens Kaffee?'
+  - id: a1.p2.l03.ex.05.q2
+    prompt_vi: Wann / Sie / einkaufen / gehen ?
+    answers:
+    - Wann gehen Sie einkaufen?
+    explanation_vi: 'Câu hỏi W-Frage: Wann gehen Sie einkaufen?'
+- id: a1.p2.l03.ex.06
+  type: multiple-choice
+  skill: listening
+  difficulty: 1
+  objective_refs:
+  - a1.p2.l03.obj3
+  instructions_vi: Nghe bài thi Nói mẫu và chọn đáp án đúng.
+  stimulus:
+    ref: a1.p2.l03.b5
+  items:
+  - id: a1.p2.l03.ex.06.q1
+    prompt: Welche Sportart treibt Kandidat B am Wochenende?
+    options:
+    - id: a
+      text: Er spielt Fußball.
+    - id: b
+      text: Er fährt Fahrrad.
+    - id: c
+      text: Er schwimmt im See.
+    answer:
+    - b
+    explanation_vi: 'Thí sinh B trả lời: ''ich fahre jeden Sonntag Fahrrad im Park''.'
+  - id: a1.p2.l03.ex.06.q2
+    prompt: Wann geht Kandidat A im Supermarkt einkaufen?
+    options:
+    - id: a
+      text: Am Samstagmorgen um 8 Uhr.
+    - id: b
+      text: Am Freitagnachmittag nach der Arbeit.
+    - id: c
+      text: Jeden Sonntagabend.
+    answer:
+    - b
+    explanation_vi: 'Thí sinh A trả lời: ''am Freitagnachmittag nach der Arbeit''.'
+- id: a1.p2.l03.ex.07
+  type: speaking-practice
+  skill: speaking
+  difficulty: 2
+  objective_refs:
+  - a1.p2.l03.obj3
+  instructions_vi: Thực hành đặt một câu hỏi và câu trả lời theo chủ đề Freizeit và từ khóa Kino.
+  grading: self
+  rubric:
+  - criterion_vi: Đặt câu hỏi đúng ngữ pháp (W-Frage hoặc Ja/Nein-Frage) và chứa từ khóa Kino
+    points: 2
+  - criterion_vi: Trả lời rõ ràng, đúng ngữ cảnh
+    points: 1
+  items:
+  - id: a1.p2.l03.ex.07.q1
+    prompt_vi: Stellen Sie eine Frage zum Thema Freizeit mit dem Wort 'Kino' und antworten Sie.
+    model_answer:
+      de: Gehen Sie am Wochenende ins Kino? – Ja, ich gehe gern ins Kino.
+    explanation_vi: Câu hỏi đúng ngữ pháp và câu trả lời hoàn chỉnh.

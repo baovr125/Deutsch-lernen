@@ -1,0 +1,137 @@
+schema_version: '2.0'
+content_type: vocabulary-set
+id: a1.p1.vocab
+level: A1
+module: a1.p1
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+  references:
+  - work: Netzwerk neu A1 (Klett)
+    scope: 'Plattform 1: Plattform 1: wiederholen und trainieren (Kapitel 1–3); Landeskunde: bekannte Persönlichkeiten, Städte in D-A-CH; Prüfungstraining: Hören Teil 1; Prüfungstraining: Sprechen Teil 1'
+    verification: verified
+  notes_vi: 'Theo Stoffverteilungsplan Netzwerk neu A1.1 (Plattform 1: 5 UE Kursbuch + 2 UE Prüfungstraining). Trò chơi ôn tập của giáo trình được thay bằng bài ôn tập tổng hợp; đề luyện thi là tự biên soạn theo dạng đề A1 (không sao chép đề thi).'
+entries:
+- id: a1.p1.v.bekannt
+  de: bekannt
+  pos: adjective
+  vi: nổi tiếng; quen biết
+  ipa: /bəˈkant/
+  example:
+    de: Mozart ist sehr bekannt.
+    vi: Mozart rất nổi tiếng.
+  usage_vi: Lernwortschatz Kapitel 1, dạy ở đây cùng chủ đề người nổi tiếng. „Er ist mir bekannt“ = tôi biết anh ta (học sau).
+  lesson_refs:
+  - a1.p1.l02
+  tags:
+  - person
+  - mehrdeutig
+  source: nwn-lern
+- id: a1.p1.v.hauptstadt
+  de: Hauptstadt
+  pos: noun
+  article: die
+  plural: Hauptstädte
+  vi: thủ đô
+  ipa: /ˈhaʊ̯ptˌʃtat/
+  example:
+    de: Berlin ist die Hauptstadt von Deutschland.
+    vi: Berlin là thủ đô của Đức.
+  usage_vi: das Haupt (đầu, chính) + die Stadt.
+  lesson_refs:
+  - a1.p1.l02
+  tags:
+  - stadt
+  - land
+  source: supplement
+- id: a1.p1.v.komponist
+  de: Komponist
+  pos: noun
+  article: der
+  plural: Komponisten
+  vi: nhà soạn nhạc (nam)
+  ipa: /kɔmpoˈnɪst/
+  example:
+    de: Mozart ist ein Komponist aus Österreich.
+    vi: Mozart là một nhà soạn nhạc người Áo.
+  usage_vi: 'Dạng nữ: die Komponistin.'
+  lesson_refs:
+  - a1.p1.l02
+  tags:
+  - beruf
+  - musik
+  source: supplement
+- id: a1.p1.v.physiker
+  de: Physiker
+  pos: noun
+  article: der
+  plural: Physiker
+  vi: nhà vật lý (nam)
+  ipa: /ˈfyːzɪkɐ/
+  example:
+    de: Albert Einstein ist ein Physiker.
+    vi: Albert Einstein là một nhà vật lý.
+  usage_vi: ph đọc [f], y đọc [y] như ü.
+  lesson_refs:
+  - a1.p1.l02
+  tags:
+  - beruf
+  source: supplement
+- id: a1.p1.v.tennisspieler
+  de: Tennisspieler
+  pos: noun
+  article: der
+  plural: Tennisspieler
+  vi: vận động viên quần vợt (nam)
+  ipa: /ˈtɛnɪsˌʃpiːlɐ/
+  example:
+    de: Roger Federer ist ein Tennisspieler aus der Schweiz.
+    vi: Roger Federer là vận động viên quần vợt người Thụy Sĩ.
+  usage_vi: das Tennis + der Spieler → der Tennisspieler.
+  lesson_refs:
+  - a1.p1.l02
+  tags:
+  - beruf
+  - sport
+  source: supplement
+- id: a1.p1.v.pruefung
+  de: Prüfung
+  pos: noun
+  article: die
+  plural: Prüfungen
+  vi: kỳ thi
+  ipa: /ˈpʁyːfʊŋ/
+  example:
+    de: Die Prüfung hat vier Teile.
+    vi: Kỳ thi có bốn phần.
+  usage_vi: '-ung → die. Kỳ thi A1 phổ biến: Goethe-Zertifikat A1: Start Deutsch 1.'
+  lesson_refs:
+  - a1.p1.l03
+  tags:
+  - lernen
+  - pruefung
+  source: supplement
+- id: a1.p1.v.teil
+  de: Teil
+  pos: noun
+  article: der
+  plural: Teile
+  vi: phần
+  ipa: /taɪ̯l/
+  example:
+    de: Hören, Teil 1
+    vi: Nghe, phần 1
+  usage_vi: 'Dùng đánh số phần: „Teil 1“, „Teil 2“. Số nhiều: Teile. „zum Teil“ = một phần.'
+  lesson_refs:
+  - a1.p1.l03
+  tags:
+  - pruefung
+  source: supplement

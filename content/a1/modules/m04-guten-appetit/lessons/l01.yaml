@@ -1,0 +1,247 @@
+schema_version: '2.0'
+content_type: lesson
+id: a1.m04.l01
+level: A1
+module: a1.m04
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+  references:
+  - work: Netzwerk neu A1 (Klett)
+    scope: 'Kapitel 4: Guten Appetit!'
+    verification: verified
+  notes_vi: 'Sprachhandlungen: über Lebensmittel sprechen, Lebensmittel den Fotos zuordnen, sagen wo man einkauft. Wortschatz: Lebensmittel, Geschäfte.'
+order: 1
+title_de: Guten Appetit! – Lebensmittel und Geschäfte
+title_vi: Chúc ngon miệng! – Thực phẩm và nơi mua sắm
+topic_vi: Các loại thực phẩm quen thuộc, cửa hàng thực phẩm, câu chúc ngon miệng
+duration_min: 75
+difficulty: 2
+cefr:
+- A1.L1
+- A1.H2
+- A1.SP1
+prerequisites:
+- a1.p1.l03
+objectives:
+- id: a1.m04.l01.obj1
+  text_vi: Gọi tên các loại thực phẩm và đồ uống quen thuộc kèm mạo từ (das Brot, der Käse, die Milch...).
+  skill: vocabulary
+- id: a1.m04.l01.obj2
+  text_vi: 'Phân biệt các cửa hàng mua sắm thực phẩm: Bäckerei, Metzgerei, Supermarkt.'
+  skill: vocabulary
+- id: a1.m04.l01.obj3
+  text_vi: 'Nói được mình mua gì ở đâu với cấu trúc: Ich kaufe ... im Supermarkt / in der Bäckerei.'
+  skill: speaking
+- id: a1.m04.l01.obj4
+  text_vi: Hiểu thông tin cơ bản về danh sách thực phẩm trong bài nghe và đọc.
+  skill: listening
+vocabulary_refs:
+- a1.m04.v.lebensmittel
+- a1.m04.v.brot
+- a1.m04.v.broetchen
+- a1.m04.v.butter
+- a1.m04.v.ei
+- a1.m04.v.fleisch
+- a1.m04.v.fruehstueck
+- a1.m04.v.gemuese
+- a1.m04.v.kaese
+- a1.m04.v.kuchen
+- a1.m04.v.milch
+- a1.m04.v.mittagessen
+- a1.m04.v.abendessen
+- a1.m04.v.oel
+- a1.m04.v.salat
+- a1.m04.v.salz
+- a1.m04.v.schinken
+- a1.m04.v.schokolade
+- a1.m04.v.suppe
+- a1.m04.v.tomate
+- a1.m04.v.wasser
+- a1.m04.v.wurst
+- a1.m04.v.zucker
+- a1.m04.v.banane
+- a1.m04.v.apfel
+- a1.m04.v.kartoffel
+- a1.m04.v.joghurt
+- a1.m04.v.baeckerei
+- a1.m04.v.metzgerei
+- a1.m04.v.supermarkt
+- a1.m04.v.geschaeft
+- a1.m04.v.kaufen
+- a1.m04.v.ein-kaufen
+- a1.m04.v.guten-appetit
+- a1.m04.v.muttersprache
+review_vocabulary_refs:
+- a1.m01.v.ich
+- a1.m02.v.fahren
+- a1.m02.v.hundert
+- a1.m03.v.bahnhof
+grammar_refs: []
+expression_refs:
+- a1.m04.x.guten-appetit-danke-gleichfalls
+- a1.m04.x.wo-kaufst-du-ich-kaufe-im-in-der
+exercise_set_ref: a1.m04.l01.ex
+summary_vi: Bài học giúp bạn nắm chắc tên các thực phẩm thông dụng (das Brot, das Ei, der Käse, die Milch...), nhận diện 3 cửa hàng mua thực phẩm (Supermarkt, Bäckerei, Metzgerei), động từ tách einkaufen và câu chúc lịch sự Guten Appetit! – Danke, gleichfalls!
+self_check:
+- Tôi có thể kể tên ít nhất 8 loại thực phẩm kèm đúng mạo từ der/die/das.
+- Tôi biết nói câu chúc ngon miệng và đáp lại một cách lịch sự.
+- Tôi có thể nói mình mua món đồ gì ở tiệm bánh hay siêu thị.
+blocks:
+- id: a1.m04.l01.b1
+  kind: explanation
+  title_vi: Giới thiệu bài học
+  body_vi: '**Chào mừng bạn đến với Kapitel 4: Guten Appetit! (Chúc ngon miệng!)**
+
+    Chủ đề ăn uống và mua sắm thực phẩm là một trong những chủ đề thú vị và thiết thực nhất trong cuộc sống hằng ngày ở các nước nói tiếng Đức (D-A-CH).
+
+
+    Trong bài học đầu tiên này, bạn sẽ:
+
+    - Khám phá tên các món ăn và thức uống quen thuộc: *das Brot, das Brötchen, der Käse, die Wurst, das Ei, das Gemüse...*
+
+    - Làm quen với các nơi mua bán thực phẩm truyền thống và hiện đại: *der Supermarkt, die Bäckerei (tiệm bánh), die Metzgerei (tiệm thịt).*
+
+    - Biết cách chúc ngon miệng chuẩn người Đức: *Guten Appetit! – Danke, gleichfalls!*
+
+    - Học động từ tách rất phổ biến: *einkaufen* (đi mua sắm).'
+- id: a1.m04.l01.b2
+  kind: explanation
+  title_vi: Động từ tách einkaufen (đi mua sắm)
+  skill: grammar
+  body_vi: 'Động từ einkaufen gồm gốc kaufen và tiền tố ein-. Trong câu kể độc lập, tiền tố ein- tách ra và đứng ở cuối câu: Ich kaufe am Samstag im Supermarkt ein. Khi nói mua vật cụ thể thì dùng kaufen (Ich kaufe Brot); khi nói đi mua sắm chợ búa nói chung thì dùng einkaufen.'
+  examples:
+  - de: Wann kaufst du ein? – Ich kaufe heute ein.
+    vi: Khi nào bạn đi mua sắm? – Hôm nay tôi đi mua sắm.
+  - de: Ich kaufe Käse und Brot.
+    vi: Tôi mua phô mai và bánh mì.
+- id: a1.m04.l01.b3
+  kind: explanation
+  title_vi: 'Giới từ chỉ nơi chốn mua sắm: im và in der'
+  skill: grammar
+  body_vi: Khi nói mua ở siêu thị (der Supermarkt - giống đực) dùng 'im Supermarkt' (in + dem). Khi mua ở tiệm bánh (die Bäckerei - giống cái) hoặc tiệm thịt (die Metzgerei - giống cái) dùng 'in der Bäckerei', 'in der Metzgerei'.
+  examples:
+  - de: Brot kaufe ich in der Bäckerei.
+    vi: Bánh mì tôi mua ở tiệm bánh.
+  - de: Gemüse kaufe ich im Supermarkt.
+    vi: Rau củ tôi mua ở siêu thị.
+- id: a1.m04.l01.b4
+  kind: pronunciation
+  title_vi: Trọng âm ở danh từ ghép và từ có đuôi -ei
+  skill: pronunciation
+  body_vi: 'Trọng âm ở danh từ ghép và từ có đuôi -ei
+
+
+    Với danh từ ghép như das Lebensmittel, das Frühstück, trọng âm rơi vào từ đầu tiên (LE-bensmittel, FRÜH-stück). Với các từ chỉ cửa hàng có đuôi -ei (die Bäckerei, die Metzgerei), trọng âm luôn nhấn mạnh vào đuôi -EI.
+
+
+    Luyện tập: Đọc to: LE-bens-mit-tel, Bä-cke-REI, Metz-ge-REI, FRÜH-stück, MIT-tag-es-sen.'
+  items:
+  - de: das Lebensmittel
+    vi: thực phẩm
+    ipa: '[ˈleːbn̩sˌmɪtl̩]'
+  - de: die Bäckerei
+    vi: tiệm bánh
+    ipa: '[bɛkəˈʁaɪ̯]'
+  - de: die Metzgerei
+    vi: tiệm thịt
+    ipa: '[mɛtsɡəˈʁaɪ̯]'
+- id: a1.m04.l01.b5
+  kind: examples
+  title_vi: Câu ví dụ
+  examples:
+  - de: Ich kaufe Brot in der Bäckerei.
+    vi: Tôi mua bánh mì ở tiệm bánh.
+  - de: Milch und Butter kaufe ich im Supermarkt.
+    vi: Sữa và bơ tôi mua ở siêu thị.
+  - de: Das Obst ist frisch und lecker.
+    vi: Trái cây tươi và ngon.
+  - de: Trinkst du Kaffee mit Zucker?
+    vi: Bạn có uống cà phê với đường không?
+  - de: Am Samstag kaufe ich für die ganze Woche ein.
+    vi: Thứ Bảy tôi đi mua sắm cho cả tuần.
+- id: a1.m04.l01.b6
+  kind: listening
+  title_vi: Cuộc trò chuyện về mua sắm thực phẩm
+  lines:
+  - speaker: Lukas
+    de: Hallo Maria! Was kochen wir heute Abend?
+    vi: Chào Maria! Tối nay chúng ta nấu món gì?
+  - speaker: Maria
+    de: Wir kochen Suppe. Wir brauchen noch Gemüse, Fleisch und Brot.
+    vi: Chúng ta nấu súp nhé. Chúng ta cần thêm rau củ, thịt và bánh mì.
+  - speaker: Lukas
+    de: Gut. Brot kaufe ich in der Bäckerei. Das Brot dort ist immer frisch.
+    vi: Được. Bánh mì anh mua ở tiệm bánh nhé. Bánh mì ở đó luôn tươi.
+  - speaker: Maria
+    de: Super, und ich gehe in die Metzgerei und kaufe Fleisch. Gemüse haben wir schon im Supermarkt gekauft.
+    vi: Tuyệt, còn em sẽ vào tiệm thịt mua thịt. Rau củ thì chúng ta đã mua ở siêu thị rồi.
+  audio_status: pending-tts
+  situation_vi: Lukas và Maria thảo luận xem nên mua đồ ăn ở đâu cho bữa tối.
+  skill: listening
+  audio:
+    speed: slow
+- id: a1.m04.l01.b7
+  kind: reading
+  title_vi: Danh sách mua sắm cuối tuần của gia đình Weber
+  paragraphs:
+  - de: 'Einkaufszettel für das Wochenende:
+
+      1. Bäckerei: 1 Brot, 4 Brötchen, 1 Stück Kuchen.
+
+      2. Metzgerei: 500g Fleisch für die Suppe, 4 Würste.
+
+      3. Supermarkt: Milch, Butter, 6 Eier, Käse, Tomaten, Äpfel und Bananen.
+
+      Hinweis: Getränke (Wasser und Orangensaft) haben wir noch genug zu Hause!'
+    vi: 'Danh sách đi chợ cho cuối tuần:
+
+      1. Tiệm bánh: 1 ổ bánh mì, 4 bánh mì nhỏ, 1 miếng bánh ngọt.
+
+      2. Tiệm thịt: 500g thịt cho món súp, 4 cái xúc xích.
+
+      3. Siêu thị: Sữa, bơ, 6 quả trứng, phô mai, cà chua, táo và chuối.
+
+      Ghi chú: Đồ uống (nước lọc và nước cam) ở nhà vẫn còn đủ!'
+  text_type_vi: Danh sách ghi chú mua sắm
+  skill: reading
+  glossary:
+  - de: der Einkaufszettel
+    vi: danh sách đi chợ
+  - de: genug
+    vi: đủ
+- id: a1.m04.l01.b8
+  kind: speaking
+  title_vi: Hỏi và nói về thói quen mua sắm thực phẩm
+  skill: speaking
+  task_vi: Hãy hỏi bạn học xem họ thường mua các loại thực phẩm quen thuộc ở đâu.
+  steps_vi:
+  - 'Hỏi nơi mua: Wo kaufst du Brot / Fleisch / Obst?'
+  - 'Trả lời nơi mua: Brot kaufe ich in der Bäckerei / im Supermarkt.'
+  - 'Bổ sung nhận xét: Das Brot dort ist sehr gut / frisch.'
+  lines:
+  - speaker: A
+    de: Wo kaufst du am liebsten Brot und Brötchen?
+    vi: Bạn thích mua bánh mì và bánh mì nhỏ ở đâu nhất?
+  - speaker: B
+    de: Ich kaufe Brot immer in der Bäckerei. Das Brot dort ist frisch und lecker.
+    vi: Tôi luôn mua bánh mì ở tiệm bánh. Bánh mì ở đó tươi và ngon.
+- id: a1.m04.l01.b9
+  kind: writing
+  title_vi: Viết danh sách mua sắm cá nhân
+  skill: writing
+  task_vi: Viết một danh sách mua sắm ngắn gồm ít nhất 5 món thực phẩm và ghi rõ bạn sẽ mua chúng ở đâu.
+  model:
+    de: 'Mein Einkaufszettel: Im Supermarkt kaufe ich Milch, Käse und Eier. In der Bäckerei kaufe ich frisches Brot. In der Metzgerei kaufe ich Wurst.'
+    vi: 'Danh sách đi chợ của tôi: Ở siêu thị tôi mua sữa, phô mai và trứng. Ở tiệm bánh tôi mua bánh mì tươi. Ở tiệm thịt tôi mua xúc xích.'
+  checklist_vi:
+  - Nêu ít nhất 5 loại thực phẩm có mạo từ hoặc số lượng.
+  - 'Sử dụng đúng giới từ nơi chốn: im Supermarkt, in der Bäckerei, in der Metzgerei.'

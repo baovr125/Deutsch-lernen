@@ -26,21 +26,21 @@ primary_source:
     - "Klett Sprachen: trang sản phẩm Netzwerk neu A1.1 — https://www.klett-sprachen.de/netzwerk-neu-a1/t-1/9783126071611"
 status: in-progress
 path:
-  - { id: a1-u00, order: 0, kind: intro, title_de: "Einstieg", title_vi: "Nhập môn: chữ cái, phát âm, câu đầu tiên", dir: units/00-einstieg, status: ready }
-  - { id: a1-k01, order: 1, kind: kapitel, kapitel: 1, title_de: "Guten Tag!", title_vi: "Xin chào!", dir: units/01-guten-tag, status: ready }
-  - { id: a1-k02, order: 2, kind: kapitel, kapitel: 2, title_de: "Freunde, Kollegen und ich", title_vi: "Bạn bè, đồng nghiệp và tôi", dir: units/02-freunde-kollegen-und-ich, status: ready }
-  - { id: a1-k03, order: 3, kind: kapitel, kapitel: 3, title_de: "In Hamburg", title_vi: "Ở Hamburg", dir: units/03-in-hamburg, status: ready }
-  - { id: a1-p1, order: 4, kind: plattform, covers: [1, 2, 3], title_de: "Plattform 1", title_vi: "Ôn tập 1 (Kapitel 1–3)", dir: units/03-plattform-1, status: ready }
-  - { id: a1-k04, order: 5, kind: kapitel, kapitel: 4, title_de: "Guten Appetit!", title_vi: "Chúc ngon miệng!", status: planned }
-  - { id: a1-k05, order: 6, kind: kapitel, kapitel: 5, title_de: "Alltag und Familie", title_vi: "Cuộc sống hằng ngày và gia đình", status: planned }
-  - { id: a1-k06, order: 7, kind: kapitel, kapitel: 6, title_de: "Zeit mit Freunden", title_vi: "Thời gian với bạn bè", status: planned }
-  - { id: a1-p2, order: 8, kind: plattform, covers: [4, 5, 6], title_de: "Plattform 2", title_vi: "Ôn tập 2 (Kapitel 4–6)", status: planned }
-  - { id: a1-k07, order: 9, kind: kapitel, kapitel: 7, title_de: "Arbeitsalltag", title_vi: "Một ngày làm việc", status: planned }
-  - { id: a1-k08, order: 10, kind: kapitel, kapitel: 8, title_de: "Fit und gesund", title_vi: "Khỏe mạnh và cân đối", status: planned }
-  - { id: a1-k09, order: 11, kind: kapitel, kapitel: 9, title_de: "Meine Wohnung", title_vi: "Căn hộ của tôi", status: planned }
-  - { id: a1-p3, order: 12, kind: plattform, covers: [7, 8, 9], title_de: "Plattform 3", title_vi: "Ôn tập 3 (Kapitel 7–9)", status: planned }
-  - { id: a1-k10, order: 13, kind: kapitel, kapitel: 10, title_de: "Studium und Beruf", title_vi: "Học đại học và nghề nghiệp", status: planned }
-  - { id: a1-k11, order: 14, kind: kapitel, kapitel: 11, title_de: "Die Jacke gefällt mir!", title_vi: "Tôi thích cái áo khoác này!", status: planned }
-  - { id: a1-k12, order: 15, kind: kapitel, kapitel: 12, title_de: "Ab in den Urlaub!", title_vi: "Đi nghỉ thôi!", status: planned }
-  - { id: a1-p4, order: 16, kind: plattform, covers: [10, 11, 12], title_de: "Plattform 4", title_vi: "Ôn tập 4 (Kapitel 10–12)", status: planned }
-  - { id: a1-final, order: 17, kind: final-assessment, title_de: "Abschlusstest A1", title_vi: "Đánh giá tổng kết A1", status: planned }
+  - { id: a1-u00, order: 0, kind: intro, title_de: "Einstieg", title_vi: "Nhập môn: chữ cái, phát âm, câu đầu tiên", module: modules/m00-einstieg, status: ready }
+  - { id: a1-k01, order: 1, kind: kapitel, kapitel: 1, title_de: "Guten Tag!", title_vi: "Xin chào!", module: modules/m01-guten-tag, status: ready }
+  - { id: a1-k02, order: 2, kind: kapitel, kapitel: 2, title_de: "Freunde, Kollegen und ich", title_vi: "Bạn bè, đồng nghiệp và tôi", module: modules/m02-freunde-kollegen-und-ich, status: ready }
+  - { id: a1-k03, order: 3, kind: kapitel, kapitel: 3, title_de: "In Hamburg", title_vi: "Ở Hamburg", module: modules/m03-in-hamburg, status: ready }
+  - { id: a1-p1, order: 4, kind: plattform, covers: [1, 2, 3], title_de: "Plattform 1", title_vi: "Ôn tập 1 (Kapitel 1–3)", module: modules/p1-plattform-1, status: ready }
+  - { id: a1-k04, order: 5, kind: kapitel, kapitel: 4, title_de: "Guten Appetit!", title_vi: "Chúc ngon miệng!", module: modules/m04-guten-appetit, status: ready }
+  - { id: a1-k05, order: 6, kind: kapitel, kapitel: 5, module: modules/m05-alltag-und-familie, title_de: "Alltag und Familie", title_vi: "Cuộc sống hằng ngày và gia đình", status: ready }
+  - { id: a1-k06, order: 7, kind: kapitel, kapitel: 6, title_de: "Zeit mit Freunden", title_vi: "Thời gian với bạn bè", module: modules/m06-zeit-mit-freunden, status: ready }
+  - { id: a1-p2, order: 8, kind: plattform, covers: [4, 5, 6], title_de: "Plattform 2", title_vi: "Ôn tập 2 (Kapitel 4–6)", module: modules/p2-plattform-2, status: ready }
+  - { id: a1-k07, order: 9, kind: kapitel, kapitel: 7, title_de: "Arbeitsalltag", title_vi: "Một ngày làm việc", module: modules/m07-arbeitsalltag, status: ready }
+  - { id: a1-k08, order: 10, kind: kapitel, kapitel: 8, title_de: "Fit und gesund", title_vi: "Khỏe mạnh và cân đối", module: modules/m08-fit-und-gesund, status: ready }
+  - { id: a1-k09, order: 11, kind: kapitel, kapitel: 9, title_de: "Meine Wohnung", title_vi: "Căn hộ của tôi", module: modules/m09-meine-wohnung, status: ready }
+  - { id: a1-p3, order: 12, kind: plattform, covers: [7, 8, 9], title_de: "Plattform 3", title_vi: "Ôn tập 3 (Kapitel 7–9)", module: modules/p3-plattform-3, status: ready }
+  - { id: a1-k10, order: 13, kind: kapitel, kapitel: 10, title_de: "Studium und Beruf", title_vi: "Học đại học và nghề nghiệp", module: modules/m10-studium-und-beruf, status: ready }
+  - { id: a1-k11, order: 14, kind: kapitel, kapitel: 11, title_de: "Die Jacke gefällt mir!", title_vi: "Tôi thích cái áo khoác này!", module: modules/m11-die-jacke-gefaellt-mir, status: ready }
+  - { id: a1-k12, order: 15, kind: kapitel, kapitel: 12, title_de: "Ab in den Urlaub!", title_vi: "Đi nghỉ thôi!", module: modules/m12-ab-in-den-urlaub, status: ready }
+  - { id: a1-p4, order: 16, kind: plattform, covers: [10, 11, 12], title_de: "Plattform 4", title_vi: "Ôn tập 4 (Kapitel 10–12)", module: modules/p4-plattform-4, status: ready }
+  - { id: a1-final, order: 17, kind: final-assessment, title_de: "Abschlusstest A1", title_vi: "Đánh giá tổng kết A1", module: modules/f-abschlusstest, status: ready }

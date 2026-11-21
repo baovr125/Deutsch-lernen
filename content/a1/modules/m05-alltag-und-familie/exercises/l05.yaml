@@ -1,0 +1,225 @@
+schema_version: '2.0'
+content_type: exercise-set
+id: a1.m05.l05.ex
+level: A1
+module: a1.m05
+lesson: a1.m05.l05
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+exercises:
+- id: a1.m05.l05.ex.01
+  type: matching
+  skill: vocabulary
+  difficulty: 1
+  objective_refs:
+  - a1.m05.l05.obj3
+  instructions_vi: Nối lời rủ hẹn ở cột trái với câu phản hồi phù hợp ở cột phải.
+  items:
+  - id: a1.m05.l05.ex.01.q1
+    pairs:
+    - left: Hast du am Samstag Lust auf Kino?
+      right: Gute Idee! Welchen Film wollen wir sehen?
+    - left: Passt es dir am Sonntag um 14 Uhr?
+      right: Ja, das passt prima! Da habe ich Zeit.
+    - left: Können wir uns heute Abend treffen?
+      right: Tut mir leid, heute muss ich lange arbeiten.
+    - left: Ich kann am Freitag leider nicht kommen.
+      right: Schade! Können wir das Treffen verschieben?
+    explanation_vi: Các mẫu câu Redemittel thông dụng khi hẹn gặp và từ chối lịch sự.
+- id: a1.m05.l05.ex.02
+  type: multiple-choice
+  skill: grammar
+  difficulty: 1
+  objective_refs:
+  - a1.m05.l05.obj1
+  - a1.m05.l05.obj2
+  instructions_vi: Chọn dạng đúng của động từ tình thái.
+  items:
+  - id: a1.m05.l05.ex.02.q1
+    prompt: Ich ___ heute leider nicht zum Deutschkurs kommen.
+    options:
+    - id: a
+      text: kannst
+    - id: b
+      text: kann
+    - id: c
+      text: könnt
+    - id: d
+      text: können
+    answer:
+    - b
+    explanation_vi: Ngôi 'ich' của können chia là 'kann' (không thêm đuôi -e).
+  - id: a1.m05.l05.ex.02.q2
+    prompt: Wohin ___ ihr am Wochenende fahren?
+    options:
+    - id: a
+      text: willst
+    - id: b
+      text: wollen
+    - id: c
+      text: will
+    - id: d
+      text: wollt
+    answer:
+    - d
+    explanation_vi: Ngôi 'ihr' đi với 'wollt'.
+  - id: a1.m05.l05.ex.02.q3
+    prompt: Er ___ noch seine Hausaufgaben machen.
+    options:
+    - id: a
+      text: müsst
+    - id: b
+      text: muss
+    - id: c
+      text: musst
+    - id: d
+      text: müssen
+    answer:
+    - b
+    explanation_vi: Ngôi 'er' của müssen chia là 'muss' (giống với ngôi 'ich').
+  - id: a1.m05.l05.ex.02.q4
+    prompt: ___ du morgen mit uns ins Café gehen?
+    options:
+    - id: a
+      text: Können
+    - id: b
+      text: Kann
+    - id: c
+      text: Kannst
+    - id: d
+      text: Könnt
+    answer:
+    - c
+    explanation_vi: Ngôi 'du' đi với 'Kannst'.
+- id: a1.m05.l05.ex.03
+  type: multiple-choice
+  skill: listening
+  difficulty: 2
+  objective_refs:
+  - a1.m05.l05.obj3
+  - a1.m05.l05.obj4
+  instructions_vi: Nghe đoạn thoại giữa Mara và Jan rồi chọn đáp án chính xác.
+  stimulus:
+    ref: a1.m05.l05.b6
+  items:
+  - id: a1.m05.l05.ex.03.q1
+    prompt: Warum kann Jan am Freitagabend nicht kommen?
+    options:
+    - id: a
+      text: Er muss bis 20 Uhr arbeiten.
+    - id: b
+      text: Er ist krank.
+    - id: c
+      text: Er geht ins Kino.
+    - id: d
+      text: Er hat keine Lust.
+    answer:
+    - a
+    explanation_vi: 'Jan nói: ''Ich muss bis zwanzig Uhr im Büro arbeiten''.'
+  - id: a1.m05.l05.ex.03.q2
+    prompt: Wann treffen sich die beiden schließlich?
+    options:
+    - id: a
+      text: am Sonntag um 15 Uhr
+    - id: b
+      text: am Samstagnachmittag um 16 Uhr
+    - id: c
+      text: gar nicht
+    - id: d
+      text: am Freitagabend um 20 Uhr
+    answer:
+    - b
+    explanation_vi: 'Họ thống nhất: ''Samstagnachmittag klappt prima! Wollen wir uns um sechzehn Uhr im Café Einstein treffen?''.'
+- id: a1.m05.l05.ex.04
+  type: fill-blank
+  skill: listening
+  difficulty: 2
+  objective_refs:
+  - a1.m05.l05.obj1
+  - a1.m05.l05.obj3
+  instructions_vi: Nghe và điền từ thích hợp vào chỗ trống.
+  stimulus:
+    ref: a1.m05.l05.b6
+  items:
+  - id: a1.m05.l05.ex.04.q1
+    prompt: Jan kann am Freitag leider nicht kommen. Es tut ihm wirklich ___. Die beiden ___ den Termin auf Samstag.
+    answers:
+    - leid
+    - verschieben
+    explanation_vi: 1. leid (Es tut mir wirklich leid). 2. verschieben (den Termin verschieben).
+- id: a1.m05.l05.ex.05
+  type: true-false
+  skill: reading
+  difficulty: 2
+  objective_refs:
+  - a1.m05.l05.obj3
+  - a1.m05.l05.obj4
+  instructions_vi: Đọc đoạn tin nhắn nhóm và xác định các câu sau là Đúng (true) hay Sai (false).
+  stimulus:
+    ref: a1.m05.l05.b7
+  items:
+  - id: a1.m05.l05.ex.05.q1
+    prompt: Sarah muss am Samstagvormittag ihrer Schwester beim Umzug helfen.
+    answer: true
+    explanation_vi: Đúng. 'Samstagvormittag muss ich meiner Schwester beim Umzug helfen'.
+  - id: a1.m05.l05.ex.05.q2
+    prompt: Ben hat am Vormittag Zeit und kann schon um 10 Uhr kommen.
+    answer: false
+    explanation_vi: Sai. Ben có lịch hẹn bác sĩ buổi sáng ('Ich habe am Vormittag einen Arzttermin und kann vorher nicht').
+  - id: a1.m05.l05.ex.05.q3
+    prompt: Die Gruppe trifft sich am Samstag um 15 Uhr vor dem Museum.
+    answer: true
+    explanation_vi: 'Đúng. Leon chốt: ''dann verabreden wir uns für Samstag um 15 Uhr vor dem Museum''.'
+- id: a1.m05.l05.ex.06
+  type: fill-blank
+  skill: speaking
+  difficulty: 2
+  objective_refs:
+  - a1.m05.l05.obj1
+  - a1.m05.l05.obj3
+  instructions_vi: Điền từ thích hợp để hoàn thiện câu giao tiếp hẹn gặp.
+  items:
+  - id: a1.m05.l05.ex.06.q1
+    prompt: Hast du Lust auf Kino? Passt es dir am Sonntag? – Ja, das ___ prima!
+    answers:
+    - klappt
+    explanation_vi: 'Cụm thành ngữ quen thuộc: ''Das klappt prima!'' (Mọi chuyện ổn thỏa/được đấy!).'
+- id: a1.m05.l05.ex.07
+  type: word-order
+  skill: writing
+  difficulty: 2
+  objective_refs:
+  - a1.m05.l05.obj1
+  - a1.m05.l05.obj2
+  instructions_vi: Sắp xếp các từ bị xáo trộn thành câu hoàn chỉnh tuân thủ cấu trúc khung câu (Satzklammer).
+  items:
+  - id: a1.m05.l05.ex.07.q1
+    tokens:
+    - essen
+    - Pizza
+    - wollen
+    - Wir
+    - heute
+    answer: Wir wollen heute Pizza essen.
+    prompt_vi: 'Sắp xếp câu với Modalverb wollen:'
+    explanation_vi: Chủ ngữ 'Wir' + Modalverb 'wollen' ở vị trí 2 + thời gian 'heute' + tân ngữ 'Pizza' + Infinitiv 'essen' ở cuối câu.
+  - id: a1.m05.l05.ex.07.q2
+    tokens:
+    - am
+    - Lukas
+    - nicht
+    - Samstag
+    - kommen
+    - kann
+    answer: Lukas kann am Samstag nicht kommen.
+    prompt_vi: 'Sắp xếp câu với Modalverb können:'
+    explanation_vi: Chủ ngữ 'Lukas' + 'kann' ở vị trí 2 + 'am Samstag' + 'nicht' + 'kommen' ở cuối câu.

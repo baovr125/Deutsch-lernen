@@ -1,0 +1,253 @@
+schema_version: '2.0'
+content_type: grammar-topic
+id: a1.g.akkusativ
+level: A1
+introduced_in: a1.m04
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+  references:
+  - work: Netzwerk neu A1 (Klett)
+    scope: 'Kapitel 4: Kommt ihr?'
+    verification: verified
+  notes_vi: Tương ứng Grammatik „Akkusativ · Verben mit Akkusativ“ của Kapitel 4.
+introduced_in_lesson: a1.m04.l02
+title_de: Der Akkusativ und Verben mit Akkusativ
+title_vi: Cách Akkusativ (đối cách) và động từ đi với Akkusativ
+summary_vi: 'Trong tiếng Đức, khi một danh từ là **tân ngữ trực tiếp** (đối tượng chịu tác động trực tiếp của hành động, trả lời cho câu hỏi *Wen?* - ai? hoặc *Was?* - cái gì?), danh từ đó phải ở **cách Akkusativ** (đối cách).
+
+
+  **Điểm mấu chốt dễ nhớ nhất:**
+
+  Trong 4 giống/dạng (đực, trung, cái, số nhiều), **chỉ có giống đực (maskulin)** bị biến đổi mạo từ khi sang Akkusativ!
+
+  - `der` biến thành **`den`**
+
+  - `ein` biến thành **`einen`**
+
+  - `kein` biến thành **`keinen`**
+
+
+  Các giống còn lại (**das, die, die số nhiều**) giữ nguyên hình thức y hệt như ở cách Nominativ:
+
+  - Giống trung: `das` / `ein` / `kein` (giữ nguyên)
+
+  - Giống cái: `die` / `eine` / `keine` (giữ nguyên)
+
+  - Số nhiều: `die` / `–` / `keine` (giữ nguyên)
+
+
+  **Các động từ thông dụng đi với Akkusativ ở A1:**
+
+  - *brauchen* (cần): Ich brauche **einen** Apfel.
+
+  - *kaufen* (mua): Er kauft **den** Käse.
+
+  - *essen* (ăn): Wir essen **einen** Salat.
+
+  - *trinken* (uống): Sie trinkt **einen** Kaffee.
+
+  - *haben* (có): Ich habe **keinen** Hunger.
+
+  - *suchen* (tìm), *finden* (thấy), *nehmen* (lấy, chọn).'
+usage_vi: Dùng Akkusativ cho tân ngữ trực tiếp đứng sau các động từ như haben, brauchen, essen, trinken, kaufen, suchen, nehmen...
+objectives:
+- id: a1.g.akkusativ.obj1
+  text_vi: Nhận ra tân ngữ Akkusativ và dùng đúng den/einen/keinen ở giống đực.
+  skill: grammar
+rules:
+- id: a1.g.akkusativ.r1
+  title_vi: Chỉ giống đực đổi mạo từ
+  body_vi: Chỉ giống đực đổi mạo từ sang Akkusativ (der → den, ein → einen, kein → keinen). Giống trung, giống cái và số nhiều giữ nguyên như Nominativ.
+  examples:
+  - de: Ich nehme den Apfel (m), das Brot (n) und die Tomate (f).
+    vi: Tôi lấy quả táo, ổ bánh mì và quả cà chua.
+  - de: Wir kaufen einen Kuchen (m), ein Brötchen (n) und eine Wurst (f).
+    vi: Chúng tôi mua một cái bánh ngọt, một cái bánh mì nhỏ và một cái xúc xích.
+- id: a1.g.akkusativ.r2
+  title_vi: Động từ đòi hỏi Akkusativ
+  body_vi: Các động từ chỉ hành động tác động lên đồ vật/người (haben, brauchen, essen, trinken, kaufen, möchten...) luôn đòi hỏi tân ngữ ở Akkusativ.
+  examples:
+  - de: Haben Sie einen Tisch frei?
+    vi: Quý vị có bàn nào còn trống không?
+  - de: Er isst einen Salat.
+    vi: Anh ấy ăn một món salad.
+- id: a1.g.akkusativ.r3
+  title_vi: Câu hỏi Wen? và Was?
+  body_vi: Câu hỏi cho tân ngữ Akkusativ dùng Wen? (cho người) hoặc Was? (cho vật).
+  examples:
+  - de: Wen suchst du? – Ich suche den Lehrer.
+    vi: Bạn đang tìm ai? – Tôi tìm thầy giáo.
+  - de: Was kaufst du? – Ich kaufe einen Apfel.
+    vi: Bạn mua gì? – Tôi mua một quả táo.
+sentence_structures:
+- pattern: Chủ ngữ (Nominativ) + Động từ + Tân ngữ (Akkusativ)
+  example:
+    de: Ich brauche einen Stift.
+    vi: Tôi cần một chiếc bút.
+- pattern: Động từ + Chủ ngữ + Tân ngữ (Akkusativ)?
+  example:
+    de: Kaufst du den Käse?
+    vi: Bạn mua miếng phô mai đó chứ?
+tables:
+- title_vi: Bảng so sánh mạo từ giữa Nominativ và Akkusativ
+  header:
+  - Giống
+  - Mạo từ xác định
+  - Mạo từ không xác định
+  - Mạo từ phủ định
+  rows:
+  - - Đực (m) - Nominativ
+    - der
+    - ein
+    - kein
+  - - Đực (m) - Akkusativ
+    - den
+    - einen
+    - keinen
+  - - Trung (n) - Nom = Akk
+    - das
+    - ein
+    - kein
+  - - Cái (f) - Nom = Akk
+    - die
+    - eine
+    - keine
+  - - Số nhiều (pl) - Nom = Akk
+    - die
+    - –
+    - keine
+  note_vi: 'Nhận xét: Chỉ có dòng giống đực Akkusativ có đuôi -en (den, einen, keinen). Hãy ghi nhớ quy tắc ''đuôi -en cho giống đực Akkusativ''.'
+examples:
+- de: Ich habe einen Bruder und eine Schwester.
+  vi: Tôi có một người anh/em trai và một người chị/em gái.
+- de: Brauchst du den Zucker? – Nein, ich trinke Tee ohne Zucker.
+  vi: Bạn có cần đường không? – Không, tôi uống trà không đường.
+- de: Wir essen heute Abend einen Fisch.
+  vi: Tối nay chúng tôi ăn một con cá.
+- de: Er hat keinen Hunger, aber er möchte einen Saft.
+  vi: Anh ấy không đói, nhưng anh ấy muốn một ly nước ép.
+- de: Sie kauft das Brot und die Butter im Supermarkt.
+  vi: Cô ấy mua bánh mì và bơ ở siêu thị.
+common_mistakes:
+- wrong: Ich habe ein Hund.
+  right: Ich habe einen Hund.
+  explanation_vi: der Hund là giống đực. Sau haben là tân ngữ Akkusativ nên ein phải đổi thành einen.
+- wrong: Er trinkt den Milch.
+  right: Er trinkt die Milch.
+  explanation_vi: die Milch là giống cái, ở Akkusativ vẫn giữ nguyên là die Milch, không đổi thành den.
+- wrong: Das ist einen Apfel.
+  right: Das ist ein Apfel.
+  explanation_vi: Sau động từ sein (ist) luôn là Nominativ (vị ngữ), không phải Akkusativ.
+comparison_vi: Trong tiếng Anh chỉ có đại từ thay đổi hình thức theo tân ngữ (he → him, who → whom), còn mạo từ the/a không đổi. Tiếng Đức thay đổi trực tiếp ở mạo từ của giống đực (der → den, ein → einen).
+vietnamese_contrast_vi: Tiếng Việt không có biến cách; từ ngữ giữ nguyên hình thức dù là chủ ngữ hay tân ngữ ('Tôi nhìn quả táo' và 'Quả táo ở trên bàn' đều dùng cùng từ 'quả táo'). Người học Việt Nam rất dễ quên đổi 'ein' thành 'einen' khi gặp danh từ giống đực sau các động từ như haben, brauchen, kaufen.
+recap_vi: 'Akkusativ là cách của tân ngữ trực tiếp (sau haben, brauchen, essen...). Chỉ giống đực đổi mạo từ: der → den, ein → einen, kein → keinen. Giống trung, cái và số nhiều giữ nguyên như Nominativ.'
+next_level_note_vi: Đại từ nhân xưng ở Akkusativ (mich, dich, ihn, sie, uns...) học ở Kapitel 6. Cách Dativ (cho tân ngữ gián tiếp) học ở Kapitel 7.
+prerequisites:
+- g-a1-unbestimmter-artikel
+- g-a1-negation-kein
+exercises:
+- id: a1.g.akkusativ.ex.01
+  type: multiple-choice
+  skill: grammar
+  difficulty: 1
+  objective_refs:
+  - a1.g.akkusativ.r1
+  - a1.g.akkusativ.r2
+  - a1.g.akkusativ.obj1
+  instructions_vi: Chọn dạng mạo từ Akkusativ đúng cho chỗ trống.
+  items:
+  - id: a1.g.akkusativ.ex.01.q1
+    prompt: Ich brauche ___ Apfel (der Apfel).
+    options:
+    - id: a
+      text: ein
+    - id: b
+      text: eine
+    - id: c
+      text: einen
+    - id: d
+      text: einem
+    answer:
+    - c
+    explanation_vi: der Apfel là giống đực, đứng sau brauchen (Akkusativ) nên ein đổi thành einen.
+  - id: a1.g.akkusativ.ex.01.q2
+    prompt: Wir kaufen ___ Brot (das Brot).
+    options:
+    - id: a
+      text: einen
+    - id: b
+      text: ein
+    - id: c
+      text: eine
+    - id: d
+      text: keinen
+    answer:
+    - b
+    explanation_vi: das Brot là giống trung, ở Akkusativ giữ nguyên là ein.
+  - id: a1.g.akkusativ.ex.01.q3
+    prompt: Hast du ___ Tomate (die Tomate)?
+    options:
+    - id: a
+      text: ein
+    - id: b
+      text: einen
+    - id: c
+      text: eine
+    - id: d
+      text: keinen
+    answer:
+    - c
+    explanation_vi: die Tomate là giống cái, ở Akkusativ giữ nguyên là eine.
+  - id: a1.g.akkusativ.ex.01.q4
+    prompt: Er trinkt ___ Kaffee (der Kaffee).
+    options:
+    - id: a
+      text: den
+    - id: b
+      text: der
+    - id: c
+      text: die
+    - id: d
+      text: das
+    answer:
+    - a
+    explanation_vi: der Kaffee là giống đực, ở Akkusativ dùng mạo từ xác định den.
+- id: a1.g.akkusativ.ex.02
+  type: fill-blank
+  skill: grammar
+  difficulty: 2
+  objective_refs:
+  - a1.g.akkusativ.r1
+  - a1.g.akkusativ.r3
+  - a1.g.akkusativ.obj1
+  instructions_vi: Điền mạo từ thích hợp (einen, ein, eine, hoặc keinen).
+  items:
+  - id: a1.g.akkusativ.ex.02.q1
+    prompt: Ich habe Hunger. Ich nehme ___ Salat.
+    answers:
+    - einen
+    explanation_vi: der Salat (giống đực) → einen.
+  - id: a1.g.akkusativ.ex.02.q2
+    prompt: Haben wir noch Käse? – Nein, wir haben ___ Käse mehr.
+    answers:
+    - keinen
+    explanation_vi: 'der Käse (giống đực) → keinen (phủ định: không còn miếng phô mai nào).'
+  - id: a1.g.akkusativ.ex.02.q3
+    prompt: Sie isst ___ Brötchen mit Marmelade.
+    answers:
+    - ein
+    explanation_vi: das Brötchen (giống trung) → ein.
+  - id: a1.g.akkusativ.ex.02.q4
+    prompt: Ich suche ___ Bäckerei.
+    answers:
+    - eine
+    explanation_vi: die Bäckerei (giống cái) → eine.

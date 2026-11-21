@@ -1,0 +1,143 @@
+schema_version: "2.0"
+content_type: exercise-set
+id: a1.p4.l03.ex
+level: A1
+module: a1.p4
+lesson: a1.p4.l03
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+exercises:
+  - id: a1.p4.l03.ex.01
+    type: multiple-choice
+    skill: listening
+    difficulty: 2
+    objective_refs: [a1.p4.l03.obj1]
+    instructions_vi: "Hören Teil 2: nghe ba thông báo (khối nghe ở trên) và chọn đáp án."
+    stimulus: { ref: a1.p4.l03.b2 }
+    items:
+      - id: a1.p4.l03.ex.01.q1
+        prompt: "Wohin fährt der Zug?"
+        options: [{ id: a, text: "Nach Berlin." }, { id: b, text: "Nach München." }, { id: c, text: "Nach Wien." }]
+        answer: [b]
+        explanation_vi: "„Der Zug nach München“."
+      - id: a1.p4.l03.ex.01.q2
+        prompt: "Wie viele Minuten später fährt der Zug ab?"
+        options: [{ id: a, text: "Zehn Minuten." }, { id: b, text: "Zwanzig Minuten." }, { id: c, text: "Dreißig Minuten." }]
+        answer: [a]
+        explanation_vi: "„zehn Minuten später“."
+      - id: a1.p4.l03.ex.01.q3
+        prompt: "Wann schließt das Kaufhaus heute?"
+        options: [{ id: a, text: "Um sechzehn Uhr." }, { id: b, text: "Um achtzehn Uhr." }, { id: c, text: "Um zwanzig Uhr." }]
+        answer: [b]
+        explanation_vi: "„heute um achtzehn Uhr“."
+      - id: a1.p4.l03.ex.01.q4
+        prompt: "Was sollen die Kunden tun?"
+        options: [{ id: a, text: "Nach Hause gehen." }, { id: b, text: "Warten." }, { id: c, text: "Zur Kasse gehen." }]
+        answer: [c]
+        explanation_vi: "„Bitte gehen Sie zur Kasse.“"
+      - id: a1.p4.l03.ex.01.q5
+        prompt: "Welche Buslinie nimmt man heute?"
+        options: [{ id: a, text: "Linie zwölf." }, { id: b, text: "Linie vierzehn." }, { id: c, text: "Linie vier." }]
+        answer: [b]
+        explanation_vi: "Linie zwölf fährt nicht; „Bitte nehmen Sie die Linie vierzehn.“"
+  - id: a1.p4.l03.ex.02
+    type: true-false
+    skill: reading
+    difficulty: 2
+    objective_refs: [a1.p4.l03.obj2]
+    instructions_vi: "Lesen Teil 3: đọc năm thông báo (khối đọc ở trên) và chọn Richtig hoặc Falsch."
+    stimulus: { ref: a1.p4.l03.b3 }
+    items:
+      - { id: a1.p4.l03.ex.02.q1, prompt: "Man darf überall rauchen.", answer: false, explanation_vi: "Chỉ được hút thuốc ở sân trong (Hof)." }
+      - { id: a1.p4.l03.ex.02.q2, prompt: "Im August ist das Geschäft zwei Wochen zu.", answer: true, explanation_vi: "Đóng cửa từ 1 đến 15 tháng Tám ≈ hai tuần." }
+      - { id: a1.p4.l03.ex.02.q3, prompt: "Heute ist das Geschäft geöffnet.", answer: false, explanation_vi: "„Heute Ruhetag.“" }
+      - { id: a1.p4.l03.ex.02.q4, prompt: "Kunden gehen durch den Haupteingang.", answer: true, explanation_vi: "„Kunden bitte durch den Haupteingang.“" }
+      - { id: a1.p4.l03.ex.02.q5, prompt: "Man kann das Fahrrad hier lassen.", answer: true, explanation_vi: "„Fahrräder bitte hier abstellen.“" }
+  - id: a1.p4.l03.ex.03
+    type: fill-blank
+    skill: writing
+    difficulty: 1
+    objective_refs: [a1.p4.l03.obj3]
+    instructions_vi: "Điền từ thích hợp vào tin nhắn từ kỳ nghỉ."
+    items:
+      - { id: a1.p4.l03.ex.03.q1, prompt: "Liebe Anna, ich ___ in Wien.", answers: ["bin"], explanation_vi: "ich bin." }
+      - { id: a1.p4.l03.ex.03.q2, prompt: "Das Wetter ___ schön.", answers: ["ist"], explanation_vi: "Das Wetter ist schön." }
+      - { id: a1.p4.l03.ex.03.q3, prompt: "Gestern ___ ich das Schloss besichtigt.", answers: ["habe"], explanation_vi: "besichtigen dùng haben: ich habe … besichtigt." }
+      - { id: a1.p4.l03.ex.03.q4, prompt: "Viele ___, Tim", answers: ["Grüße"], explanation_vi: "Lời kết thân mật: Viele Grüße." }
+  - id: a1.p4.l03.ex.04
+    type: word-order
+    skill: writing
+    difficulty: 2
+    objective_refs: [a1.p4.l03.obj3]
+    instructions_vi: "Sắp xếp thành câu dùng trong tin nhắn."
+    items:
+      - id: a1.p4.l03.ex.04.q1
+        tokens: ["Das", "die", "schön", "und", "ist", "Sonne", "Wetter", "scheint."]
+        answer: "Das Wetter ist schön und die Sonne scheint."
+        translation_vi: "Thời tiết đẹp và trời nắng."
+        explanation_vi: "Hai câu nối bằng „und“."
+      - id: a1.p4.l03.ex.04.q2
+        tokens: ["habe", "Schloss", "besichtigt.", "Gestern", "ich", "das"]
+        answer: "Gestern habe ich das Schloss besichtigt."
+        translation_vi: "Hôm qua tôi đã tham quan lâu đài."
+        explanation_vi: "Cụm thời gian đứng đầu nên habe ở vị trí 2."
+      - id: a1.p4.l03.ex.04.q3
+        tokens: ["Wien.", "bin", "Ich", "in"]
+        answer: "Ich bin in Wien."
+        translation_vi: "Tôi đang ở Wien."
+        explanation_vi: "Câu ngắn nêu địa điểm."
+  - id: a1.p4.l03.ex.05
+    type: writing-practice
+    skill: writing
+    difficulty: 3
+    objective_refs: [a1.p4.l03.obj3]
+    instructions_vi: "Schreiben Teil 2: viết tin nhắn khoảng 30 từ cho bạn với ba ý: bạn ở đâu, thời tiết, bạn đã làm gì."
+    grading: self
+    rubric:
+      - { criterion_vi: "Trả lời đủ ba ý (nơi, thời tiết, việc đã làm)", points: 3 }
+      - { criterion_vi: "Có lời chào và lời kết", points: 1 }
+      - { criterion_vi: "Perfekt đúng cho việc đã làm", points: 2 }
+      - { criterion_vi: "Chính tả và dấu câu đúng; khoảng 30 từ", points: 2 }
+    items:
+      - id: a1.p4.l03.ex.05.q1
+        prompt_vi: "Viết tin nhắn từ kỳ nghỉ."
+        model_answer: { de: "Liebe Anna, ich bin in Wien. Das Wetter ist schön und die Sonne scheint. Gestern habe ich das Schloss besichtigt. Es war interessant! Viele Grüße, Tim", vi: "Anna thân mến, mình đang ở Wien. Thời tiết đẹp và trời nắng. Hôm qua mình đã tham quan lâu đài. Thú vị lắm! Thân ái, Tim" }
+        explanation_vi: "Bài mẫu đủ ba ý, có chào, kết và một câu Perfekt."
+  - id: a1.p4.l03.ex.06
+    type: multiple-choice
+    skill: reading
+    difficulty: 1
+    objective_refs: [a1.p4.l03.obj1, a1.p4.l03.obj2, a1.p4.l03.obj3]
+    instructions_vi: "Chọn chiến lược làm bài đúng."
+    items:
+      - id: a1.p4.l03.ex.06.q1
+        prompt: "Was macht man vor Hören Teil 2?"
+        options: [{ id: a, text: "Die Fragen lesen." }, { id: b, text: "Das Wörterbuch öffnen." }, { id: c, text: "Warten." }]
+        answer: [a]
+        explanation_vi: "Đọc câu hỏi trước để biết cần nghe thông tin gì."
+      - id: a1.p4.l03.ex.06.q2
+        prompt: "Warum ist „nicht“ bei Schildern wichtig?"
+        options: [{ id: a, text: "Es ändert die Bedeutung." }, { id: b, text: "Es ist nur Dekoration." }, { id: c, text: "Man liest es nie." }]
+        answer: [a]
+        explanation_vi: "Từ phủ định đảo ngược nghĩa (nicht rauchen = cấm hút thuốc)."
+      - id: a1.p4.l03.ex.06.q3
+        prompt: "Wie viele Ideen braucht man bei Schreiben Teil 2?"
+        options: [{ id: a, text: "Eine." }, { id: b, text: "Zwei." }, { id: c, text: "Drei." }]
+        answer: [c]
+        explanation_vi: "Cần trả lời đủ ba ý cho trước."
+  - id: a1.p4.l03.ex.07
+    type: translation
+    skill: reading
+    difficulty: 2
+    objective_refs: [a1.p4.l03.obj1, a1.p4.l03.obj2]
+    instructions_vi: "Dịch sang tiếng Đức."
+    items:
+      - { id: a1.p4.l03.ex.07.q1, direction: vi-de, source: "Xin chú ý, tàu đi München khởi hành muộn.", answers: ["Achtung, der Zug nach München fährt später ab."], explanation_vi: "Động từ tách: fährt … ab." }
+      - { id: a1.p4.l03.ex.07.q2, direction: vi-de, source: "Hôm nay nghỉ (cửa hàng không mở).", answers: ["Heute ist Ruhetag."], explanation_vi: "Ruhetag = ngày nghỉ của cửa hàng." }
+      - { id: a1.p4.l03.ex.07.q3, direction: vi-de, source: "Xin đừng hút thuốc!", answers: ["Bitte nicht rauchen!"], explanation_vi: "Cách viết ngắn trên biển báo: Bitte nicht + nguyên mẫu." }

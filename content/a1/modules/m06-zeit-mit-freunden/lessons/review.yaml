@@ -1,0 +1,283 @@
+schema_version: '2.0'
+content_type: lesson
+id: a1.m06.review
+level: A1
+module: a1.m06
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+  references:
+  - work: Netzwerk neu A1 (Klett)
+    scope: 'Kapitel 6: kurz und klar: Redemittel und Grammatik'
+    verification: verified
+  notes_vi: Bảng tổng kết, đề kiểm tra và đáp án tự biên soạn.
+order: 7
+title_de: Kurz und klar – Test Kapitel 6
+title_vi: Tổng kết và kiểm tra Kapitel 6
+topic_vi: Ôn tập Redemittel và ngữ pháp Kapitel 6 (động từ tách, số thứ tự, für + Akkusativ, đại từ Akkusativ, war/hatte); kiểm tra tổng hợp 4 kỹ năng
+duration_min: 60
+difficulty: 2
+kind: review
+cefr:
+- A1.SI2
+- A1.H3
+- A1.L3
+- A1.SP1
+- A1.S2
+prerequisites:
+- a1.m06.l06
+objectives:
+- id: a1.m06.review.obj1
+  text_vi: 'Kiểm tra từ vựng: hoạt động giải trí, tiệc sinh nhật, số thứ tự, quà tặng, gọi món ở quán ăn, thời tiết và sự kiện.'
+  skill: vocabulary
+- id: a1.m06.review.obj2
+  text_vi: 'Kiểm tra ngữ pháp: động từ tách, số thứ tự sau am, giới từ für + Akkusativ, đại từ nhân xưng Akkusativ, quá khứ war/hatte.'
+  skill: grammar
+- id: a1.m06.review.obj3
+  text_vi: 'Kiểm tra nghe hiểu: hội thoại lên kế hoạch tổ chức tiệc và gọi món.'
+  skill: listening
+- id: a1.m06.review.obj4
+  text_vi: 'Kiểm tra đọc hiểu: email mời tiệc và chia sẻ nhật ký cuối tuần.'
+  skill: reading
+- id: a1.m06.review.obj5
+  text_vi: 'Kiểm tra viết và nói: viết thiệp/email mời sinh nhật và thực hành gọi món, hỏi thăm cuối tuần.'
+  skill: speaking
+vocabulary_refs: []
+review_vocabulary_refs:
+- a1.m06.v.vorbeikommen
+- a1.m06.v.ausgehen
+- a1.m06.v.mitfeiern
+- a1.m06.v.treffpunkt
+- a1.m06.v.ausflug
+- a1.m06.v.geburtstag
+- a1.m06.v.geburtstagsparty
+- a1.m06.v.glueckwunsch
+- a1.m06.v.geburtstagsdatum
+- a1.m06.v.dritte
+- a1.m06.v.ueberraschung
+- a1.m06.v.geschenk
+- a1.m06.v.einladen
+- a1.m06.v.mitnehmen
+- a1.m06.v.mich
+- a1.m06.v.lokal
+- a1.m06.v.bestellen
+- a1.m06.v.getrennt
+- a1.m06.v.trinkgeld
+- a1.m06.v.gestern
+- a1.m06.v.fantastisch
+- a1.m06.v.kneipe
+- a1.m06.v.biergarten
+- a1.m06.v.stattfinden
+grammar_refs:
+- a1.g.trennbare-verben
+- a1.g.ordinalzahlen
+- a1.g.fuer-akkusativ
+- a1.g.personalpronomen-akkusativ
+- a1.g.praeteritum-haben-sein
+grammar_focus:
+- ref: a1.g.trennbare-verben
+  focus_vi: 'Ôn: Động từ tách trong câu kể và câu hỏi (ausgehen, vorbeikommen, losgehen, stattfinden...)'
+- ref: a1.g.ordinalzahlen
+  focus_vi: 'Ôn: Số thứ tự sau am (am ersten, am dritten, am zwanzigsten...)'
+- ref: a1.g.fuer-akkusativ
+  focus_vi: 'Ôn: Giới từ für + Akkusativ (für meinen Bruder, für das Fest...)'
+- ref: a1.g.personalpronomen-akkusativ
+  focus_vi: 'Ôn: Đại từ nhân xưng ở Akkusativ (mich, dich, ihn, uns, euch)'
+- ref: a1.g.praeteritum-haben-sein
+  focus_vi: 'Ôn: Thì quá khứ Präteritum của sein và haben (war, hatte)'
+expression_refs:
+- a1.m06.x.freizeit-geburtstage-was-hast-du-vor-wan
+- a1.m06.x.im-restaurant-was-moechten-sie-bestellen
+- a1.m06.x.vergangenes-events-wie-war-dein-wochenen
+exercise_set_ref: a1.m06.review.ex
+summary_vi: 'Bài ôn tập giúp bạn củng cố toàn diện kiến thức Kapitel 6: các hoạt động vui chơi giải trí, số thứ tự và ngày tháng (Ordinalzahlen), giới từ für + Akkusativ, đại từ nhân xưng ở Akkusativ (mich, dich, ihn...), thì quá khứ của sein/haben (war, hatte), cùng văn hóa quán ăn và tiền boa ở D-A-CH.'
+self_check:
+- Tôi có thể nói chính xác ngày tháng và sinh nhật bằng tiếng Đức.
+- Tôi nhớ sau giới từ für luôn dùng cách Akkusativ.
+- Tôi phân biệt và sử dụng đúng war (đã ở/là) và hatte (đã có) trong quá khứ.
+- Tôi tự tin gọi món và thanh toán tiền tại quán ăn/nhà hàng (getrennt zahlen, stimmt so).
+blocks:
+- id: a1.m06.review.b1
+  kind: explanation
+  title_vi: Giới thiệu bài học
+  body_vi: '**Chúc mừng bạn đã hoàn thành trọn vẹn 6 bài học của Kapitel 6: Zeit mit Freunden!**
+
+    Bài học tổng kết này được thiết kế để:
+
+    - Hệ thống hóa toàn bộ các mẫu câu giao tiếp quan trọng nhất (Redemittel) về rủ bạn đi chơi, chúc mừng sinh nhật, giao tiếp tại nhà hàng và kể về kỳ nghỉ cuối tuần.
+
+    - Tóm tắt cô đọng 5 trụ cột ngữ pháp của chương: Động từ tách (*trennbare Verben*), Số thứ tự và ngày tháng (*Ordinalzahlen*), Giới từ *für + Akkusativ*, Đại từ nhân xưng ở Akkusativ (*mich, dich, ihn, uns, euch*), và Thì quá khứ đơn của sein/haben (*war, hatte*).
+
+    - Đánh giá năng lực toàn diện của bạn qua bài kiểm tra 4 kỹ năng theo chuẩn CEFR A1.'
+- id: a1.m06.review.b2
+  kind: explanation
+  title_vi: Bảng tổng hợp ngữ pháp then chốt Kapitel 6
+  skill: grammar
+  body_vi: '**1. Động từ tách (trennbare Verben):**
+
+    - Động từ chia ở vị trí 2, tiền tố đứng ở cuối câu: *Ich lade dich zur Party **ein**.*
+
+    - Khi có Modalverb: động từ chính nguyên thể ở cuối câu: *Können wir heute **ausgehen**?*
+
+
+    **2. Số thứ tự (Ordinalzahlen) & Ngày tháng:**
+
+    - 1–19: thêm đuôi *-te* (sau am thêm *-ten*): *am ersten, am dritten, am siebten*.
+
+    - Từ 20: thêm đuôi *-ste* (sau am thêm *-sten*): *am zwanzigsten*.
+
+
+    **3. Giới từ für & Đại từ nhân xưng Akkusativ:**
+
+    - *für* luôn đi với Akkusativ: *Das Geschenk ist für **meinen** Freund.*
+
+    - Đại từ Akkusativ: *ich $\rightarrow$ mich, du $\rightarrow$ dich, er $\rightarrow$ ihn, wir $\rightarrow$ uns, ihr $\rightarrow$ euch*.
+
+
+    **4. Quá khứ Präteritum (war & hatte):**
+
+    - *ich/er/sie/es war* (đã là/ở) · *wir/sie waren*.
+
+    - *ich/er/sie/es hatte* (đã có) · *wir/sie hatten*.
+
+    '
+  examples:
+  - de: Gestern war ich auf einer Party und hatte viel Spaß.
+    vi: Hôm qua tôi đã ở một bữa tiệc và đã rất vui.
+  - de: Er ruft mich morgen früh an.
+    vi: Anh ấy sẽ gọi điện cho tôi vào sáng mai.
+- id: a1.m06.review.b3
+  kind: pronunciation
+  title_vi: 'Tổng hợp các nguyên âm đôi: ei [aɪ̯], eu [ɔɪ̯], au [aʊ̯]'
+  skill: pronunciation
+  body_vi: 'Tổng hợp các nguyên âm đôi: ei [aɪ̯], eu [ɔɪ̯], au [aʊ̯]
+
+
+    Phân biệt rõ: ''ei'' [aɪ̯] (die Kneipe, frei); ''eu'' [ɔɪ̯] (heute, euch, Freund); ''au'' [aʊ̯] (ausgehen, das Haus, der Ausflug).
+
+
+    Luyện tập: Luyện đọc chuỗi câu có cả 3 nguyên âm đôi: Heute gehe ich mit meinen Freunden aus.'
+  items:
+  - de: die Kneipe – die Freunde – der Ausflug
+    vi: quán rượu – bạn bè – chuyến dã ngoại
+    ipa: '[ˈknaɪ̯pə] – [ˈfʁɔɪ̯ndə] – [ˈaʊ̯sˌfluːk]'
+  - de: feiern – euch – das Restaurant
+    vi: ăn mừng – các bạn – nhà hàng
+    ipa: '[ˈfaɪ̯ɐn] – [ɔɪ̯ç] – [ʁɛstoˈʁãː]'
+- id: a1.m06.review.b4
+  kind: examples
+  title_vi: Câu ví dụ
+  examples:
+  - de: Am Samstag feiern wir eine Überraschungsparty für Sofia.
+    vi: Thứ Bảy chúng tôi tổ chức một bữa tiệc bất ngờ cho Sofia.
+  - de: Ich habe ein schönes Geschenk für dich mitgebracht.
+    vi: Tôi đã mang theo một món quà rất đẹp dành cho bạn.
+  - de: Gestern war das Wetter herrlich và wir hatten viel Spaß.
+    vi: Hôm qua thời tiết đã tuyệt đẹp và chúng tôi đã có nhiều niềm vui.
+  - de: Auf dem Marktplatz findet heute ein Musikfestival statt.
+    vi: Ở quảng trường chợ hôm nay có một lễ hội âm nhạc diễn ra.
+- id: a1.m06.review.b5
+  kind: listening
+  title_vi: 'Kiểm tra nghe: Kế hoạch tổ chức sinh nhật và đặt bàn'
+  lines:
+  - speaker: David
+    de: Hallo Anna! Sofia hat am zwanzigsten Mai Geburtstag. Wollen wir eine Party für sie machen?
+    vi: Chào Anna! Sofia sinh nhật vào ngày 20 tháng 5. Tụi mình tổ chức tiệc cho bạn ấy nhé?
+  - speaker: Anna
+    de: Tolle Idee! Ich lade alle Freunde per Mail ein. Wo wollen wir feiern?
+    vi: Ý tưởng tuyệt vời! Mình sẽ mời tất cả bạn bè qua email. Chúng mình muốn ăn mừng ở đâu?
+  - speaker: David
+    de: Im Gasthaus am Park. Sie haben einen wunderschönen Biergarten. Ich reserviere einen großen Tisch für uns.
+    vi: Ở quán ăn bên công viên nhé. Họ có một quán bia sân vườn rất đẹp. Mình sẽ đặt trước một bàn lớn cho tụi mình.
+  - speaker: Anna
+    de: Super! Und ich besorge einen Blumenstrauß und ein Geschenk für sie.
+    vi: Tuyệt vời! Và mình sẽ chuẩn bị một bó hoa cùng một món quà cho bạn ấy.
+  audio_status: pending-tts
+  situation_vi: David và Anna thảo luận về việc chuẩn bị tiệc sinh nhật cho Sofia và đặt bàn ở quán bia sân vườn.
+  skill: listening
+  audio:
+    speed: slow
+- id: a1.m06.review.b6
+  kind: reading
+  title_vi: 'Kiểm tra đọc: Nhật ký cuối tuần đáng nhớ của Sarah'
+  paragraphs:
+  - de: 'Ein unvergessliches Wochenende in Hamburg!
+
+      Am letzten Samstag war der 20. Mai – der 25. Geburtstag meiner besten Freundin Sofia.
+
+      Wir hatten eine große Überraschung für sie vorbereitet:
+
+      Am Nachmittag machten wir bei sonnigem Wetter eine Fahrradtour an den See.
+
+      Um 19 Uhr trafen wir uns im Gasthaus an der Alster.
+
+      Ich hatte einen Blumenstrauß và ein schönes Buch für sie gekauft.
+
+      Sofia war total überrascht und glücklich!
+
+      Wir aßen leckeres Essen, tranken Bier und zahlten am Ende getrennt.
+
+      Das Wetter war wunderbar und wir hatten alle einen fantastischen Abend!'
+    vi: 'Một cuối tuần khó quên ở Hamburg!
+
+      Thứ Bảy tuần trước là ngày 20 tháng 5 – sinh nhật lần thứ 25 của bạn thân nhất của tôi, Sofia.
+
+      Chúng tôi đã chuẩn bị một bất ngờ lớn cho bạn ấy:
+
+      Buổi chiều trong thời tiết nắng ấm, chúng tôi làm một chuyến đạp xe ra hồ.
+
+      Lúc 19 giờ chúng tôi gặp nhau tại quán ăn bên hồ Alster.
+
+      Tôi đã mua một bó hoa và một cuốn sách hay cho bạn ấy.
+
+      Sofia hoàn toàn bất ngờ và hạnh phúc!
+
+      Chúng tôi đã ăn đồ ăn ngon, uống bia và cuối cùng thanh toán tiền riêng.
+
+      Thời tiết đã tuyệt vời và tất cả chúng tôi đã có một buổi tối thật kỳ diệu!'
+  text_type_vi: Bài viết nhật ký cuối tuần
+  skill: reading
+  glossary:
+  - de: unvergesslich
+    vi: khó quên
+  - de: an der Alster
+    vi: bên bờ hồ Alster
+- id: a1.m06.review.b7
+  kind: speaking
+  title_vi: 'Kiểm tra nói: Rủ bạn đi ăn mừng sinh nhật và gọi món'
+  skill: speaking
+  task_vi: Thực hành đối thoại rủ bạn tham gia bữa tiệc sinh nhật cuối tuần và đóng vai thanh toán tại nhà hàng.
+  steps_vi:
+  - 'Rủ tiệc: Kommst du am Samstag zu meiner Geburtstagsparty mit?'
+  - 'Đồng ý: Ja, super gern! Ich bin dabei!'
+  - 'Thanh toán: Die Rechnung bitte! Zusammen oder getrennt? – Getrennt, bitte. Stimmt so!'
+  lines:
+  - speaker: A
+    de: Kommst du am Samstag mit ins Restaurant? Wir feiern Sofias Geburtstag.
+    vi: Thứ Bảy bạn cùng đến nhà hàng nhé? Tụi mình ăn mừng sinh nhật Sofia.
+  - speaker: B
+    de: Ja, natürlich, ich komme sehr gern mit! Was schenken wir ihr?
+    vi: Có chứ, tất nhiên rồi, mình rất vui lòng đi cùng! Tụi mình tặng gì cho bạn ấy?
+  - speaker: A
+    de: Wir haben schon ein Geschenk für sie. Bis Samstag!
+    vi: Tụi mình đã có quà cho bạn ấy rồi. Hẹn thứ Bảy nhé!
+- id: a1.m06.review.b8
+  kind: writing
+  title_vi: 'Kiểm tra viết: Kể về một buổi tối đi chơi cùng bạn bè'
+  skill: writing
+  task_vi: Viết đoạn văn ngắn 5–6 câu kể về một buổi tối đi chơi cùng bạn bè (ở quán ăn, tiệc sinh nhật hoặc quán bia), sử dụng war, hatte và các cấu trúc đã học.
+  model:
+    de: Gestern war ich mit meinen Freunden im Biergarten. Das Wetter war sehr schön und warm. Wir hatten viel Spaß zusammen. Ich habe eine Bratwurst gegessen und ein Bier getrunken. Am Ende haben wir getrennt bezahlt. Der Abend war wirklich wunderbar!
+    vi: Hôm qua tôi đã ở quán bia sân vườn cùng bạn bè của mình. Thời tiết đã rất đẹp và ấm áp. Chúng tôi đã có nhiều niềm vui bên nhau. Tôi đã ăn xúc xích nướng và uống một ly bia. Cuối cùng chúng tôi đã thanh toán tiền riêng. Buổi tối đã thực sự rất tuyệt vời!
+  checklist_vi:
+  - Sử dụng đúng thì quá khứ war và hatte.
+  - Có chi tiết về địa điểm (im Biergarten / im Lokal).
+  - Có chi tiết thanh toán (getrennt bezahlt).

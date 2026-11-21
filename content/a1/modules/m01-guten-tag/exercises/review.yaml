@@ -1,0 +1,352 @@
+schema_version: '2.0'
+content_type: exercise-set
+id: a1.m01.review.ex
+level: A1
+module: a1.m01
+lesson: a1.m01.review
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+exercises:
+- id: a1.m01.review.ex.01
+  type: multiple-choice
+  skill: vocabulary
+  difficulty: 1
+  objective_refs:
+  - a1.m01.review.obj1
+  instructions_vi: Phần B1 – Từ vựng và Redemittel. Chọn câu phù hợp.
+  items:
+  - id: a1.m01.review.ex.01.q1
+    prompt: 18:30, bạn gặp giáo viên ở hành lang.
+    options:
+    - id: a
+      text: Gute Nacht!
+    - id: b
+      text: Guten Abend!
+    - id: c
+      text: Tschüs!
+    answer:
+    - b
+    explanation_vi: Buổi tối, khi gặp → Guten Abend.
+  - id: a1.m01.review.ex.01.q2
+    prompt: Bạn được giới thiệu với một người mới.
+    options:
+    - id: a
+      text: Bis bald!
+    - id: b
+      text: Freut mich!
+    - id: c
+      text: Wie bitte?
+    answer:
+    - b
+    explanation_vi: Freut mich! = Rất vui được gặp.
+  - id: a1.m01.review.ex.01.q3
+    prompt: Người kia đọc số điện thoại quá nhanh.
+    options:
+    - id: a
+      text: Auf Wiedersehen!
+    - id: b
+      text: Langsam, bitte!
+    - id: c
+      text: Danke!
+    answer:
+    - b
+    explanation_vi: Đề nghị nói chậm.
+  - id: a1.m01.review.ex.01.q4
+    prompt: '„Wie ist Ihre E-Mail-Adresse?“ hỏi về:'
+    options:
+    - id: a
+      text: nơi ở
+    - id: b
+      text: số điện thoại
+    - id: c
+      text: địa chỉ email
+    answer:
+    - c
+    explanation_vi: die E-Mail-Adresse = địa chỉ email.
+  - id: a1.m01.review.ex.01.q5
+    prompt: 'Số 17 là:'
+    options:
+    - id: a
+      text: siebzig
+    - id: b
+      text: siebzehn
+    - id: c
+      text: siebenzehn
+    answer:
+    - b
+    explanation_vi: siebzehn (mất en). siebzig = 70 (Kapitel 2).
+- id: a1.m01.review.ex.02
+  type: fill-blank
+  skill: grammar
+  difficulty: 2
+  objective_refs:
+  - a1.m01.review.obj2
+  instructions_vi: Phần B2 – Ngữ pháp. Chia động từ trong ngoặc.
+  items:
+  - id: a1.m01.review.ex.02.q1
+    prompt: Wie ___ du? (heißen)
+    answers:
+    - heißt
+    explanation_vi: du heißt.
+  - id: a1.m01.review.ex.02.q2
+    prompt: Ich ___ aus Vietnam. (kommen)
+    answers:
+    - komme
+    explanation_vi: ich → -e.
+  - id: a1.m01.review.ex.02.q3
+    prompt: Frau Berg ___ in Graz. (wohnen)
+    answers:
+    - wohnt
+    explanation_vi: sie → -t.
+  - id: a1.m01.review.ex.02.q4
+    prompt: ___ Sie Herr Vo? (sein)
+    answers:
+    - Sind
+    explanation_vi: Sie sind.
+  - id: a1.m01.review.ex.02.q5
+    prompt: Er ___ Englisch und Deutsch. (sprechen)
+    answers:
+    - spricht
+    explanation_vi: er spricht (e → i).
+  - id: a1.m01.review.ex.02.q6
+    prompt: Du ___ Lan, richtig? (sein)
+    answers:
+    - bist
+    explanation_vi: du bist.
+- id: a1.m01.review.ex.03
+  type: multiple-choice
+  skill: grammar
+  difficulty: 2
+  objective_refs:
+  - a1.m01.review.obj2
+  instructions_vi: Phần B2 – Câu hỏi W-. Chọn từ để hỏi đúng.
+  items:
+  - id: a1.m01.review.ex.03.q1
+    prompt: ___ wohnen Sie? – In Dresden.
+    options:
+    - id: a
+      text: Wer
+    - id: b
+      text: Woher
+    - id: c
+      text: Wo
+    answer:
+    - c
+    explanation_vi: in → wo.
+  - id: a1.m01.review.ex.03.q2
+    prompt: ___ kommt Julia? – Aus Österreich.
+    options:
+    - id: a
+      text: Woher
+    - id: b
+      text: Wo
+    - id: c
+      text: Wie
+    answer:
+    - a
+    explanation_vi: aus → woher.
+  - id: a1.m01.review.ex.03.q3
+    prompt: ___ heißt du? – Duc.
+    options:
+    - id: a
+      text: Wie
+    - id: b
+      text: Wer
+    - id: c
+      text: Was
+    answer:
+    - a
+    explanation_vi: Hỏi tên → wie.
+- id: a1.m01.review.ex.04
+  type: word-order
+  skill: grammar
+  difficulty: 2
+  objective_refs:
+  - a1.m01.review.obj2
+  instructions_vi: Phần B2 – Sắp xếp thành câu đúng.
+  items:
+  - id: a1.m01.review.ex.04.q1
+    tokens:
+    - Sprachen
+    - Sie
+    - sprechen
+    - Welche
+    answer: Welche Sprachen sprechen Sie?
+    explanation_vi: Welche Sprachen (1) – sprechen (2) – Sie.
+  - id: a1.m01.review.ex.04.q2
+    tokens:
+    - wohnt
+    - Dresden
+    - in
+    - Julia
+    answer: Julia wohnt in Dresden.
+    explanation_vi: Julia (1) – wohnt (2) – in Dresden.
+- id: a1.m01.review.ex.05
+  type: multiple-choice
+  skill: grammar
+  difficulty: 2
+  objective_refs:
+  - a1.m01.review.obj2
+  - a1.m01.review.obj1
+  instructions_vi: Phần B2 – du hay Sie? Chọn câu đúng cho tình huống.
+  items:
+  - id: a1.m01.review.ex.05.q1
+    prompt: Bạn hỏi tên một nhân viên ngân hàng.
+    options:
+    - id: a
+      text: Wie heißen Sie?
+    - id: b
+      text: Wie heißt du?
+    answer:
+    - a
+    explanation_vi: Công việc, người lạ → Sie.
+  - id: a1.m01.review.ex.05.q2
+    prompt: Bạn chào tạm biệt bạn cùng phòng.
+    options:
+    - id: a
+      text: Tschüs, Julia!
+    - id: b
+      text: Auf Wiedersehen, Frau Berger!
+    answer:
+    - a
+    explanation_vi: Bạn bè → du, gọi tên riêng.
+- id: a1.m01.review.ex.06
+  type: multiple-choice
+  skill: listening
+  difficulty: 2
+  objective_refs:
+  - a1.m01.review.obj3
+  instructions_vi: Phần B3 – Nghe “Ở văn phòng sinh viên quốc tế” (tốc độ bình thường). Chọn đáp án đúng.
+  stimulus:
+    ref: a1.m01.review.b5
+  items:
+  - id: a1.m01.review.ex.06.q1
+    prompt: Họ của sinh viên là gì?
+    options:
+    - id: a
+      text: Krüger
+    - id: b
+      text: Duc
+    - id: c
+      text: Vo
+    answer:
+    - c
+    explanation_vi: 'Nachname: V – O.'
+  - id: a1.m01.review.ex.06.q2
+    prompt: Anh ấy đến từ thành phố nào?
+    options:
+    - id: a
+      text: Hanoi
+    - id: b
+      text: Dresden
+    - id: c
+      text: Hue
+    answer:
+    - c
+    explanation_vi: Ich komme aus Vietnam, aus Hue.
+  - id: a1.m01.review.ex.06.q3
+    prompt: Bây giờ anh ấy sống ở đâu?
+    options:
+    - id: a
+      text: Graz
+    - id: b
+      text: Hue
+    - id: c
+      text: Dresden
+    answer:
+    - c
+    explanation_vi: In Dresden.
+- id: a1.m01.review.ex.07
+  type: fill-blank
+  skill: listening
+  difficulty: 3
+  objective_refs:
+  - a1.m01.review.obj3
+  instructions_vi: Phần B3 – Nghe lại và ghi số di động của anh Vo.
+  stimulus:
+    ref: a1.m01.review.b5
+  items:
+  - id: a1.m01.review.ex.07.q1
+    prompt: 'Handynummer: 0160 ___'
+    answers:
+    - '447198'
+    accept:
+    - - 447 198
+    explanation_vi: vier, vier, sieben – eins, neun, acht.
+- id: a1.m01.review.ex.08
+  type: true-false
+  skill: reading
+  difficulty: 2
+  objective_refs:
+  - a1.m01.review.obj4
+  instructions_vi: Phần B4 – Đọc thông báo “Tìm bạn học tandem”. Đúng hay sai?
+  stimulus:
+    ref: a1.m01.review.b6
+  items:
+  - id: a1.m01.review.ex.08.q1
+    prompt: Julia đến từ Đức.
+    answer: false
+    explanation_vi: Ich komme aus Österreich, aus Graz.
+  - id: a1.m01.review.ex.08.q2
+    prompt: Julia sống ở Dresden.
+    answer: true
+    explanation_vi: Ich wohne jetzt in Dresden.
+  - id: a1.m01.review.ex.08.q3
+    prompt: Julia nói tiếng Việt rất giỏi.
+    answer: false
+    explanation_vi: … aber nur ein bisschen!
+  - id: a1.m01.review.ex.08.q4
+    prompt: Julia tìm người nói tiếng Việt đang học tiếng Đức.
+    answer: true
+    explanation_vi: Sprichst du Vietnamesisch und lernst du Deutsch?
+- id: a1.m01.review.ex.09
+  type: writing-practice
+  skill: writing
+  difficulty: 2
+  objective_refs:
+  - a1.m01.review.obj5
+  instructions_vi: Phần B5 – Viết tin nhắn trả lời Julia (xem phần Viết). Tự chấm theo tiêu chí; tối đa 8 điểm.
+  grading: self
+  rubric:
+  - criterion_vi: 'Nội dung: đủ 6 ý (chào, tên, quê/nơi ở, ngôn ngữ, liên lạc, tạm biệt)'
+    points: 4
+  - criterion_vi: 'Ngữ pháp: động từ chia đúng, vị trí 2, aus/in đúng'
+    points: 2
+  - criterion_vi: Xưng hô nhất quán du; chính tả đúng
+    points: 2
+  items:
+  - id: a1.m01.review.ex.09.q1
+    prompt_vi: Trả lời thông báo Tandempartner gesucht.
+    model_answer:
+      de: Hallo Julia! Ich heiße Minh. Ich komme aus Vietnam und wohne in Dresden. Ich spreche Vietnamesisch und Englisch. Ich lerne Deutsch. Meine Nummer ist 0151 2736481. Tschüs, Minh
+    explanation_vi: So sánh với bài mẫu ở phần Viết.
+- id: a1.m01.review.ex.10
+  type: speaking-practice
+  skill: speaking
+  difficulty: 2
+  objective_refs:
+  - a1.m01.review.obj5
+  instructions_vi: Phần B6 – Kiểm tra nói (xem phần Nói). Ghi âm và tự chấm; tối đa 8 điểm.
+  grading: self
+  rubric:
+  - criterion_vi: 'Phần 1: đủ thông tin và đánh vần đúng họ'
+    points: 3
+  - criterion_vi: 'Phần 2: trả lời đúng 3 câu hỏi, dùng Sie/Ihnen nhất quán'
+    points: 3
+  - criterion_vi: Phát âm dễ hiểu, nói có ngắt nghỉ tự nhiên
+    points: 2
+  items:
+  - id: a1.m01.review.ex.10.q1
+    prompt_vi: Tự giới thiệu và trả lời 3 câu hỏi trang trọng.
+    model_answer:
+      de: 'Guten Tag! Mein Name ist Lan Pham. Pham: P – H – A – M. Ich komme aus Vietnam und wohne in Leipzig. Ich spreche Vietnamesisch, Englisch und ein bisschen Deutsch. – Danke, gut. Und Ihnen? – Meine Nummer ist null, eins, sieben, sechs … – Ich spreche Vietnamesisch, Englisch und ein bisschen Deutsch.'
+    explanation_vi: So sánh với hội thoại mẫu ở phần Nói.

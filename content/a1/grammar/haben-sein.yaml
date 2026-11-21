@@ -1,0 +1,216 @@
+schema_version: '2.0'
+content_type: grammar-topic
+id: a1.g.haben-sein
+level: A1
+introduced_in: a1.m02
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+  references:
+  - work: Netzwerk neu A1 (Klett)
+    scope: 'Kapitel 2: Mein Beruf'
+    verification: verified
+  notes_vi: Tương ứng Grammatik „Verben haben und sein“ của Kapitel 2.
+introduced_in_lesson: a1.m02.l05
+title_de: Die Verben haben und sein
+title_vi: 'Hai động từ quan trọng nhất: haben và sein'
+summary_vi: '**sein** (là, thì, ở) và **haben** (có) là hai động từ dùng nhiều nhất trong tiếng Đức. Cả hai đều **bất quy tắc**.
+
+
+  | | sein | haben |
+
+  |---|---|---|
+
+  | ich | bin | habe |
+
+  | du | bist | **hast** |
+
+  | er/sie/es | ist | **hat** |
+
+  | wir | sind | haben |
+
+  | ihr | seid | habt |
+
+  | sie/Sie | sind | haben |
+
+
+  **haben** chỉ bất quy tắc ở *du hast, er hat* (mất chữ b).
+
+
+  **Khi nào dùng sein, khi nào dùng haben?**
+
+  - **sein** + tên, nghề, quốc tịch, tính chất, **tuổi**: *Ich bin Lan. Er ist Arzt. Das Auto ist neu. Ich bin 22 (Jahre alt).*
+
+  - **haben** + danh từ (vật sở hữu, thời gian, công việc…): *Ich habe ein Auto. Wir haben am Montag frei. Sie hat drei Kurse.*'
+usage_vi: Hai động từ này xuất hiện trong gần như mọi câu giới thiệu và mô tả. Sau này (Kapitel 10) chúng còn là trợ động từ để tạo thì quá khứ Perfekt.
+objectives:
+- id: a1.g.haben-sein.obj1
+  text_vi: Chia và dùng đúng haben và sein trong câu cơ bản.
+  skill: grammar
+rules:
+- id: a1.g.haben-sein.r1
+  title_vi: Chia động từ sein
+  body_vi: 'sein: bin, bist, ist, sind, seid, sind.'
+  examples:
+  - de: Wir sind Krankenpfleger. Seid ihr auch Krankenpfleger?
+    vi: Chúng tôi là điều dưỡng. Các bạn cũng là điều dưỡng à?
+- id: a1.g.haben-sein.r2
+  title_vi: Chia động từ haben
+  body_vi: 'haben: habe, hast, hat, haben, habt, haben.'
+  examples:
+  - de: Hast du am Sonntag frei? – Ja, ich habe frei.
+    vi: Chủ nhật bạn có được nghỉ không? – Có, mình được nghỉ.
+- id: a1.g.haben-sein.r3
+  title_vi: Nói tuổi bằng sein
+  body_vi: Nói tuổi dùng sein (không dùng haben như nhiều ngôn ngữ khác).
+  examples:
+  - de: Wie alt bist du? – Ich bin 25.
+    vi: Bạn bao nhiêu tuổi? – Mình 25.
+- id: a1.g.haben-sein.r4
+  title_vi: haben + thứ mình có
+  body_vi: haben + danh từ chỉ thứ mình có (vật, thời gian, công việc, bạn bè…).
+  examples:
+  - de: Er hat viel Arbeit.
+    vi: Anh ấy có nhiều việc.
+  - de: Das Krankenhaus hat 500 Zimmer.
+    vi: Bệnh viện có 500 phòng.
+sentence_structures:
+- pattern: Subjekt + sein + tên/nghề/tính từ/tuổi
+  example:
+    de: Sie ist 30 Jahre alt.
+    vi: Cô ấy 30 tuổi.
+- pattern: Subjekt + haben + danh từ
+  example:
+    de: Wir haben zwei Computer.
+    vi: Chúng tôi có hai cái máy tính.
+tables:
+- title_vi: sein hay haben?
+  header:
+  - Nội dung
+  - Động từ
+  - Ví dụ
+  rows:
+  - - tên, nghề
+    - sein
+    - Ich bin Informatiker.
+  - - tuổi
+    - sein
+    - Ich bin 30 Jahre alt.
+  - - tính chất
+    - sein
+    - Der Kurs ist toll.
+  - - sở hữu
+    - haben
+    - Ich habe ein Auto.
+  - - thời gian rảnh
+    - haben
+    - Ich habe am Montag frei.
+examples:
+- de: Ich bin Krankenpflegerin und habe viele Patienten.
+  vi: Tôi là điều dưỡng và có nhiều bệnh nhân.
+- de: Hast du ein Wörterbuch?
+  vi: Bạn có từ điển không?
+- de: Paul ist 28 und hat am Wochenende frei.
+  vi: Paul 28 tuổi và cuối tuần được nghỉ.
+- de: Ihr habt viel Zeit!
+  vi: Các bạn có nhiều thời gian quá!
+common_mistakes:
+- wrong: Ich habe 22 Jahre.
+  right: Ich bin 22 Jahre alt. / Ich bin 22.
+  explanation_vi: Người biết tiếng Pháp/Tây Ban Nha hay nói “có … tuổi”. Tiếng Đức dùng sein.
+- wrong: Er habt ein Auto.
+  right: Er hat ein Auto.
+  explanation_vi: er hat (bất quy tắc).
+- wrong: Du habst Zeit.
+  right: Du hast Zeit.
+  explanation_vi: du hast (mất b).
+comparison_vi: 'So sánh sein và haben: sein nói “là gì / như thế nào”, haben nói “có gì”. Tiếng Anh cũng vậy (be/have), trừ tuổi: tiếng Anh và tiếng Đức đều dùng “be/sein” cho tuổi.'
+vietnamese_contrast_vi: 'Tiếng Việt nói “Tôi 22 tuổi” – không có động từ. Tiếng Đức bắt buộc có sein: Ich BIN 22. Ngoài ra tiếng Việt dùng “có” rất rộng (“Bạn có khỏe không?”) – trong tiếng Đức câu này KHÔNG dùng haben mà dùng “Wie geht''s?”.'
+recap_vi: 'sein: bin, bist, ist, sind, seid, sind – dùng cho tên, nghề, tuổi, tính chất. haben: habe, hast, hat, haben, habt, haben – dùng cho thứ mình có. Tuổi dùng sein!'
+next_level_note_vi: Präteritum (war, hatte) học ở Kapitel 6; haben/sein làm trợ động từ trong Perfekt ở Kapitel 10.
+prerequisites:
+- g-a1-verben-praesens
+exercises:
+- id: a1.g.haben-sein.ex.01
+  type: fill-blank
+  skill: grammar
+  difficulty: 1
+  objective_refs:
+  - a1.g.haben-sein.r1
+  - a1.g.haben-sein.r2
+  - a1.g.haben-sein.obj1
+  instructions_vi: Điền dạng đúng của sein hoặc haben.
+  items:
+  - id: a1.g.haben-sein.ex.01.q1
+    prompt: Er ___ Koch. (sein)
+    answers:
+    - ist
+    explanation_vi: er ist.
+  - id: a1.g.haben-sein.ex.01.q2
+    prompt: Du ___ am Montag frei. (haben)
+    answers:
+    - hast
+    explanation_vi: du hast.
+  - id: a1.g.haben-sein.ex.01.q3
+    prompt: Wir ___ zwei Kinder. (haben)
+    answers:
+    - haben
+    explanation_vi: wir haben.
+  - id: a1.g.haben-sein.ex.01.q4
+    prompt: ___ ihr Studenten? (sein)
+    answers:
+    - Seid
+    explanation_vi: ihr seid.
+  - id: a1.g.haben-sein.ex.01.q5
+    prompt: Sie (cô ấy) ___ ein Auto. (haben)
+    answers:
+    - hat
+    explanation_vi: sie hat.
+- id: a1.g.haben-sein.ex.02
+  type: multiple-choice
+  skill: grammar
+  difficulty: 2
+  objective_refs:
+  - a1.g.haben-sein.r3
+  - a1.g.haben-sein.r4
+  - a1.g.haben-sein.obj1
+  instructions_vi: sein hay haben?
+  items:
+  - id: a1.g.haben-sein.ex.02.q1
+    prompt: Ich ___ 30 Jahre alt.
+    options:
+    - id: a
+      text: bin
+    - id: b
+      text: habe
+    answer:
+    - a
+    explanation_vi: Tuổi → sein.
+  - id: a1.g.haben-sein.ex.02.q2
+    prompt: Ich ___ ein Wörterbuch.
+    options:
+    - id: a
+      text: habe
+    - id: b
+      text: bin
+    answer:
+    - a
+    explanation_vi: Sở hữu → haben.
+  - id: a1.g.haben-sein.ex.02.q3
+    prompt: Der Film ___ toll.
+    options:
+    - id: a
+      text: ist
+    - id: b
+      text: hat
+    answer:
+    - a
+    explanation_vi: Tính chất → sein.

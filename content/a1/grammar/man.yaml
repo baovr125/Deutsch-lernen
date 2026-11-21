@@ -1,0 +1,58 @@
+schema_version: "2.0"
+content_type: grammar-topic
+id: a1.g.man
+level: A1
+introduced_in: a1.m12
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  references:
+    - { work: "Netzwerk neu A1.2 – Stoffverteilungsplan (Klett)", scope: "Kapitel 12, Grammatik: Pronomen man", verification: verified }
+  tags: ["pronomen", "man"]
+title_de: "Das Pronomen „man“"
+title_vi: "Đại từ „man“ (người ta, ai cũng)"
+summary_vi: "„man“ chỉ chung người nói chung, ‘người ta’, ‘bạn’ (không cụ thể). Động từ chia như ngôi er/sie/es: man kann, man muss, man darf, man sieht."
+usage_vi: "Dùng để nói điều chung, luật lệ, lời khuyên: „In Berlin kann man viel sehen.“, „Hier darf man nicht rauchen.“"
+objectives:
+  - { id: a1.g.man.obj1, text_vi: "Dùng „man“ với động từ chia đúng ngôi er/sie/es, kể cả với modalverb.", skill: grammar }
+rules:
+  - id: a1.g.man.r1
+    title_vi: "man + động từ ngôi er/sie/es"
+    body_vi: "Luôn chia động từ giống „er/sie/es“, kể cả khi người nói thực ra là nhiều người. Với modalverb: man kann, man muss, man darf, man soll."
+    table:
+      header: ["Chủ ngữ", "Động từ"]
+      rows:
+        - ["man", "kann / muss / darf / soll"]
+        - ["man", "sieht / fährt / isst / bucht"]
+    examples:
+      - { de: "Im Süden isst man gern Käse.", vi: "Ở miền nam người ta thích ăn phô mai." }
+      - { de: "In Berlin kann man viel sehen.", vi: "Ở Berlin có thể xem được nhiều thứ." }
+  - id: a1.g.man.r2
+    title_vi: "man ≠ Mann"
+    body_vi: "„man“ (đại từ, viết thường, một chữ n) khác „der Mann“ (người đàn ông, viết hoa, hai chữ n). Phát âm giống nhau (/man/), chỉ khác cách viết và nghĩa; hãy dựa vào văn cảnh."
+    examples:
+      - { de: "Der Mann kauft eine Fahrkarte.", vi: "Người đàn ông mua một vé." }
+      - { de: "Hier kauft man die Fahrkarte.", vi: "Ở đây người ta mua vé." }
+  - id: a1.g.man.r3
+    title_vi: "Dùng với quy tắc và lời khuyên"
+    body_vi: "„man“ hay gặp trên biển báo, trong hướng dẫn du lịch: „Man muss …“, „Man darf nicht …“, „Man kann …“."
+    examples:
+      - { de: "Im Museum darf man nicht fotografieren.", vi: "Trong bảo tàng không được chụp ảnh." }
+      - { de: "Man muss die Fahrkarte vor der Fahrt kaufen.", vi: "Phải mua vé trước chuyến đi." }
+sentence_structures:
+  - { pattern: "man + Verb (3. Pers. Sg.) + …", example: { de: "Man fährt mit dem Zug in die Stadt.", vi: "Người ta đi tàu vào thành phố." } }
+  - { pattern: "Ort/Zeit + Verb + man + …", example: { de: "Im Sommer kann man schwimmen.", vi: "Mùa hè có thể bơi." } }
+examples:
+  - { de: "Am Meer kann man schwimmen.", vi: "Ở biển có thể bơi." }
+  - { de: "Wo kauft man die Fahrkarte?", vi: "Mua vé ở đâu?" }
+  - { de: "In den Bergen sieht man viel Schnee.", vi: "Ở vùng núi người ta thấy nhiều tuyết." }
+  - { de: "Hier darf man nicht parken.", vi: "Ở đây không được đỗ xe." }
+common_mistakes:
+  - { wrong: "Man können viel sehen.", right: "Man kann viel sehen.", explanation_vi: "„man“ đi với dạng ngôi er/sie/es: kann, không phải können." }
+  - { wrong: "Man kaufen die Fahrkarte hier.", right: "Man kauft die Fahrkarte hier.", explanation_vi: "Động từ thường cũng chia như ngôi er/sie/es: kauft." }
+exercise_refs: [a1.m12.l02.ex.03, a1.m12.l02.ex.06]

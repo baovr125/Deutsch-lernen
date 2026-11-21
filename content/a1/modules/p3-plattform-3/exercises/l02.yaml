@@ -1,0 +1,137 @@
+schema_version: "2.0"
+content_type: exercise-set
+id: a1.p3.l02.ex
+level: A1
+module: a1.p3
+lesson: a1.p3.l02
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+exercises:
+  - id: a1.p3.l02.ex.01
+    type: multiple-choice
+    skill: vocabulary
+    difficulty: 1
+    objective_refs: [a1.p3.l02.obj1]
+    instructions_vi: "Chọn đáp án đúng."
+    items:
+      - id: a1.p3.l02.ex.01.q1
+        prompt: "Was bedeutet „WG“?"
+        options: [{ id: a, text: "Wohngemeinschaft" }, { id: b, text: "Wohnungsgeld" }, { id: c, text: "Wohnungsgarten" }]
+        answer: [a]
+        explanation_vi: "WG = Wohngemeinschaft, nhà ở chung."
+      - id: a1.p3.l02.ex.01.q2
+        prompt: "Welchen Artikel hat „Hochhaus“?"
+        options: [{ id: a, text: "der" }, { id: b, text: "die" }, { id: c, text: "das" }]
+        answer: [c]
+        explanation_vi: "Mạo từ theo từ cuối: das Haus → das Hochhaus."
+      - id: a1.p3.l02.ex.01.q3
+        prompt: "Wie heißt der Plural von „das Lied“?"
+        options: [{ id: a, text: "die Lieder" }, { id: b, text: "die Liede" }, { id: c, text: "die Lieds" }]
+        answer: [a]
+        explanation_vi: "Số nhiều: die Lieder."
+      - id: a1.p3.l02.ex.01.q4
+        prompt: "Wer wohnt neben dir?"
+        options: [{ id: a, text: "Der Nachbar." }, { id: b, text: "Der Kunde." }, { id: c, text: "Der Trainer." }]
+        answer: [a]
+        explanation_vi: "Người sống bên cạnh là hàng xóm (der Nachbar)."
+  - id: a1.p3.l02.ex.02
+    type: matching
+    skill: vocabulary
+    difficulty: 1
+    objective_refs: [a1.p3.l02.obj1]
+    instructions_vi: "Nối từ tiếng Đức với nghĩa tiếng Việt."
+    items:
+      - id: a1.p3.l02.ex.02.q1
+        pairs:
+          - { left: "das Einfamilienhaus", right: "nhà riêng cho một gia đình" }
+          - { left: "das Hochhaus", right: "tòa nhà cao tầng" }
+          - { left: "die Wohngemeinschaft", right: "nhiều người ở chung một nhà" }
+          - { left: "der Nachbar", right: "người sống bên cạnh" }
+        explanation_vi: "Bốn từ chủ đề nhà ở của bài này."
+  - id: a1.p3.l02.ex.03
+    type: true-false
+    skill: reading
+    difficulty: 1
+    objective_refs: [a1.p3.l02.obj2]
+    instructions_vi: "Đọc bài „Wie wohnt man in D-A-CH?“ và chọn Richtig hoặc Falsch."
+    stimulus: { ref: a1.p3.l02.b2 }
+    items:
+      - { id: a1.p3.l02.ex.03.q1, prompt: "Viele Familien wohnen in einem Einfamilienhaus mit Garten.", answer: true, explanation_vi: "Câu thứ hai của bài đọc." }
+      - { id: a1.p3.l02.ex.03.q2, prompt: "Studenten wohnen nie in einer WG.", answer: false, explanation_vi: "Bài đọc nói sinh viên „oft“ (thường) ở WG." }
+      - { id: a1.p3.l02.ex.03.q3, prompt: "In einer WG teilt man Küche und Bad.", answer: true, explanation_vi: "„Sie teilen Küche und Bad.“" }
+      - { id: a1.p3.l02.ex.03.q4, prompt: "In großen Städten wohnen alle im Haus mit Garten.", answer: false, explanation_vi: "Ở thành phố lớn nhiều người ở Hochhaus hoặc Mietwohnung." }
+      - { id: a1.p3.l02.ex.03.q5, prompt: "Mit den Nachbarn spricht man freundlich.", answer: true, explanation_vi: "Câu cuối của bài đọc." }
+  - id: a1.p3.l02.ex.04
+    type: multiple-choice
+    skill: listening
+    difficulty: 2
+    objective_refs: [a1.p3.l02.obj2]
+    instructions_vi: "Nghe phỏng vấn (khối nghe ở trên) và chọn đáp án."
+    stimulus: { ref: a1.p3.l02.b4 }
+    items:
+      - id: a1.p3.l02.ex.04.q1
+        prompt: "Wo wohnt Frau Weiß?"
+        options: [{ id: a, text: "In einem Einfamilienhaus." }, { id: b, text: "In einer WG." }, { id: c, text: "In einem Hochhaus." }]
+        answer: [b]
+        explanation_vi: "„Ich wohne in einer WG mit drei Studenten.“"
+      - id: a1.p3.l02.ex.04.q2
+        prompt: "Wie ist das Zimmer von Frau Weiß?"
+        options: [{ id: a, text: "Klein, aber gemütlich." }, { id: b, text: "Groß und dunkel." }, { id: c, text: "Teuer." }]
+        answer: [a]
+        explanation_vi: "„mein Zimmer ist klein, aber gemütlich.“"
+      - id: a1.p3.l02.ex.04.q3
+        prompt: "Was sagt Herr Baumann über den Garten?"
+        options: [{ id: a, text: "Er macht viel Arbeit." }, { id: b, text: "Er ist klein." }, { id: c, text: "Er ist billig." }]
+        answer: [a]
+        explanation_vi: "„Der Garten macht viel Arbeit.“"
+  - id: a1.p3.l02.ex.05
+    type: fill-blank
+    skill: reading
+    difficulty: 2
+    objective_refs: [a1.p3.l02.obj2]
+    instructions_vi: "Điền từ còn thiếu theo lời bài hát „Mein Zuhause“ (khối đọc ở trên)."
+    stimulus: { ref: a1.p3.l02.b3 }
+    items:
+      - { id: a1.p3.l02.ex.05.q1, prompt: "Ein Tisch, ein Bett, ein kleines ___.", answers: ["Licht"], explanation_vi: "Dòng đầu: ein kleines Licht (ngọn đèn nhỏ)." }
+      - { id: a1.p3.l02.ex.05.q2, prompt: "Der Tee ist ___, die Nachbarn lachen.", answers: ["heiß"], explanation_vi: "Dòng ba: Der Tee ist heiß." }
+      - { id: a1.p3.l02.ex.05.q3, prompt: "Hier bin ich ___ – das ist mein Ziel.", answers: ["gern"], explanation_vi: "Dòng cuối: hier bin ich gern." }
+  - id: a1.p3.l02.ex.06
+    type: translation
+    skill: writing
+    difficulty: 2
+    objective_refs: [a1.p3.l02.obj3]
+    instructions_vi: "Dịch sang tiếng Đức."
+    items:
+      - { id: a1.p3.l02.ex.06.q1, direction: vi-de, source: "Tôi sống trong một nhà ở chung.", answers: ["Ich wohne in einer WG.", "Ich wohne in einer Wohngemeinschaft."], explanation_vi: "in einer WG (Wo? → Dativ, giống cái → einer)." }
+      - { id: a1.p3.l02.ex.06.q2, direction: vi-de, source: "Hàng xóm của tôi rất tử tế.", answers: ["Meine Nachbarn sind sehr nett."], explanation_vi: "Nachbarn số nhiều → sind." }
+      - { id: a1.p3.l02.ex.06.q3, direction: vi-de, source: "Nhà rộng nhưng khu vườn tốn nhiều công.", answers: ["Das Haus ist groß, aber der Garten macht viel Arbeit."], explanation_vi: "Hai ý đối lập nối bằng „, aber“." }
+  - id: a1.p3.l02.ex.07
+    type: speaking-practice
+    skill: speaking
+    difficulty: 2
+    objective_refs: [a1.p3.l02.obj3]
+    instructions_vi: "Nói 3–4 câu về nơi bạn sống và so sánh với một kiểu nhà ở khác."
+    items:
+      - id: a1.p3.l02.ex.07.q1
+        prompt_vi: "Nêu kiểu nhà bạn ở, mô tả và so sánh."
+        model_answer: { de: "Ich wohne in einer Wohnung in der Stadt. Sie ist klein, aber hell. Ein Haus mit Garten ist groß, aber teuer.", vi: "Tôi sống trong một căn hộ trong thành phố. Nó nhỏ nhưng sáng. Nhà riêng có vườn thì rộng nhưng đắt." }
+        rubric_vi: ["Nêu kiểu nhà (in einer Wohnung/einem Haus/einer WG).", "Dùng sein + tính từ.", "Dùng aber để so sánh.", "Phát âm rõ."]
+        explanation_vi: "Bài mẫu có kiểu nhà, hai tính từ và aber."
+  - id: a1.p3.l02.ex.08
+    type: writing-practice
+    skill: writing
+    difficulty: 2
+    objective_refs: [a1.p3.l02.obj3]
+    instructions_vi: "Viết 3–4 câu giới thiệu nơi bạn sống cho một người bạn mới quen."
+    items:
+      - id: a1.p3.l02.ex.08.q1
+        prompt_vi: "Giới thiệu nơi ở: kiểu nhà, số người/phòng, tính từ, hàng xóm."
+        model_answer: { de: "Ich wohne in einer WG. Wir sind vier Personen. Die Küche ist groß und das Bad ist klein. Meine Nachbarn sind nett.", vi: "Tôi sống trong một nhà ở chung. Chúng tôi có bốn người. Nhà bếp rộng và phòng tắm nhỏ. Hàng xóm của tôi tử tế." }
+        rubric_vi: ["Nêu kiểu nhà.", "Có số người hoặc số phòng.", "Có câu sein + tính từ.", "Chính tả và dấu câu đúng."]
+        explanation_vi: "Bài mẫu có kiểu nhà, số người, tính từ và hàng xóm."

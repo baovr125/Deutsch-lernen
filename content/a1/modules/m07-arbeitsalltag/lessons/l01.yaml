@@ -1,0 +1,73 @@
+schema_version: "2.0"
+content_type: lesson
+id: a1.m07.l01
+level: A1
+module: a1.m07
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  references:
+    - { work: "Netzwerk neu A1.2 – Stoffverteilungsplan (Klett)", scope: "Kapitel 7, Mục Arbeitsalltag; Grammatik und, oder, aber", verification: verified }
+  tags: ["arbeit", "tagesablauf"]
+order: 1
+title_de: "Mein Arbeitstag"
+title_vi: "Ngày làm việc của tôi"
+duration_min: 45
+difficulty: 1
+objectives:
+  - { id: a1.m07.l01.obj1, text_vi: "Bạn có thể kể ngắn gọn ngày làm việc của mình (giờ bắt đầu, nghỉ trưa, tan làm).", skill: speaking }
+  - { id: a1.m07.l01.obj2, text_vi: "Bạn có thể nối hai câu bằng und, oder, aber.", skill: grammar }
+vocabulary_refs: [a1.m07.v.arbeitstag, a1.m07.v.arbeit, a1.m07.v.buero, a1.m07.v.chef, a1.m07.v.kollege, a1.m07.v.kollegin, a1.m07.v.termin, a1.m07.v.besprechung, a1.m07.v.pause, a1.m07.v.mittagspause, a1.m07.v.feierabend, a1.m07.v.firma, a1.m07.v.kantine, a1.m07.v.kaffee, a1.m07.v.arbeiten, a1.m07.v.anfangen, a1.m07.v.aufhoeren, a1.m07.v.wichtig, a1.m07.v.frueh, a1.m07.v.spaet, a1.m07.v.und, a1.m07.v.oder, a1.m07.v.aber]
+grammar_refs: [a1.g.konjunktionen]
+expression_refs: [a1.m07.x.arbeitsbeginn, a1.m07.x.feierabend-wunsch, a1.m07.x.pause-vorschlag]
+exercise_set_ref: a1.m07.l01.ex
+blocks:
+  - id: a1.m07.l01.b1
+    kind: explanation
+    skill: vocabulary
+    title_vi: "Bắt đầu: một ngày ở văn phòng"
+    body_vi: |
+      Trong bài này bạn học cách nói về ngày làm việc: **Wann fängt dein Arbeitstag an?** (Ngày làm việc của bạn bắt đầu lúc nào?).
+      Hãy chú ý các động từ tách **anfangen** và **aufhören**: tiền tố đứng cuối câu — *Der Arbeitstag fängt um acht Uhr an.* / *Die Arbeit hört um fünf Uhr auf.*
+      Giờ giấc dùng lại cách nói đã học ở Kapitel 5 (um acht Uhr, um halb neun).
+  - id: a1.m07.l01.b2
+    kind: dialogue
+    skill: speaking
+    title_vi: "Hội thoại: Hai đồng nghiệp trò chuyện"
+    lines:
+      - { speaker: "Mia", de: "Hallo Jonas, wann fängt dein Arbeitstag an?", vi: "Chào Jonas, ngày làm việc của bạn bắt đầu lúc nào?" }
+      - { speaker: "Jonas", de: "Um acht Uhr. Und dein Arbeitstag?", vi: "Lúc tám giờ. Còn ngày làm việc của bạn?" }
+      - { speaker: "Mia", de: "Ich fange schon um sieben Uhr an, aber ich höre früh auf.", vi: "Tôi bắt đầu từ bảy giờ rồi nhưng tôi tan sớm." }
+      - { speaker: "Jonas", de: "Super! Hast du heute einen Termin?", vi: "Hay quá! Hôm nay bạn có cuộc hẹn nào không?" }
+      - { speaker: "Mia", de: "Ja, um zehn Uhr habe ich eine Besprechung mit dem Chef.", vi: "Có, lúc mười giờ tôi có cuộc họp với sếp." }
+      - { speaker: "Jonas", de: "Machen wir danach Mittagspause? In der Kantine oder im Café?", vi: "Sau đó chúng ta nghỉ trưa nhé? Ở căng-tin hay quán cà phê?" }
+      - { speaker: "Mia", de: "In der Kantine. Der Kaffee dort ist gut.", vi: "Ở căng-tin. Cà phê ở đó ngon." }
+  - id: a1.m07.l01.b3
+    kind: reading
+    skill: reading
+    title_vi: "Bài đọc: Ein Tag bei Frau Kaya"
+    paragraphs:
+      - { de: "Frau Kaya arbeitet in einer kleinen Firma. Ihr Arbeitstag fängt um halb acht an.", vi: "Chị Kaya làm việc ở một công ty nhỏ. Ngày làm việc của chị bắt đầu lúc bảy rưỡi." }
+      - { de: "Zuerst schreibt sie E-Mails, dann hat sie eine Besprechung mit den Kollegen.", vi: "Trước tiên chị viết e-mail, sau đó chị có cuộc họp với các đồng nghiệp." }
+      - { de: "Um zwölf Uhr ist Mittagspause. Sie isst in der Kantine oder sie geht in ein Café.", vi: "Mười hai giờ là giờ nghỉ trưa. Chị ăn ở căng-tin hoặc đến một quán cà phê." }
+      - { de: "Um vier Uhr hört die Arbeit auf. Dann ist Feierabend!", vi: "Bốn giờ công việc kết thúc. Thế là tan làm!" }
+  - id: a1.m07.l01.b4
+    kind: explanation
+    skill: grammar
+    title_vi: "Ngữ pháp: nối câu bằng und, oder, aber"
+    body_vi: |
+      Hai câu có thể nối bằng **und** (và), **oder** (hoặc), **aber** (nhưng). Ba từ này không làm đổi vị trí động từ:
+      *Ich fange um sieben an, **aber** ich höre früh auf.*
+      Xem chi tiết và bảng trong chủ điểm ngữ pháp „Sätze verbinden: und, oder, aber“ (a1.g.konjunktionen).
+  - id: a1.m07.l01.b5
+    kind: culture
+    skill: speaking
+    title_vi: "Văn hóa: giờ nghỉ và lời chúc Feierabend"
+    body_vi: |
+      Ở nhiều công ty D-A-CH, nhân viên có giờ nghỉ trưa riêng (Mittagspause) và nhiều nơi có Kantine. Khi đồng nghiệp ra về, người ta hay nói **Schönen Feierabend!**. Đáp lại thường là **Danke, dir auch!**.
+      Mức độ chính xác về giờ giấc (Pünktlichkeit) được đánh giá cao: đến đúng giờ họp là phép lịch sự cơ bản.

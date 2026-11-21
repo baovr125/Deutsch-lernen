@@ -1,0 +1,63 @@
+schema_version: "2.0"
+content_type: lesson
+id: a1.m12.l01
+level: A1
+module: a1.m12
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  references:
+    - { work: "Netzwerk neu A1.2 – Stoffverteilungsplan (Klett)", scope: "Kapitel 12, Mục Ab in den Urlaub!; Wortschatz Urlaub, Reisen; Zeitangaben: Präpositionen mit Dativ", verification: verified }
+  tags: ["urlaub", "zeit"]
+order: 1
+title_de: "Ab in den Urlaub!"
+title_vi: "Đi nghỉ thôi!"
+duration_min: 45
+difficulty: 1
+objectives:
+  - { id: a1.m12.l01.obj1, text_vi: "Bạn có thể nói về kế hoạch nghỉ: đi đâu, khi nào, bằng phương tiện gì.", skill: speaking }
+  - { id: a1.m12.l01.obj2, text_vi: "Bạn có thể dùng im, am, um, vor, nach, in + Dativ để nói khi nào.", skill: grammar }
+vocabulary_refs: [a1.m12.v.urlaub, a1.m12.v.reise, a1.m12.v.hotel, a1.m12.v.koffer, a1.m12.v.fahrkarte, a1.m12.v.flugzeug, a1.m12.v.meer, a1.m12.v.strand, a1.m12.v.berg, a1.m12.v.reisen, a1.m12.v.fliegen, a1.m12.v.buchen, a1.m12.v.packen]
+grammar_refs: [a1.g.zeitangaben-dativ]
+expression_refs: [a1.m12.x.urlaub-planen, a1.m12.x.wohin-urlaub, a1.m12.x.hotel-buchen]
+exercise_set_ref: a1.m12.l01.ex
+blocks:
+  - id: a1.m12.l01.b1
+    kind: explanation
+    skill: vocabulary
+    title_vi: "Bắt đầu: kế hoạch nghỉ"
+    body_vi: |
+      Hỏi: **Wohin fährst du in den Urlaub?** Trả lời: **Ich fahre nach Italien. / Ich fliege nach Spanien.**
+      Hỏi khi nào: **Wann?** → **im Juli** (tháng), **im Sommer** (mùa), **am Wochenende** (cuối tuần), **um acht Uhr** (giờ), **vor dem Urlaub** (trước kỳ nghỉ), **nach dem Urlaub** (sau kỳ nghỉ).
+  - id: a1.m12.l01.b2
+    kind: dialogue
+    skill: speaking
+    title_vi: "Hội thoại: Bạn đi nghỉ ở đâu?"
+    lines:
+      - { speaker: "Hannah", de: "Hallo Leo! Wohin fährst du in den Urlaub?", vi: "Chào Leo! Bạn đi nghỉ ở đâu?" }
+      - { speaker: "Leo", de: "Im August fliege ich nach Griechenland. Ich möchte am Strand liegen und schwimmen.", vi: "Tháng Tám mình bay đến Hy Lạp. Mình muốn nằm trên bãi biển và bơi." }
+      - { speaker: "Hannah", de: "Toll! Hast du schon ein Hotel gebucht?", vi: "Tuyệt! Bạn đã đặt khách sạn chưa?" }
+      - { speaker: "Leo", de: "Ja, vor einer Woche. Am Montag packe ich den Koffer.", vi: "Rồi, cách đây một tuần. Thứ Hai mình sắp xếp va li." }
+      - { speaker: "Hannah", de: "Und wann fliegst du ab?", vi: "Và khi nào bạn bay?" }
+      - { speaker: "Leo", de: "Am Freitag um sechs Uhr morgens.", vi: "Thứ Sáu lúc sáu giờ sáng." }
+  - id: a1.m12.l01.b3
+    kind: reading
+    skill: reading
+    title_vi: "Bài đọc: Urlaubspläne der Familie Koç"
+    paragraphs:
+      - { de: "Familie Koç macht im August Urlaub. Sie fliegt nach Spanien.", vi: "Gia đình Koç nghỉ vào tháng Tám. Họ bay đến Tây Ban Nha." }
+      - { de: "Vor dem Urlaub packt sie die Koffer und bucht ein Hotel.", vi: "Trước kỳ nghỉ họ sắp xếp va li và đặt khách sạn." }
+      - { de: "Am Strand schwimmt sie jeden Tag. Nach dem Urlaub ist sie fit.", vi: "Ở bãi biển họ bơi mỗi ngày. Sau kỳ nghỉ họ khỏe khoắn." }
+  - id: a1.m12.l01.b4
+    kind: explanation
+    skill: grammar
+    title_vi: "Ngữ pháp: Zeitangaben + Dativ"
+    body_vi: |
+      **im** + tháng/mùa: *im Juli, im Sommer.* **am** + thứ/buổi: *am Montag, am Wochenende.* **um** + giờ: *um zehn Uhr.*
+      **vor / nach + Dativ**: *vor dem Urlaub, nach der Arbeit.* **in + Dativ**: *in einer Woche* (một tuần nữa).
+      Xem chủ điểm a1.g.zeitangaben-dativ.

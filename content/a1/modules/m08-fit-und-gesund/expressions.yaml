@@ -1,0 +1,30 @@
+schema_version: "2.0"
+content_type: expression-set
+id: a1.m08.expr
+level: A1
+module: a1.m08
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  references:
+    - { work: "Netzwerk neu A1.2 – Stoffverteilungsplan (Klett)", scope: "Kapitel 8: Redemittel Fitness, „Das tut weh!“, Arzt-Patienten-Dialog", verification: verified }
+    - { work: "Dự án Deutsch-lernen", scope: "Câu mẫu cụ thể do dự án tự viết", verification: proposed }
+  tags: ["redemittel"]
+entries:
+  - { id: a1.m08.x.sport-haeufigkeit, de: "Ich mache zweimal pro Woche Sport.", vi: "Tôi tập thể thao hai lần mỗi tuần.", register: neutral, function: "Nói về thói quen tập luyện", situation_vi: "Kể với bạn bè hoặc huấn luyện viên.", lesson_refs: [a1.m08.l01] }
+  - { id: a1.m08.x.vorschlag-joggen, de: "Komm, wir gehen joggen!", vi: "Nào, chúng mình đi chạy bộ đi!", register: informal, function: "Rủ rê", situation_vi: "Rủ bạn thân cùng tập.", reply: { de: "Gute Idee! Warte kurz.", vi: "Ý hay đấy! Đợi mình một chút." }, lesson_refs: [a1.m08.l01] }
+  - { id: a1.m08.x.erlaubnis-fragen, de: "Darf ich hier trainieren?", vi: "Tôi tập ở đây được không?", register: neutral, function: "Xin phép", situation_vi: "Hỏi nhân viên phòng tập.", reply: { de: "Ja, natürlich.", vi: "Vâng, tất nhiên." }, lesson_refs: [a1.m08.l02] }
+  - { id: a1.m08.x.verbot, de: "Hier darf man nicht essen.", vi: "Ở đây không được ăn.", register: neutral, function: "Nói về điều bị cấm", situation_vi: "Giải thích nội quy cho người mới.", lesson_refs: [a1.m08.l02] }
+  - { id: a1.m08.x.pflicht, de: "Man muss die Schuhe wechseln.", vi: "Phải thay giày.", register: neutral, function: "Nói về điều bắt buộc", situation_vi: "Nội quy ở phòng tập, bể bơi.", lesson_refs: [a1.m08.l02] }
+  - { id: a1.m08.x.bitte-ruhe, de: "Seid bitte leise!", vi: "Các bạn làm ơn yên lặng nhé!", register: informal, function: "Mệnh lệnh lịch sự với nhiều người", situation_vi: "Nói với bạn bè, học sinh, nhóm tập.", lesson_refs: [a1.m08.l02] }
+  - { id: a1.m08.x.schmerz-sagen, de: "Mein Kopf tut weh.", vi: "Đầu tôi đau.", register: neutral, function: "Nói chỗ đau", situation_vi: "Báo với người thân, đồng nghiệp hoặc bác sĩ.", reply: { de: "Setz dich und ruh dich aus.", vi: "Ngồi xuống và nghỉ ngơi đi." }, lesson_refs: [a1.m08.l03] }
+  - { id: a1.m08.x.hilfe-notfall, de: "Hilfe! Es gibt einen Unfall!", vi: "Cứu với! Có tai nạn!", register: neutral, function: "Kêu cứu", situation_vi: "Báo khi có sự cố; kèm gọi số khẩn cấp 112.", lesson_refs: [a1.m08.l03] }
+  - { id: a1.m08.x.arzt-frage, de: "Was fehlt Ihnen?", vi: "Ông/bà bị làm sao ạ?", register: formal, function: "Bác sĩ hỏi triệu chứng", situation_vi: "Câu mở đầu thường gặp ở phòng khám. „Ihnen“ là đại từ Dativ lịch sự; học thuộc cả cụm.", reply: { de: "Ich habe Schmerzen im Rücken.", vi: "Tôi bị đau lưng." }, lesson_refs: [a1.m08.l04] }
+  - { id: a1.m08.x.termin-arzt, de: "Ich möchte einen Termin, bitte.", vi: "Tôi muốn đặt một lịch hẹn ạ.", register: formal, function: "Đặt lịch khám", situation_vi: "Gọi điện hoặc nói với lễ tân phòng khám.", reply: { de: "Passt Ihnen morgen um zehn Uhr?", vi: "Ngày mai mười giờ có được không ạ?" }, lesson_refs: [a1.m08.l04] }
+  - { id: a1.m08.x.rat-arzt, de: "Der Arzt sagt, ich soll viel schlafen.", vi: "Bác sĩ bảo tôi nên ngủ nhiều.", register: neutral, function: "Thuật lại lời khuyên", situation_vi: "Kể cho người thân hoặc đồng nghiệp.", lesson_refs: [a1.m08.l04] }
+  - { id: a1.m08.x.hausmittel, de: "Trinken Sie viel Tee und ruhen Sie sich aus.", vi: "Hãy uống nhiều trà và nghỉ ngơi.", register: formal, function: "Cho lời khuyên", situation_vi: "Bác sĩ hoặc dược sĩ khuyên bệnh nhân.", lesson_refs: [a1.m08.l04] }

@@ -1,0 +1,201 @@
+schema_version: '2.0'
+content_type: exercise-set
+id: a1.m04.l01.ex
+level: A1
+module: a1.m04
+lesson: a1.m04.l01
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+exercises:
+- id: a1.m04.l01.ex.01
+  type: matching
+  skill: vocabulary
+  difficulty: 1
+  objective_refs:
+  - a1.m04.l01.obj1
+  instructions_vi: Nối danh từ tiếng Đức với nghĩa tiếng Việt tương ứng.
+  items:
+  - id: a1.m04.l01.ex.01.q1
+    pairs:
+    - left: das Brot
+      right: bánh mì (ổ lớn)
+    - left: der Käse
+      right: phô mai
+    - left: das Gemüse
+      right: rau củ
+    - left: die Milch
+      right: sữa
+    - left: das Ei
+      right: quả trứng
+    - left: die Wurst
+      right: xúc xích
+    explanation_vi: Các loại thực phẩm thiết yếu hằng ngày trong bữa ăn của người Đức.
+- id: a1.m04.l01.ex.02
+  type: multiple-choice
+  skill: vocabulary
+  difficulty: 1
+  objective_refs:
+  - a1.m04.l01.obj2
+  instructions_vi: Chọn cửa hàng đúng cho từng món hàng.
+  items:
+  - id: a1.m04.l01.ex.02.q1
+    prompt: Wo kauft man frisches Brot und Brötchen?
+    options:
+    - id: a
+      text: in der Bäckerei
+    - id: b
+      text: in der Apotheke
+    - id: c
+      text: im Kino
+    - id: d
+      text: in der Metzgerei
+    answer:
+    - a
+    explanation_vi: Bánh mì và bánh mì nhỏ mua ở tiệm bánh (die Bäckerei).
+  - id: a1.m04.l01.ex.02.q2
+    prompt: Wo kauft man Fleisch und Schinken?
+    options:
+    - id: a
+      text: im Park
+    - id: b
+      text: in der Bäckerei
+    - id: c
+      text: in der Metzgerei
+    - id: d
+      text: im Museum
+    answer:
+    - c
+    explanation_vi: Thịt và giăm bông mua ở tiệm bán thịt (die Metzgerei).
+  - id: a1.m04.l01.ex.02.q3
+    prompt: 'Im ___ kaufe ich fast alle Lebensmittel: Milch, Öl, Zucker và Salz.'
+    options:
+    - id: a
+      text: Bahnhof
+    - id: b
+      text: Supermarkt
+    - id: c
+      text: Hotel
+    - id: d
+      text: Flughafen
+    answer:
+    - b
+    explanation_vi: Siêu thị (der Supermarkt) là nơi bán tổng hợp hầu hết các loại nhu yếu phẩm.
+- id: a1.m04.l01.ex.03
+  type: multiple-choice
+  skill: listening
+  difficulty: 2
+  objective_refs:
+  - a1.m04.l01.obj4
+  instructions_vi: Nghe hội thoại và chọn thông tin đúng.
+  stimulus:
+    ref: a1.m04.l01.b6
+  items:
+  - id: a1.m04.l01.ex.03.q1
+    prompt: Was möchten Lukas und Maria heute Abend kochen?
+    options:
+    - id: a
+      text: Suppe
+    - id: b
+      text: Kuchen
+    - id: c
+      text: Salat
+    - id: d
+      text: Pizza
+    answer:
+    - a
+    explanation_vi: 'Maria nói: ''Wir kochen Suppe''.'
+  - id: a1.m04.l01.ex.03.q2
+    prompt: Wo kauft Lukas das Brot?
+    options:
+    - id: a
+      text: auf dem Markt
+    - id: b
+      text: im Supermarkt
+    - id: c
+      text: in der Metzgerei
+    - id: d
+      text: in der Bäckerei
+    answer:
+    - d
+    explanation_vi: 'Lukas nói: ''Brot kaufe ich in der Bäckerei''.'
+- id: a1.m04.l01.ex.04
+  type: true-false
+  skill: listening
+  difficulty: 2
+  objective_refs:
+  - a1.m04.l01.obj4
+  instructions_vi: Nghe lại đoạn hội thoại và xác định câu sau là Đúng hay Sai.
+  stimulus:
+    ref: a1.m04.l01.b6
+  items:
+  - id: a1.m04.l01.ex.04.q1
+    prompt: Maria kauft das Fleisch in der Metzgerei.
+    answer: true
+    explanation_vi: Đúng, Maria nói cô ấy sẽ vào tiệm thịt để mua thịt ('ich gehe in die Metzgerei und kaufe Fleisch').
+  - id: a1.m04.l01.ex.04.q2
+    prompt: Sie brauchen noch Gemüse aus dem Supermarkt.
+    answer: false
+    explanation_vi: Sai, Maria nói rau củ đã mua ở siêu thị rồi ('Gemüse haben wir schon im Supermarkt gekauft').
+- id: a1.m04.l01.ex.05
+  type: true-false
+  skill: reading
+  difficulty: 2
+  objective_refs:
+  - a1.m04.l01.obj4
+  instructions_vi: Đọc danh sách đi chợ và xác định câu sau là Đúng hay Sai.
+  stimulus:
+    ref: a1.m04.l01.b7
+  items:
+  - id: a1.m04.l01.ex.05.q1
+    prompt: Familie Weber kauft Kuchen in der Bäckerei.
+    answer: true
+    explanation_vi: 'Mục 1 ghi: ''Bäckerei: 1 Brot, 4 Brötchen, 1 Stück Kuchen''.'
+  - id: a1.m04.l01.ex.05.q2
+    prompt: Sie müssen noch Mineralwasser und Orangensaft im Supermarkt kaufen.
+    answer: false
+    explanation_vi: Ghi chú cuối ghi rõ thức uống ở nhà vẫn còn đủ ('Getränke haben wir noch genug zu Hause').
+- id: a1.m04.l01.ex.06
+  type: fill-blank
+  skill: speaking
+  difficulty: 2
+  objective_refs:
+  - a1.m04.l01.obj3
+  instructions_vi: Hoàn thiện câu nói về nơi mua đồ ăn.
+  items:
+  - id: a1.m04.l01.ex.06.q1
+    prompt: Fleisch kaufe ich in ___ Metzgerei.
+    answers:
+    - der
+    explanation_vi: die Metzgerei là giống cái, ở Dativ sau in là in der.
+  - id: a1.m04.l01.ex.06.q2
+    prompt: Käse und Butter kaufe ich ___ Supermarkt.
+    answers:
+    - im
+    explanation_vi: der Supermarkt → im Supermarkt (in dem).
+- id: a1.m04.l01.ex.07
+  type: word-order
+  skill: writing
+  difficulty: 2
+  objective_refs:
+  - a1.m04.l01.obj3
+  instructions_vi: Sắp xếp các từ thành câu hoàn chỉnh về việc đi chợ.
+  items:
+  - id: a1.m04.l01.ex.07.q1
+    tokens:
+    - kaufe
+    - Am
+    - ich
+    - Samstag
+    - ein
+    answer: Am Samstag kaufe ich ein.
+    prompt_vi: 'Sắp xếp: Am / Samstag / kaufe / ich / ein .'
+    explanation_vi: Trạng từ thời gian Am Samstag (vị trí 1) + kaufe (động từ vị trí 2) + ich (chủ ngữ vị trí 3) + tiền tố ein.

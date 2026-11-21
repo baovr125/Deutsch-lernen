@@ -1,0 +1,67 @@
+schema_version: "2.0"
+content_type: grammar-topic
+id: a1.g.sein-adjektiv
+level: A1
+introduced_in: a1.m09
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  references:
+    - { work: "Netzwerk neu A1.2 – Stoffverteilungsplan (Klett)", scope: "Kapitel 9, Grammatik: sein + Adjektiv", verification: verified }
+  tags: ["adjektiv", "sein"]
+title_de: "sein + Adjektiv"
+title_vi: "„sein“ + tính từ (mô tả đồ vật)"
+summary_vi: "Muốn mô tả một thứ ‘như thế nào’, dùng „sein“ + tính từ. Tính từ đứng sau „sein“ KHÔNG đổi đuôi, dù chủ ngữ giống đực, cái, trung hay số nhiều."
+usage_vi: "Dùng để mô tả căn phòng, đồ đạc, màu sắc, giá cả: „Das Zimmer ist hell.“, „Die Wohnung ist teuer.“. Có thể thêm „sehr“, „zu“, „nicht“."
+objectives:
+  - { id: a1.g.sein-adjektiv.obj1, text_vi: "Mô tả đồ vật và căn phòng bằng sein + tính từ, không biến đổi đuôi tính từ.", skill: grammar }
+rules:
+  - id: a1.g.sein-adjektiv.r1
+    title_vi: "Tính từ sau sein không đổi"
+    body_vi: "Chia „sein“ theo chủ ngữ (ist/sind), tính từ giữ nguyên dạng gốc. Bạn không cần quan tâm giống của danh từ."
+    table:
+      header: ["Chủ ngữ", "sein", "Tính từ"]
+      rows:
+        - ["Der Tisch", "ist", "groß"]
+        - ["Die Lampe", "ist", "hell"]
+        - ["Das Sofa", "ist", "gemütlich"]
+        - ["Die Zimmer", "sind", "klein"]
+    examples:
+      - { de: "Der Tisch ist groß.", vi: "Cái bàn to." }
+      - { de: "Die Zimmer sind klein.", vi: "Các phòng nhỏ." }
+  - id: a1.g.sein-adjektiv.r2
+    title_vi: "sehr, zu, nicht + tính từ"
+    body_vi: "„sehr“ = rất; „zu“ = quá (ý tiêu cực); „nicht“ = không. Chúng đứng ngay trước tính từ: „sehr hell“, „zu teuer“, „nicht groß“."
+    examples:
+      - { de: "Die Wohnung ist sehr hell.", vi: "Căn hộ rất sáng." }
+      - { de: "Die Miete ist zu teuer.", vi: "Tiền thuê quá đắt." }
+  - id: a1.g.sein-adjektiv.r3
+    title_vi: "Cặp tính từ trái nghĩa"
+    body_vi: "Học theo cặp giúp nhớ nhanh và dễ mô tả."
+    table:
+      header: ["Tính từ", "Trái nghĩa"]
+      rows:
+        - ["groß (to)", "klein (nhỏ)"]
+        - ["hell (sáng)", "dunkel (tối)"]
+        - ["teuer (đắt)", "günstig (rẻ)"]
+    examples:
+      - { de: "Das Bad ist klein, aber das Wohnzimmer ist groß.", vi: "Phòng tắm nhỏ nhưng phòng khách rộng." }
+      - { de: "Der Flur ist dunkel, die Küche ist hell.", vi: "Hành lang tối, nhà bếp sáng." }
+sentence_structures:
+  - { pattern: "Subjekt + ist/sind + Adjektiv", example: { de: "Das Bett ist weiß.", vi: "Cái giường màu trắng." } }
+  - { pattern: "Subjekt + ist/sind + sehr/zu/nicht + Adjektiv", example: { de: "Der Schrank ist nicht teuer.", vi: "Cái tủ không đắt." } }
+  - { pattern: "Wie ist + Subjekt?", example: { de: "Wie ist die Wohnung?", vi: "Căn hộ như thế nào?" } }
+examples:
+  - { de: "Das Wohnzimmer ist hell und gemütlich.", vi: "Phòng khách sáng và ấm cúng." }
+  - { de: "Der Teppich ist rot.", vi: "Tấm thảm màu đỏ." }
+  - { de: "Die Küche ist leider sehr klein.", vi: "Tiếc là nhà bếp rất nhỏ." }
+  - { de: "Die Wohnung ist günstig, aber sie ist dunkel.", vi: "Căn hộ rẻ nhưng tối." }
+common_mistakes:
+  - { wrong: "Der Tisch ist große.", right: "Der Tisch ist groß.", explanation_vi: "Sau „sein“ tính từ không thêm đuôi (-e, -er…)." }
+  - { wrong: "Die Wohnung hat hell.", right: "Die Wohnung ist hell.", explanation_vi: "Mô tả tính chất dùng „sein“, không dùng „haben“." }
+exercise_refs: [a1.m09.l01.ex.03, a1.m09.l01.ex.04]

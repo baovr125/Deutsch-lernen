@@ -1,0 +1,152 @@
+schema_version: "2.0"
+content_type: exercise-set
+id: a1.m09.l02.ex
+level: A1
+module: a1.m09
+lesson: a1.m09.l02
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  tags: ["wohnungssuche", "in"]
+exercises:
+  - id: a1.m09.l02.ex.01
+    type: multiple-choice
+    skill: vocabulary
+    difficulty: 1
+    objective_refs: [a1.m09.l02.obj1, a1.m09.obj.anzeige]
+    instructions_vi: "Chọn đáp án đúng."
+    items:
+      - id: a1.m09.l02.ex.01.q1
+        prompt: "Was bedeutet „qm“ in einer Anzeige?"
+        options: [{ id: a, text: "Quadratmeter" }, { id: b, text: "Zimmer" }, { id: c, text: "Euro" }]
+        answer: [a]
+        explanation_vi: "qm = Quadratmeter (mét vuông), chỉ diện tích."
+      - id: a1.m09.l02.ex.01.q2
+        prompt: "Welchen Artikel hat „Miete“?"
+        options: [{ id: a, text: "der" }, { id: b, text: "die" }, { id: c, text: "das" }]
+        answer: [b]
+        explanation_vi: "Đúng là „die Miete“."
+      - id: a1.m09.l02.ex.01.q3
+        prompt: "Das Gegenteil von „teuer“ ist ___."
+        options: [{ id: a, text: "hell" }, { id: b, text: "klein" }, { id: c, text: "günstig" }]
+        answer: [c]
+        explanation_vi: "Trái nghĩa của „teuer“ (đắt) là „günstig“ (rẻ, hợp lý)."
+      - id: a1.m09.l02.ex.01.q4
+        prompt: "Was bedeutet „einziehen“?"
+        options: [{ id: a, text: "Chuyển vào ở" }, { id: b, text: "Chuyển đi" }, { id: c, text: "Đi thuê xe" }]
+        answer: [a]
+        explanation_vi: "„einziehen“ = chuyển vào ở (động từ tách: Wir ziehen am Samstag ein)."
+  - id: a1.m09.l02.ex.02
+    type: reading-comprehension
+    skill: reading
+    difficulty: 2
+    objective_refs: [a1.m09.l02.obj1, a1.m09.obj.anzeige]
+    instructions_vi: "Đọc tin rao và trả lời."
+    stimulus:
+      text_de: "Zentrale 3-Zimmer-Wohnung in Köln, 70 Quadratmeter. Mit Balkon, Küche und Bad. Miete: 780 Euro, Nebenkosten: 110 Euro. Besichtigung: Montag um achtzehn Uhr."
+      text_vi: "Căn hộ ba phòng ở trung tâm Köln, 70 mét vuông. Có ban công, bếp và phòng tắm. Tiền thuê: 780 euro, chi phí phụ: 110 euro. Xem nhà: thứ Hai lúc 18 giờ."
+    items:
+      - id: a1.m09.l02.ex.02.q1
+        prompt: "Wie viele Zimmer hat die Wohnung?"
+        options: [{ id: a, text: "Zwei." }, { id: b, text: "Drei." }, { id: c, text: "Vier." }]
+        answer: [b]
+        explanation_vi: "„3-Zimmer-Wohnung“ = căn hộ ba phòng."
+      - id: a1.m09.l02.ex.02.q2
+        prompt: "Wie hoch ist die Miete?"
+        options: [{ id: a, text: "780 Euro." }, { id: b, text: "110 Euro." }, { id: c, text: "70 Euro." }]
+        answer: [a]
+        explanation_vi: "„Miete: 780 Euro“. 110 euro là chi phí phụ, 70 là diện tích."
+      - id: a1.m09.l02.ex.02.q3
+        prompt: "Wann ist die Besichtigung?"
+        options: [{ id: a, text: "Am Montag um achtzehn Uhr." }, { id: b, text: "Am Samstag." }, { id: c, text: "Am Sonntag um zehn Uhr." }]
+        answer: [a]
+        explanation_vi: "„Besichtigung: Montag um achtzehn Uhr.“"
+  - id: a1.m09.l02.ex.03
+    type: fill-blank
+    skill: grammar
+    difficulty: 2
+    objective_refs: [a1.m09.l02.obj2, a1.g.in-wohin-wo.obj1, a1.m09.obj.wohin-wo]
+    instructions_vi: "Điền mạo từ đúng (Akkusativ cho Wohin?, Dativ cho Wo?)."
+    items:
+      - { id: a1.m09.l02.ex.03.q1, prompt: "Ich gehe in ___ Küche.", hint_vi: "Wohin?", answers: ["die"], explanation_vi: "Wohin → Akkusativ; giống cái „die“ không đổi." }
+      - { id: a1.m09.l02.ex.03.q2, prompt: "Ich bin in ___ Küche.", hint_vi: "Wo?", answers: ["der"], explanation_vi: "Wo → Dativ; giống cái → „der“." }
+      - { id: a1.m09.l02.ex.03.q3, prompt: "Wir gehen in ___ Flur.", hint_vi: "Wohin?", answers: ["den"], explanation_vi: "Wohin + giống đực → „den“ (Akkusativ)." }
+      - { id: a1.m09.l02.ex.03.q4, prompt: "Das Sofa steht in ___ Wohnzimmer.", hint_vi: "Wo?", answers: ["dem"], explanation_vi: "Wo + giống trung → „dem“ (Dativ). Cũng có thể viết „im“." }
+  - id: a1.m09.l02.ex.04
+    type: multiple-choice
+    skill: grammar
+    difficulty: 2
+    objective_refs: [a1.m09.l02.obj2, a1.g.in-wohin-wo.obj1]
+    instructions_vi: "Chọn dạng đúng."
+    items:
+      - id: a1.m09.l02.ex.04.q1
+        prompt: "Wo bist du? – Ich bin ___ Bad."
+        options: [{ id: a, text: "im" }, { id: b, text: "ins" }, { id: c, text: "in das" }]
+        answer: [a]
+        explanation_vi: "Wo → Dativ: in + dem = im Bad."
+      - id: a1.m09.l02.ex.04.q2
+        prompt: "Wohin gehst du? – Ich gehe ___ Zimmer."
+        options: [{ id: a, text: "im" }, { id: b, text: "in dem" }, { id: c, text: "ins" }]
+        answer: [c]
+        explanation_vi: "Wohin → Akkusativ: in + das = ins Zimmer."
+      - id: a1.m09.l02.ex.04.q3
+        prompt: "Wohin gehst du? – In ___ Flur."
+        options: [{ id: a, text: "dem" }, { id: b, text: "den" }, { id: c, text: "der" }]
+        answer: [b]
+        explanation_vi: "Wohin + giống đực → den."
+      - id: a1.m09.l02.ex.04.q4
+        prompt: "Wo steht der Schrank? – In ___ Küche."
+        options: [{ id: a, text: "die" }, { id: b, text: "den" }, { id: c, text: "der" }]
+        answer: [c]
+        explanation_vi: "Wo + giống cái → der (Dativ)."
+  - id: a1.m09.l02.ex.05
+    type: matching
+    skill: reading
+    difficulty: 1
+    objective_refs: [a1.m09.l02.obj1, a1.m09.obj.anzeige]
+    instructions_vi: "Nối chữ viết tắt trong tin rao với nghĩa."
+    items:
+      - { id: a1.m09.l02.ex.05.q1, left: "2 Zi.", right: "hai phòng", explanation_vi: "Zi. = Zimmer." }
+      - { id: a1.m09.l02.ex.05.q2, left: "55 qm", right: "55 mét vuông", explanation_vi: "qm = Quadratmeter." }
+      - { id: a1.m09.l02.ex.05.q3, left: "NK", right: "chi phí phụ", explanation_vi: "NK = Nebenkosten." }
+      - { id: a1.m09.l02.ex.05.q4, left: "EUR", right: "euro", explanation_vi: "EUR là ký hiệu của đồng euro." }
+  - id: a1.m09.l02.ex.06
+    type: translation
+    skill: writing
+    difficulty: 2
+    objective_refs: [a1.m09.l02.obj2, a1.g.in-wohin-wo.obj1, a1.m09.obj.wohin-wo]
+    instructions_vi: "Dịch sang tiếng Đức."
+    items:
+      - { id: a1.m09.l02.ex.06.q1, direction: vi-de, source: "Tôi tìm một căn hộ.", answers: ["Ich suche eine Wohnung."], explanation_vi: "„suchen“ + Akkusativ: eine Wohnung." }
+      - { id: a1.m09.l02.ex.06.q2, direction: vi-de, source: "Tôi đi vào bếp.", answers: ["Ich gehe in die Küche."], explanation_vi: "Wohin → in + Akkusativ." }
+      - { id: a1.m09.l02.ex.06.q3, direction: vi-de, source: "Tôi đang ở trong phòng khách.", answers: ["Ich bin im Wohnzimmer.", "Ich bin in dem Wohnzimmer."], explanation_vi: "Wo → in + Dativ; thường dùng dạng rút gọn „im“." }
+  - id: a1.m09.l02.ex.07
+    type: listening-practice
+    skill: listening
+    difficulty: 2
+    objective_refs: [a1.m09.l02.obj1, a1.m09.obj.anzeige]
+    instructions_vi: "Nghe tin nhắn thoại (hoặc đọc transcript) rồi chọn đáp án."
+    stimulus:
+      text_de: "Guten Tag, hier ist Frau Maier. Die Wohnung in der Lindenstraße ist noch frei. Sie hat zwei Zimmer und kostet fünfhundertachtzig Euro im Monat. Sie können am Freitag um sechzehn Uhr kommen."
+      audio_status: pending-tts
+    items:
+      - id: a1.m09.l02.ex.07.q1
+        prompt: "Wie viele Zimmer hat die Wohnung?"
+        options: [{ id: a, text: "Zwei." }, { id: b, text: "Drei." }, { id: c, text: "Vier." }]
+        answer: [a]
+        explanation_vi: "„Sie hat zwei Zimmer.“"
+      - id: a1.m09.l02.ex.07.q2
+        prompt: "Wie viel kostet die Wohnung?"
+        options: [{ id: a, text: "480 Euro." }, { id: b, text: "580 Euro." }, { id: c, text: "680 Euro." }]
+        answer: [b]
+        explanation_vi: "„fünfhundertachtzig“ = 580."
+      - id: a1.m09.l02.ex.07.q3
+        prompt: "Wann kann man kommen?"
+        options: [{ id: a, text: "Am Freitag um sechzehn Uhr." }, { id: b, text: "Am Samstag um zehn Uhr." }, { id: c, text: "Am Montag." }]
+        answer: [a]
+        explanation_vi: "„am Freitag um sechzehn Uhr“ = thứ Sáu lúc 16 giờ."

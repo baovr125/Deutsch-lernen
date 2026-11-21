@@ -1,0 +1,262 @@
+schema_version: '2.0'
+content_type: lesson
+id: a1.m02.l03
+level: A1
+module: a1.m02
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+  references:
+  - work: Netzwerk neu A1 (Klett)
+    scope: 'Kapitel 2: Gehen wir ins Kino?'
+    verification: verified
+  notes_vi: 'Sprachhandlungen: Gespräch verstehen; Wochentage vergleichen; Fragen und Antworten mit richtiger Satzmelodie; Dialoge spielen. Grammatik: Ja/Nein-Frage. Wortschatz: Wochentage, Orte. Aussprache: Satzmelodie.'
+order: 3
+title_de: Gehen wir ins Kino?
+title_vi: Mình đi xem phim nhé? – Hẹn đi chơi
+topic_vi: Ngày trong tuần, địa điểm giải trí, câu hỏi có/không, hẹn và từ chối lịch sự
+duration_min: 75
+difficulty: 1
+cefr:
+- A1.SI5
+- A1.H3
+- A1.H4
+- A1.L2
+- A1.S3
+- A1.SP3
+prerequisites:
+- a1.m02.l02
+objectives:
+- id: a1.m02.l03.obj1
+  text_vi: Nói và hiểu bảy ngày trong tuần, dùng am + ngày.
+  skill: vocabulary
+- id: a1.m02.l03.obj2
+  text_vi: Đặt câu hỏi có/không với động từ ở đầu câu và ngữ điệu lên giọng; trả lời ja/nein.
+  skill: grammar
+- id: a1.m02.l03.obj3
+  text_vi: 'Rủ đi chơi và trả lời: Gehen wir …? – Ja, gern! / Das geht leider nicht.'
+  skill: grammar
+- id: a1.m02.l03.obj4
+  text_vi: 'Gọi tên các địa điểm giải trí với ins: ins Kino, ins Café, ins Museum, ins Theater, ins Schwimmbad, ins Restaurant.'
+  skill: grammar
+vocabulary_refs:
+- a1.m02.v.montag
+- a1.m02.v.dienstag
+- a1.m02.v.mittwoch
+- a1.m02.v.donnerstag
+- a1.m02.v.freitag
+- a1.m02.v.samstag
+- a1.m02.v.sonntag
+- a1.m02.v.wochentag
+- a1.m02.v.wann
+- a1.m02.v.leider
+- a1.m02.v.oft
+- a1.m02.v.caf
+- a1.m02.v.museum
+- a1.m02.v.restaurant
+- a1.m02.v.schwimmbad
+- a1.m02.v.theater
+- a1.m02.v.termin
+- a1.m02.v.fuer
+- a1.m02.v.jede
+- a1.m02.v.das-geht-nicht
+review_vocabulary_refs:
+- a1.m02.v.gehen
+- a1.m02.v.kino
+- a1.m02.v.am
+- a1.m02.v.morgen
+- a1.m02.v.wochenende
+- a1.m01.v.tag
+- a1.m01.v.frage
+grammar_refs:
+- a1.g.ja-nein-frage
+grammar_focus:
+- ref: a1.g.ja-nein-frage
+  focus_vi: Động từ ở vị trí 1, lên giọng; rủ rê với Gehen wir …?
+expression_refs:
+- a1.m02.x.gehen-wir-am-ins
+- a1.m02.x.das-geht-leider-nicht-am-arbeite-ich
+- a1.m02.x.wann-am
+- a1.m02.x.gute-idee-super
+exercise_set_ref: a1.m02.l03.ex
+summary_vi: 'Ngày trong tuần đều là der; “vào thứ …” = am Montag. Câu hỏi có/không: động từ đầu câu, lên giọng. Rủ: Gehen wir am … ins …? Nhận lời: Ja, gern! / Gute Idee! Từ chối: Das geht leider nicht. Địa điểm giống trung: ins Kino, ins Café, ins Museum, ins Theater, ins Restaurant, ins Schwimmbad.'
+self_check:
+- Tôi nói được bảy ngày trong tuần.
+- Tôi đặt được câu hỏi có/không với ngữ điệu đúng.
+- Tôi rủ được bạn đi chơi và từ chối lịch sự.
+- Tôi nói được tên 6 địa điểm giải trí với ins.
+blocks:
+- id: a1.m02.l03.b1
+  kind: explanation
+  title_vi: Giới thiệu bài học
+  body_vi: 'Bạn đã biết nói sở thích. Bây giờ hãy **rủ bạn bè đi chơi**!
+
+
+    Bài này có ba công cụ:
+
+    1. **Bảy ngày trong tuần** – tất cả đều là giống đực (*der Montag…*) và “vào thứ …” là **am**: *am Montag*.
+
+    2. **Câu hỏi có/không** – đưa động từ lên đầu câu và **lên giọng** ở cuối: *Gehen wir ins Kino?* ↗ (chủ điểm *Câu hỏi có/không*).
+
+    3. **Địa điểm**: *ins Kino, ins Café, ins Museum…* – tất cả là danh từ giống trung, nên đều dùng **ins**.
+
+
+    Và một câu rất lịch sự khi phải từ chối: *Das geht leider nicht.* – Tiếc là không được.'
+- id: a1.m02.l03.b2
+  kind: explanation
+  title_vi: ins + địa điểm (giống trung)
+  skill: grammar
+  body_vi: 'ins = in + das. Các địa điểm trong bài đều là das, nên: ins Kino, ins Café, ins Museum, ins Theater, ins Restaurant, ins Schwimmbad. Với địa điểm giống đực/cái, dạng khác (in den Park, in die Bibliothek) – học ở Kapitel 9. Bây giờ học như cụm cố định.'
+  examples:
+  - de: Ich gehe ins Kino.
+    vi: Tôi đi xem phim.
+  - de: Gehen wir ins Museum?
+    vi: Chúng ta đi bảo tàng nhé?
+- id: a1.m02.l03.b3
+  kind: explanation
+  title_vi: am + ngày trong tuần
+  skill: grammar
+  body_vi: 'Vào thứ mấy → am + ngày: am Montag, am Freitag, am Wochenende. Hỏi: Wann? (khi nào?).'
+  examples:
+  - de: Wann gehen wir ins Café? – Am Freitag.
+    vi: Khi nào mình đi cà phê? – Thứ Sáu.
+- id: a1.m02.l03.b4
+  kind: pronunciation
+  title_vi: Ngữ điệu câu hỏi và câu trả lời
+  skill: pronunciation
+  body_vi: 'Ngữ điệu câu hỏi và câu trả lời
+
+
+    Câu hỏi có/không → lên giọng: Gehen wir ins Kino? ↗. Câu trả lời → xuống giọng: Ja, gern. ↘ / Das geht leider nicht. ↘. Câu hỏi W- → xuống giọng: Wann gehen wir? ↘
+
+
+    Luyện tập: Đọc hội thoại mẫu theo cặp, đánh dấu ↗ ↘ trước khi đọc.'
+  items:
+  - de: Gehen wir ins Kino? ↗
+    vi: Mình đi xem phim nhé?
+  - de: Ja, gern. ↘
+    vi: Ừ, thích.
+  - de: Wann? ↘ – Am Freitag. ↘
+    vi: Khi nào? – Thứ Sáu.
+- id: a1.m02.l03.b5
+  kind: pronunciation
+  title_vi: 'Ngày trong tuần: trọng âm ở đầu'
+  skill: pronunciation
+  body_vi: 'Ngày trong tuần: trọng âm ở đầu
+
+
+    MON-tag, DIENS-tag, MITT-woch, DON-ners-tag, FREI-tag, SAMS-tag, SONN-tag. g cuối đọc [k].
+
+
+    Luyện tập: Đọc bảy ngày theo thứ tự, rồi ngược lại.'
+  items:
+  - de: Montag
+    vi: thứ Hai
+    ipa: '[ˈmoːnˌtaːk]'
+  - de: Mittwoch
+    vi: thứ Tư
+    ipa: '[ˈmɪtvɔx]'
+- id: a1.m02.l03.b6
+  kind: examples
+  title_vi: Câu ví dụ
+  examples:
+  - de: Gehen wir ins Café?
+    vi: Mình đi cà phê nhé?
+  - de: Am Montag arbeite ich, aber am Dienstag geht es.
+    vi: Thứ Hai tôi làm việc, nhưng thứ Ba thì được.
+  - de: Gehst du oft ins Theater? – Nein, nicht oft.
+    vi: Bạn có hay đi nhà hát không? – Không, không hay lắm.
+  - de: Jede Woche gehe ich ins Schwimmbad.
+    vi: Tuần nào tôi cũng đi bơi.
+  - de: Am Donnerstag habe ich einen Termin.
+    vi: Thứ Năm tôi có một cuộc hẹn.
+    note_vi: 'habe … einen Termin: học kỹ ở bài 5 và Kapitel 4.'
+- id: a1.m02.l03.b7
+  kind: listening
+  title_vi: Hẹn đi xem phim
+  lines:
+  - speaker: Lisa
+    de: Hallo, Minh! Gehen wir am Montag ins Kino?
+    vi: Chào Minh! Thứ Hai mình đi xem phim nhé?
+  - speaker: Minh
+    de: Am Montag? Das geht leider nicht. Am Montag arbeite ich.
+    vi: Thứ Hai à? Tiếc là không được. Thứ Hai mình làm việc.
+  - speaker: Lisa
+    de: Und am Mittwoch?
+    vi: Thế thứ Tư?
+  - speaker: Minh
+    de: Am Mittwoch spiele ich Fußball. Aber am Donnerstag geht es!
+    vi: Thứ Tư mình chơi bóng đá. Nhưng thứ Năm thì được!
+  - speaker: Lisa
+    de: Donnerstag? Super! Gehen wir dann auch ins Café?
+    vi: Thứ Năm à? Tuyệt! Thế mình đi cà phê luôn nhé?
+  - speaker: Minh
+    de: Ja, gern! Bis Donnerstag!
+    vi: Ừ, thích lắm! Hẹn thứ Năm nhé!
+  audio_status: pending-tts
+  situation_vi: Lisa gọi điện rủ Minh đi chơi.
+  skill: listening
+  audio:
+    speed: slow
+- id: a1.m02.l03.b8
+  kind: reading
+  title_vi: 'Nhóm chat: đi đâu cuối tuần?'
+  paragraphs:
+  - de: 'Anna: Gehen wir am Samstag ins Museum? 🖼️
+
+      Tom: Samstag geht leider nicht. Ich arbeite. Sonntag?
+
+      Huy: Am Sonntag schwimme ich. Aber am Samstag geht es!
+
+      Anna: Okay: Huy und ich gehen am Samstag ins Museum. Tom, gehen wir am Sonntag ins Café?
+
+      Tom: Ja, gern! ☕'
+    vi: 'Anna: Thứ Bảy mình đi bảo tàng nhé? 🖼️
+
+      Tom: Tiếc là thứ Bảy không được. Mình làm việc. Chủ nhật nhé?
+
+      Huy: Chủ nhật mình đi bơi. Nhưng thứ Bảy thì được!
+
+      Anna: Ok: Huy và mình đi bảo tàng thứ Bảy. Tom, Chủ nhật mình đi cà phê nhé?
+
+      Tom: Ừ, thích lắm! ☕'
+  text_type_vi: Tin nhắn nhóm
+  skill: reading
+- id: a1.m02.l03.b9
+  kind: speaking
+  title_vi: 'Đóng vai: tìm ngày rảnh'
+  skill: speaking
+  task_vi: 'Bạn có lịch tuần (Mo: arbeiten, Di: Deutschkurs, Mi: frei, Do: arbeiten, Fr: frei). Rủ bạn đi chơi và cùng tìm một ngày cả hai đều rảnh.'
+  steps_vi:
+  - 'Rủ: Gehen wir am … ins …?'
+  - 'Nếu bận: Das geht leider nicht. Am … arbeite ich. Am …?'
+  - 'Khi tìm được ngày: Ja, das geht! / Super!'
+  lines:
+  - speaker: A
+    de: Gehen wir am Dienstag ins Theater?
+    vi: Thứ Ba đi nhà hát nhé?
+  - speaker: B
+    de: Das geht leider nicht. Am Dienstag habe ich Deutschkurs. Am Mittwoch?
+    vi: Tiếc là không được. Thứ Ba mình có lớp tiếng Đức. Thứ Tư nhé?
+  - speaker: A
+    de: Ja, am Mittwoch geht es. Super!
+    vi: Ừ, thứ Tư được. Tuyệt!
+- id: a1.m02.l03.b10
+  kind: writing
+  title_vi: Tin nhắn rủ đi chơi
+  skill: writing
+  task_vi: 'Viết tin nhắn (3 câu) rủ một người bạn đi chơi: chào, rủ đi đâu và ngày nào, hỏi bạn có đi được không.'
+  model:
+    de: Hallo Tom! Gehen wir am Freitag ins Restaurant? Geht das?
+    vi: Chào Tom! Thứ Sáu mình đi nhà hàng nhé? Được không?
+  checklist_vi:
+  - Có am + ngày và ins + địa điểm.
+  - 'Câu hỏi có/không: động từ đầu câu, có dấu ?'

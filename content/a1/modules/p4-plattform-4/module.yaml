@@ -1,0 +1,38 @@
+schema_version: "2.0"
+content_type: module
+id: a1.p4
+level: A1
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  references:
+    - { work: "Netzwerk neu A1.2 – Stoffverteilungsplan (Klett, © 2023)", scope: "Plattform 4 (KB A1.2 tr. 72–77): Wiederholungsspiel Kapitel 10–12; Training: Wortspiele, eine Mail schreiben; Landeskunde: Eine Reise durch D-A-CH; Prüfungstraining: Hören Teil 2, Lesen Teil 3, Schreiben Teil 2", verification: verified }
+    - { work: "Dự án Deutsch-lernen", scope: "Toàn bộ văn bản, hội thoại, đề luyện tự soạn; không dùng nội dung của giáo trình", verification: proposed }
+  notes_vi: "Chưa đối chiếu từng từ với Kapitelwortschatz. Chưa có audio (pending-tts). Trò chơi nhóm của lớp học trực tiếp được thay bằng bài tập tự học."
+  tags: ["plattform", "wiederholung", "pruefung"]
+kind: plattform
+order: 16
+title_de: "Plattform 4"
+title_vi: "Ôn tập 4 – Kapitel 10–12 và luyện thi A1"
+summary_vi: "Ôn tổng hợp Kapitel 10–12 (nghề nghiệp, Perfekt, mua sắm, du lịch), tìm hiểu một chuyến đi qua D-A-CH và luyện ba phần thi: Nghe phần 2, Đọc phần 3, Viết phần 2."
+cefr: [A1.H1, A1.H2, A1.H4, A1.L1, A1.L2, A1.L3, A1.SI1, A1.SP1, A1.S1, A1.S2, A1.S3]
+prerequisites: [a1.m12]
+not_covered_vi:
+  - "Trò chơi và bài tập nhóm của lớp học trực tiếp: thay bằng bài tập tự học."
+lessons:
+  - { id: a1.p4.l01, file: lessons/l01.yaml }
+  - { id: a1.p4.l02, file: lessons/l02.yaml }
+  - { id: a1.p4.l03, file: lessons/l03.yaml }
+grammar: []
+vocabulary: { id: a1.p4.vocab, file: vocabulary.yaml }
+expressions: { id: a1.p4.expr, file: expressions.yaml }
+exercises:
+  - { id: a1.p4.l01.ex, file: exercises/l01.yaml }
+  - { id: a1.p4.l02.ex, file: exercises/l02.yaml }
+  - { id: a1.p4.l03.ex, file: exercises/l03.yaml }
+estimated_hours: 4

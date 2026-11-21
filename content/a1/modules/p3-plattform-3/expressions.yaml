@@ -1,0 +1,22 @@
+schema_version: "2.0"
+content_type: expression-set
+id: a1.p3.expr
+level: A1
+module: a1.p3
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  references:
+    - { work: "Netzwerk neu A1.2 – Stoffverteilungsplan (Klett)", scope: "Plattform 3: Redemittel ôn tập Kapitel 7–9; Prüfungstraining Sprechen Teil 3 (Bitten)", verification: verified }
+    - { work: "Dự án Deutsch-lernen", scope: "Câu mẫu do dự án tự viết", verification: proposed }
+  tags: ["redemittel", "pruefung"]
+entries:
+  - { id: a1.p3.x.zimmer-einrichten, de: "Wo soll der Schrank stehen?", vi: "Cái tủ nên đặt ở đâu?", register: neutral, function: "Hỏi vị trí đặt đồ", situation_vi: "Khi cùng người khác sắp xếp phòng.", reply: { de: "Neben dem Bett, an der Wand.", vi: "Cạnh giường, sát tường." }, lesson_refs: [a1.p3.l01] }
+  - { id: a1.p3.x.bitte-sie, de: "Können Sie bitte das Fenster aufmachen?", vi: "Ông/bà có thể mở cửa sổ giúp được không ạ?", register: formal, function: "Nhờ làm việc gì (lịch sự)", situation_vi: "Sprechen Teil 3: nhờ một việc theo thẻ tình huống.", reply: { de: "Ja, natürlich.", vi: "Vâng, tất nhiên." }, lesson_refs: [a1.p3.l03] }
+  - { id: a1.p3.x.bitte-du, de: "Kannst du bitte die Tür zumachen?", vi: "Bạn đóng cửa giúp mình được không?", register: informal, function: "Nhờ làm việc gì (thân mật)", situation_vi: "Nhờ bạn bè hoặc người quen.", reply: { de: "Klar, mache ich.", vi: "Được, mình làm ngay." }, lesson_refs: [a1.p3.l03] }
+  - { id: a1.p3.x.haben-sie, de: "Haben Sie bitte einen Stift?", vi: "Ông/bà có bút không ạ?", register: formal, function: "Hỏi mượn đồ", situation_vi: "Sprechen Teil 3: hỏi xin hoặc mượn một vật.", reply: { de: "Ja, hier bitte.", vi: "Có, xin mời." }, lesson_refs: [a1.p3.l03] }

@@ -1,0 +1,74 @@
+schema_version: "2.0"
+content_type: lesson
+id: a1.m09.l04
+level: A1
+module: a1.m09
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  references:
+    - { work: "Netzwerk neu A1.2 – Stoffverteilungsplan (Klett)", scope: "Kapitel 9, Mục Alles fertig; Antwort auf eine Einladung; Begeisterung ausdrücken; Strategie mit Textbausteinen schreiben; Landeskunde Wer wohnt denn da?; Aussprache langes und kurzes e", verification: verified }
+  tags: ["einladung", "schreiben", "aussprache"]
+order: 4
+title_de: "Alles fertig!"
+title_vi: "Mọi thứ đã xong!"
+duration_min: 45
+difficulty: 2
+objectives:
+  - { id: a1.m09.l04.obj1, text_vi: "Bạn có thể viết thư trả lời lời mời (nhận lời hoặc từ chối) bằng các khối câu có sẵn.", skill: writing }
+  - { id: a1.m09.l04.obj2, text_vi: "Bạn có thể phân biệt e dài và e ngắn khi phát âm.", skill: pronunciation }
+vocabulary_refs: [a1.m09.v.einladung, a1.m09.v.zusagen, a1.m09.v.absagen, a1.m09.v.toll]
+grammar_refs: []
+expression_refs: [a1.m09.x.einladung-danke, a1.m09.x.zusage, a1.m09.x.absage, a1.m09.x.begeisterung]
+exercise_set_ref: a1.m09.l04.ex
+blocks:
+  - id: a1.m09.l04.b1
+    kind: explanation
+    skill: writing
+    title_vi: "Chiến lược: viết bằng các khối câu"
+    body_vi: |
+      Khi trả lời lời mời, ghép các khối: **Cảm ơn** (*Vielen Dank für die Einladung!*) + **Nhận lời** (*Ich komme sehr gern.*) hoặc **Từ chối** (*Leider kann ich nicht kommen.*) + **Lời kết** (*Viele Grüße*).
+      Từ chối nên kèm lý do ngắn.
+  - id: a1.m09.l04.b2
+    kind: reading
+    skill: reading
+    title_vi: "Mẫu: lời mời tân gia"
+    paragraphs:
+      - { de: "Liebe Sophie,", vi: "Sophie thân mến," }
+      - { de: "wir ziehen am Samstag in die Wohnung in der Bergstraße ein!", vi: "thứ Bảy chúng mình chuyển vào căn hộ ở phố Bergstraße!" }
+      - { de: "Am Sonntag machen wir eine kleine Party. Komm um drei Uhr!", vi: "Chủ nhật chúng mình làm một bữa tiệc nhỏ. Đến lúc ba giờ nhé!" }
+      - { de: "Viele Grüße, Karim", vi: "Thân ái, Karim" }
+  - id: a1.m09.l04.b3
+    kind: dialogue
+    skill: speaking
+    title_vi: "Hội thoại: Trả lời lời mời"
+    lines:
+      - { speaker: "Sophie", de: "Hallo Karim! Vielen Dank für die Einladung. Toll!", vi: "Chào Karim! Cảm ơn nhiều vì lời mời. Tuyệt quá!" }
+      - { speaker: "Karim", de: "Kommst du?", vi: "Bạn đến chứ?" }
+      - { speaker: "Sophie", de: "Ich sage gern zu. Wann fängt die Party an?", vi: "Mình vui lòng nhận lời. Khi nào tiệc bắt đầu?" }
+      - { speaker: "Karim", de: "Um drei Uhr. Bring einfach gute Laune mit!", vi: "Lúc ba giờ. Cứ mang theo tâm trạng vui vẻ nhé!" }
+  - id: a1.m09.l04.b4
+    kind: pronunciation
+    skill: pronunciation
+    title_vi: "Phát âm: e dài và e ngắn"
+    body_vi: |
+      • **e dài** /eː/ khi gặp **ee, eh** hoặc **e + một phụ âm + nguyên âm**: *Tee, sehen, Regen*.
+      • **e ngắn** /ɛ/ khi gặp **e + hai phụ âm**: *Bett, Fenster, Geld*.
+      Nghe và lặp lại từng cặp.
+    items:
+      - { de: "Tee", ipa: "/teː/", note_vi: "ee → e dài" }
+      - { de: "sehen", ipa: "/ˈzeːən/", note_vi: "eh → e dài" }
+      - { de: "Regen", ipa: "/ˈʁeːɡn̩/", note_vi: "e + g + nguyên âm → e dài" }
+      - { de: "Bett", ipa: "/bɛt/", note_vi: "e + tt → e ngắn" }
+      - { de: "Fenster", ipa: "/ˈfɛnstɐ/", note_vi: "e + nst → e ngắn" }
+  - id: a1.m09.l04.b5
+    kind: culture
+    skill: reading
+    title_vi: "Văn hóa: Wohntypen"
+    body_vi: |
+      Ở D-A-CH nhiều người **thuê nhà** (Mietwohnung) thay vì mua. Phổ biến còn có **WG** (Wohngemeinschaft, ở ghép), đặc biệt với sinh viên. Bữa tiệc tân gia gọi là **Einweihungsparty**.

@@ -1,0 +1,74 @@
+schema_version: "2.0"
+content_type: grammar-topic
+id: a1.g.wechselpraepositionen
+level: A1
+introduced_in: a1.m09
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  references:
+    - { work: "Netzwerk neu A1.2 – Stoffverteilungsplan (Klett)", scope: "Kapitel 9, Grammatik: Wechselpräpositionen + Dativ", verification: verified }
+    - { work: "Dự án Deutsch-lernen", scope: "Ở A1 chỉ dạy dùng với Dativ (Wo?); trường hợp Akkusativ (Wohin?) của các Wechselpräposition khác ngoài „in“ để sang A2", verification: proposed }
+  tags: ["praeposition", "dativ", "ort"]
+title_de: "Wechselpräpositionen + Dativ (Wo?)"
+title_vi: "Giới từ hai cách (Wechselpräpositionen) + Dativ khi chỉ vị trí"
+summary_vi: "an, auf, hinter, in, neben, über, unter, vor, zwischen là giới từ ‘hai cách’. Khi trả lời Wo? (vị trí đang ở), chúng đi với Dativ: Die Lampe steht neben dem Sofa."
+usage_vi: "Dùng để nói đồ vật ở đâu trong phòng. Kết hợp với các động từ vị trí: stehen (đứng), liegen (nằm), hängen (treo)."
+objectives:
+  - { id: a1.g.wechselpraepositionen.obj1, text_vi: "Dùng Wechselpräpositionen với Dativ và động từ stehen/liegen để mô tả vị trí đồ vật.", skill: grammar }
+rules:
+  - id: a1.g.wechselpraepositionen.r1
+    title_vi: "Bảng các giới từ và nghĩa"
+    body_vi: "Chín giới từ chỉ vị trí tương đối. Hãy học theo hình ảnh: đồ vật ở trên, dưới, trước, sau, cạnh…"
+    table:
+      header: ["Giới từ", "Nghĩa", "Ví dụ ngắn"]
+      rows:
+        - ["an", "sát, ở rìa/tường", "an der Wand"]
+        - ["auf", "trên (tiếp xúc)", "auf dem Tisch"]
+        - ["hinter", "sau", "hinter dem Schrank"]
+        - ["in", "trong", "in der Küche"]
+        - ["neben", "bên cạnh", "neben dem Sofa"]
+        - ["über", "ở phía trên (không chạm)", "über dem Tisch"]
+        - ["unter", "dưới", "unter dem Bett"]
+        - ["vor", "trước", "vor dem Fenster"]
+        - ["zwischen", "ở giữa", "zwischen dem Bett und dem Schrank"]
+    examples:
+      - { de: "Das Buch liegt auf dem Tisch.", vi: "Quyển sách nằm trên bàn." }
+      - { de: "Der Teppich liegt unter dem Bett.", vi: "Tấm thảm nằm dưới giường." }
+  - id: a1.g.wechselpraepositionen.r2
+    title_vi: "Wo? → Dativ"
+    body_vi: "Khi nói vị trí (không di chuyển), mạo từ ở Dativ: der/das → dem, die → der, số nhiều → den. Một số rút gọn: an dem = am, in dem = im."
+    table:
+      header: ["Giống", "Dativ", "Ví dụ"]
+      rows:
+        - ["der Tisch", "dem", "auf dem Tisch"]
+        - ["das Sofa", "dem", "neben dem Sofa"]
+        - ["die Wand", "der", "an der Wand"]
+        - ["die Möbel (pl)", "den", "zwischen den Möbeln"]
+    examples:
+      - { de: "Die Lampe steht neben dem Sofa.", vi: "Cái đèn đứng cạnh ghế sofa." }
+      - { de: "Das Bild hängt an der Wand.", vi: "Bức tranh treo trên tường." }
+  - id: a1.g.wechselpraepositionen.r3
+    title_vi: "Động từ vị trí: stehen, liegen, hängen"
+    body_vi: "Chọn động từ theo tư thế của vật: stehen (đứng thẳng: Tisch, Schrank, Lampe), liegen (nằm phẳng: Buch, Teppich), hängen (treo: Bild). Chia theo chủ ngữ: steht, liegt, hängt (số nhiều: stehen, liegen, hängen)."
+    examples:
+      - { de: "Der Stuhl steht vor dem Schrank.", vi: "Cái ghế đứng trước cái tủ." }
+      - { de: "Die Bücher liegen auf dem Regal.", vi: "Những quyển sách nằm trên cái kệ." }
+sentence_structures:
+  - { pattern: "Subjekt + stehen/liegen/hängen + Präposition + Dativ", example: { de: "Der Schrank steht neben der Tür.", vi: "Cái tủ đứng cạnh cánh cửa." } }
+  - { pattern: "Wo + stehen/liegen/hängen + Subjekt?", example: { de: "Wo steht die Lampe?", vi: "Cái đèn ở đâu?" } }
+examples:
+  - { de: "Das Bett steht an der Wand.", vi: "Cái giường kê sát tường." }
+  - { de: "Der Tisch steht vor dem Fenster.", vi: "Cái bàn đặt trước cửa sổ." }
+  - { de: "Zwischen dem Sofa und dem Regal steht eine Lampe.", vi: "Giữa ghế sofa và cái kệ có một cái đèn." }
+  - { de: "Der Teppich liegt unter dem Tisch.", vi: "Tấm thảm nằm dưới bàn." }
+common_mistakes:
+  - { wrong: "Die Lampe steht neben das Sofa.", right: "Die Lampe steht neben dem Sofa.", explanation_vi: "Chỉ vị trí (Wo?) → Dativ: dem Sofa, không phải Akkusativ „das“." }
+  - { wrong: "Das Buch steht auf dem Tisch.", right: "Das Buch liegt auf dem Tisch.", explanation_vi: "Quyển sách nằm phẳng nên dùng „liegen“, không dùng „stehen“." }
+  - { wrong: "Das Bild hängt an die Wand.", right: "Das Bild hängt an der Wand.", explanation_vi: "„Wand“ giống cái, Dativ là „der“: an der Wand." }
+exercise_refs: [a1.m09.l03.ex.01, a1.m09.l03.ex.02]

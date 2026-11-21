@@ -1,0 +1,253 @@
+schema_version: '2.0'
+content_type: lesson
+id: a1.m06.l05
+level: A1
+module: a1.m06
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+  references:
+  - work: Netzwerk neu A1 (Klett)
+    scope: 'Kapitel 6: Wie war das Wochenende?'
+    verification: verified
+  notes_vi: 'Sprachhandlungen: über vergangene Ereignisse und das Wochenende sprechen, das Wetter beschreiben, Bewertungen abgeben. Wortschatz: gestern, vorgestern, Wetter, sonnig, bewölkt, regnen, fantastisch, wunderbar, langweilig, erholsam, faulenzen, ausruhen, Spaziergang. Grammatik: Präteritum von sein und haben.'
+order: 5
+title_de: Wie war das Wochenende? – war und hatte
+title_vi: Cuối tuần thế nào? – war và hatte
+topic_vi: Kể về các sự kiện và trải nghiệm đã qua vào cuối tuần hoặc ngày hôm qua, thời tiết, thì quá khứ đơn của sein và haben
+duration_min: 85
+difficulty: 2
+cefr:
+- A1.L1
+- A1.H2
+- A1.SP1
+- A1.S2
+prerequisites:
+- a1.m06.l04
+objectives:
+- id: a1.m06.l05.obj1
+  text_vi: Kể về các hoạt động và cảm nhận về kỳ nghỉ cuối tuần đã qua (Wie war dein Wochenende? – Es war super!).
+  skill: listening
+- id: a1.m06.l05.obj2
+  text_vi: Chia và sử dụng thành thạo thì quá khứ đơn (Präteritum) của sein (war, warst, waren...) và haben (hatte, hattest, hatten...).
+  skill: grammar
+- id: a1.m06.l05.obj3
+  text_vi: Mô tả thời tiết trong quá khứ và hiện tại (sonnig, bewölkt, regnen, die Sonne scheint).
+  skill: vocabulary
+- id: a1.m06.l05.obj4
+  text_vi: Hiểu bài đọc nhật ký cuối tuần và viết đoạn văn ngắn kể lại trải nghiệm của bản thân.
+  skill: listening
+vocabulary_refs:
+- a1.m06.v.gestern
+- a1.m06.v.vorgestern
+- a1.m06.v.damals
+- a1.m06.v.wetter
+- a1.m06.v.sonnig
+- a1.m06.v.bewoelkt
+- a1.m06.v.regnen
+- a1.m06.v.regen
+- a1.m06.v.sonne
+- a1.m06.v.scheinen
+- a1.m06.v.fantastisch
+- a1.m06.v.wunderbar
+- a1.m06.v.langweilig
+- a1.m06.v.erholsam
+- a1.m06.v.anstrengend
+- a1.m06.v.faulenzen
+- a1.m06.v.ausruhen
+- a1.m06.v.spaziergang
+review_vocabulary_refs:
+- a1.m05.v.alltag
+- a1.m05.v.spazierengehen
+- a1.m05.v.familienalltag
+- a1.m06.v.ausflug
+grammar_refs:
+- a1.g.praeteritum-haben-sein
+grammar_focus:
+- ref: a1.g.praeteritum-haben-sein
+  focus_vi: Chia và sử dụng war và hatte ở thì quá khứ (ich war = er war; ich hatte = er hatte)
+expression_refs:
+- a1.m06.x.wie-war-dein-wochenende-es-war-super-seh
+- a1.m06.x.wie-war-das-wetter-es-war-sonnig-bewoelk
+exercise_set_ref: a1.m06.l05.ex
+summary_vi: Bài học giúp bạn thành thạo thì quá khứ Präteritum của hai trợ động từ sein (war) và haben (hatte), từ vựng mô tả thời tiết (sonnig, bewölkt, regnen) và cách tự tin chia sẻ về những trải nghiệm cuối tuần đã qua.
+self_check:
+- Tôi có thể chia đúng war và hatte cho tất cả các ngôi.
+- Tôi nhớ ngôi ich và ngôi er/sie/es luôn giống hệt nhau ở thì Präteritum.
+- 'Tôi có thể hỏi và trả lời trôi chảy câu hỏi: ''Wie war dein Wochenende?''.'
+blocks:
+- id: a1.m06.l05.b1
+  kind: explanation
+  title_vi: Giới thiệu bài học
+  body_vi: 'Vào sáng thứ Hai đầu tuần, câu hỏi quen thuộc nhất bạn sẽ nghe thấy từ bạn bè và đồng nghiệp Đức là: *"Wie war dein Wochenende?"* (Cuối tuần của bạn thế nào?).
+
+    Trong bài học này, bạn sẽ:
+
+    - Học từ vựng về thời gian quá khứ và thời tiết: hôm qua (*gestern*), hôm kia (*vorgestern*), thời tiết (*das Wetter*), nắng ấm (*sonnig*), nhiều mây (*bewölkt*), mưa (*regnen, der Regen*), mặt trời tỏa nắng (*die Sonne scheint*).
+
+    - Khám phá các tính từ đánh giá trải nghiệm: tuyệt vời (*fantastisch, wunderbar*), thư thái (*erholsam*), nhàm chán (*langweilig*), mệt mỏi (*anstrengend*), lười biếng nghỉ ngơi (*faulenzen*), đi dạo (*der Spaziergang*).
+
+    - Làm chủ thì quá khứ đơn (*Präteritum*) của hai động từ cốt lõi: **sein $\rightarrow$ war** (đã ở / đã là) và **haben $\rightarrow$ hatte** (đã có).
+
+    - Tự tin chia sẻ những câu chuyện cuối tuần thú vị với bạn bè.'
+- id: a1.m06.l05.b2
+  kind: explanation
+  title_vi: 'Quy tắc vàng của Präteritum: ich = er/sie/es'
+  skill: grammar
+  body_vi: 'Ở thì quá khứ Präteritum, ngôi ''ich'' và ngôi ''er/sie/es'' luôn có dạng hoàn toàn giống hệt nhau và không có đuôi -t:
+
+    - ich war = er/sie/es war (không nói: er wart!)
+
+    - ich hatte = er/sie/es hatte.'
+  examples:
+  - de: Ich war am Sonntag im Park und er war auch da.
+    vi: Chủ Nhật tôi đã ở công viên và anh ấy cũng ở đó.
+  - de: Gestern hatte sie viel Stress.
+    vi: Hôm qua cô ấy đã có nhiều áp lực.
+- id: a1.m06.l05.b3
+  kind: pronunciation
+  title_vi: 'Phát âm nguyên âm ngắn và dài: war vs. hatte'
+  skill: pronunciation
+  body_vi: 'Phát âm nguyên âm ngắn và dài: war vs. hatte
+
+
+    Trong ''war'' [vaːɐ̯], âm ''a'' kéo dài. Trong ''hatte'' [ˈhatə], âm ''a'' phát âm dứt khoát và ngắn trước phụ âm kép -tt-.
+
+
+    Luyện tập: Luyện đọc cặp từ: war – hatte; das Wetter – die Sonne.'
+  items:
+  - de: ich war
+    vi: tôi đã là/ở (a dài)
+    ipa: '[ɪç vaːɐ̯]'
+  - de: ich hatte
+    vi: tôi đã có (a ngắn)
+    ipa: '[ɪç ˈhatə]'
+  - de: das Wetter
+    vi: thời tiết (e ngắn)
+    ipa: '[das ˈvɛtɐ]'
+- id: a1.m06.l05.b4
+  kind: examples
+  title_vi: Câu ví dụ
+  examples:
+  - de: Gestern war ich den ganzen Tag am Badesee.
+    vi: Hôm qua tôi đã ở hồ tắm suốt cả ngày.
+  - de: Wir hatten am Wochenende viel Spaß zusammen.
+    vi: Cuối tuần chúng tôi đã có nhiều niềm vui bên nhau.
+  - de: Das Wetter war herrlich und die Sonne schien den ganzen Tag.
+    vi: Thời tiết đã tuyệt đẹp và mặt trời chiếu sáng cả ngày.
+  - de: Früher hatte ich ein altes Fahrrad, aber jetzt habe ich ein neues.
+    vi: Trước đây tôi đã có một chiếc xe đạp cũ, nhưng bây giờ tôi có một chiếc mới.
+- id: a1.m06.l05.b5
+  kind: listening
+  title_vi: 'Hội thoại: Đồng nghiệp hỏi thăm về kỳ nghỉ cuối tuần'
+  lines:
+  - speaker: Thomas
+    de: Guten Morgen Laura! Wie war dein Wochenende?
+    vi: Chào buổi sáng Laura! Cuối tuần của bạn thế nào?
+  - speaker: Laura
+    de: Guten Morgen Thomas! Mein Wochenende war sehr erholsam. Am Samstag war das Wetter super sonnig, da habe ich eine Radtour gemacht.
+    vi: Chào buổi sáng Thomas! Cuối tuần của mình rất thư thái. Thứ Bảy thời tiết nắng ấm tuyệt vời, mình đã làm một chuyến đạp xe.
+  - speaker: Thomas
+    de: Das klingt toll! Und am Sonntag?
+    vi: Nghe tuyệt quá! Thế còn Chủ Nhật?
+  - speaker: Laura
+    de: Am Sonntag hat es leider geregnet. Ich war den ganzen Tag zu Hause und hatte Zeit für ein gutes Buch. Und wie war es bei dir?
+    vi: Chủ Nhật tiếc là trời đổ mưa. Mình ở nhà cả ngày và đã có thời gian đọc một cuốn sách hay. Còn bên bạn thế nào?
+  - speaker: Thomas
+    de: Ich war mit Freunden auf einer Geburtstagsparty. Wir hatten viel Spaß!
+    vi: Mình đi dự tiệc sinh nhật cùng bạn bè. Tụi mình đã vui lắm!
+  audio_status: pending-tts
+  situation_vi: Thomas và Laura gặp nhau vào sáng thứ Hai ở công ty và hỏi thăm về kỳ nghỉ cuối tuần.
+  skill: listening
+  audio:
+    speed: slow
+- id: a1.m06.l05.b6
+  kind: reading
+  title_vi: 'Đọc hiểu: Bài viết nhật ký cuối tuần của Florian'
+  paragraphs:
+  - de: 'Mein Wochenende – von Florian:
+
+      Das letzte Wochenende war wirklich wunderbar!
+
+      Am Samstagmorgen schien die Sonne und es war angenehm warm.
+
+      Ich hatte frei und fuhr mit dem Fahrrad an den Badesee.
+
+      Dort traf ich meine Freunde Leon und Sarah.
+
+      Wir schwammen im See und machten am Nachmittag ein gemütliches Picknick.
+
+      Am Sonntag war das Wetter leider bewölkt và am Abend regnete es.
+
+      Aber das war kein Problem: Ich ruhte mich aus, kochte eine Suppe und sah ein spannendes Theaterstück im Fernsehen.
+
+      Ich hatte endlich wieder Zeit zum Faulenzen!'
+    vi: 'Cuối tuần của tôi – Florian:
+
+      Cuối tuần vừa rồi thực sự rất tuyệt vời!
+
+      Sáng thứ Bảy mặt trời tỏa nắng và trời ấm áp dễ chịu.
+
+      Tôi được nghỉ và đã đạp xe ra hồ tắm.
+
+      Ở đó tôi gặp các bạn Leon và Sarah.
+
+      Chúng tôi bơi ở hồ và buổi chiều cùng nhau dã ngoại picnic ấm cúng.
+
+      Chủ Nhật thời tiết tiếc là nhiều mây và buổi tối trời mưa.
+
+      Nhưng điều đó không thành vấn đề: Tôi nghỉ ngơi, nấu một nồi súp và xem một vở kịch kịch tính trên tivi.
+
+      Cuối cùng tôi lại có thời gian để lười biếng thư giãn!'
+  text_type_vi: Bài đăng nhật ký cá nhân
+  skill: reading
+  glossary:
+  - de: angenehm
+    vi: dễ chịu
+  - de: gemütlich
+    vi: ấm cúng, thoải mái
+  - de: endlich
+    vi: cuối cùng thì
+- id: a1.m06.l05.b7
+  kind: speaking
+  title_vi: Hỏi và kể về kỳ nghỉ cuối tuần
+  skill: speaking
+  task_vi: 'Thực hành hỏi thăm bạn học về cuối tuần vừa rồi: thời tiết, nơi chốn và cảm xúc trải nghiệm.'
+  steps_vi:
+  - 'Hỏi thăm: Wie war dein Wochenende?'
+  - 'Kể nơi chốn: Ich war zu Hause / im Kino / am See.'
+  - 'Kể thời tiết: Das Wetter war sonnig / bewölkt / es hat geregnet.'
+  - 'Đánh giá: Es war fantastisch / erholsam! Wir hatten viel Spaß!'
+  lines:
+  - speaker: A
+    de: Wie war dein Wochenende?
+    vi: Cuối tuần của bạn thế nào?
+  - speaker: B
+    de: Es war sehr schön! Ich war am See und hatte viel Spaß.
+    vi: Rất đẹp! Mình đã ở hồ nước và có nhiều niềm vui.
+  - speaker: A
+    de: Wie war das Wetter?
+    vi: Thời tiết thế nào?
+  - speaker: B
+    de: Am Samstag war es sonnig, aber am Sonntag war es bewölkt.
+    vi: Thứ Bảy trời nắng, nhưng Chủ Nhật thì nhiều mây.
+- id: a1.m06.l05.b8
+  kind: writing
+  title_vi: Viết đoạn văn ngắn kể về ngày cuối tuần của bạn
+  skill: writing
+  task_vi: Viết đoạn văn 4–5 câu kể về ngày hôm qua hoặc cuối tuần vừa qua, sử dụng động từ war và hatte.
+  model:
+    de: Mein Wochenende war sehr schön. Am Samstag war ich mit Freunden im Park. Das Wetter war sonnig und warm. Wir hatten viel Spaß beim Picknick. Am Sonntag war ich zu Hause und hatte Zeit zum Ausruhen.
+    vi: Cuối tuần của tôi rất đẹp. Thứ Bảy tôi đã ở công viên cùng bạn bè. Thời tiết nắng ấm. Chúng tôi đã có nhiều niềm vui khi đi dã ngoại. Chủ Nhật tôi ở nhà và có thời gian nghỉ ngơi.
+  checklist_vi:
+  - Có sử dụng động từ war (ich war, das Wetter war...).
+  - Có sử dụng động từ hatte (wir hatten Spaß, ich hatte Zeit...).
+  - Mô tả thời tiết và hoạt động cụ thể.

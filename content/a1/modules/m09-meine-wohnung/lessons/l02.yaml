@@ -1,0 +1,62 @@
+schema_version: "2.0"
+content_type: lesson
+id: a1.m09.l02
+level: A1
+module: a1.m09
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  references:
+    - { work: "Netzwerk neu A1.2 – Stoffverteilungsplan (Klett)", scope: "Kapitel 9, Mục Die Wohnungssuche; Wohnungsanzeigen; Wohin? in + Akkusativ; Wo? in + Dativ", verification: verified }
+  tags: ["wohnungssuche", "akkusativ", "dativ"]
+order: 2
+title_de: "Die Wohnungssuche"
+title_vi: "Đi tìm nhà"
+duration_min: 50
+difficulty: 2
+objectives:
+  - { id: a1.m09.l02.obj1, text_vi: "Bạn có thể đọc tin rao căn hộ ngắn và tìm thông tin (số phòng, diện tích, tiền thuê).", skill: reading }
+  - { id: a1.m09.l02.obj2, text_vi: "Bạn có thể phân biệt in + Akkusativ (Wohin?) và in + Dativ (Wo?).", skill: grammar }
+vocabulary_refs: [a1.m09.v.anzeige, a1.m09.v.miete, a1.m09.v.quadratmeter, a1.m09.v.nebenkosten, a1.m09.v.mieten, a1.m09.v.suchen, a1.m09.v.einziehen, a1.m09.v.teuer, a1.m09.v.guenstig]
+grammar_refs: [a1.g.in-wohin-wo]
+expression_refs: [a1.m09.x.miete-fragen, a1.m09.x.besichtigung, a1.m09.x.nebenkosten-frage]
+exercise_set_ref: a1.m09.l02.ex
+blocks:
+  - id: a1.m09.l02.b1
+    kind: explanation
+    skill: vocabulary
+    title_vi: "Bắt đầu: đọc tin rao căn hộ"
+    body_vi: |
+      Tin rao hay dùng viết tắt: **2 Zi.** = 2 Zimmer (2 phòng), **qm** hoặc **m²** = mét vuông, **EUR** = euro, **NK** = Nebenkosten (chi phí phụ).
+      Hãy tìm ba thông tin chính: **bao nhiêu phòng, diện tích bao nhiêu, tiền thuê bao nhiêu**.
+  - id: a1.m09.l02.b2
+    kind: reading
+    skill: reading
+    title_vi: "Tin rao: Wohnung in Bonn"
+    paragraphs:
+      - { de: "Helle 2-Zimmer-Wohnung in Bonn, 55 Quadratmeter.", vi: "Căn hộ hai phòng sáng ở Bonn, 55 mét vuông." }
+      - { de: "Mit Balkon und Küche. Miete: 620 Euro im Monat, Nebenkosten: 90 Euro.", vi: "Có ban công và bếp. Tiền thuê: 620 euro mỗi tháng, chi phí phụ: 90 euro." }
+      - { de: "Besichtigung am Samstag um elf Uhr. Bitte rufen Sie an.", vi: "Xem nhà vào thứ Bảy lúc 11 giờ. Xin hãy gọi điện." }
+  - id: a1.m09.l02.b3
+    kind: dialogue
+    skill: speaking
+    title_vi: "Hội thoại: Gọi điện hỏi nhà thuê"
+    lines:
+      - { speaker: "Anna", de: "Guten Tag, ich suche eine Wohnung. Ist die Wohnung in Bonn noch frei?", vi: "Xin chào, tôi đang tìm nhà. Căn hộ ở Bonn còn trống không ạ?" }
+      - { speaker: "Vermieter", de: "Ja, sie ist noch frei. Möchten Sie die Wohnung besichtigen?", vi: "Còn trống ạ. Bạn có muốn xem nhà không?" }
+      - { speaker: "Anna", de: "Ja, gern. Wie hoch ist die Miete?", vi: "Vâng, rất sẵn lòng. Tiền thuê là bao nhiêu ạ?" }
+      - { speaker: "Vermieter", de: "620 Euro. Die Nebenkosten sind nicht in der Miete.", vi: "620 euro. Chi phí phụ không nằm trong tiền thuê." }
+      - { speaker: "Anna", de: "Danke. Ich komme am Samstag um elf Uhr in die Wohnung.", vi: "Cảm ơn. Thứ Bảy lúc 11 giờ tôi sẽ đến căn hộ." }
+  - id: a1.m09.l02.b4
+    kind: explanation
+    skill: grammar
+    title_vi: "Ngữ pháp: Wohin? và Wo? với „in“"
+    body_vi: |
+      **Wohin?** (đi vào đâu) → **in + Akkusativ**: *Ich gehe in die Küche. Wir gehen in den Flur. Er geht ins Zimmer.*
+      **Wo?** (đang ở đâu) → **in + Dativ**: *Ich bin in der Küche. Wir sind im Flur. Er ist im Zimmer.*
+      Xem chủ điểm a1.g.in-wohin-wo.

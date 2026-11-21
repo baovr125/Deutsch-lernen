@@ -1,0 +1,97 @@
+schema_version: "2.0"
+content_type: lesson
+id: a1.p4.l01
+level: A1
+module: a1.p4
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  references:
+    - { work: "Netzwerk neu A1.2 – Stoffverteilungsplan (Klett)", scope: "Plattform 4: Wiederholungsspiel Kapitel 10–12; Training: Wortspiele, eine Mail schreiben", verification: verified }
+  tags: ["wiederholung"]
+order: 1
+title_de: "Wiederholen und trainieren: Kapitel 10–12"
+title_vi: "Ôn tập và luyện tập: Kapitel 10–12"
+topic_vi: "Ôn tổng hợp nghề nghiệp, Perfekt, mua sắm và du lịch"
+duration_min: 90
+difficulty: 2
+objectives:
+  - { id: a1.p4.l01.obj1, text_vi: "Hệ thống hóa từ vựng Kapitel 10–12: nghề nghiệp, điện thoại, quần áo, du lịch, thời tiết; chơi chữ với từ trái nghĩa.", skill: vocabulary }
+  - { id: a1.p4.l01.obj2, text_vi: "Vận dụng ngữ pháp K10–12: Perfekt, đại từ Dativ, welcher/dieser, denn, man, từ để hỏi, giới từ chỉ thời gian.", skill: grammar }
+  - { id: a1.p4.l01.obj3, text_vi: "Hiểu một bưu thiếp ngắn và một cuộc gọi đặt phòng.", skill: reading }
+  - { id: a1.p4.l01.obj4, text_vi: "Nói và viết e-mail ngắn kể về chuyến đi.", skill: writing }
+vocabulary_refs: []
+review_vocabulary_refs: [a1.m10.v.telefonieren, a1.m10.v.anruf, a1.m11.v.jacke, a1.m11.v.hose, a1.m11.v.gefallen, a1.m11.v.bezahlen, a1.m12.v.urlaub, a1.m12.v.reise, a1.m12.v.koffer, a1.m12.v.hotel, a1.m12.v.wetter, a1.m12.v.sonne, a1.m12.v.regen]
+grammar_refs: [a1.g.perfekt-satzklammer, a1.g.partizip2-unregelmaessig, a1.g.personalpronomen-dativ, a1.g.welcher-dieser, a1.g.denn, a1.g.man, a1.g.fragewoerter, a1.g.zeitangaben-dativ]
+expression_refs: [a1.p4.x.mail-gruss, a1.p4.x.hotel-buchen]
+exercise_set_ref: a1.p4.l01.ex
+blocks:
+  - id: a1.p4.l01.b1
+    kind: explanation
+    title_vi: "Giới thiệu bài học"
+    body_vi: |
+      Bài này ôn ba Kapitel gần nhất (10 Studium und Beruf, 11 Die Jacke gefällt mir!, 12 Ab in den Urlaub!). **Không có kiến thức mới.** Bạn sẽ chơi chữ (từ trái nghĩa), đọc một bưu thiếp, nghe một cuộc gọi đặt phòng và viết một e-mail ngắn.
+  - id: a1.p4.l01.b2
+    kind: explanation
+    skill: grammar
+    title_vi: "Bảng tổng hợp ngữ pháp Kapitel 10–12"
+    body_vi: |
+      | Chủ điểm | Cấu trúc | Ví dụ |
+      |---|---|---|
+      | Perfekt | haben/sein (vị trí 2) + Partizip II (cuối câu) | *Ich habe Deutsch gelernt. Wir sind gefahren.* |
+      | Partizip II | ge-…-t · …-iert · ge-…-en · tiền tố không tách: không ge- | *gekocht, telefoniert, gesehen, besucht* |
+      | Đại từ Dativ | mir, dir, ihm, ihr, uns, euch, ihnen, Ihnen | *Die Jacke gefällt mir.* |
+      | welcher / dieser | welcher Pullover? diesen Pullover | *Welche Jacke gefällt dir?* |
+      | denn | lý do, vị trí 0 | *Ich bleibe zu Hause, denn es regnet.* |
+      | man | + động từ như er/sie/es | *Hier darf man nicht essen.* |
+      | W-Fragen | từ để hỏi ở vị trí 1 | *Wann fährt der Zug ab?* |
+      | Giới từ thời gian | im, am, um, vor, nach, in | *Im Juli fliege ich nach Rom.* |
+  - id: a1.p4.l01.b3
+    kind: listening
+    skill: listening
+    title_vi: "Nghe: Đặt phòng khách sạn"
+    audio_status: pending-tts
+    situation_vi: "Một khách gọi điện đặt phòng ở khách sạn."
+    lines:
+      - { speaker: "Rezeption", de: "Hotel Sonnenschein, guten Tag.", vi: "Khách sạn Sonnenschein xin nghe." }
+      - { speaker: "Gast", de: "Guten Tag, hier ist Peter Hahn. Ich möchte ein Zimmer für drei Nächte buchen.", vi: "Chào ông/bà, tôi là Peter Hahn. Tôi muốn đặt một phòng cho ba đêm." }
+      - { speaker: "Rezeption", de: "Wann kommen Sie an?", vi: "Khi nào ông đến ạ?" }
+      - { speaker: "Gast", de: "Am Freitag um achtzehn Uhr.", vi: "Thứ Sáu lúc 18 giờ." }
+      - { speaker: "Rezeption", de: "Ein Einzelzimmer oder ein Doppelzimmer?", vi: "Phòng đơn hay phòng đôi ạ?" }
+      - { speaker: "Gast", de: "Ein Einzelzimmer, bitte. Was kostet es?", vi: "Phòng đơn, làm ơn. Giá bao nhiêu ạ?" }
+      - { speaker: "Rezeption", de: "Neunzig Euro pro Nacht, mit Frühstück.", vi: "Chín mươi euro một đêm, kèm bữa sáng." }
+      - { speaker: "Gast", de: "Das ist gut. Ich nehme es.", vi: "Tốt. Tôi lấy phòng này." }
+  - id: a1.p4.l01.b4
+    kind: reading
+    skill: reading
+    title_vi: "Đọc: Bưu thiếp từ Ý"
+    text_type_vi: "Bưu thiếp"
+    paragraphs:
+      - { de: "Liebe Oma, liebe Grüße aus Italien! Wir sind mit dem Zug nach Rom gefahren und gestern angekommen. Das Wetter ist toll: Die Sonne scheint und es ist heiß. Wir haben schon das Kolosseum besichtigt. Das war interessant, aber auch anstrengend, denn es war so heiß. Morgen fahren wir zum Meer. Bis bald, Eure Mia", vi: "Bà thân mến, gửi những lời thân ái từ nước Ý! Chúng cháu đã đi tàu đến Rome và đến hôm qua. Thời tiết tuyệt: trời nắng và nóng. Chúng cháu đã tham quan Đấu trường Colosseum rồi. Chuyến đó thú vị nhưng cũng mệt vì trời quá nóng. Ngày mai chúng cháu đi biển. Hẹn sớm gặp lại, Mia" }
+    glossary:
+      - { de: "das Kolosseum", vi: "Đấu trường Colosseum (ở Rome)" }
+  - id: a1.p4.l01.b5
+    kind: speaking
+    skill: speaking
+    title_vi: "Nói: Kể về một chuyến đi"
+    task_vi: "Nói 4–5 câu về một chuyến đi bạn đã đi: đi đâu, bằng gì, thời tiết thế nào, bạn đã làm gì và cảm nhận."
+    steps_vi: ["Nêu nơi đến và phương tiện (sein + Partizip II).", "Mô tả thời tiết.", "Kể một việc đã làm (haben + Partizip II).", "Nêu cảm nhận và một lý do bằng denn."]
+    lines:
+      - { speaker: "Beispiel", de: "Ich bin mit dem Zug nach Wien gefahren. Das Wetter war schön. Wir haben das Schloss besichtigt. Es war interessant, aber anstrengend, denn es war heiß.", vi: "Tôi đã đi tàu đến Wien. Thời tiết đẹp. Chúng tôi đã tham quan lâu đài. Thú vị nhưng mệt vì trời nóng." }
+  - id: a1.p4.l01.b6
+    kind: writing
+    skill: writing
+    title_vi: "Viết: E-mail kể về chuyến đi"
+    task_vi: "Viết e-mail 40–50 từ cho một người bạn: bạn đang đi nghỉ ở đâu, thời tiết thế nào, bạn đã làm gì và hôm sau bạn sẽ làm gì."
+    model: { de: "Liebe Anna, viele Grüße aus Hamburg! Wir sind gestern mit dem Zug angekommen. Das Wetter ist kalt, aber es regnet nicht. Wir haben den Hafen besichtigt. Morgen fahren wir zum Strand. Bis bald, Tim", vi: "Anna thân mến, gửi nhiều lời chào từ Hamburg! Hôm qua chúng mình đã đến bằng tàu. Thời tiết lạnh nhưng không mưa. Chúng mình đã tham quan bến cảng. Ngày mai chúng mình đi ra bãi biển. Hẹn sớm gặp lại, Tim" }
+    checklist_vi: ["Có lời chào và lời kết thân mật.", "Dùng Perfekt đúng (sein hoặc haben + Partizip II ở cuối).", "Có một câu về thời tiết.", "Có một kế hoạch cho ngày mai (Morgen fahren wir …)."]
+summary_vi: "Bạn đã ôn tổng hợp Kapitel 10–12 qua bưu thiếp, cuộc gọi đặt phòng và e-mail kể chuyện đi chơi."
+self_check:
+  - "Tôi chọn đúng haben hoặc sein trong Perfekt."
+  - "Tôi đặt Partizip II ở cuối câu."
+  - "Tôi nêu được lý do bằng denn."

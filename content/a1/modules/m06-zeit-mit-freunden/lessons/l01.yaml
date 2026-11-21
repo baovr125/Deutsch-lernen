@@ -1,0 +1,237 @@
+schema_version: '2.0'
+content_type: lesson
+id: a1.m06.l01
+level: A1
+module: a1.m06
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+  references:
+  - work: Netzwerk neu A1 (Klett)
+    scope: 'Kapitel 6: Zeit mit Freunden'
+    verification: verified
+  notes_vi: 'Sprachhandlungen: über Freizeitaktivitäten sprechen, Verabredungen treffen, Vorschläge machen und reagieren. Wortschatz: vorbeikommen, ausgehen, mitmachen, mitfeiern, Ausflug, Fahrradtour, Badesee, Freibad, bummeln... Grammatik: trennbare Verben (Präsens).'
+order: 1
+title_de: Freizeitaktivitäten und Verabredungen
+title_vi: Các hoạt động giải trí và rủ bạn đi chơi
+topic_vi: Lên kế hoạch vui chơi cuối tuần cùng bạn bè, các hoạt động ngoài trời, rủ rê và sử dụng động từ tách
+duration_min: 80
+difficulty: 2
+cefr:
+- A1.L1
+- A1.H2
+- A1.SP1
+- A1.S2
+prerequisites:
+- a1.m05.review
+objectives:
+- id: a1.m06.l01.obj1
+  text_vi: Gọi tên các hoạt động vui chơi giải trí thời gian rảnh rỗi (Fahrradtour, Ausflug, Badesee, bummeln).
+  skill: vocabulary
+- id: a1.m06.l01.obj2
+  text_vi: Sử dụng đúng các động từ tách phổ biến khi hẹn hò và đi chơi (ausgehen, vorbeikommen, mitmachen, mitfeiern, losgehen, vorhaben).
+  skill: grammar
+- id: a1.m06.l01.obj3
+  text_vi: Rủ bạn bè tham gia hoạt động và thống nhất địa điểm hẹn (Treffpunkt).
+  skill: listening
+- id: a1.m06.l01.obj4
+  text_vi: Hiểu bài nghe và bài đọc ngắn về kế hoạch dã ngoại của một nhóm bạn.
+  skill: listening
+vocabulary_refs:
+- a1.m06.v.vorbeikommen
+- a1.m06.v.ausgehen
+- a1.m06.v.mitmachen
+- a1.m06.v.mitfeiern
+- a1.m06.v.treffpunkt
+- a1.m06.v.ausflug
+- a1.m06.v.fahrradtour
+- a1.m06.v.badesee
+- a1.m06.v.freibad
+- a1.m06.v.bummeln
+- a1.m06.v.losgehen
+- a1.m06.v.dabeisein
+- a1.m06.v.gemeinsam
+- a1.m06.v.freizeitaktivitaet
+- a1.m06.v.grillplatz
+- a1.m06.v.vorhaben
+- a1.m06.v.lust-haben
+- a1.m06.v.treffen
+review_vocabulary_refs:
+- a1.m05.v.alltag
+- a1.m05.v.spazierengehen
+- a1.m05.v.koennen
+- a1.m05.v.passen
+grammar_refs:
+- a1.g.trennbare-verben
+grammar_focus:
+- ref: a1.g.trennbare-verben
+  focus_vi: Động từ tách trong câu kể và câu hỏi (vorbeikommen, ausgehen, mitmachen, losgehen, vorhaben...)
+expression_refs:
+- a1.m06.x.was-hast-du-am-wochenende-vor-wollen-wir
+- a1.m06.x.wann-geht-es-los-und-wo-ist-der-treffpun
+exercise_set_ref: a1.m06.l01.ex
+summary_vi: Bài học giúp bạn nắm vững từ vựng về các hoạt động giải trí (der Ausflug, die Fahrradtour, der Badesee, bummeln), cách sử dụng các động từ tách (ausgehen, vorbeikommen, mitmachen, losgehen) và mẫu câu rủ bạn bè đi chơi, thống nhất điểm hẹn.
+self_check:
+- Tôi có thể kể tên ít nhất 4 hoạt động giải trí thời gian rảnh rỗi.
+- Tôi biết dùng các động từ tách ausgehen, vorbeikommen, losgehen trong câu.
+- Tôi có thể tự tin nhắn tin hoặc rủ bạn học cùng tham gia một chuyến dã ngoại.
+blocks:
+- id: a1.m06.l01.b1
+  kind: explanation
+  title_vi: Giới thiệu bài học
+  body_vi: 'Sau những giờ làm việc và học tập bận rộn, khoảng thời gian vui chơi bên bạn bè (*Zeit mit Freunden*) mang lại nguồn năng lượng tích cực nhất.
+
+    Trong bài học này, bạn sẽ:
+
+    - Học từ vựng về các hoạt động thư giãn: đi chơi tối (*ausgehen*), ghé thăm nhà bạn (*vorbeikommen*), đạp xe (*die Fahrradtour*), tắm hồ ngoài trời (*der Badesee, das Freibad*), đi dạo ngắm phố (*bummeln*).
+
+    - Nắm vững cấu trúc động từ tách (*trennbare Verben*): tiền tố tách ra và đứng ở cuối câu chính.
+
+    - Tự tin rủ bạn bè đi chơi: "Bạn có dự định gì chưa?" (*Was hast du vor?*), "Bạn có hứng không?" (*Hast du Lust?*), "Khi nào khởi hành?" (*Wann geht es los?*), điểm hẹn (*der Treffpunkt*).'
+- id: a1.m06.l01.b2
+  kind: explanation
+  title_vi: 'Cụm thành ngữ hẹn hò: Lust haben auf & vorhaben'
+  skill: grammar
+  body_vi: '1. ''Lust haben auf + Akkusativ'': có hứng thú với cái gì: ''Hast du Lust auf eine Fahrradtour?''
+
+    2. ''vorhaben'': dự định, lên kế hoạch: ''Was hast du am Wochenende vor?'' (vor ở cuối câu).'
+  examples:
+  - de: Hast du am Samstag Lust auf Kino?
+    vi: Thứ Bảy bạn có hứng đi xem phim không?
+  - de: Ich habe am Wochenende noch nichts vor.
+    vi: Cuối tuần này mình vẫn chưa có dự định gì.
+- id: a1.m06.l01.b3
+  kind: pronunciation
+  title_vi: Trọng âm rơi vào tiền tố của động từ tách
+  skill: pronunciation
+  body_vi: 'Trọng âm rơi vào tiền tố của động từ tách
+
+
+    Với động từ tách, trọng âm luôn rơi vào tiền tố: ''VOR-bei-kom-men, ''AUS-ge-hen, ''MIT-ma-chen, ''LOS-ge-hen, ''VOR-ha-ben.
+
+
+    Luyện tập: Luyện đọc nhấn mạnh tiền tố: AUSgehen, VORbeikommen, LOSgehen.'
+  items:
+  - de: ausgehen
+    vi: đi chơi tối
+    ipa: '[ˈaʊ̯sˌɡeːən]'
+  - de: vorbeikommen
+    vi: ghé qua chơi
+    ipa: '[foːɐ̯ˈbaɪ̯ˌkɔmən]'
+  - de: losgehen
+    vi: khởi hành
+    ipa: '[ˈloːsˌɡeːən]'
+- id: a1.m06.l01.b4
+  kind: examples
+  title_vi: Câu ví dụ
+  examples:
+  - de: Wir gehen am Freitagabend zusammen aus.
+    vi: Tối thứ Sáu chúng tôi cùng nhau đi chơi.
+  - de: Kommst du am Nachmittag bei mir vorbei?
+    vi: Buổi chiều bạn ghé qua nhà mình chơi nhé?
+  - de: Am Sonntag machen wir einen schönen Ausflug an den Badesee.
+    vi: Chủ Nhật chúng tôi làm một chuyến dã ngoại tuyệt đẹp ra hồ tắm.
+  - de: Die Fahrradtour geht um neun Uhr morgens los.
+    vi: Chuyến đạp xe xuất phát lúc 9 giờ sáng.
+- id: a1.m06.l01.b5
+  kind: listening
+  title_vi: 'Hội thoại: Lên kế hoạch dã ngoại cuối tuần'
+  lines:
+  - speaker: Jonas
+    de: Hallo Florian! Was hast du am Samstag vor?
+    vi: Chào Florian! Thứ Bảy bạn có kế hoạch gì chưa?
+  - speaker: Florian
+    de: Hallo Jonas! Ich habe noch nichts vor. Hast du eine Idee?
+    vi: Chào Jonas! Mình chưa có kế hoạch gì. Bạn có ý tưởng gì à?
+  - speaker: Jonas
+    de: Wir machen eine Fahrradtour an den Badesee und grillen dort gemeinsam. Kommst du mit?
+    vi: Tụi mình làm một chuyến đạp xe ra hồ tắm và nướng thịt cùng nhau ở đó. Bạn đi cùng nhé?
+  - speaker: Florian
+    de: Tolle Idee, da bin ich gern dabei! Wo ist der Treffpunkt und wann geht es los?
+    vi: Ý kiến tuyệt vời, mình rất thích tham gia! Điểm hẹn ở đâu và mấy giờ xuất phát thế?
+  - speaker: Jonas
+    de: Der Treffpunkt ist am Hauptbahnhof um zehn Uhr morgens.
+    vi: Điểm hẹn ở ga trung tâm lúc 10 giờ sáng.
+  audio_status: pending-tts
+  situation_vi: Jonas rủ Florian tham gia chuyến đạp xe dã ngoại ra hồ vào thứ Bảy.
+  skill: listening
+  audio:
+    speed: slow
+- id: a1.m06.l01.b6
+  kind: reading
+  title_vi: 'Đọc hiểu: Tin nhắn nhóm rủ đi chơi cuối tuần'
+  paragraphs:
+  - de: 'Chatgruppe „Wochenende in Freiburg“:
+
+      Leon: Hallo Freunde! Am Samstag ist das Wetter super sonnig. Wollen wir gemeinsam einen Ausflug machen?
+
+      Sarah: Sehr gern! Ich habe große Lust auf eine Fahrradtour an den Badesee. Wer kommt noch mit?
+
+      David: Ich bin auch dabei! Am Badesee gibt es einen schönen Grillplatz. Wir können Fleisch und Salate mitbringen.
+
+      Leon: Perfekt! Wann geht es los?
+
+      Sarah: Um zehn Uhr am Grillplatz. Kommt ihr vorher bei mir vorbei? Dann fahren wir zusammen los!
+
+      David: Abgemacht! Bis Samstag um zehn!'
+    vi: 'Nhóm chat „Cuối tuần ở Freiburg“:
+
+      Leon: Chào các bạn! Thứ Bảy thời tiết rất nắng ấm. Chúng mình cùng nhau đi dã ngoại nhé?
+
+      Sarah: Rất sẵn lòng! Mình rất có hứng đạp xe ra hồ tắm. Ai đi cùng nữa nào?
+
+      David: Mình cũng tham gia! Ở hồ tắm có một bãi nướng thịt rất đẹp. Chúng mình có thể mang theo thịt và salad.
+
+      Leon: Hoàn hảo! Mấy giờ xuất phát thế?
+
+      Sarah: 10 giờ tại bãi nướng. Các bạn ghé qua nhà mình trước nhé? Rồi tụi mình cùng xuất phát!
+
+      David: Thống nhất thế nhé! Hẹn gặp thứ Bảy lúc 10 giờ!'
+  text_type_vi: Đoạn tin nhắn trong nhóm bạn bè
+  skill: reading
+  glossary:
+  - de: abgemacht
+    vi: thống nhất vậy nhé, chốt kèo
+  - de: vorher
+    vi: trước đó
+- id: a1.m06.l01.b7
+  kind: speaking
+  title_vi: Thực hành rủ bạn bè đi chơi và hẹn giờ
+  skill: speaking
+  task_vi: Đóng vai hỏi kế hoạch cuối tuần của bạn học, rủ bạn tham gia một hoạt động và thống nhất điểm hẹn.
+  steps_vi:
+  - 'Hỏi kế hoạch: Was hast du am Wochenende vor?'
+  - 'Rủ rê: Wollen wir einen Ausflug / eine Fahrradtour machen?'
+  - 'Hỏi điểm hẹn và giờ khởi hành: Wo ist der Treffpunkt? Wann geht es los?'
+  lines:
+  - speaker: A
+    de: Was hast du am Samstag vor?
+    vi: Thứ Bảy bạn có kế hoạch gì chưa?
+  - speaker: B
+    de: Ich habe noch nichts vor. Wollen wir ausgehen?
+    vi: Mình chưa có dự định gì. Chúng mình đi chơi tối nhé?
+  - speaker: A
+    de: Ja, gerne! Treffpunkt um 19 Uhr vor dem Kino?
+    vi: Được chứ! Điểm hẹn lúc 19 giờ trước rạp chiếu phim nhé?
+  - speaker: B
+    de: Super, ich bin dabei!
+    vi: Tuyệt, mình sẽ có mặt!
+- id: a1.m06.l01.b8
+  kind: writing
+  title_vi: Viết tin nhắn rủ bạn tham gia dã ngoại
+  skill: writing
+  task_vi: Viết tin nhắn ngắn (4–5 câu) rủ một người bạn đi dã ngoại cuối tuần, nêu rõ hoạt động, thời gian và điểm hẹn.
+  model:
+    de: Hallo Tim! Am Sonntag machen wir einen Ausflug an den Badesee. Wir wollen gemeinsam schwimmen und grillen. Kommst du mit? Der Treffpunkt ist um zehn Uhr am Hauptbahnhof. Sag mir bald Bescheid! Viele Grüße, Alex
+    vi: Chào Tim! Chủ Nhật này tụi mình đi dã ngoại ra hồ tắm. Tụi mình muốn cùng nhau bơi và nướng thịt. Bạn đi cùng nhé? Điểm hẹn lúc 10 giờ ở ga trung tâm. Báo cho mình biết sớm nhé! Thân ái, Alex
+  checklist_vi:
+  - Có sử dụng động từ tách (mitkommen, losgehen, vorbeikommen).
+  - Nêu rõ hoạt động, mốc thời gian và điểm hẹn (Treffpunkt).

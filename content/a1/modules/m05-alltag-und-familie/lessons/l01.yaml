@@ -1,0 +1,215 @@
+schema_version: '2.0'
+content_type: lesson
+id: a1.m05.l01
+level: A1
+module: a1.m05
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+  references:
+  - work: Netzwerk neu A1 (Klett)
+    scope: 'Kapitel 5: Alltag und Familie'
+    verification: verified
+  notes_vi: 'Sprachhandlungen: über den Tagesablauf sprechen, Verben im Kontext verstehen. Wortschatz: Aktivitäten am Tag.'
+order: 1
+title_de: Alltag und Tagesablauf
+title_vi: Cuộc sống hằng ngày và lịch trình một ngày
+topic_vi: Các hoạt động trong ngày, động từ tách miêu tả sinh hoạt thường nhật
+duration_min: 75
+difficulty: 2
+cefr:
+- A1.L1
+- A1.H2
+- A1.SP1
+prerequisites:
+- a1.m04.review
+objectives:
+- id: a1.m05.l01.obj1
+  text_vi: Mô tả chi tiết lịch trình một ngày từ sáng đến tối bằng các động từ hoạt động thường nhật.
+  skill: vocabulary
+- id: a1.m05.l01.obj2
+  text_vi: 'Vận dụng chính xác các động từ tách: aufstehen, anfangen, aufhören, aufräumen, fernsehen.'
+  skill: grammar
+- id: a1.m05.l01.obj3
+  text_vi: Hỏi và đáp về thói quen sinh hoạt mỗi ngày với bạn bè.
+  skill: speaking
+- id: a1.m05.l01.obj4
+  text_vi: Hiểu thông tin về thời gian biểu trong một ngày qua bài nghe và đọc.
+  skill: listening
+vocabulary_refs:
+- a1.m05.v.alltag
+- a1.m05.v.tagesablauf
+- a1.m05.v.aufstehen
+- a1.m05.v.aufwachen
+- a1.m05.v.anfangen
+- a1.m05.v.aufhoeren
+- a1.m05.v.einschlafen
+- a1.m05.v.fernsehen
+- a1.m05.v.anrufen
+- a1.m05.v.mitbringen
+- a1.m05.v.mitkommen
+- a1.m05.v.spazieren-gehen
+- a1.m05.v.bett
+- a1.m05.v.zaehne-putzen
+- a1.m05.v.duschen
+- a1.m05.v.spazierengehen
+- a1.m05.v.aufraeumen
+- a1.m05.v.beginnen
+review_vocabulary_refs:
+- a1.m04.v.fruehstueck
+- a1.m04.v.mittagessen
+- a1.m04.v.morgens
+- a1.m04.v.schlafen
+grammar_refs: []
+expression_refs:
+- a1.m05.x.wie-sieht-dein-tagesablauf-aus-zuerst-st
+- a1.m05.x.wann-faengt-an-wann-hoert-auf-faengt-um
+exercise_set_ref: a1.m05.l01.ex
+summary_vi: Bài học giúp bạn miêu tả trôi chảy các sinh hoạt thường ngày, vận dụng chuẩn xác các động từ tách như aufstehen, anfangen, aufhören, aufräumen, fernsehen và biết cách hỏi han lịch trình một ngày của bạn bè.
+self_check:
+- 'Tôi nhớ chia động từ tách: gốc động từ ở vị trí 2, tiền tố tách rời đứng ở cuối câu.'
+- Tôi có thể kể lại 5 hoạt động trong ngày của mình kèm mốc thời gian.
+- Tôi nhớ trọng âm của động từ tách luôn rơi vào tiền tố.
+blocks:
+- id: a1.m05.l01.b1
+  kind: explanation
+  title_vi: Giới thiệu bài học
+  body_vi: '**Chào mừng bạn đến với Kapitel 5: Alltag und Familie (Cuộc sống hằng ngày và gia đình)!**
+
+    Một ngày bình thường của bạn diễn ra như thế nào? Mấy giờ bạn thức dậy, khi nào bạn bắt đầu làm việc hay học tập, và buổi tối bạn thường làm gì để thư giãn?
+
+
+    Trong bài học mở đầu này, bạn sẽ:
+
+    - Nắm vững các động từ chỉ hoạt động thiết yếu: *aufstehen (thức dậy), anfangen (bắt đầu), aufhören (kết thúc), aufräumen (dọn dẹp), fernsehen (xem tivi), ins Bett gehen (đi ngủ)...*
+
+    - Ôn luyện cấu trúc **động từ tách (trennbare Verben)**: động từ chia ở vị trí 2, tiền tố tách ra đứng ở vị trí cuối cùng (*Ich stehe um sechs Uhr auf*).
+
+    - Tự tin kể lại toàn bộ lịch trình sinh hoạt một ngày bằng tiếng Đức.'
+- id: a1.m05.l01.b2
+  kind: explanation
+  title_vi: Các động từ tách chỉ hoạt động trong ngày
+  skill: grammar
+  body_vi: 'Nhiều động từ chỉ sinh hoạt hằng ngày là động từ tách (trennbare Verben). Khi chia ở câu kể thì hiện tại, phần gốc động từ chia theo chủ ngữ và đứng ở vị trí 2, còn tiền tố (auf-, an-, ein-, fern-, mit-) chuyển về đứng cuối câu: Ich stehe um 6 Uhr auf. Er sieht abends fern.'
+  examples:
+  - de: Wann stehst du morgens auf? – Ich stehe um 6:30 Uhr auf.
+    vi: Buổi sáng bạn thức dậy lúc mấy giờ? – Tôi thức dậy lúc 6:30.
+  - de: Der Kurs fängt um 9 Uhr an.
+    vi: Khóa học bắt đầu lúc 9 giờ.
+- id: a1.m05.l01.b3
+  kind: pronunciation
+  title_vi: Trọng âm ở động từ tách
+  skill: pronunciation
+  body_vi: 'Trọng âm ở động từ tách
+
+
+    Ở tất cả các động từ tách, trọng âm luôn rơi vào TIỀN TỐ tách rời: AUF-stehen, AN-fangen, AUF-hören, FERN-sehen, EIN-schlafen.
+
+
+    Luyện tập: Luyện đọc nhấn mạnh tiền tố: AUF-stehen, AN-fangen, AUF-räumen, EIN-schlafen.'
+  items:
+  - de: aufstehen
+    vi: thức dậy
+    ipa: '[ˈaʊ̯fˌʃteːən]'
+  - de: anfangen
+    vi: bắt đầu
+    ipa: '[ˈanˌfaŋən]'
+  - de: fernsehen
+    vi: xem tivi
+    ipa: '[ˈfɛʁnˌzeːən]'
+- id: a1.m05.l01.b4
+  kind: examples
+  title_vi: Câu ví dụ
+  examples:
+  - de: Morgens stehe ich früh auf und putze die Zähne.
+    vi: Buổi sáng tôi thức dậy sớm và đánh răng.
+  - de: Um wie viel Uhr fängt der Unterricht an?
+    vi: Mấy giờ tiết học bắt đầu?
+  - de: Am Nachmittag räumt er sein Zimmer auf.
+    vi: Buổi chiều anh ấy dọn dẹp phòng của mình.
+  - de: Abends koche ich mit meiner Freundin und wir sehen fern.
+    vi: Buổi tối tôi nấu ăn cùng bạn gái và tụi tôi xem tivi.
+  - de: Um dreiundzwanzig Uhr gehe ich ins Bett und schlafe schnell ein.
+    vi: Lúc 23 giờ tôi đi ngủ và chìm vào giấc ngủ rất nhanh.
+- id: a1.m05.l01.b5
+  kind: listening
+  title_vi: Một ngày làm việc của Thomas
+  lines:
+  - speaker: Thomas
+    de: Mein Tag beginnt früh. Ich stehe jeden Morgen um sechs Uhr auf. Dann dusche ich und frühstücke mit einem Kaffee.
+    vi: Ngày của tôi bắt đầu sớm. Tôi thức dậy mỗi sáng lúc 6 giờ. Sau đó tôi tắm và ăn sáng với một ly cà phê.
+  - speaker: Thomas
+    de: Um halb acht fahre ich mit dem Bus zur Arbeit. Meine Arbeit fängt um acht Uhr an. Um zwölf Uhr esse ich in der Kantine zu Mittag.
+    vi: Lúc 7:30 tôi đi xe buýt đến chỗ làm. Công việc của tôi bắt đầu lúc 8 giờ. Lúc 12 giờ tôi ăn trưa ở căng-tin.
+  - speaker: Thomas
+    de: Um siebzehn Uhr habe ich Feierabend. Zu Hause koche ich, räume ein bisschen auf và sehe fern. Um elf Uhr gehe ich ins Bett.
+    vi: Lúc 17 giờ tôi tan làm. Về nhà tôi nấu ăn, dọn dẹp một chút và xem tivi. Lúc 11 giờ tôi đi ngủ.
+  audio_status: pending-tts
+  situation_vi: Thomas kể cho bạn mình nghe về các hoạt động sinh hoạt từ sáng đến tối.
+  skill: listening
+  audio:
+    speed: slow
+- id: a1.m05.l01.b6
+  kind: reading
+  title_vi: Lịch trình một ngày của nữ sinh viên Mia
+  paragraphs:
+  - de: 'Mein Alltag in Köln – von Mia:
+
+      Montag bis Freitag habe ich einen festen Tagesablauf. Ich stehe um sieben Uhr auf, dusche und frühstücke ein Müsli mit Obst.
+
+      Um acht Uhr dreißig fahre ich mit dem Fahrrad zur Universität. Meine Vorlesungen fangen um neun Uhr an và hören um vierzehn Uhr auf.
+
+      Nachmittags arbeite ich zwei Stunden in einer Bäckerei. Am Abend koche ich oft mit meinen Mitbewohnern. Manchmal gehen wir im Park spazieren oder sehen fern. Um dreiundzwanzig Uhr gehe ich ins Bett.'
+    vi: 'Cuộc sống thường ngày của tôi ở Köln – Mia:
+
+      Từ thứ Hai đến thứ Sáu tôi có một lịch trình cố định. Tôi thức dậy lúc 7 giờ, tắm và ăn sáng món ngũ cốc với trái cây.
+
+      Lúc 8:30 tôi đạp xe đến trường đại học. Các tiết giảng bắt đầu lúc 9 giờ và kết thúc lúc 14 giờ.
+
+      Buổi chiều tôi làm việc hai tiếng ở một tiệm bánh. Buổi tối tôi thường nấu ăn cùng các bạn cùng phòng. Thỉnh thoảng tụi tôi đi dạo trong công viên hoặc xem tivi. Lúc 23 giờ tôi đi ngủ.'
+  text_type_vi: Bài viết chia sẻ nhật ký thường nhật
+  skill: reading
+  glossary:
+  - de: der Mitbewohner
+    vi: bạn cùng phòng
+  - de: das Müsli
+    vi: ngũ cốc trộn
+- id: a1.m05.l01.b7
+  kind: speaking
+  title_vi: Kể về lịch trình trong ngày của bạn
+  skill: speaking
+  task_vi: Thực hành kể cho bạn học nghe về 4 hoạt động chính trong ngày của bạn, sử dụng các động từ tách.
+  steps_vi:
+  - 'Thức dậy: Ich stehe um ... Uhr auf.'
+  - 'Học/Làm việc: Meine Arbeit / mein Kurs fängt um ... Uhr an.'
+  - 'Buổi tối: Abends koche ich / sehe ich fern.'
+  - 'Đi ngủ: Um ... Uhr gehe ich ins Bett.'
+  lines:
+  - speaker: A
+    de: Wann stehst du morgens auf?
+    vi: Buổi sáng bạn thức dậy lúc mấy giờ?
+  - speaker: B
+    de: Ich stehe um sechs Uhr dreißig auf. Und du?
+    vi: Tôi thức dậy lúc 6:30. Còn bạn?
+  - speaker: A
+    de: Ich stehe um sieben Uhr auf. Um acht Uhr fahre ich zur Arbeit.
+    vi: Tôi thức dậy lúc 7 giờ. Lúc 8 giờ tôi đi làm.
+- id: a1.m05.l01.b8
+  kind: writing
+  title_vi: Viết đoạn văn ngắn về một ngày bình thường của bạn
+  skill: writing
+  task_vi: Viết đoạn văn 4–5 câu mô tả một ngày của bạn từ sáng đến tối có sử dụng ít nhất hai động từ tách (aufstehen, anfangen, fernsehen...).
+  model:
+    de: Mein Tag beginnt um sieben Uhr morgens. Ich stehe auf, dusche und frühstücke. Um acht Uhr fahre ich zur Arbeit. Meine Arbeit fängt um neun Uhr an. Am Abend koche ich und sehe fern. Um dreiundzwanzig Uhr gehe ich ins Bett.
+    vi: Ngày của tôi bắt đầu lúc 7 giờ sáng. Tôi thức dậy, tắm và ăn sáng. Lúc 8 giờ tôi đi làm. Công việc của tôi bắt đầu lúc 9 giờ. Buổi tối tôi nấu ăn và xem tivi. Lúc 23 giờ tôi đi ngủ.
+  checklist_vi:
+  - Có sử dụng đúng trật tự từ của động từ tách (Ich stehe um ... auf).
+  - 'Kể các mốc thời gian rõ ràng: morgens, um ... Uhr, abends.'

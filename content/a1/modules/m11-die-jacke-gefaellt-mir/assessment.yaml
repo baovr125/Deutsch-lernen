@@ -1,0 +1,142 @@
+schema_version: "2.0"
+content_type: assessment
+id: a1.m11.test
+level: A1
+module: a1.m11
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  notes_vi: "Ngưỡng đạt 60% là đề xuất, chưa được xác nhận."
+  tags: ["test"]
+title_vi: "Kiểm tra Kapitel 11 – Die Jacke gefällt mir!"
+duration_min: 40
+pass_percent: 60
+exercises:
+  - id: a1.m11.test.01
+    type: listening-practice
+    skill: listening
+    difficulty: 2
+    objective_refs: [a1.m11.obj.einkaufen, a1.m11.obj.dativ]
+    instructions_vi: "Nghe (hoặc đọc transcript) và chọn đáp án."
+    stimulus:
+      text_de: "Guten Tag, ich habe gestern diese Jacke gekauft. Sie gefällt mir sehr, aber sie passt mir nicht. Sie ist zu eng. Kann ich sie umtauschen?"
+      audio_status: pending-tts
+    items:
+      - id: a1.m11.test.01.q1
+        prompt: "Was ist das Problem?"
+        options: [{ id: a, text: "Die Jacke ist zu eng." }, { id: b, text: "Die Jacke ist zu teuer." }, { id: c, text: "Die Jacke ist zu lang." }]
+        answer: [a]
+        explanation_vi: "„Sie ist zu eng.“"
+      - id: a1.m11.test.01.q2
+        prompt: "Was möchte die Person?"
+        options: [{ id: a, text: "Die Jacke bezahlen." }, { id: b, text: "Die Jacke umtauschen." }, { id: c, text: "Die Jacke anziehen." }]
+        answer: [b]
+        explanation_vi: "„Kann ich sie umtauschen?“"
+  - id: a1.m11.test.02
+    type: reading-comprehension
+    skill: reading
+    difficulty: 2
+    objective_refs: [a1.m11.obj.einkaufen]
+    instructions_vi: "Đọc và chọn đáp án đúng."
+    stimulus:
+      text_de: "Kaufhaus Nord. Öffnungszeiten: Montag bis Freitag 9 bis 19 Uhr, Samstag 9 bis 16 Uhr. Angebote heute: Pullover 25 Euro, Hemden 20 Euro. Die Kasse ist im Erdgeschoss."
+      text_vi: "Trung tâm bách hóa Nord. Giờ mở cửa: thứ Hai đến thứ Sáu 9 đến 19 giờ, thứ Bảy 9 đến 16 giờ. Ưu đãi hôm nay: áo len 25 euro, áo sơ mi 20 euro. Quầy thu ngân ở tầng trệt."
+    items:
+      - id: a1.m11.test.02.q1
+        prompt: "Wann schließt das Kaufhaus am Samstag?"
+        options: [{ id: a, text: "Um 16 Uhr." }, { id: b, text: "Um 19 Uhr." }, { id: c, text: "Um 20 Uhr." }]
+        answer: [a]
+        explanation_vi: "„Samstag 9 bis 16 Uhr“ → đóng cửa lúc 16 giờ."
+      - id: a1.m11.test.02.q2
+        prompt: "Wie viel kostet ein Hemd im Angebot?"
+        options: [{ id: a, text: "25 Euro." }, { id: b, text: "20 Euro." }, { id: c, text: "19 Euro." }]
+        answer: [b]
+        explanation_vi: "„Hemden 20 Euro“."
+  - id: a1.m11.test.03
+    type: fill-blank
+    skill: grammar
+    difficulty: 2
+    objective_refs: [a1.m11.obj.dativ, a1.m11.obj.welcher, a1.m11.obj.praefix]
+    instructions_vi: "Điền từ thích hợp."
+    items:
+      - { id: a1.m11.test.03.q1, prompt: "Die Jacke gefällt ___.", hint_vi: "ich", answers: ["mir"], explanation_vi: "ich → mir." }
+      - { id: a1.m11.test.03.q2, prompt: "___ Hose gefällt dir?", hint_vi: "welch- (giống cái)", answers: ["Welche"], explanation_vi: "„Hose“ giống cái → welche." }
+      - { id: a1.m11.test.03.q3, prompt: "Ich nehme ___ Pullover.", hint_vi: "dies- (giống đực, tân ngữ)", answers: ["diesen"], explanation_vi: "Akkusativ giống đực → diesen." }
+      - { id: a1.m11.test.03.q4, prompt: "Er hat das Museum ___.", hint_vi: "besuchen", answers: ["besucht"], explanation_vi: "be- không tách → không có ge-." }
+  - id: a1.m11.test.04
+    type: multiple-choice
+    skill: vocabulary
+    difficulty: 1
+    objective_refs: [a1.m11.obj.kleidung, a1.m11.obj.dativ]
+    instructions_vi: "Chọn đáp án đúng."
+    items:
+      - id: a1.m11.test.04.q1
+        prompt: "Wie heißt der Plural von „der Schuh“?"
+        options: [{ id: a, text: "die Schuhe" }, { id: b, text: "die Schuhen" }, { id: c, text: "die Schühe" }]
+        answer: [a]
+        explanation_vi: "Số nhiều: die Schuhe."
+      - id: a1.m11.test.04.q2
+        prompt: "Wie fragt eine Verkäuferin höflich?"
+        options: [{ id: a, text: "Kann ich Ihnen helfen?" }, { id: b, text: "Was willst du?" }, { id: c, text: "Wo bist du?" }]
+        answer: [a]
+        explanation_vi: "Lịch sự: „Kann ich Ihnen helfen?“"
+      - id: a1.m11.test.04.q3
+        prompt: "Die Mütze gehört ___. (anh ấy)"
+        options: [{ id: a, text: "er" }, { id: b, text: "ihn" }, { id: c, text: "ihm" }]
+        answer: [c]
+        explanation_vi: "„gehören“ + Dativ: ihm."
+  - id: a1.m11.test.05
+    type: word-order
+    skill: grammar
+    difficulty: 2
+    objective_refs: [a1.m11.obj.dativ, a1.m11.obj.praefix]
+    instructions_vi: "Sắp xếp thành câu đúng."
+    items:
+      - id: a1.m11.test.05.q1
+        tokens: ["mir", "nicht.", "passt", "Hose", "Die"]
+        answer: "Die Hose passt mir nicht."
+        translation_vi: "Cái quần không vừa với tôi."
+        explanation_vi: "passen + Dativ mir."
+      - id: a1.m11.test.05.q2
+        tokens: ["umgetauscht.", "Wir", "die", "haben", "Hose"]
+        answer: "Wir haben die Hose umgetauscht."
+        translation_vi: "Chúng tôi đã đổi cái quần."
+        explanation_vi: "Partizip II của động từ tách ở cuối câu."
+  - id: a1.m11.test.06
+    type: translation
+    skill: writing
+    difficulty: 2
+    objective_refs: [a1.m11.obj.dativ, a1.m11.obj.welcher]
+    instructions_vi: "Dịch sang tiếng Đức."
+    items:
+      - { id: a1.m11.test.06.q1, direction: vi-de, source: "Tôi rất thích chiếc áo khoác này.", answers: ["Die Jacke gefällt mir sehr.", "Diese Jacke gefällt mir sehr."], explanation_vi: "gefallen + Dativ mir." }
+      - { id: a1.m11.test.06.q2, direction: vi-de, source: "Bạn thích chiếc áo len nào?", answers: ["Welcher Pullover gefällt dir?", "Welcher Pullover gefällt Ihnen?"], explanation_vi: "„Pullover“ giống đực → welcher." }
+  - id: a1.m11.test.07
+    type: writing-practice
+    skill: writing
+    difficulty: 3
+    objective_refs: [a1.m11.obj.einkaufen, a1.m11.obj.praefix, a1.m11.obj.kleidung]
+    instructions_vi: "Viết 3–4 câu: bạn đã mua một món đồ, nó không vừa và bạn muốn đổi."
+    items:
+      - id: a1.m11.test.07.q1
+        prompt_vi: "Viết tin nhắn cho cửa hàng: đã mua gì, vấn đề gì, muốn đổi."
+        model_answer: { de: "Guten Tag, ich habe gestern eine Hose gekauft. Sie passt mir nicht, sie ist zu eng. Kann ich die Hose umtauschen? Vielen Dank!", vi: "Xin chào, hôm qua tôi đã mua một cái quần. Nó không vừa với tôi, nó chật. Tôi đổi cái quần được không ạ? Cảm ơn nhiều!" }
+        rubric_vi: ["Dùng Perfekt đúng (habe … gekauft).", "Dùng passen + Dativ mir.", "Hỏi lịch sự về việc đổi hàng (umtauschen).", "Chính tả và dấu câu đúng."]
+        explanation_vi: "Bài mẫu có Perfekt, passen + mir và câu hỏi lịch sự."
+  - id: a1.m11.test.08
+    type: speaking-practice
+    skill: speaking
+    difficulty: 2
+    objective_refs: [a1.m11.obj.einkaufen, a1.m11.obj.kleidung]
+    instructions_vi: "Đóng vai khách hàng ở cửa hàng quần áo: chào, chọn đồ, hỏi giá, thử đồ."
+    items:
+      - id: a1.m11.test.08.q1
+        prompt_vi: "Chọn một món đồ, hỏi giá và xin thử đồ."
+        model_answer: { de: "Guten Tag! Diese Jacke gefällt mir. Was kostet sie? Kann ich sie anprobieren? – Danke schön!", vi: "Xin chào! Chiếc áo khoác này tôi thích. Nó giá bao nhiêu? Tôi thử nó được không? – Cảm ơn nhiều!" }
+        rubric_vi: ["Chào và bày tỏ ý kiến (gefällt mir).", "Hỏi giá đúng (Was kostet …?).", "Xin phép thử đồ (Kann ich … anprobieren?).", "Dùng Sie/lịch sự phù hợp."]
+        explanation_vi: "Bài mẫu có đủ: ý kiến, giá, thử đồ, cảm ơn."

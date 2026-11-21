@@ -1,0 +1,1819 @@
+schema_version: '2.0'
+content_type: vocabulary-set
+id: a1.m03.vocab
+level: A1
+module: a1.m03
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+  references:
+  - work: Netzwerk neu A1 (Klett)
+    scope: 'Kapitel 3: In Hamburg; Die Taxifahrt; Kein Glück?!; Links, rechts, geradeaus; Landeskunde: Events in Hamburg; Landeskunde: Jahreszeiten in D-A-CH; Film: Die Netzwerk-WG; kurz und klar: Redemittel und Grammatik'
+    verification: verified
+  notes_vi: Trình tự và phạm vi theo Stoffverteilungsplan Netzwerk neu A1.1 (Kapitel 3, 10 UE) và Kapitelwortschatz. Thông tin về Hamburg trong bài đọc là thông tin phổ thông, viết lại hoàn toàn.
+entries:
+- id: a1.m03.v.bahnhof
+  de: Bahnhof
+  pos: noun
+  article: der
+  plural: Bahnhöfe
+  vi: nhà ga (tàu hỏa)
+  ipa: /ˈbaːnˌhoːf/
+  example:
+    de: Der Bahnhof ist in der Mitte von Hamburg.
+    vi: Nhà ga ở trung tâm Hamburg.
+  usage_vi: 'die Bahn (tàu) + der Hof (sân). Ga chính: der Hauptbahnhof (Hbf).'
+  lesson_refs:
+  - a1.m03.l01
+  tags:
+  - stadt
+  - verkehr
+  source: nwn-lern
+- id: a1.m03.v.breit
+  de: breit
+  pos: adjective
+  vi: rộng
+  ipa: /bʁaɪ̯t/
+  example:
+    de: Der Fluss ist breit.
+    vi: Con sông rộng.
+  usage_vi: 'Trái nghĩa: schmal (hẹp) – học sau.'
+  lesson_refs:
+  - a1.m03.l01
+  tags:
+  - beschreibung
+  source: nwn-lern
+- id: a1.m03.v.erste
+  de: erste
+  pos: numeral
+  vi: thứ nhất, đầu tiên
+  ipa: /ˈeːɐ̯stə/
+  example:
+    de: Das ist die erste Station.
+    vi: Đây là trạm đầu tiên.
+  usage_vi: Số thứ tự (Ordinalzahlen) học kỹ ở Kapitel 6.
+  lesson_refs:
+  - a1.m03.l01
+  tags:
+  - zahl
+  source: nwn-lern
+- id: a1.m03.v.euro
+  de: Euro
+  pos: noun
+  article: der
+  plural: Euros
+  vi: đồng euro
+  ipa: /ˈɔʏ̯ʁo/
+  example:
+    de: Das Ticket kostet 20 Euro.
+    vi: Vé giá 20 euro.
+  usage_vi: 'Sau số đếm thường giữ nguyên „Euro“: 20 Euro. eu đọc [ɔʏ̯].'
+  lesson_refs:
+  - a1.m03.l01
+  tags:
+  - geld
+  source: nwn-lern
+- id: a1.m03.v.hoch
+  de: hoch
+  pos: adjective
+  vi: cao
+  ipa: /hoːx/
+  example:
+    de: Der Turm ist 130 Meter hoch.
+    vi: Tòa tháp cao 130 mét.
+  usage_vi: 'Trước danh từ đổi thành hoh-: ein hoher Turm (học ở A2).'
+  lesson_refs:
+  - a1.m03.l01
+  tags:
+  - beschreibung
+  source: nwn-lern
+- id: a1.m03.v.kirche
+  de: Kirche
+  pos: noun
+  article: die
+  plural: Kirchen
+  vi: nhà thờ
+  ipa: /ˈkɪʁçə/
+  example:
+    de: Die Kirche ist sehr alt.
+    vi: Nhà thờ rất cổ.
+  usage_vi: 'Số nhiều: Kirchen. „ch“ sau i đọc /ç/. „in der Kirche“ = trong nhà thờ; „zur Kirche gehen“ = đi đến nhà thờ.'
+  lesson_refs:
+  - a1.m03.l01
+  tags:
+  - stadt
+  source: nwn-lern
+- id: a1.m03.v.konzert
+  de: Konzert
+  pos: noun
+  article: das
+  plural: Konzerte
+  vi: buổi hòa nhạc
+  ipa: /kɔnˈtsɛʁt/
+  example:
+    de: Das Konzert ist am Samstag.
+    vi: Buổi hòa nhạc vào thứ Bảy.
+  usage_vi: 'Danh từ ghép: das Konzerthaus (nhà hòa nhạc).'
+  lesson_refs:
+  - a1.m03.l01
+  tags:
+  - freizeit
+  - musik
+  source: nwn-lern
+- id: a1.m03.v.konzerthaus
+  de: Konzerthaus
+  pos: noun
+  article: das
+  plural: Konzerthäuser
+  vi: nhà hòa nhạc
+  ipa: /kɔnˈtsɛʁtˌhaʊ̯s/
+  example:
+    de: Die Elbphilharmonie ist ein Konzerthaus.
+    vi: Elbphilharmonie là một nhà hòa nhạc.
+  usage_vi: 'Từ ghép Konzert + Haus; mạo từ theo từ cuối (das Haus). Số nhiều: Konzerthäuser.'
+  lesson_refs:
+  - a1.m03.l01
+  tags:
+  - stadt
+  - musik
+  source: nwn
+- id: a1.m03.v.meter
+  de: Meter
+  pos: noun
+  article: der
+  plural: Meter
+  vi: mét
+  ipa: /ˈmeːtɐ/
+  example:
+    de: Die Brücke ist 500 Meter lang.
+    vi: Cây cầu dài 500 mét.
+  usage_vi: 'Viết tắt: m. Số nhiều giống số ít.'
+  lesson_refs:
+  - a1.m03.l01
+  tags:
+  - mass
+  source: nwn-lern
+- id: a1.m03.v.mitte
+  de: Mitte
+  pos: noun
+  article: die
+  no_plural: true
+  vi: giữa, trung tâm
+  ipa: /ˈmɪtə/
+  example:
+    de: Das Rathaus ist in der Mitte der Stadt.
+    vi: Tòa thị chính ở trung tâm thành phố.
+  usage_vi: Chỉ dùng số ít.
+  lesson_refs:
+  - a1.m03.l01
+  tags:
+  - ort
+  - sg-only
+  source: nwn-lern
+- id: a1.m03.v.rathaus
+  de: Rathaus
+  pos: noun
+  article: das
+  plural: Rathäuser
+  vi: tòa thị chính
+  ipa: /ˈʁaːtˌhaʊ̯s/
+  example:
+    de: Das Rathaus ist schön.
+    vi: Tòa thị chính đẹp.
+  usage_vi: Ở Đức, Rathaus là nơi làm việc của chính quyền thành phố.
+  lesson_refs:
+  - a1.m03.l01
+  tags:
+  - stadt
+  source: nwn-lern
+- id: a1.m03.v.star
+  de: Star
+  pos: noun
+  article: der
+  plural: Stars
+  vi: ngôi sao (người nổi tiếng)
+  ipa: /ʃtaːɐ̯/
+  example:
+    de: Die Elbphilharmonie ist ein Star.
+    vi: Elbphilharmonie là một “ngôi sao”.
+  usage_vi: Từ mượn tiếng Anh; người Đức đọc [ʃtaːɐ̯] hoặc [staːɐ̯] – cả hai đều được.
+  lesson_refs:
+  - a1.m03.l01
+  tags:
+  - person
+  source: nwn-lern
+- id: a1.m03.v.turm
+  de: Turm
+  pos: noun
+  article: der
+  plural: Türme
+  vi: tòa tháp
+  ipa: /tʊʁm/
+  example:
+    de: Der Turm ist hoch.
+    vi: Tòa tháp cao.
+  usage_vi: 'Số nhiều có biến âm: die Türme.'
+  lesson_refs:
+  - a1.m03.l01
+  tags:
+  - stadt
+  source: nwn-lern
+- id: a1.m03.v.ueber
+  de: über
+  pos: preposition
+  vi: hơn (số lượng); về (chủ đề); qua, phía trên
+  ipa: /ˈyːbɐ/
+  example:
+    de: Der Turm ist über 130 Meter hoch.
+    vi: Tòa tháp cao hơn 130 mét.
+  usage_vi: 'Từ nhiều nghĩa: über 100 = hơn 100; Informationen über Hamburg = thông tin về Hamburg.'
+  lesson_refs:
+  - a1.m03.l01
+  tags:
+  - praeposition
+  - mehrdeutig
+  source: nwn-lern
+- id: a1.m03.v.circa
+  de: circa
+  pos: adverb
+  vi: khoảng, chừng
+  ipa: /ˈtsɪʁka/
+  example:
+    de: Die Tour dauert circa zwei Stunden.
+    vi: Chuyến tham quan kéo dài khoảng hai giờ.
+  usage_vi: 'Viết tắt: ca. – c đầu đọc [ts].'
+  lesson_refs:
+  - a1.m03.l01
+  tags:
+  - zahl
+  source: nwn-lern
+- id: a1.m03.v.da
+  de: da
+  pos: adverb
+  vi: ở đó, đó
+  ipa: /daː/
+  example:
+    de: Da ist das Rathaus!
+    vi: Kìa, tòa thị chính đó!
+  usage_vi: 'Chỉ vào một chỗ: Da! = Ở đó!'
+  lesson_refs:
+  - a1.m03.l01
+  tags:
+  - ort
+  source: nwn-lern
+- id: a1.m03.v.fluss
+  de: Fluss
+  pos: noun
+  article: der
+  plural: Flüsse
+  vi: con sông
+  ipa: /flʊs/
+  example:
+    de: Die Elbe ist ein Fluss.
+    vi: Elbe là một con sông.
+  usage_vi: 'ss sau nguyên âm ngắn. Số nhiều: die Flüsse.'
+  lesson_refs:
+  - a1.m03.l01
+  tags:
+  - natur
+  - stadt
+  source: nwn-lern
+- id: a1.m03.v.hafen
+  de: Hafen
+  pos: noun
+  article: der
+  plural: Häfen
+  vi: bến cảng
+  ipa: /ˈhaːfn̩/
+  example:
+    de: Der Hafen in Hamburg ist groß.
+    vi: Cảng Hamburg rất lớn.
+  usage_vi: 'Số nhiều chỉ có biến âm: die Häfen.'
+  lesson_refs:
+  - a1.m03.l01
+  tags:
+  - stadt
+  - verkehr
+  source: nwn
+- id: a1.m03.v.meer
+  de: Meer
+  pos: noun
+  article: das
+  plural: Meere
+  vi: biển
+  ipa: /meːɐ̯/
+  example:
+    de: Hamburg ist nicht am Meer.
+    vi: Hamburg không nằm bên bờ biển.
+  usage_vi: 'ee đọc [eː] dài. Phân biệt: das Meer (biển) – der See (hồ, bài 2) – die See (biển, văn viết).'
+  lesson_refs:
+  - a1.m03.l01
+  tags:
+  - natur
+  source: nwn-lern
+- id: a1.m03.v.mensch
+  de: Mensch
+  pos: noun
+  article: der
+  plural: Menschen
+  vi: con người
+  ipa: /mɛnʃ/
+  example:
+    de: In Hamburg wohnen viele Menschen.
+    vi: Ở Hamburg có nhiều người sinh sống.
+  usage_vi: Số nhiều -en.
+  lesson_refs:
+  - a1.m03.l01
+  tags:
+  - person
+  source: nwn-lern
+- id: a1.m03.v.nach
+  de: nach
+  pos: preposition
+  vi: đến, tới (thành phố, nước)
+  ipa: /naːx/
+  example:
+    de: Der Zug fährt nach Berlin.
+    vi: Tàu chạy đến Berlin.
+  usage_vi: 'nach + tên thành phố/nước không mạo từ. Đã gặp ở nghĩa khác: „nach … fragen“ (hỏi về). Từ nhiều nghĩa.'
+  lesson_refs:
+  - a1.m03.l01
+  tags:
+  - praeposition
+  - verkehr
+  - mehrdeutig
+  source: nwn-lern
+- id: a1.m03.v.schiff
+  de: Schiff
+  pos: noun
+  article: das
+  plural: Schiffe
+  vi: con tàu (thủy)
+  ipa: /ʃɪf/
+  example:
+    de: Die Schiffe fahren auf der Elbe.
+    vi: Những con tàu chạy trên sông Elbe.
+  usage_vi: auf der Elbe = trên sông Elbe (cụm cố định).
+  lesson_refs:
+  - a1.m03.l01
+  tags:
+  - verkehr
+  source: nwn-lern
+- id: a1.m03.v.sehen
+  de: sehen
+  pos: verb
+  vi: nhìn thấy, xem
+  forms:
+    text: du siehst, er sieht
+    er: sieht
+  ipa: /ˈzeːən/
+  example:
+    de: Da sehen Sie das Rathaus.
+    vi: Ở đó quý vị thấy tòa thị chính.
+  usage_vi: 'Đổi nguyên âm e → ie: du siehst, er sieht.'
+  lesson_refs:
+  - a1.m03.l01
+  tags:
+  - verb
+  - unregelmaessig
+  source: nwn-lern
+- id: a1.m03.v.zug
+  de: Zug
+  pos: noun
+  article: der
+  plural: Züge
+  vi: tàu hỏa
+  ipa: /tsuːk/
+  example:
+    de: Der Zug fährt nach Wien.
+    vi: Tàu chạy đi Viên.
+  usage_vi: 'g cuối đọc [k]. Số nhiều: die Züge.'
+  lesson_refs:
+  - a1.m03.l01
+  tags:
+  - verkehr
+  source: nwn-lern
+- id: a1.m03.v.ausstellung
+  de: Ausstellung
+  pos: noun
+  article: die
+  plural: Ausstellungen
+  vi: triển lãm
+  ipa: /ˈaʊ̯sˌʃtɛlʊŋ/
+  example:
+    de: Die Ausstellung ist interessant.
+    vi: Cuộc triển lãm thú vị.
+  usage_vi: -ung → die.
+  lesson_refs:
+  - a1.m03.l01
+  tags:
+  - freizeit
+  - kultur
+  source: nwn-lern
+- id: a1.m03.v.bruecke
+  de: Brücke
+  pos: noun
+  article: die
+  plural: Brücken
+  vi: cây cầu
+  ipa: /ˈbʁʏkə/
+  example:
+    de: Hamburg hat viele Brücken.
+    vi: Hamburg có nhiều cây cầu.
+  usage_vi: ck sau nguyên âm ngắn.
+  lesson_refs:
+  - a1.m03.l01
+  tags:
+  - stadt
+  source: nwn-lern
+- id: a1.m03.v.lang
+  de: lang
+  pos: adjective
+  vi: dài
+  ipa: /laŋ/
+  example:
+    de: Die Brücke ist lang.
+    vi: Cây cầu dài.
+  usage_vi: 'Trái nghĩa: kurz (Kapitel 1).'
+  lesson_refs:
+  - a1.m03.l01
+  tags:
+  - beschreibung
+  source: nwn-lern
+- id: a1.m03.v.ort
+  de: Ort
+  pos: noun
+  article: der
+  plural: Orte
+  vi: địa điểm, nơi chốn
+  ipa: /ɔʁt/
+  example:
+    de: Der Hafen ist mein Lieblingsort.
+    vi: Bến cảng là nơi tôi thích nhất.
+  usage_vi: Đã gặp trong der Wohnort, der Geburtsort.
+  lesson_refs:
+  - a1.m03.l01
+  tags:
+  - ort
+  source: nwn-lern
+- id: a1.m03.v.stadttour
+  de: Stadttour
+  pos: noun
+  article: die
+  plural: Stadttouren
+  vi: chuyến tham quan thành phố
+  ipa: /ˈʃtatˌtuːɐ̯/
+  example:
+    de: Die Stadttour beginnt am Rathaus.
+    vi: Chuyến tham quan bắt đầu ở tòa thị chính.
+  usage_vi: die Stadt + die Tour.
+  lesson_refs:
+  - a1.m03.l01
+  tags:
+  - stadt
+  - reise
+  source: nwn
+- id: a1.m03.v.ein
+  de: ein
+  pos: article
+  vi: một (mạo từ không xác định)
+  ipa: /aɪ̯n/
+  example:
+    de: Das ist ein Hotel.
+    vi: Đó là một khách sạn.
+  usage_vi: ein trước danh từ giống đực/trung, eine trước giống cái. Không có số nhiều. (Lernwortschatz Kapitel 1, dạy kỹ ở đây.)
+  lesson_refs:
+  - a1.m03.l02
+  tags:
+  - artikel
+  source: nwn-lern
+- id: a1.m03.v.weg
+  de: Weg
+  pos: noun
+  article: der
+  plural: Wege
+  vi: con đường, lối đi
+  ipa: /veːk/
+  example:
+    de: Wie ist der Weg zum Hotel?
+    vi: Đường đến khách sạn thế nào?
+  usage_vi: 'Phân biệt: der Weg (lối đi, đường đi đến đâu) – die Straße (con phố có tên).'
+  lesson_refs:
+  - a1.m03.l02
+  tags:
+  - ort
+  - verkehr
+  source: nwn-lern
+- id: a1.m03.v.interessant
+  de: interessant
+  pos: adjective
+  vi: thú vị
+  ipa: /ɪntəʁɛˈsant/
+  example:
+    de: Hamburg ist interessant.
+    vi: Hamburg rất thú vị.
+  usage_vi: 'Trọng âm ở cuối: in-te-res-SANT.'
+  lesson_refs:
+  - a1.m03.l02
+  tags:
+  - bewertung
+  source: nwn-lern
+- id: a1.m03.v.loesung
+  de: Lösung
+  pos: noun
+  article: die
+  plural: Lösungen
+  vi: lời giải, đáp án
+  ipa: /ˈløːzʊŋ/
+  example:
+    de: Die Lösung ist richtig.
+    vi: Đáp án đúng.
+  usage_vi: -ung → die.
+  lesson_refs:
+  - a1.m03.l02
+  tags:
+  - lernen
+  source: nwn-lern
+- id: a1.m03.v.plan
+  de: Plan
+  pos: noun
+  article: der
+  plural: Pläne
+  vi: bản đồ (thành phố); kế hoạch
+  ipa: /plaːn/
+  example:
+    de: Hast du einen Stadtplan?
+    vi: Bạn có bản đồ thành phố không?
+  usage_vi: 'Từ nhiều nghĩa: der Stadtplan (bản đồ), der Plan (kế hoạch).'
+  lesson_refs:
+  - a1.m03.l02
+  tags:
+  - stadt
+  - mehrdeutig
+  source: nwn-lern
+- id: a1.m03.v.rechts
+  de: rechts
+  pos: adverb
+  vi: bên phải
+  ipa: /ʁɛçts/
+  example:
+    de: Das Hotel ist rechts.
+    vi: Khách sạn ở bên phải.
+  usage_vi: 'Trái nghĩa: links (bài 4).'
+  lesson_refs:
+  - a1.m03.l02
+  tags:
+  - richtung
+  source: nwn-lern
+- id: a1.m03.v.schon
+  de: schon
+  pos: adverb
+  vi: đã, rồi
+  ipa: /ʃoːn/
+  example:
+    de: Da ist schon das Hotel!
+    vi: Khách sạn kia rồi!
+  usage_vi: Đừng nhầm với schön (đẹp) – chỉ khác Umlaut.
+  lesson_refs:
+  - a1.m03.l02
+  tags:
+  - zeit
+  source: nwn-lern
+- id: a1.m03.v.schoen
+  de: schön
+  pos: adjective
+  vi: đẹp
+  ipa: /ʃøːn/
+  example:
+    de: Der See ist schön.
+    vi: Cái hồ đẹp.
+  usage_vi: ö dài [øː]. „Schönes Wochenende!“ = Chúc cuối tuần vui vẻ!
+  lesson_refs:
+  - a1.m03.l02
+  tags:
+  - bewertung
+  source: nwn-lern
+- id: a1.m03.v.see
+  de: See
+  pos: noun
+  article: der
+  plural: Seen
+  vi: hồ
+  ipa: /zeː/
+  example:
+    de: Die Alster ist ein See in Hamburg.
+    vi: Alster là một hồ ở Hamburg.
+  usage_vi: 'der See = hồ; die See = biển (văn viết). Số nhiều: die Seen [ˈzeːən].'
+  lesson_refs:
+  - a1.m03.l02
+  tags:
+  - natur
+  - mehrdeutig
+  source: nwn-lern
+- id: a1.m03.v.zeichnen
+  de: zeichnen
+  pos: verb
+  vi: vẽ
+  forms:
+    text: du zeichnest, er zeichnet
+    er: zeichnet
+  ipa: /ˈtsaɪ̯çnən/
+  example:
+    de: Zeichnen Sie den Weg.
+    vi: Hãy vẽ đường đi.
+  usage_vi: Gốc tận cùng -n sau phụ âm → du zeichnest (thêm e).
+  lesson_refs:
+  - a1.m03.l02
+  tags:
+  - verb
+  - arbeitsanweisung
+  source: nwn-lern
+- id: a1.m03.v.auf-stehen
+  de: auf|stehen
+  pos: verb
+  vi: đứng dậy; thức dậy
+  forms:
+    text: du stehst auf, er steht auf
+    er: steht auf
+    separable: true
+  ipa: /ˈaʊ̯fˌʃteːən/
+  example:
+    de: Stehen Sie auf!
+    vi: Hãy đứng dậy!
+  usage_vi: Động từ tách (Kapitel 6). Nghĩa “thức dậy” dùng nhiều ở Kapitel 5.
+  lesson_refs:
+  - a1.m03.l02
+  tags:
+  - verb
+  - trennbar
+  - mehrdeutig
+  source: nwn-lern
+- id: a1.m03.v.gruppe
+  de: Gruppe
+  pos: noun
+  article: die
+  plural: Gruppen
+  vi: nhóm
+  ipa: /ˈɡʁʊpə/
+  example:
+    de: Wir arbeiten in Gruppen.
+    vi: Chúng ta làm việc theo nhóm.
+  usage_vi: 'Số nhiều: Gruppen. „in Gruppen arbeiten“ = làm việc theo nhóm; „Gruppenarbeit“ = bài tập nhóm.'
+  lesson_refs:
+  - a1.m03.l02
+  tags:
+  - lernen
+  source: nwn-lern
+- id: a1.m03.v.haus
+  de: Haus
+  pos: noun
+  article: das
+  plural: Häuser
+  vi: ngôi nhà
+  ipa: /haʊ̯s/
+  example:
+    de: Das Haus ist alt.
+    vi: Ngôi nhà cũ.
+  usage_vi: 'Số nhiều: die Häuser. „nach Hause“ = về nhà; „zu Hause“ = ở nhà.'
+  lesson_refs:
+  - a1.m03.l02
+  tags:
+  - wohnen
+  source: nwn-lern
+- id: a1.m03.v.satz
+  de: Satz
+  pos: noun
+  article: der
+  plural: Sätze
+  vi: câu
+  ipa: /zats/
+  example:
+    de: Der Satz ist richtig.
+    vi: Câu này đúng.
+  usage_vi: 'Số nhiều: die Sätze.'
+  lesson_refs:
+  - a1.m03.l02
+  tags:
+  - lernen
+  source: nwn-lern
+- id: a1.m03.v.arm
+  de: Arm
+  pos: noun
+  article: der
+  plural: Arme
+  vi: cánh tay
+  ipa: /aʁm/
+  example:
+    de: Zeigen Sie mit dem Arm nach rechts.
+    vi: Hãy giơ tay chỉ sang phải.
+  usage_vi: Bộ phận cơ thể học thêm ở Kapitel 8.
+  lesson_refs:
+  - a1.m03.l02
+  tags:
+  - koerper
+  source: nwn-lern
+- id: a1.m03.v.tisch
+  de: Tisch
+  pos: noun
+  article: der
+  plural: Tische
+  vi: cái bàn
+  ipa: /tɪʃ/
+  example:
+    de: Der Plan ist auf dem Tisch.
+    vi: Bản đồ ở trên bàn.
+  usage_vi: 'Số nhiều: Tische. „sch“ đọc /ʃ/. Vị trí: „auf dem Tisch“ = trên bàn (Wo? + Dativ).'
+  lesson_refs:
+  - a1.m03.l02
+  tags:
+  - wohnen
+  source: nwn-lern
+- id: a1.m03.v.taxifahrt
+  de: Taxifahrt
+  pos: noun
+  article: die
+  plural: Taxifahrten
+  vi: chuyến đi taxi
+  ipa: /ˈtaksiˌfaːɐ̯t/
+  example:
+    de: Die Taxifahrt kostet 15 Euro.
+    vi: Chuyến taxi giá 15 euro.
+  usage_vi: die Fahrt (chuyến đi) → die.
+  lesson_refs:
+  - a1.m03.l02
+  tags:
+  - verkehr
+  source: nwn
+- id: a1.m03.v.moin
+  de: Moin!
+  pos: interjection
+  vi: Chào! (miền Bắc nước Đức)
+  ipa: /mɔɪ̯n/
+  example:
+    de: Moin! Wohin?
+    vi: Chào! Đi đâu ạ?
+  usage_vi: Lời chào ở Hamburg và miền Bắc Đức, dùng cả ngày (không chỉ buổi sáng).
+  lesson_refs:
+  - a1.m03.l02
+  tags:
+  - begruessung
+  - dach
+  source: nwn
+- id: a1.m03.v.gruess-gott
+  de: Grüß Gott!
+  pos: interjection
+  vi: Xin chào! (miền Nam Đức, Áo)
+  ipa: /ɡʁyːs ˈɡɔt/
+  example:
+    de: Grüß Gott, Frau Huber!
+    vi: Xin chào bà Huber!
+  usage_vi: Lời chào trang trọng phổ biến ở Bayern và Áo.
+  lesson_refs:
+  - a1.m03.l02
+  tags:
+  - begruessung
+  - dach
+  source: nwn
+- id: a1.m03.v.grueezi
+  de: Grüezi!
+  pos: interjection
+  vi: Xin chào! (Thụy Sĩ)
+  ipa: /ˈɡʁyːətsi/
+  example:
+    de: Grüezi! Wie geht es Ihnen?
+    vi: Xin chào! Ông/Bà khỏe không?
+  usage_vi: Lời chào trang trọng ở vùng nói tiếng Đức của Thụy Sĩ.
+  lesson_refs:
+  - a1.m03.l02
+  tags:
+  - begruessung
+  - dach
+  source: nwn
+- id: a1.m03.v.okay
+  de: okay
+  pos: interjection
+  vi: được, ổn
+  ipa: /oˈkeː/
+  example:
+    de: Okay, das geht.
+    vi: Ok, được đấy.
+  usage_vi: Văn nói.
+  lesson_refs:
+  - a1.m03.l02
+  source: nwn
+- id: a1.m03.v.kein
+  de: kein
+  pos: article
+  vi: không (có) … nào
+  ipa: /kaɪ̯n/
+  example:
+    de: Das ist kein Bus, das ist eine Straßenbahn.
+    vi: Đó không phải xe buýt, đó là tàu điện.
+  usage_vi: 'Phủ định danh từ: ein → kein, eine → keine; số nhiều → keine. (Lernwortschatz Kapitel 2, dạy kỹ ở đây.)'
+  lesson_refs:
+  - a1.m03.l03
+  tags:
+  - artikel
+  - negation
+  source: nwn-lern
+- id: a1.m03.v.bus
+  de: Bus
+  pos: noun
+  article: der
+  plural: Busse
+  vi: xe buýt
+  ipa: /bʊs/
+  example:
+    de: Der Bus kommt nicht.
+    vi: Xe buýt không đến.
+  usage_vi: 'Số nhiều: die Busse (ss).'
+  lesson_refs:
+  - a1.m03.l03
+  tags:
+  - verkehr
+  source: nwn-lern
+- id: a1.m03.v.fahrrad
+  de: Fahrrad
+  pos: noun
+  article: das
+  plural: Fahrräder
+  vi: xe đạp
+  ipa: /ˈfaːɐ̯ˌʁaːt/
+  example:
+    de: Ich fahre Fahrrad.
+    vi: Tôi đi xe đạp.
+  usage_vi: '„Fahrrad fahren“ không có mạo từ. Văn nói: das Rad.'
+  lesson_refs:
+  - a1.m03.l03
+  tags:
+  - verkehr
+  source: nwn-lern
+- id: a1.m03.v.u-bahn
+  de: U-Bahn
+  pos: noun
+  article: die
+  plural: U-Bahnen
+  vi: tàu điện ngầm
+  ipa: /ˈuːˌbaːn/
+  example:
+    de: Die U-Bahn fährt schnell.
+    vi: Tàu điện ngầm chạy nhanh.
+  usage_vi: U = Untergrund (dưới đất).
+  lesson_refs:
+  - a1.m03.l03
+  tags:
+  - verkehr
+  source: nwn-lern
+- id: a1.m03.v.s-bahn
+  de: S-Bahn
+  pos: noun
+  article: die
+  plural: S-Bahnen
+  vi: tàu điện nội/ngoại ô
+  ipa: /ˈɛsˌbaːn/
+  example:
+    de: Die S-Bahn fährt zum Flughafen.
+    vi: Tàu S-Bahn chạy đến sân bay.
+  usage_vi: S-Bahn nối trung tâm với vùng ngoại ô.
+  lesson_refs:
+  - a1.m03.l03
+  tags:
+  - verkehr
+  source: nwn-lern
+- id: a1.m03.v.strassenbahn
+  de: Straßenbahn
+  pos: noun
+  article: die
+  plural: Straßenbahnen
+  vi: tàu điện mặt đất
+  ipa: /ˈʃtʁaːsn̩ˌbaːn/
+  example:
+    de: In Wien fahren viele Straßenbahnen.
+    vi: Ở Viên có nhiều tàu điện chạy.
+  usage_vi: 'Ở Áo gọi là die Bim; ở Thụy Sĩ: das Tram.'
+  lesson_refs:
+  - a1.m03.l03
+  tags:
+  - verkehr
+  - dach
+  source: nwn-lern
+- id: a1.m03.v.flugzeug
+  de: Flugzeug
+  pos: noun
+  article: das
+  plural: Flugzeuge
+  vi: máy bay
+  ipa: /ˈfluːkˌtsɔɪ̯k/
+  example:
+    de: Das Flugzeug fliegt nach Hanoi.
+    vi: Máy bay bay đến Hà Nội.
+  usage_vi: fliegen = bay.
+  lesson_refs:
+  - a1.m03.l03
+  tags:
+  - verkehr
+  - reise
+  source: nwn-lern
+- id: a1.m03.v.zu-fuss
+  de: zu Fuß
+  pos: phrase
+  vi: đi bộ
+  ipa: /tsuː ˈfuːs/
+  example:
+    de: Ich gehe zu Fuß.
+    vi: Tôi đi bộ.
+  usage_vi: 'Cụm cố định: zu Fuß gehen. (zu – Lernwortschatz Kapitel 1.)'
+  lesson_refs:
+  - a1.m03.l03
+  tags:
+  - verkehr
+  source: nwn
+- id: a1.m03.v.zeigen
+  de: zeigen
+  pos: verb
+  vi: chỉ, cho xem
+  forms:
+    text: du zeigst, er zeigt
+    er: zeigt
+  ipa: /ˈtsaɪ̯ɡn̩/
+  example:
+    de: Zeigen Sie auf das Bild.
+    vi: Hãy chỉ vào bức tranh.
+  usage_vi: Đi với Akkusativ; „auf das Bild zeigen“ = chỉ vào bức tranh. Cách nói ‘cho ai xem gì’ cần Dativ (học ở Kapitel 11).
+  lesson_refs:
+  - a1.m03.l03
+  tags:
+  - verb
+  source: nwn-lern
+- id: a1.m03.v.also
+  de: also
+  pos: adverb
+  vi: vậy thì, vậy
+  ipa: /ˈalzo/
+  example:
+    de: Kein Bus? Also zu Fuß!
+    vi: Không có xe buýt à? Vậy thì đi bộ!
+  usage_vi: 'Cẩn thận: also ≠ “also” tiếng Anh (cũng). “cũng” là auch.'
+  lesson_refs:
+  - a1.m03.l03
+  tags:
+  - konnektor
+  - falscher-freund
+  source: nwn-lern
+- id: a1.m03.v.bild
+  de: Bild
+  pos: noun
+  article: das
+  plural: Bilder
+  vi: bức tranh, hình ảnh
+  ipa: /bɪlt/
+  example:
+    de: Das Bild ist schön.
+    vi: Bức tranh đẹp.
+  usage_vi: 'd cuối đọc [t]. Số nhiều: die Bilder.'
+  lesson_refs:
+  - a1.m03.l03
+  tags:
+  - kunst
+  source: nwn-lern
+- id: a1.m03.v.fahrkarte
+  de: Fahrkarte
+  pos: noun
+  article: die
+  plural: Fahrkarten
+  vi: vé (tàu, xe)
+  ipa: /ˈfaːɐ̯ˌkaʁtə/
+  example:
+    de: Ich habe keine Fahrkarte.
+    vi: Tôi không có vé.
+  usage_vi: 'Đồng nghĩa: das Ticket.'
+  lesson_refs:
+  - a1.m03.l03
+  tags:
+  - verkehr
+  source: nwn-lern
+- id: a1.m03.v.glueck
+  de: Glück
+  pos: noun
+  article: das
+  no_plural: true
+  vi: may mắn; hạnh phúc
+  ipa: /ɡlʏk/
+  example:
+    de: So ein Glück!
+    vi: May quá!
+  usage_vi: „Viel Glück!“ = Chúc may mắn! „Kein Glück!“ = Xui quá!
+  lesson_refs:
+  - a1.m03.l03
+  tags:
+  - gefuehl
+  - sg-only
+  - mehrdeutig
+  source: nwn-lern
+- id: a1.m03.v.heute
+  de: heute
+  pos: adverb
+  vi: hôm nay
+  ipa: /ˈhɔɪ̯tə/
+  example:
+    de: Heute fährt kein Bus.
+    vi: Hôm nay không có xe buýt.
+  usage_vi: 'Trạng từ chỉ thời gian, viết thường. Kết hợp: „heute Morgen/Abend“ (Morgen, Abend viết hoa), „heute Nachmittag“.'
+  lesson_refs:
+  - a1.m03.l03
+  tags:
+  - zeit
+  source: nwn-lern
+- id: a1.m03.v.jetzt
+  de: jetzt
+  pos: adverb
+  vi: bây giờ
+  ipa: /jɛtst/
+  example:
+    de: Jetzt aber schnell!
+    vi: Bây giờ phải nhanh lên!
+  usage_vi: 'tzt: đọc rõ cụm phụ âm cuối.'
+  lesson_refs:
+  - a1.m03.l03
+  tags:
+  - zeit
+  source: nwn-lern
+- id: a1.m03.v.schnell
+  de: schnell
+  pos: adjective
+  vi: nhanh
+  ipa: /ʃnɛl/
+  example:
+    de: Die U-Bahn ist schnell.
+    vi: Tàu điện ngầm nhanh.
+  usage_vi: 'Trái nghĩa: langsam (Kapitel 1).'
+  lesson_refs:
+  - a1.m03.l03
+  tags:
+  - beschreibung
+  source: nwn-lern
+- id: a1.m03.v.test
+  de: Test
+  pos: noun
+  article: der
+  plural: Tests
+  vi: bài kiểm tra
+  ipa: /tɛst/
+  example:
+    de: Heute habe ich einen Test.
+    vi: Hôm nay tôi có bài kiểm tra.
+  usage_vi: 'Số nhiều: Tests. „einen Test schreiben“ = làm bài kiểm tra; „einen Test machen“ cũng được.'
+  lesson_refs:
+  - a1.m03.l03
+  tags:
+  - lernen
+  source: nwn-lern
+- id: a1.m03.v.links
+  de: links
+  pos: adverb
+  vi: bên trái
+  ipa: /lɪŋks/
+  example:
+    de: Gehen Sie links!
+    vi: Hãy rẽ trái!
+  usage_vi: nach links = sang trái.
+  lesson_refs:
+  - a1.m03.l04
+  tags:
+  - richtung
+  source: nwn-lern
+- id: a1.m03.v.geradeaus
+  de: geradeaus
+  pos: adverb
+  vi: đi thẳng
+  ipa: /ɡəʁaːdəˈʔaʊ̯s/
+  example:
+    de: Gehen Sie geradeaus.
+    vi: Hãy đi thẳng.
+  usage_vi: 'Trọng âm ở cuối: ge-ra-de-AUS.'
+  lesson_refs:
+  - a1.m03.l04
+  tags:
+  - richtung
+  source: nwn-lern
+- id: a1.m03.v.dank
+  de: Dank
+  pos: noun
+  article: der
+  no_plural: true
+  vi: lời cảm ơn
+  ipa: /daŋk/
+  example:
+    de: Vielen Dank!
+    vi: Cảm ơn rất nhiều!
+  usage_vi: 'Gặp trong: Vielen Dank! / Danke schön!'
+  lesson_refs:
+  - a1.m03.l04
+  tags:
+  - hoeflichkeit
+  - sg-only
+  source: nwn-lern
+- id: a1.m03.v.einfach
+  de: einfach
+  pos: adjective
+  vi: đơn giản, dễ
+  ipa: /ˈaɪ̯nfax/
+  example:
+    de: Das ist ganz einfach.
+    vi: Cái đó rất đơn giản.
+  usage_vi: 'Nghĩa đơn giản, dễ (trái nghĩa schwierig). Còn là từ đệm nhấn nhẹ: „Komm einfach vorbei!“ = cứ ghé qua đi.'
+  lesson_refs:
+  - a1.m03.l04
+  tags:
+  - bewertung
+  source: nwn-lern
+- id: a1.m03.v.genau
+  de: genau
+  pos: adverb
+  vi: chính xác, đúng vậy
+  ipa: /ɡəˈnaʊ̯/
+  example:
+    de: Ja, genau!
+    vi: Đúng vậy!
+  usage_vi: Rất hay dùng để đồng ý.
+  lesson_refs:
+  - a1.m03.l04
+  tags:
+  - antwort
+  source: nwn-lern
+- id: a1.m03.v.mal
+  de: Mal
+  pos: noun
+  article: das
+  plural: Male
+  vi: lần
+  ipa: /maːl/
+  example:
+    de: Würfeln Sie drei Mal.
+    vi: Hãy tung xúc xắc ba lần.
+  usage_vi: drei Mal / dreimal = ba lần.
+  lesson_refs:
+  - a1.m03.l04
+  tags:
+  - zahl
+  source: nwn-lern
+- id: a1.m03.v.markt
+  de: Markt
+  pos: noun
+  article: der
+  plural: Märkte
+  vi: chợ
+  ipa: /maʁkt/
+  example:
+    de: Der Markt ist am Samstag.
+    vi: Chợ họp vào thứ Bảy.
+  usage_vi: 'Số nhiều: die Märkte.'
+  lesson_refs:
+  - a1.m03.l04
+  tags:
+  - stadt
+  - einkaufen
+  source: nwn-lern
+- id: a1.m03.v.park
+  de: Park
+  pos: noun
+  article: der
+  plural: Parks
+  vi: công viên
+  ipa: /paʁk/
+  example:
+    de: Der Park ist links.
+    vi: Công viên ở bên trái.
+  usage_vi: 'Số nhiều: Parks. „im Park“ = trong công viên (in + dem).'
+  lesson_refs:
+  - a1.m03.l04
+  tags:
+  - stadt
+  - freizeit
+  source: nwn-lern
+- id: a1.m03.v.ziel
+  de: Ziel
+  pos: noun
+  article: das
+  plural: Ziele
+  vi: đích đến, mục tiêu
+  ipa: /tsiːl/
+  example:
+    de: Das Ziel ist der Bahnhof.
+    vi: Đích đến là nhà ga.
+  usage_vi: 'Số nhiều: Ziele. Nghĩa đích đến (Das Ziel ist der Bahnhof) và mục tiêu (Mein Ziel ist A1).'
+  lesson_refs:
+  - a1.m03.l04
+  tags:
+  - ort
+  source: nwn-lern
+- id: a1.m03.v.dann
+  de: dann
+  pos: adverb
+  vi: sau đó, rồi
+  ipa: /dan/
+  example:
+    de: Gehen Sie zuerst geradeaus und dann rechts.
+    vi: Hãy đi thẳng trước rồi rẽ phải.
+  usage_vi: Lernwortschatz Kapitel 1, dạy ở đây vì dùng nhiều khi chỉ đường.
+  lesson_refs:
+  - a1.m03.l04
+  tags:
+  - reihenfolge
+  source: nwn-lern
+- id: a1.m03.v.zuerst
+  de: zuerst
+  pos: adverb
+  vi: trước tiên
+  ipa: /tsuˈʔeːɐ̯st/
+  example:
+    de: Zuerst geradeaus, dann links.
+    vi: Trước tiên đi thẳng, sau đó rẽ trái.
+  usage_vi: 'Thứ tự: zuerst → dann.'
+  lesson_refs:
+  - a1.m03.l04
+  tags:
+  - reihenfolge
+  source: nwn-lern
+- id: a1.m03.v.wegbeschreibung
+  de: Wegbeschreibung
+  pos: noun
+  article: die
+  plural: Wegbeschreibungen
+  vi: sự chỉ đường
+  ipa: /ˈveːkbəˌʃʁaɪ̯bʊŋ/
+  example:
+    de: Die Wegbeschreibung ist einfach.
+    vi: Lời chỉ đường đơn giản.
+  usage_vi: 'Từ ghép Weg + Beschreibung (đuôi -ung nên là „die“). Số nhiều: Wegbeschreibungen. Hay đi cùng „links, rechts, geradeaus“.'
+  lesson_refs:
+  - a1.m03.l04
+  tags:
+  - richtung
+  source: nwn
+- id: a1.m03.v.event
+  de: Event
+  pos: noun
+  article: das
+  plural: Events
+  vi: sự kiện
+  ipa: /iˈvɛnt/
+  example:
+    de: Hamburg hat viele Events.
+    vi: Hamburg có nhiều sự kiện.
+  usage_vi: Từ mượn tiếng Anh, đọc gần như tiếng Anh.
+  lesson_refs:
+  - a1.m03.l05
+  tags:
+  - freizeit
+  - international
+  source: nwn-lern
+- id: a1.m03.v.festival
+  de: Festival
+  pos: noun
+  article: das
+  plural: Festivals
+  vi: lễ hội (âm nhạc, phim…)
+  ipa: /ˈfɛstival/
+  example:
+    de: Das Festival ist im Sommer.
+    vi: Lễ hội diễn ra vào mùa hè.
+  usage_vi: 'Từ mượn, số nhiều: Festivals. Trọng âm ở âm tiết đầu: /ˈfɛstival/.'
+  lesson_refs:
+  - a1.m03.l05
+  tags:
+  - freizeit
+  - international
+  source: nwn-lern
+- id: a1.m03.v.film
+  de: Film
+  pos: noun
+  article: der
+  plural: Filme
+  vi: bộ phim
+  ipa: /fɪlm/
+  example:
+    de: Der Film ist toll.
+    vi: Bộ phim hay.
+  usage_vi: 'Số nhiều: Filme. „einen Film sehen“ = xem phim; „ins Kino gehen“ = đi xem phim ở rạp.'
+  lesson_refs:
+  - a1.m03.l05
+  tags:
+  - freizeit
+  source: nwn-lern
+- id: a1.m03.v.gast
+  de: Gast
+  pos: noun
+  article: der
+  plural: Gäste
+  vi: khách
+  ipa: /ɡast/
+  example:
+    de: Das Festival hat viele Gäste.
+    vi: Lễ hội có nhiều khách.
+  usage_vi: 'Số nhiều: die Gäste.'
+  lesson_refs:
+  - a1.m03.l05
+  tags:
+  - person
+  source: nwn-lern
+- id: a1.m03.v.schauspieler
+  de: Schauspieler
+  pos: noun
+  article: der
+  plural: Schauspieler
+  vi: diễn viên (nam)
+  ipa: /ˈʃaʊ̯ˌʃpiːlɐ/
+  example:
+    de: Der Schauspieler kommt aus Österreich.
+    vi: Nam diễn viên đến từ Áo.
+  usage_vi: schauen (xem) + der Spieler.
+  lesson_refs:
+  - a1.m03.l05
+  tags:
+  - beruf
+  - kultur
+  source: nwn-lern
+- id: a1.m03.v.schauspielerin
+  de: Schauspielerin
+  pos: noun
+  article: die
+  plural: Schauspielerinnen
+  vi: diễn viên (nữ)
+  ipa: /ˈʃaʊ̯ˌʃpiːləʁɪn/
+  example:
+    de: Die Schauspielerin ist sehr bekannt.
+    vi: Nữ diễn viên rất nổi tiếng.
+  usage_vi: Dạng nữ của der Schauspieler (thêm -in). Từ ghép schauen + Spieler.
+  lesson_refs:
+  - a1.m03.l05
+  tags:
+  - beruf
+  - kultur
+  source: nwn-lern
+- id: a1.m03.v.sein
+  de: sein
+  pos: article
+  vi: của anh ấy, của nó
+  ipa: /zaɪ̯n/
+  example:
+    de: Der Regisseur zeigt seinen Film.
+    vi: Đạo diễn giới thiệu phim của ông ấy.
+  usage_vi: Mạo từ sở hữu – đừng nhầm với động từ sein (là). Quy tắc đầy đủ học ở Kapitel 5.
+  lesson_refs:
+  - a1.m03.l05
+  tags:
+  - possessiv
+  source: nwn-lern
+- id: a1.m03.v.ihr
+  de: ihr
+  pos: article
+  vi: của cô ấy; của họ
+  ipa: /iːɐ̯/
+  example:
+    de: Die Schauspielerin und ihre Filme
+    vi: Nữ diễn viên và những bộ phim của cô ấy
+  usage_vi: Mạo từ sở hữu – đừng nhầm với đại từ ihr (các bạn). Quy tắc đầy đủ học ở Kapitel 5.
+  lesson_refs:
+  - a1.m03.l05
+  tags:
+  - possessiv
+  - mehrdeutig
+  source: nwn-lern
+- id: a1.m03.v.ticket
+  de: Ticket
+  pos: noun
+  article: das
+  plural: Tickets
+  vi: vé
+  ipa: /ˈtɪkət/
+  example:
+    de: Das Ticket kostet 30 Euro.
+    vi: Vé giá 30 euro.
+  usage_vi: 'Đồng nghĩa: die Karte, die Eintrittskarte.'
+  lesson_refs:
+  - a1.m03.l05
+  tags:
+  - freizeit
+  - international
+  source: nwn-lern
+- id: a1.m03.v.welt
+  de: Welt
+  pos: noun
+  article: die
+  plural: Welten
+  vi: thế giới
+  ipa: /vɛlt/
+  example:
+    de: Gäste aus der ganzen Welt
+    vi: Khách từ khắp thế giới
+  usage_vi: 'Số nhiều Welten ít dùng. Cụm hay gặp: „auf der Welt“ = trên thế giới, „aus der ganzen Welt“ = từ khắp nơi.'
+  lesson_refs:
+  - a1.m03.l05
+  source: nwn-lern
+- id: a1.m03.v.diese
+  de: diese
+  pos: article
+  vi: này, đây
+  ipa: /ˈdiːzə/
+  example:
+    de: Dieses Festival ist toll.
+    vi: Lễ hội này tuyệt.
+  usage_vi: Đuôi theo giống của danh từ – học kỹ ở Kapitel 11 (welcher? – dieser).
+  lesson_refs:
+  - a1.m03.l05
+  tags:
+  - artikel
+  source: nwn-lern
+- id: a1.m03.v.finden
+  de: finden
+  pos: verb
+  vi: thấy (đánh giá); tìm thấy
+  forms:
+    text: du findest, er findet
+    er: findet
+  ipa: /ˈfɪndn̩/
+  example:
+    de: Ich finde das Festival interessant.
+    vi: Tôi thấy lễ hội thú vị.
+  usage_vi: finden + vật + tính từ = đánh giá. Gốc -d → du findest. Từ nhiều nghĩa.
+  lesson_refs:
+  - a1.m03.l05
+  tags:
+  - verb
+  - meinung
+  - mehrdeutig
+  source: nwn-lern
+- id: a1.m03.v.an
+  de: an
+  pos: preposition
+  vi: vào (ngày); ở cạnh
+  ipa: /an/
+  example:
+    de: An zehn Tagen gibt es 100 Filme.
+    vi: Trong mười ngày có 100 bộ phim.
+  usage_vi: 'Ở A1 gặp trong cụm: am Montag (an dem), an zehn Tagen.'
+  lesson_refs:
+  - a1.m03.l05
+  tags:
+  - praeposition
+  - zeit
+  source: nwn-lern
+- id: a1.m03.v.januar
+  de: Januar
+  pos: noun
+  article: der
+  no_plural: true
+  vi: tháng Một
+  ipa: /ˈjanu̯aːɐ̯/
+  example:
+    de: Im Januar ist es kalt.
+    vi: Tháng Một trời lạnh.
+  usage_vi: 'Tháng luôn là der; “vào tháng …” = im Januar. Ở Áo: Jänner.'
+  lesson_refs:
+  - a1.m03.l06
+  tags:
+  - monat
+  - sg-only
+  source: nwn-lern
+- id: a1.m03.v.februar
+  de: Februar
+  pos: noun
+  article: der
+  no_plural: true
+  vi: tháng Hai
+  ipa: /ˈfeːbʁu̯aːɐ̯/
+  example:
+    de: Im Februar fahren wir Ski.
+    vi: Tháng Hai chúng tôi đi trượt tuyết.
+  usage_vi: 'Mọi tháng đều giống đực (der); nói „im Februar“. Trọng âm ở âm tiết đầu: FEbruar.'
+  lesson_refs:
+  - a1.m03.l06
+  tags:
+  - monat
+  - sg-only
+  source: nwn-lern
+- id: a1.m03.v.maerz
+  de: März
+  pos: noun
+  article: der
+  no_plural: true
+  vi: tháng Ba
+  ipa: /mɛʁts/
+  example:
+    de: Im März beginnt der Frühling.
+    vi: Tháng Ba mùa xuân bắt đầu.
+  usage_vi: 'Giống đực như mọi tháng; „im März“. „ä“ đọc /ɛ/. Ngày tháng: „am 8. März“.'
+  lesson_refs:
+  - a1.m03.l06
+  tags:
+  - monat
+  - sg-only
+  source: nwn-lern
+- id: a1.m03.v.april
+  de: April
+  pos: noun
+  article: der
+  no_plural: true
+  vi: tháng Tư
+  ipa: /aˈpʁɪl/
+  example:
+    de: Im April ist das Wetter oft anders.
+    vi: Tháng Tư thời tiết hay thất thường.
+  usage_vi: 'Trọng âm ở âm tiết sau: a-PRIL.'
+  lesson_refs:
+  - a1.m03.l06
+  tags:
+  - monat
+  - sg-only
+  source: nwn-lern
+- id: a1.m03.v.mai
+  de: Mai
+  pos: noun
+  article: der
+  no_plural: true
+  vi: tháng Năm
+  ipa: /maɪ̯/
+  example:
+    de: Im Mai bin ich in Hamburg.
+    vi: Tháng Năm tôi ở Hamburg.
+  usage_vi: Giống đực; „im Mai“. „der 1. Mai“ là ngày Quốc tế Lao động, nghỉ lễ ở Đức.
+  lesson_refs:
+  - a1.m03.l06
+  tags:
+  - monat
+  - sg-only
+  source: nwn-lern
+- id: a1.m03.v.juni
+  de: Juni
+  pos: noun
+  article: der
+  no_plural: true
+  vi: tháng Sáu
+  ipa: /ˈjuːni/
+  example:
+    de: Im Juni ist das Festival.
+    vi: Lễ hội vào tháng Sáu.
+  usage_vi: Đọc to rõ để phân biệt Juni – Juli; người Đức hay nói „Juno“ – „Julei“ khi gọi điện.
+  lesson_refs:
+  - a1.m03.l06
+  tags:
+  - monat
+  - sg-only
+  source: nwn-lern
+- id: a1.m03.v.juli
+  de: Juli
+  pos: noun
+  article: der
+  no_plural: true
+  vi: tháng Bảy
+  ipa: /ˈjuːli/
+  example:
+    de: Im Juli haben wir Ferien.
+    vi: Tháng Bảy chúng tôi được nghỉ hè.
+  usage_vi: Giống đực; „im Juli“. Đọc /ˈjuːli/; trọng âm thường ở âm tiết đầu.
+  lesson_refs:
+  - a1.m03.l06
+  tags:
+  - monat
+  - sg-only
+  source: nwn-lern
+- id: a1.m03.v.august
+  de: August
+  pos: noun
+  article: der
+  no_plural: true
+  vi: tháng Tám
+  ipa: /aʊ̯ˈɡʊst/
+  example:
+    de: Im August ist es heiß.
+    vi: Tháng Tám trời nóng.
+  usage_vi: 'Trọng âm: au-GUST (khác tên người August, nhấn AU).'
+  lesson_refs:
+  - a1.m03.l06
+  tags:
+  - monat
+  - sg-only
+  source: nwn-lern
+- id: a1.m03.v.september
+  de: September
+  pos: noun
+  article: der
+  no_plural: true
+  vi: tháng Chín
+  ipa: /zɛpˈtɛmbɐ/
+  example:
+    de: Im September beginnt die Schule.
+    vi: Tháng Chín trường học bắt đầu.
+  usage_vi: 'Giống đực; „im September“. Trọng âm ở âm tiết thứ hai: sepTEMber.'
+  lesson_refs:
+  - a1.m03.l06
+  tags:
+  - monat
+  - sg-only
+  source: nwn-lern
+- id: a1.m03.v.oktober
+  de: Oktober
+  pos: noun
+  article: der
+  no_plural: true
+  vi: tháng Mười
+  ipa: /ɔkˈtoːbɐ/
+  example:
+    de: Das Oktoberfest beginnt im September.
+    vi: Lễ hội Oktoberfest bắt đầu vào tháng Chín.
+  usage_vi: 'Sự thật thú vị: Oktoberfest ở München bắt đầu vào tháng Chín!'
+  lesson_refs:
+  - a1.m03.l06
+  tags:
+  - monat
+  - sg-only
+  source: nwn-lern
+- id: a1.m03.v.november
+  de: November
+  pos: noun
+  article: der
+  no_plural: true
+  vi: tháng Mười Một
+  ipa: /noˈvɛmbɐ/
+  example:
+    de: Im November ist es grau.
+    vi: Tháng Mười Một trời xám xịt.
+  usage_vi: 'Giống đực; „im November“. Trọng âm ở âm tiết thứ hai: noVEMber.'
+  lesson_refs:
+  - a1.m03.l06
+  tags:
+  - monat
+  - sg-only
+  source: nwn-lern
+- id: a1.m03.v.dezember
+  de: Dezember
+  pos: noun
+  article: der
+  no_plural: true
+  vi: tháng Mười Hai
+  ipa: /deˈtsɛmbɐ/
+  example:
+    de: Im Dezember gibt es Weihnachtsmärkte.
+    vi: Tháng Mười Hai có chợ Giáng sinh.
+  usage_vi: z đọc [ts].
+  lesson_refs:
+  - a1.m03.l06
+  tags:
+  - monat
+  - sg-only
+  source: nwn-lern
+- id: a1.m03.v.monat
+  de: Monat
+  pos: noun
+  article: der
+  plural: Monate
+  vi: tháng
+  ipa: /ˈmoːnat/
+  example:
+    de: Ein Jahr hat zwölf Monate.
+    vi: Một năm có mười hai tháng.
+  usage_vi: 'Số nhiều: Monate. „im Monat“ = mỗi tháng; „diesen Monat“ = tháng này.'
+  lesson_refs:
+  - a1.m03.l06
+  tags:
+  - zeit
+  source: nwn-lern
+- id: a1.m03.v.fruehling
+  de: Frühling
+  pos: noun
+  article: der
+  no_plural: true
+  vi: mùa xuân
+  ipa: /ˈfʁyːlɪŋ/
+  example:
+    de: Im Frühling ist Hamburg schön.
+    vi: Mùa xuân Hamburg rất đẹp.
+  usage_vi: Mùa luôn là der; “vào mùa …” = im Frühling.
+  lesson_refs:
+  - a1.m03.l06
+  tags:
+  - jahreszeit
+  - sg-only
+  source: nwn-lern
+- id: a1.m03.v.sommer
+  de: Sommer
+  pos: noun
+  article: der
+  plural: Sommer
+  vi: mùa hè
+  ipa: /ˈzɔmɐ/
+  example:
+    de: Im Sommer schwimme ich im See.
+    vi: Mùa hè tôi bơi ở hồ.
+  usage_vi: 'Mọi mùa đều giống đực; nói „im Sommer“ = vào mùa hè. Từ chung cho mùa: die Jahreszeit.'
+  lesson_refs:
+  - a1.m03.l06
+  tags:
+  - jahreszeit
+  source: nwn-lern
+- id: a1.m03.v.herbst
+  de: Herbst
+  pos: noun
+  article: der
+  no_plural: true
+  vi: mùa thu
+  ipa: /hɛʁpst/
+  example:
+    de: Im Herbst gehe ich gern in den Park.
+    vi: Mùa thu tôi thích đi công viên.
+  usage_vi: 'Cụm phụ âm cuối -rbst [ʁpst]: đọc chậm từng âm.'
+  lesson_refs:
+  - a1.m03.l06
+  tags:
+  - jahreszeit
+  - sg-only
+  - aussprache
+  source: nwn-lern
+- id: a1.m03.v.winter
+  de: Winter
+  pos: noun
+  article: der
+  plural: Winter
+  vi: mùa đông
+  ipa: /ˈvɪntɐ/
+  example:
+    de: Im Winter fahre ich Ski.
+    vi: Mùa đông tôi đi trượt tuyết.
+  usage_vi: Giống đực; nói „im Winter“ = vào mùa đông. Mùa lạnh ở Đức có tuyết, nhiệt độ có thể dưới 0 °C.
+  lesson_refs:
+  - a1.m03.l06
+  tags:
+  - jahreszeit
+  source: nwn-lern
+- id: a1.m03.v.jahreszeit
+  de: Jahreszeit
+  pos: noun
+  article: die
+  plural: Jahreszeiten
+  vi: mùa (trong năm)
+  ipa: /ˈjaːʁəsˌtsaɪ̯t/
+  example:
+    de: Welche Jahreszeit magst du?
+    vi: Bạn thích mùa nào?
+  usage_vi: 'das Jahr + die Zeit → die Jahreszeit. (magst – mögen: Kapitel 4.)'
+  lesson_refs:
+  - a1.m03.l06
+  tags:
+  - jahreszeit
+  source: nwn-lern
+- id: a1.m03.v.plakat
+  de: Plakat
+  pos: noun
+  article: das
+  plural: Plakate
+  vi: áp phích, poster
+  ipa: /plaˈkaːt/
+  example:
+    de: Wir machen ein Plakat.
+    vi: Chúng ta làm một tấm áp phích.
+  usage_vi: 'Số nhiều: Plakate. „ein Plakat machen“ = làm áp phích. Trọng âm ở âm tiết cuối: plaKAT.'
+  lesson_refs:
+  - a1.m03.l06
+  tags:
+  - lernen
+  source: nwn-lern
+- id: a1.m03.v.ding
+  de: Ding
+  pos: noun
+  article: das
+  plural: Dinge
+  vi: đồ vật, thứ
+  ipa: /dɪŋ/
+  example:
+    de: Das sind meine Dinge.
+    vi: Đây là đồ của tôi.
+  usage_vi: 'Số nhiều: Dinge. Từ chung chung ‘đồ, thứ’ khi không nhớ tên: „Das sind meine Dinge.“'
+  lesson_refs:
+  - a1.m03.l06
+  source: nwn-lern
+- id: a1.m03.v.stellen
+  de: stellen
+  pos: verb
+  vi: đặt, để; (eine Frage stellen) đặt câu hỏi
+  forms:
+    text: du stellst, er stellt
+    er: stellt
+  ipa: /ˈʃtɛlən/
+  example:
+    de: Stellen Sie eine Frage.
+    vi: Hãy đặt một câu hỏi.
+  usage_vi: 'Cụm cố định: eine Frage stellen.'
+  lesson_refs:
+  - a1.m03.l06
+  tags:
+  - verb
+  source: nwn-lern

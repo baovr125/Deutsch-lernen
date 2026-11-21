@@ -1,0 +1,259 @@
+schema_version: '2.0'
+content_type: lesson
+id: a1.m06.l04
+level: A1
+module: a1.m06
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+  references:
+  - work: Netzwerk neu A1 (Klett)
+    scope: 'Kapitel 6: Im Restaurant'
+    verification: verified
+  notes_vi: 'Sprachhandlungen: Essen und Getränke bestellen, die Rechnung verlangen, nach der Zahlungsart fragen, Trinkgeld geben. Wortschatz: Lokal, Gasthaus, Bedienung, Speisekarte, bestellen, bezahlen, getrennt, Trinkgeld, stimmt so, Quittung, bar, Kreditkarte. Grammatik: Höfliche Bitten mit möchten, Imperativ mit Sie.'
+order: 4
+title_de: Im Restaurant – Bestellen und Bezahlen
+title_vi: Tại nhà hàng – Gọi món và thanh toán
+topic_vi: Giao tiếp tại quán ăn, gọi món và đồ uống, thanh toán riêng hoặc chung (getrennt / zusammen), tiền boa (Trinkgeld)
+duration_min: 85
+difficulty: 2
+cefr:
+- A1.L1
+- A1.H2
+- A1.SP1
+- A1.S2
+prerequisites:
+- a1.m06.l03
+objectives:
+- id: a1.m06.l04.obj1
+  text_vi: Gọi món ăn và đồ uống bằng các mẫu câu lịch sự (Ich möchte bitte... / Bringen Sie uns bitte...).
+  skill: vocabulary
+- id: a1.m06.l04.obj2
+  text_vi: Yêu cầu thanh toán và trả lời về hình thức trả tiền (Zahlen Sie zusammen oder getrennt? – Getrennt, bitte!).
+  skill: vocabulary
+- id: a1.m06.l04.obj3
+  text_vi: Hiểu và thực hành văn hóa tiền boa (Trinkgeld) và câu nói quen thuộc 'Stimmt so!'.
+  skill: vocabulary
+- id: a1.m06.l04.obj4
+  text_vi: Đọc hiểu văn bản về thói quen thanh toán và tiền boa ở các nước D-A-CH.
+  skill: reading
+vocabulary_refs:
+- a1.m06.v.lokal
+- a1.m06.v.gasthaus
+- a1.m06.v.bedienung
+- a1.m06.v.servicekraft
+- a1.m06.v.speisekarte
+- a1.m06.v.getraenkekarte
+- a1.m06.v.bestellen
+- a1.m06.v.endbetrag
+- a1.m06.v.bezahlen
+- a1.m06.v.zahlen
+- a1.m06.v.getrennt
+- a1.m06.v.aufrunden
+- a1.m06.v.trinkgeld
+- a1.m06.v.stimmt-so
+- a1.m06.v.quittung
+- a1.m06.v.bar
+- a1.m06.v.kreditkarte
+- a1.m06.v.guten-appetit
+review_vocabulary_refs:
+- a1.m04.v.lebensmittel
+- a1.m04.v.kosten
+- a1.m04.v.gerne
+- a1.m06.v.vorbeikommen
+grammar_refs:
+- a1.g.trennbare-verben
+grammar_focus:
+- ref: a1.g.trennbare-verben
+  focus_vi: 'Động từ tách trong thanh toán: aufrunden (làm tròn số tiền khi boa: Ich runde auf zwanzig Euro auf)'
+expression_refs:
+- a1.m06.x.wir-moechten-gern-bestellen-bezahlen-was
+- a1.m06.x.zahlen-sie-zusammen-oder-getrennt-bar-od
+exercise_set_ref: a1.m06.l04.ex
+summary_vi: 'Bài học giúp bạn tự tin giao tiếp trong nhà hàng ở các nước D-A-CH: gọi món ăn và thức uống lịch sự, hiểu rõ văn hóa trả tiền riêng (getrennt zahlen) và quy tắc cho tiền boa (Trinkgeld) với câu nói cửa miệng ''Stimmt so!''.'
+self_check:
+- Tôi có thể gọi món ăn và đồ uống bằng tiếng Đức một cách lịch sự.
+- Tôi hiểu câu hỏi 'Zahlen Sie zusammen oder getrennt?' và biết cách trả lời.
+- Tôi biết cách làm tròn số tiền và nói 'Stimmt so!' khi boa tiền cho bồi bàn.
+blocks:
+- id: a1.m06.l04.b1
+  kind: explanation
+  title_vi: Giới thiệu bài học
+  body_vi: 'Đi ăn tại quán ăn hay nhà hàng (*im Restaurant / im Lokal*) là hoạt động thư giãn vô cùng phổ biến khi tụ tập bạn bè.
+
+    Trong bài học này, bạn sẽ:
+
+    - Học từ vựng chuyên ngành ẩm thực: quán ăn (*das Lokal, das Gasthaus*), nhân viên phục vụ (*die Bedienung, die Servicekraft*), thực đơn (*die Speisekarte, die Getränkekarte*), tổng số tiền (*der Endbetrag*), biên lai (*die Quittung*).
+
+    - Thành thạo các mẫu câu gọi món lịch sự với *möchten* và câu đề nghị.
+
+    - Khám phá nét văn hóa thanh toán đặc trưng của người Đức: chia tiền sòng phẳng (*getrennt zahlen*) hoặc trả chung (*zusammen zahlen*), trả tiền mặt (*bar*) hay quẹt thẻ (*mit Kreditkarte*).
+
+    - Nắm vững cách tính và cho tiền boa (*Trinkgeld*): làm tròn số tiền (*aufrunden*) kèm câu nói cửa miệng "Stimmt so!" (khỏi thối lại tiền thừa).'
+- id: a1.m06.l04.b2
+  kind: explanation
+  title_vi: Văn hóa thanh toán 'getrennt zahlen' ở Đức
+  skill: grammar
+  body_vi: 'Ở các nước nói tiếng Đức (Đức, Áo, Thụy Sĩ), việc mỗi người tự trả phần của mình (getrennt zahlen) là chuyện hết sức bình thường, ngay cả giữa bạn bè hay đồng nghiệp đi ăn cùng nhau. Khi nhân viên hỏi: ''Zahlen Sie zusammen oder getrennt?'', bạn chỉ cần đáp: ''Getrennt, bitte!'' và người phục vụ sẽ tính tiền riêng từng món cho từng người.'
+  examples:
+  - de: Zahlen Sie zusammen oder getrennt? – Getrennt, bitte!
+    vi: Quý khách trả chung hay riêng ạ? – Dạ riêng ạ!
+  - de: Ich hatte das Schnitzel und ein Wasser.
+    vi: Tôi đã ăn món Schnitzel và uống một chai nước.
+- id: a1.m06.l04.b3
+  kind: explanation
+  title_vi: 'Quy tắc tiền boa (Trinkgeld): Stimmt so!'
+  skill: grammar
+  body_vi: Tiền boa ở Đức thường từ 5% đến 10%. Người ta không để lại tiền thừa trên bàn mà trực tiếp nói số tiền đã làm tròn với nhân viên phục vụ, hoặc đưa tiền chẵn và nói 'Stimmt so!' (Khỏi thối lại tiền thừa).
+  examples:
+  - de: Das macht 18,20 Euro. – Machen Sie bitte 20 Euro. / Stimmt so!
+    vi: Hết 18,20 euro. – Tính 20 euro nhé ạ. / Khỏi thối lại nhé!
+- id: a1.m06.l04.b4
+  kind: pronunciation
+  title_vi: Phát âm các từ mượn và âm đuôi trong nhà hàng
+  skill: pronunciation
+  body_vi: 'Phát âm các từ mượn và âm đuôi trong nhà hàng
+
+
+    Từ ''Restaurant'' [ʁɛstoˈʁãː] có âm mũi tiếng Pháp ở cuối. ''Bedienung'' [bəˈdiːnʊŋ] có âm đuôi [ʊŋ]. ''Quittung'' [ˈkvɪtʊŋ] phát âm âm [kv] ở đầu từ.
+
+
+    Luyện tập: Luyện phát âm câu nói quen thuộc: ''Hier sind zwanzig Euro, stimmt so!'''
+  items:
+  - de: das Restaurant
+    vi: nhà hàng
+    ipa: '[ʁɛstoˈʁãː]'
+  - de: die Quittung
+    vi: biên lai
+    ipa: '[ˈkvɪtʊŋ]'
+  - de: stimmt so
+    vi: khỏi thối lại
+    ipa: '[ʃtɪmt zoː]'
+- id: a1.m06.l04.b5
+  kind: examples
+  title_vi: Câu ví dụ
+  examples:
+  - de: Wir essen heute in einem gemütlichen Lokal in der Innenstadt.
+    vi: Hôm nay chúng tôi ăn tại một quán ăn ấm cúng ở trung tâm thành phố.
+  - de: Die freundliche Bedienung bringt uns sofort die Speisekarte.
+    vi: Người phục vụ thân thiện mang ngay thực đơn đến cho chúng tôi.
+  - de: Das Essen hat wirklich fantastisch geschmeckt!
+    vi: Món ăn thực sự rất ngon miệng!
+  - de: Zahlen Sie bitte den Endbetrag an der Kasse.
+    vi: Xin quý khách thanh toán tổng số tiền tại quầy thu ngân.
+- id: a1.m06.l04.b6
+  kind: listening
+  title_vi: 'Hội thoại: Gọi món và thanh toán tại nhà hàng'
+  lines:
+  - speaker: Bedienung
+    de: Guten Abend! Was möchten Sie bestellen?
+    vi: Chào buổi tối! Quý khách muốn gọi món gì ạ?
+  - speaker: Anna
+    de: Ich möchte bitte einen Fischteller mit Kartoffeln und einen Apfelsaft.
+    vi: Cho tôi một đĩa cá với khoai tây và một ly nước táo.
+  - speaker: Ben
+    de: Und für mich bitte ein Schnitzel mit Pommes und ein Bier.
+    vi: Còn cho tôi một phần Schnitzel với khoai tây chiên và một ly bia.
+  - speaker: Bedienung
+    de: Kommt sofort! ... Hat es Ihnen geschmeckt?
+    vi: Có ngay đây ạ! ... Món ăn có vừa miệng quý khách không ạ?
+  - speaker: Ben
+    de: Ja, ausgezeichnet! Wir möchten bitte bezahlen. Getrennt, bitte!
+    vi: Vâng, tuyệt hảo! Chúng tôi muốn thanh toán tiền. Tính riêng nhé ạ!
+  - speaker: Bedienung
+    de: 'Für Sie macht das 14 Euro. – Ben: Hier sind 16 Euro, stimmt so!'
+    vi: 'Phần của anh hết 14 euro. – Ben: Gửi chị 16 euro, khỏi thối lại nhé!'
+  audio_status: pending-tts
+  situation_vi: Anna và Ben đi ăn tối tại một quán ăn truyền thống và thanh toán tiền riêng.
+  skill: listening
+  audio:
+    speed: slow
+- id: a1.m06.l04.b7
+  kind: reading
+  title_vi: 'Đọc hiểu: Văn hóa thanh toán và tiền boa tại Đức'
+  paragraphs:
+  - de: 'Im Restaurant in Deutschland, Österreich und der Schweiz:
+
+      Wenn man mit Freunden essen geht, fragt die Bedienung fast immer: „Zahlen Sie zusammen oder getrennt?“
+
+      Es ist in Deutschland völlig normal, dass jeder Gast nur das bezahlt, was er selbst gegessen und getrunken hat.
+
+      Auch beim Trinkgeld gibt es klare Regeln:
+
+      Das Trinkgeld ist nicht auf der Rechnung enthalten.
+
+      Wenn der Service gut war, gibt man circa 5 bis 10 Prozent Trinkgeld.
+
+      Man sagt zum Beispiel: „Das macht 18 Euro? Machen Sie bitte 20 Euro!“
+
+      Oder man gibt einen 20-Euro-Schein und sagt freundlich: „Stimmt so!“'
+    vi: 'Tại nhà hàng ở Đức, Áo và Thụy Sĩ:
+
+      Khi đi ăn cùng bạn bè, nhân viên phục vụ hầu như luôn hỏi: „Quý khách trả chung hay trả riêng ạ?“
+
+      Ở Đức việc mỗi vị khách chỉ trả đúng phần mình đã ăn và uống là hoàn toàn bình thường.
+
+      Về tiền boa cũng có những quy tắc rõ ràng:
+
+      Tiền boa không bao gồm sẵn trong hóa đơn.
+
+      Nếu dịch vụ tốt, người ta thường boa khoảng 5 đến 10 phần trăm.
+
+      Người ta thường nói chẳng hạn: „Hết 18 euro hả? Tính 20 euro nhé ạ!“
+
+      Hoặc người ta đưa tờ 20 euro và nói thân thiện: „Khỏi thối lại nhé!“'
+  text_type_vi: Bài viết cung cấp thông tin văn hóa đời sống
+  skill: reading
+  glossary:
+  - de: völlig normal
+    vi: hoàn toàn bình thường
+  - de: enthalten
+    vi: bao gồm sẵn
+  - de: der Schein
+    vi: tờ tiền giấy
+- id: a1.m06.l04.b8
+  kind: speaking
+  title_vi: Thực hành gọi món và yêu cầu hóa đơn
+  skill: speaking
+  task_vi: 'Đóng vai khách hàng và nhân viên phục vụ: gọi món, yêu cầu hóa đơn và đưa tiền boa.'
+  steps_vi:
+  - 'Gọi món: Ich möchte bitte ... und ...'
+  - 'Yêu cầu tính tiền: Wir möchten bitte zahlen / die Rechnung bitte!'
+  - 'Hình thức trả tiền: Getrennt, bitte. Bar / mit Kreditkarte.'
+  - 'Tiền boa: Stimmt so!'
+  lines:
+  - speaker: Gast
+    de: Wir möchten bitte bezahlen!
+    vi: Chúng tôi muốn thanh toán tiền ạ!
+  - speaker: Bedienung
+    de: Zusammen oder getrennt?
+    vi: Tính chung hay riêng ạ?
+  - speaker: Gast
+    de: Getrennt, bitte. Ich zahle bar.
+    vi: Tính riêng ạ. Tôi trả tiền mặt.
+  - speaker: Bedienung
+    de: Das macht 12 Euro fünfzig.
+    vi: Của anh/chị hết 12 euro 50 cent.
+  - speaker: Gast
+    de: Hier sind 14 Euro. Stimmt so, danke!
+    vi: Gửi bạn 14 euro. Khỏi thối lại nhé, cảm ơn bạn!
+- id: a1.m06.l04.b9
+  kind: writing
+  title_vi: Viết đoạn hội thoại ngắn tại quán ăn
+  skill: writing
+  task_vi: Viết đoạn đối thoại 4–6 câu giữa nhân viên phục vụ và hai người khách tại nhà hàng (gọi món, tính tiền riêng và tiền boa).
+  model:
+    de: 'Bedienung: Guten Tag! Was möchten Sie bestellen? – Gast A: Ich nehme eine Gemüsesuppe. – Gast B: Und ich möchte einen Salat und ein Wasser. ... Gast A: Die Rechnung bitte! – Bedienung: Zusammen oder getrennt? – Gast B: Getrennt, bitte! Hier sind 15 Euro, stimmt so!'
+    vi: 'Phục vụ: Xin chào! Quý khách dùng món gì ạ? – Khách A: Cho tôi món súp rau củ. – Khách B: Còn tôi muốn một phần salad và nước lọc. ... Khách A: Cho xin hóa đơn ạ! – Phục vụ: Chung hay riêng ạ? – Khách B: Dạ riêng ạ! Gửi bạn 15 euro, khỏi thối lại nhé!'
+  checklist_vi:
+  - Có mẫu câu gọi món với möchten.
+  - 'Có câu hỏi thanh toán: zusammen oder getrennt?'
+  - 'Có câu nói boa tiền: stimmt so!'

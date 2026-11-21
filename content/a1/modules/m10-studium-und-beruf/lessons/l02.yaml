@@ -1,0 +1,63 @@
+schema_version: "2.0"
+content_type: lesson
+id: a1.m10.l02
+level: A1
+module: a1.m10
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  references:
+    - { work: "Netzwerk neu A1.2 – Stoffverteilungsplan (Klett)", scope: "Kapitel 10, Mục Mein Tag; Perfekt: Satzklammer; Partizip II regelmäßige Verben; Wortschatz Tagesablauf", verification: verified }
+  tags: ["perfekt", "tagesablauf"]
+order: 2
+title_de: "Mein Tag"
+title_vi: "Một ngày của tôi"
+duration_min: 50
+difficulty: 2
+objectives:
+  - { id: a1.m10.l02.obj1, text_vi: "Bạn có thể lập câu Perfekt với haben và Partizip II có quy tắc, đặt Partizip II ở cuối câu.", skill: grammar }
+  - { id: a1.m10.l02.obj2, text_vi: "Bạn có thể viết 3–4 câu kể những việc mình đã làm hôm qua.", skill: writing }
+vocabulary_refs: [a1.m10.v.fruehstuecken, a1.m10.v.kochen, a1.m10.v.lernen, a1.m10.v.aufraeumen, a1.m10.v.putzen, a1.m10.v.spielen, a1.m10.v.morgens, a1.m10.v.mittags, a1.m10.v.abends, a1.m10.v.gestern, a1.m10.v.danach]
+grammar_refs: [a1.g.perfekt-satzklammer, a1.g.partizip2-regelmaessig]
+expression_refs: [a1.m10.x.gestern-fragen, a1.m10.x.tagesablauf, a1.m10.x.schon-gemacht]
+exercise_set_ref: a1.m10.l02.ex
+blocks:
+  - id: a1.m10.l02.b1
+    kind: explanation
+    skill: grammar
+    title_vi: "Bắt đầu: nói về việc đã làm"
+    body_vi: |
+      Trong lời nói, chuyện đã xảy ra được kể bằng **Perfekt**: **haben** ở vị trí 2 + **Partizip II ở cuối câu**.
+      *Gestern **habe** ich Deutsch **gelernt**.* Động từ có quy tắc: **ge + thân + t** (lernen → gelernt). Động từ tách: **auf-ge-räumt**.
+  - id: a1.m10.l02.b2
+    kind: dialogue
+    skill: speaking
+    title_vi: "Hội thoại: Hôm qua bạn làm gì?"
+    lines:
+      - { speaker: "Nina", de: "Was hast du gestern gemacht?", vi: "Hôm qua bạn đã làm gì?" }
+      - { speaker: "Tom", de: "Morgens habe ich gefrühstückt und gelernt. Mittags habe ich gekocht.", vi: "Buổi sáng mình đã ăn sáng và học. Buổi trưa mình đã nấu ăn." }
+      - { speaker: "Nina", de: "Und abends? Hast du gearbeitet?", vi: "Còn buổi tối? Bạn có làm việc không?" }
+      - { speaker: "Tom", de: "Nein, abends habe ich die Wohnung aufgeräumt und Fußball gespielt.", vi: "Không, buổi tối mình đã dọn nhà và chơi bóng đá." }
+      - { speaker: "Nina", de: "Das war ein langer Tag!", vi: "Một ngày dài nhỉ!" }
+  - id: a1.m10.l02.b3
+    kind: reading
+    skill: reading
+    title_vi: "Bài đọc: Gestern bei Familie Roth"
+    paragraphs:
+      - { de: "Gestern war ein ruhiger Tag bei Familie Roth.", vi: "Hôm qua là một ngày yên tĩnh ở nhà gia đình Roth." }
+      - { de: "Frau Roth hat um sieben Uhr gefrühstückt und danach gearbeitet.", vi: "Bà Roth đã ăn sáng lúc bảy giờ và sau đó làm việc." }
+      - { de: "Herr Roth hat mittags gekocht und das Bad geputzt.", vi: "Ông Roth đã nấu ăn buổi trưa và lau phòng tắm." }
+      - { de: "Die Kinder haben abends im Garten gespielt.", vi: "Bọn trẻ đã chơi trong vườn vào buổi tối." }
+  - id: a1.m10.l02.b4
+    kind: explanation
+    skill: grammar
+    title_vi: "Ngữ pháp: Satzklammer"
+    body_vi: |
+      Hai phần **haben** và **Partizip II** như hai cái ngoặc kẹp cả câu:
+      *Ich **habe** gestern in der Küche zwei Stunden **gekocht**.* Mọi thông tin khác nằm giữa.
+      Xem chủ điểm a1.g.perfekt-satzklammer và a1.g.partizip2-regelmaessig.

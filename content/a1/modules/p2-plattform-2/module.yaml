@@ -1,0 +1,62 @@
+schema_version: '2.0'
+content_type: module
+id: a1.p2
+level: A1
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+  references:
+  - work: Netzwerk neu A1 (Klett)
+    scope: 'Plattform 2: Plattform 2: wiederholen und trainieren (Kapitel 4–6); Landeskunde: Essen und Feste in D-A-CH; Prüfungstraining: Lesen Teil 1, Schreiben Teil 1, Sprechen Teil 2'
+    verification: verified
+  notes_vi: 'Theo Stoffverteilungsplan Netzwerk neu A1.1 (Plattform 2: 5 UE Kursbuch + 2 UE Prüfungstraining). Bài ôn tổng hợp kết nối ẩm thực, thời gian biểu, gia đình và gặp gỡ bạn bè; đề luyện thi tự biên soạn theo cấu trúc chuẩn Goethe/ÖSD A1.'
+kind: plattform
+order: 8
+title_de: Plattform 2
+title_vi: Ôn tập 2 – Kapitel 4–6 và luyện thi A1 (kết thúc A1.1)
+summary_vi: Ôn tập tổng hợp kiến thức Kapitel 4–6 (ẩm thực, mua sắm, gia đình, giờ giấc, hẹn gặp, tiệc tùng, động từ tách, quá khứ war/hatte); khám phá văn hóa ẩm thực và lễ hội truyền thống D-A-CH; luyện kỹ năng Đọc phần 1, Viết phần 1 (điền biểu mẫu) và Nói phần 2 (đặt và trả lời câu hỏi theo thẻ từ khóa) của kỳ thi Goethe-Zertifikat A1.
+cefr:
+- A1.SI1
+- A1.SI2
+- A1.SI3
+- A1.SP1
+- A1.H1
+- A1.H3
+- A1.H4
+- A1.L1
+- A1.L2
+- A1.L3
+- A1.S1
+- A1.S2
+not_covered_vi:
+- 'Trò chơi và bài tập nhóm đặc thù của lớp học trực tiếp trong giáo trình: thay bằng hệ thống bài tập tự học tương tác cá nhân.'
+lessons:
+- id: a1.p2.l01
+  file: lessons/l01.yaml
+- id: a1.p2.l02
+  file: lessons/l02.yaml
+- id: a1.p2.l03
+  file: lessons/l03.yaml
+grammar: []
+vocabulary:
+  id: a1.p2.vocab
+  file: vocabulary.yaml
+expressions:
+  id: a1.p2.expr
+  file: expressions.yaml
+exercises:
+- id: a1.p2.l01.ex
+  file: exercises/l01.yaml
+- id: a1.p2.l02.ex
+  file: exercises/l02.yaml
+- id: a1.p2.l03.ex
+  file: exercises/l03.yaml
+estimated_hours: 4.0

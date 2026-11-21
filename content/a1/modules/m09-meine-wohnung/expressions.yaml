@@ -1,0 +1,30 @@
+schema_version: "2.0"
+content_type: expression-set
+id: a1.m09.expr
+level: A1
+module: a1.m09
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  references:
+    - { work: "Netzwerk neu A1.2 – Stoffverteilungsplan (Klett)", scope: "Kapitel 9: Redemittel Wohnungsanzeigen, Antwort auf eine Einladung, Begeisterung ausdrücken", verification: verified }
+    - { work: "Dự án Deutsch-lernen", scope: "Câu mẫu cụ thể do dự án tự viết", verification: proposed }
+  tags: ["redemittel"]
+entries:
+  - { id: a1.m09.x.wohnung-beschreiben, de: "Meine Wohnung hat drei Zimmer und einen Balkon.", vi: "Căn hộ của tôi có ba phòng và một ban công.", register: neutral, function: "Mô tả căn hộ", situation_vi: "Giới thiệu nhà mình với bạn bè hoặc đồng nghiệp.", lesson_refs: [a1.m09.l01] }
+  - { id: a1.m09.x.wie-ist, de: "Wie ist die Wohnung?", vi: "Căn hộ như thế nào?", register: neutral, function: "Hỏi về đặc điểm", situation_vi: "Hỏi bạn về căn hộ mới.", reply: { de: "Sie ist klein, aber hell und gemütlich.", vi: "Nhỏ nhưng sáng và ấm cúng." }, lesson_refs: [a1.m09.l01] }
+  - { id: a1.m09.x.wo-wohnst-du, de: "Wo wohnst du?", vi: "Bạn sống ở đâu?", register: informal, function: "Hỏi nơi ở", situation_vi: "Làm quen với người mới.", reply: { de: "Ich wohne in einer Wohnung in der Stadt.", vi: "Tôi sống trong một căn hộ ở thành phố." }, lesson_refs: [a1.m09.l01] }
+  - { id: a1.m09.x.miete-fragen, de: "Wie hoch ist die Miete?", vi: "Tiền thuê là bao nhiêu?", register: neutral, function: "Hỏi giá thuê", situation_vi: "Gọi hỏi người cho thuê nhà.", reply: { de: "Die Miete ist 650 Euro im Monat.", vi: "Tiền thuê là 650 euro một tháng." }, lesson_refs: [a1.m09.l02] }
+  - { id: a1.m09.x.besichtigung, de: "Kann ich die Wohnung besichtigen?", vi: "Tôi xem căn hộ được không?", register: formal, function: "Hẹn xem nhà", situation_vi: "Gọi cho chủ nhà hoặc môi giới.", reply: { de: "Ja, morgen um achtzehn Uhr.", vi: "Được, ngày mai lúc 18 giờ." }, lesson_refs: [a1.m09.l02] }
+  - { id: a1.m09.x.nebenkosten-frage, de: "Sind die Nebenkosten in der Miete?", vi: "Chi phí phụ đã nằm trong tiền thuê chưa?", register: formal, function: "Hỏi chi tiết", situation_vi: "Khi bàn hợp đồng thuê.", lesson_refs: [a1.m09.l02] }
+  - { id: a1.m09.x.wo-steht, de: "Wo steht der Schrank?", vi: "Cái tủ để ở đâu?", register: neutral, function: "Hỏi vị trí đồ vật", situation_vi: "Khi sắp xếp đồ trong nhà mới.", reply: { de: "Er steht neben dem Bett.", vi: "Nó đứng cạnh giường." }, lesson_refs: [a1.m09.l03] }
+  - { id: a1.m09.x.moebel-beschreiben, de: "Das Sofa steht vor dem Fenster.", vi: "Ghế sofa đặt trước cửa sổ.", register: neutral, function: "Mô tả vị trí đồ vật", situation_vi: "Kể cho bạn bè nghe về phòng mình.", lesson_refs: [a1.m09.l03] }
+  - { id: a1.m09.x.einladung-danke, de: "Vielen Dank für die Einladung!", vi: "Cảm ơn nhiều vì lời mời!", register: neutral, function: "Cảm ơn lời mời", situation_vi: "Dòng đầu của thư/tin nhắn trả lời.", lesson_refs: [a1.m09.l04] }
+  - { id: a1.m09.x.zusage, de: "Ich komme sehr gern.", vi: "Tôi rất sẵn lòng đến.", register: neutral, function: "Nhận lời mời", situation_vi: "Đồng ý đến dự tiệc, buổi gặp.", lesson_refs: [a1.m09.l04] }
+  - { id: a1.m09.x.absage, de: "Leider kann ich nicht kommen.", vi: "Tiếc là tôi không thể đến.", register: neutral, function: "Từ chối lời mời", situation_vi: "Từ chối nhẹ nhàng, thường kèm lý do.", lesson_refs: [a1.m09.l04] }
+  - { id: a1.m09.x.begeisterung, de: "Toll! Das ist eine super Idee!", vi: "Tuyệt! Ý hay quá!", register: informal, function: "Bày tỏ sự hào hứng", situation_vi: "Phản ứng khi nghe tin vui hoặc được mời.", lesson_refs: [a1.m09.l04] }

@@ -1,0 +1,266 @@
+schema_version: '2.0'
+content_type: exercise-set
+id: a1.m03.l03.ex
+level: A1
+module: a1.m03
+lesson: a1.m03.l03
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+exercises:
+- id: a1.m03.l03.ex.01
+  type: matching
+  skill: vocabulary
+  difficulty: 1
+  objective_refs:
+  - a1.m03.l03.obj1
+  instructions_vi: Nối phương tiện với nghĩa tiếng Việt.
+  items:
+  - id: a1.m03.l03.ex.01.q1
+    pairs:
+    - left: der Bus
+      right: xe buýt
+    - left: die U-Bahn
+      right: tàu điện ngầm
+    - left: die Straßenbahn
+      right: tàu điện mặt đất
+    - left: das Fahrrad
+      right: xe đạp
+    - left: das Flugzeug
+      right: máy bay
+    - left: der Zug
+      right: tàu hỏa
+    explanation_vi: Phương tiện giao thông thường gặp.
+- id: a1.m03.l03.ex.02
+  type: fill-blank
+  skill: grammar
+  difficulty: 1
+  objective_refs:
+  - a1.m03.l03.obj2
+  instructions_vi: Điền kein hoặc keine.
+  items:
+  - id: a1.m03.l03.ex.02.q1
+    prompt: Heute fährt ___ Bus.
+    answers:
+    - kein
+    explanation_vi: der Bus → kein.
+  - id: a1.m03.l03.ex.02.q2
+    prompt: Ich habe ___ Fahrkarte.
+    answers:
+    - keine
+    explanation_vi: die Fahrkarte → keine.
+  - id: a1.m03.l03.ex.02.q3
+    prompt: Das ist ___ Flugzeug.
+    answers:
+    - kein
+    explanation_vi: das Flugzeug → kein.
+  - id: a1.m03.l03.ex.02.q4
+    prompt: Hier sind ___ Taxis.
+    answers:
+    - keine
+    explanation_vi: Số nhiều → keine.
+- id: a1.m03.l03.ex.03
+  type: multiple-choice
+  skill: grammar
+  difficulty: 2
+  objective_refs:
+  - a1.m03.l03.obj3
+  instructions_vi: kein/keine hay nicht?
+  items:
+  - id: a1.m03.l03.ex.03.q1
+    prompt: Der Zug kommt ___.
+    options:
+    - id: a
+      text: nicht
+    - id: b
+      text: kein
+    - id: c
+      text: keine
+    answer:
+    - a
+    explanation_vi: Phủ định động từ.
+  - id: a1.m03.l03.ex.03.q2
+    prompt: Ich habe ___ Geld.
+    options:
+    - id: a
+      text: nicht
+    - id: b
+      text: kein
+    - id: c
+      text: keine
+    answer:
+    - b
+    explanation_vi: das Geld (không mạo từ) → kein.
+  - id: a1.m03.l03.ex.03.q3
+    prompt: Die U-Bahn ist heute ___ schnell.
+    options:
+    - id: a
+      text: nicht
+    - id: b
+      text: kein
+    - id: c
+      text: keine
+    answer:
+    - a
+    explanation_vi: Phủ định tính từ.
+  - id: a1.m03.l03.ex.03.q4
+    prompt: Das ist ___ Straßenbahn.
+    options:
+    - id: a
+      text: nicht
+    - id: b
+      text: kein
+    - id: c
+      text: keine
+    answer:
+    - c
+    explanation_vi: die Straßenbahn → keine.
+- id: a1.m03.l03.ex.04
+  type: true-false
+  skill: listening
+  difficulty: 2
+  objective_refs:
+  - a1.m03.l03.obj2
+  - a1.m03.l03.obj4
+  instructions_vi: Nghe Pia kể. Đúng hay sai?
+  stimulus:
+    ref: a1.m03.l03.b5
+  items:
+  - id: a1.m03.l03.ex.04.q1
+    prompt: Pia có bài kiểm tra lúc 9 giờ.
+    answer: true
+    explanation_vi: „Ich habe einen Test um neun Uhr.“
+  - id: a1.m03.l03.ex.04.q2
+    prompt: Pia có xe đạp.
+    answer: false
+    explanation_vi: „… ich habe kein Fahrrad.“
+  - id: a1.m03.l03.ex.04.q3
+    prompt: Pia đi taxi.
+    answer: false
+    explanation_vi: Không có tiền → „Also gehe ich zu Fuß.“
+- id: a1.m03.l03.ex.05
+  type: word-order
+  skill: reading
+  difficulty: 2
+  objective_refs:
+  - a1.m03.l03.obj4
+  instructions_vi: Đọc truyện tranh. Sắp xếp các từ thành câu đúng theo truyện.
+  stimulus:
+    ref: a1.m03.l03.b6
+  items:
+  - id: a1.m03.l03.ex.05.q1
+    tokens:
+    - keine
+    - hat
+    - Er
+    - Fahrkarte
+    answer: Er hat keine Fahrkarte.
+    explanation_vi: Tranh 1.
+  - id: a1.m03.l03.ex.05.q2
+    tokens:
+    - Fahrkarten
+    - hat
+    - zwei
+    - Sie
+    answer: Sie hat zwei Fahrkarten.
+    explanation_vi: 'Tranh 3: người phụ nữ có hai vé.'
+- id: a1.m03.l03.ex.06
+  type: sentence-construction
+  skill: grammar
+  difficulty: 2
+  objective_refs:
+  - a1.m03.l03.obj2
+  instructions_vi: Viết câu phủ định với kein/keine.
+  items:
+  - id: a1.m03.l03.ex.06.q1
+    prompt_vi: Das ist ein Bus. (phủ định)
+    answers:
+    - Das ist kein Bus.
+    explanation_vi: ein → kein.
+  - id: a1.m03.l03.ex.06.q2
+    prompt_vi: Ich habe eine Fahrkarte. (phủ định)
+    answers:
+    - Ich habe keine Fahrkarte.
+    explanation_vi: eine → keine.
+  - id: a1.m03.l03.ex.06.q3
+    prompt_vi: Das sind Fahrräder. (phủ định)
+    answers:
+    - Das sind keine Fahrräder.
+    explanation_vi: Số nhiều → keine.
+- id: a1.m03.l03.ex.07
+  type: translation
+  skill: grammar
+  difficulty: 2
+  objective_refs:
+  - a1.m03.l03.obj2
+  - a1.m03.l03.obj3
+  instructions_vi: Dịch sang tiếng Đức.
+  items:
+  - id: a1.m03.l03.ex.07.q1
+    direction: vi-de
+    source: Hôm nay không có xe buýt.
+    answers:
+    - Heute fährt kein Bus.
+    - Heute kommt kein Bus.
+    explanation_vi: kein Bus.
+  - id: a1.m03.l03.ex.07.q2
+    direction: vi-de
+    source: Tàu không đến.
+    answers:
+    - Der Zug kommt nicht.
+    explanation_vi: Phủ định động từ → nicht.
+  - id: a1.m03.l03.ex.07.q3
+    direction: vi-de
+    source: Tôi đi bộ.
+    answers:
+    - Ich gehe zu Fuß.
+    explanation_vi: zu Fuß gehen.
+- id: a1.m03.l03.ex.08
+  type: speaking-practice
+  skill: speaking
+  difficulty: 2
+  objective_refs:
+  - a1.m03.l03.obj4
+  - a1.m03.l03.obj2
+  - a1.m03.l03.obj3
+  instructions_vi: Ghi âm câu chuyện ngày không may của bạn (phần Nói).
+  grading: self
+  rubric:
+  - criterion_vi: Có ít nhất 2 câu với kein/keine và 1 câu với nicht, dùng đúng
+    points: 3
+  - criterion_vi: Câu chuyện có mở đầu – vấn đề – kết thúc
+    points: 1
+  items:
+  - id: a1.m03.l03.ex.08.q1
+    prompt_vi: Ngày không may của tôi
+    model_answer:
+      de: Heute habe ich kein Glück. Der Bus kommt nicht. Ich habe kein Auto und kein Fahrrad. Also gehe ich zu Fuß. Ich bin nicht pünktlich!
+    explanation_vi: So sánh với mẫu ở phần Nói.
+- id: a1.m03.l03.ex.09
+  type: writing-practice
+  skill: writing
+  difficulty: 1
+  objective_refs:
+  - a1.m03.l03.obj2
+  - a1.m03.l03.obj1
+  instructions_vi: Viết tin nhắn báo đến muộn (phần Viết).
+  grading: self
+  rubric:
+  - criterion_vi: Có 2 câu với kein/keine đúng
+    points: 2
+  - criterion_vi: Có lời chào, lý do, thời gian
+    points: 1
+  items:
+  - id: a1.m03.l03.ex.09.q1
+    prompt_vi: Tin nhắn báo đến muộn
+    model_answer:
+      de: Hallo Lisa! Heute fährt keine U-Bahn. Ich habe kein Fahrrad. Ich komme zu Fuß – circa 20 Minuten. Sorry!
+    explanation_vi: So sánh với mẫu.

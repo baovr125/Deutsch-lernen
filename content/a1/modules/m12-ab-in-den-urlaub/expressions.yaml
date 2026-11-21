@@ -1,0 +1,30 @@
+schema_version: "2.0"
+content_type: expression-set
+id: a1.m12.expr
+level: A1
+module: a1.m12
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  references:
+    - { work: "Netzwerk neu A1.2 – Stoffverteilungsplan (Klett)", scope: "Kapitel 12: Redemittel Urlaub, Städtereise, Wie war's?, Wetter, über einen Text berichten", verification: verified }
+    - { work: "Dự án Deutsch-lernen", scope: "Câu mẫu cụ thể do dự án tự viết", verification: proposed }
+  tags: ["redemittel"]
+entries:
+  - { id: a1.m12.x.urlaub-planen, de: "Im Sommer mache ich zwei Wochen Urlaub.", vi: "Mùa hè tôi nghỉ phép hai tuần.", register: neutral, function: "Nói kế hoạch nghỉ", situation_vi: "Kể kế hoạch với đồng nghiệp, bạn bè.", lesson_refs: [a1.m12.l01] }
+  - { id: a1.m12.x.wohin-urlaub, de: "Wohin fährst du in den Urlaub?", vi: "Bạn đi nghỉ ở đâu?", register: informal, function: "Hỏi nơi đến", situation_vi: "Hỏi bạn về kế hoạch nghỉ.", reply: { de: "Ich fliege nach Spanien.", vi: "Mình bay đến Tây Ban Nha." }, lesson_refs: [a1.m12.l01] }
+  - { id: a1.m12.x.hotel-buchen, de: "Ich möchte ein Zimmer für drei Nächte buchen.", vi: "Tôi muốn đặt một phòng cho ba đêm.", register: formal, function: "Đặt phòng", situation_vi: "Gọi hoặc nói với lễ tân khách sạn.", lesson_refs: [a1.m12.l01] }
+  - { id: a1.m12.x.sehenswuerdigkeit-fragen, de: "Was kann man in der Stadt besichtigen?", vi: "Trong thành phố có thể tham quan gì?", register: neutral, function: "Hỏi thắng cảnh", situation_vi: "Hỏi lễ tân hoặc người địa phương.", reply: { de: "Man kann das Schloss und die Kirche besichtigen.", vi: "Có thể tham quan lâu đài và nhà thờ." }, lesson_refs: [a1.m12.l02] }
+  - { id: a1.m12.x.weg-fragen, de: "Wo ist hier der Bahnhof?", vi: "Ở đây nhà ga ở đâu?", register: neutral, function: "Hỏi đường", situation_vi: "Hỏi người đi đường.", reply: { de: "Im Norden, dort bei der Kirche.", vi: "Ở phía bắc, chỗ nhà thờ đó." }, lesson_refs: [a1.m12.l02] }
+  - { id: a1.m12.x.zugzeit, de: "Wann fährt der Zug nach Berlin ab?", vi: "Khi nào tàu đi Berlin khởi hành?", register: neutral, function: "Hỏi giờ tàu", situation_vi: "Hỏi ở quầy hoặc ga.", reply: { de: "Um zehn Uhr dreißig.", vi: "Lúc mười giờ ba mươi." }, lesson_refs: [a1.m12.l02] }
+  - { id: a1.m12.x.wie-wars, de: "Wie war's im Urlaub?", vi: "Kỳ nghỉ thế nào?", register: informal, function: "Hỏi về chuyến đi", situation_vi: "Hỏi thăm bạn vừa đi nghỉ về.", reply: { de: "Super! Das Wetter war schön.", vi: "Tuyệt! Thời tiết đẹp." }, lesson_refs: [a1.m12.l03] }
+  - { id: a1.m12.x.reisebericht, de: "Wir sind mit dem Zug gefahren und am Abend angekommen.", vi: "Chúng tôi đi bằng tàu và đến vào buổi tối.", register: neutral, function: "Kể chuyến đi", situation_vi: "Kể ngắn gọn diễn biến chuyến đi.", lesson_refs: [a1.m12.l03] }
+  - { id: a1.m12.x.grund, de: "Ich bleibe zu Hause, denn ich bin krank.", vi: "Tôi ở nhà vì tôi bị ốm.", register: neutral, function: "Nêu lý do", situation_vi: "Giải thích vì sao không đi.", lesson_refs: [a1.m12.l03] }
+  - { id: a1.m12.x.wetter-fragen, de: "Wie ist das Wetter bei euch?", vi: "Chỗ các bạn thời tiết thế nào?", register: informal, function: "Hỏi thời tiết", situation_vi: "Nhắn tin hoặc gọi cho bạn ở nơi khác.", reply: { de: "Hier regnet es, aber im Süden scheint die Sonne.", vi: "Ở đây mưa, nhưng ở phía nam thì nắng." }, lesson_refs: [a1.m12.l04] }
+  - { id: a1.m12.x.wetter-beschreiben, de: "Im Norden ist es kalt und im Süden ist es warm.", vi: "Ở phía bắc thì lạnh còn ở phía nam thì ấm.", register: neutral, function: "Mô tả thời tiết theo vùng", situation_vi: "Dự báo thời tiết, kể về chuyến đi.", lesson_refs: [a1.m12.l04] }
+  - { id: a1.m12.x.postkarte, de: "Liebe Grüße aus dem Urlaub!", vi: "Gửi những lời thân ái từ kỳ nghỉ!", register: informal, function: "Mở đầu/kết bưu thiếp", situation_vi: "Viết bưu thiếp cho bạn bè, gia đình.", lesson_refs: [a1.m12.l04] }

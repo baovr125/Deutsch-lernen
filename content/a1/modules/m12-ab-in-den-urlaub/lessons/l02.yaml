@@ -1,0 +1,62 @@
+schema_version: "2.0"
+content_type: lesson
+id: a1.m12.l02
+level: A1
+module: a1.m12
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  references:
+    - { work: "Netzwerk neu A1.2 – Stoffverteilungsplan (Klett)", scope: "Kapitel 12, Mục Städtereise; Wortschatz Stadturlaub; Fragewörter; Pronomen man", verification: verified }
+  tags: ["staedtereise", "frage", "man"]
+order: 2
+title_de: "Städtereise"
+title_vi: "Chuyến du lịch thành phố"
+duration_min: 50
+difficulty: 2
+objectives:
+  - { id: a1.m12.l02.obj1, text_vi: "Bạn có thể dùng các từ để hỏi (Wer, Was, Wo, Wohin, Woher, Wann, Wie, Warum, Wie lange) để hỏi thông tin khi đi du lịch.", skill: grammar }
+  - { id: a1.m12.l02.obj2, text_vi: "Bạn có thể dùng „man“ để nói điều chung về một thành phố (có thể làm gì, phải làm gì).", skill: grammar }
+vocabulary_refs: [a1.m12.v.sehenswuerdigkeit, a1.m12.v.stadtplan, a1.m12.v.kirche, a1.m12.v.schloss, a1.m12.v.platz, a1.m12.v.uebernachten, a1.m12.v.besichtigen, a1.m12.v.warum]
+grammar_refs: [a1.g.fragewoerter, a1.g.man]
+expression_refs: [a1.m12.x.sehenswuerdigkeit-fragen, a1.m12.x.weg-fragen, a1.m12.x.zugzeit]
+exercise_set_ref: a1.m12.l02.ex
+blocks:
+  - id: a1.m12.l02.b1
+    kind: explanation
+    skill: grammar
+    title_vi: "Bắt đầu: hỏi thông tin khi du lịch"
+    body_vi: |
+      Từ để hỏi ở **vị trí 1**, động từ ở **vị trí 2**: *Wohin fährst du? Wann fährt der Zug ab? Wie lange bleibst du?*
+      Nói về điều chung dùng **man** (chia như er/sie/es): *In der Stadt kann man viel sehen. Hier muss man eine Fahrkarte kaufen.*
+  - id: a1.m12.l02.b2
+    kind: dialogue
+    skill: speaking
+    title_vi: "Hội thoại: Hỏi lễ tân khách sạn"
+    lines:
+      - { speaker: "Gast", de: "Guten Tag! Was kann man in der Stadt besichtigen?", vi: "Xin chào! Trong thành phố có thể tham quan gì?" }
+      - { speaker: "Rezeption", de: "Man kann das Schloss und die Kirche besichtigen. Beide sind im Zentrum.", vi: "Có thể tham quan lâu đài và nhà thờ. Cả hai đều ở trung tâm." }
+      - { speaker: "Gast", de: "Wo ist das Schloss? Haben Sie einen Stadtplan?", vi: "Lâu đài ở đâu? Ông/bà có bản đồ thành phố không?" }
+      - { speaker: "Rezeption", de: "Ja, hier. Das Schloss ist im Norden, am großen Platz.", vi: "Có, đây. Lâu đài ở phía bắc, cạnh quảng trường lớn." }
+      - { speaker: "Gast", de: "Wie lange braucht man zu Fuß?", vi: "Đi bộ mất bao lâu?" }
+      - { speaker: "Rezeption", de: "Zwanzig Minuten. Warum nehmen Sie nicht den Bus?", vi: "Hai mươi phút. Tại sao ông/bà không đi xe buýt?" }
+  - id: a1.m12.l02.b3
+    kind: reading
+    skill: reading
+    title_vi: "Bài đọc: Dresden für Touristen"
+    paragraphs:
+      - { de: "In Dresden kann man viel besichtigen: das Schloss, die Kirche und viele Plätze.", vi: "Ở Dresden có thể tham quan nhiều thứ: lâu đài, nhà thờ và nhiều quảng trường." }
+      - { de: "Man braucht einen Stadtplan. Die Stadt ist groß.", vi: "Cần một bản đồ thành phố. Thành phố rộng." }
+      - { de: "Viele Touristen übernachten in einem Hotel im Zentrum.", vi: "Nhiều khách du lịch nghỉ đêm ở một khách sạn ở trung tâm." }
+  - id: a1.m12.l02.b4
+    kind: explanation
+    skill: grammar
+    title_vi: "Ngữ pháp: W-Fragen và man"
+    body_vi: |
+      **Wer** (ai) · **Was** (cái gì) · **Wo** (ở đâu) · **Wohin** (đi đâu) · **Woher** (từ đâu) · **Wann** (khi nào) · **Wie** (như thế nào) · **Warum** (tại sao) · **Wie lange** (bao lâu) · **Wie viel/viele** (bao nhiêu).
+      **man** + động từ ngôi er/sie/es: *man kann, man muss, man darf, man sieht.* Xem a1.g.fragewoerter và a1.g.man.

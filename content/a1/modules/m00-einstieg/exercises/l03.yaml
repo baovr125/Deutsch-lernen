@@ -1,0 +1,213 @@
+schema_version: '2.0'
+content_type: exercise-set
+id: a1.m00.l03.ex
+level: A1
+module: a1.m00
+lesson: a1.m00.l03
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+exercises:
+- id: a1.m00.l03.ex.01
+  type: multiple-choice
+  skill: pronunciation
+  difficulty: 1
+  objective_refs:
+  - a1.m00.l03.obj1
+  instructions_vi: Âm tiết nào được nhấn?
+  items:
+  - id: a1.m00.l03.ex.01.q1
+    prompt: Hotel
+    options:
+    - id: a
+      text: ho-TEL
+    - id: b
+      text: HO-tel
+    answer:
+    - a
+    explanation_vi: 'Từ vay mượn, nhấn ở cuối: [hoˈtɛl].'
+  - id: a1.m00.l03.ex.01.q2
+    prompt: Taxi
+    options:
+    - id: a
+      text: TA-xi
+    - id: b
+      text: ta-XI
+    answer:
+    - a
+    explanation_vi: '[ˈtaksi].'
+  - id: a1.m00.l03.ex.01.q3
+    prompt: lesen
+    options:
+    - id: a
+      text: le-SEN
+    - id: b
+      text: LE-sen
+    answer:
+    - b
+    explanation_vi: Từ gốc Đức, nhấn âm tiết đầu.
+  - id: a1.m00.l03.ex.01.q4
+    prompt: Musik
+    options:
+    - id: a
+      text: MU-sik
+    - id: b
+      text: mu-SIK
+    answer:
+    - b
+    explanation_vi: '[muˈziːk].'
+- id: a1.m00.l03.ex.02
+  type: multiple-choice
+  skill: listening
+  difficulty: 2
+  objective_refs:
+  - a1.m00.l03.obj2
+  instructions_vi: Nghe từng câu. Giọng cuối câu đi lên (↗) hay đi xuống (↘)?
+  stimulus:
+    ref: a1.m00.l03.b7
+  items:
+  - id: a1.m00.l03.ex.02.q1
+    prompt: 'Câu 1: Das ist ein Hotel.'
+    options:
+    - id: a
+      text: ↘
+    - id: b
+      text: ↗
+    answer:
+    - a
+    explanation_vi: Câu kể → xuống giọng.
+  - id: a1.m00.l03.ex.02.q2
+    prompt: 'Câu 2: Ist das ein Hotel?'
+    options:
+    - id: a
+      text: ↘
+    - id: b
+      text: ↗
+    answer:
+    - b
+    explanation_vi: Câu hỏi có/không → lên giọng.
+  - id: a1.m00.l03.ex.02.q3
+    prompt: 'Câu 3: Wo ist das Hotel?'
+    options:
+    - id: a
+      text: ↘
+    - id: b
+      text: ↗
+    answer:
+    - a
+    explanation_vi: Câu hỏi W- → xuống giọng.
+- id: a1.m00.l03.ex.03
+  type: matching
+  skill: reading
+  difficulty: 1
+  objective_refs:
+  - a1.m00.l03.obj3
+  instructions_vi: Nối yêu cầu tiếng Đức với nghĩa tiếng Việt.
+  stimulus:
+    ref: a1.m00.l03.b8
+  items:
+  - id: a1.m00.l03.ex.03.q1
+    pairs:
+    - left: Hören Sie.
+      right: Hãy nghe.
+    - left: Lesen Sie.
+      right: Hãy đọc.
+    - left: Schreiben Sie.
+      right: Hãy viết.
+    - left: Sprechen Sie nach.
+      right: Hãy nhắc lại.
+    - left: Richtig oder falsch?
+      right: Đúng hay sai?
+    explanation_vi: hören = nghe, lesen = đọc, schreiben = viết, nachsprechen = nói theo, richtig/falsch = đúng/sai.
+- id: a1.m00.l03.ex.04
+  type: true-false
+  skill: pronunciation
+  difficulty: 1
+  objective_refs:
+  - a1.m00.l03.obj1
+  - a1.m00.l03.obj2
+  instructions_vi: Đúng hay sai?
+  items:
+  - id: a1.m00.l03.ex.04.q1
+    prompt: Từ gốc Đức thường nhấn ở âm tiết đầu.
+    answer: true
+    explanation_vi: 'Ví dụ: HÖ-ren, LE-sen, RICH-tig.'
+  - id: a1.m00.l03.ex.04.q2
+    prompt: Câu hỏi với „wie, wo, wer“ thường lên giọng ở cuối.
+    answer: false
+    explanation_vi: Câu hỏi W- thường xuống giọng.
+  - id: a1.m00.l03.ex.04.q3
+    prompt: Tiếng Đức có thanh điệu cho từng chữ như tiếng Việt.
+    answer: false
+    explanation_vi: Tiếng Đức không có thanh điệu; chỉ có trọng âm và ngữ điệu câu.
+- id: a1.m00.l03.ex.05
+  type: word-order
+  skill: reading
+  difficulty: 1
+  objective_refs:
+  - a1.m00.l03.obj3
+  instructions_vi: Sắp xếp thành câu yêu cầu đúng.
+  items:
+  - id: a1.m00.l03.ex.05.q1
+    tokens:
+    - nach
+    - Sprechen
+    - Sie
+    answer: Sprechen Sie nach.
+    explanation_vi: 'Động từ tách: Sprechen … nach – phần nach ở cuối.'
+  - id: a1.m00.l03.ex.05.q2
+    tokens:
+    - Sie
+    - Hören
+    answer: Hören Sie.
+    explanation_vi: 'Câu yêu cầu: động từ đứng đầu + Sie.'
+- id: a1.m00.l03.ex.06
+  type: speaking-practice
+  skill: speaking
+  difficulty: 1
+  objective_refs:
+  - a1.m00.l03.obj1
+  - a1.m00.l03.obj2
+  - a1.m00.l03.obj4
+  instructions_vi: Ghi âm phần Nói (5 từ + 3 câu). Nghe lại và tự chấm.
+  grading: self
+  rubric:
+  - criterion_vi: Nhấn đúng âm tiết ở cả 5 từ
+    points: 2
+  - criterion_vi: Ngữ điệu đúng ở 3 câu (↘ ↗ ↘)
+    points: 2
+  - criterion_vi: Âm tiết không nhấn được đọc nhẹ, không đọc đều như tiếng Việt
+    points: 1
+  items:
+  - id: a1.m00.l03.ex.06.q1
+    prompt_vi: Hotel – Taxi – Musik – Internet – richtig. / Das ist ein Taxi. / Ist das ein Taxi? / Wie heißt du?
+    model_answer:
+      de: ho-TEL, TA-xi, mu-SIK, IN-ter-net, RICH-tig. Das ist ein Taxi ↘. Ist das ein Taxi ↗? Wie heißt du ↘?
+    explanation_vi: So sánh với audio mẫu; chú ý câu hỏi W- xuống giọng.
+- id: a1.m00.l03.ex.07
+  type: writing-practice
+  skill: writing
+  difficulty: 1
+  objective_refs:
+  - a1.m00.l03.obj3
+  instructions_vi: Chép lại 3 yêu cầu và viết nghĩa tiếng Việt.
+  grading: self
+  rubric:
+  - criterion_vi: Chép đúng chính tả, viết hoa Sie và chữ đầu câu
+    points: 2
+  - criterion_vi: Nghĩa tiếng Việt đúng
+    points: 1
+  items:
+  - id: a1.m00.l03.ex.07.q1
+    prompt_vi: Hören Sie. / Lesen Sie. / Sprechen Sie nach.
+    model_answer:
+      de: Hören Sie. = Hãy nghe. / Lesen Sie. = Hãy đọc. / Sprechen Sie nach. = Hãy nhắc lại.
+    explanation_vi: Sie luôn viết hoa khi là cách xưng trang trọng.

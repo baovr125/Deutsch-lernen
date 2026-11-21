@@ -1,0 +1,134 @@
+schema_version: "2.0"
+content_type: exercise-set
+id: a1.m10.l02.ex
+level: A1
+module: a1.m10
+lesson: a1.m10.l02
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  tags: ["perfekt", "tagesablauf"]
+exercises:
+  - id: a1.m10.l02.ex.01
+    type: multiple-choice
+    skill: vocabulary
+    difficulty: 1
+    objective_refs: [a1.m10.l02.obj1, a1.m10.obj.perfekt]
+    instructions_vi: "Chọn đáp án đúng."
+    items:
+      - id: a1.m10.l02.ex.01.q1
+        prompt: "Wie sagt man „vào buổi tối“ (jeden Abend)?"
+        options: [{ id: a, text: "morgens" }, { id: b, text: "mittags" }, { id: c, text: "abends" }]
+        answer: [c]
+        explanation_vi: "abends = buổi tối; morgens = buổi sáng; mittags = buổi trưa."
+      - id: a1.m10.l02.ex.01.q2
+        prompt: "„Gestern“ ist ein Signalwort für ..."
+        options: [{ id: a, text: "die Vergangenheit (Perfekt)." }, { id: b, text: "die Zukunft." }, { id: c, text: "die Gegenwart." }]
+        answer: [a]
+        explanation_vi: "„gestern“ = hôm qua → việc đã xảy ra, thường kể bằng Perfekt."
+      - id: a1.m10.l02.ex.01.q3
+        prompt: "Was bedeutet „danach“?"
+        options: [{ id: a, text: "trước đó" }, { id: b, text: "sau đó" }, { id: c, text: "luôn luôn" }]
+        answer: [b]
+        explanation_vi: "danach = sau đó."
+      - id: a1.m10.l02.ex.01.q4
+        prompt: "Was bedeutet „aufräumen“?"
+        options: [{ id: a, text: "dọn dẹp" }, { id: b, text: "nấu ăn" }, { id: c, text: "học bài" }]
+        answer: [a]
+        explanation_vi: "aufräumen = dọn dẹp (động từ tách)."
+  - id: a1.m10.l02.ex.02
+    type: fill-blank
+    skill: grammar
+    difficulty: 2
+    objective_refs: [a1.m10.l02.obj1, a1.g.partizip2-regelmaessig.obj1, a1.m10.obj.partizip]
+    instructions_vi: "Điền Partizip II của động từ trong ngoặc (gợi ý)."
+    items:
+      - { id: a1.m10.l02.ex.02.q1, prompt: "Gestern habe ich Deutsch ___.", hint_vi: "lernen", answers: ["gelernt"], explanation_vi: "ge + lern + t = gelernt." }
+      - { id: a1.m10.l02.ex.02.q2, prompt: "Wir haben um acht Uhr ___.", hint_vi: "frühstücken", answers: ["gefrühstückt"], explanation_vi: "ge + frühstück + t = gefrühstückt." }
+      - { id: a1.m10.l02.ex.02.q3, prompt: "Er hat die Wohnung ___.", hint_vi: "aufräumen", answers: ["aufgeräumt"], explanation_vi: "Động từ tách: auf + ge + räum + t = aufgeräumt." }
+      - { id: a1.m10.l02.ex.02.q4, prompt: "Sie hat das Bad ___.", hint_vi: "putzen", answers: ["geputzt"], explanation_vi: "ge + putz + t = geputzt." }
+  - id: a1.m10.l02.ex.03
+    type: fill-blank
+    skill: grammar
+    difficulty: 1
+    objective_refs: [a1.m10.l02.obj1, a1.g.perfekt-satzklammer.obj1, a1.m10.obj.perfekt]
+    instructions_vi: "Điền dạng đúng của „haben“."
+    items:
+      - { id: a1.m10.l02.ex.03.q1, prompt: "Ich ___ gestern gekocht.", answers: ["habe"], explanation_vi: "ich habe." }
+      - { id: a1.m10.l02.ex.03.q2, prompt: "Du ___ gut gespielt.", answers: ["hast"], explanation_vi: "du hast." }
+      - { id: a1.m10.l02.ex.03.q3, prompt: "Sie ___ das Zimmer geputzt.", hint_vi: "một người nữ", answers: ["hat"], explanation_vi: "sie (số ít) hat." }
+      - { id: a1.m10.l02.ex.03.q4, prompt: "Wir ___ Deutsch gelernt.", answers: ["haben"], explanation_vi: "wir haben." }
+  - id: a1.m10.l02.ex.04
+    type: word-order
+    skill: grammar
+    difficulty: 2
+    objective_refs: [a1.m10.l02.obj1, a1.g.perfekt-satzklammer.obj1, a1.m10.obj.perfekt]
+    instructions_vi: "Sắp xếp các từ thành câu Perfekt đúng."
+    items:
+      - id: a1.m10.l02.ex.04.q1
+        tokens: ["gelernt.", "gestern", "Ich", "Deutsch", "habe"]
+        answer: "Ich habe gestern Deutsch gelernt."
+        translation_vi: "Hôm qua tôi đã học tiếng Đức."
+        explanation_vi: "habe ở vị trí 2, Partizip II „gelernt“ ở cuối câu."
+      - id: a1.m10.l02.ex.04.q2
+        tokens: ["geputzt.", "Bad", "Er", "das", "hat"]
+        answer: "Er hat das Bad geputzt."
+        translation_vi: "Anh ấy đã lau phòng tắm."
+        explanation_vi: "Satzklammer: hat … geputzt."
+      - id: a1.m10.l02.ex.04.q3
+        tokens: ["um", "gefrühstückt.", "Wir", "Uhr", "haben", "acht"]
+        answer: "Wir haben um acht Uhr gefrühstückt."
+        translation_vi: "Chúng tôi đã ăn sáng lúc tám giờ."
+        explanation_vi: "Giữa „haben“ và „gefrühstückt“ là thông tin thời gian."
+  - id: a1.m10.l02.ex.05
+    type: reading-comprehension
+    skill: reading
+    difficulty: 2
+    objective_refs: [a1.m10.l02.obj1, a1.m10.obj.erzaehlen]
+    instructions_vi: "Đọc và trả lời."
+    stimulus:
+      text_de: "Gestern war ein langer Tag. Ich habe um sieben Uhr gefrühstückt und danach gearbeitet. Mittags habe ich gekocht. Abends habe ich aufgeräumt und Deutsch gelernt."
+      text_vi: "Hôm qua là một ngày dài. Tôi đã ăn sáng lúc bảy giờ và sau đó làm việc. Buổi trưa tôi đã nấu ăn. Buổi tối tôi đã dọn dẹp và học tiếng Đức."
+    items:
+      - id: a1.m10.l02.ex.05.q1
+        prompt: "Wann hat die Person gefrühstückt?"
+        options: [{ id: a, text: "Um sieben Uhr." }, { id: b, text: "Um acht Uhr." }, { id: c, text: "Um zwölf Uhr." }]
+        answer: [a]
+        explanation_vi: "„Ich habe um sieben Uhr gefrühstückt“."
+      - id: a1.m10.l02.ex.05.q2
+        prompt: "Was hat sie mittags gemacht?"
+        options: [{ id: a, text: "Gekocht." }, { id: b, text: "Geputzt." }, { id: c, text: "Gespielt." }]
+        answer: [a]
+        explanation_vi: "„Mittags habe ich gekocht.“"
+      - id: a1.m10.l02.ex.05.q3
+        prompt: "Was hat sie abends gemacht?"
+        options: [{ id: a, text: "Gespielt." }, { id: b, text: "Aufgeräumt und Deutsch gelernt." }, { id: c, text: "Gearbeitet." }]
+        answer: [b]
+        explanation_vi: "„Abends habe ich aufgeräumt und Deutsch gelernt.“"
+  - id: a1.m10.l02.ex.06
+    type: translation
+    skill: writing
+    difficulty: 2
+    objective_refs: [a1.m10.l02.obj1, a1.m10.obj.erzaehlen]
+    instructions_vi: "Dịch sang tiếng Đức (Perfekt)."
+    items:
+      - { id: a1.m10.l02.ex.06.q1, direction: vi-de, source: "Hôm qua tôi đã nấu ăn.", answers: ["Gestern habe ich gekocht.", "Ich habe gestern gekocht."], explanation_vi: "habe ở vị trí 2, gekocht ở cuối." }
+      - { id: a1.m10.l02.ex.06.q2, direction: vi-de, source: "Chúng tôi đã học tiếng Đức.", answers: ["Wir haben Deutsch gelernt."], explanation_vi: "wir haben … gelernt." }
+      - { id: a1.m10.l02.ex.06.q3, direction: vi-de, source: "Anh ấy đã dọn dẹp căn hộ.", answers: ["Er hat die Wohnung aufgeräumt."], explanation_vi: "Động từ tách: aufgeräumt." }
+  - id: a1.m10.l02.ex.07
+    type: writing-practice
+    skill: writing
+    difficulty: 3
+    objective_refs: [a1.m10.l02.obj2, a1.m10.obj.erzaehlen]
+    instructions_vi: "Viết 3–4 câu kể những việc bạn đã làm hôm qua (dùng Perfekt)."
+    items:
+      - id: a1.m10.l02.ex.07.q1
+        prompt_vi: "Kể về hôm qua: sáng, trưa, tối."
+        model_answer: { de: "Gestern habe ich um acht Uhr gefrühstückt. Mittags habe ich gekocht. Abends habe ich die Wohnung aufgeräumt und Deutsch gelernt.", vi: "Hôm qua tôi đã ăn sáng lúc tám giờ. Buổi trưa tôi đã nấu ăn. Buổi tối tôi đã dọn dẹp căn hộ và học tiếng Đức." }
+        rubric_vi: ["Dùng haben + Partizip II đúng.", "Partizip II ở cuối câu.", "Có ít nhất ba mốc thời gian (morgens, mittags, abends/um … Uhr).", "Chính tả và dấu câu đúng."]
+        explanation_vi: "Bài mẫu có đủ ba mốc thời gian và Partizip II cuối câu."

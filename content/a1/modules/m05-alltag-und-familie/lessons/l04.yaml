@@ -1,0 +1,248 @@
+schema_version: '2.0'
+content_type: lesson
+id: a1.m05.l04
+level: A1
+module: a1.m05
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+  references:
+  - work: Netzwerk neu A1 (Klett)
+    scope: 'Kapitel 5: Familie und Termine'
+    verification: verified
+  notes_vi: 'Sprachhandlungen: über den Familienalltag und Termine sprechen, einen Kalender führen, Aufgaben in der Familie verteilen. Wortschatz: Termin, Kalender, Schule, Kindergarten, Hausaufgabe, Feierabend, putzen... Grammatik: Wiederholung Zeitangaben, trennbare Verben im Alltag, Satzstruktur.'
+order: 4
+title_de: Familienalltag und Termine
+title_vi: Sinh hoạt gia đình và các lịch hẹn
+topic_vi: Lịch sinh hoạt thường nhật của gia đình, đưa đón con cái, việc nhà, phân chia công việc và lịch biểu bận rộn
+duration_min: 80
+difficulty: 2
+cefr:
+- A1.L1
+- A1.H2
+- A1.SP1
+- A1.S2
+prerequisites:
+- a1.m05.l03
+objectives:
+- id: a1.m05.l04.obj1
+  text_vi: Mô tả lịch trình sinh hoạt và công việc của một ngày bận rộn trong gia đình.
+  skill: vocabulary
+- id: a1.m05.l04.obj2
+  text_vi: Sử dụng đúng các động từ đưa đón và việc nhà (bringen, abholen, putzen, Hausaufgaben machen).
+  skill: listening
+- id: a1.m05.l04.obj3
+  text_vi: Nói về thời gian theo tuần, tháng, năm và các mốc thời gian công việc (Arbeitstag, Feierabend, Kalenderwoche).
+  skill: vocabulary
+- id: a1.m05.l04.obj4
+  text_vi: Hiểu bài đọc về một ngày của một gia đình tại Đức và hoàn thành bài tập đọc hiểu.
+  skill: reading
+vocabulary_refs:
+- a1.m05.v.terminkalender
+- a1.m05.v.kalender
+- a1.m05.v.kalenderwoche
+- a1.m05.v.voll
+- a1.m05.v.arbeitstag
+- a1.m05.v.feierabend
+- a1.m05.v.bringen
+- a1.m05.v.abholen
+- a1.m05.v.grundschule
+- a1.m05.v.kindergarten
+- a1.m05.v.hausaufgabe
+- a1.m05.v.sport
+- a1.m05.v.putzen
+- a1.m05.v.familienalltag
+- a1.m05.v.hausarbeit
+- a1.m05.v.schulkind
+review_vocabulary_refs:
+- a1.m05.v.alltag
+- a1.m05.v.spazierengehen
+- a1.m05.v.familie
+- a1.m05.v.schwester
+grammar_refs:
+- a1.g.zeitangaben-wann
+grammar_focus:
+- ref: a1.g.zeitangaben-wann
+  focus_vi: 'Cụm từ chỉ thời gian công việc và gia đình: in der Kalenderwoche (KW), am Arbeitstag, nach Feierabend, pro Woche / Monat / Jahr'
+expression_refs:
+- a1.m05.x.mein-kalender-ist-voll-ich-habe-viele-te
+- a1.m05.x.wer-bringt-wer-holt-ab-ich-bringe-und-du
+exercise_set_ref: a1.m05.l04.ex
+summary_vi: Bài học giúp bạn nắm vững từ vựng về thời gian biểu và sinh hoạt gia đình (der Termin, der Kalender, der Arbeitstag, der Feierabend), phân biệt hai động từ đưa đón bringen và abholen, cùng cách phân chia việc nhà và chăm sóc con cái.
+self_check:
+- Tôi có thể nói về ngày làm việc (Arbeitstag) và giờ tan làm (Feierabend) của mình.
+- Tôi biết dùng động từ bringen (đưa đi) và động từ tách abholen (đón về).
+- Tôi có thể mô tả việc chăm sóc con cái và công việc nhà trong gia đình bằng tiếng Đức.
+blocks:
+- id: a1.m05.l04.b1
+  kind: explanation
+  title_vi: Giới thiệu bài học
+  body_vi: 'Cuộc sống gia đình luôn tràn ngập những kế hoạch, lịch hẹn và công việc thường nhật.
+
+    Trong bài học này, bạn sẽ:
+
+    - Học cách ghi chép và diễn đạt lịch trình: *der Termin, der Kalender, die Kalenderwoche (KW), voll*.
+
+    - Miêu tả các hoạt động quen thuộc trong ngày: đưa đón con (*bringen, abholen*), trường học (*die Schule*), trường mẫu giáo (*der Kindergarten*), làm bài tập về nhà (*die Hausaufgabe*).
+
+    - Khám phá nhịp sống công sở và sinh hoạt: ngày làm việc (*der Arbeitstag*), giờ tan làm (*der Feierabend*), tập thể thao (*der Sport*), dọn dẹp nhà cửa (*putzen*).
+
+    - Nắm vững các đơn vị đo thời gian lớn hơn: tuần (*die Woche*), tháng (*der Monat*), năm (*das Jahr*).'
+- id: a1.m05.l04.b2
+  kind: explanation
+  title_vi: 'Phân biệt hai động từ đưa đón: bringen vs. abholen'
+  skill: grammar
+  body_vi: 'Động từ ''bringen'' (đưa ai đi đâu) là động từ thông thường: ''Er bringt die Kinder zur Schule.'' Trong khi đó, ''abholen'' (đón ai về) là động từ tách có tiền tố ''ab-'' đứng ở cuối câu chính: ''Wer holt die Kinder am Nachmittag ab?'''
+  examples:
+  - de: Um acht Uhr bringt Papa die Tochter in den Kindergarten.
+    vi: Lúc 8 giờ bố đưa con gái đến trường mầm non.
+  - de: Um 16 Uhr holt Mama sie wieder ab.
+    vi: Lúc 16 giờ mẹ đón bé về.
+- id: a1.m05.l04.b3
+  kind: explanation
+  title_vi: 'Khái niệm văn hóa: Der Feierabend'
+  skill: grammar
+  body_vi: Ở các nước nói tiếng Đức, 'Feierabend' là thời khắc kết thúc công việc trong ngày, chuyển sang khoảng thời gian tự do dành cho bản thân và gia đình. Người Đức thường chúc nhau 'Schönen Feierabend!' khi chào đồng nghiệp ra về.
+  examples:
+  - de: Um 17:30 Uhr habe ich endlich Feierabend!
+    vi: Lúc 17:30 cuối cùng tôi cũng tan sở!
+  - de: Was machst du nach Feierabend? – Ich mache Sport.
+    vi: Sau giờ làm bạn làm gì? – Tôi tập thể thao.
+- id: a1.m05.l04.b4
+  kind: pronunciation
+  title_vi: Trọng âm trong từ ghép chỉ thời gian và sinh hoạt
+  skill: pronunciation
+  body_vi: 'Trọng âm trong từ ghép chỉ thời gian và sinh hoạt
+
+
+    Trong tiếng Đức, các từ ghép danh từ hầu hết có trọng âm rơi vào âm tiết đầu tiên của từ gốc thứ nhất: ''AR-beits-tag, ''FEI-er-abend, ''HAUS-auf-ga-be, ''KIN-der-gar-ten, ''KA-len-der-wo-che.
+
+
+    Luyện tập: Nhấn mạnh rõ âm tiết đầu tiên khi phát âm: Arbeitstag, Feierabend, Kindergarten, Kalenderwoche.'
+  items:
+  - de: der Arbeitstag
+    vi: ngày làm việc
+    ipa: '[ˈaʁbaɪ̯tsˌtaːk]'
+  - de: der Feierabend
+    vi: giờ tan làm
+    ipa: '[ˈfaɪ̯ɐˌʔaːbn̩t]'
+  - de: die Hausaufgabe
+    vi: bài tập về nhà
+    ipa: '[ˈhaʊ̯sˌʔaʊ̯fɡaːbə]'
+- id: a1.m05.l04.b5
+  kind: examples
+  title_vi: Câu ví dụ
+  examples:
+  - de: Mein Arbeitstag beginnt um acht Uhr und endet um siebzehn Uhr.
+    vi: Ngày làm việc của tôi bắt đầu lúc 8 giờ và kết thúc lúc 17 giờ.
+  - de: Nach Feierabend mache ich gern Sport im Park.
+    vi: Sau giờ làm tôi thích tập thể thao ở công viên.
+  - de: Die Kinder machen am Nachmittag ihre Hausaufgaben.
+    vi: Buổi chiều các cháu làm bài tập về nhà.
+  - de: Am Samstag putzen wir zusammen das Haus.
+    vi: Vào thứ Bảy chúng tôi cùng nhau dọn dẹp nhà cửa.
+  - de: In einem Jahr gibt es zwölf Monate und zweiundfünfzig Wochen.
+    vi: Trong một năm có 12 tháng và 52 tuần.
+- id: a1.m05.l04.b6
+  kind: listening
+  title_vi: 'Hội thoại: Phân chia lịch trình trong gia đình'
+  lines:
+  - speaker: Thomas
+    de: Julia, wie sieht dein Kalender morgen aus?
+    vi: Julia, lịch ngày mai của em trông thế nào?
+  - speaker: Julia
+    de: Mein Arbeitstag ist sehr voll. Ich habe von neun bis sechzehn Uhr Termine im Büro.
+    vi: Ngày làm việc của em kín lắm. Em có các cuộc hẹn ở văn phòng từ 9 đến 16 giờ.
+  - speaker: Thomas
+    de: Kein Problem. Dann bringe ich Leo morgens um acht Uhr in den Kindergarten.
+    vi: Không sao cả. Thế thì sáng mai lúc 8 giờ anh sẽ đưa bé Leo đến nhà trẻ.
+  - speaker: Julia
+    de: Super! Und wer holt ihn am Nachmittag ab?
+    vi: Tuyệt quá! Thế ai đón con vào buổi chiều?
+  - speaker: Thomas
+    de: Um siebzehn Uhr habe ich Feierabend. Ich hole Leo um siebzehn Uhr fünfzehn ab.
+    vi: Lúc 17 giờ anh tan làm. Anh sẽ đón Leo lúc 17:15.
+  - speaker: Julia
+    de: Prima! Dann mache ich zu Hause mit Sophie ihre Hausaufgaben und putze die Küche.
+    vi: Tuyệt vời! Vậy em sẽ ở nhà cùng bé Sophie làm bài tập và dọn dẹp nhà bếp.
+  audio_status: pending-tts
+  situation_vi: Thomas và Julia thảo luận về lịch làm việc, việc đón con và dọn dẹp nhà cửa.
+  skill: listening
+  audio:
+    speed: slow
+- id: a1.m05.l04.b7
+  kind: reading
+  title_vi: 'Đọc hiểu: Một ngày của gia đình Florian và Sandra Hoffmann'
+  paragraphs:
+  - de: 'Florian und Sandra Hoffmann leben mit ihren zwei Kindern, Leo (4) und Sophie (8), in Augsburg.
+
+      Der Arbeitstag von Florian beginnt früh um 7:30 Uhr. Vorher bringt er Leo in den Kindergarten.
+
+      Sandra arbeitet bis 13:00 Uhr. Danach holt sie Sophie von der Schule und Leo vom Kindergarten ab.
+
+      Am Nachmittag hilft Sandra den Kindern bei den Hausaufgaben. Florian hat um 17:00 Uhr Feierabend.
+
+      Dienstags macht Florian Sport und Sandra putzt die Wohnung am Samstag.
+
+      Sandra sagt: „Unser Kalender ist immer ganz voll, aber am Wochenende haben wir viel Spaß zusammen!“'
+    vi: 'Florian và Sandra Hoffmann sống cùng hai con là Leo (4 tuổi) và Sophie (8 tuổi) tại Augsburg.
+
+      Ngày làm việc của Florian bắt đầu từ sớm lúc 7:30. Trước đó anh đưa Leo đến trường mầm non.
+
+      Sandra làm việc đến 13:00. Sau đó cô đón Sophie từ trường tiểu học và đón Leo từ trường mầm non về.
+
+      Buổi chiều Sandra giúp các con làm bài tập về nhà. Florian tan làm lúc 17:00.
+
+      Vào các ngày thứ Ba, Florian tập thể thao, còn Sandra dọn dẹp căn hộ vào thứ Bảy.
+
+      Sandra chia sẻ: „Lịch của chúng tôi lúc nào cũng kín mít, nhưng vào cuối tuần cả nhà có rất nhiều niềm vui bên nhau!“'
+  text_type_vi: Bài viết chia sẻ sinh hoạt gia đình
+  skill: reading
+  glossary:
+  - de: vorher
+    vi: trước đó
+  - de: helfen bei
+    vi: giúp đỡ việc gì
+  - de: viel Spaß haben
+    vi: có nhiều niềm vui
+- id: a1.m05.l04.b8
+  kind: speaking
+  title_vi: Nói về lịch làm việc và giờ tan sở của bạn
+  skill: speaking
+  task_vi: Thực hành hỏi đáp với bạn học về ngày làm việc, giờ tan sở (Feierabend) và các hoạt động sau giờ làm.
+  steps_vi:
+  - 'Hỏi giờ bắt đầu: Wann beginnt dein Arbeitstag?'
+  - 'Hỏi giờ tan làm: Um wie viel Uhr hast du Feierabend?'
+  - 'Kể hoạt động sau giờ làm: Nach Feierabend mache ich Sport / putze ich.'
+  lines:
+  - speaker: A
+    de: Wann beginnt dein Arbeitstag?
+    vi: Ngày làm việc của bạn bắt đầu lúc mấy giờ?
+  - speaker: B
+    de: Mein Arbeitstag beginnt um acht Uhr. Und um siebzehn Uhr habe ich Feierabend.
+    vi: Ngày làm việc của mình bắt đầu lúc 8 giờ. Và lúc 17 giờ mình tan sở.
+  - speaker: A
+    de: Was machst du nach Feierabend?
+    vi: Bạn làm gì sau giờ tan sở?
+  - speaker: B
+    de: Nach Feierabend mache ich oft Sport oder treffe Freunde.
+    vi: Sau giờ làm mình thường tập thể thao hoặc gặp gỡ bạn bè.
+- id: a1.m05.l04.b9
+  kind: writing
+  title_vi: Viết đoạn văn ngắn về một ngày bận rộn trong tuần
+  skill: writing
+  task_vi: Viết đoạn văn 4–5 câu miêu tả ngày làm việc, các cuộc hẹn và việc nhà của bạn.
+  model:
+    de: Mein Arbeitstag beginnt um acht Uhr morgens. Ich habe viele Termine im Büro und mein Kalender ist voll. Um siebzehn Uhr habe ich Feierabend. Danach kaufe ich im Supermarkt ein und putze die Küche. Am Abend mache ich noch Sport.
+    vi: Ngày làm việc của tôi bắt đầu lúc 8 giờ sáng. Tôi có nhiều cuộc hẹn ở văn phòng và lịch của tôi kín mít. Lúc 17 giờ tôi tan sở. Sau đó tôi đi mua sắm ở siêu thị và dọn dẹp nhà bếp. Buổi tối tôi còn tập thể thao.
+  checklist_vi:
+  - 'Có sử dụng các danh từ: der Arbeitstag, der Termin, der Kalender, der Feierabend.'
+  - Có câu dùng động từ tách (einkaufen, abholen) hoặc động từ thường (putzen, machen).

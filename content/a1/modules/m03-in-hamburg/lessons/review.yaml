@@ -1,0 +1,230 @@
+schema_version: '2.0'
+content_type: lesson
+id: a1.m03.review
+level: A1
+module: a1.m03
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+  references:
+  - work: Netzwerk neu A1 (Klett)
+    scope: 'Kapitel 3: kurz und klar: Redemittel und Grammatik'
+    verification: verified
+  notes_vi: Bảng tổng kết, đề kiểm tra và đáp án tự biên soạn.
+order: 7
+title_de: Kurz und klar – Test Kapitel 3
+title_vi: Tổng kết và kiểm tra Kapitel 3
+topic_vi: Ôn Redemittel và ngữ pháp Kapitel 3; kiểm tra 4 kỹ năng
+duration_min: 60
+difficulty: 2
+kind: review
+cefr:
+- A1.SI5
+- A1.H2
+- A1.H4
+- A1.L1
+- A1.L3
+- A1.L4
+- A1.S2
+- A1.SP1
+prerequisites:
+- a1.m03.l06
+objectives:
+- id: a1.m03.review.obj1
+  text_vi: 'Kiểm tra từ vựng: địa điểm trong thành phố, phương tiện, hướng, tháng và mùa.'
+  skill: vocabulary
+- id: a1.m03.review.obj2
+  text_vi: 'Kiểm tra ngữ pháp: ein/eine – der/die/das, kein/keine – nicht, Imperativ mit Sie.'
+  skill: grammar
+- id: a1.m03.review.obj3
+  text_vi: 'Kiểm tra nghe hiểu: chỉ đường.'
+  skill: listening
+- id: a1.m03.review.obj4
+  text_vi: 'Kiểm tra đọc hiểu: thông tin du lịch, sự kiện.'
+  skill: reading
+- id: a1.m03.review.obj5
+  text_vi: 'Kiểm tra viết và nói: giới thiệu thành phố, chỉ đường.'
+  skill: writing
+vocabulary_refs: []
+review_vocabulary_refs:
+- a1.m03.v.bahnhof
+- a1.m03.v.kirche
+- a1.m03.v.rathaus
+- a1.m03.v.turm
+- a1.m03.v.bruecke
+- a1.m03.v.ein
+- a1.m03.v.rechts
+- a1.m03.v.kein
+- a1.m03.v.bus
+- a1.m03.v.u-bahn
+- a1.m03.v.fahrkarte
+- a1.m03.v.links
+- a1.m03.v.geradeaus
+- a1.m03.v.dann
+- a1.m03.v.zuerst
+- a1.m03.v.ticket
+- a1.m03.v.finden
+- a1.m03.v.fruehling
+- a1.m03.v.winter
+grammar_refs:
+- a1.g.unbestimmter-artikel
+- a1.g.negation-kein
+- a1.g.imperativ-sie
+grammar_focus:
+- ref: a1.g.unbestimmter-artikel
+  focus_vi: 'Ôn: ein/eine – der/die/das.'
+- ref: a1.g.negation-kein
+  focus_vi: 'Ôn: kein/keine – nicht.'
+- ref: a1.g.imperativ-sie
+  focus_vi: 'Ôn: Verb + Sie.'
+expression_refs:
+- a1.m03.x.nach-dem-weg-fragen-und-den-weg-beschrei
+- a1.m03.x.ueber-eine-stadt-sprechen-das-ist-ein-ei
+- a1.m03.x.meinung-wie-findest-du-ich-finde-toll
+exercise_set_ref: a1.m03.review.ex
+summary_vi: 'Kapitel 3 – bạn có thể: gọi tên và mô tả địa điểm trong thành phố; dùng ein/eine và der/die/das; nói về phương tiện giao thông và phủ định bằng kein/keine hoặc nicht; hỏi đường và chỉ đường với Imperativ mit Sie; hiểu thông báo sự kiện nhờ từ quốc tế và nêu ý kiến; nói tháng và mùa với im.'
+self_check:
+- Tôi giới thiệu được một thành phố với các địa điểm chính.
+- Tôi dùng đúng ein/eine – der/die/das và kein/keine – nicht.
+- Tôi hỏi đường và chỉ đường được.
+- Tôi hiểu thông báo sự kiện và thông tin du lịch ngắn.
+- Tôi nói được tháng, mùa và hoạt động theo mùa.
+blocks:
+- id: a1.m03.review.b1
+  kind: explanation
+  title_vi: Giới thiệu bài học
+  body_vi: '**Hoàn thành Kapitel 3!** Phần tổng kết giúp bạn ôn nhanh; phần kiểm tra đánh giá 4 kỹ năng (mỗi kỹ năng ≥ 60%).
+
+    Sau Kapitel 3 là **Plattform 1** – ôn tập Kapitel 1–3 và làm quen với dạng đề thi A1.'
+- id: a1.m03.review.b2
+  kind: explanation
+  title_vi: Bảng tổng kết ngữ pháp Kapitel 3
+  skill: grammar
+  body_vi: '| | der (m) | das (n) | die (f) | số nhiều |
+
+    |---|---|---|---|---|
+
+    | xác định | der Bus | das Schiff | die Brücke | die Busse |
+
+    | không xác định | ein Bus | ein Schiff | eine Brücke | – Busse |
+
+    | phủ định | kein Bus | kein Schiff | keine Brücke | keine Busse |
+
+
+    **nicht:** phủ định động từ/tính từ: *Der Bus kommt nicht.* · **Imperativ mit Sie:** *Gehen Sie geradeaus!*
+
+    '
+  examples:
+  - de: Da ist ein Park. Der Park ist schön. Aber heute ist kein Konzert.
+    vi: Kia có một công viên. Công viên đẹp. Nhưng hôm nay không có buổi hòa nhạc nào.
+- id: a1.m03.review.b3
+  kind: pronunciation
+  title_vi: 'Ôn: nguyên âm dài – ngắn; links, rechts, geradeaus'
+  skill: pronunciation
+  body_vi: 'Ôn: nguyên âm dài – ngắn; links, rechts, geradeaus
+
+
+    Weg [veːk] (dài) – Stadt [ʃtat] (ngắn); schon [ʃoːn] – schön [ʃøːn]; links [lɪŋks], rechts [ʁɛçts], geradeaus (nhấn AUS).
+
+
+    Luyện tập: Đọc to và ghi âm câu ví dụ.'
+  items:
+  - de: Gehen Sie geradeaus und dann rechts.
+    vi: Hãy đi thẳng rồi rẽ phải.
+- id: a1.m03.review.b4
+  kind: examples
+  title_vi: Câu ví dụ
+  examples:
+  - de: Hamburg hat einen Hafen und viele Brücken.
+    vi: Hamburg có một bến cảng và nhiều cây cầu.
+  - de: Heute fährt keine U-Bahn. Also gehe ich zu Fuß.
+    vi: Hôm nay không có tàu điện ngầm. Vậy tôi đi bộ.
+  - de: Im Winter fahren viele Leute Ski.
+    vi: Mùa đông nhiều người đi trượt tuyết.
+- id: a1.m03.review.b5
+  kind: listening
+  title_vi: Hỏi đường đến bảo tàng
+  lines:
+  - speaker: Touristin
+    de: Entschuldigung, wo ist das Museum?
+    vi: Xin lỗi, bảo tàng ở đâu ạ?
+  - speaker: Mann
+    de: Das Museum? Gehen Sie zuerst rechts. Dann gehen Sie geradeaus, circa 200 Meter. Da ist eine Brücke. Gehen Sie über die Brücke. Das Museum ist dann links.
+    vi: Bảo tàng à? Trước tiên chị rẽ phải. Sau đó đi thẳng khoảng 200 mét. Ở đó có một cây cầu. Chị đi qua cầu. Khi đó bảo tàng ở bên trái.
+  - speaker: Touristin
+    de: Und gibt es hier einen Bus?
+    vi: Ở đây có xe buýt không ạ?
+  - speaker: Mann
+    de: Nein, hier fährt kein Bus. Aber zu Fuß ist es nicht weit.
+    vi: Không, ở đây không có xe buýt. Nhưng đi bộ thì không xa.
+  audio_status: pending-tts
+  situation_vi: Một du khách hỏi đường (tốc độ bình thường).
+  skill: listening
+  audio:
+    speed: normal
+- id: a1.m03.review.b6
+  kind: reading
+  title_vi: Thông tin cho du khách
+  paragraphs:
+  - de: 'Willkommen in Lübeck!
+
+      Lübeck ist eine Stadt im Norden von Deutschland. Die Altstadt ist sehr alt und schön.
+
+      Das Holstentor ist ein Symbol der Stadt. Die Marienkirche hat zwei Türme – sie sind 125 Meter hoch.
+
+      Vom Bahnhof zur Altstadt: zu Fuß circa 10 Minuten. Fahrräder gibt es am Bahnhof.
+
+      Tipp: Im Dezember gibt es einen Weihnachtsmarkt.'
+    vi: 'Chào mừng đến Lübeck!
+
+      Lübeck là một thành phố ở miền Bắc nước Đức. Phố cổ rất cổ và đẹp.
+
+      Cổng Holstentor là biểu tượng của thành phố. Nhà thờ Marienkirche có hai tòa tháp – cao 125 mét.
+
+      Từ nhà ga đến phố cổ: đi bộ khoảng 10 phút. Có xe đạp (cho thuê) ở nhà ga.
+
+      Mẹo: Tháng Mười Hai có chợ Giáng sinh.'
+  text_type_vi: Trang thông tin du lịch
+  skill: reading
+  glossary:
+  - de: die Altstadt
+    vi: phố cổ
+  - de: das Tor
+    vi: cổng
+  - de: das Symbol
+    vi: biểu tượng
+- id: a1.m03.review.b7
+  kind: speaking
+  title_vi: Kiểm tra nói
+  skill: speaking
+  task_vi: 'Phần 1: Giới thiệu một thành phố (4 câu, có ein/eine và der/die/das). Phần 2: Chỉ đường từ nhà ga đến một địa điểm (Imperativ mit Sie, zuerst/dann).'
+  steps_vi:
+  - Phần 1 khoảng 1 phút.
+  - 'Phần 2: dùng bản đồ tưởng tượng: Bahnhof → rechts → geradeaus → Park → links → Rathaus.'
+  lines:
+  - speaker: Lernende
+    de: Das ist Hanoi. Da ist ein See. Der See ist sehr schön. Die Long-Bien-Brücke ist lang.
+    vi: Đây là Hà Nội. Ở đó có một cái hồ. Cái hồ rất đẹp. Cầu Long Biên dài.
+  - speaker: Lernende
+    de: Gehen Sie zuerst rechts. Dann gehen Sie geradeaus. Da ist ein Park. Gehen Sie links. Da ist das Rathaus.
+    vi: Trước tiên rẽ phải. Rồi đi thẳng. Ở đó có một công viên. Rẽ trái. Tòa thị chính ở đó.
+- id: a1.m03.review.b8
+  kind: writing
+  title_vi: Kiểm tra viết
+  skill: writing
+  task_vi: 'Viết email ngắn (5–6 câu) cho bạn sắp đến thăm: thành phố của bạn có gì (ein/eine), chỉ đường từ nhà ga đến nhà bạn (Imperativ mit Sie hoặc câu kể), một hoạt động theo mùa.'
+  model:
+    de: 'Hallo Tom! Leipzig ist toll. Hier ist ein Zoo. Der Zoo ist sehr groß. Vom Bahnhof: Gehen Sie zuerst links, dann geradeaus. Im Sommer schwimmen wir im See!'
+    vi: 'Chào Tom! Leipzig tuyệt lắm. Ở đây có một vườn thú. Vườn thú rất lớn. Từ nhà ga: đi trái trước, rồi đi thẳng. Mùa hè chúng mình bơi ở hồ!'
+  checklist_vi:
+  - ein/eine – der/die/das đúng.
+  - Có lời chỉ đường với zuerst/dann.
+  - Có im + mùa.

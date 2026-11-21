@@ -1,0 +1,188 @@
+schema_version: '2.0'
+content_type: exercise-set
+id: a1.p1.l02.ex
+level: A1
+module: a1.p1
+lesson: a1.p1.l02
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+exercises:
+- id: a1.p1.l02.ex.01
+  type: matching
+  skill: vocabulary
+  difficulty: 1
+  objective_refs:
+  - a1.p1.l02.obj1
+  instructions_vi: Nối nước với thủ đô / thành phố liên bang.
+  items:
+  - id: a1.p1.l02.ex.01.q1
+    pairs:
+    - left: Deutschland
+      right: Berlin
+    - left: Österreich
+      right: Wien
+    - left: die Schweiz
+      right: Bern (Bundesstadt)
+    - left: Vietnam
+      right: Hanoi
+    explanation_vi: Thụy Sĩ không có thủ đô chính thức; Bern là thành phố liên bang.
+- id: a1.p1.l02.ex.02
+  type: multiple-choice
+  skill: reading
+  difficulty: 1
+  objective_refs:
+  - a1.p1.l02.obj2
+  instructions_vi: Đọc ba Steckbrief. Chọn đáp án đúng.
+  stimulus:
+    ref: a1.p1.l02.b6
+  items:
+  - id: a1.p1.l02.ex.02.q1
+    prompt: Ai sinh ra ở Ulm?
+    options:
+    - id: a
+      text: Federer
+    - id: b
+      text: Einstein
+    - id: c
+      text: Mozart
+    answer:
+    - b
+    explanation_vi: 'Geburtsort: Ulm.'
+  - id: a1.p1.l02.ex.02.q2
+    prompt: Mozart làm nghề gì?
+    options:
+    - id: a
+      text: Tennisspieler
+    - id: b
+      text: Komponist
+    - id: c
+      text: Physiker
+    answer:
+    - b
+    explanation_vi: 'Beruf: Komponist.'
+  - id: a1.p1.l02.ex.02.q3
+    prompt: Federer đến từ nước nào?
+    options:
+    - id: a
+      text: Deutschland
+    - id: b
+      text: die Schweiz
+    - id: c
+      text: Österreich
+    answer:
+    - b
+    explanation_vi: Basel (Schweiz).
+- id: a1.p1.l02.ex.03
+  type: multiple-choice
+  skill: listening
+  difficulty: 1
+  objective_refs:
+  - a1.p1.l02.obj1
+  instructions_vi: Nghe câu đố. Đó là thành phố nào?
+  stimulus:
+    ref: a1.p1.l02.b5
+  items:
+  - id: a1.p1.l02.ex.03.q1
+    prompt: Stadt Nummer 1
+    options:
+    - id: a
+      text: Graz
+    - id: b
+      text: Berlin
+    - id: c
+      text: Wien
+    answer:
+    - c
+    explanation_vi: Thủ đô của Áo.
+  - id: a1.p1.l02.ex.03.q2
+    prompt: Stadt Nummer 2
+    options:
+    - id: a
+      text: Köln
+    - id: b
+      text: Hamburg
+    - id: c
+      text: München
+    answer:
+    - b
+    explanation_vi: Miền Bắc, có cảng và nhiều cầu.
+  - id: a1.p1.l02.ex.03.q3
+    prompt: Stadt Nummer 3
+    options:
+    - id: a
+      text: Salzburg
+    - id: b
+      text: Zürich
+    - id: c
+      text: Ulm
+    answer:
+    - b
+    explanation_vi: Ở Thụy Sĩ, rất lớn, có hồ (Zürichsee).
+- id: a1.p1.l02.ex.04
+  type: sentence-construction
+  skill: grammar
+  difficulty: 2
+  objective_refs:
+  - a1.p1.l02.obj3
+  instructions_vi: Biến mục Steckbrief thành câu.
+  items:
+  - id: a1.p1.l02.ex.04.q1
+    prompt_vi: 'Einstein – Beruf: Physiker'
+    answers:
+    - Er ist Physiker.
+    - Einstein ist Physiker.
+    explanation_vi: Nghề không mạo từ.
+  - id: a1.p1.l02.ex.04.q2
+    prompt_vi: 'Federer – Land: die Schweiz'
+    answers:
+    - Er kommt aus der Schweiz.
+    - Federer kommt aus der Schweiz.
+    explanation_vi: aus der Schweiz.
+- id: a1.p1.l02.ex.05
+  type: speaking-practice
+  skill: speaking
+  difficulty: 2
+  objective_refs:
+  - a1.p1.l02.obj3
+  instructions_vi: Ghi âm phần giới thiệu người nổi tiếng (phần Nói).
+  grading: self
+  rubric:
+  - criterion_vi: 'Đủ 4 thông tin: tên, quê, nghề, nổi tiếng'
+    points: 2
+  - criterion_vi: er/sie và động từ đúng
+    points: 2
+  items:
+  - id: a1.p1.l02.ex.05.q1
+    prompt_vi: Người nổi tiếng bạn thích
+    model_answer:
+      de: Das ist Son Tung M-TP. Er kommt aus Vietnam, aus Thai Binh. Er ist Sänger. Er ist in Vietnam sehr bekannt.
+    explanation_vi: So sánh với mẫu.
+- id: a1.p1.l02.ex.06
+  type: writing-practice
+  skill: writing
+  difficulty: 1
+  objective_refs:
+  - a1.p1.l02.obj2
+  - a1.p1.l02.obj3
+  instructions_vi: Viết Steckbrief và 3 câu giới thiệu (phần Viết).
+  grading: self
+  rubric:
+  - criterion_vi: Steckbrief 4 mục
+    points: 2
+  - criterion_vi: 3 câu đúng ngữ pháp
+    points: 2
+  items:
+  - id: a1.p1.l02.ex.06.q1
+    prompt_vi: Steckbrief + 3 câu
+    model_answer:
+      de: 'Name: Ho Xuan Huong · Land: Vietnam · Beruf: Dichterin · Bekannt für: Gedichte. – Ho Xuan Huong kommt aus Vietnam. Sie ist Dichterin. Sie ist sehr bekannt.'
+    explanation_vi: die Dichterin = nữ nhà thơ; das Gedicht, die Gedichte = bài thơ.

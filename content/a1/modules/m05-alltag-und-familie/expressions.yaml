@@ -1,0 +1,278 @@
+schema_version: '2.0'
+content_type: expression-set
+id: a1.m05.expr
+level: A1
+module: a1.m05
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+  references:
+  - work: Netzwerk neu A1 (Klett)
+    scope: 'Kapitel 5: Alltag und Familie; Wie spät ist es?; Familie und Termine; www.dobart.de; Die Verabredung; Kann ich einen Termin haben?; Landeskunde: Pünktlichkeit; kurz und klar: Redemittel und Grammatik'
+    verification: verified
+  notes_vi: Trình tự và phạm vi theo Stoffverteilungsplan Netzwerk neu A1.1 (Kapitel 5, 10 UE) và Kapitelwortschatz. Toàn bộ hội thoại, bài tập, bài đọc tự biên soạn mới hoàn toàn.
+entries:
+- id: a1.m05.x.wie-sieht-dein-tagesablauf-aus-zuerst-st
+  de: Wie sieht dein Tagesablauf aus? – Zuerst stehe ich auf, dann ...
+  vi: Lịch trình một ngày của bạn thế nào? – Đầu tiên mình thức dậy, sau đó ...
+  register: informal
+  situation_vi: Hỏi và kể về thứ tự các hoạt động diễn ra trong một ngày.
+  dialogue:
+  - speaker: Anna
+    de: Wie sieht dein typischer Tag aus?
+    vi: Một ngày điển hình của bạn diễn ra như thế nào?
+  - speaker: Ben
+    de: Zuerst stehe ich um sechs Uhr auf, dann dusche ich và frühstücke.
+    vi: Đầu tiên mình thức dậy lúc sáu giờ, sau đó mình tắm và ăn sáng.
+  lesson_refs:
+  - a1.m05.l01
+- id: a1.m05.x.wann-faengt-an-wann-hoert-auf-faengt-um
+  de: Wann fängt ... an? / Wann hört ... auf? – ... fängt um ... an.
+  vi: Khi nào ... bắt đầu? / Khi nào ... kết thúc? – ... bắt đầu lúc ...
+  register: neutral
+  situation_vi: Hỏi và thông báo thời gian bắt đầu hoặc kết thúc của sự kiện/công việc.
+  dialogue:
+  - speaker: Klaus
+    de: Wann fängt deine Arbeit an?
+    vi: Khi nào công việc của bạn bắt đầu?
+  - speaker: Lisa
+    de: Meine Arbeit fängt um acht Uhr an und hört um siebzehn Uhr auf.
+    vi: Công việc của mình bắt đầu lúc 8 giờ và kết thúc lúc 17 giờ.
+  lesson_refs:
+  - a1.m05.l01
+- id: a1.m05.x.wie-spaet-ist-es-wie-viel-uhr-ist-es-es
+  de: Wie spät ist es? / Wie viel Uhr ist es? – Es ist ...
+  vi: Mấy giờ rồi? – Bây giờ là ...
+  register: neutral
+  situation_vi: Hỏi giờ trên đường hoặc trong sinh hoạt thường nhật.
+  dialogue:
+  - speaker: Passant
+    de: Entschuldigung, wie spät ist es bitte?
+    vi: Xin lỗi, mấy giờ rồi ạ?
+  - speaker: Frau
+    de: Es ist genau zehn vor zwölf.
+    vi: Bây giờ đúng 12 giờ kém 10 (11:50).
+  lesson_refs:
+  - a1.m05.l02
+- id: a1.m05.x.wann-um-uhr-von-bis-uhr
+  de: Wann ...? – Um ... Uhr. / Von ... bis ... Uhr.
+  vi: Khi nào ...? – Lúc ... giờ. / Từ ... đến ... giờ.
+  register: neutral
+  situation_vi: Hỏi và thông báo thời gian biểu, lịch hẹn.
+  dialogue:
+  - speaker: Tim
+    de: Um wie viel Uhr beginnt der Film?
+    vi: Mấy giờ thì bộ phim bắt đầu?
+  - speaker: Lena
+    de: Der Film fängt um Viertel nach acht an.
+    vi: Phim bắt đầu lúc tám giờ mười lăm (20:15).
+  lesson_refs:
+  - a1.m05.l02
+- id: a1.m05.x.das-ist-mein-meine-er-sie-heisst-er-sie
+  de: Das ist mein/meine ... Er/Sie heißt ... Er/Sie ist ... Jahre alt.
+  vi: Đây là ... của tôi. Anh/Cô ấy tên là ... Anh/Cô ấy ... tuổi.
+  register: neutral
+  situation_vi: Giới thiệu người thân trong gia đình qua ảnh hoặc khi gặp mặt.
+  dialogue:
+  - speaker: Linh
+    de: Schau mal, das ist mein Bruder Nam.
+    vi: Xem này, đây là anh trai Nam của mình.
+  - speaker: Sarah
+    de: Wie alt ist dein Bruder?
+    vi: Anh trai bạn bao nhiêu tuổi rồi?
+  - speaker: Linh
+    de: Er ist 26 Jahre alt und arbeitet als Ingenieur.
+    vi: Anh ấy 26 tuổi và làm kỹ sư.
+  lesson_refs:
+  - a1.m05.l03
+- id: a1.m05.x.hast-du-geschwister-haustiere-ja-ich-hab
+  de: Hast du Geschwister / Haustiere? – Ja, ich habe ... / Nein, ich habe keine ...
+  vi: Bạn có anh chị em / thú cưng không? – Có, mình có ... / Không, mình không có ...
+  register: informal
+  situation_vi: Hỏi và đáp về hoàn cảnh gia đình và thú nuôi.
+  dialogue:
+  - speaker: Ben
+    de: Hast du Haustiere?
+    vi: Nhà bạn có nuôi thú cưng không?
+  - speaker: Jonas
+    de: Ja, wir haben einen Hund. Unser Hund heißt Rex.
+    vi: Có chứ, nhà mình nuôi một chú chó. Chú chó của tụi mình tên là Rex.
+  lesson_refs:
+  - a1.m05.l03
+- id: a1.m05.x.mein-kalender-ist-voll-ich-habe-viele-te
+  de: Mein Kalender ist voll. Ich habe viele Termine.
+  vi: Lịch của tôi kín mít rồi. Tôi có nhiều cuộc hẹn lắm.
+  register: neutral
+  situation_vi: Nói về tình trạng bận rộn trong tuần.
+  dialogue:
+  - speaker: Felix
+    de: Hast du am Donnerstag Zeit für einen Kaffee?
+    vi: Thứ Năm bạn có thời gian đi cà phê không?
+  - speaker: Karin
+    de: Leider nein, mein Kalender ist diese Woche ganz voll. Ich habe viele Termine.
+    vi: Tiếc là không, lịch của mình tuần này kín mít rồi. Mình có nhiều cuộc hẹn lắm.
+  lesson_refs:
+  - a1.m05.l04
+- id: a1.m05.x.wer-bringt-wer-holt-ab-ich-bringe-und-du
+  de: Wer bringt ...? / Wer holt ... ab? – Ich bringe ... und du holst ... ab.
+  vi: Ai đưa ... đi? / Ai đón ... về? – Anh/em đưa ... đi và em/anh đón ... về.
+  register: informal
+  situation_vi: Phân chia công việc chăm sóc con cái trong gia đình.
+  dialogue:
+  - speaker: Thomas
+    de: Wer holt heute Lukas vom Kindergarten ab?
+    vi: Hôm nay ai đón bé Lukas từ nhà trẻ về thế?
+  - speaker: Julia
+    de: Ich habe um 16 Uhr Feierabend. Ich hole ihn ab. Bringst du ihn morgen früh?
+    vi: Em tan làm lúc 16 giờ. Em sẽ đón con. Sáng mai anh đưa con đi nhé?
+  - speaker: Thomas
+    de: Ja, klar, das mache ich gern.
+    vi: Ừ, chắc chắn rồi, anh sẵn sàng làm việc đó.
+  lesson_refs:
+  - a1.m05.l04
+- id: a1.m05.x.hast-du-zeit-lust-auf-wollen-wir
+  de: Hast du Zeit / Lust auf ...? – Wollen wir ...?
+  vi: Bạn có thời gian / hứng thú với ... không? – Chúng ta cùng ... nhé?
+  register: informal
+  situation_vi: Rủ bạn bè đi chơi hoặc làm việc gì cùng nhau.
+  dialogue:
+  - speaker: Lukas
+    de: Hast du am Samstagnachmittag Lust auf Kino?
+    vi: Chiều thứ Bảy bạn có hứng đi xem phim không?
+  - speaker: Jonas
+    de: Gute Idee! Welchen Film wollen wir sehen?
+    vi: Ý kiến hay đấy! Chúng mình muốn xem phim gì nào?
+  lesson_refs:
+  - a1.m05.l05
+- id: a1.m05.x.passt-es-dir-am-ja-das-passt-prima-das-k
+  de: Passt es dir am ...? – Ja, das passt prima! / Das klappt!
+  vi: Vào ... có tiện cho bạn không? – Có, tiện lắm! / Ổn thỏa đấy!
+  register: informal
+  situation_vi: Thống nhất thời gian hẹn gặp.
+  dialogue:
+  - speaker: Emma
+    de: Treffen wir uns am Sonntag um 15 Uhr? Passt es dir?
+    vi: Chúng mình gặp nhau lúc 15 giờ Chủ Nhật nhé? Tiện cho bạn không?
+  - speaker: Mia
+    de: Ja, Sonntag um 15 Uhr klappt prima!
+    vi: Được, Chủ Nhật lúc 15 giờ thì quá ổn luôn!
+  lesson_refs:
+  - a1.m05.l05
+- id: a1.m05.x.tut-mir-leid-da-kann-ich-leider-nicht-ko
+  de: Tut mir leid, da kann ich leider nicht. Können wir den Termin verschieben?
+  vi: Rất tiếc, lúc đó tôi không thể đến được. Chúng ta có thể dời lịch hẹn được không?
+  register: neutral
+  situation_vi: Từ chối lịch sự và đề xuất chuyển sang buổi khác.
+  dialogue:
+  - speaker: Paul
+    de: Können wir uns am Freitag treffen?
+    vi: Chúng ta gặp nhau vào thứ Sáu được không?
+  - speaker: Sarah
+    de: Es tut mir leid, am Freitag muss ich lange arbeiten. Können wir den Termin auf Samstag verschieben?
+    vi: Mình rất tiếc, thứ Sáu mình phải làm việc muộn. Chúng ta có thể dời hẹn sang thứ Bảy được không?
+  - speaker: Paul
+    de: Schade! Aber Samstag geht auch.
+    vi: Tiếc nhỉ! Nhưng thứ Bảy cũng được thôi.
+  lesson_refs:
+  - a1.m05.l05
+- id: a1.m05.x.guten-tag-mein-name-ist-ich-moechte-gern
+  de: Guten Tag, mein Name ist ... Ich möchte gern einen Termin bei Dr. ... vereinbaren.
+  vi: Xin chào, tôi tên là ... Tôi muốn đặt một lịch hẹn ở chỗ bác sĩ ...
+  register: formal
+  situation_vi: Mở đầu cuộc gọi đặt lịch hẹn tại phòng khám hoặc cơ quan.
+  dialogue:
+  - speaker: Assistentin
+    de: Praxis Dr. Weber, guten Tag!
+    vi: Phòng khám bác sĩ Weber xin chào!
+  - speaker: Frau Schmidt
+    de: Guten Tag, mein Name ist Schmidt. Ich möchte bitte einen Termin vereinbaren.
+    vi: Xin chào, tên tôi là Schmidt. Tôi muốn xin một lịch hẹn ạ.
+  - speaker: Assistentin
+    de: Gerne. Ist es dringend?
+    vi: Vâng được ạ. Việc có khẩn cấp không chị?
+  - speaker: Frau Schmidt
+    de: Nein, eine Kontrolluntersuchung.
+    vi: Dạ không, chỉ là kiểm tra định kỳ thôi ạ.
+  lesson_refs:
+  - a1.m05.l06
+- id: a1.m05.x.einen-moment-bitte-ich-schaue-mal-nach-g
+  de: Einen Moment bitte, ich schaue mal nach. Geht es am ... um ... Uhr?
+  vi: Xin đợi một lát, để tôi tra lịch xem sao. Vào ngày ... lúc ... giờ có được không ạ?
+  register: formal
+  situation_vi: Nhân viên phòng khám kiểm tra và đề xuất lịch hẹn.
+  dialogue:
+  - speaker: Assistentin
+    de: Einen Moment bitte, ich schaue nach ... Passt es Ihnen am Donnerstag um 10:30 Uhr?
+    vi: Xin đợi một lát, để tôi tra cứu... Quý vị có tiện vào thứ Năm lúc 10:30 không ạ?
+  - speaker: Herr Meier
+    de: Ja, Donnerstag um 10:30 Uhr ist sehr gut. Vielen Dank!
+    vi: Vâng, thứ Năm lúc 10:30 thì rất tốt. Cảm ơn chị nhiều!
+  lesson_refs:
+  - a1.m05.l06
+- id: a1.m05.x.entschuldigung-fuer-die-verspaetung-ich
+  de: Entschuldigung für die Verspätung! Ich habe den Bus verpasst / ich stehe im Stau.
+  vi: Xin lỗi vì sự chậm trễ! Tôi đã bị lỡ xe buýt / tôi đang bị kẹt xe.
+  register: neutral
+  situation_vi: Xin lỗi và giải thích lý do đến muộn.
+  dialogue:
+  - speaker: Leon
+    de: Hallo Anna! Entschuldigung für die Verspätung! Ich stand im Stau.
+    vi: Chào Anna! Cho mình xin lỗi vì đến muộn nhé! Đường bị kẹt xe quá.
+  - speaker: Anna
+    de: Kein Problem! Ich warte erst seit fünf Minuten.
+    vi: Không có vấn đề gì đâu! Mình cũng mới đợi được 5 phút thôi.
+  lesson_refs:
+  - a1.m05.l06
+- id: a1.m05.x.wie-spaet-ist-es-wie-viel-uhr-ist-es-es-2
+  de: Wie spät ist es? / Wie viel Uhr ist es? – Es ist ... Uhr. Wann ...? – Um ... Uhr.
+  vi: Hỏi và nói về thời gian, giờ giấc
+  register: neutral
+  situation_vi: Tổng kết bài 1 và bài 2.
+  dialogue:
+  - speaker: A
+    de: Entschuldigung, wie viel Uhr ist es?
+    vi: Xin lỗi, bây giờ là mấy giờ rồi ạ?
+  - speaker: B
+    de: Es ist Viertel nach drei. Wann beginnt dein Deutschkurs?
+    vi: 3 giờ 15 phút rồi. Khi nào khóa học tiếng Đức của bạn bắt đầu?
+  - speaker: A
+    de: Um vier Uhr. Ich muss jetzt schnell gehen!
+    vi: Lúc 4 giờ. Tôi phải đi nhanh bây giờ đây!
+  lesson_refs:
+  - a1.m05.review
+- id: a1.m05.x.ueber-familie-sprechen-das-ist-mein-mein
+  de: 'Über Familie sprechen: Das ist mein/meine ... Sie heißen ... Wir haben ...'
+  vi: Giới thiệu về người thân và gia đình
+  register: neutral
+  situation_vi: Tổng kết bài 3 và bài 4.
+  dialogue:
+  - speaker: A
+    de: Hast du Geschwister?
+    vi: Bạn có anh chị em ruột không?
+  - speaker: B
+    de: Ja, einen Bruder und eine Schwester. Mein Bruder heißt Ben und meine Schwester heißt Lina.
+    vi: Có, một anh trai và một em gái. Anh trai mình tên là Ben và em gái mình tên là Lina.
+  lesson_refs:
+  - a1.m05.review
+- id: a1.m05.x.verabredungen-termine-wollen-wir-passt-e
+  de: 'Verabredungen & Termine: Wollen wir ...? Passt es dir am ...? Ich möchte einen Termin vereinbaren.'
+  vi: Hẹn gặp gỡ bạn bè và đặt lịch khám bệnh
+  register: neutral
+  situation_vi: Tổng kết bài 5 và bài 6.
+  dialogue:
+  - speaker: Patient
+    de: Guten Tag, ich möchte einen Termin vereinbaren. Geht es am Freitag?
+    vi: Xin chào, tôi muốn đặt một lịch hẹn. Vào thứ Sáu có được không ạ?
+  - speaker: Praxis
+    de: Ja, am Freitag um 10 Uhr klappt prima!
+    vi: Vâng, thứ Sáu lúc 10 giờ thì rất tốt ạ!
+  lesson_refs:
+  - a1.m05.review

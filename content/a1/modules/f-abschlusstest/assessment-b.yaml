@@ -1,0 +1,288 @@
+schema_version: "2.0"
+content_type: assessment
+id: a1.final.test-b
+level: A1
+module: a1.final
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  references:
+    - { work: "Dự án Deutsch-lernen (a1-assessment-spec §6)", scope: "Đề tự soạn tương đương đề A: cùng cấu trúc, cùng số câu, nội dung khác", verification: proposed }
+  notes_vi: "Đề B dành cho lần thi lại. Audio chưa có (pending-tts)."
+  tags: ["abschlusstest"]
+title_vi: "Abschlusstest A1 – Đề B"
+version_label: "B"
+equivalent_to: a1.final.test-a
+duration_min: 100
+pass_percent: 60
+overall_pass_percent: 70
+pass_rule_vi: "Đạt A1 khi: mỗi phần ≥ 60%, tổng điểm ≥ 70%, độ phủ CEFR 20/20 mã có ít nhất một mục tiêu ‘vững’, và độ nhớ từ vựng nhóm nwn-lern ≥ 80%. Hai điều kiện sau do hệ thống tiến độ học đánh giá, không nằm trong tệp đề này."
+sections:
+  - { id: a1.final.test-b.s1, title_vi: "Hören (Nghe)", skill_group: listening, points: 15, pass_percent: 60, duration_min: 20, exercise_refs: [a1.final.test-b.01, a1.final.test-b.02, a1.final.test-b.03] }
+  - { id: a1.final.test-b.s2, title_vi: "Lesen (Đọc)", skill_group: reading, points: 15, pass_percent: 60, duration_min: 25, exercise_refs: [a1.final.test-b.04, a1.final.test-b.05, a1.final.test-b.06] }
+  - { id: a1.final.test-b.s3, title_vi: "Schreiben (Viết)", skill_group: writing, points: 15, pass_percent: 60, duration_min: 20, exercise_refs: [a1.final.test-b.07, a1.final.test-b.08] }
+  - { id: a1.final.test-b.s4, title_vi: "Sprechen (Nói)", skill_group: speaking, points: 15, pass_percent: 60, duration_min: 15, exercise_refs: [a1.final.test-b.09, a1.final.test-b.10, a1.final.test-b.11] }
+  - { id: a1.final.test-b.s5, title_vi: "Wortschatz & Grammatik (Từ vựng và ngữ pháp)", skill_group: language, points: 20, pass_percent: 60, duration_min: 20, exercise_refs: [a1.final.test-b.12, a1.final.test-b.13, a1.final.test-b.14] }
+exercises:
+  - id: a1.final.test-b.01
+    type: listening-practice
+    skill: listening
+    difficulty: 1
+    objective_refs: [a1.final.obj.hoeren]
+    instructions_vi: "Hören Teil 1: nghe ba hội thoại ngắn và chọn đáp án đúng."
+    stimulus:
+      text_de: "Dialog 1: – Entschuldigung, wo ist hier die Apotheke? – Gehen Sie links und dann geradeaus. Die Apotheke ist vor dem Park. Dialog 2: – Was möchten Sie essen? – Eine Suppe und ein Wasser, bitte. – Hier, bitte schön. Dialog 3: – Wann fährt der Bus? – Um sieben Uhr fünfundvierzig. – Dann habe ich noch zehn Minuten."
+      audio_status: pending-tts
+    items:
+      - id: a1.final.test-b.01.q1
+        prompt: "Wo ist die Apotheke?"
+        options: [{ id: a, text: "Vor dem Park." }, { id: b, text: "Neben der Post." }, { id: c, text: "Hinter der Bank." }]
+        answer: [a]
+        explanation_vi: "„Die Apotheke ist vor dem Park.“"
+      - id: a1.final.test-b.01.q2
+        prompt: "Was bestellt die Person?"
+        options: [{ id: a, text: "Kuchen." }, { id: b, text: "Eine Suppe und ein Wasser." }, { id: c, text: "Tee." }]
+        answer: [b]
+        explanation_vi: "„Eine Suppe und ein Wasser, bitte.“"
+      - id: a1.final.test-b.01.q3
+        prompt: "Wann fährt der Bus?"
+        options: [{ id: a, text: "Um 7:15 Uhr." }, { id: b, text: "Um 7:45 Uhr." }, { id: c, text: "Um 8:45 Uhr." }]
+        answer: [b]
+        explanation_vi: "„Um sieben Uhr fünfundvierzig.“"
+  - id: a1.final.test-b.02
+    type: true-false
+    skill: listening
+    difficulty: 1
+    objective_refs: [a1.final.obj.hoeren]
+    instructions_vi: "Hören Teil 2: nghe thông báo và chọn Richtig hoặc Falsch."
+    stimulus:
+      text_de: "Achtung, eine Durchsage: Das Kaufhaus öffnet heute erst um elf Uhr. Die Kasse ist im Erdgeschoss."
+      audio_status: pending-tts
+    items:
+      - { id: a1.final.test-b.02.q1, prompt: "Das Kaufhaus öffnet um neun Uhr.", answer: false, explanation_vi: "Hôm nay mở cửa lúc 11 giờ." }
+      - { id: a1.final.test-b.02.q2, prompt: "Die Kasse ist im Erdgeschoss.", answer: true, explanation_vi: "„Die Kasse ist im Erdgeschoss.“" }
+  - id: a1.final.test-b.03
+    type: listening-practice
+    skill: listening
+    difficulty: 2
+    objective_refs: [a1.final.obj.hoeren]
+    instructions_vi: "Hören Teil 3: nghe tin nhắn thoại và chọn đáp án đúng."
+    stimulus:
+      text_de: "Hallo Lea, hier ist Paul. Ich komme am Freitag, denn ich habe eine Woche Urlaub. Mein Zug kommt um fünfzehn Uhr an. Kannst du mich abholen?"
+      audio_status: pending-tts
+    items:
+      - id: a1.final.test-b.03.q1
+        prompt: "Warum kommt Paul?"
+        options: [{ id: a, text: "Er hat Urlaub." }, { id: b, text: "Er ist krank." }, { id: c, text: "Er hat einen Termin." }]
+        answer: [a]
+        explanation_vi: "„denn ich habe eine Woche Urlaub“."
+      - id: a1.final.test-b.03.q2
+        prompt: "Wann kommt sein Zug an?"
+        options: [{ id: a, text: "Um 13 Uhr." }, { id: b, text: "Um 16 Uhr." }, { id: c, text: "Um 15 Uhr." }]
+        answer: [c]
+        explanation_vi: "„um fünfzehn Uhr“."
+      - id: a1.final.test-b.03.q3
+        prompt: "Was soll Lea tun?"
+        options: [{ id: a, text: "Kuchen backen." }, { id: b, text: "Paul anrufen." }, { id: c, text: "Paul abholen." }]
+        answer: [c]
+        explanation_vi: "„Kannst du mich abholen?“ = đón Paul."
+  - id: a1.final.test-b.04
+    type: true-false
+    skill: reading
+    difficulty: 1
+    objective_refs: [a1.final.obj.lesen]
+    instructions_vi: "Lesen Teil 1: đọc e-mail và chọn Richtig hoặc Falsch."
+    stimulus:
+      text_de: "Lieber Tim, ich ziehe am Sonntag um. Der Umzug beginnt um zehn Uhr. Kannst du helfen? Bring bitte Kartons mit! Meine neue Adresse ist Lindenstraße 8. Viele Grüße, Nora"
+      text_vi: "Tim thân mến, Chủ nhật mình chuyển nhà. Việc chuyển bắt đầu lúc mười giờ. Bạn giúp được không? Mang theo thùng các-tông nhé! Địa chỉ mới của mình là Lindenstraße 8. Thân ái, Nora"
+    items:
+      - { id: a1.final.test-b.04.q1, prompt: "Der Umzug beginnt um zehn Uhr.", answer: true, explanation_vi: "„Der Umzug beginnt um zehn Uhr.“" }
+      - { id: a1.final.test-b.04.q2, prompt: "Tim soll Getränke mitbringen.", answer: false, explanation_vi: "Tim phải mang Kartons." }
+      - { id: a1.final.test-b.04.q3, prompt: "Nora zieht am Samstag um.", answer: false, explanation_vi: "Chuyển nhà vào Chủ nhật (Sonntag)." }
+  - id: a1.final.test-b.05
+    type: multiple-choice
+    skill: reading
+    difficulty: 2
+    objective_refs: [a1.final.obj.lesen]
+    instructions_vi: "Lesen Teil 2: đọc ba quảng cáo và chọn đáp án đúng."
+    stimulus:
+      text_de: "Anzeige A: Yoga im Park. Dienstag und Donnerstag, 7 bis 8 Uhr. 10 Euro pro Stunde. Anzeige B: Bäckerei Korn. Brot und Brötchen ab 6 Uhr. Montag Ruhetag. Anzeige C: Zimmer zu vermieten. 15 m², möbliert, 280 Euro, ab 1. Juli."
+      text_vi: "A: Yoga trong công viên. Thứ Ba và thứ Năm, 7–8 giờ. 10 euro một giờ. B: Tiệm bánh Korn. Bánh mì từ 6 giờ. Thứ Hai nghỉ. C: Cho thuê phòng. 15 m², có nội thất, 280 euro, từ ngày 1 tháng Bảy."
+    items:
+      - id: a1.final.test-b.05.q1
+        prompt: "Wer sucht ein Zimmer? Welche Anzeige passt?"
+        options: [{ id: a, text: "Anzeige A" }, { id: b, text: "Anzeige B" }, { id: c, text: "Anzeige C" }]
+        answer: [c]
+        explanation_vi: "Người tìm phòng cần quảng cáo cho thuê phòng (C)."
+      - id: a1.final.test-b.05.q2
+        prompt: "Wann ist die Bäckerei zu?"
+        options: [{ id: a, text: "Am Montag." }, { id: b, text: "Am Dienstag." }, { id: c, text: "Am Samstag." }]
+        answer: [a]
+        explanation_vi: "„Montag Ruhetag.“"
+      - id: a1.final.test-b.05.q3
+        prompt: "Was kostet eine Stunde Yoga?"
+        options: [{ id: a, text: "7 Euro." }, { id: b, text: "10 Euro." }, { id: c, text: "280 Euro." }]
+        answer: [b]
+        explanation_vi: "„10 Euro pro Stunde“."
+  - id: a1.final.test-b.06
+    type: true-false
+    skill: reading
+    difficulty: 2
+    objective_refs: [a1.final.obj.lesen]
+    instructions_vi: "Lesen Teil 3: đọc biển báo và chọn Richtig hoặc Falsch."
+    stimulus:
+      text_de: "1. Eintritt frei für Studenten mit Ausweis. 2. Bitte leise sein! Hier lernen Menschen. 3. Fotografieren verboten."
+      text_vi: "1. Miễn vé cho sinh viên có thẻ. 2. Xin giữ yên lặng! Ở đây mọi người đang học. 3. Cấm chụp ảnh."
+    items:
+      - { id: a1.final.test-b.06.q1, prompt: "Studenten mit Ausweis zahlen nichts.", answer: true, explanation_vi: "„Eintritt frei für Studenten mit Ausweis.“" }
+      - { id: a1.final.test-b.06.q2, prompt: "Man darf hier laut telefonieren.", answer: false, explanation_vi: "„Bitte leise sein!“" }
+      - { id: a1.final.test-b.06.q3, prompt: "Man darf hier fotografieren.", answer: false, explanation_vi: "„Fotografieren verboten.“" }
+  - id: a1.final.test-b.07
+    type: fill-blank
+    skill: writing
+    difficulty: 1
+    objective_refs: [a1.final.obj.schreiben]
+    instructions_vi: "Schreiben Teil 1: đọc thông tin và điền vào phiếu."
+    stimulus:
+      text_de: "Kemal Aydin wohnt in Hamburg. Er ist am 12. Oktober 1995 geboren. Er arbeitet als Koch. Seine Muttersprache ist Türkisch."
+    items:
+      - { id: a1.final.test-b.07.q1, prompt: "Familienname: ___", answers: ["Aydin"], explanation_vi: "Họ: Aydin." }
+      - { id: a1.final.test-b.07.q2, prompt: "Geburtsdatum: ___", answers: ["12.10.1995"], accept: [["12. Oktober 1995"]], explanation_vi: "Ngày sinh: 12 tháng 10 năm 1995." }
+      - { id: a1.final.test-b.07.q3, prompt: "Wohnort: ___", answers: ["Hamburg"], explanation_vi: "Nơi ở: Hamburg." }
+      - { id: a1.final.test-b.07.q4, prompt: "Beruf: ___", answers: ["Koch"], explanation_vi: "Nghề: đầu bếp." }
+      - { id: a1.final.test-b.07.q5, prompt: "Muttersprache: ___", answers: ["Türkisch"], explanation_vi: "Tiếng mẹ đẻ: Türkisch." }
+  - id: a1.final.test-b.08
+    type: writing-practice
+    skill: writing
+    difficulty: 2
+    objective_refs: [a1.final.obj.schreiben]
+    instructions_vi: "Schreiben Teil 2: viết tin nhắn khoảng 30 từ cho một người bạn theo ba ý: 1) Bạn bị ốm. 2) Bạn ở nhà. 3) Bạn sẽ gọi điện vào ngày mai."
+    grading: self
+    rubric:
+      - { criterion_vi: "Trả lời đủ ba ý", points: 4 }
+      - { criterion_vi: "Lời chào và lời kết phù hợp", points: 1 }
+      - { criterion_vi: "Ngữ pháp và trật tự câu đúng", points: 3 }
+      - { criterion_vi: "Chính tả, dấu câu; khoảng 30 từ", points: 2 }
+    items:
+      - id: a1.final.test-b.08.q1
+        prompt_vi: "Viết tin nhắn cho bạn."
+        model_answer: { de: "Lieber Max, ich bin krank und habe Fieber. Ich bleibe heute zu Hause. Der Arzt sagt, ich soll viel schlafen. Ich rufe dich morgen an. Viele Grüße, Tom", vi: "Max thân mến, mình bị ốm và bị sốt. Hôm nay mình ở nhà. Bác sĩ bảo mình nên ngủ nhiều. Ngày mai mình sẽ gọi cho bạn. Thân ái, Tom" }
+        explanation_vi: "Đủ ba ý: ốm, ở nhà, gọi điện ngày mai."
+  - id: a1.final.test-b.09
+    type: speaking-practice
+    skill: speaking
+    difficulty: 1
+    objective_refs: [a1.final.obj.sprechen]
+    instructions_vi: "Sprechen Teil 1: giới thiệu bản thân: tên, nước, nơi ở, nghề, sở thích."
+    grading: self
+    rubric:
+      - { criterion_vi: "Đủ 5 thông tin", points: 2 }
+      - { criterion_vi: "Chia động từ đúng", points: 1 }
+      - { criterion_vi: "Phát âm dễ hiểu", points: 2 }
+    items:
+      - id: a1.final.test-b.09.q1
+        prompt_vi: "Tự giới thiệu."
+        model_answer: { de: "Ich heiße Minh Tran. Ich komme aus Vietnam und wohne in Köln. Ich bin Student. Ich spiele gern Fußball.", vi: "Tôi tên là Minh Tran. Tôi đến từ Việt Nam và sống ở Köln. Tôi là sinh viên. Tôi thích chơi bóng đá." }
+        explanation_vi: "Bài mẫu đủ tên, nước, nơi ở, nghề, sở thích."
+  - id: a1.final.test-b.10
+    type: speaking-practice
+    skill: speaking
+    difficulty: 2
+    objective_refs: [a1.final.obj.sprechen]
+    instructions_vi: "Sprechen Teil 2: bạn nhận thẻ từ khóa (Urlaub, Wetter, Beruf, Familie). Đặt một câu hỏi và trả lời một câu hỏi."
+    grading: self
+    rubric:
+      - { criterion_vi: "Đặt câu hỏi đúng (từ để hỏi vị trí 1)", points: 2 }
+      - { criterion_vi: "Trả lời phù hợp", points: 2 }
+      - { criterion_vi: "Phát âm và độ trôi chảy", points: 1 }
+    items:
+      - id: a1.final.test-b.10.q1
+        prompt_vi: "Thẻ: Urlaub. Hỏi và đáp."
+        model_answer: { de: "Wohin fährst du im Urlaub? – Im August fahre ich nach Italien.", vi: "Bạn đi nghỉ ở đâu? – Tháng Tám tôi đi Ý." }
+        explanation_vi: "Câu hỏi Wohin + trả lời có giới từ thời gian."
+  - id: a1.final.test-b.11
+    type: speaking-practice
+    skill: speaking
+    difficulty: 2
+    objective_refs: [a1.final.obj.sprechen]
+    instructions_vi: "Sprechen Teil 3: nhìn thẻ (Tür, Wasser, Hilfe, Pause) và đưa ra lời nhờ lịch sự."
+    grading: self
+    rubric:
+      - { criterion_vi: "Dùng cấu trúc lịch sự (Können Sie bitte …? / Haben Sie bitte …?)", points: 2 }
+      - { criterion_vi: "Từ vựng đúng với thẻ", points: 1 }
+      - { criterion_vi: "Cảm ơn, phát âm rõ", points: 2 }
+    items:
+      - id: a1.final.test-b.11.q1
+        prompt_vi: "Thẻ: Wasser."
+        model_answer: { de: "Haben Sie bitte ein Glas Wasser? – Danke schön!", vi: "Ông/bà có cốc nước không ạ? – Cảm ơn nhiều!" }
+        explanation_vi: "Câu hỏi lịch sự và cảm ơn."
+  - id: a1.final.test-b.12
+    type: fill-blank
+    skill: grammar
+    difficulty: 1
+    objective_refs: [a1.final.obj.sprache]
+    instructions_vi: "Điền từ thích hợp."
+    items:
+      - { id: a1.final.test-b.12.q1, prompt: "Sie ___ jeden Tag um halb acht an.", hint_vi: "anfangen", answers: ["fängt"], explanation_vi: "Động từ tách bất quy tắc: sie fängt … an." }
+      - { id: a1.final.test-b.12.q2, prompt: "Ich fahre mit ___ Bus zur Arbeit.", answers: ["dem"], explanation_vi: "mit + Dativ; Bus giống đực → dem." }
+      - { id: a1.final.test-b.12.q3, prompt: "Wir ___ nach Wien gefahren.", hint_vi: "haben/sind", answers: ["sind"], explanation_vi: "fahren chỉ di chuyển → sein." }
+      - { id: a1.final.test-b.12.q4, prompt: "Ich brauche ___ Jacke.", hint_vi: "ein-, giống cái", answers: ["eine"], explanation_vi: "Akkusativ giống cái: eine." }
+  - id: a1.final.test-b.13
+    type: multiple-choice
+    skill: grammar
+    difficulty: 2
+    objective_refs: [a1.final.obj.sprache]
+    instructions_vi: "Chọn đáp án đúng."
+    items:
+      - id: a1.final.test-b.13.q1
+        prompt: "Wo bist du? – Ich bin ___ Küche."
+        options: [{ id: a, text: "in die" }, { id: b, text: "in der" }, { id: c, text: "in den" }]
+        answer: [b]
+        explanation_vi: "Wo? → Dativ; Küche giống cái → der."
+      - id: a1.final.test-b.13.q2
+        prompt: "Die Lampe steht ___ Sofa."
+        options: [{ id: a, text: "neben dem" }, { id: b, text: "neben der" }, { id: c, text: "neben den" }]
+        answer: [a]
+        explanation_vi: "neben + Dativ; Sofa giống trung → dem."
+      - id: a1.final.test-b.13.q3
+        prompt: "Ich nehme ___ Pullover."
+        options: [{ id: a, text: "dieser" }, { id: b, text: "diesen" }, { id: c, text: "dieses" }]
+        answer: [b]
+        explanation_vi: "Akkusativ giống đực → diesen."
+      - id: a1.final.test-b.13.q4
+        prompt: "Hier ___ man nicht rauchen."
+        options: [{ id: a, text: "muss" }, { id: b, text: "darf" }, { id: c, text: "soll" }]
+        answer: [b]
+        explanation_vi: "man darf nicht = cấm."
+      - id: a1.final.test-b.13.q5
+        prompt: "Die Jacke gefällt ___."
+        options: [{ id: a, text: "mich" }, { id: b, text: "ich" }, { id: c, text: "mir" }]
+        answer: [c]
+        explanation_vi: "gefallen + Dativ: mir."
+  - id: a1.final.test-b.14
+    type: word-order
+    skill: grammar
+    difficulty: 2
+    objective_refs: [a1.final.obj.sprache]
+    instructions_vi: "Sắp xếp các từ thành câu đúng."
+    items:
+      - id: a1.final.test-b.14.q1
+        tokens: ["auf.", "um", "Uhr", "Ich", "sieben", "stehe"]
+        answer: "Ich stehe um sieben Uhr auf."
+        translation_vi: "Tôi dậy lúc bảy giờ."
+        explanation_vi: "Động từ tách: stehe … auf."
+      - id: a1.final.test-b.14.q2
+        tokens: ["Meine", "ist", "Schwester", "Ärztin", "meine", "Mutter", "und", "ist", "Lehrerin."]
+        answer: "Meine Schwester ist Ärztin und meine Mutter ist Lehrerin."
+        translation_vi: "Chị gái tôi là bác sĩ và mẹ tôi là giáo viên."
+        explanation_vi: "Hai câu nối bằng und; nghề sau sein không có mạo từ."
+      - id: a1.final.test-b.14.q3
+        tokens: ["Wann", "ab?", "Bus", "fährt", "der"]
+        answer: "Wann fährt der Bus ab?"
+        translation_vi: "Khi nào xe buýt khởi hành?"
+        explanation_vi: "W-Frage; động từ tách."

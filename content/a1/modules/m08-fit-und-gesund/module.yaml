@@ -1,0 +1,47 @@
+schema_version: "2.0"
+content_type: module
+id: a1.m08
+level: A1
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  references:
+    - { work: "Netzwerk neu A1.2 – Stoffverteilungsplan (Klett, © 2023)", scope: "Kapitel 8 'Fit und gesund': các mục, Grammatik (Imperativ du; Imperativ ihr/Sie; sollen; müssen – nicht dürfen – dürfen), Wortschatz, Aussprache p/b t/d k/g", verification: verified }
+    - { work: "Dự án Deutsch-lernen", scope: "Từ vựng, hội thoại, bài đọc, bài tập hoàn toàn tự biên soạn; chia thành 4 bài học", verification: proposed }
+  notes_vi: "Chưa đối chiếu từng từ với Kapitelwortschatz K8. Chưa có audio (pending-tts)."
+  tags: ["gesundheit"]
+order: 10
+title_de: "Fit und gesund"
+title_vi: "Khỏe mạnh và cân đối"
+summary_vi: "Nói về thể thao và sức khỏe, đưa chỉ dẫn bằng câu mệnh lệnh, hiểu nội quy, nói chỗ đau và đi khám bác sĩ."
+prerequisites: [a1.m07]
+objectives:
+  - { id: a1.m08.obj.sport, text_vi: "Bạn có thể nói về thể thao và thói quen tập luyện.", skill: speaking }
+  - { id: a1.m08.obj.imperativ, text_vi: "Bạn có thể dùng Imperativ với du, ihr và Sie.", skill: grammar }
+  - { id: a1.m08.obj.regeln, text_vi: "Bạn có thể hiểu và nói nội quy bằng müssen, dürfen, nicht dürfen.", skill: grammar }
+  - { id: a1.m08.obj.koerper, text_vi: "Bạn có thể gọi tên bộ phận cơ thể và nói chỗ nào đau.", skill: vocabulary }
+  - { id: a1.m08.obj.arzt, text_vi: "Bạn có thể trao đổi đơn giản với bác sĩ và thuật lại lời khuyên bằng sollen.", skill: speaking }
+lessons:
+  - { id: a1.m08.l01, file: lessons/l01.yaml }
+  - { id: a1.m08.l02, file: lessons/l02.yaml }
+  - { id: a1.m08.l03, file: lessons/l03.yaml }
+  - { id: a1.m08.l04, file: lessons/l04.yaml }
+grammar:
+  - { id: a1.g.imperativ-du, file: ../../grammar/imperativ-du.yaml }
+  - { id: a1.g.imperativ-ihr-sie, file: ../../grammar/imperativ-ihr-sie.yaml }
+  - { id: a1.g.muessen-duerfen, file: ../../grammar/muessen-duerfen.yaml }
+  - { id: a1.g.sollen, file: ../../grammar/sollen.yaml }
+vocabulary: { id: a1.m08.vocab, file: vocabulary.yaml }
+expressions: { id: a1.m08.expr, file: expressions.yaml }
+exercises:
+  - { id: a1.m08.l01.ex, file: exercises/l01.yaml }
+  - { id: a1.m08.l02.ex, file: exercises/l02.yaml }
+  - { id: a1.m08.l03.ex, file: exercises/l03.yaml }
+  - { id: a1.m08.l04.ex, file: exercises/l04.yaml }
+assessment: { id: a1.m08.test, file: assessment.yaml }
+estimated_hours: 6

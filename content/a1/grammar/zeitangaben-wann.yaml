@@ -1,0 +1,194 @@
+schema_version: '2.0'
+content_type: grammar-topic
+id: a1.g.zeitangaben-wann
+level: A1
+introduced_in: a1.m05
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+  references:
+  - work: Netzwerk neu A1 (Klett)
+    scope: 'Kapitel 5: Wie spät ist es?'
+    verification: verified
+  notes_vi: Tương ứng Grammatik „Wann …? Um … · Wann? Wie lange?“ của Kapitel 5.
+introduced_in_lesson: a1.m05.l02
+title_de: 'Zeitangaben: Wann? Um …; Wie lange? Von … bis …'
+title_vi: 'Chỉ thời gian: Câu hỏi Wann? Um …; Wie lange? Von … bis …'
+summary_vi: "Trong tiếng Đức, việc hỏi và diễn đạt mốc thời gian cũng như khoảng thời gian là kỹ năng giao tiếp cơ bản và tối quan trọng:\n\n**1. Hỏi thời điểm: Wann? (Khi nào?) hoặc Um wie viel Uhr? (Lúc mấy giờ?)**\n- Để trả lời mốc giờ chính xác, ta dùng giới từ **um**:\n  * *Wann fängt der Kurs an? – **Um** neun Uhr.* (Khóa học bắt đầu lúc mấy giờ? – Lúc chín giờ.)\n  * *Wann frühstückst du? – **Um** halb acht.* (Bạn ăn sáng lúc nào? – Lúc bảy giờ rưỡi.)\n- Nhắc lại các giới từ thời gian đã học:\n  * **um** + giờ cụ thể: *um 8 Uhr, um Mitternacht*\n  * **am** (an + dem) + thứ trong tuần / buổi trong ngày: *am Montag, am Morgen, am Wochenende*\n  * **im** (in + dem) + tháng / mùa: *im Mai, im Sommer*\n\n**2. Hỏi khoảng thời lượng: Wie lange? (Bao lâu?)**\n- Để diễn đạt khoảng thời gian từ mốc này đến mốc kia, ta dùng cặp giới từ **von … bis …** (từ … đến …):\n  * *Von wann bis wann arbeiten Sie? – **Von** acht **bis** siebzehn Uhr.* (Quý vị làm việc từ mấy giờ đến mấy giờ? – Từ 8 đến\
+  \ 17 giờ.)\n- Trả lời bằng số giờ kéo dài: dùng danh từ **Stunde / Stunden**:\n  * *Wie lange dauert der Film? – Zwei Stunden.* (Bộ phim kéo dài bao lâu? – Hai tiếng.)\n\n**3. Phân biệt quan trọng: Uhr và Stunde**\n- **die Uhr**: dùng để chỉ thời điểm (mấy giờ) hoặc cái đồng hồ: *Es ist 14 Uhr* (Bây giờ là 14 giờ).\n- **die Stunde (số nhiều: die Stunden)**: dùng để chỉ độ dài thời gian (tiếng đồng hồ): *Ich warte eine Stunde* (Tôi đợi một tiếng đồng hồ)."
+usage_vi: Hỏi và trả lời về mốc giờ (Wann? Um...), khoảng thời gian (Wie lange? Von... bis...), phân biệt thời điểm (Uhr) và thời lượng (Stunde).
+objectives:
+- id: a1.g.zeitangaben-wann.obj1
+  text_vi: 'Nói và hỏi về thời gian: Wann? um, am, von … bis …, Wie lange?'
+  skill: grammar
+rules:
+- id: a1.g.zeitangaben-wann.r1
+  title_vi: um và am
+  body_vi: Dùng giới từ um cho mốc giờ cụ thể; dùng am cho thứ trong tuần và buổi trong ngày (trừ in der Nacht).
+  examples:
+  - de: Der Zug fährt um 10 Uhr ab.
+    vi: Chuyến tàu khởi hành lúc 10 giờ.
+  - de: Am Freitag habe ich frei.
+    vi: Thứ Sáu tôi được nghỉ.
+- id: a1.g.zeitangaben-wann.r2
+  title_vi: von … bis …
+  body_vi: Dùng von ... bis ... để chỉ khoảng thời gian kéo dài từ điểm A đến điểm B.
+  examples:
+  - de: Die Praxis ist von 8 bis 12 Uhr geöffnet.
+    vi: Phòng khám mở cửa từ 8 đến 12 giờ.
+  - de: Wir lernen von Montag bis Donnerstag.
+    vi: Chúng tôi học từ thứ Hai đến thứ Năm.
+- id: a1.g.zeitangaben-wann.r3
+  title_vi: Uhr và Stunde
+  body_vi: Phân biệt Uhr (thời điểm trên mặt đồng hồ) và Stunde (khoảng thời lượng kéo dài).
+  examples:
+  - de: Es ist 15 Uhr. Der Vortrag dauert eine Stunde.
+    vi: Bây giờ là 15 giờ. Bài thuyết trình kéo dài một tiếng.
+  - de: Ich schlafe acht Stunden pro Nacht.
+    vi: Tôi ngủ tám tiếng mỗi đêm.
+sentence_structures:
+- pattern: Wann / Um wie viel Uhr + Động từ + Chủ ngữ? – Um + [Giờ] (Uhr).
+  example:
+    de: Wann beginnt der Unterricht? – Um acht Uhr.
+    vi: Khi nào tiết học bắt đầu? – Lúc tám giờ.
+- pattern: Wie lange + Động từ + Chủ ngữ? – Von [Giờ] bis [Giờ] / [Số] Stunden.
+  example:
+    de: Wie lange dauert die Pause? – Eine halbe Stunde.
+    vi: Giờ giải lao kéo dài bao lâu? – Nửa tiếng.
+tables:
+- title_vi: Bảng tổng hợp giới từ chỉ thời gian thường gặp ở A1
+  header:
+  - Giới từ
+  - Cách dùng
+  - Ví dụ
+  rows:
+  - - um
+    - mốc giờ cụ thể, nửa đêm
+    - um 8 Uhr, um halb neun, um Mitternacht
+  - - am (an dem)
+    - thứ trong tuần, buổi trong ngày, ngày cụ thể
+    - am Montag, am Morgen, am Wochenende
+  - - im (in dem)
+    - tháng, mùa trong năm
+    - im Juli, im Sommer
+  - - von ... bis ...
+    - khoảng thời gian từ ... đến ...
+    - von 8 bis 16 Uhr, von Montag bis Freitag
+  - - in
+    - trong ban đêm
+    - in der Nacht
+  note_vi: 'Ghi nhớ quy tắc mẹo: Giờ dùng UM, Ngày/Buổi dùng AM, Tháng/Mùa dùng IM.'
+examples:
+- de: Wann stehst du morgens auf? – Normalerweise um sechs Uhr.
+  vi: Buổi sáng bạn thức dậy lúc mấy giờ? – Thường là lúc sáu giờ.
+- de: Wie lange arbeiten Sie heute? – Von neun bis siebzehn Uhr.
+  vi: Hôm nay quý vị làm việc bao lâu? – Từ 9 đến 17 giờ.
+- de: Der Deutschkurs dauert drei Stunden pro Tag.
+  vi: Khóa học tiếng Đức kéo dài ba tiếng mỗi ngày.
+- de: Am Samstag schlafe ich bis zehn Uhr.
+  vi: Thứ Bảy tôi ngủ đến mười giờ.
+- de: Um wie viel Uhr treffen wir uns? – Um Viertel nach sieben.
+  vi: Mấy giờ chúng mình gặp nhau? – Lúc bảy giờ mười lăm.
+common_mistakes:
+- wrong: Ich lerne Deutsch zwei Uhr.
+  right: Ich lerne Deutsch zwei Stunden.
+  explanation_vi: Nói về thời lượng kéo dài phải dùng Stunde/Stunden, không dùng Uhr.
+- wrong: Der Kurs beginnt im 9 Uhr.
+  right: Der Kurs beginnt um 9 Uhr.
+  explanation_vi: Đứng trước giờ cụ thể phải dùng giới từ um, không dùng im.
+- wrong: Ich habe einen Termin in Montag.
+  right: Ich habe einen Termin am Montag.
+  explanation_vi: Thứ trong tuần dùng am (an dem), không dùng in.
+comparison_vi: Tiếng Anh dùng at cho giờ (at 8 o'clock ↔ um 8 Uhr), on cho thứ (on Monday ↔ am Montag), in cho tháng (in May ↔ im Mai). Khá tương đồng với tiếng Đức.
+vietnamese_contrast_vi: 'Tiếng Việt dùng từ ''lúc'' hoặc ''vào'' cho mọi trường hợp (''lúc 8 giờ'', ''vào thứ Hai'', ''vào tháng Năm''). Trong tiếng Đức bắt buộc phải phân biệt chính xác: giờ dùng UM, thứ/buổi dùng AM, tháng/mùa dùng IM.'
+recap_vi: Mốc giờ dùng um (um 8 Uhr), ngày và buổi dùng am (am Montag, am Morgen), tháng và mùa dùng im. Khoảng thời gian dùng von ... bis ... Phân biệt thời điểm (Uhr) và thời lượng (Stunde).
+next_level_note_vi: Các giới từ thời gian đi với Dativ (nach, vor, seit, ab, in) và Genitiv (während) sẽ học sâu hơn ở Kapitel 6, 7 và 12.
+prerequisites:
+- g-a1-w-fragen
+exercises:
+- id: a1.g.zeitangaben-wann.ex.01
+  type: multiple-choice
+  skill: grammar
+  difficulty: 1
+  objective_refs:
+  - a1.g.zeitangaben-wann.r1
+  - a1.g.zeitangaben-wann.r2
+  - a1.g.zeitangaben-wann.obj1
+  instructions_vi: Chọn giới từ chỉ thời gian đúng điền vào chỗ trống.
+  items:
+  - id: a1.g.zeitangaben-wann.ex.01.q1
+    prompt: Der Film fängt ___ 20 Uhr an.
+    options:
+    - id: a
+      text: von
+    - id: b
+      text: im
+    - id: c
+      text: um
+    - id: d
+      text: am
+    answer:
+    - c
+    explanation_vi: Giờ cụ thể (20 Uhr) dùng giới từ um.
+  - id: a1.g.zeitangaben-wann.ex.01.q2
+    prompt: ___ Samstag habe ich keine Zeit.
+    options:
+    - id: a
+      text: Um
+    - id: b
+      text: Von
+    - id: c
+      text: Am
+    - id: d
+      text: Im
+    answer:
+    - c
+    explanation_vi: Thứ trong tuần (Samstag) dùng giới từ Am.
+  - id: a1.g.zeitangaben-wann.ex.01.q3
+    prompt: Ich arbeite ___ Montag ___ Freitag.
+    options:
+    - id: a
+      text: in ... vor
+    - id: b
+      text: von ... bis
+    - id: c
+      text: um ... bis
+    - id: d
+      text: am ... nach
+    answer:
+    - b
+    explanation_vi: Khoảng thời gian từ thứ Hai đến thứ Sáu dùng von ... bis.
+- id: a1.g.zeitangaben-wann.ex.02
+  type: fill-blank
+  skill: grammar
+  difficulty: 2
+  objective_refs:
+  - a1.g.zeitangaben-wann.r2
+  - a1.g.zeitangaben-wann.r3
+  - a1.g.zeitangaben-wann.obj1
+  instructions_vi: 'Điền từ thích hợp: um, von, bis, Uhr hoặc Stunden.'
+  items:
+  - id: a1.g.zeitangaben-wann.ex.02.q1
+    prompt: Mein Arbeitstag dauert acht ___.
+    answers:
+    - Stunden
+    explanation_vi: Thời lượng 8 tiếng đồng hồ dùng Stunden.
+  - id: a1.g.zeitangaben-wann.ex.02.q2
+    prompt: Wir treffen uns ___ Viertel vor acht.
+    answers:
+    - um
+    explanation_vi: Mốc giờ dùng giới từ um.
+  - id: a1.g.zeitangaben-wann.ex.02.q3
+    prompt: Die Praxis hat ___ 8 ___ 12 Uhr Sprechstunde.
+    answers:
+    - von
+    - bis
+    explanation_vi: 'Khoảng thời gian từ 8 đến 12 giờ: von ... bis.'

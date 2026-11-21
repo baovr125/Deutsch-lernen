@@ -1,0 +1,164 @@
+schema_version: '2.0'
+content_type: grammar-topic
+id: a1.g.fuer-akkusativ
+level: A1
+introduced_in: a1.m06
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+  references:
+  - work: Netzwerk neu A1 (Klett)
+    scope: 'Kapitel 6: Eine Überraschung für Sofia'
+    verification: verified
+  notes_vi: Tương ứng Grammatik „für + Akkusativ“ của Kapitel 6.
+introduced_in_lesson: a1.m06.l03
+title_de: Präposition für mit Akkusativ
+title_vi: Giới từ für đi với cách Akkusativ
+summary_vi: "Giới từ **für** (cho, dành cho) là một trong những giới từ cơ bản nhất trong tiếng Đức và **LUÔN LUÔN ĐI VỚI CÁCH AKKUSATIV**.\n\n**1. Ý nghĩa của für:**\n- Diễn đạt mục đích hoặc đối tượng thụ hưởng (cho ai, cho cái gì):\n  * *Das Geschenk ist **für** meine Mutter.* (Món quà dành cho mẹ tôi.)\n  * *Ich kaufe Blumen **für** dich.* (Tôi mua hoa tặng bạn.)\n- Diễn đạt khoảng thời gian dự định:\n  * *Ich buche ein Hotel **für** eine Woche.* (Tôi đặt khách sạn cho một tuần.)\n\n**2. Quy tắc biến đổi mạo từ sau für (Akkusativ):**\n- **Giống đực (Maskulin):** *der $\\rightarrow$ **den**, ein $\\rightarrow$ **einen**, mein $\\rightarrow$ **meinen***.\n- **Giống trung (Neutral):** *das $\\rightarrow$ **das**, ein $\\rightarrow$ **ein**, mein $\\rightarrow$ **mein*** (không đổi).\n- **Giống cái (Feminin):** *die $\\rightarrow$ **die**, eine $\\rightarrow$ **eine**, meine $\\rightarrow$ **meine*** (không đổi).\n- **Số nhiều (Plural):** *die $\\rightarrow$ **die**, keine $\\rightarrow$\
+  \ **keine**, meine $\\rightarrow$ **meine*** (không đổi)."
+usage_vi: Dùng khi nói về quà tặng, đối tượng được nhận hoặc chuẩn bị cho một sự kiện (für die Party, für meinen Freund).
+objectives:
+- id: a1.g.fuer-akkusativ.obj1
+  text_vi: Dùng giới từ für kèm danh từ hoặc đại từ ở Akkusativ.
+  skill: grammar
+rules:
+- id: a1.g.fuer-akkusativ.r1
+  title_vi: für luôn đi với Akkusativ
+  body_vi: 'Giới từ für luôn đòi hỏi danh từ hoặc đại từ đi sau nó phải chia ở cách Akkusativ (chỉ có giống đực biến đổi sang -en: den, einen, meinen).'
+  examples:
+  - de: Ist das Geschenk für deinen Vater?
+    vi: Món quà này dành cho bố bạn phải không?
+  - de: Das ist für das Kind und für die Mutter.
+    vi: Cái này dành cho em bé và cho người mẹ.
+sentence_structures:
+- pattern: Chủ ngữ + sein + für + Danh từ/Đại từ (Akkusativ).
+  example:
+    de: Das Buch ist für meinen Bruder.
+    vi: Cuốn sách dành cho anh trai tôi.
+- pattern: Động từ + Tân ngữ + für + Danh từ/Đại từ (Akkusativ).
+  example:
+    de: Wir kaufen Getränke für die Geburtstagsparty.
+    vi: Chúng tôi mua đồ uống cho bữa tiệc sinh nhật.
+tables:
+- title_vi: Biến đổi mạo từ sau giới từ für
+  header:
+  - Giống
+  - Mạo từ xác định
+  - Mạo từ không xác định
+  - Mạo từ sở hữu
+  rows:
+  - - Đực (Maskulin)
+    - für den Vater
+    - für einen Freund
+    - für meinen Bruder
+  - - Trung (Neutral)
+    - für das Kind
+    - für ein Baby
+    - für mein Kind
+  - - Cái (Feminin)
+    - für die Schwester
+    - für eine Freundin
+    - für meine Mutter
+  - - Số nhiều (Plural)
+    - für die Freunde
+    - für — Kinder
+    - für meine Eltern
+examples:
+- de: Ich habe ein schönes Geschenk für dich.
+  vi: Tôi có một món quà rất đẹp dành cho bạn.
+- de: Wir organisieren eine Überraschungsparty für Sofia.
+  vi: Chúng tôi tổ chức một bữa tiệc bất ngờ cho Sofia.
+- de: Kaufst du bitte Milch für das Frühstück?
+  vi: Bạn mua giúp sữa cho bữa sáng nhé?
+- de: Hier ist ein Brief für Herrn Müller.
+  vi: Đây là một lá thư gửi cho ông Müller.
+common_mistakes:
+- wrong: Das Geschenk ist für mein Vater.
+  right: Das Geschenk ist für meinen Vater.
+  explanation_vi: Sau giới từ für bắt buộc dùng Akkusativ. Danh từ giống đực (der Vater) đổi thành meinen Vater.
+- wrong: für dem Fest
+  right: für das Fest
+  explanation_vi: für không đi với Dativ, für luôn luôn đi với Akkusativ (das Fest).
+comparison_vi: Tương đương với giới từ 'for' trong tiếng Anh (for me, for you, for the party).
+vietnamese_contrast_vi: Tiếng Việt dùng từ 'cho' hoặc 'dành cho' mà không cần biến đổi hình thức của từ đi sau ('cho bố', 'cho mẹ'). Trong tiếng Đức, sau 'für' danh từ giống đực bắt buộc phải thêm đuôi -en (für meinen Vater).
+recap_vi: Giới từ für luôn luôn đòi hỏi cách Akkusativ. Chỉ có danh từ giống đực đổi thành den, einen, meinen; giống cái, giống trung và số nhiều giữ nguyên hình thức.
+next_level_note_vi: 'Ở các bài sau, bạn sẽ học các giới từ khác cũng đi với Akkusativ như durch, gegen, ohne, um (cụm ghi nhớ: DOGFU).'
+prerequisites:
+- g-a1-akkusativ
+- g-a1-definitartikel
+exercises:
+- id: a1.g.fuer-akkusativ.ex.01
+  type: multiple-choice
+  skill: grammar
+  difficulty: 1
+  objective_refs:
+  - a1.g.fuer-akkusativ.r1
+  - a1.g.fuer-akkusativ.obj1
+  instructions_vi: Chọn dạng đúng của mạo từ đi sau giới từ für.
+  items:
+  - id: a1.g.fuer-akkusativ.ex.01.q1
+    prompt: Das Geschenk ist für ___ (mein) Freund Paul.
+    options:
+    - id: a
+      text: meine
+    - id: b
+      text: meinen
+    - id: c
+      text: mein
+    - id: d
+      text: meinem
+    answer:
+    - b
+    explanation_vi: der Freund là giống đực, sau für là Akkusativ → meinen.
+  - id: a1.g.fuer-akkusativ.ex.01.q2
+    prompt: Wir kochen eine Suppe für ___ (das) Fest.
+    options:
+    - id: a
+      text: des
+    - id: b
+      text: dem
+    - id: c
+      text: das
+    - id: d
+      text: den
+    answer:
+    - c
+    explanation_vi: das Fest là giống trung, ở Akkusativ giữ nguyên là das.
+  - id: a1.g.fuer-akkusativ.ex.01.q3
+    prompt: Hast du Blumen für ___ (die) Lehrerin gekauft?
+    options:
+    - id: a
+      text: die
+    - id: b
+      text: den
+    - id: c
+      text: dem
+    - id: d
+      text: der
+    answer:
+    - a
+    explanation_vi: die Lehrerin là giống cái, ở Akkusativ giữ nguyên là die.
+- id: a1.g.fuer-akkusativ.ex.02
+  type: fill-blank
+  skill: grammar
+  difficulty: 2
+  objective_refs:
+  - a1.g.fuer-akkusativ.r1
+  - a1.g.fuer-akkusativ.obj1
+  instructions_vi: Điền mạo từ thích hợp vào chỗ trống sau giới từ für (einen, eine, ein).
+  items:
+  - id: a1.g.fuer-akkusativ.ex.02.q1
+    prompt: Ich suche ein Geschenk für ___ Kollegen (m), für ___ Kollegin (f) und für ___ Kind (n).
+    answers:
+    - einen
+    - eine
+    - ein
+    explanation_vi: 1. einen (der Kollege ở Akkusativ). 2. eine (die Kollegin). 3. ein (das Kind).

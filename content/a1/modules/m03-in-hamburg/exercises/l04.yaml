@@ -1,0 +1,251 @@
+schema_version: '2.0'
+content_type: exercise-set
+id: a1.m03.l04.ex
+level: A1
+module: a1.m03
+lesson: a1.m03.l04
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+exercises:
+- id: a1.m03.l04.ex.01
+  type: matching
+  skill: vocabulary
+  difficulty: 1
+  objective_refs:
+  - a1.m03.l04.obj2
+  instructions_vi: Nối hướng với ký hiệu.
+  items:
+  - id: a1.m03.l04.ex.01.q1
+    pairs:
+    - left: links
+      right: ⬅️
+    - left: rechts
+      right: ➡️
+    - left: geradeaus
+      right: ⬆️
+    explanation_vi: links = trái, rechts = phải, geradeaus = thẳng.
+- id: a1.m03.l04.ex.02
+  type: sentence-construction
+  skill: grammar
+  difficulty: 1
+  objective_refs:
+  - a1.m03.l04.obj2
+  - a1.m03.l04.obj4
+  instructions_vi: Viết câu chỉ đường (Imperativ mit Sie).
+  items:
+  - id: a1.m03.l04.ex.02.q1
+    prompt_vi: geradeaus gehen
+    answers:
+    - Gehen Sie geradeaus.
+    - Gehen Sie geradeaus!
+    explanation_vi: Gehen Sie …
+  - id: a1.m03.l04.ex.02.q2
+    prompt_vi: zuerst links gehen
+    answers:
+    - Gehen Sie zuerst links.
+    - Gehen Sie zuerst links!
+    explanation_vi: zuerst sau Sie.
+  - id: a1.m03.l04.ex.02.q3
+    prompt_vi: dann rechts fahren
+    answers:
+    - Fahren Sie dann rechts.
+    - Fahren Sie dann rechts!
+    - Dann fahren Sie rechts.
+    explanation_vi: dann có thể đứng sau Sie hoặc đầu câu (Dann fahren Sie …).
+- id: a1.m03.l04.ex.03
+  type: word-order
+  skill: listening
+  difficulty: 2
+  objective_refs:
+  - a1.m03.l04.obj3
+  instructions_vi: Nghe lời chỉ đường đến chợ. Sắp xếp các bước theo thứ tự (cách nhau bằng dấu cách).
+  stimulus:
+    ref: a1.m03.l04.b5
+  items:
+  - id: a1.m03.l04.ex.03.q1
+    tokens:
+    - Park
+    - links
+    - geradeaus
+    - Markt
+    answer: geradeaus links Park Markt
+    explanation_vi: Đi thẳng → rẽ trái → qua công viên → thấy chợ.
+- id: a1.m03.l04.ex.04
+  type: true-false
+  skill: listening
+  difficulty: 1
+  objective_refs:
+  - a1.m03.l04.obj3
+  - a1.m03.l04.obj4
+  instructions_vi: Nghe lại. Đúng hay sai?
+  stimulus:
+    ref: a1.m03.l04.b5
+  items:
+  - id: a1.m03.l04.ex.04.q1
+    prompt: Minh hỏi đường đến công viên.
+    answer: false
+    explanation_vi: Minh hỏi đường đến chợ (der Markt).
+  - id: a1.m03.l04.ex.04.q2
+    prompt: Người phụ nữ nói đường đi rất đơn giản.
+    answer: true
+    explanation_vi: „Ganz einfach.“
+  - id: a1.m03.l04.ex.04.q3
+    prompt: Minh cảm ơn bằng „Vielen Dank!“.
+    answer: true
+    explanation_vi: Đúng.
+- id: a1.m03.l04.ex.05
+  type: multiple-choice
+  skill: reading
+  difficulty: 2
+  objective_refs:
+  - a1.m03.l04.obj3
+  instructions_vi: Đọc email của khách sạn. Chọn đáp án đúng.
+  stimulus:
+    ref: a1.m03.l04.b6
+  items:
+  - id: a1.m03.l04.ex.05.q1
+    prompt: Từ nhà ga, bước đầu tiên là gì?
+    options:
+    - id: a
+      text: geradeaus
+    - id: b
+      text: links
+    - id: c
+      text: rechts
+    answer:
+    - c
+    explanation_vi: „Gehen Sie zuerst rechts.“
+  - id: a1.m03.l04.ex.05.q2
+    prompt: Ở chỗ có nhà thờ, rẽ hướng nào?
+    options:
+    - id: a
+      text: links
+    - id: b
+      text: rechts
+    answer:
+    - a
+    explanation_vi: „Da ist eine Kirche. Gehen Sie links.“
+  - id: a1.m03.l04.ex.05.q3
+    prompt: Đi bộ mất bao lâu?
+    options:
+    - id: a
+      text: circa 30 Minuten
+    - id: b
+      text: circa 10 Minuten
+    - id: c
+      text: circa 3 Minuten
+    answer:
+    - b
+    explanation_vi: '„Zu Fuß: circa 10 Minuten.“'
+- id: a1.m03.l04.ex.06
+  type: multiple-choice
+  skill: grammar
+  difficulty: 2
+  objective_refs:
+  - a1.m03.l04.obj2
+  instructions_vi: Câu nào là câu mệnh lệnh đúng?
+  items:
+  - id: a1.m03.l04.ex.06.q1
+    prompt: Chọn câu đúng.
+    options:
+    - id: a
+      text: Gehen Sie links!
+    - id: b
+      text: Sie gehen links!
+    - id: c
+      text: Geht Sie links!
+    answer:
+    - a
+    explanation_vi: Động từ nguyên mẫu + Sie ở đầu câu.
+  - id: a1.m03.l04.ex.06.q2
+    prompt: Chọn câu đúng (sein).
+    options:
+    - id: a
+      text: Seien Sie pünktlich!
+    - id: b
+      text: Sein Sie pünktlich!
+    - id: c
+      text: Sind Sie pünktlich!
+    answer:
+    - a
+    explanation_vi: sein → Seien Sie.
+- id: a1.m03.l04.ex.07
+  type: translation
+  skill: vocabulary
+  difficulty: 2
+  objective_refs:
+  - a1.m03.l04.obj1
+  - a1.m03.l04.obj4
+  instructions_vi: Dịch sang tiếng Đức.
+  items:
+  - id: a1.m03.l04.ex.07.q1
+    direction: vi-de
+    source: Xin lỗi, nhà ga ở đâu ạ?
+    answers:
+    - Entschuldigung, wo ist der Bahnhof?
+    explanation_vi: Hỏi đường lịch sự.
+  - id: a1.m03.l04.ex.07.q2
+    direction: vi-de
+    source: Hãy đi thẳng rồi rẽ trái.
+    answers:
+    - Gehen Sie geradeaus und dann links.
+    - Gehen Sie geradeaus, dann links.
+    explanation_vi: Imperativ + dann.
+  - id: a1.m03.l04.ex.07.q3
+    direction: vi-de
+    source: Cảm ơn nhiều!
+    answers:
+    - Vielen Dank!
+    explanation_vi: Vielen Dank!
+- id: a1.m03.l04.ex.08
+  type: speaking-practice
+  skill: speaking
+  difficulty: 2
+  objective_refs:
+  - a1.m03.l04.obj1
+  - a1.m03.l04.obj2
+  - a1.m03.l04.obj4
+  instructions_vi: Đóng vai hỏi và chỉ đường đến bảo tàng (phần Nói).
+  grading: self
+  rubric:
+  - criterion_vi: Hỏi đường lịch sự với Entschuldigung
+    points: 1
+  - criterion_vi: Chỉ đường bằng Imperativ mit Sie, có zuerst/dann
+    points: 3
+  - criterion_vi: Phát âm rõ links, rechts, geradeaus
+    points: 1
+  items:
+  - id: a1.m03.l04.ex.08.q1
+    prompt_vi: Hỏi và chỉ đường đến bảo tàng
+    model_answer:
+      de: Entschuldigung, wo ist das Museum? – Gehen Sie zuerst geradeaus. Da ist eine Kirche. Gehen Sie links. Da ist ein Park. Gehen Sie dann rechts. Da ist das Museum. – Vielen Dank!
+    explanation_vi: So sánh với hội thoại mẫu.
+- id: a1.m03.l04.ex.09
+  type: writing-practice
+  skill: writing
+  difficulty: 2
+  objective_refs:
+  - a1.m03.l04.obj2
+  - a1.m03.l04.obj4
+  instructions_vi: Viết chỉ đường đến nhà bạn (phần Viết).
+  grading: self
+  rubric:
+  - criterion_vi: Câu mệnh lệnh đúng cấu trúc
+    points: 2
+  - criterion_vi: Có zuerst/dann và một mốc địa điểm
+    points: 2
+  items:
+  - id: a1.m03.l04.ex.09.q1
+    prompt_vi: Chỉ đường đến nhà bạn
+    model_answer:
+      de: Gehen Sie zuerst geradeaus. Dann gehen Sie rechts. Da ist ein Markt. Gehen Sie links. Mein Haus ist dann rechts, Nummer 12.
+    explanation_vi: So sánh với mẫu.

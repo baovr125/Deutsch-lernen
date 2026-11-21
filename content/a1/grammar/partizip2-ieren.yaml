@@ -1,0 +1,53 @@
+schema_version: "2.0"
+content_type: grammar-topic
+id: a1.g.partizip2-ieren
+level: A1
+introduced_in: a1.m10
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  references:
+    - { work: "Netzwerk neu A1.2 – Stoffverteilungsplan (Klett)", scope: "Kapitel 10, Grammatik: Partizip II – Verben auf -ieren", verification: verified }
+  tags: ["perfekt", "partizip", "ieren"]
+title_de: "Partizip II: Verben auf -ieren"
+title_vi: "Quá khứ phân từ của động từ đuôi -ieren"
+summary_vi: "Động từ kết thúc bằng -ieren không thêm „ge-“. Partizip II = thân + -t: telefonieren → telefoniert, studieren → studiert."
+usage_vi: "Dùng khi lập Perfekt với các động từ mượn từ ngoại ngữ như telefonieren, studieren, fotografieren, funktionieren."
+objectives:
+  - { id: a1.g.partizip2-ieren.obj1, text_vi: "Lập Partizip II đúng cho động từ -ieren (không có ge-).", skill: grammar }
+rules:
+  - id: a1.g.partizip2-ieren.r1
+    title_vi: "Không có ge-"
+    body_vi: "Chỉ cần bỏ -en và thêm -t. Nhớ ngay: -ieren → -iert."
+    table:
+      header: ["Nguyên mẫu", "Partizip II"]
+      rows:
+        - ["telefonieren", "telefoniert"]
+        - ["studieren", "studiert"]
+        - ["fotografieren", "fotografiert"]
+        - ["funktionieren", "funktioniert"]
+    examples:
+      - { de: "Sie hat lange telefoniert.", vi: "Cô ấy đã nói điện thoại lâu." }
+      - { de: "Ich habe in Berlin studiert.", vi: "Tôi đã học đại học ở Berlin." }
+  - id: a1.g.partizip2-ieren.r2
+    title_vi: "Vì sao không có ge-?"
+    body_vi: "Các động từ này có trọng âm ở âm tiết -ie-, không ở âm tiết đầu. Quy tắc nhớ: động từ -ieren không thêm ge-."
+    examples:
+      - { de: "Wir haben die Stadt fotografiert.", vi: "Chúng tôi đã chụp ảnh thành phố." }
+      - { de: "Das Handy hat nicht funktioniert.", vi: "Chiếc điện thoại đã không hoạt động." }
+sentence_structures:
+  - { pattern: "Subjekt + haben + (Angaben) + …iert", example: { de: "Er hat gestern lange telefoniert.", vi: "Hôm qua anh ấy đã nói điện thoại lâu." } }
+examples:
+  - { de: "Meine Schwester hat Medizin studiert.", vi: "Chị gái tôi đã học ngành y." }
+  - { de: "Der Computer hat nicht funktioniert.", vi: "Máy tính đã không hoạt động." }
+  - { de: "Hast du das Haus fotografiert?", vi: "Bạn đã chụp ảnh căn nhà chưa?" }
+  - { de: "Wir haben eine Stunde telefoniert.", vi: "Chúng tôi đã nói chuyện điện thoại một tiếng." }
+common_mistakes:
+  - { wrong: "Ich habe getelefoniert.", right: "Ich habe telefoniert.", explanation_vi: "Động từ -ieren không có „ge-“." }
+  - { wrong: "Sie hat studierten.", right: "Sie hat studiert.", explanation_vi: "Partizip II kết thúc -t, không phải -en." }
+exercise_refs: [a1.m10.l03.ex.02]

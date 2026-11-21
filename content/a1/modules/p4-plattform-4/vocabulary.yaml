@@ -1,0 +1,23 @@
+schema_version: "2.0"
+content_type: vocabulary-set
+id: a1.p4.vocab
+level: A1
+module: a1.p4
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  references:
+    - { work: "Netzwerk neu A1.2 – Stoffverteilungsplan (Klett)", scope: "Plattform 4: Landeskunde – Eine Reise durch D-A-CH", verification: verified }
+    - { work: "Dự án Deutsch-lernen", scope: "Danh sách từ địa lý tự đề xuất", verification: proposed }
+  tags: ["landeskunde", "geografie"]
+entries:
+  - { id: a1.p4.v.hauptstadt, de: "Hauptstadt", pos: noun, article: die, plural: "Hauptstädte", vi: "thủ đô", ipa: "/ˈhaʊptˌʃtat/", example: { de: "Die Hauptstadt von Deutschland ist Berlin.", vi: "Thủ đô của nước Đức là Berlin." }, usage_vi: "Số nhiều có Umlaut: Hauptstädte. Từ ghép Haupt (chính) + Stadt. „Die Hauptstadt von + nước“.", lesson_refs: [a1.p4.l02] }
+  - { id: a1.p4.v.fluss, de: "Fluss", pos: noun, article: der, plural: "Flüsse", vi: "con sông", ipa: "/flʊs/", example: { de: "Der Rhein ist ein langer Fluss.", vi: "Rhein là một con sông dài." }, usage_vi: "Số nhiều có Umlaut: Flüsse. „am Fluss“ = bên sông. Con sông lớn thường gọi: der Strom.", lesson_refs: [a1.p4.l02] }
+  - { id: a1.p4.v.grenze, de: "Grenze", pos: noun, article: die, plural: "Grenzen", vi: "biên giới", ipa: "/ˈɡʁɛntsə/", example: { de: "Die Grenze zur Schweiz ist nicht weit.", vi: "Biên giới với Thụy Sĩ không xa." }, usage_vi: "„die Grenze zu + Dativ“ = biên giới với nước nào. Số nhiều: Grenzen.", lesson_refs: [a1.p4.l02] }
+  - { id: a1.p4.v.bundesland, de: "Bundesland", pos: noun, article: das, plural: "Bundesländer", vi: "tiểu bang (của Đức, Áo)", ipa: "/ˈbʊndəsˌlant/", example: { de: "Deutschland hat sechzehn Bundesländer.", vi: "Nước Đức có mười sáu tiểu bang." }, usage_vi: "Số nhiều có Umlaut: Bundesländer. Từ ghép Bund (liên bang) + Land. Thụy Sĩ gọi là der Kanton.", lesson_refs: [a1.p4.l02] }
+  - { id: a1.p4.v.insel, de: "Insel", pos: noun, article: die, plural: "Inseln", vi: "hòn đảo", ipa: "/ˈɪnzl̩/", example: { de: "Rügen ist eine große Insel im Norden.", vi: "Rügen là một hòn đảo lớn ở phía bắc." }, usage_vi: "Số nhiều: Inseln. „auf einer Insel“ = trên một hòn đảo.", lesson_refs: [a1.p4.l02] }

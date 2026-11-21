@@ -1,0 +1,76 @@
+schema_version: "2.0"
+content_type: lesson
+id: a1.m10.l04
+level: A1
+module: a1.m10
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  references:
+    - { work: "Netzwerk neu A1.2 – Stoffverteilungsplan (Klett)", scope: "Kapitel 10, Mục Ein Anruf bei … (Strategie telefonieren); Der Weg zum Job; Wortschatz „Am Telefon“; Aussprache h", verification: verified }
+    - { work: "Dự án Deutsch-lernen", scope: "Mục Der Weg zum Job: chủ điểm ngữ pháp riêng chưa xác minh (ô Grammatik trống trong tài liệu nguồn)", verification: proposed }
+  tags: ["telefon", "aussprache"]
+order: 4
+title_de: "Ein Anruf bei …"
+title_vi: "Một cuộc gọi đến …"
+duration_min: 50
+difficulty: 2
+objectives:
+  - { id: a1.m10.l04.obj1, text_vi: "Bạn có thể thực hiện một cuộc gọi ngắn: tự giới thiệu, xin gặp người cần gọi, nhờ để lại tin nhắn.", skill: speaking }
+  - { id: a1.m10.l04.obj2, text_vi: "Bạn có thể phát âm đúng chữ h ở đầu từ và ở giữa từ sau nguyên âm.", skill: pronunciation }
+vocabulary_refs: [a1.m10.v.anruf, a1.m10.v.nachricht, a1.m10.v.gespraech, a1.m10.v.handy, a1.m10.v.zurueckrufen, a1.m10.v.besetzt, a1.m10.v.moment, a1.m10.v.am-apparat]
+grammar_refs: []
+expression_refs: [a1.m10.x.am-telefon-melden, a1.m10.x.sprechen-mit, a1.m10.x.nicht-da, a1.m10.x.nachricht]
+exercise_set_ref: a1.m10.l04.ex
+blocks:
+  - id: a1.m10.l04.b1
+    kind: explanation
+    skill: speaking
+    title_vi: "Chiến lược: gọi điện"
+    body_vi: |
+      Một cuộc gọi lịch sự có 4 bước: **(1) Chào + tên** (*Guten Tag, hier ist …*) → **(2) Mục đích** (*Kann ich bitte Herrn … sprechen?*) → **(3) Nghe trả lời** (*Einen Moment, bitte.* / *… ist leider nicht da.*) → **(4) Nhắn lại hoặc hẹn gọi lại** (*Ich rufe später zurück.*).
+  - id: a1.m10.l04.b2
+    kind: dialogue
+    skill: speaking
+    title_vi: "Hội thoại: Gọi đến công ty"
+    lines:
+      - { speaker: "Empfang", de: "Firma Haller, guten Tag.", vi: "Công ty Haller xin nghe." }
+      - { speaker: "Sara", de: "Guten Tag, hier ist Sara Klein. Kann ich bitte Herrn Berger sprechen?", vi: "Chào ông/bà, tôi là Sara Klein. Tôi có thể nói chuyện với ông Berger được không?" }
+      - { speaker: "Empfang", de: "Einen Moment, bitte. … Die Leitung ist leider besetzt.", vi: "Xin đợi một chút. … Tiếc là đường dây đang bận." }
+      - { speaker: "Sara", de: "Können Sie bitte eine Nachricht aufschreiben? Ich habe einen Termin am Montag.", vi: "Ông/bà có thể ghi giúp tin nhắn không? Tôi có cuộc hẹn vào thứ Hai." }
+      - { speaker: "Empfang", de: "Natürlich. Herr Berger ruft Sie morgen zurück.", vi: "Tất nhiên. Ông Berger sẽ gọi lại cho bà vào ngày mai." }
+      - { speaker: "Sara", de: "Vielen Dank. Auf Wiederhören!", vi: "Cảm ơn nhiều. Xin chào tạm biệt (qua điện thoại)!" }
+  - id: a1.m10.l04.b3
+    kind: listening
+    skill: listening
+    title_vi: "Nghe: Tin nhắn thoại"
+    audio_status: pending-tts
+    lines:
+      - { speaker: "Jonas", de: "Hallo Frau Wolf, hier ist Jonas Hahn.", vi: "Chào bà Wolf, tôi là Jonas Hahn." }
+      - { speaker: "Jonas", de: "Ich habe heute leider keine Zeit. Können Sie mich bitte morgen zurückrufen?", vi: "Hôm nay tiếc là tôi không có thời gian. Ngày mai bà gọi lại cho tôi được không?" }
+      - { speaker: "Jonas", de: "Meine Handynummer ist null eins sieben eins.", vi: "Số di động của tôi là không một bảy một." }
+  - id: a1.m10.l04.b4
+    kind: pronunciation
+    skill: pronunciation
+    title_vi: "Phát âm: chữ h"
+    body_vi: |
+      • **h ở đầu từ hoặc đầu âm tiết** được thở nhẹ ra: *Haus, Handy, hören*.
+      • **h sau nguyên âm** thường **không đọc**, chỉ kéo dài nguyên âm: *sehen, gehen, Ruhe*.
+      Luyện từng từ chậm rồi nhanh dần.
+    items:
+      - { de: "Handy", ipa: "/ˈhɛndi/", note_vi: "h đầu từ: thở nhẹ" }
+      - { de: "Hallo", ipa: "/haˈloː/", note_vi: "h đầu từ: thở nhẹ" }
+      - { de: "gehen", ipa: "/ˈɡeːən/", note_vi: "h giữa từ không đọc, e kéo dài" }
+      - { de: "sehen", ipa: "/ˈzeːən/", note_vi: "h giữa từ không đọc" }
+      - { de: "Uhr", ipa: "/uːɐ̯/", note_vi: "h sau nguyên âm: không đọc, u kéo dài" }
+  - id: a1.m10.l04.b5
+    kind: culture
+    skill: speaking
+    title_vi: "Văn hóa: nghe điện thoại"
+    body_vi: |
+      Khi nghe điện thoại, người Đức thường nói **họ**, không chỉ nói „Hallo“: *Müller.* hoặc *Firma Haller, guten Tag.* Kết thúc cuộc gọi trang trọng: **Auf Wiederhören!** (thay cho Auf Wiedersehen vì không nhìn thấy nhau).

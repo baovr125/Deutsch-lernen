@@ -1,0 +1,70 @@
+schema_version: "2.0"
+content_type: grammar-topic
+id: a1.g.partizip2-unregelmaessig
+level: A1
+introduced_in: a1.m10
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  references:
+    - { work: "Netzwerk neu A1.2 – Stoffverteilungsplan (Klett)", scope: "Kapitel 10, Grammatik: Partizip II – unregelmäßige Verben", verification: verified }
+  tags: ["perfekt", "partizip", "unregelmaessig"]
+title_de: "Partizip II: unregelmäßige Verben"
+title_vi: "Quá khứ phân từ của động từ bất quy tắc"
+summary_vi: "Động từ bất quy tắc: ge- + thân (thường đổi nguyên âm) + -en. Không có công thức chung, phải học thuộc từng động từ: sehen → gesehen, trinken → getrunken, gehen → gegangen."
+usage_vi: "Phần lớn động từ rất thường gặp (essen, sehen, lesen, trinken, schreiben, finden, treffen…) là bất quy tắc, nên cần học Partizip II của chúng cùng với nguyên mẫu."
+objectives:
+  - { id: a1.g.partizip2-unregelmaessig.obj1, text_vi: "Nhớ và dùng Partizip II của các động từ bất quy tắc thông dụng.", skill: grammar }
+rules:
+  - id: a1.g.partizip2-unregelmaessig.r1
+    title_vi: "ge- + thân + -en (nhiều khi đổi nguyên âm)"
+    body_vi: "Kết thúc bằng -en (không phải -t). Một số động từ đổi nguyên âm trong thân. Học theo bảng và đọc thành tiếng nhiều lần."
+    table:
+      header: ["Nguyên mẫu", "Partizip II", "Ghi chú"]
+      rows:
+        - ["sehen", "gesehen", "giữ e"]
+        - ["lesen", "gelesen", "giữ e"]
+        - ["essen", "gegessen", "thêm ge- ở đầu, giữ gốc"]
+        - ["trinken", "getrunken", "i → u"]
+        - ["treffen", "getroffen", "e → o"]
+        - ["finden", "gefunden", "i → u"]
+        - ["schlafen", "geschlafen", "giữ a"]
+    examples:
+      - { de: "Ich habe einen Film gesehen.", vi: "Tôi đã xem một bộ phim." }
+      - { de: "Wir haben Pizza gegessen.", vi: "Chúng tôi đã ăn pizza." }
+  - id: a1.g.partizip2-unregelmaessig.r2
+    title_vi: "Động từ dùng sein"
+    body_vi: "Động từ di chuyển có Partizip II bất quy tắc và dùng „sein“: gehen → gegangen, fahren → gefahren, kommen → gekommen."
+    table:
+      header: ["Nguyên mẫu", "Perfekt"]
+      rows:
+        - ["gehen", "ist gegangen"]
+        - ["fahren", "ist gefahren"]
+        - ["kommen", "ist gekommen"]
+    examples:
+      - { de: "Sie ist nach Hause gegangen.", vi: "Cô ấy đã về nhà." }
+      - { de: "Wir sind mit dem Bus gefahren.", vi: "Chúng tôi đã đi bằng xe buýt." }
+  - id: a1.g.partizip2-unregelmaessig.r3
+    title_vi: "Cách học hiệu quả"
+    body_vi: "Luôn học bộ ba: nguyên mẫu – ngôi er/sie – Perfekt. Ví dụ: essen – isst – hat gegessen. Từ vựng của dự án ghi sẵn dạng Perfekt (forms.perfekt)."
+    examples:
+      - { de: "Er hat zwei Stunden geschlafen.", vi: "Anh ấy đã ngủ hai tiếng." }
+      - { de: "Ich habe meinen Schlüssel gefunden.", vi: "Tôi đã tìm thấy chìa khóa." }
+sentence_structures:
+  - { pattern: "Subjekt + haben + (Angaben) + ge…en", example: { de: "Ich habe viel getrunken.", vi: "Tôi đã uống nhiều." } }
+  - { pattern: "Subjekt + sein + (Angaben) + ge…en", example: { de: "Er ist früh gekommen.", vi: "Anh ấy đã đến sớm." } }
+examples:
+  - { de: "Hast du das Buch gelesen?", vi: "Bạn đã đọc quyển sách này chưa?" }
+  - { de: "Wir haben Freunde getroffen.", vi: "Chúng tôi đã gặp bạn bè." }
+  - { de: "Er hat Tee getrunken.", vi: "Anh ấy đã uống trà." }
+  - { de: "Sie hat den Film nicht gesehen.", vi: "Cô ấy đã không xem bộ phim đó." }
+common_mistakes:
+  - { wrong: "Ich habe getrinkt.", right: "Ich habe getrunken.", explanation_vi: "„trinken“ là động từ bất quy tắc: i → u, kết thúc -en." }
+  - { wrong: "Wir haben gesehet.", right: "Wir haben gesehen.", explanation_vi: "Partizip II bất quy tắc kết thúc -en, không thêm -et." }
+  - { wrong: "Er hat gefahren.", right: "Er ist gefahren.", explanation_vi: "„fahren“ (đi) dùng „sein“ trong Perfekt." }
+exercise_refs: [a1.m10.l03.ex.01, a1.m10.l03.ex.03]

@@ -1,0 +1,284 @@
+schema_version: '2.0'
+content_type: lesson
+id: a1.p2.l01
+level: A1
+module: a1.p2
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+  references:
+  - work: Netzwerk neu A1 (Klett)
+    scope: 'Plattform 2: Plattform 2: wiederholen und trainieren (Kapitel 4–6)'
+    verification: verified
+  notes_vi: Bài ôn tập tổng hợp tích hợp toàn bộ kiến thức Khối 2 (Kapitel 4–6), kết thúc nửa đầu trình độ A1 (A1.1).
+order: 1
+title_de: 'Wiederholen und trainieren: Kapitel 4–6'
+title_vi: Ôn tập tổng hợp Kapitel 4–6
+topic_vi: Ẩm thực, gia đình, giờ giấc, hẹn gặp, tiệc tùng, động từ tách và quá khứ war / hatte
+duration_min: 90
+difficulty: 2
+cefr:
+- A1.SI1
+- A1.SI2
+- A1.SP1
+- A1.H1
+- A1.L1
+- A1.S1
+- A1.S2
+prerequisites:
+- a1.m06.review
+objectives:
+- id: a1.p2.l01.obj1
+  text_vi: 'Hệ thống hóa từ vựng K04–K06: món ăn thức uống, hoạt động trong ngày, gia đình, sự kiện và nhà hàng.'
+  skill: vocabulary
+- id: a1.p2.l01.obj2
+  text_vi: 'Vận dụng vững các chủ điểm ngữ pháp cốt lõi: Akkusativ (den/einen/keinen), mạo từ sở hữu, giới từ thời gian, động từ khuyết thiếu, động từ tách và quá khứ war/hatte.'
+  skill: grammar
+- id: a1.p2.l01.obj3
+  text_vi: 'Giao tiếp thành thạo: mua sắm, hỏi giờ, hẹn gặp, đặt món và kể lại sự kiện đã qua.'
+  skill: reading
+vocabulary_refs: []
+review_vocabulary_refs:
+- a1.m04.v.lebensmittel
+- a1.m04.v.zeit
+- a1.m04.v.packung
+- a1.m05.v.alltag
+- a1.m05.v.spaet
+- a1.m05.v.familie
+- a1.m05.v.verabredung
+- a1.m06.v.vorbeikommen
+- a1.m06.v.geburtstag
+- a1.m06.v.ueberraschung
+- a1.m06.v.lokal
+- a1.m06.v.gestern
+grammar_refs:
+- a1.g.akkusativ
+- a1.g.possessivartikel
+- a1.g.modalverben
+- a1.g.trennbare-verben
+- a1.g.praeteritum-haben-sein
+grammar_focus:
+- ref: a1.g.akkusativ
+  focus_vi: 'Ôn Akkusativ cho giống đực: den / einen / keinen / ihn.'
+- ref: a1.g.possessivartikel
+  focus_vi: Ôn mạo từ sở hữu ở Nominativ và Akkusativ.
+- ref: a1.g.modalverben
+  focus_vi: Ôn können, müssen, wollen và vị trí trong câu.
+- ref: a1.g.trennbare-verben
+  focus_vi: Ôn tiền tố tách đứng ở cuối câu.
+- ref: a1.g.praeteritum-haben-sein
+  focus_vi: Ôn dạng quá khứ war và hatte.
+expression_refs:
+- a1.p2.x.ich-brauche-noch-einen-eine-ein
+- a1.p2.x.hast-du-am-um-zeit-wollen-wir
+exercise_set_ref: a1.p2.l01.ex
+summary_vi: 'Trong bài học này, bạn đã ôn tập toàn diện:
+
+  1. **Từ vựng cốt lõi K04–K06:** Thực phẩm, gia đình, thời gian biểu, hẹn gặp và tiệc tùng.
+
+  2. **Ngữ pháp:** Mạo từ Akkusativ (*den/einen/keinen/ihn*), giới từ thời gian (*um, am, im, von...bis*), mạo từ sở hữu, động từ khuyết thiếu, động từ tách và thì quá khứ (*war / hatte*).
+
+  3. **Giao tiếp:** Rủ bạn bè, lên lịch hẹn, đặt món và kể lại sự kiện đã qua.'
+self_check:
+- Tôi có thể phân biệt và dùng đúng mạo từ ở Nominativ và Akkusativ cho giống đực.
+- Tôi có thể nói chính xác thời gian và hẹn gặp bạn bè bằng các giới từ um, am, von...bis.
+- Tôi có thể dùng động từ khuyết thiếu và động từ tách với đúng trật tự từ trong câu.
+- Tôi có thể kể về một ngày hoặc một sự kiện trong quá khứ bằng war và hatte.
+blocks:
+- id: a1.p2.l01.b1
+  kind: explanation
+  title_vi: Giới thiệu bài học
+  body_vi: '**Chúc mừng bạn đã hoàn thành trọn vẹn Khối 2 (Kapitel 4–6)!**
+
+    Đến thời điểm này, bạn đã đi hết một nửa chặng đường trình độ A1 (**A1.1**).
+
+
+    Bài học này sẽ giúp bạn **kết nối và củng cố toàn bộ các kỹ năng**:
+
+    - **Ăn uống & Mua sắm (Kapitel 4):** Món ăn thức uống, đơn vị tính, mạo từ ở cách Akkusativ (*den, einen, keinen*).
+
+    - **Cuộc sống & Gia đình (Kapitel 5):** Giờ giấc, mạo từ sở hữu (*mein, dein, sein, ihr*), động từ khuyết thiếu (*können, müssen, wollen*).
+
+    - **Thời gian với bạn bè (Kapitel 6):** Lập kế hoạch tiệc tùng, động từ tách (*mitbringen, anrufen*), số thứ tự cho ngày tháng, gọi món và thì quá khứ (*war, hatte*).'
+- id: a1.p2.l01.b2
+  kind: explanation
+  title_vi: Bảng tổng hợp ngữ pháp cốt lõi Kapitel 4–6
+  skill: grammar
+  body_vi: '| Cấu trúc ngữ pháp | Quy tắc cốt lõi | Ví dụ minh họa |
+
+    |---|---|---|
+
+    | **Akkusativ (K04)** | Giống đực đổi thành *den / einen / keinen*. Giống trung, cái, số nhiều giữ nguyên. | Ich brauche **einen** Apfel und **den** Käse. |
+
+    | **Mạo từ thời gian (K05)** | *um* + giờ; *am* + thứ/buổi; *im* + tháng/mùa; *von... bis...* + khoảng thời gian. | **Um** 18:00 Uhr, **am** Freitag, **im** Sommer. |
+
+    | **Mạo từ sở hữu (K05)** | Thêm đuôi *-e* cho giống cái và số nhiều (*meine* Mutter, *seine* Kinder). Giống đực ở Akkusativ thêm *-en* (*meinen* Bruder). | Das ist **mein** Vater und **meine** Mutter. |
+
+    | **Động từ khuyết thiếu (K05)** | Động từ khuyết thiếu chia ở vị trí 2, động từ nguyên thể đứng cuối câu. | Ich **muss** heute lange **arbeiten**. |
+
+    | **Động từ tách (K06)** | Phần gốc chia ở vị trí 2, tiền tố tách đứng ở cuối câu trần thuật / nghi vấn. | Er **ruft** mich morgen **an**. |
+
+    | **Quá khứ war / hatte (K06)** | Ngôi *ich* và *er/sie/es* giống hệt nhau: *ich war / hatte*, *er war / hatte*. | Gestern **war** ich müde und **hatte** keine Zeit. |
+
+    '
+  examples:
+  - de: Wir wollen am Samstag eine Party machen. Bringst du den Salat mit?
+    vi: Chúng tôi muốn tổ chức một bữa tiệc vào thứ Bảy. Cậu mang món salad đến nhé?
+  - de: Gestern hatte Lukas Geburtstag. Die Feier war sehr schön!
+    vi: Hôm qua sinh nhật Lukas. Buổi tiệc đã rất vui!
+- id: a1.p2.l01.b3
+  kind: pronunciation
+  title_vi: Ngữ điệu câu hỏi có từ để hỏi W-Frage và câu hỏi Ja/Nein-Frage
+  skill: pronunciation
+  body_vi: 'Ngữ điệu câu hỏi có từ để hỏi W-Frage và câu hỏi Ja/Nein-Frage
+
+
+    Câu hỏi W-Frage hạ giọng ở cuối câu; câu hỏi Ja/Nein-Frage lên giọng ở cuối câu.
+
+
+    Luyện tập: Luyện đọc hai câu mẫu, chú ý hạ giọng với Wann và lên giọng với Kommst du.'
+  items:
+  - de: Wann beginnt die Party?
+    vi: Mấy giờ bữa tiệc bắt đầu? (hạ giọng ở cuối câu)
+    ipa: '[van bəˈɡɪnt diː ˈpaʁti]'
+  - de: Kommst du am Samstag mit?
+    vi: Thứ Bảy cậu có đi cùng không? (lên giọng ở cuối câu)
+    ipa: '[kɔmst duː am ˈzamstaːk mɪt]'
+- id: a1.p2.l01.b4
+  kind: examples
+  title_vi: Câu ví dụ
+  examples:
+  - de: Wir kaufen noch einen Käse und zwei Flaschen Orangensaft.
+    vi: Chúng tôi còn mua một miếng phô mai và hai chai nước cam.
+  - de: Um wie viel Uhr beginnt dein Deutschkurs am Montag?
+    vi: Khóa học tiếng Đức của bạn bắt đầu lúc mấy giờ vào thứ Hai?
+  - de: Gestern war das Wetter super und wir hatten viel Spaß.
+    vi: Hôm qua thời tiết tuyệt vời và chúng tôi đã rất vui.
+- id: a1.p2.l01.b5
+  kind: listening
+  title_vi: Lên kế hoạch nấu ăn tối cùng bạn bè
+  lines:
+  - speaker: Jonas
+    de: Hallo Sara! Hast du am Samstagabend schon etwas vor?
+    vi: Chào Sara! Tối thứ Bảy cậu đã có kế hoạch gì chưa?
+  - speaker: Sara
+    de: Hallo Jonas! Nein, am Samstag habe ich Zeit. Warum fragst du?
+    vi: Chào Jonas! Chưa, thứ Bảy tớ rảnh. Sao cậu lại hỏi thế?
+  - speaker: Jonas
+    de: Ich möchte ein Abendessen für unsere Freunde kochen. Kannst du um 18 Uhr zu mir kommen?
+    vi: Tớ muốn nấu một bữa tối cho bạn bè chúng mình. Cậu có thể đến nhà tớ lúc 18 giờ được không?
+  - speaker: Sara
+    de: Ja, das passt mir gut! Was kochst du denn?
+    vi: Được, giờ đó hợp với tớ đấy! Cậu nấu món gì thế?
+  - speaker: Jonas
+    de: Ich mache Spaghetti und einen großen Salat. Kannst du den Nachtisch mitbringen?
+    vi: Tớ làm mì Ý và một đĩa salad lớn. Cậu có thể mang món tráng miệng đến được không?
+  - speaker: Sara
+    de: Klar, kein Problem! Ich kaufe einen Schokoladenkuchen und bringe ihn mit.
+    vi: Rõ rồi, không vấn đề gì! Tớ sẽ mua một chiếc bánh sô-cô-la và mang đến.
+  audio_status: pending-tts
+  situation_vi: Hai người bạn, Jonas và Sara, thảo luận về kế hoạch nấu ăn tối vào cuối tuần.
+  skill: listening
+  audio:
+    speed: normal
+- id: a1.p2.l01.b6
+  kind: reading
+  title_vi: Thư chia sẻ về tiệc sinh nhật cuối tuần
+  paragraphs:
+  - de: 'Liebe Familie,
+
+      mein Wochenende war wirklich fantastisch! Am Samstag hatte meine Freundin Elena Geburtstag.
+
+      Sie hat eine Party in ihrem Garten organisiert. Um 15 Uhr sind alle Gäste angekommen.
+
+      Das Wetter war wunderbar sonnig und warm.
+
+      Elena hatte leckere Sachen vorbereitet: Es gab Fleisch vom Grill, Brot und viele Salate.
+
+      Ich habe einen Apfelkuchen gebacken und mitgebracht. Alle Gäste fanden den Kuchen sehr lecker.
+
+      Wir haben Musik gehört, getanzt und viel gelacht.
+
+      Um 22 Uhr war die Party zu Ende. Ich war müde, aber sehr glücklich!
+
+      Liebe Grüße
+
+      Leon'
+    vi: 'Gia đình thân yêu,
+
+      Cuối tuần của con thực sự tuyệt vời! Vào thứ Bảy là sinh nhật bạn Elena của con.
+
+      Bạn ấy đã tổ chức tiệc trong vườn. Lúc 15 giờ tất cả khách mời đã đến đông đủ.
+
+      Thời tiết rất đẹp, nhiều nắng và ấm áp.
+
+      Elena đã chuẩn bị nhiều món ngon: có thịt nướng, bánh mì và nhiều món salad.
+
+      Con đã nướng một chiếc bánh táo và mang đến. Mọi người đều khen bánh rất ngon.
+
+      Tụi con đã nghe nhạc, khiêu vũ và cười nói rất nhiều.
+
+      Lúc 22 giờ bữa tiệc kết thúc. Con tuy mệt nhưng rất vui!
+
+      Thương gửi
+
+      Leon'
+  text_type_vi: Email gửi gia đình kể về tiệc sinh nhật
+  skill: reading
+  glossary:
+  - de: 'der Gast (Plural: die Gäste)'
+    vi: khách mời
+  - de: vorbereitet
+    vi: đã chuẩn bị
+  - de: gebacken
+    vi: đã nướng bánh
+- id: a1.p2.l01.b7
+  kind: speaking
+  title_vi: Kể về một bữa tiệc hoặc cuối tuần đáng nhớ
+  skill: speaking
+  task_vi: 'Nói 4–5 câu về một buổi tiệc sinh nhật hoặc cuối tuần vừa qua: ai có tiệc, thời gian, thức ăn và cảm nhận (dùng war / hatte).'
+  steps_vi:
+  - Xác định thời gian và sự kiện (Am Samstag hatte... Geburtstag).
+  - Kể về món ăn và hoạt động (Wir haben... gegessen / getrunken).
+  - Nói cảm nhận bằng thì quá khứ (Das Wetter war schön. Die Party war super).
+  lines:
+  - speaker: Minh
+    de: Am Samstag hatte mein Freund Lukas Geburtstag. Wir waren in einem Café am Marktplatz. Das Essen war sehr lecker und ich hatte viel Spaß mit meinen Freunden.
+    vi: Thứ Bảy vừa rồi sinh nhật bạn Lukas của mình. Tụi mình ở một quán cà phê bên quảng trường. Đồ ăn rất ngon và mình đã rất vui cùng bạn bè.
+- id: a1.p2.l01.b8
+  kind: writing
+  title_vi: Viết tin nhắn rủ bạn ăn tối cuối tuần
+  skill: writing
+  task_vi: 'Viết tin nhắn (30–40 từ) rủ bạn (Stefan) ăn tối: ngày giờ, món bạn nấu, và nhờ bạn mang nước uống (Getränke).'
+  model:
+    de: 'Hallo Stefan,
+
+      hast du am Samstagabend um 19 Uhr Zeit? Ich koche Pasta mit Gemüse. Wollen wir zusammen essen?
+
+      Kannst du bitte den Saft oder zwei Flaschen Wasser mitbringen?
+
+      Bis Samstag!
+
+      Dein Minh'
+    vi: 'Chào Stefan,
+
+      Tối thứ Bảy lúc 19 giờ cậu có rảnh không? Tớ nấu mì Ý rau củ. Chúng mình cùng ăn nhé?
+
+      Cậu có thể mang nước hoa quả hoặc hai chai nước lọc đến được không?
+
+      Hẹn gặp thứ Bảy!
+
+      Minh của cậu'
+  checklist_vi:
+  - Chào hỏi và kết thúc phù hợp với bạn bè.
+  - Có thời gian (Samstagabend um 19 Uhr).
+  - Có câu hỏi rủ (Wollen wir zusammen essen?).
+  - Có câu nhờ vả với động từ tách (mitbringen).

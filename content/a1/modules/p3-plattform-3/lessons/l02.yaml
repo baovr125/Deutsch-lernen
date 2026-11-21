@@ -1,0 +1,91 @@
+schema_version: "2.0"
+content_type: lesson
+id: a1.p3.l02
+level: A1
+module: a1.p3
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  references:
+    - { work: "Netzwerk neu A1.2 – Stoffverteilungsplan (Klett)", scope: "Plattform 3: Landeskunde – Lied, Wohntypen", verification: verified }
+    - { work: "Dự án Deutsch-lernen", scope: "Lời bài hát và bài đọc hoàn toàn tự soạn, không lấy từ giáo trình", verification: proposed }
+  tags: ["landeskunde", "wohnen"]
+order: 2
+title_de: "Landeskunde: Wohnen in D-A-CH"
+title_vi: "Văn hóa: Nhà ở tại Đức, Áo, Thụy Sĩ"
+topic_vi: "Các kiểu nhà ở và một bài hát về mái ấm"
+duration_min: 60
+difficulty: 1
+objectives:
+  - { id: a1.p3.l02.obj1, text_vi: "Gọi tên các kiểu nhà ở: nhà riêng, nhà cao tầng, nhà ở chung (WG) và nói về hàng xóm.", skill: vocabulary }
+  - { id: a1.p3.l02.obj2, text_vi: "Hiểu bài đọc ngắn, đoạn phỏng vấn ngắn và lời một bài hát đơn giản về nhà ở.", skill: reading }
+  - { id: a1.p3.l02.obj3, text_vi: "Nói và viết ngắn về cách bạn sống.", skill: speaking }
+vocabulary_refs: [a1.p3.v.lied, a1.p3.v.hochhaus, a1.p3.v.einfamilienhaus, a1.p3.v.wohngemeinschaft, a1.p3.v.nachbar]
+review_vocabulary_refs: [a1.m09.v.wohnung, a1.m09.v.miete, a1.m09.v.zimmer]
+grammar_refs: []
+expression_refs: []
+exercise_set_ref: a1.p3.l02.ex
+blocks:
+  - id: a1.p3.l02.b1
+    kind: explanation
+    title_vi: "Giới thiệu bài học"
+    body_vi: |
+      Cách sống khác nhau ở D-A-CH (Đức, Áo, Thụy Sĩ): người thì ở nhà riêng có vườn, người thì ở nhà cao tầng trong thành phố, sinh viên thường ở chung trong một **WG**. Bài này giúp bạn đọc, nghe và nói về các kiểu nhà ở đó.
+  - id: a1.p3.l02.b2
+    kind: reading
+    skill: reading
+    title_vi: "Đọc: Wie wohnt man in D-A-CH?"
+    text_type_vi: "Bài giới thiệu văn hóa"
+    paragraphs:
+      - { de: "In Deutschland, Österreich und der Schweiz wohnen die Menschen sehr verschieden. Viele Familien wohnen in einem Einfamilienhaus mit Garten. In großen Städten wohnen viele Leute in einem Hochhaus oder in einer Mietwohnung. Studenten wohnen oft in einer Wohngemeinschaft, kurz WG: Sie teilen Küche und Bad. Mit den Nachbarn spricht man freundlich im Treppenhaus.", vi: "Ở Đức, Áo và Thụy Sĩ, mọi người sống rất khác nhau. Nhiều gia đình sống trong một căn nhà riêng có vườn. Ở các thành phố lớn nhiều người sống trong nhà cao tầng hoặc căn hộ thuê. Sinh viên thường sống trong nhà ở chung (WG): họ dùng chung bếp và phòng tắm. Với hàng xóm, người ta nói chuyện thân thiện ở cầu thang." }
+    glossary:
+      - { de: "teilen", vi: "chia sẻ, dùng chung" }
+      - { de: "das Treppenhaus", vi: "cầu thang chung của tòa nhà" }
+  - id: a1.p3.l02.b3
+    kind: reading
+    skill: reading
+    title_vi: "Lời bài hát (tự soạn): Mein Zuhause"
+    text_type_vi: "Lời bài hát ngắn"
+    paragraphs:
+      - { de: "Ein Tisch, ein Bett, ein kleines Licht – mein Zuhause braucht nicht viel. Der Tee ist heiß, die Nachbarn lachen, hier bin ich gern – das ist mein Ziel.", vi: "Một cái bàn, một cái giường, một ngọn đèn nhỏ – mái ấm của tôi không cần nhiều. Trà nóng hổi, hàng xóm cười đùa, ở đây tôi thấy vui – đó là mục tiêu của tôi." }
+    glossary:
+      - { de: "lachen", vi: "cười" }
+      - { de: "gern", vi: "vui lòng, thích" }
+  - id: a1.p3.l02.b4
+    kind: listening
+    skill: listening
+    title_vi: "Nghe: Phỏng vấn về nhà ở"
+    audio_status: pending-tts
+    situation_vi: "Một phóng viên hỏi hai người về cách họ sống."
+    lines:
+      - { speaker: "Reporterin", de: "Frau Weiß, wie wohnen Sie?", vi: "Bà Weiß, bà sống thế nào ạ?" }
+      - { speaker: "Frau Weiß", de: "Ich wohne in einer WG mit drei Studenten. Die Miete ist günstig.", vi: "Tôi sống trong một nhà ở chung với ba sinh viên. Tiền thuê rẻ." }
+      - { speaker: "Reporterin", de: "Und Sie, Herr Baumann?", vi: "Còn ông, ông Baumann?" }
+      - { speaker: "Herr Baumann", de: "Ich habe ein Einfamilienhaus mit Garten. Meine Nachbarn sind sehr nett.", vi: "Tôi có một căn nhà riêng có vườn. Hàng xóm của tôi rất tử tế." }
+      - { speaker: "Reporterin", de: "Ist Ihr Zimmer groß, Frau Weiß?", vi: "Phòng của bà rộng không, bà Weiß?" }
+      - { speaker: "Frau Weiß", de: "Nein, mein Zimmer ist klein, aber gemütlich.", vi: "Không, phòng tôi nhỏ nhưng ấm cúng." }
+      - { speaker: "Herr Baumann", de: "Mein Haus ist groß. Aber der Garten macht viel Arbeit.", vi: "Nhà tôi rộng. Nhưng khu vườn tốn nhiều công." }
+  - id: a1.p3.l02.b5
+    kind: speaking
+    skill: speaking
+    title_vi: "Nói: Bạn sống thế nào?"
+    task_vi: "Nói 3–4 câu về nơi bạn sống và so sánh với một kiểu nhà ở khác."
+    steps_vi: ["Nêu bạn sống ở đâu (in einer Wohnung, in einem Haus, in einer WG).", "Mô tả bằng sein + tính từ.", "Nói một điều bạn thích hoặc không thích.", "Dùng aber để so sánh."]
+    lines:
+      - { speaker: "Beispiel", de: "Ich wohne in einer Wohnung in der Stadt. Sie ist klein, aber hell. Ein Haus mit Garten ist groß, aber teuer.", vi: "Tôi sống trong một căn hộ trong thành phố. Nó nhỏ nhưng sáng. Nhà riêng có vườn thì rộng nhưng đắt." }
+  - id: a1.p3.l02.b6
+    kind: writing
+    skill: writing
+    title_vi: "Viết: Wie wohnst du?"
+    task_vi: "Viết 3–4 câu giới thiệu nơi bạn sống cho một người bạn mới quen."
+    model: { de: "Ich wohne in einer WG. Wir sind vier Personen. Die Küche ist groß und das Bad ist klein. Meine Nachbarn sind nett.", vi: "Tôi sống trong một nhà ở chung. Chúng tôi có bốn người. Nhà bếp rộng và phòng tắm nhỏ. Hàng xóm của tôi tử tế." }
+    checklist_vi: ["Nêu kiểu nhà ở.", "Có số người hoặc số phòng.", "Có ít nhất một câu với sein + tính từ.", "Chính tả và dấu câu đúng."]
+summary_vi: "Bạn biết gọi tên các kiểu nhà ở ở D-A-CH và nói ngắn về nơi mình sống."
+self_check:
+  - "Tôi gọi tên được Einfamilienhaus, Hochhaus, Wohngemeinschaft."
+  - "Tôi hiểu một đoạn phỏng vấn ngắn về nhà ở."

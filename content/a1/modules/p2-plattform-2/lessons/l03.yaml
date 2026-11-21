@@ -1,0 +1,273 @@
+schema_version: '2.0'
+content_type: lesson
+id: a1.p2.l03
+level: A1
+module: a1.p2
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+  references:
+  - work: Netzwerk neu A1 (Klett)
+    scope: 'Plattform 2: Prüfungstraining: Lesen Teil 1, Schreiben Teil 1, Sprechen Teil 2'
+    verification: verified
+  notes_vi: 'Đề luyện thi tự biên soạn theo cấu trúc chuẩn kỳ thi quốc tế Goethe-Zertifikat A1: Start Deutsch 1. Không sao chép đề thi thật hay bài luyện có bản quyền.'
+order: 3
+title_de: 'Prüfungstraining: Lesen Teil 1, Schreiben Teil 1, Sprechen Teil 2'
+title_vi: 'Luyện thi A1: Đọc phần 1, Viết phần 1 và Nói phần 2'
+topic_vi: 'Cấu trúc đề thi Goethe-Zertifikat A1: Đọc thư/tin nhắn ngắn, điền biểu mẫu và hỏi đáp theo thẻ từ khóa'
+duration_min: 90
+difficulty: 1
+cefr:
+- A1.L1
+- A1.L2
+- A1.S1
+- A1.SI1
+- A1.SI2
+- A1.SI3
+- A1.SP1
+prerequisites:
+- a1.p2.l02
+objectives:
+- id: a1.p2.l03.obj1
+  text_vi: 'Nắm vững chiến lược làm bài Đọc phần 1 (Lesen Teil 1): Đọc thư ngắn/email và xác định thông tin đúng hay sai (Richtig / Falsch).'
+  skill: reading
+- id: a1.p2.l03.obj2
+  text_vi: 'Nắm vững kỹ năng làm bài Viết phần 1 (Schreiben Teil 1): Đọc đoạn thông tin về một người và điền 5 thông tin còn thiếu vào tờ khai/biểu mẫu (Formular).'
+  skill: writing
+- id: a1.p2.l03.obj3
+  text_vi: 'Thực hành Nói phần 2 (Sprechen Teil 2): Đặt câu hỏi và trả lời thông tin theo chủ đề và từ khóa trên thẻ (Thema: Essen und Trinken, Freizeit, Termine).'
+  skill: speaking
+vocabulary_refs: []
+review_vocabulary_refs:
+- a1.m04.v.lebensmittel
+- a1.m04.v.packung
+- a1.m05.v.alltag
+- a1.m05.v.familie
+- a1.m06.v.vorbeikommen
+- a1.m06.v.lokal
+grammar_refs: []
+expression_refs:
+- a1.p2.x.thema-essen-und-trinken-trinken-sie-gern
+- a1.p2.x.thema-freizeit-was-machen-sie-am-gehen-s
+exercise_set_ref: a1.p2.l03.ex
+summary_vi: 'Trong bài học này, bạn đã rèn luyện các kỹ năng thi A1 chuẩn quốc tế:
+
+  1. **Lesen Teil 1:** Đọc email và thư mời ngắn, xác định thông tin Richtig/Falsch chính xác.
+
+  2. **Schreiben Teil 1:** Đọc hiểu văn bản và điền 5 mục thông tin vào biểu mẫu (Formular).
+
+  3. **Sprechen Teil 2:** Đặt câu hỏi theo chủ đề và từ khóa (Thema und Wortkarte), trả lời ngắn gọn tự nhiên.'
+self_check:
+- Tôi biết cách tìm từ khóa để làm bài Đọc đúng/sai (Lesen Teil 1).
+- Tôi có thể điền đúng các mục cơ bản trong tờ khai biểu mẫu (Familienname, Vorname, Datum, Anzahl, Zahlungsweise).
+- Tôi có thể đặt câu hỏi W-Frage và Ja/Nein-Frage theo thẻ từ khóa trong phần thi Nói.
+blocks:
+- id: a1.p2.l03.b1
+  kind: explanation
+  title_vi: Giới thiệu bài học
+  body_vi: 'Trong kỳ thi **Goethe-Zertifikat A1: Start Deutsch 1**, các kỹ năng Đọc, Viết và Nói có những phần thi đặc trưng rất dễ đạt điểm tối đa nếu bạn nắm vững chiến lược:
+
+
+    1. **Lesen, Teil 1 (Đọc, phần 1):** Bạn đọc **hai văn bản ngắn** (thư, email hoặc thông báo hằng ngày) và giải quyết 5 câu hỏi dạng **Richtig (Đúng)** hoặc **Falsch (Sai)**.
+
+    2. **Schreiben, Teil 1 (Viết, phần 1):** Bạn đọc một đoạn văn ngắn giới thiệu về một người bạn và giúp người đó **điền 5 thông tin còn thiếu** vào một **tờ khai / biểu mẫu (Formular)** (ví dụ: họ tên, số người, ngày đến, phương thức thanh toán).
+
+    3. **Sprechen, Teil 2 (Nói, phần 2):** Bạn và bạn cùng thi rút các tấm thẻ có ghi **Chủ đề (Thema)** và một **Từ khóa (Wort)**. Bạn phải đặt câu hỏi phù hợp với từ khóa đó và bạn cùng thi sẽ trả lời.'
+- id: a1.p2.l03.b2
+  kind: explanation
+  title_vi: Chiến lược làm bài Lesen Teil 1, Schreiben Teil 1 và Sprechen Teil 2
+  skill: grammar
+  body_vi: "### 1. Chiến lược Lesen Teil 1 (Richtig / Falsch)\n- Đọc câu nhận định trước khi đọc bài để biết cần tìm thông tin gì.\n- Gạch chân từ khóa: ngày, giờ, địa điểm, hành động, từ phủ định (*nicht, kein*).\n- So sánh cẩn thận: nếu bài đọc nói \"am Freitag\" mà câu hỏi nói \"am Samstag\", câu đó là **Falsch**.\n\n### 2. Chiến lược Schreiben Teil 1 (Formular ausfüllen)\n- Đọc kỹ thông tin đề bài cho. Thường mỗi mục trong biểu mẫu ứng với một câu trong bài.\n- Các mục thường gặp trong biểu mẫu:\n  - *Familienname:* Họ (ví dụ: Santos, Nguyen).\n  - *Vorname:* Tên gọi (ví dụ: Maria, Minh).\n  - *Anzahl der Personen:* Số lượng người (ví dụ: 1, 2, 4).\n  - *Kursdatum / Ankunftsdatum:* Ngày học / ngày đến.\n  - *Zahlungsweise:* Hình thức thanh toán (*bar* - tiền mặt, hoặc *Kreditkarte* - thẻ tín dụng).\n- Viết hoa chữ cái đầu danh từ, viết rõ ràng, không viết thừa thông tin.\n\n### 3. Chiến lược Sprechen Teil 2 (Um Informationen bitten)\n- Nhìn chủ đề (*Thema*) và từ khóa (*Wort*).\n- Đặt\
+    \ câu hỏi **W-Frage** (Wann? Was? Wo? Wie viel?) hoặc câu hỏi **Ja/Nein-Frage**.\n- Câu hỏi phải đúng ngữ pháp và bám sát chủ đề. Câu trả lời ngắn gọn, tự nhiên.\n"
+  examples:
+  - de: 'Thema: Essen und Trinken / Wort: Frühstück → Was frühstücken Sie gern? – Ich esse Brot und trinke Tee.'
+    vi: 'Chủ đề: Ăn uống / Từ: Bữa sáng → Bạn thích ăn sáng món gì? – Tôi ăn bánh mì và uống trà.'
+  - de: 'Thema: Freizeit / Wort: Sport → Machen Sie am Wochenende Sport? – Ja, ich fahre Fahrrad.'
+    vi: 'Chủ đề: Giải trí / Từ: Thể thao → Bạn có chơi thể thao vào cuối tuần không? – Có, tôi đạp xe.'
+- id: a1.p2.l03.b3
+  kind: pronunciation
+  title_vi: Phát âm rõ ràng các câu hỏi trong phòng thi Nói
+  skill: pronunciation
+  body_vi: 'Phát âm rõ ràng các câu hỏi trong phòng thi Nói
+
+
+    Khi đặt câu hỏi trong phòng thi, cần nói to, rõ ràng, ngắt nghỉ đúng cụm và nhấn đúng trọng âm từ.
+
+
+    Luyện tập: Luyện phát âm rõ từng từ và điều chỉnh ngữ điệu lên giọng / hạ giọng.'
+  items:
+  - de: Trinken Sie morgens Kaffee?
+    vi: Buổi sáng bạn có uống cà phê không? (lên giọng cuối câu hỏi Ja/Nein)
+    ipa: '[ˈtʁɪŋkn̩ ziː ˈmɔʁɡn̩s ˈkafe]'
+  - de: Wann gehen Sie einkaufen?
+    vi: Khi nào bạn đi mua sắm? (hạ giọng cuối câu hỏi W-Frage)
+    ipa: '[van ˈɡeːən ziː ˈaɪ̯nˌkaʊ̯fn̩]'
+- id: a1.p2.l03.b4
+  kind: examples
+  title_vi: Câu ví dụ
+  examples:
+  - de: Darf ich Ihnen eine Frage stellen? – Ja, bitte!
+    vi: Tôi có thể hỏi bạn một câu được không? – Vâng, xin mời!
+  - de: Bitte füllen Sie das Formular vollständig aus.
+    vi: Xin vui lòng điền đầy đủ thông tin vào biểu mẫu.
+  - de: Die Aussage ist richtig. Der Termin ist am Freitag.
+    vi: Nhận định này đúng. Cuộc hẹn diễn ra vào thứ Sáu.
+- id: a1.p2.l03.b5
+  kind: listening
+  title_vi: Mô phỏng phần thi Nói Teil 2 giữa hai thí sinh
+  lines:
+  - speaker: Prüfer
+    de: 'Jetzt kommt Sprechen Teil 2: Um Informationen bitten und Informationen geben. Kandidat A, bitte ziehen Sie eine Karte und stellen Sie eine Frage.'
+    vi: 'Bây giờ đến Nói phần 2: Hỏi xin và cung cấp thông tin. Thí sinh A, xin mời bốc một tấm thẻ và đặt câu hỏi.'
+  - speaker: Kandidat A
+    de: Thema ist 'Wochenende' und das Wort ist 'Sport'. Treiben Sie am Wochenende Sport?
+    vi: Chủ đề là 'Cuối tuần' và từ khóa là 'thể thao'. Bạn có chơi thể thao vào cuối tuần không?
+  - speaker: Kandidat B
+    de: Ja, ich fahre jeden Sonntag Fahrrad im Park.
+    vi: Có, chủ nhật nào tôi cũng đạp xe trong công viên.
+  - speaker: Prüfer
+    de: Vielen Dank. Jetzt zieht Kandidat B eine Karte und fragt Kandidat A.
+    vi: Cảm ơn hai bạn. Bây giờ thí sinh B bốc thẻ và hỏi thí sinh A.
+  - speaker: Kandidat B
+    de: 'Thema: ''Einkaufen''. Wort: ''Supermarkt''. Wann gehen Sie im Supermarkt einkaufen?'
+    vi: 'Chủ đề: ''Mua sắm''. Từ khóa: ''siêu thị''. Khi nào bạn đi mua sắm ở siêu thị?'
+  - speaker: Kandidat A
+    de: Ich kaufe meistens am Freitagnachmittag nach der Arbeit ein.
+    vi: Tôi thường mua sắm vào chiều thứ Sáu sau giờ làm việc.
+  audio_status: pending-tts
+  situation_vi: Hai thí sinh (Kandidat A và Kandidat B) thực hành đặt và trả lời câu hỏi theo thẻ từ khóa trước giám khảo.
+  skill: listening
+  audio:
+    speed: normal
+- id: a1.p2.l03.b6
+  kind: reading
+  title_vi: 'Đề luyện thi: Đọc phần 1 (Lesen Teil 1)'
+  paragraphs:
+  - de: 'Text 1:
+
+      Liebe Kolleginnen und Kollegen,
+
+      am nächsten Freitag, den 18. Oktober, feiern wir unser Firmenjubiläum!
+
+      Das Fest beginnt um 18:30 Uhr im Restaurant "Zum Goldenen Hirsch" in der Schillerstraße 12.
+
+      Wir haben ein großes Büfett für alle Mitarbeiter vorbereitet.
+
+      Bitte gebt mir bis Dienstag Bescheid, ob ihr kommt und ob ihr euren Partner mitbringt.
+
+      Herzliche Grüße
+
+      Sabine Klein
+
+
+      Text 2:
+
+      Lieber Herr Rossi,
+
+      vielen Dank für Ihre Tischreservierung.
+
+      Wir haben am Samstag, 26. Oktober, um 20 Uhr einen Tisch für 4 Personen reserviert.
+
+      Bitte beachten Sie: Unser Restaurant schließt um 23 Uhr.
+
+      Kartenzahlung ist bei uns leider nicht möglich, bitte zahlen Sie bar.
+
+      Mit freundlichen Grüßen
+
+      Restaurant Belvedere'
+    vi: 'Văn bản 1:
+
+      Các đồng nghiệp thân mến,
+
+      Vào thứ Sáu tới, ngày 18 tháng 10, chúng ta sẽ tổ chức lễ kỷ niệm thành lập công ty!
+
+      Bữa tiệc bắt đầu lúc 18:30 tại nhà hàng "Zum Goldenen Hirsch" ở số 12 đường Schillerstraße.
+
+      Chúng tôi đã chuẩn bị sẵn một bữa tiệc buffet lớn cho toàn thể nhân viên.
+
+      Xin vui lòng báo cho tôi trước thứ Ba xem các bạn có đến được không và có dẫn theo người nhà không nhé.
+
+      Thân ái
+
+      Sabine Klein
+
+
+      Văn bản 2:
+
+      Kính gửi ông Rossi,
+
+      Xin cảm ơn ông đã đặt bàn tại nhà hàng chúng tôi.
+
+      Chúng tôi đã giữ chỗ cho ông một bàn 4 người vào thứ Bảy, ngày 26 tháng 10, lúc 20 giờ.
+
+      Xin lưu ý: Nhà hàng chúng tôi đóng cửa lúc 23 giờ.
+
+      Rất tiếc chúng tôi không nhận thanh toán qua thẻ, xin vui lòng thanh toán bằng tiền mặt.
+
+      Trân trọng
+
+      Nhà hàng Belvedere'
+  text_type_vi: Hai văn bản ngắn hằng ngày (thư mời nội bộ và thư xác nhận đặt bàn)
+  skill: reading
+  glossary:
+  - de: das Firmenjubiläum
+    vi: lễ kỷ niệm thành lập công ty
+  - de: das Büfett
+    vi: tiệc đứng, buffet
+  - de: Bescheid geben
+    vi: báo tin, phản hồi
+  - de: die Tischreservierung
+    vi: việc đặt bàn trước
+- id: a1.p2.l03.b7
+  kind: speaking
+  title_vi: 'Luyện thi Nói phần 2: Đặt câu hỏi theo thẻ từ khóa'
+  skill: speaking
+  task_vi: 'Đặt câu hỏi và trả lời cho các cặp Thẻ - Chủ đề: 1) Thema Essen und Trinken / Wort Kaffee; 2) Thema Freizeit / Wort Wochenende; 3) Thema Familie / Wort Kinder.'
+  steps_vi:
+  - Quan sát chủ đề và từ khóa trên thẻ.
+  - 'Chọn dạng câu hỏi phù hợp: Ja/Nein-Frage hoặc W-Frage.'
+  - Trả lời ngắn gọn, đầy đủ chủ vị.
+  lines:
+  - speaker: Kandidat A
+    de: 'Thema Essen und Trinken. Wort: Kaffee. Trinken Sie gern Kaffee zum Frühstück?'
+    vi: 'Chủ đề Ăn uống. Từ: Cà phê. Bạn có thích uống cà phê vào bữa sáng không?'
+  - speaker: Kandidat B
+    de: Ja, ich trinke jeden Morgen eine Tasse Kaffee mit Milch.
+    vi: Có, mỗi sáng tôi uống một tách cà phê sữa.
+- id: a1.p2.l03.b8
+  kind: writing
+  title_vi: 'Luyện thi Viết phần 1: Điền thông tin vào biểu mẫu'
+  skill: writing
+  task_vi: Đọc thông tin về Maria Santos và điền 5 mục còn thiếu vào phiếu đăng ký lớp học nấu ăn.
+  model:
+    de: 'Thông tin bài đọc:
+
+      Ihre Freundin Maria Santos kommt aus Spanien und möchte einen Kochkurs in Berlin besuchen.
+
+      Sie möchte den Kurs am 15. November buchen. Sie kommt allein (1 Person) und bezahlt bar vor Ort.
+
+
+      Biểu mẫu đã điền:
+
+      1. Familienname: Santos
+
+      2. Vorname: Maria
+
+      3. Anzahl der Personen: 1
+
+      4. Kursdatum: 15. November
+
+      5. Zahlungsweise: bar'
+    vi: Thông tin đã điền chuẩn vào biểu mẫu 5 mục.
+  checklist_vi:
+  - Điền đúng họ và tên vào hai ô riêng biệt.
+  - Điền đúng số lượng người (1).
+  - Điền đúng ngày tháng và phương thức thanh toán (bar).

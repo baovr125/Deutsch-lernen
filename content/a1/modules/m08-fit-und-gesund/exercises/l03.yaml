@@ -1,0 +1,135 @@
+schema_version: "2.0"
+content_type: exercise-set
+id: a1.m08.l03.ex
+level: A1
+module: a1.m08
+lesson: a1.m08.l03
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  tags: ["koerper", "unfall"]
+exercises:
+  - id: a1.m08.l03.ex.01
+    type: matching
+    skill: vocabulary
+    difficulty: 1
+    objective_refs: [a1.m08.l03.obj1, a1.m08.obj.koerper]
+    instructions_vi: "Nối bộ phận cơ thể với nghĩa tiếng Việt."
+    items:
+      - { id: a1.m08.l03.ex.01.q1, left: "der Kopf", right: "cái đầu", explanation_vi: "der Kopf, số nhiều die Köpfe." }
+      - { id: a1.m08.l03.ex.01.q2, left: "der Arm", right: "cánh tay", explanation_vi: "der Arm, số nhiều die Arme." }
+      - { id: a1.m08.l03.ex.01.q3, left: "das Bein", right: "cái chân", explanation_vi: "das Bein; bàn chân là der Fuß." }
+      - { id: a1.m08.l03.ex.01.q4, left: "die Hand", right: "bàn tay", explanation_vi: "die Hand, số nhiều die Hände." }
+      - { id: a1.m08.l03.ex.01.q5, left: "der Rücken", right: "lưng", explanation_vi: "der Rücken (số nhiều không đổi)." }
+  - id: a1.m08.l03.ex.02
+    type: multiple-choice
+    skill: vocabulary
+    difficulty: 1
+    objective_refs: [a1.m08.l03.obj1, a1.m08.obj.koerper]
+    instructions_vi: "Chọn đáp án đúng."
+    items:
+      - id: a1.m08.l03.ex.02.q1
+        prompt: "Welchen Artikel hat „Auge“?"
+        options: [{ id: a, text: "der" }, { id: b, text: "die" }, { id: c, text: "das" }]
+        answer: [c]
+        explanation_vi: "Đúng là „das Auge“ (số nhiều die Augen)."
+      - id: a1.m08.l03.ex.02.q2
+        prompt: "Wie heißt der Plural von „der Fuß“?"
+        options: [{ id: a, text: "die Fuße" }, { id: b, text: "die Füße" }, { id: c, text: "die Füßen" }]
+        answer: [b]
+        explanation_vi: "Số nhiều: die Füße (có Umlaut)."
+      - id: a1.m08.l03.ex.02.q3
+        prompt: "Aua! Das ___ weh!"
+        options: [{ id: a, text: "tut" }, { id: b, text: "tun" }, { id: c, text: "tust" }]
+        answer: [a]
+        explanation_vi: "„Das“ là số ít nên dùng „tut“."
+      - id: a1.m08.l03.ex.02.q4
+        prompt: "Meine Füße ___ weh."
+        options: [{ id: a, text: "tut" }, { id: b, text: "tun" }, { id: c, text: "tue" }]
+        answer: [b]
+        explanation_vi: "Chủ ngữ „Füße“ là số nhiều nên dùng „tun“."
+  - id: a1.m08.l03.ex.03
+    type: fill-blank
+    skill: grammar
+    difficulty: 1
+    objective_refs: [a1.m08.l03.obj1, a1.m08.obj.koerper]
+    instructions_vi: "Điền „tut“ hoặc „tun“."
+    items:
+      - { id: a1.m08.l03.ex.03.q1, prompt: "Mein Kopf ___ weh.", answers: ["tut"], explanation_vi: "„Kopf“ số ít → tut." }
+      - { id: a1.m08.l03.ex.03.q2, prompt: "Meine Hände ___ weh.", answers: ["tun"], explanation_vi: "„Hände“ số nhiều → tun." }
+      - { id: a1.m08.l03.ex.03.q3, prompt: "Der Rücken ___ sehr weh.", answers: ["tut"], explanation_vi: "„Rücken“ số ít → tut." }
+      - { id: a1.m08.l03.ex.03.q4, prompt: "Meine Augen ___ weh.", answers: ["tun"], explanation_vi: "„Augen“ số nhiều → tun." }
+  - id: a1.m08.l03.ex.04
+    type: listening-practice
+    skill: listening
+    difficulty: 2
+    objective_refs: [a1.m08.l03.obj2, a1.m08.obj.koerper]
+    instructions_vi: "Nghe tin báo (hoặc đọc transcript) rồi chọn đáp án."
+    stimulus:
+      text_de: "Hier ist Frau Schmidt. Mein Mann hat einen Unfall. Sein Fuß tut sehr weh und sein Kopf auch. Bitte kommen Sie schnell zum Park in der Bahnhofstraße."
+      audio_status: pending-tts
+    items:
+      - id: a1.m08.l03.ex.04.q1
+        prompt: "Wer hat einen Unfall?"
+        options: [{ id: a, text: "Frau Schmidt." }, { id: b, text: "Ihr Mann." }, { id: c, text: "Ihr Kind." }]
+        answer: [b]
+        explanation_vi: "„Mein Mann hat einen Unfall.“ — chồng bà ấy."
+      - id: a1.m08.l03.ex.04.q2
+        prompt: "Was tut weh?"
+        options: [{ id: a, text: "Der Fuß und der Kopf." }, { id: b, text: "Der Arm." }, { id: c, text: "Der Bauch." }]
+        answer: [a]
+        explanation_vi: "„Sein Fuß tut sehr weh und sein Kopf auch.“"
+      - id: a1.m08.l03.ex.04.q3
+        prompt: "Wo ist der Unfall?"
+        options: [{ id: a, text: "Im Park." }, { id: b, text: "Im Krankenhaus." }, { id: c, text: "Im Büro." }]
+        answer: [a]
+        explanation_vi: "„zum Park in der Bahnhofstraße“ — ở công viên."
+  - id: a1.m08.l03.ex.05
+    type: word-order
+    skill: grammar
+    difficulty: 2
+    objective_refs: [a1.m08.l03.obj1]
+    instructions_vi: "Sắp xếp các từ thành câu đúng."
+    items:
+      - id: a1.m08.l03.ex.05.q1
+        tokens: ["weh.", "Kopf", "sehr", "Mein", "tut"]
+        answer: "Mein Kopf tut sehr weh."
+        translation_vi: "Đầu tôi đau lắm."
+        explanation_vi: "Động từ tách „wehtun“: „tut“ ở vị trí 2, „weh“ ở cuối câu."
+      - id: a1.m08.l03.ex.05.q2
+        tokens: ["weh.", "tun", "Füße", "Meine"]
+        answer: "Meine Füße tun weh."
+        translation_vi: "Chân (bàn chân) tôi đau."
+        explanation_vi: "Số nhiều → „tun“."
+      - id: a1.m08.l03.ex.05.q3
+        tokens: ["weh.", "auch", "tut", "Rücken", "Der"]
+        answer: "Der Rücken tut auch weh."
+        translation_vi: "Lưng cũng đau."
+        explanation_vi: "„auch“ đứng trước „weh“."
+  - id: a1.m08.l03.ex.06
+    type: speaking-practice
+    skill: speaking
+    difficulty: 2
+    objective_refs: [a1.m08.l03.obj1, a1.m08.obj.koerper]
+    instructions_vi: "Nhìn một người bị đau và nói ba câu: chỗ nào đau, đau nhiều hay ít."
+    items:
+      - id: a1.m08.l03.ex.06.q1
+        prompt_vi: "Nói bạn đau ở đâu."
+        model_answer: { de: "Aua! Mein Fuß tut weh. Mein Kopf tut auch ein bisschen weh. Meine Hände tun nicht weh.", vi: "Ối! Chân tôi đau. Đầu tôi cũng hơi đau. Tay tôi không đau." }
+        rubric_vi: ["Dùng „tut“ cho số ít và „tun“ cho số nhiều đúng.", "Gọi tên ít nhất hai bộ phận cơ thể.", "Có mạo từ sở hữu mein/meine đúng giống.", "Phát âm rõ „Aua“ và „weh“."]
+        explanation_vi: "Bài mẫu có đủ số ít và số nhiều (tut / tun)."
+  - id: a1.m08.l03.ex.07
+    type: translation
+    skill: writing
+    difficulty: 2
+    objective_refs: [a1.m08.l03.obj1]
+    instructions_vi: "Dịch sang tiếng Đức."
+    items:
+      - { id: a1.m08.l03.ex.07.q1, direction: vi-de, source: "Tay tôi đau.", answers: ["Meine Hand tut weh.", "Mein Arm tut weh.", "Meine Hände tun weh."], explanation_vi: "„Hand“ (bàn tay) giống cái: Meine Hand tut weh. „Arm“ là cánh tay." }
+      - { id: a1.m08.l03.ex.07.q2, direction: vi-de, source: "Có một vụ tai nạn.", answers: ["Es gibt einen Unfall.", "Hier gibt es einen Unfall."], explanation_vi: "„es gibt“ + Akkusativ: einen Unfall." }
+      - { id: a1.m08.l03.ex.07.q3, direction: vi-de, source: "Bụng tôi đau.", answers: ["Mein Bauch tut weh.", "Ich habe Schmerzen im Bauch."], explanation_vi: "Hai cách nói: „Mein Bauch tut weh“ hoặc „Schmerzen im Bauch“ (in + dem = im)." }

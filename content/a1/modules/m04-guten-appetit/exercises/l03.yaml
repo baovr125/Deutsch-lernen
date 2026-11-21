@@ -1,0 +1,187 @@
+schema_version: '2.0'
+content_type: exercise-set
+id: a1.m04.l03.ex
+level: A1
+module: a1.m04
+lesson: a1.m04.l03
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+exercises:
+- id: a1.m04.l03.ex.01
+  type: matching
+  skill: vocabulary
+  difficulty: 1
+  objective_refs:
+  - a1.m04.l03.obj1
+  instructions_vi: Nối thực phẩm với đơn vị đo lường thông dụng nhất.
+  items:
+  - id: a1.m04.l03.ex.01.q1
+    pairs:
+    - left: ein Liter
+      right: Milch
+    - left: ein Kilo
+      right: Äpfel
+    - left: eine Flasche
+      right: Wasser
+    - left: eine Packung
+      right: Reis
+    - left: ein Stück
+      right: Kuchen
+    - left: eine Dose
+      right: Cola
+    explanation_vi: Các đơn vị kết hợp chuẩn tự nhiên trong tiếng Đức.
+- id: a1.m04.l03.ex.02
+  type: multiple-choice
+  skill: grammar
+  difficulty: 1
+  objective_refs:
+  - a1.m04.l03.obj4
+  instructions_vi: Chọn dạng chia đúng của động từ nehmen.
+  items:
+  - id: a1.m04.l03.ex.02.q1
+    prompt: Was ___ du? – Ich nehme zwei Äpfel.
+    options:
+    - id: a
+      text: nimmst
+    - id: b
+      text: nehmen
+    - id: c
+      text: nimmt
+    - id: d
+      text: nehmt
+    answer:
+    - a
+    explanation_vi: Ngôi du chia là du nimmst (e → i, phụ âm mm).
+  - id: a1.m04.l03.ex.02.q2
+    prompt: Herr Weber ___ ein Stück Käsekuchen.
+    options:
+    - id: a
+      text: nehmt
+    - id: b
+      text: nimmt
+    - id: c
+      text: nimmst
+    - id: d
+      text: nehmen
+    answer:
+    - b
+    explanation_vi: Ngôi er (Herr Weber) chia là nimmt.
+- id: a1.m04.l03.ex.03
+  type: multiple-choice
+  skill: listening
+  difficulty: 2
+  objective_refs:
+  - a1.m04.l03.obj2
+  instructions_vi: Nghe hội thoại và chọn đáp án đúng.
+  stimulus:
+    ref: a1.m04.l03.b6
+  items:
+  - id: a1.m04.l03.ex.03.q1
+    prompt: Wie viel Käse kauft Frau Weber?
+    options:
+    - id: a
+      text: 500 Gramm Käse
+    - id: b
+      text: 300 Gramm Käse
+    - id: c
+      text: 200 Gramm Käse
+    - id: d
+      text: ein Kilo Käse
+    answer:
+    - b
+    explanation_vi: 'Frau Weber nói: ''Ich möchte ein Kilo Äpfel und 300 Gramm Käse''.'
+  - id: a1.m04.l03.ex.03.q2
+    prompt: Wie viel kostet der Einkauf von Frau Weber insgesamt?
+    options:
+    - id: a
+      text: 7,50 Euro
+    - id: b
+      text: 7,15 Euro
+    - id: c
+      text: 8,00 Euro
+    - id: d
+      text: 6,50 Euro
+    answer:
+    - a
+    explanation_vi: 'Người bán nói: ''Das macht genau sieben Euro fünfzig''.'
+- id: a1.m04.l03.ex.04
+  type: true-false
+  skill: listening
+  difficulty: 2
+  objective_refs:
+  - a1.m04.l03.obj3
+  instructions_vi: Nghe lại và xác định câu sau Đúng hay Sai.
+  stimulus:
+    ref: a1.m04.l03.b6
+  items:
+  - id: a1.m04.l03.ex.04.q1
+    prompt: Frau Weber kauft auch noch eine Packung Erdbeeren.
+    answer: true
+    explanation_vi: 'Đúng, bà ấy nói: ''ich nehme noch eine Packung Erdbeeren''.'
+  - id: a1.m04.l03.ex.04.q2
+    prompt: Frau Weber kauft zwei Kilo Äpfel.
+    answer: false
+    explanation_vi: Sai, bà ấy chỉ mua 1 ký táo ('ein Kilo Äpfel').
+- id: a1.m04.l03.ex.05
+  type: true-false
+  skill: reading
+  difficulty: 2
+  objective_refs:
+  - a1.m04.l03.obj2
+  instructions_vi: Đọc hóa đơn siêu thị và xác định câu sau là Đúng hay Sai.
+  stimulus:
+    ref: a1.m04.l03.b7
+  items:
+  - id: a1.m04.l03.ex.05.q1
+    prompt: Ein Liter Bio-Vollmilch kostet 1,19 Euro.
+    answer: true
+    explanation_vi: 'Trên hóa đơn ghi: ''1x Bio-Vollmilch 1L 1,19 EUR''.'
+  - id: a1.m04.l03.ex.05.q2
+    prompt: Herr Meyer bekommt 1,96 Euro Rückgeld.
+    answer: false
+    explanation_vi: Sai, tiền thối lại là 0,96 Euro (96 Cent).
+- id: a1.m04.l03.ex.06
+  type: fill-blank
+  skill: speaking
+  difficulty: 2
+  objective_refs:
+  - a1.m04.l03.obj3
+  instructions_vi: Điền từ thích hợp vào chỗ trống trong đoạn thoại mua hàng.
+  items:
+  - id: a1.m04.l03.ex.06.q1
+    prompt: 'Verkäufer: Sonst noch ___? – Kunde: Nein danke, das ist alles.'
+    answers:
+    - etwas
+    explanation_vi: 'Cụm câu hỏi chuẩn: ''Sonst noch etwas?'' (Còn gì nữa không ạ?).'
+  - id: a1.m04.l03.ex.06.q2
+    prompt: Wie ___ kostet ein Liter Milch? – Ein Euro zwanzig.
+    answers:
+    - viel
+    explanation_vi: '''Wie viel kostet...'' = giá bao nhiêu.'
+- id: a1.m04.l03.ex.07
+  type: word-order
+  skill: writing
+  difficulty: 2
+  objective_refs:
+  - a1.m04.l03.obj2
+  instructions_vi: Sắp xếp câu đọc giá tiền.
+  items:
+  - id: a1.m04.l03.ex.07.q1
+    tokens:
+    - fünfzig
+    - Das
+    - Euro
+    - drei
+    - kostet
+    answer: Das kostet drei Euro fünfzig.
+    prompt_vi: 'Sắp xếp câu: Das / drei / fünfzig / kostet / Euro .'
+    explanation_vi: Das (vị trí 1) + kostet (động từ vị trí 2) + drei Euro fünfzig (3,50 €).

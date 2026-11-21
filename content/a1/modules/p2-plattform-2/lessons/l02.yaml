@@ -1,0 +1,229 @@
+schema_version: '2.0'
+content_type: lesson
+id: a1.p2.l02
+level: A1
+module: a1.p2
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+  references:
+  - work: Netzwerk neu A1 (Klett)
+    scope: 'Plattform 2: Landeskunde: Essen und Feste in D-A-CH'
+    verification: verified
+  notes_vi: Tự biên soạn thông tin văn hóa đại chúng về ẩm thực và lễ hội truyền thống của Đức, Áo và Thụy Sĩ; không sao chép văn bản giáo trình.
+order: 2
+title_de: 'Landeskunde: Essen und Feste in D-A-CH'
+title_vi: 'Đất nước học: Ẩm thực và Lễ hội ở Đức, Áo, Thụy Sĩ'
+topic_vi: Món ăn đặc sản, văn hóa ẩm thực vùng miền và các lễ hội truyền thống ở các nước nói tiếng Đức
+duration_min: 60
+difficulty: 2
+cefr:
+- A1.L1
+- A1.L3
+- A1.SP1
+- A1.H4
+prerequisites:
+- a1.p2.l01
+objectives:
+- id: a1.p2.l02.obj1
+  text_vi: Biết các món ăn đặc sản tiêu biểu của Đức (Currywurst, Brezel, Weißwurst), Áo (Wiener Schnitzel, Sachertorte) và Thụy Sĩ (Käsefondue, Rösti).
+  skill: vocabulary
+- id: a1.p2.l02.obj2
+  text_vi: 'Hiểu thông tin về một số lễ hội truyền thống lớn ở D-A-CH: Oktoberfest (München), lễ hội hóa trang và các ngày lễ chính thức.'
+  skill: reading
+- id: a1.p2.l02.obj3
+  text_vi: 'Học và dùng 6 từ vựng mới: Spezialität, Tradition, traditionell, Festessen, Brauch, Feiertag.'
+  skill: vocabulary
+vocabulary_refs:
+- a1.p2.v.spezialitaet
+- a1.p2.v.tradition
+- a1.p2.v.traditionell
+- a1.p2.v.festessen
+- a1.p2.v.brauch
+- a1.p2.v.feiertag
+review_vocabulary_refs:
+- a1.m04.v.lebensmittel
+- a1.m04.v.brot
+- a1.m06.v.vorbeikommen
+- a1.m06.v.lokal
+grammar_refs: []
+expression_refs:
+- a1.p2.x.ist-eine-spezialitaet-aus
+- a1.p2.x.in-feiert-man-oft-das-ist-ein-alter-brau
+exercise_set_ref: a1.p2.l02.ex
+summary_vi: 'Trong bài học này, bạn đã tìm hiểu:
+
+  1. **Ẩm thực đặc sắc D-A-CH:** Weißwurst và Brezel (Đức), Wiener Schnitzel và Sachertorte (Áo), Käsefondue và Rösti (Thụy Sĩ).
+
+  2. **Văn hóa lễ hội:** Lễ hội bia Oktoberfest, phong tục ăn uống và bữa tiệc thịnh soạn (Festessen).
+
+  3. **Từ vựng văn hóa cốt lõi:** *Spezialität, Tradition, traditionell, Festessen, Brauch, Feiertag*.'
+self_check:
+- Tôi có thể kể tên ít nhất 2 món ăn đặc sản tiêu biểu của Đức, Áo và Thụy Sĩ.
+- Tôi hiểu và dùng đúng các từ Spezialität, Tradition, Brauch, Feiertag.
+- Tôi có thể giới thiệu một món ăn hoặc ngày lễ truyền thống của Việt Nam bằng 4–5 câu tiếng Đức.
+blocks:
+- id: a1.p2.l02.b1
+  kind: explanation
+  title_vi: Giới thiệu bài học
+  body_vi: 'Trong tiếng Đức, khi nói về ẩm thực và văn hóa, mỗi quốc gia trong khu vực **D-A-CH** đều có những nét đặc sắc riêng:
+
+    - **Deutschland (Đức):** Nổi tiếng với bánh mì xúc xích cà ri (*Currywurst*), xúc xích trắng vùng Bayern (*Weißwurst*), bánh mì xoắn (*Brezel*), và lễ hội bia lớn nhất thế giới *Oktoberfest* ở München.
+
+    - **Österreich (Áo):** Nổi tiếng với món thịt bê chiên giòn kiểu Vienna (*Wiener Schnitzel*), bánh kem sô-cô-la hảo hạng (*Sachertorte*), và văn hóa quán cà phê lâu đời tại thủ đô Wien.
+
+    - **die Schweiz (Thụy Sĩ):** Được mệnh danh là xứ sở phô mai với món lẩu phô mai trứ danh (*Käsefondue*), bánh khoai tây bào chiên (*Rösti*), và sô-cô-la Thụy Sĩ tuyệt đỉnh.
+
+
+    Bài học này sẽ đưa bạn đi một vòng khám phá những nét ẩm thực và lễ hội truyền thống thú vị nhất của 3 quốc gia này!'
+- id: a1.p2.l02.b2
+  kind: explanation
+  title_vi: Từ vựng về văn hóa và lễ hội
+  skill: grammar
+  body_vi: '- **die Spezialität (Plural: die Spezialitäten):** Món ăn đặc sản địa phương.
+
+    - **die Tradition (Plural: die Traditionen):** Truyền thống văn hóa lâu đời.
+
+    - **traditionell (Tính từ):** Thuộc về truyền thống (*ein traditionelles Gericht* = một món ăn truyền thống).
+
+    - **das Festessen:** Bữa tiệc thịnh soạn (das Fest + das Essen).
+
+    - **der Brauch (Plural: die Bräuche):** Phong tục, tập quán.
+
+    - **der Feiertag (Plural: die Feiertage):** Ngày nghỉ lễ chính thức (feiern + der Tag).
+
+    '
+  examples:
+  - de: Das Käsefondue ist eine bekannte Spezialität aus der Schweiz.
+    vi: Lẩu phô mai là một món đặc sản nổi tiếng đến từ Thụy Sĩ.
+  - de: Am 25. Dezember gibt es in Deutschland ein traditionelles Festessen.
+    vi: Vào ngày 25 tháng 12 tại Đức có một bữa tiệc lễ truyền thống.
+- id: a1.p2.l02.b3
+  kind: pronunciation
+  title_vi: Phát âm đuôi từ -tät trong die Spezialität và -tion trong die Tradition
+  skill: pronunciation
+  body_vi: 'Phát âm đuôi từ -tät trong die Spezialität và -tion trong die Tradition
+
+
+    Đuôi -tät phát âm là [ˈtɛːt] với trọng âm rơi vào âm tiết cuối; đuôi -tion phát âm là [ˈtsi̯oːn] với trọng âm cũng rơi vào âm tiết cuối.
+
+
+    Luyện tập: Luyện phát âm nhấn trọng âm vào âm cuối: Spe-zia-li-TÄT, Tra-di-TION.'
+  items:
+  - de: die Spezialität
+    vi: món đặc sản
+    ipa: '[ʃpetsi̯aliˈtɛːt]'
+  - de: die Tradition
+    vi: truyền thống
+    ipa: '[tʁadiˈtsi̯oːn]'
+- id: a1.p2.l02.b4
+  kind: examples
+  title_vi: Câu ví dụ
+  examples:
+  - de: Probieren Sie diese bayerische Spezialität!
+    vi: Hãy thử món đặc sản vùng Bayern này!
+  - de: Das Oktoberfest in München hat eine sehr lange Tradition.
+    vi: Lễ hội bia Oktoberfest ở München có truyền thống rất lâu đời.
+  - de: Der erste Mai ist in ganz Deutschland ein Feiertag.
+    vi: Ngày mùng một tháng Năm là ngày nghỉ lễ trên toàn nước Đức.
+- id: a1.p2.l02.b5
+  kind: listening
+  title_vi: Thưởng thức lẩu phô mai ở Thụy Sĩ
+  lines:
+  - speaker: Reiseleiter
+    de: 'Guten Abend zusammen! Heute Abend probieren wir eine echte Schweizer Spezialität: das Käsefondue.'
+    vi: 'Chào buổi tối quý khách! Tối nay chúng ta sẽ thưởng thức một món đặc sản Thụy Sĩ chính hiệu: lẩu phô mai.'
+  - speaker: Tourist
+    de: Wie isst man das Fondue genau?
+    vi: Món lẩu phô mai này ăn chính xác như thế nào ạ?
+  - speaker: Reiseleiter
+    de: 'Ganz einfach: Man nimmt ein Stück Brot auf eine lange Gabel und taucht es in den heißen Käse. Das ist eine alte Tradition und schmeckt herrlich!'
+    vi: 'Rất đơn giản: Quý khách cắm một mẩu bánh mì vào dĩa dài và nhúng vào phô mai nóng. Đó là một truyền thống lâu đời và ăn rất tuyệt vời!'
+  - speaker: Tourist
+    de: Toll, ich freue mich schon darauf! Guten Appetit!
+    vi: Tuyệt quá, tôi rất mong đợi! Chúc mọi người ngon miệng!
+  audio_status: pending-tts
+  situation_vi: Hướng dẫn viên du lịch giới thiệu với một du khách về món lẩu phô mai Käsefondue.
+  skill: listening
+  audio:
+    speed: normal
+- id: a1.p2.l02.b6
+  kind: reading
+  title_vi: Hành trình ẩm thực qua D-A-CH
+  paragraphs:
+  - de: 'In den deutschsprachigen Ländern gibt es viele leckere Spezialitäten und spannende Bräuche:
+
+      1. Deutschland: In München essen die Menschen gern Weißwurst mit süßem Senf und einer Brezel. Nach alter Tradition isst man die Weißwurst nur vor 12 Uhr mittags! Ein sehr berühmtes Fest ist das Oktoberfest mit Millionen Gästen aus aller Welt.
+
+      2. Österreich: Wien ist berühmt für Kaffeehäuser und zwei weltbekannte Gerichte: das Wiener Schnitzel (knuspriges Fleisch mit Kartoffelsalat) và die Sachertorte (ein Schokoladenkuchen mit Marillenmarmelade).
+
+      3. Die Schweiz: Wenn es im Winter kalt ist, essen Familien und Freunde gern Käsefondue oder Rösti. Das gemeinsame Essen ist ein gemütlicher Brauch und ein Fest für alle Käseliebhaber.
+
+      An Feiertagen wie Weihnachten kochen viele Menschen ein großes Festessen für die ganze Familie.'
+    vi: 'Tại các quốc gia nói tiếng Đức có rất nhiều món ăn đặc sản thơm ngon và phong tục thú vị:
+
+      1. Nước Đức: Ở München người ta thích ăn xúc xích trắng Weißwurst với mù tạt ngọt và bánh mì xoắn Brezel. Theo truyền thống xưa, người ta chỉ ăn xúc xích trắng trước 12 giờ trưa! Một lễ hội vô cùng nổi tiếng là Oktoberfest với hàng triệu du khách khắp thế giới.
+
+      2. Nước Áo: Viên nổi tiếng với những quán cà phê và hai món ăn lừng danh thế giới: Wiener Schnitzel (thịt chiên giòn ăn kèm salad khoai tây) và bánh Sachertorte (bánh sô-cô-la kẹp mứt quả mơ).
+
+      3. Thụy Sĩ: Khi mùa đông lạnh giá, gia đình và bạn bè thích ăn lẩu phô mai hoặc món khoai tây chiên Rösti. Cùng nhau ăn uống là một phong tục ấm cúng và là ngày hội của những tín đồ phô mai.
+
+      Vào những ngày nghỉ lễ như Giáng sinh, nhiều người nấu một bữa tiệc thịnh soạn cho cả gia đình.'
+  text_type_vi: Bài viết giới thiệu ẩm thực và lễ hội
+  skill: reading
+  glossary:
+  - de: knusprig
+    vi: giòn tan
+  - de: die Marillenmarmelade
+    vi: mứt quả mơ
+  - de: gemütlich
+    vi: ấm cúng
+- id: a1.p2.l02.b7
+  kind: speaking
+  title_vi: Giới thiệu món ăn đặc sản Việt Nam
+  skill: speaking
+  task_vi: Nói 4–5 câu bằng tiếng Đức giới thiệu một món ăn hoặc ngày lễ truyền thống của Việt Nam (ví dụ Phở hoặc Tết).
+  steps_vi:
+  - Nêu tên món ăn/ngày lễ (In Vietnam gibt es...).
+  - Mô tả nguyên liệu hoặc cách ăn (Das ist... mit Rindfleisch).
+  - Nói về truyền thống (Das hat eine lange Tradition).
+  lines:
+  - speaker: Lan
+    de: 'In Vietnam gibt es eine bekannte Spezialität: Pho Bo. Das ist eine Nudelsuppe mit Rindfleisch. Das Gericht hat eine lange Tradition und schmeckt herrlich. Zu Festen kochen wir oft ein großes Festessen.'
+    vi: 'Ở Việt Nam có một món đặc sản nổi tiếng: Phở bò. Đó là món súp mì với thịt bò. Món ăn này có truyền thống lâu đời và vị rất tuyệt. Vào các ngày lễ chúng tôi thường nấu bữa tiệc thịnh soạn.'
+- id: a1.p2.l02.b8
+  kind: writing
+  title_vi: Viết đoạn văn ngắn giới thiệu món ăn Việt Nam
+  skill: writing
+  task_vi: Viết đoạn văn ngắn (35–45 từ) giới thiệu món ăn đặc sản Việt Nam cho một người bạn Đức.
+  model:
+    de: 'Hallo Lukas,
+
+      ich möchte dir eine Spezialität aus Vietnam vorstellen: Pho Bo! Das ist eine traditionelle Suppe mit Rindfleisch und frischen Kräutern.
+
+      Wir essen Pho oft zum Frühstück. Das Gericht hat eine lange Tradition und schmeckt wunderbar!
+
+      Viele Grüße
+
+      Minh'
+    vi: 'Chào Lukas,
+
+      Tớ muốn giới thiệu với cậu một món đặc sản từ Việt Nam: Phở bò! Đó là món súp truyền thống với thịt bò và rau thơm tươi.
+
+      Chúng tớ thường ăn phở vào bữa sáng. Món ăn này có truyền thống lâu đời và vị tuyệt ngon!
+
+      Thân ái
+
+      Minh'
+  checklist_vi:
+  - Có từ Spezialität và Tradition hoặc traditionell.
+  - Mô tả ngắn gọn nguyên liệu.
+  - Viết đúng chính tả danh từ viết hoa.

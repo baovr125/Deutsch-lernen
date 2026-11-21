@@ -1,0 +1,70 @@
+schema_version: "2.0"
+content_type: lesson
+id: a1.m11.l04
+level: A1
+module: a1.m11
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  references:
+    - { work: "Netzwerk neu A1.2 – Stoffverteilungsplan (Klett)", scope: "Kapitel 11, Mục Im Kaufhaus; Landeskunde Berlin, Berlin; Verben ohne/mit Präfix (Partizip II); Aussprache: Betonung von Verben mit Präfix", verification: verified }
+  tags: ["praefix", "partizip", "berlin"]
+order: 4
+title_de: "Im Kaufhaus – Berlin, Berlin"
+title_vi: "Ở trung tâm bách hóa – Berlin"
+duration_min: 50
+difficulty: 2
+objectives:
+  - { id: a1.m11.l04.obj1, text_vi: "Bạn có thể lập Partizip II đúng cho động từ có tiền tố tách và không tách.", skill: grammar }
+  - { id: a1.m11.l04.obj2, text_vi: "Bạn có thể đặt trọng âm đúng cho động từ có tiền tố (beSUchen, EINkaufen).", skill: pronunciation }
+vocabulary_refs: [a1.m11.v.umkleidekabine, a1.m11.v.tasche, a1.m11.v.museum, a1.m11.v.anprobieren, a1.m11.v.bezahlen, a1.m11.v.bekommen, a1.m11.v.verkaufen, a1.m11.v.besuchen, a1.m11.v.verstehen, a1.m11.v.umtauschen]
+grammar_refs: [a1.g.partizip2-praefix]
+expression_refs: [a1.m11.x.anprobieren, a1.m11.x.bezahlen, a1.m11.x.umtausch]
+exercise_set_ref: a1.m11.l04.ex
+blocks:
+  - id: a1.m11.l04.b1
+    kind: explanation
+    skill: grammar
+    title_vi: "Bắt đầu: hai loại tiền tố"
+    body_vi: |
+      **Tiền tố không tách** (be-, ver-, ge-, er-, ent-): *besuchen → **be**sucht, verstehen → verstanden* — **không có ge-**.
+      **Tiền tố tách** (an-, um-, ein-, auf-): *umtauschen → um**ge**tauscht, einkaufen → ein**ge**kauft* — ge chèn giữa.
+      **-ieren** luôn không có ge-: *anprobieren → anprobiert*.
+  - id: a1.m11.l04.b2
+    kind: dialogue
+    skill: speaking
+    title_vi: "Hội thoại: Hôm qua ở trung tâm bách hóa"
+    lines:
+      - { speaker: "Eva", de: "Hast du gestern im Kaufhaus eingekauft?", vi: "Hôm qua bạn có đi mua sắm ở trung tâm bách hóa không?" }
+      - { speaker: "Noah", de: "Ja. Ich habe eine Hose anprobiert und bezahlt.", vi: "Có. Mình đã thử một cái quần và thanh toán." }
+      - { speaker: "Eva", de: "Und passt sie dir?", vi: "Và nó có vừa với bạn không?" }
+      - { speaker: "Noah", de: "Leider nicht. Ich habe sie heute umgetauscht.", vi: "Tiếc là không. Hôm nay mình đã đổi nó." }
+      - { speaker: "Eva", de: "Hast du die Größe bekommen?", vi: "Bạn đã nhận được đúng cỡ chưa?" }
+      - { speaker: "Noah", de: "Ja, jetzt passt sie mir gut.", vi: "Có, bây giờ nó vừa với mình." }
+  - id: a1.m11.l04.b3
+    kind: reading
+    skill: reading
+    title_vi: "Landeskunde: Berlin, Berlin"
+    paragraphs:
+      - { de: "Berlin ist die Hauptstadt von Deutschland und eine große Stadt mit vielen Geschäften.", vi: "Berlin là thủ đô của nước Đức và là một thành phố lớn với nhiều cửa hàng." }
+      - { de: "Touristen besuchen das Museum und kaufen Geschenke.", vi: "Khách du lịch tham quan bảo tàng và mua quà." }
+      - { de: "Im Kaufhaus verkauft man Kleidung, Schuhe und Taschen.", vi: "Ở trung tâm bách hóa người ta bán quần áo, giày và túi xách." }
+  - id: a1.m11.l04.b4
+    kind: pronunciation
+    skill: pronunciation
+    title_vi: "Phát âm: trọng âm của động từ có tiền tố"
+    body_vi: |
+      • **Tiền tố không tách** (be-, ver-, ge-, er-) **không có trọng âm**: *beSUchen, verSTEhen, beZAHlen.*
+      • **Tiền tố tách** (an-, um-, ein-) **có trọng âm**: *ANprobieren, UMtauschen, EINkaufen.*
+      Nghe và gõ nhịp theo âm tiết nhấn.
+    items:
+      - { de: "besuchen", ipa: "/bəˈzuːxn̩/", note_vi: "be- không nhấn; nhấn -su-" }
+      - { de: "bezahlen", ipa: "/bəˈʦaːlən/", note_vi: "be- không nhấn; nhấn -zah-" }
+      - { de: "verstehen", ipa: "/fɛɐ̯ˈʃteːən/", note_vi: "ver- không nhấn; nhấn -steh-" }
+      - { de: "umtauschen", ipa: "/ˈʊmˌtaʊʃn̩/", note_vi: "um- nhấn (tiền tố tách)" }
+      - { de: "anprobieren", ipa: "/ˈanpʁoˌbiːʁən/", note_vi: "an- nhấn (tiền tố tách)" }

@@ -1,0 +1,147 @@
+schema_version: "2.0"
+content_type: exercise-set
+id: a1.m08.l04.ex
+level: A1
+module: a1.m08
+lesson: a1.m08.l04
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  tags: ["arzt", "sollen"]
+exercises:
+  - id: a1.m08.l04.ex.01
+    type: fill-blank
+    skill: grammar
+    difficulty: 2
+    objective_refs: [a1.m08.l04.obj2, a1.g.sollen.obj1, a1.m08.obj.arzt]
+    instructions_vi: "Điền dạng đúng của „sollen“."
+    items:
+      - { id: a1.m08.l04.ex.01.q1, prompt: "Ich ___ viel Tee trinken.", answers: ["soll"], explanation_vi: "ich soll (không có đuôi)." }
+      - { id: a1.m08.l04.ex.01.q2, prompt: "Du ___ im Bett bleiben.", answers: ["sollst"], explanation_vi: "du sollst." }
+      - { id: a1.m08.l04.ex.01.q3, prompt: "Wir ___ morgen wiederkommen.", answers: ["sollen"], explanation_vi: "wir sollen." }
+      - { id: a1.m08.l04.ex.01.q4, prompt: "Er ___ nicht joggen.", answers: ["soll"], explanation_vi: "er soll (giống ich)." }
+  - id: a1.m08.l04.ex.02
+    type: multiple-choice
+    skill: vocabulary
+    difficulty: 1
+    objective_refs: [a1.m08.l04.obj1, a1.m08.obj.arzt]
+    instructions_vi: "Chọn đáp án đúng."
+    items:
+      - id: a1.m08.l04.ex.02.q1
+        prompt: "Was bedeutet „Gute Besserung!“?"
+        options: [{ id: a, text: "Chúc mau khỏe!" }, { id: b, text: "Chúc ngủ ngon!" }, { id: c, text: "Chào buổi sáng!" }]
+        answer: [a]
+        explanation_vi: "Nói với người đang ốm hoặc bị thương."
+      - id: a1.m08.l04.ex.02.q2
+        prompt: "Der Arzt sagt, ich ___ viel schlafen."
+        options: [{ id: a, text: "soll" }, { id: b, text: "sollst" }, { id: c, text: "sollen" }]
+        answer: [a]
+        explanation_vi: "ich soll."
+      - id: a1.m08.l04.ex.02.q3
+        prompt: "Wo bekommt man Medikamente?"
+        options: [{ id: a, text: "Bei der Bank." }, { id: b, text: "In der Apotheke." }, { id: c, text: "Im Supermarkt." }]
+        answer: [b]
+        explanation_vi: "Thuốc mua ở hiệu thuốc (die Apotheke)."
+      - id: a1.m08.l04.ex.02.q4
+        prompt: "Welchen Artikel hat „Rezept“?"
+        options: [{ id: a, text: "der" }, { id: b, text: "die" }, { id: c, text: "das" }]
+        answer: [c]
+        explanation_vi: "Đúng là „das Rezept“ (số nhiều die Rezepte)."
+  - id: a1.m08.l04.ex.03
+    type: reading-comprehension
+    skill: reading
+    difficulty: 2
+    objective_refs: [a1.m08.l04.obj1, a1.m08.obj.arzt]
+    instructions_vi: "Đọc thông tin của phòng khám và trả lời."
+    stimulus:
+      text_de: "Praxis Dr. Berger. Wir sind von Montag bis Freitag von acht bis zwölf Uhr für Sie da. Bitte rufen Sie vorher an und machen Sie einen Termin. Bringen Sie Ihre Gesundheitskarte mit."
+      text_vi: "Phòng khám bác sĩ Berger. Chúng tôi phục vụ từ thứ Hai đến thứ Sáu, từ tám đến mười hai giờ. Xin gọi điện trước và đặt lịch hẹn. Hãy mang theo thẻ bảo hiểm y tế."
+    items:
+      - id: a1.m08.l04.ex.03.q1
+        prompt: "Wann ist die Praxis geöffnet?"
+        options: [{ id: a, text: "Am Wochenende." }, { id: b, text: "Montag bis Freitag am Vormittag." }, { id: c, text: "Nur am Montag." }]
+        answer: [b]
+        explanation_vi: "„von Montag bis Freitag von acht bis zwölf Uhr“."
+      - id: a1.m08.l04.ex.03.q2
+        prompt: "Was muss man vorher machen?"
+        options: [{ id: a, text: "Eine Tablette nehmen." }, { id: b, text: "Einen Termin machen." }, { id: c, text: "Ein Rezept kaufen." }]
+        answer: [b]
+        explanation_vi: "„rufen Sie vorher an und machen Sie einen Termin“."
+      - id: a1.m08.l04.ex.03.q3
+        prompt: "Was muss man mitbringen?"
+        options: [{ id: a, text: "Die Gesundheitskarte." }, { id: b, text: "Sportschuhe." }, { id: c, text: "Ein Handtuch." }]
+        answer: [a]
+        explanation_vi: "„Bringen Sie Ihre Gesundheitskarte mit.“"
+  - id: a1.m08.l04.ex.04
+    type: word-order
+    skill: grammar
+    difficulty: 2
+    objective_refs: [a1.m08.l04.obj2, a1.g.sollen.obj1]
+    instructions_vi: "Sắp xếp các từ thành câu đúng."
+    items:
+      - id: a1.m08.l04.ex.04.q1
+        tokens: ["soll", "Arzt", "trinken.", "ich", "viel", "Der", "sagt,"]
+        answer: "Der Arzt sagt, ich soll viel trinken."
+        translation_vi: "Bác sĩ bảo tôi nên uống nhiều."
+        explanation_vi: "Sau dấu phẩy là câu có trật tự thường: ich soll … trinken (động từ chính ở cuối)."
+      - id: a1.m08.l04.ex.04.q2
+        tokens: ["bleiben.", "im", "sollst", "Bett", "Du"]
+        answer: "Du sollst im Bett bleiben."
+        translation_vi: "Bạn nên nằm nghỉ."
+        explanation_vi: "du sollst ở vị trí 2; „bleiben“ ở cuối."
+      - id: a1.m08.l04.ex.04.q3
+        tokens: ["nehmen.", "soll", "Sie", "Tablette", "eine"]
+        answer: "Sie soll eine Tablette nehmen."
+        translation_vi: "Cô ấy nên uống một viên thuốc."
+        explanation_vi: "sie soll + tân ngữ + nehmen."
+  - id: a1.m08.l04.ex.05
+    type: writing-practice
+    skill: writing
+    difficulty: 3
+    objective_refs: [a1.m08.l04.obj1, a1.m08.l04.obj2, a1.m08.obj.arzt]
+    instructions_vi: "Viết tin nhắn ngắn (3–4 câu) cho sếp: bạn bị ốm, bác sĩ dặn bạn nên ở nhà ba ngày."
+    items:
+      - id: a1.m08.l04.ex.05.q1
+        prompt_vi: "Viết tin nhắn trang trọng với lời chào, tình trạng, lời dặn của bác sĩ và lời kết."
+        model_answer: { de: "Sehr geehrter Herr Braun, ich bin krank und habe Fieber. Der Arzt sagt, ich soll drei Tage zu Hause bleiben. Mit freundlichen Grüßen, Mia Keller", vi: "Kính gửi ông Braun, tôi bị ốm và bị sốt. Bác sĩ bảo tôi nên ở nhà ba ngày. Trân trọng, Mia Keller" }
+        rubric_vi: ["Có lời chào và lời kết trang trọng đúng.", "Nêu tình trạng (krank/Fieber/Husten).", "Dùng „Der Arzt sagt, ich soll …“ đúng.", "Động từ chính ở cuối câu có modalverb."]
+        explanation_vi: "Bài mẫu có đủ chào, tình trạng, lời dặn, kết; câu có „soll“ dùng động từ chính nguyên mẫu ở cuối."
+  - id: a1.m08.l04.ex.06
+    type: speaking-practice
+    skill: speaking
+    difficulty: 2
+    objective_refs: [a1.m08.l04.obj1, a1.m08.obj.arzt]
+    instructions_vi: "Đóng vai bệnh nhân ở phòng khám: nói bạn bị gì, bác sĩ dặn gì."
+    items:
+      - id: a1.m08.l04.ex.06.q1
+        prompt_vi: "Trả lời câu hỏi „Was fehlt Ihnen?“ và nói lại lời dặn."
+        model_answer: { de: "Ich habe Husten und Fieber. Die Ärztin sagt, ich soll Tee trinken und eine Tablette nehmen.", vi: "Tôi bị ho và sốt. Bác sĩ nữ bảo tôi nên uống trà và uống một viên thuốc." }
+        rubric_vi: ["Nêu triệu chứng bằng „Ich habe …“.", "Dùng „sollen“ thuật lại lời dặn.", "Nói trôi chảy 2–3 câu.", "Phát âm rõ „Husten“, „Fieber“, „Tablette“."]
+        explanation_vi: "Bài mẫu gồm triệu chứng và lời dặn, dùng „soll“ đúng ngôi."
+  - id: a1.m08.l04.ex.07
+    type: multiple-choice
+    skill: pronunciation
+    difficulty: 2
+    objective_refs: [a1.m08.l04.obj3]
+    instructions_vi: "Chọn đáp án đúng về phát âm."
+    items:
+      - id: a1.m08.l04.ex.07.q1
+        prompt: "Wie spricht man das „d“ am Ende von „gesund“?"
+        options: [{ id: a, text: "/d/" }, { id: b, text: "/t/" }, { id: c, text: "/g/" }]
+        answer: [b]
+        explanation_vi: "b/d/g ở cuối từ đọc thành /p/, /t/, /k/: gesund = /ɡəˈzʊnt/."
+      - id: a1.m08.l04.ex.07.q2
+        prompt: "In welchem Wort beginnt man mit einem aspirierten /k/?"
+        options: [{ id: a, text: "Kopf" }, { id: b, text: "Gesundheit" }, { id: c, text: "Bein" }]
+        answer: [a]
+        explanation_vi: "„Kopf“ bắt đầu bằng /k/ bật hơi; „Gesundheit“ bằng /ɡ/ hữu thanh."
+      - id: a1.m08.l04.ex.07.q3
+        prompt: "Wie spricht man „Tag“ (Singular)?"
+        options: [{ id: a, text: "/taːg/" }, { id: b, text: "/taːx/" }, { id: c, text: "/taːk/" }]
+        answer: [c]
+        explanation_vi: "g cuối từ đọc /k/: Tag = /taːk/."

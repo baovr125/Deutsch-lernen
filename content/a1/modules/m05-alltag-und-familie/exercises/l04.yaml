@@ -1,0 +1,237 @@
+schema_version: '2.0'
+content_type: exercise-set
+id: a1.m05.l04.ex
+level: A1
+module: a1.m05
+lesson: a1.m05.l04
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+exercises:
+- id: a1.m05.l04.ex.01
+  type: matching
+  skill: vocabulary
+  difficulty: 1
+  objective_refs:
+  - a1.m05.l04.obj1
+  - a1.m05.l04.obj3
+  instructions_vi: Nối mỗi từ vựng tiếng Đức ở cột trái với ý nghĩa hoặc ngữ cảnh đúng ở cột phải.
+  items:
+  - id: a1.m05.l04.ex.01.q1
+    pairs:
+    - left: der Feierabend
+      right: Thời gian nghỉ ngơi sau khi hết giờ làm việc
+    - left: der Kalender
+      right: Sổ hoặc ứng dụng ghi chép các cuộc hẹn
+    - left: die Hausaufgabe
+      right: Bài tập giáo viên giao cho học sinh làm ở nhà
+    - left: der Kindergarten
+      right: Trường mầm non dành cho trẻ nhỏ
+    - left: die Kalenderwoche
+      right: Tuần theo lịch (viết tắt là KW)
+    - left: putzen
+      right: Lau dọn, làm sạch nhà cửa
+    explanation_vi: Các từ vựng cốt lõi về thời gian biểu và sinh hoạt gia đình.
+- id: a1.m05.l04.ex.02
+  type: multiple-choice
+  skill: vocabulary
+  difficulty: 1
+  objective_refs:
+  - a1.m05.l04.obj1
+  - a1.m05.l04.obj2
+  instructions_vi: Chọn từ đúng nhất để hoàn chỉnh câu.
+  items:
+  - id: a1.m05.l04.ex.02.q1
+    prompt: Mein Mann bringt unsere Tochter morgens zur Schule und ich ___ sie am Nachmittag ab.
+    options:
+    - id: a
+      text: hole
+    - id: b
+      text: mache
+    - id: c
+      text: bringe
+    - id: d
+      text: putze
+    answer:
+    - a
+    explanation_vi: 'Cụm động từ tách ''abholen'' (đón về) đi với tiền tố ''ab'' ở cuối câu: ''ich hole sie ... ab''.'
+  - id: a1.m05.l04.ex.02.q2
+    prompt: Ich kann am Freitag leider nicht, mein Kalender ist ganz ___.
+    options:
+    - id: a
+      text: ledig
+    - id: b
+      text: fertig
+    - id: c
+      text: voll
+    - id: d
+      text: schön
+    answer:
+    - c
+    explanation_vi: '''voll'' có nghĩa là kín lịch, bận rộn: ''Mein Kalender ist ganz voll''.'
+  - id: a1.m05.l04.ex.02.q3
+    prompt: Schönen ___! Sehen wir uns morgen wieder im Büro?
+    options:
+    - id: a
+      text: Feierabend
+    - id: b
+      text: Arbeitstag
+    - id: c
+      text: Kindergarten
+    - id: d
+      text: Sport
+    answer:
+    - a
+    explanation_vi: Lời chúc quen thuộc khi chào đồng nghiệp ra về vào cuối ngày là 'Schönen Feierabend!'.
+  - id: a1.m05.l04.ex.02.q4
+    prompt: Die Kinder gehen um acht Uhr in die ___.
+    options:
+    - id: a
+      text: Hausaufgabe
+    - id: b
+      text: Schule
+    - id: c
+      text: Woche
+    - id: d
+      text: Monat
+    answer:
+    - b
+    explanation_vi: '''in die Schule gehen'' = đi học ở trường học.'
+- id: a1.m05.l04.ex.03
+  type: multiple-choice
+  skill: listening
+  difficulty: 2
+  objective_refs:
+  - a1.m05.l04.obj1
+  - a1.m05.l04.obj2
+  instructions_vi: Nghe đoạn thoại giữa Thomas và Julia rồi chọn câu trả lời đúng.
+  stimulus:
+    ref: a1.m05.l04.b6
+  items:
+  - id: a1.m05.l04.ex.03.q1
+    prompt: Wer bringt Leo morgens in den Kindergarten?
+    options:
+    - id: a
+      text: Sophie
+    - id: b
+      text: Julia
+    - id: c
+      text: die Oma
+    - id: d
+      text: Thomas
+    answer:
+    - d
+    explanation_vi: 'Thomas nói: ''Dann bringe ich Leo morgens um acht Uhr in den Kindergarten''.'
+  - id: a1.m05.l04.ex.03.q2
+    prompt: Wann hat Thomas Feierabend?
+    options:
+    - id: a
+      text: um 8:00 Uhr
+    - id: b
+      text: um 18:00 Uhr
+    - id: c
+      text: um 17:00 Uhr
+    - id: d
+      text: um 16:00 Uhr
+    answer:
+    - c
+    explanation_vi: 'Thomas nói: ''Um siebzehn Uhr habe ich Feierabend''.'
+- id: a1.m05.l04.ex.04
+  type: fill-blank
+  skill: listening
+  difficulty: 2
+  objective_refs:
+  - a1.m05.l04.obj2
+  instructions_vi: Nghe và điền từ thích hợp vào chỗ trống trong đoạn tóm tắt.
+  stimulus:
+    ref: a1.m05.l04.b6
+  items:
+  - id: a1.m05.l04.ex.04.q1
+    prompt: Julia hat von neun bis sechzehn Uhr ___ im Büro. Thomas holt Leo um siebzehn Uhr fünfzehn ___. Zu Hause putzt Julia die ___.
+    answers:
+    - Termine
+    - ab
+    - Küche
+    explanation_vi: 1. Termine (các cuộc hẹn). 2. ab (tiền tố của abholen). 3. Küche (nhà bếp).
+- id: a1.m05.l04.ex.05
+  type: true-false
+  skill: reading
+  difficulty: 2
+  objective_refs:
+  - a1.m05.l04.obj4
+  instructions_vi: Đọc bài viết về gia đình Hoffmann và xác định các câu sau là Đúng (true) hay Sai (false).
+  stimulus:
+    ref: a1.m05.l04.b7
+  items:
+  - id: a1.m05.l04.ex.05.q1
+    prompt: Florian bringt Leo morgens in den Kindergarten.
+    answer: true
+    explanation_vi: Đúng. 'Vorher bringt er Leo in den Kindergarten'.
+  - id: a1.m05.l04.ex.05.q2
+    prompt: Sandra arbeitet den ganzen Tag bis 18:00 Uhr.
+    answer: false
+    explanation_vi: Sai. Sandra chỉ làm việc đến 13:00 ('Sandra arbeitet bis 13:00 Uhr').
+  - id: a1.m05.l04.ex.05.q3
+    prompt: Florian hat erst um 20:00 Uhr Feierabend.
+    answer: false
+    explanation_vi: Sai. Florian tan làm lúc 17:00 ('Florian hat um 17:00 Uhr Feierabend').
+  - id: a1.m05.l04.ex.05.q4
+    prompt: Sandra putzt die Wohnung am Samstag.
+    answer: true
+    explanation_vi: Đúng. 'Sandra putzt die Wohnung am Samstag'.
+- id: a1.m05.l04.ex.06
+  type: fill-blank
+  skill: speaking
+  difficulty: 2
+  objective_refs:
+  - a1.m05.l04.obj1
+  - a1.m05.l04.obj2
+  instructions_vi: Điền từ thích hợp để hoàn thành câu giao tiếp về ngày làm việc.
+  items:
+  - id: a1.m05.l04.ex.06.q1
+    prompt: Mein Arbeitstag ___ um acht Uhr an und ich habe um siebzehn Uhr ___.
+    answers:
+    - fängt
+    - Feierabend
+    explanation_vi: anfangen (fängt an) và cụm Feierabend haben.
+- id: a1.m05.l04.ex.07
+  type: word-order
+  skill: writing
+  difficulty: 2
+  objective_refs:
+  - a1.m05.l04.obj2
+  - a1.m05.l04.obj3
+  instructions_vi: Sắp xếp các từ bị xáo trộn thành câu hoàn chỉnh đúng ngữ pháp.
+  items:
+  - id: a1.m05.l04.ex.07.q1
+    tokens:
+    - die
+    - Morgens
+    - Schule
+    - bringt
+    - Vater
+    - zur
+    - der
+    - Kinder
+    answer: Morgens bringt der Vater die Kinder zur Schule.
+    prompt_vi: 'Sắp xếp câu diễn tả sinh hoạt gia đình:'
+    explanation_vi: Thời gian 'Morgens' ở vị trí 1, động từ 'bringt' vị trí 2, chủ ngữ 'der Vater' vị trí 3, tân ngữ 'die Kinder' và bổ ngữ 'zur Schule'.
+  - id: a1.m05.l04.ex.07.q2
+    tokens:
+    - Feierabend
+    - er
+    - Nach
+    - macht
+    - Sport
+    - gern
+    answer: Nach Feierabend macht er gern Sport.
+    prompt_vi: 'Sắp xếp câu diễn tả việc sau giờ làm:'
+    explanation_vi: Cụm trạng từ 'Nach Feierabend' vị trí 1, động từ 'macht' vị trí 2, chủ ngữ 'er' vị trí 3.

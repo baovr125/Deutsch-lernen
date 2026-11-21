@@ -1,0 +1,265 @@
+schema_version: '2.0'
+content_type: expression-set
+id: a1.m06.expr
+level: A1
+module: a1.m06
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+  references:
+  - work: Netzwerk neu A1 (Klett)
+    scope: 'Kapitel 6: Zeit mit Freunden; Eine Überraschung für Sofia; Im Restaurant; Landeskunde: Kneipen & Co in D-A-CH; Landeskunde: Was ist los in ...?; kurz und klar: Redemittel und Grammatik'
+    verification: verified
+  notes_vi: Trình tự và phạm vi theo Stoffverteilungsplan Netzwerk neu A1.1 (Kapitel 6, 10 UE) và Kapitelwortschatz. Toàn bộ hội thoại, bài tập, bài đọc tự biên soạn mới hoàn toàn.
+entries:
+- id: a1.m06.x.was-hast-du-am-wochenende-vor-wollen-wir
+  de: Was hast du am Wochenende vor? – Wollen wir zusammen ...?
+  vi: Bạn có dự định gì vào cuối tuần chưa? – Chúng mình cùng ... nhé?
+  register: informal
+  situation_vi: Hỏi kế hoạch và rủ bạn bè đi chơi.
+  dialogue:
+  - speaker: Felix
+    de: Was hast du am Samstag vor?
+    vi: Thứ Bảy bạn có dự định gì chưa?
+  - speaker: Jonas
+    de: Noch nichts Besonderes. Warum fragst du?
+    vi: Chưa có gì đặc biệt cả. Sao bạn hỏi thế?
+  - speaker: Felix
+    de: Wir wollen an den Badesee fahren. Kommst du mit?
+    vi: Tụi mình muốn ra hồ tắm. Bạn đi cùng nhé?
+  - speaker: Jonas
+    de: Ja, super gern! Ich bin dabei!
+    vi: Có chứ, mình rất thích! Mình tham gia liền!
+  lesson_refs:
+  - a1.m06.l01
+- id: a1.m06.x.wann-geht-es-los-und-wo-ist-der-treffpun
+  de: Wann geht es los und wo ist der Treffpunkt?
+  vi: Mấy giờ xuất phát và điểm hẹn ở đâu thế?
+  register: informal
+  situation_vi: Thống nhất thời gian và địa điểm xuất phát.
+  dialogue:
+  - speaker: Anna
+    de: Wann geht es am Sonntag los?
+    vi: Chủ Nhật mấy giờ khởi hành thế?
+  - speaker: Mia
+    de: Es geht um zehn Uhr los. Der Treffpunkt ist am Hauptbahnhof.
+    vi: 10 giờ xuất phát nhé. Điểm hẹn ở ga trung tâm.
+  lesson_refs:
+  - a1.m06.l01
+- id: a1.m06.x.wann-hast-du-geburtstag-ich-habe-am-gebu
+  de: Wann hast du Geburtstag? – Ich habe am ... Geburtstag.
+  vi: Khi nào là sinh nhật bạn? – Mình sinh nhật vào ngày ...
+  register: informal
+  situation_vi: Hỏi và trả lời về ngày sinh nhật.
+  dialogue:
+  - speaker: Lukas
+    de: Wann hast du Geburtstag, Sarah?
+    vi: Khi nào là sinh nhật bạn vậy Sarah?
+  - speaker: Sarah
+    de: Ich habe am vierten Juli Geburtstag. Und du?
+    vi: Mình sinh nhật vào ngày mùng 4 tháng 7. Còn bạn?
+  - speaker: Lukas
+    de: Mein Geburtstag ist am einunddreißigsten Oktober.
+    vi: Sinh nhật của mình vào ngày 31 tháng 10.
+  lesson_refs:
+  - a1.m06.l02
+- id: a1.m06.x.herzlichen-glueckwunsch-zum-geburtstag-a
+  de: Herzlichen Glückwunsch zum Geburtstag! Alles Gute!
+  vi: Nhiệt liệt chúc mừng sinh nhật! Mọi điều tốt lành nhất!
+  register: neutral
+  situation_vi: Chúc mừng sinh nhật bạn bè hoặc đồng nghiệp.
+  dialogue:
+  - speaker: Elena
+    de: Herzlichen Glückwunsch zum Geburtstag, David! Alles Gute fürs neue Lebensjahr!
+    vi: Chúc mừng sinh nhật David nhé! Chúc mọi điều tốt lành cho tuổi mới!
+  - speaker: David
+    de: Vielen herzlichen Dank, Elena! Schön, dass du da bist!
+    vi: Cảm ơn bạn rất nhiều, Elena! Thật vui vì bạn đã đến!
+  lesson_refs:
+  - a1.m06.l02
+- id: a1.m06.x.was-schenken-wir-ich-finde-gut-wir-koenn
+  de: Was schenken wir ...? – Ich finde ... gut / Wir können ... schenken.
+  vi: Chúng mình tặng gì cho ...? – Mình thấy ... hay / Tụi mình có thể tặng ...
+  register: informal
+  situation_vi: Thảo luận chọn quà tặng cho bạn bè.
+  dialogue:
+  - speaker: Sarah
+    de: Was schenken wir Sofia zum Geburtstag?
+    vi: Chúng mình tặng gì cho Sofia nhân dịp sinh nhật đây?
+  - speaker: Ben
+    de: Wir können ihr einen Blumenstrauß und eine Schachtel Pralinen schenken.
+    vi: Tụi mình có thể tặng bạn ấy một bó hoa và một hộp kẹo sô-cô-la.
+  - speaker: Sarah
+    de: Gute Idee! Das gefällt ihr bestimmt!
+    vi: Ý kiến hay đấy! Chắc chắn bạn ấy sẽ thích!
+  lesson_refs:
+  - a1.m06.l03
+- id: a1.m06.x.ich-lade-dich-euch-herzlich-zu-ein-danke
+  de: Ich lade dich / euch herzlich zu ... ein. – Danke für die Einladung!
+  vi: Mình thân mời bạn / các bạn đến ... – Cảm ơn vì lời mời nhé!
+  register: informal
+  situation_vi: Mời bạn bè và cảm ơn lời mời tiệc.
+  dialogue:
+  - speaker: David
+    de: Ich lade euch alle herzlich zu meiner Party am Samstag ein!
+    vi: Mình thân mời tất cả các bạn đến dự tiệc của mình vào thứ Bảy!
+  - speaker: Lukas
+    de: Vielen Dank für die Einladung! Wir kommen sehr gern!
+    vi: Cảm ơn nhiều vì lời mời nhé! Tụi mình sẽ rất vui lòng đến!
+  lesson_refs:
+  - a1.m06.l03
+- id: a1.m06.x.wir-moechten-gern-bestellen-bezahlen-was
+  de: Wir möchten gern bestellen / bezahlen. – Was bekommen Sie?
+  vi: Chúng tôi muốn gọi món / thanh toán. – Quý khách dùng gì ạ?
+  register: formal
+  situation_vi: Giao tiếp với nhân viên phục vụ trong nhà hàng.
+  dialogue:
+  - speaker: Bedienung
+    de: Guten Abend! Haben Sie schon gewählt?
+    vi: Chào buổi tối! Quý khách đã chọn được món chưa ạ?
+  - speaker: Gast
+    de: Ja, wir möchten gern bestellen. Ich nehme die Gemüsesuppe und ein Mineralwasser.
+    vi: Vâng, chúng tôi muốn gọi món. Cho tôi món súp rau củ và một chai nước khoáng.
+  - speaker: Bedienung
+    de: Sehr gerne! Guten Appetit!
+    vi: Rất sẵn lòng ạ! Chúc quý khách ngon miệng!
+  lesson_refs:
+  - a1.m06.l04
+- id: a1.m06.x.zahlen-sie-zusammen-oder-getrennt-bar-od
+  de: Zahlen Sie zusammen oder getrennt? – Bar oder mit Karte?
+  vi: Quý khách trả chung hay trả riêng? – Bằng tiền mặt hay bằng thẻ?
+  register: formal
+  situation_vi: Hỏi và trả lời khi thanh toán tiền.
+  dialogue:
+  - speaker: Gast
+    de: Entschuldigung, wir möchten gern zahlen!
+    vi: Xin lỗi, chúng tôi muốn thanh toán tiền ạ!
+  - speaker: Bedienung
+    de: Gerne. Zahlen Sie zusammen oder getrennt?
+    vi: Vâng. Quý khách thanh toán chung hay riêng ạ?
+  - speaker: Gast
+    de: Getrennt, bitte. Und kann ich mit Kreditkarte zahlen?
+    vi: Trả riêng ạ. Và tôi có thể trả bằng thẻ tín dụng được không?
+  - speaker: Bedienung
+    de: Ja, natürlich. Das Lesegerät kommt sofort.
+    vi: Vâng, tất nhiên rồi. Máy quẹt thẻ có ngay đây ạ.
+  lesson_refs:
+  - a1.m06.l04
+- id: a1.m06.x.wie-war-dein-wochenende-es-war-super-seh
+  de: Wie war dein Wochenende? – Es war super / sehr schön / erholsam!
+  vi: Cuối tuần của bạn thế nào? – Tuyệt vời / rất đẹp / rất thư thái!
+  register: informal
+  situation_vi: Hỏi thăm và chia sẻ về cuối tuần vừa qua.
+  dialogue:
+  - speaker: Florian
+    de: Hallo Sandra! Wie war dein Wochenende?
+    vi: Chào Sandra! Cuối tuần của bạn thế nào?
+  - speaker: Sandra
+    de: Es war wirklich fantastisch! Das Wetter war sonnig und warm. Und wie war dein Wochenende?
+    vi: Thực sự rất tuyệt vời! Thời tiết đã rất nắng ấm. Còn cuối tuần của bạn thì sao?
+  - speaker: Florian
+    de: Ganz ruhig. Ich war zu Hause und habe nur gefaulenzt.
+    vi: Khá yên tĩnh. Mình đã ở nhà và chỉ nằm dài thư giãn thôi.
+  lesson_refs:
+  - a1.m06.l05
+- id: a1.m06.x.wie-war-das-wetter-es-war-sonnig-bewoelk
+  de: Wie war das Wetter? – Es war sonnig / bewölkt / es hat geregnet.
+  vi: Thời tiết thế nào? – Trời nắng / nhiều mây / trời đã có mưa.
+  register: neutral
+  situation_vi: Hỏi và nói về thời tiết.
+  dialogue:
+  - speaker: Markus
+    de: Hattet ihr am Samstag schönes Wetter?
+    vi: Thứ Bảy các bạn có thời tiết đẹp không?
+  - speaker: Julia
+    de: Nein, leider nicht. Es war bewölkt và am Nachmittag hat es geregnet.
+    vi: Không, tiếc là không. Trời nhiều mây và buổi chiều trời đã đổ mưa.
+  lesson_refs:
+  - a1.m06.l05
+- id: a1.m06.x.was-ist-am-wochenende-los-wo-findet-stat
+  de: Was ist am Wochenende los? – Wo findet ... statt?
+  vi: Cuối tuần có gì vui thế? – ... diễn ra ở đâu?
+  register: informal
+  situation_vi: Hỏi và tìm hiểu về các sự kiện giải trí.
+  dialogue:
+  - speaker: Jonas
+    de: Was ist am Samstagabend in der Stadt los?
+    vi: Tối thứ Bảy trong thành phố có sự kiện gì vui thế?
+  - speaker: Laura
+    de: Auf dem Marktplatz findet ein großes Stadtfest mit Live-Musik statt. Der Eintritt ist frei!
+    vi: Ở quảng trường chợ có một lễ hội thành phố lớn với nhạc sống. Vào cửa tự do đấy!
+  - speaker: Jonas
+    de: Klasse! Wollen wir zusammen hingehen?
+    vi: Tuyệt quá! Chúng mình cùng đi nhé?
+  lesson_refs:
+  - a1.m06.l06
+- id: a1.m06.x.ich-moechte-einen-tisch-fuer-personen-re
+  de: Ich möchte einen Tisch für ... Personen reservieren.
+  vi: Tôi muốn đặt một bàn cho ... người.
+  register: formal
+  situation_vi: Gọi điện đặt bàn tại nhà hàng hoặc quán ăn.
+  dialogue:
+  - speaker: Gast
+    de: Guten Tag, ich möchte gern einen Tisch für vier Personen reservieren.
+    vi: Xin chào, tôi muốn đặt một bàn cho bốn người.
+  - speaker: Lokal
+    de: Für wann möchten Sie reservieren? – Für Freitag um 19 Uhr.
+    vi: Quý khách muốn đặt cho lúc nào ạ? – Dạ cho thứ Sáu lúc 19 giờ ạ.
+  - speaker: Lokal
+    de: Sehr gerne, auf welchen Namen bitte? – Auf den Namen Müller.
+    vi: Rất sẵn lòng, xin hỏi dưới tên ai ạ? – Dạ tên Müller ạ.
+  lesson_refs:
+  - a1.m06.l06
+- id: a1.m06.x.freizeit-geburtstage-was-hast-du-vor-wan
+  de: 'Freizeit & Geburtstage: Was hast du vor? Wann hast du Geburtstag? – Herzlichen Glückwunsch!'
+  vi: Kế hoạch giải trí và chúc mừng sinh nhật
+  register: informal
+  situation_vi: Tổng kết bài 1 và bài 2.
+  dialogue:
+  - speaker: A
+    de: Wann hast du Geburtstag?
+    vi: Khi nào là sinh nhật bạn?
+  - speaker: B
+    de: Am zwanzigsten Mai. Feierst du mit?
+    vi: Vào ngày 20 tháng 5. Bạn cùng ăn mừng nhé?
+  - speaker: A
+    de: Ja, natürlich! Herzlichen Glückwunsch schon mal!
+    vi: Có chứ, tất nhiên rồi! Chúc mừng sinh nhật bạn nhé!
+  lesson_refs:
+  - a1.m06.review
+- id: a1.m06.x.im-restaurant-was-moechten-sie-bestellen
+  de: 'Im Restaurant: Was möchten Sie bestellen? – Zahlen Sie zusammen oder getrennt? Stimmt so!'
+  vi: Gọi món và thanh toán tại nhà hàng
+  register: formal
+  situation_vi: Tổng kết bài 3 và bài 4.
+  dialogue:
+  - speaker: Bedienung
+    de: Zahlen Sie zusammen oder getrennt?
+    vi: Quý khách trả chung hay riêng ạ?
+  - speaker: Gast
+    de: Getrennt, bitte. Hier sind zwanzig Euro, stimmt so!
+    vi: Trả riêng ạ. Gửi bạn 20 euro, khỏi thối lại nhé!
+  lesson_refs:
+  - a1.m06.review
+- id: a1.m06.x.vergangenes-events-wie-war-dein-wochenen
+  de: 'Vergangenes & Events: Wie war dein Wochenende? – Es war super! Was ist heute los?'
+  vi: Hỏi thăm cuối tuần và sự kiện thành phố
+  register: neutral
+  situation_vi: Tổng kết bài 5 và bài 6.
+  dialogue:
+  - speaker: A
+    de: Wie war dein Wochenende?
+    vi: Cuối tuần của bạn thế nào?
+  - speaker: B
+    de: Sehr schön! Das Wetter war sonnig und wir waren im Biergarten.
+    vi: Rất đẹp! Thời tiết nắng ấm và tụi mình đã ở quán bia sân vườn.
+  lesson_refs:
+  - a1.m06.review

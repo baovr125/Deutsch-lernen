@@ -1,0 +1,393 @@
+schema_version: '2.0'
+content_type: lesson
+id: a1.m00.l02
+level: A1
+module: a1.m00
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+  references:
+  - work: Dự án Deutsch-lernen
+    scope: nội dung bổ sung ngoài giáo trình
+    verification: proposed
+  notes_vi: Nhập môn bổ sung. Netzwerk neu A1 luyện từng hiện tượng phát âm rải rác trong các Kapitel (lange/kurze Vokale – Kapitel 3; Umlaute – Kapitel 4; ei, eu, au – Kapitel 6…). Bài này cho bạn cái nhìn tổng quan trước.
+order: 2
+title_de: Laute und Buchstaben
+title_vi: 'Đọc đúng chữ viết: nguyên âm, phụ âm và phiên âm IPA'
+topic_vi: Quy tắc đọc cơ bản và các từ quốc tế
+duration_min: 60
+difficulty: 1
+cefr:
+- A1.SP3
+- A1.H2
+- A1.L1
+prerequisites:
+- a1.m00.l01
+objectives:
+- id: a1.m00.l02.obj1
+  text_vi: Phân biệt nguyên âm dài và ngắn và biết các dấu hiệu chính tả của chúng.
+  skill: pronunciation
+- id: a1.m00.l02.obj2
+  text_vi: Đọc đúng các nguyên âm đôi ei, ie, eu/äu, au.
+  skill: pronunciation
+- id: a1.m00.l02.obj3
+  text_vi: 'Đọc đúng các phụ âm khó với người Việt: ch, sch, s, z, w, v, j, r, sp/st.'
+  skill: pronunciation
+- id: a1.m00.l02.obj4
+  text_vi: Đọc rõ phụ âm cuối và biết b, d, g ở cuối từ đọc thành p, t, k.
+  skill: reading
+- id: a1.m00.l02.obj5
+  text_vi: Đọc được ký hiệu IPA cơ bản trong sổ từ vựng.
+  skill: pronunciation
+vocabulary_refs:
+- a1.m00.v.hotel
+- a1.m00.v.taxi
+- a1.m00.v.kaffee
+- a1.m00.v.tee
+- a1.m00.v.musik
+- a1.m00.v.internet
+- a1.m00.v.pizza
+review_vocabulary_refs:
+- a1.m00.v.buchstabe
+- a1.m00.v.umlaut
+grammar_refs: []
+expression_refs:
+- a1.m00.x.ein-bitte
+exercise_set_ref: a1.m00.l02.ex
+summary_vi: 'Tiếng Đức đọc gần như theo chữ viết. Nguyên âm dài: ee, aa, nguyên âm + h, ie; ngắn: trước hai phụ âm. ei = ai, ie = i, eu = oi, au = ao. z = ts, w = v, v = f, s trước nguyên âm = [z], ch = [x] hoặc [ç]. Bật rõ phụ âm cuối; b, d, g cuối từ đọc p, t, k.'
+self_check:
+- Tôi biết khi nào nguyên âm đọc dài, khi nào đọc ngắn.
+- Tôi không nhầm ei và ie.
+- Tôi đọc được acht và ich với hai âm ch khác nhau.
+- Tôi đọc được phiên âm IPA đơn giản trong sổ từ.
+blocks:
+- id: a1.m00.l02.b1
+  kind: explanation
+  title_vi: Giới thiệu bài học
+  body_vi: 'Tin vui thứ hai: tiếng Đức **đọc gần như đúng theo chữ viết**. Khi đã biết quy tắc, bạn đọc được cả những từ chưa từng gặp
+
+    – dễ hơn tiếng Anh rất nhiều.
+
+
+    Bài này dùng các **từ quốc tế** bạn đã biết (*Hotel, Taxi, Kaffee, Pizza…*) để luyện quy tắc đọc.
+
+    Hãy chú ý: dù viết giống tiếng Anh, chúng được đọc **theo quy tắc tiếng Đức**.
+
+
+    **Ba thói quen người Việt cần sửa ngay:**
+
+    1. **Bỏ âm cuối:** tiếng Việt kết thúc âm tiết rất nhẹ (*các, mát*), còn tiếng Đức phải **bật rõ** phụ âm cuối: *Text* [tɛkst], *falsch* [falʃ].
+
+    2. **Đọc mọi âm tiết đều nhau:** tiếng Đức có âm tiết mạnh (trọng âm) và âm tiết yếu (đọc lướt) – học ở bài 3.
+
+    3. **Thêm thanh điệu:** tiếng Đức không có dấu thanh. Đừng đọc *Kaffee* thành "cà phê".'
+- id: a1.m00.l02.b2
+  kind: explanation
+  title_vi: Danh từ luôn học cùng mạo từ
+  skill: grammar
+  body_vi: Ngay từ những từ quốc tế đầu tiên, hãy học kèm mạo từ (der, die, das) và số nhiều. Lý do được giải thích ở bài 4 (Những điều cơ bản về câu tiếng Đức).
+  examples:
+  - de: das Hotel – die Hotels
+    vi: khách sạn – những khách sạn
+  - de: der Kaffee – die Pizza – das Taxi
+    vi: cà phê – pizza – taxi
+- id: a1.m00.l02.b3
+  kind: pronunciation
+  title_vi: Nguyên âm dài – nguyên âm ngắn
+  skill: pronunciation
+  body_vi: 'Nguyên âm dài – nguyên âm ngắn
+
+
+    Trong tiếng Đức, độ **dài** của nguyên âm có thể làm đổi nghĩa. Dấu hiệu chính tả:
+
+    - **Dài** khi: nguyên âm đôi chữ (*Tee, Zoo*), nguyên âm + h (*sehr, Zahl*), *ie* (*vier*), hoặc nguyên âm đứng cuối âm tiết mở (*du, Name*).
+
+    - **Ngắn** khi: sau nguyên âm có **hai phụ âm** trở lên (*Kaffee, Pizza, falsch, Text*).
+
+    Trong IPA, nguyên âm dài có dấu **ː**: [teː] (dài) – [ˈkafe] (a ngắn).
+
+
+
+    Luyện tập: Đọc từng cặp, kéo dài rõ ràng nguyên âm dài (như đếm 1-2) và đọc thật gọn nguyên âm ngắn.'
+  items:
+  - de: Tee
+    vi: trà
+    ipa: '[teː]'
+    note_vi: ee → dài
+  - de: Kaffee
+    vi: cà phê
+    ipa: '[ˈkafe]'
+    note_vi: a + ff → ngắn
+  - de: Staat – Stadt
+    vi: nhà nước – thành phố
+    ipa: '[ʃtaːt] – [ʃtat]'
+    note_vi: Chỉ khác độ dài của a.
+  - de: Miete – Mitte
+    vi: tiền thuê nhà – ở giữa
+    ipa: '[ˈmiːtə] – [ˈmɪtə]'
+- id: a1.m00.l02.b4
+  kind: pronunciation
+  title_vi: Nguyên âm đôi và các tổ hợp nguyên âm
+  skill: pronunciation
+  body_vi: 'Nguyên âm đôi và các tổ hợp nguyên âm
+
+
+    - **ei / ai** [aɪ̯] → gần "**ai**": *nein, zwei*
+
+    - **ie** [iː] → "**i**" dài: *vier, wie* (đừng nhầm với ei!)
+
+    - **eu / äu** [ɔʏ̯] → gần "**oi**": *neun, Deutsch*
+
+    - **au** [aʊ̯] → gần "**ao**": *auch, Frau*
+
+    Mẹo nhớ ei/ie: đọc theo **chữ thứ hai** → e**i** đọc "ai", i**e** đọc "i".
+
+
+
+    Luyện tập: Đọc to: nein – vier – neun – Frau. Rồi đọc ngược lại.'
+  items:
+  - de: nein
+    vi: không
+    ipa: '[naɪ̯n]'
+  - de: vier
+    vi: bốn
+    ipa: '[fiːɐ̯]'
+  - de: Deutsch
+    vi: tiếng Đức
+    ipa: '[dɔʏ̯tʃ]'
+  - de: Frau
+    vi: người phụ nữ, bà
+    ipa: '[fʁaʊ̯]'
+- id: a1.m00.l02.b5
+  kind: pronunciation
+  title_vi: Phụ âm khó với người Việt
+  skill: pronunciation
+  body_vi: 'Phụ âm khó với người Việt
+
+
+    | Chữ | IPA | Gợi ý cho người Việt | Ví dụ |
+
+    |---|---|---|---|
+
+    | ch (sau a, o, u, au) | [x] | như **"kh"** trong "khá" | acht, Buch, auch |
+
+    | ch (sau e, i, ä, ö, ü, ei, eu, phụ âm) | [ç] | thổi hơi qua lưỡi nâng cao, như "h" rất nhẹ khi cười "hi" – không có trong tiếng Việt | ich, nicht, richtig |
+
+    | sch | [ʃ] | như "sh" tiếng Anh (she), môi hơi chu | Schule, falsch |
+
+    | sp-, st- (đầu từ) | [ʃp], [ʃt] | đọc sch + p / t | sprechen, Stadt |
+
+    | s (trước nguyên âm) | [z] | như **"d"** giọng Hà Nội (da) | Musik, sieben |
+
+    | ß, ss, s (cuối) | [s] | như "x" tiếng Việt | heißen, was |
+
+    | z, tz | [ts] | t + x đọc liền | Pizza, zehn |
+
+    | w | [v] | như **"v"** tiếng Việt | wie, Wien |
+
+    | v | [f] (thường) | như **"ph"** | vier, Vater |
+
+    | j | [j] | như "d" giọng miền Nam ("dạ") | ja, Japan |
+
+    | r (đầu âm tiết) | [ʁ] | gần "g" trong "gà" nhưng phát ra sâu trong cổ họng | richtig, drei |
+
+    | -er (cuối từ) | [ɐ] | gần "a" nhẹ, KHÔNG uốn lưỡi | oder, Partner |
+
+    | h (đầu âm tiết) | [h] | như "h" tiếng Việt, bật hơi | Hotel, hallo |
+
+    | h (sau nguyên âm) | — | **không đọc**, chỉ làm nguyên âm dài | sehr, zehn |
+
+
+
+    Luyện tập: Đọc chậm từng ví dụ trong bảng. Đặc biệt so sánh acht [x] – ich [ç] cho đến khi nghe rõ sự khác nhau.'
+  items:
+  - de: acht
+    vi: tám
+    ipa: '[axt]'
+  - de: ich
+    vi: tôi
+    ipa: '[ɪç]'
+  - de: Pizza
+    vi: pizza
+    ipa: '[ˈpɪtsa]'
+  - de: Musik
+    vi: âm nhạc
+    ipa: '[muˈziːk]'
+  - de: Internet
+    vi: internet
+    ipa: '[ˈɪntɐnɛt]'
+- id: a1.m00.l02.b6
+  kind: pronunciation
+  title_vi: 'Âm cuối: bật rõ và vô thanh hóa'
+  skill: pronunciation
+  body_vi: 'Âm cuối: bật rõ và vô thanh hóa
+
+
+    1. Ở **cuối từ** (và cuối âm tiết), **b, d, g** được đọc thành **p, t, k**: *Tag* [taːk], *und* [ʊnt], *Abend* [ˈaːbn̩t].
+
+    2. Tất cả phụ âm cuối đều phải **bật ra rõ** – người Việt hay "nuốt" mất: *Text* [tɛkst], *nicht* [nɪçt], *fünf* [fʏnf].
+
+    3. Đuôi **-e** đọc rất nhẹ [ə] nhưng **không bỏ**: *danke* [ˈdaŋkə], *bitte* [ˈbɪtə].
+
+
+
+    Luyện tập: Đặt tay trước miệng khi đọc Text, nicht: bạn phải cảm thấy luồng hơi ở âm t cuối.'
+  items:
+  - de: Tag
+    vi: ngày
+    ipa: '[taːk]'
+  - de: und
+    vi: và
+    ipa: '[ʊnt]'
+  - de: Text
+    vi: văn bản
+    ipa: '[tɛkst]'
+  - de: danke
+    vi: cảm ơn
+    ipa: '[ˈdaŋkə]'
+- id: a1.m00.l02.b7
+  kind: pronunciation
+  title_vi: Cách đọc phiên âm IPA trong sổ từ
+  skill: pronunciation
+  body_vi: 'Cách đọc phiên âm IPA trong sổ từ
+
+
+    Sổ từ vựng ghi phiên âm IPA trong ngoặc vuông. Bạn chỉ cần nhớ một số ký hiệu:
+
+    - **ː** nguyên âm dài · **ˈ** đặt trước âm tiết có trọng âm · **ə** âm "ơ" rất nhẹ (đuôi -e) · **ɐ** âm "a" nhẹ (đuôi -er)
+
+    - **ç** ch trong *ich* · **x** ch trong *acht* · **ʃ** sch · **ʁ** r · **ŋ** ng · **ts** z
+
+    - **y / ʏ** ü · **ø / œ** ö · **ɛ** e mở (như "e" tiếng Việt) · **ɪ, ʊ, ɔ** các nguyên âm ngắn i, u, o
+
+    Ví dụ: *Kaffee* [ˈkafe] → trọng âm ở âm tiết đầu KAF, a ngắn.
+
+
+
+    Luyện tập: Mở sổ từ, chọn 3 từ bất kỳ và đọc theo IPA trước khi nghe audio. Sau đó nghe để kiểm tra.'
+  items:
+  - de: Hotel
+    vi: khách sạn
+    ipa: '[hoˈtɛl]'
+    note_vi: dấu ˈ đứng trước tɛl → nhấn ở âm tiết thứ hai
+  - de: Taxi
+    vi: taxi
+    ipa: '[ˈtaksi]'
+    note_vi: nhấn ở âm tiết đầu
+- id: a1.m00.l02.b8
+  kind: examples
+  title_vi: Câu ví dụ
+  examples:
+  - de: Ein Kaffee, bitte!
+    vi: Cho tôi một ly cà phê!
+  - de: Ein Tee, bitte!
+    vi: Cho tôi một tách trà!
+  - de: Eine Pizza, bitte!
+    vi: Cho tôi một cái pizza!
+    note_vi: Pizza là giống cái nên nói eine – học kỹ ở Kapitel 3.
+  - de: Das Hotel ist in Berlin.
+    vi: Khách sạn ở Berlin.
+  - de: Die Musik ist gut.
+    vi: Âm nhạc hay.
+- id: a1.m00.l02.b9
+  kind: listening
+  title_vi: Dài hay ngắn?
+  lines:
+  - speaker: Sprecher
+    de: Staat – Stadt.
+    vi: nhà nước – thành phố
+  - speaker: Sprecher
+    de: Miete – Mitte.
+    vi: tiền thuê nhà – ở giữa
+  - speaker: Sprecher
+    de: Ofen – offen.
+    vi: cái lò – mở
+  audio_status: pending-tts
+  situation_vi: Nghe các cặp từ chỉ khác độ dài nguyên âm.
+  skill: listening
+  audio:
+    speed: slow
+- id: a1.m00.l02.b10
+  kind: listening
+  title_vi: Từ quốc tế theo cách đọc Đức
+  lines:
+  - speaker: Sprecher
+    de: das Hotel
+    vi: khách sạn
+  - speaker: Sprecher
+    de: das Taxi
+    vi: taxi
+  - speaker: Sprecher
+    de: der Kaffee
+    vi: cà phê
+  - speaker: Sprecher
+    de: die Pizza
+    vi: pizza
+  - speaker: Sprecher
+    de: die Musik
+    vi: âm nhạc
+  audio_status: pending-tts
+  situation_vi: Nghe các từ quốc tế được đọc theo quy tắc tiếng Đức.
+  skill: listening
+  audio:
+    speed: slow
+- id: a1.m00.l02.b11
+  kind: reading
+  title_vi: Bảng giá ở quán cà phê
+  paragraphs:
+  - de: 'Café Bella
+
+      Kaffee · Tee · Cappuccino
+
+      Pizza Margherita · Pizza Salami
+
+      Internet: gratis'
+    vi: 'Quán cà phê Bella
+
+      Cà phê · Trà · Cappuccino
+
+      Pizza Margherita · Pizza Salami
+
+      Internet: miễn phí'
+  text_type_vi: Thực đơn
+  skill: reading
+  glossary:
+  - de: gratis
+    vi: miễn phí
+- id: a1.m00.l02.b12
+  kind: speaking
+  title_vi: Gọi món ở quán cà phê
+  skill: speaking
+  task_vi: Đọc to thực đơn ở phần Đọc, sau đó gọi 2 món bằng mẫu “Ein …, bitte!” / “Eine Pizza, bitte!”.
+  steps_vi:
+  - Đọc to từng dòng thực đơn, chú ý z = [ts] trong Pizza và s = [z] trong Musik.
+  - Gọi một đồ uống và một đồ ăn.
+  - 'Ghi âm và nghe lại: bạn có bật rõ âm cuối không?'
+  lines:
+  - speaker: Gast
+    de: Ein Tee, bitte! Und eine Pizza Margherita, bitte!
+    vi: Cho tôi một tách trà! Và một pizza Margherita!
+- id: a1.m00.l02.b13
+  kind: writing
+  title_vi: Sổ từ đầu tiên
+  skill: writing
+  task_vi: 'Viết 5 từ quốc tế đã học vào sổ từ theo đúng mẫu: mạo từ + danh từ – số nhiều.'
+  model:
+    de: 'das Hotel – die Hotels
+
+      der Kaffee – die Kaffees
+
+      die Pizza – die Pizzas'
+    vi: khách sạn – những khách sạn; cà phê – những ly cà phê; pizza – những cái pizza
+  checklist_vi:
+  - Mỗi danh từ có mạo từ.
+  - Danh từ viết hoa.
+  - Có ghi dạng số nhiều (hoặc ghi “—” nếu không có).

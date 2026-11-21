@@ -1,0 +1,74 @@
+schema_version: "2.0"
+content_type: grammar-topic
+id: a1.g.mit-dativ
+level: A1
+introduced_in: a1.m07
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  references:
+    - { work: "Netzwerk neu A1.2 – Stoffverteilungsplan (Klett)", scope: "Kapitel 7, Grammatik: mit + Dativ", verification: verified }
+    - { work: "Dự án Deutsch-lernen", scope: "Bảng mạo từ Dativ và lưu ý danh từ yếu (n-Deklination) là phần giải thích bổ sung", verification: proposed }
+  tags: ["dativ", "praeposition"]
+title_de: "mit + Dativ"
+title_vi: "Giới từ mit + Dativ (tặng cách)"
+summary_vi: "Sau „mit“, mạo từ đổi sang dạng Dativ: der/das → dem, die → der, số nhiều → den (và danh từ số nhiều thêm -n)."
+usage_vi: "Dùng „mit“ để nói làm việc với ai (mit dem Chef sprechen) hoặc dùng phương tiện/công cụ gì (mit dem Bus fahren, mit dem Computer arbeiten)."
+objectives:
+  - { id: a1.g.mit-dativ.obj1, text_vi: "Dùng mit với mạo từ Dativ đúng (dem/der/den) cho người và phương tiện.", skill: grammar }
+rules:
+  - id: a1.g.mit-dativ.r1
+    title_vi: "„mit“ luôn đi với Dativ"
+    body_vi: "Bất kể ý nghĩa nào, sau „mit“ danh từ ở Dativ. Tiếng Việt không đổi hình thức từ nên bạn cần học thuộc: mit + dem/der/den."
+    table:
+      header: ["", "Nominativ (chủ ngữ)", "Dativ (sau mit)"]
+      rows:
+        - ["der Chef (nam)", "der Chef", "mit dem Chef"]
+        - ["das Kind (trung)", "das Kind", "mit dem Kind"]
+        - ["die Kollegin (nữ)", "die Kollegin", "mit der Kollegin"]
+        - ["die Kollegen (số nhiều)", "die Kollegen", "mit den Kollegen"]
+    examples:
+      - { de: "Ich spreche mit dem Chef.", vi: "Tôi nói chuyện với sếp." }
+      - { de: "Sie arbeitet mit der Kollegin am Projekt.", vi: "Cô ấy làm dự án cùng đồng nghiệp nữ." }
+  - id: a1.g.mit-dativ.r2
+    title_vi: "Số nhiều: den + danh từ thêm -n"
+    body_vi: "Ở Dativ số nhiều, mạo từ là „den“ và danh từ thêm -n (trừ khi đã kết thúc bằng -n hoặc -s). Ví dụ: die Kollegen → mit den Kollegen (đã có -n); die Kinder → mit den Kindern."
+    examples:
+      - { de: "Wir essen in der Pause mit den Kollegen.", vi: "Giờ nghỉ chúng tôi ăn cùng các đồng nghiệp." }
+      - { de: "Er spielt mit den Kindern.", vi: "Anh ấy chơi với bọn trẻ." }
+  - id: a1.g.mit-dativ.r3
+    title_vi: "Phương tiện và công cụ"
+    body_vi: "Cùng cấu trúc dùng cho phương tiện, công cụ: mit dem Bus, mit dem Zug, mit dem Auto, mit dem Computer, mit dem Telefon. Đi bộ nói „zu Fuß“ (không có mit)."
+    examples:
+      - { de: "Meine Kollegin fährt mit dem Zug zur Arbeit.", vi: "Đồng nghiệp nữ của tôi đi làm bằng tàu." }
+      - { de: "Der Chef telefoniert mit dem Handy.", vi: "Sếp gọi điện bằng điện thoại di động." }
+  - id: a1.g.mit-dativ.r4
+    title_vi: "Với ein-/mein-: einem, einer, meinem, meiner"
+    body_vi: "Mạo từ không xác định và sở hữu cũng đổi: ein/mein (nam, trung) → einem/meinem; eine/meine (nữ) → einer/meiner."
+    table:
+      header: ["Giống", "ein-", "mein-"]
+      rows:
+        - ["nam / trung", "mit einem Kunden", "mit meinem Chef"]
+        - ["nữ", "mit einer Kundin", "mit meiner Kollegin"]
+    examples:
+      - { de: "Ich habe einen Termin mit einem Kunden.", vi: "Tôi có cuộc hẹn với một khách hàng." }
+      - { de: "Ich spreche heute mit meiner Chefin.", vi: "Hôm nay tôi nói chuyện với sếp nữ của tôi." }
+sentence_structures:
+  - { pattern: "Subjekt + Verb + mit + Dativ", example: { de: "Ich arbeite mit dem Computer.", vi: "Tôi làm việc bằng máy tính." } }
+  - { pattern: "Mit + Dativ + Verb + Subjekt …", example: { de: "Mit dem Bus fahre ich zur Firma.", vi: "Bằng xe buýt tôi đi đến công ty." } }
+  - { pattern: "Mit wem + Verb + Subjekt?", example: { de: "Mit wem sprichst du?", vi: "Bạn đang nói chuyện với ai?" } }
+examples:
+  - { de: "Ich muss mit dem Kunden sprechen.", vi: "Tôi phải nói chuyện với khách hàng." }
+  - { de: "Mit wem hast du einen Termin?", vi: "Bạn có cuộc hẹn với ai?" }
+  - { de: "Wir fahren mit dem Auto zur Besprechung.", vi: "Chúng tôi đi họp bằng ô tô." }
+  - { de: "Die Chefin spricht mit den Kunden.", vi: "Sếp nữ nói chuyện với các khách hàng." }
+common_mistakes:
+  - { wrong: "Ich spreche mit der Chef.", right: "Ich spreche mit dem Chef.", explanation_vi: "„Chef“ giống đực (der). Sau mit phải dùng Dativ: der → dem. „der“ ở Dativ chỉ dùng cho danh từ giống cái." }
+  - { wrong: "Ich spreche mit die Kollegin.", right: "Ich spreche mit der Kollegin.", explanation_vi: "Không dùng Nominativ/Akkusativ „die“ sau mit. Giống cái ở Dativ là „der“." }
+  - { wrong: "Wir essen mit den Kollege.", right: "Wir essen mit den Kollegen.", explanation_vi: "Dativ số nhiều: mạo từ „den“ và danh từ có đuôi -n. (Với „Kollege“, dạng số ít Dativ cũng là „Kollegen“: mit dem Kollegen.)" }
+exercise_refs: [a1.m07.l02.ex.01, a1.m07.l02.ex.02, a1.m07.l02.ex.05, a1.m07.l02.ex.06]

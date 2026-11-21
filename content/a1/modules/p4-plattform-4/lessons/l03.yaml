@@ -1,0 +1,79 @@
+schema_version: "2.0"
+content_type: lesson
+id: a1.p4.l03
+level: A1
+module: a1.p4
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  references:
+    - { work: "Netzwerk neu A1.2 – Stoffverteilungsplan (Klett)", scope: "Plattform 4: Prüfungstraining – Hören Teil 2, Lesen Teil 3, Schreiben Teil 2", verification: verified }
+    - { work: "Dự án Deutsch-lernen", scope: "Đề luyện thi hoàn toàn tự soạn theo cấu trúc phần thi nêu trong a1-assessment-spec", verification: proposed }
+  tags: ["pruefung"]
+order: 3
+title_de: "Prüfungstraining: Hören Teil 2, Lesen Teil 3, Schreiben Teil 2"
+title_vi: "Luyện thi: Nghe phần 2, Đọc phần 3, Viết phần 2"
+topic_vi: "Nghe thông báo, đọc biển báo, viết tin nhắn ngắn"
+duration_min: 90
+difficulty: 2
+objectives:
+  - { id: a1.p4.l03.obj1, text_vi: "Làm được bài Nghe phần 2: hiểu thông báo ngắn (nhà ga, cửa hàng, xe buýt).", skill: listening }
+  - { id: a1.p4.l03.obj2, text_vi: "Làm được bài Đọc phần 3: hiểu biển báo và thông báo ngắn và chọn Richtig/Falsch.", skill: reading }
+  - { id: a1.p4.l03.obj3, text_vi: "Làm được bài Viết phần 2: viết tin nhắn ngắn (khoảng 30 từ) theo ba ý cho trước.", skill: writing }
+vocabulary_refs: []
+review_vocabulary_refs: [a1.m11.v.kasse, a1.m11.v.oeffnen, a1.m11.v.schliessen, a1.m12.v.reisen]
+grammar_refs: [a1.g.perfekt-satzklammer, a1.g.fragewoerter]
+expression_refs: [a1.p4.x.durchsage, a1.p4.x.nachricht-urlaub]
+exercise_set_ref: a1.p4.l03.ex
+blocks:
+  - id: a1.p4.l03.b1
+    kind: explanation
+    title_vi: "Chiến lược làm bài"
+    body_vi: |
+      **Hören Teil 2:** thông báo chỉ vang lên ngắn. Hãy đọc câu hỏi trước và chú ý *nơi chốn, giờ, số* và *việc phải làm*.
+      **Lesen Teil 3:** biển báo thường có từ khóa: *nicht, nur, geschlossen, geöffnet, bitte*. Đọc kỹ từ phủ định.
+      **Schreiben Teil 2:** viết 3 ý cho trước, mỗi ý 1–2 câu (tổng khoảng 30 từ). Có lời chào và lời kết. Câu đơn, đúng chính tả quan trọng hơn câu dài.
+  - id: a1.p4.l03.b2
+    kind: listening
+    skill: listening
+    title_vi: "Đề luyện: Hören Teil 2 (ba thông báo)"
+    audio_status: pending-tts
+    situation_vi: "Ba thông báo ở nhà ga, cửa hàng và trạm xe buýt."
+    lines:
+      - { speaker: "Bahnhof", de: "Achtung auf Gleis drei: Der Zug nach München fährt heute zehn Minuten später ab. Wir bitten um Entschuldigung.", vi: "Xin chú ý ở sân ga số ba: tàu đi München hôm nay khởi hành muộn mười phút. Chúng tôi xin lỗi." }
+      - { speaker: "Kaufhaus", de: "Liebe Kunden, das Kaufhaus schließt heute um achtzehn Uhr. Bitte gehen Sie zur Kasse.", vi: "Kính gửi quý khách, trung tâm bách hóa hôm nay đóng cửa lúc 18 giờ. Xin mời đến quầy thu ngân." }
+      - { speaker: "Bus", de: "Der Bus Linie zwölf fährt heute nicht. Bitte nehmen Sie die Linie vierzehn.", vi: "Xe buýt tuyến mười hai hôm nay không chạy. Xin hãy đi tuyến mười bốn." }
+    glossary:
+      - { de: "das Gleis", vi: "sân ga, đường ray" }
+  - id: a1.p4.l03.b3
+    kind: reading
+    skill: reading
+    title_vi: "Đề luyện: Lesen Teil 3 (năm thông báo)"
+    text_type_vi: "Biển báo và thông báo"
+    paragraphs:
+      - { de: "1. Bitte nicht rauchen! Rauchen nur im Hof.", vi: "1. Xin không hút thuốc! Chỉ được hút ở sân trong." }
+      - { de: "2. Geschlossen vom 1. bis 15. August. Wir wünschen schöne Ferien!", vi: "2. Đóng cửa từ ngày 1 đến ngày 15 tháng Tám. Chúc mọi người kỳ nghỉ vui vẻ!" }
+      - { de: "3. Heute Ruhetag. Morgen wieder ab 8 Uhr geöffnet.", vi: "3. Hôm nay nghỉ. Ngày mai mở cửa lại từ 8 giờ." }
+      - { de: "4. Eingang nur für Mitarbeiter. Kunden bitte durch den Haupteingang.", vi: "4. Lối vào chỉ dành cho nhân viên. Khách hàng xin đi qua cửa chính." }
+      - { de: "5. Fahrräder bitte hier abstellen.", vi: "5. Xin để xe đạp ở đây." }
+    glossary:
+      - { de: "der Ruhetag", vi: "ngày nghỉ (của cửa hàng, quán)" }
+      - { de: "der Mitarbeiter", vi: "nhân viên" }
+      - { de: "abstellen", vi: "để, đỗ (xe)" }
+  - id: a1.p4.l03.b4
+    kind: writing
+    skill: writing
+    title_vi: "Đề luyện: Schreiben Teil 2"
+    task_vi: "Bạn đang đi nghỉ. Viết tin nhắn (khoảng 30 từ) cho một người bạn với ba ý: 1) Bạn ở đâu? 2) Thời tiết thế nào? 3) Bạn đã làm gì?"
+    model: { de: "Liebe Anna, ich bin in Wien. Das Wetter ist schön und die Sonne scheint. Gestern habe ich das Schloss besichtigt. Es war interessant! Viele Grüße, Tim", vi: "Anna thân mến, mình đang ở Wien. Thời tiết đẹp và trời nắng. Hôm qua mình đã tham quan lâu đài. Thú vị lắm! Thân ái, Tim" }
+    checklist_vi: ["Trả lời đủ ba ý (nơi, thời tiết, việc đã làm).", "Có lời chào và lời kết.", "Dùng Perfekt đúng cho việc đã làm.", "Khoảng 30 từ, chính tả đúng."]
+summary_vi: "Bạn đã luyện ba phần thi: Nghe phần 2, Đọc phần 3 và Viết phần 2 bằng đề tự soạn."
+self_check:
+  - "Tôi đọc câu hỏi trước khi nghe thông báo."
+  - "Tôi chú ý từ phủ định trên biển báo."
+  - "Tôi trả lời đủ ba ý khi viết tin nhắn."

@@ -1,0 +1,222 @@
+schema_version: '2.0'
+content_type: lesson
+id: a1.m05.l02
+level: A1
+module: a1.m05
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+  references:
+  - work: Netzwerk neu A1 (Klett)
+    scope: 'Kapitel 5: Wie spät ist es?'
+    verification: verified
+  notes_vi: 'Sprachhandlungen: nach der Uhrzeit fragen, Uhrzeiten verstehen und nennen (offiziell und inoffiziell). Wortschatz: Uhrzeit, Tageszeiten. Grammatik: Wann? Um...; Wie lange? Von... bis...'
+order: 2
+title_de: Wie spät ist es? – Die Uhrzeit
+title_vi: Mấy giờ rồi? – Giờ giấc trong đời sống
+topic_vi: Cách hỏi và nói giờ chính thức (offiziell) và không chính thức (im Alltag), giới từ um, von ... bis ...
+duration_min: 80
+difficulty: 2
+cefr:
+- A1.SI2
+- A1.H3
+- A1.L3
+- A1.SP1
+prerequisites:
+- a1.m05.l01
+objectives:
+- id: a1.m05.l02.obj1
+  text_vi: 'Hỏi và nói giờ theo cách chính thức 24h (trên đài, tin tức, nhà ga): 14:30 = vierzehn Uhr dreißig.'
+  skill: vocabulary
+- id: a1.m05.l02.obj2
+  text_vi: 'Nói giờ trong giao tiếp hằng ngày (12h): Viertel nach, Viertel vor, halb (chú ý: halb acht = 7:30).'
+  skill: vocabulary
+- id: a1.m05.l02.obj3
+  text_vi: 'Sử dụng chính xác các giới từ chỉ thời gian: um (giờ cụ thể), von ... bis ... (khoảng thời gian).'
+  skill: grammar
+- id: a1.m05.l02.obj4
+  text_vi: Hiểu thông báo giờ tàu xe, lịch mở cửa và thời gian biểu qua bài nghe và đọc.
+  skill: listening
+vocabulary_refs:
+- a1.m05.v.uhrzeit
+- a1.m05.v.spaet
+- a1.m05.v.frueh
+- a1.m05.v.viertelstunde
+- a1.m05.v.minute
+- a1.m05.v.sekunde
+- a1.m05.v.viertel
+- a1.m05.v.vor
+- a1.m05.v.mittagspause
+- a1.m05.v.puenktlich
+- a1.m05.v.unpuenktlich
+- a1.m05.v.dauern
+- a1.m05.v.wie-lange
+- a1.m05.v.zeitplan
+- a1.m05.v.von-bis
+- a1.m05.v.mitternacht
+- a1.m05.v.terminplan
+- a1.m05.v.taeglich
+review_vocabulary_refs:
+- a1.m04.v.um
+- a1.m04.v.halb
+- a1.m05.v.aufstehen
+- a1.m05.v.anfangen
+grammar_refs:
+- a1.g.zeitangaben-wann
+grammar_focus:
+- ref: a1.g.zeitangaben-wann
+  focus_vi: 'Giới từ chỉ thời gian: um (giờ), von... bis... (khoảng thời lượng), phân biệt Uhr và Stunde'
+expression_refs:
+- a1.m05.x.wie-spaet-ist-es-wie-viel-uhr-ist-es-es
+- a1.m05.x.wann-um-uhr-von-bis-uhr
+exercise_set_ref: a1.m05.l02.ex
+summary_vi: Bài học giúp bạn thành thạo cách hỏi và nói giờ theo cả hai hệ thống chính thức 24h và giao tiếp 12h (Viertel vor/nach, đặc biệt là quy tắc halb), nắm vững giới từ thời gian um và von ... bis ...
+self_check:
+- 'Tôi nhớ nguyên tắc nói giờ với halb: halb neun = 8:30 (không phải 9:30).'
+- 'Tôi biết hỏi giờ bằng hai cách: Wie spät ist es? và Wie viel Uhr ist es?.'
+- Tôi phân biệt được Uhr (thời điểm) và Stunde (khoảng thời lượng).
+blocks:
+- id: a1.m05.l02.b1
+  kind: explanation
+  title_vi: Giới thiệu bài học
+  body_vi: "Biết cách hỏi và nói giờ chuẩn xác là chìa khóa để bạn hòa nhập vào nhịp sống nổi tiếng đúng giờ (*pünktlich*) của người Đức:\n- Bạn sẽ học hai cách hỏi giờ thông dụng nhất: *Wie spät ist es?* và *Wie viel Uhr ist es?*\n- Phân biệt hai hệ thống nói giờ:\n  1. **Giờ chính thức (offiziell - hệ 24h):** Dùng ở nhà ga, sân bay, đài phát thanh: *14:15 = vierzehn Uhr fünfzehn*.\n  2. **Giờ giao tiếp hằng ngày (inoffiziell - hệ 12h):** Dùng khi nói chuyện với bạn bè: *Viertel nach zwei, halb drei, Viertel vor drei*.\n- Nắm vững quy tắc vàng của từ **halb**: *halb acht* là 7:30 (nửa tiếng trước 8 giờ), hoàn toàn khác với cách tư duy trong tiếng Việt!\n- Ứng dụng giới từ *um* (lúc mấy giờ) và *von ... bis ...* (từ mấy giờ đến mấy giờ)."
+- id: a1.m05.l02.b2
+  kind: explanation
+  title_vi: Lưu ý quan trọng về cách nói giờ với halb
+  skill: grammar
+  body_vi: 'Trong tiếng Đức, từ halb (rưỡi/nửa) chỉ thời điểm CÒN NỬA TIẾNG NỮA SẼ ĐẾN GIỜ TIẾP THEO. Do đó: halb tám (halb acht) = 7:30 (không phải 8:30!). Để nói 8:30 ta phải nói halb neun. Đây là điểm người Việt rất hay nhầm lẫn.'
+  examples:
+  - de: 7:30 = halb acht
+    vi: bảy giờ rưỡi
+  - de: 8:30 = halb neun
+    vi: tám giờ rưỡi
+  - de: 12:30 = halb eins
+    vi: mười hai giờ rưỡi
+- id: a1.m05.l02.b3
+  kind: pronunciation
+  title_vi: Phát âm phụ âm 'r' và ngữ điệu đọc giờ
+  skill: pronunciation
+  body_vi: 'Phát âm phụ âm ''r'' và ngữ điệu đọc giờ
+
+
+    Âm r ở cuối từ hoặc trước phụ âm (Uhr, vor, Viertel, kurz) đọc nhẹ chuyển về âm [ɐ] (nguyên âm hóa âm r): [uːɐ̯], [foːɐ̯], [ˈfɪʁtl̩].
+
+
+    Luyện tập: Luyện phát âm: Wie viel Uhr? – Vier-tel vor acht – halb neun.'
+  items:
+  - de: die Uhr
+    vi: đồng hồ / giờ
+    ipa: '[uːɐ̯]'
+  - de: Viertel
+    vi: 15 phút
+    ipa: '[ˈfɪʁtl̩]'
+  - de: vor
+    vi: trước / kém
+    ipa: '[foːɐ̯]'
+- id: a1.m05.l02.b4
+  kind: examples
+  title_vi: Câu ví dụ
+  examples:
+  - de: Es ist Viertel nach neun (9:15 Uhr).
+    vi: Bây giờ là chín giờ mười lăm phút.
+  - de: Der Zug kommt um 17:45 Uhr (Viertel vor sechs) an.
+    vi: Chuyến tàu đến lúc 17:45 (sáu giờ kém mười lăm).
+  - de: Die Bibliothek öffnet von 9 bis 18 Uhr.
+    vi: Thư viện mở cửa từ 9 đến 18 giờ.
+  - de: Der Bus fährt in zehn Minuten ab.
+    vi: Xe buýt khởi hành sau mười phút nữa.
+  - de: Sei bitte pünktlich! Wir treffen uns um punkt acht Uhr.
+    vi: Xin hãy đúng giờ nhé! Chúng ta gặp nhau đúng tám giờ.
+- id: a1.m05.l02.b5
+  kind: listening
+  title_vi: Hỏi giờ tại nhà ga trung tâm
+  lines:
+  - speaker: Reisender
+    de: Entschuldigung, wie viel Uhr ist es jetzt?
+    vi: Xin lỗi, bây giờ là mấy giờ rồi ạ?
+  - speaker: Auskunft
+    de: Es ist jetzt genau zehn nach zwei.
+    vi: Bây giờ là đúng hai giờ mười phút (14:10).
+  - speaker: Reisender
+    de: Danke! Und wann fährt der nächste ICE nach Hamburg?
+    vi: Cảm ơn chị! Và khi nào có chuyến tàu ICE tiếp theo đi Hamburg ạ?
+  - speaker: Auskunft
+    de: Der ICE fährt um 14:35 Uhr auf Gleis 7 ab. Also in fünfundzwanzig Minuten.
+    vi: Tàu ICE khởi hành lúc 14:35 ở sân ga số 7. Tức là 25 phút nữa.
+  - speaker: Reisender
+    de: Vielen Dank! Ist der Zug pünktlich?
+    vi: Cảm ơn chị rất nhiều! Tàu có đúng giờ không ạ?
+  - speaker: Auskunft
+    de: Ja, der Zug ist pünktlich.
+    vi: Dạ có, tàu chạy đúng giờ.
+  audio_status: pending-tts
+  situation_vi: Một hành khách hỏi nhân viên quầy thông tin về giờ tàu đi Hamburg.
+  skill: listening
+  audio:
+    speed: normal
+- id: a1.m05.l02.b6
+  kind: reading
+  title_vi: Lịch mở cửa của Trung tâm Y tế Bürgerpark
+  paragraphs:
+  - de: 'Ärztehaus Bürgerpark – Öffnungszeiten:
+
+      Montag bis Donnerstag: 08:00 – 12:30 Uhr und 14:30 – 18:00 Uhr
+
+      Freitag: 08:00 – 13:00 Uhr (nachmittags geschlossen)
+
+      Samstag và Sonntag: geschlossen (Notdienst unter 116 117)
+
+      Bitte beachten Sie: Die Telefonzentrale ist täglich von 08:30 bis 11:30 Uhr besetzt.'
+    vi: 'Trung tâm Y tế Bürgerpark – Thời gian mở cửa:
+
+      Thứ Hai đến thứ Năm: 08:00 – 12:30 và 14:30 – 18:00
+
+      Thứ Sáu: 08:00 – 13:00 (buổi chiều đóng cửa)
+
+      Thứ Bảy và Chủ nhật: đóng cửa (cấp cứu liên hệ 116 117)
+
+      Xin lưu ý: Tổng đài điện thoại làm việc từ 08:30 đến 11:30 mỗi ngày.'
+  text_type_vi: Bảng giờ mở cửa (Öffnungszeiten)
+  skill: reading
+  glossary:
+  - de: die Öffnungszeiten
+    vi: giờ mở cửa
+  - de: geschlossen
+    vi: đóng cửa
+  - de: der Notdienst
+    vi: dịch vụ cấp cứu
+- id: a1.m05.l02.b7
+  kind: speaking
+  title_vi: Hỏi và nói giờ theo hai cách
+  skill: speaking
+  task_vi: 'Hãy nhìn vào các mốc thời gian và nói bằng cả hai cách: giờ chính thức (offiziell) và giờ thông dụng (im Alltag).'
+  steps_vi:
+  - 'Mốc 8:15: acht Uhr fünfzehn / Viertel nach acht.'
+  - 'Mốc 9:30: neun Uhr dreißig / halb zehn.'
+  - 'Mốc 10:45: zehn Uhr fünfundvierzig / Viertel vor elf.'
+  lines:
+  - speaker: A
+    de: Wie spät ist es auf deiner Uhr?
+    vi: Mấy giờ trên đồng hồ của bạn rồi?
+  - speaker: B
+    de: Es ist halb zehn (9:30 Uhr).
+    vi: Chín giờ rưỡi rồi.
+- id: a1.m05.l02.b8
+  kind: writing
+  title_vi: Viết thông báo thời gian biểu cho một sự kiện
+  skill: writing
+  task_vi: Viết một thông báo ngắn 3–4 câu về lịch hoạt động của một câu lạc bộ hoặc một buổi gặp gỡ, sử dụng các mốc giờ và giới từ um, von... bis...
+  model:
+    de: Unser Deutsch-Treffen findet am Samstag statt. Wir treffen uns um 15:30 Uhr (halb vier). Das Treffen dauert zwei Stunden, von 15:30 bis 17:30 Uhr. Bitte seien Sie pünktlich!
+    vi: Buổi gặp mặt tiếng Đức của chúng ta diễn ra vào thứ Bảy. Chúng ta gặp nhau lúc 15:30 (ba rưỡi chiều). Buổi gặp kéo dài hai tiếng, từ 15:30 đến 17:30. Xin vui lòng đến đúng giờ!
+  checklist_vi:
+  - Có câu nêu mốc giờ với giới từ um.
+  - Có khoảng thời gian dùng von ... bis ...

@@ -1,0 +1,65 @@
+schema_version: "2.0"
+content_type: grammar-topic
+id: a1.g.konjunktionen
+level: A1
+introduced_in: a1.m07
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  references:
+    - { work: "Netzwerk neu A1.2 – Stoffverteilungsplan (Klett)", scope: "Kapitel 7, Grammatik: Sätze verbinden: und, oder, aber", verification: verified }
+  tags: ["konjunktion", "satzbau"]
+title_de: "Sätze verbinden: und, oder, aber"
+title_vi: "Nối câu bằng và, hoặc, nhưng"
+summary_vi: "„und“, „oder“, „aber“ nối hai từ hoặc hai câu. Chúng đứng ở ‘vị trí 0’ nên động từ trong câu sau vẫn ở vị trí thứ hai như bình thường."
+usage_vi: "Dùng khi muốn nói liền mạch: kể hai việc (und), đưa ra lựa chọn (oder), hoặc nói một ý ngược lại (aber)."
+objectives:
+  - { id: a1.g.konjunktionen.obj1, text_vi: "Nối hai câu bằng und/oder/aber và đặt đúng vị trí động từ.", skill: grammar }
+rules:
+  - id: a1.g.konjunktionen.r1
+    title_vi: "und = và (thêm vào)"
+    body_vi: "„und“ nối hai việc cùng chiều. Nếu hai câu có cùng chủ ngữ, có thể bỏ chủ ngữ thứ hai: „Ich arbeite und lerne.“"
+    examples:
+      - { de: "Ich arbeite in einer Bank und lerne abends Deutsch.", vi: "Tôi làm ở ngân hàng và buổi tối học tiếng Đức." }
+      - { de: "Die Kollegin schreibt eine E-Mail und der Chef telefoniert.", vi: "Đồng nghiệp nữ viết e-mail và sếp gọi điện." }
+  - id: a1.g.konjunktionen.r2
+    title_vi: "oder = hoặc, hay (lựa chọn)"
+    body_vi: "„oder“ đưa ra hai khả năng. Trong câu hỏi, „…, oder?“ ở cuối câu còn dùng để xác nhận (‘đúng không?’)."
+    examples:
+      - { de: "Gehst du in die Kantine oder isst du am Schreibtisch?", vi: "Bạn đi căng-tin hay ăn ở bàn làm việc?" }
+      - { de: "Du kommst morgen, oder?", vi: "Ngày mai bạn đến, đúng không?" }
+  - id: a1.g.konjunktionen.r3
+    title_vi: "aber = nhưng (đối lập)"
+    body_vi: "„aber“ nối hai ý trái nhau. Khi nối hai câu hoàn chỉnh, luôn có dấu phẩy trước „aber“."
+    examples:
+      - { de: "Die Arbeit ist anstrengend, aber sie macht Spaß.", vi: "Công việc vất vả nhưng nó vui." }
+      - { de: "Ich möchte Pause machen, aber der Termin ist wichtig.", vi: "Tôi muốn nghỉ giải lao nhưng cuộc hẹn rất quan trọng." }
+  - id: a1.g.konjunktionen.r4
+    title_vi: "Vị trí động từ sau và/oder/aber"
+    body_vi: "Ba liên từ này không được tính là một ‘vị trí’ trong câu (vị trí 0). Sau chúng, câu vẫn có trật tự bình thường: chủ ngữ ở vị trí 1, động từ chia ở vị trí 2."
+    table:
+      header: ["Câu 1", "Liên từ (vị trí 0)", "Vị trí 1", "Vị trí 2 (động từ)", "…"]
+      rows:
+        - ["Ich bin müde,", "aber", "ich", "arbeite", "noch."]
+        - ["Wir essen jetzt,", "und", "danach", "gehen", "wir zurück ins Büro."]
+    examples:
+      - { de: "Ich bin müde, aber ich arbeite noch.", vi: "Tôi mệt nhưng vẫn làm việc." }
+      - { de: "Wir essen jetzt und danach gehen wir zurück ins Büro.", vi: "Bây giờ chúng ta ăn và sau đó quay lại văn phòng." }
+sentence_structures:
+  - { pattern: "Satz 1 + und + Satz 2 (Subjekt + Verb …)", example: { de: "Ich schreibe eine E-Mail und mein Kollege druckt den Brief.", vi: "Tôi viết e-mail và đồng nghiệp in thư." } }
+  - { pattern: "Satz 1 + , aber + Subjekt + Verb …", example: { de: "Der Drucker ist neu, aber er funktioniert nicht.", vi: "Máy in mới nhưng nó không hoạt động." } }
+  - { pattern: "Frage A oder Frage B?", example: { de: "Fängst du um acht oder um neun Uhr an?", vi: "Bạn bắt đầu lúc tám hay chín giờ?" } }
+examples:
+  - { de: "Ich trinke Kaffee und mein Chef trinkt Tee.", vi: "Tôi uống cà phê và sếp tôi uống trà." }
+  - { de: "Arbeitest du heute oder hast du frei?", vi: "Hôm nay bạn đi làm hay được nghỉ?" }
+  - { de: "Das Büro ist klein, aber es ist hell.", vi: "Văn phòng nhỏ nhưng sáng." }
+  - { de: "Die Besprechung beginnt um zehn Uhr und endet um elf Uhr.", vi: "Cuộc họp bắt đầu lúc mười giờ và kết thúc lúc mười một giờ." }
+common_mistakes:
+  - { wrong: "Ich bin müde, aber arbeite ich noch.", right: "Ich bin müde, aber ich arbeite noch.", explanation_vi: "Sau „aber“ vẫn là trật tự thường: chủ ngữ rồi mới đến động từ. Đừng đảo động từ lên trước chủ ngữ." }
+  - { wrong: "Der Drucker ist neu aber er funktioniert nicht.", right: "Der Drucker ist neu, aber er funktioniert nicht.", explanation_vi: "Khi „aber“ nối hai câu đầy đủ (mỗi câu có chủ ngữ và động từ), cần dấu phẩy trước „aber“." }
+exercise_refs: [a1.m07.l01.ex.03, a1.m07.l01.ex.04]

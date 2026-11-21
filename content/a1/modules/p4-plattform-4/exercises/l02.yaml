@@ -1,0 +1,138 @@
+schema_version: "2.0"
+content_type: exercise-set
+id: a1.p4.l02.ex
+level: A1
+module: a1.p4
+lesson: a1.p4.l02
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+exercises:
+  - id: a1.p4.l02.ex.01
+    type: multiple-choice
+    skill: vocabulary
+    difficulty: 1
+    objective_refs: [a1.p4.l02.obj1]
+    instructions_vi: "Chọn đáp án đúng."
+    items:
+      - id: a1.p4.l02.ex.01.q1
+        prompt: "Welchen Artikel hat „Hauptstadt“?"
+        options: [{ id: a, text: "der" }, { id: b, text: "die" }, { id: c, text: "das" }]
+        answer: [b]
+        explanation_vi: "die Hauptstadt (số nhiều die Hauptstädte)."
+      - id: a1.p4.l02.ex.01.q2
+        prompt: "Wie heißt der Plural von „der Fluss“?"
+        options: [{ id: a, text: "die Flüsse" }, { id: b, text: "die Flusse" }, { id: c, text: "die Flüssen" }]
+        answer: [a]
+        explanation_vi: "Số nhiều có Umlaut: die Flüsse."
+      - id: a1.p4.l02.ex.01.q3
+        prompt: "Die Hauptstadt von Österreich ist ___."
+        options: [{ id: a, text: "Bern" }, { id: b, text: "Wien" }, { id: c, text: "Berlin" }]
+        answer: [b]
+        explanation_vi: "Thủ đô của Áo là Wien."
+      - id: a1.p4.l02.ex.01.q4
+        prompt: "Was ist Rügen?"
+        options: [{ id: a, text: "Eine Insel." }, { id: b, text: "Ein Fluss." }, { id: c, text: "Eine Stadt." }]
+        answer: [a]
+        explanation_vi: "Rügen là một hòn đảo (die Insel) ở phía bắc."
+  - id: a1.p4.l02.ex.02
+    type: matching
+    skill: vocabulary
+    difficulty: 1
+    objective_refs: [a1.p4.l02.obj1]
+    instructions_vi: "Nối tên với thông tin đúng."
+    items:
+      - id: a1.p4.l02.ex.02.q1
+        pairs:
+          - { left: "Berlin", right: "Hauptstadt von Deutschland" }
+          - { left: "Wien", right: "Hauptstadt von Österreich" }
+          - { left: "die Alpen", right: "Gebirge im Süden" }
+          - { left: "Rügen", right: "Insel im Norden" }
+        explanation_vi: "Berlin và Wien là thủ đô; dãy Alpen ở phía nam; Rügen là đảo ở phía bắc."
+  - id: a1.p4.l02.ex.03
+    type: true-false
+    skill: reading
+    difficulty: 1
+    objective_refs: [a1.p4.l02.obj2]
+    instructions_vi: "Đọc bài „Ba nước, một chuyến đi“ (khối đọc ở trên) và chọn Richtig hoặc Falsch."
+    stimulus: { ref: a1.p4.l02.b2 }
+    items:
+      - { id: a1.p4.l02.ex.03.q1, prompt: "Die Hauptstadt von Österreich ist Wien.", answer: true, explanation_vi: "Câu thứ hai của bài." }
+      - { id: a1.p4.l02.ex.03.q2, prompt: "Deutschland hat zehn Bundesländer.", answer: false, explanation_vi: "Đức có sechzehn (16) Bundesländer." }
+      - { id: a1.p4.l02.ex.03.q3, prompt: "Im Norden gibt es die Nordsee und die Ostsee.", answer: true, explanation_vi: "Ở phía bắc có Nordsee và Ostsee." }
+      - { id: a1.p4.l02.ex.03.q4, prompt: "Die Donau fließt durch Köln.", answer: false, explanation_vi: "Donau chảy qua Wien; Rhein chảy qua Köln." }
+      - { id: a1.p4.l02.ex.03.q5, prompt: "In der Schweiz spricht man nur Deutsch.", answer: false, explanation_vi: "Thụy Sĩ có Deutsch, Französisch, Italienisch và Rätoromanisch." }
+  - id: a1.p4.l02.ex.04
+    type: multiple-choice
+    skill: listening
+    difficulty: 2
+    objective_refs: [a1.p4.l02.obj2]
+    instructions_vi: "Nghe bản tin du lịch (khối nghe ở trên) và chọn đáp án."
+    stimulus: { ref: a1.p4.l02.b3 }
+    items:
+      - id: a1.p4.l02.ex.04.q1
+        prompt: "Wohin soll man fahren?"
+        options: [{ id: a, text: "Nach Wien." }, { id: b, text: "Nach Berlin." }, { id: c, text: "Nach Köln." }]
+        answer: [a]
+        explanation_vi: "„Fahren Sie nach Wien!“"
+      - id: a1.p4.l02.ex.04.q2
+        prompt: "Was kann man in der Stadt machen?"
+        options: [{ id: a, text: "Das Schloss besichtigen und Kuchen essen." }, { id: b, text: "Ski fahren." }, { id: c, text: "Im Meer schwimmen." }]
+        answer: [a]
+        explanation_vi: "„das Schloss besichtigen und im Café Kuchen essen“."
+      - id: a1.p4.l02.ex.04.q3
+        prompt: "Wie ist es im Winter?"
+        options: [{ id: a, text: "Warm." }, { id: b, text: "Kalt." }, { id: c, text: "Heiß." }]
+        answer: [b]
+        explanation_vi: "„im Winter ist es kalt“."
+  - id: a1.p4.l02.ex.05
+    type: fill-blank
+    skill: vocabulary
+    difficulty: 1
+    objective_refs: [a1.p4.l02.obj1]
+    instructions_vi: "Điền từ thích hợp."
+    word_bank: ["Norden", "Süden", "Hauptstadt", "Insel"]
+    items:
+      - { id: a1.p4.l02.ex.05.q1, prompt: "Hamburg liegt im ___ von Deutschland.", answers: ["Norden"], explanation_vi: "Hamburg ở phía bắc." }
+      - { id: a1.p4.l02.ex.05.q2, prompt: "München liegt im ___.", answers: ["Süden"], explanation_vi: "München ở phía nam." }
+      - { id: a1.p4.l02.ex.05.q3, prompt: "Die ___ von Deutschland ist Berlin.", answers: ["Hauptstadt"], explanation_vi: "Berlin là thủ đô (die Hauptstadt)." }
+      - { id: a1.p4.l02.ex.05.q4, prompt: "Rügen ist eine ___.", answers: ["Insel"], explanation_vi: "Rügen là một hòn đảo." }
+  - id: a1.p4.l02.ex.06
+    type: translation
+    skill: writing
+    difficulty: 2
+    objective_refs: [a1.p4.l02.obj3]
+    instructions_vi: "Dịch sang tiếng Đức."
+    items:
+      - { id: a1.p4.l02.ex.06.q1, direction: vi-de, source: "Thủ đô của nước Áo là Wien.", answers: ["Die Hauptstadt von Österreich ist Wien."], explanation_vi: "die Hauptstadt von + nước." }
+      - { id: a1.p4.l02.ex.06.q2, direction: vi-de, source: "Ở phía nam có dãy Alpen.", answers: ["Im Süden gibt es die Alpen.", "Im Süden liegen die Alpen."], explanation_vi: "im Süden; es gibt + Akkusativ, hoặc liegen + chủ ngữ số nhiều." }
+      - { id: a1.p4.l02.ex.06.q3, direction: vi-de, source: "Mùa đông ở đó có thể trượt tuyết.", answers: ["Im Winter kann man dort Ski fahren.", "Dort kann man im Winter Ski fahren."], explanation_vi: "man kann + nguyên mẫu ở cuối." }
+  - id: a1.p4.l02.ex.07
+    type: speaking-practice
+    skill: speaking
+    difficulty: 2
+    objective_refs: [a1.p4.l02.obj3]
+    instructions_vi: "Nói 3–4 câu về một điểm đến bạn muốn ghé thăm ở D-A-CH."
+    items:
+      - id: a1.p4.l02.ex.07.q1
+        prompt_vi: "Nêu nơi muốn đến, ở phía nào, và điều có thể làm."
+        model_answer: { de: "Ich möchte nach München fahren. München liegt im Süden. Man kann dort die Alpen sehen. Im Winter kann man Ski fahren.", vi: "Tôi muốn đến München. München nằm ở phía nam. Ở đó có thể nhìn thấy dãy Alpen. Mùa đông có thể trượt tuyết." }
+        rubric_vi: ["Nêu nơi muốn đến.", "Dùng im Norden/Süden đúng.", "Dùng man kann … đúng.", "Nói trôi chảy."]
+        explanation_vi: "Bài mẫu có điểm đến, phương hướng và man kann."
+  - id: a1.p4.l02.ex.08
+    type: writing-practice
+    skill: writing
+    difficulty: 2
+    objective_refs: [a1.p4.l02.obj3]
+    instructions_vi: "Viết bưu thiếp 3–4 câu từ một thành phố D-A-CH."
+    items:
+      - id: a1.p4.l02.ex.08.q1
+        prompt_vi: "Chào, nơi bạn ở, thời tiết, một việc đã làm."
+        model_answer: { de: "Liebe Mama, liebe Grüße aus Wien! Das Wetter ist schön und die Sonne scheint. Wir haben das Schloss besichtigt. Es war toll! Bis bald, Lan", vi: "Mẹ thân mến, gửi những lời thân ái từ Wien! Thời tiết đẹp và trời nắng. Chúng con đã tham quan lâu đài. Tuyệt lắm! Hẹn sớm gặp lại, Lan" }
+        rubric_vi: ["Có lời chào và lời kết.", "Nêu thành phố và thời tiết.", "Có một câu Perfekt đúng.", "Chính tả đúng."]
+        explanation_vi: "Bài mẫu có chào, thời tiết, Perfekt và kết."

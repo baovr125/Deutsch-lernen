@@ -1,0 +1,66 @@
+schema_version: "2.0"
+content_type: grammar-topic
+id: a1.g.partizip2-regelmaessig
+level: A1
+introduced_in: a1.m10
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  references:
+    - { work: "Netzwerk neu A1.2 – Stoffverteilungsplan (Klett)", scope: "Kapitel 10, Grammatik: Partizip II – regelmäßige Verben", verification: verified }
+  tags: ["perfekt", "partizip", "regelmaessig"]
+title_de: "Partizip II: regelmäßige Verben"
+title_vi: "Quá khứ phân từ của động từ có quy tắc"
+summary_vi: "Động từ có quy tắc: ge- + thân + -t (lernen → gelernt). Động từ tách: ge- chèn vào giữa tiền tố và thân (aufräumen → aufgeräumt)."
+usage_vi: "Dùng để lập Perfekt với „haben“ cho phần lớn động từ thường gặp: kochen, lernen, spielen, putzen, arbeiten…"
+objectives:
+  - { id: a1.g.partizip2-regelmaessig.obj1, text_vi: "Lập Partizip II của động từ có quy tắc, kể cả động từ tách.", skill: grammar }
+rules:
+  - id: a1.g.partizip2-regelmaessig.r1
+    title_vi: "ge- + thân động từ + -t"
+    body_vi: "Bỏ -en, thêm „ge-“ ở đầu và „-t“ ở cuối. Nếu thân kết thúc bằng -t, -d hoặc cụm phụ âm khó đọc thì thêm „-et“ (arbeiten → gearbeitet)."
+    table:
+      header: ["Nguyên mẫu", "Partizip II"]
+      rows:
+        - ["lernen", "gelernt"]
+        - ["kochen", "gekocht"]
+        - ["spielen", "gespielt"]
+        - ["putzen", "geputzt"]
+        - ["arbeiten", "gearbeitet"]
+    examples:
+      - { de: "Ich habe Deutsch gelernt.", vi: "Tôi đã học tiếng Đức." }
+      - { de: "Er hat lange gearbeitet.", vi: "Anh ấy đã làm việc rất lâu." }
+  - id: a1.g.partizip2-regelmaessig.r2
+    title_vi: "Động từ tách: ge- ở giữa"
+    body_vi: "Tiền tố tách (auf-, an-, ein-, zurück-…) giữ nguyên ở đầu; „ge“ chèn giữa tiền tố và thân: auf+ge+räumt."
+    table:
+      header: ["Nguyên mẫu", "Partizip II"]
+      rows:
+        - ["aufräumen", "aufgeräumt"]
+        - ["einkaufen", "eingekauft"]
+    examples:
+      - { de: "Wir haben die Wohnung aufgeräumt.", vi: "Chúng tôi đã dọn dẹp căn hộ." }
+      - { de: "Sie hat im Supermarkt eingekauft.", vi: "Cô ấy đã đi mua sắm ở siêu thị." }
+  - id: a1.g.partizip2-regelmaessig.r3
+    title_vi: "Mẹo nhớ"
+    body_vi: "Nếu động từ có quy tắc, Partizip II có dạng „ge…t“. Nếu bạn nghe/đọc thấy „ge…en“ thì đó là động từ bất quy tắc (bài tiếp theo)."
+    examples:
+      - { de: "Der Kollege hat gekocht.", vi: "Đồng nghiệp nam đã nấu ăn." }
+      - { de: "Die Kinder haben im Garten gespielt.", vi: "Bọn trẻ đã chơi trong vườn." }
+sentence_structures:
+  - { pattern: "Subjekt + haben + (Angaben) + ge…t", example: { de: "Wir haben lange gespielt.", vi: "Chúng tôi đã chơi rất lâu." } }
+  - { pattern: "Subjekt + haben + (Angaben) + Präfix-ge-…t", example: { de: "Ich habe die Küche aufgeräumt.", vi: "Tôi đã dọn dẹp nhà bếp." } }
+examples:
+  - { de: "Gestern habe ich gekocht und aufgeräumt.", vi: "Hôm qua tôi đã nấu ăn và dọn dẹp." }
+  - { de: "Hast du schon gelernt?", vi: "Bạn đã học chưa?" }
+  - { de: "Er hat das Bad geputzt.", vi: "Anh ấy đã lau phòng tắm." }
+  - { de: "Wir haben um sieben Uhr gefrühstückt.", vi: "Chúng tôi đã ăn sáng lúc bảy giờ." }
+common_mistakes:
+  - { wrong: "Ich habe gelernen.", right: "Ich habe gelernt.", explanation_vi: "Động từ có quy tắc kết thúc -t, không phải -en." }
+  - { wrong: "Wir haben geaufräumt.", right: "Wir haben aufgeräumt.", explanation_vi: "Không thêm „ge-“ ở đầu động từ tách. Dạng đúng là „aufgeräumt“: tiền tố „auf“ đứng trước, rồi „ge“, rồi thân „räumt“." }
+exercise_refs: [a1.m10.l02.ex.02]

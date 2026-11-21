@@ -1,0 +1,199 @@
+schema_version: '2.0'
+content_type: grammar-topic
+id: a1.g.aussagesatz
+level: A1
+introduced_in: a1.m01
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+  references:
+  - work: Netzwerk neu A1 (Klett)
+    scope: 'Kapitel 1: Woher kommen Sie?'
+    verification: verified
+  notes_vi: Tương ứng Grammatik „Aussagesatz“ của Kapitel 1.
+introduced_in_lesson: a1.m01.l03
+title_de: 'Der Aussagesatz: Das Verb auf Position 2'
+title_vi: 'Câu kể: động từ ở vị trí thứ 2'
+summary_vi: '**Câu kể** (Aussagesatz) là câu dùng để nói, kể, cung cấp thông tin – kết thúc bằng dấu chấm.
+
+
+  **Quy tắc vàng của tiếng Đức:** trong câu kể, **động từ đã chia luôn ở vị trí 2**.
+
+
+  "Vị trí" không phải là "từ thứ mấy", mà là **khối nghĩa**. Một vị trí có thể gồm nhiều từ:
+
+
+  | Vị trí 1 | Vị trí 2 (động từ) | Phần còn lại |
+
+  |---|---|---|
+
+  | Ich | komme | aus Vietnam. |
+
+  | Mein Name | ist | Hoa. |
+
+  | Frau Weber | wohnt | in Berlin. |
+
+
+  Ở Kapitel 1, vị trí 1 thường là **chủ ngữ** (ai/cái gì làm hành động). Ở Kapitel 4, bạn sẽ học rằng vị trí 1
+
+  cũng có thể là thông tin khác (ví dụ thời gian) – nhưng động từ **vẫn ở vị trí 2**.'
+usage_vi: Dùng để giới thiệu bản thân, trả lời W-Fragen bằng câu đầy đủ, kể về người khác.
+objectives:
+- id: a1.g.aussagesatz.obj1
+  text_vi: Đặt động từ chia ở vị trí thứ hai trong câu kể và nối câu bằng und.
+  skill: grammar
+rules:
+- id: a1.g.aussagesatz.r1
+  title_vi: Động từ chia ở vị trí 2
+  body_vi: Động từ chia luôn đứng ở vị trí 2 trong câu kể.
+  examples:
+  - de: Ich spreche Vietnamesisch.
+    vi: Tôi nói tiếng Việt.
+  - de: Paul kommt aus Deutschland.
+    vi: Paul đến từ Đức.
+- id: a1.g.aussagesatz.r2
+  title_vi: Đếm vị trí theo khối nghĩa
+  body_vi: Một vị trí có thể gồm nhiều từ (ví dụ Mein Name, Frau Weber). Đếm vị trí theo khối nghĩa, không theo số từ.
+  examples:
+  - de: Mein Name ist Hoa.
+    vi: Tên tôi là Hoa.
+    note_vi: Vị trí 1 = Mein Name (2 từ).
+  - de: Herr Klein wohnt in Wien.
+    vi: Ông Klein sống ở Viên.
+    note_vi: Vị trí 1 = Herr Klein.
+- id: a1.g.aussagesatz.r3
+  title_vi: Nối hai câu kể bằng und
+  body_vi: Có thể nối hai câu kể bằng und; sau und, câu thứ hai vẫn có động từ ở vị trí 2 (und không tính là một vị trí).
+  examples:
+  - de: Ich heiße Minh und ich wohne in Leipzig.
+    vi: Tôi tên là Minh và tôi sống ở Leipzig.
+  - de: Sie kommt aus Polen und spricht Polnisch.
+    vi: Cô ấy đến từ Ba Lan và nói tiếng Ba Lan.
+    note_vi: Khi chủ ngữ giống nhau có thể bỏ chủ ngữ thứ hai.
+sentence_structures:
+- pattern: Subjekt (1) + Verb (2) + Ergänzung.
+  example:
+    de: Ich wohne in Hanoi.
+    vi: Tôi sống ở Hà Nội.
+- pattern: '[Cụm chủ ngữ nhiều từ] (1) + Verb (2) + …'
+  example:
+    de: Mein Vorname ist Linh.
+    vi: Tên tôi là Linh.
+tables:
+- title_vi: So sánh câu kể và W-Frage
+  header:
+  - Loại câu
+  - Vị trí 1
+  - Vị trí 2
+  - Phần còn lại
+  rows:
+  - - Câu kể
+    - Ich
+    - wohne
+    - in Hamburg.
+  - - W-Frage
+    - Wo
+    - wohnst
+    - du?
+  - - Câu kể
+    - Das
+    - ist
+    - Frau Lang.
+  - - W-Frage
+    - Wer
+    - ist
+    - das?
+  note_vi: Trong cả hai loại câu, động từ đều ở vị trí 2.
+examples:
+- de: Ich heiße Lan.
+  vi: Tôi tên là Lan.
+- de: Ich komme aus Vietnam.
+  vi: Tôi đến từ Việt Nam.
+- de: Mein Nachname ist Pham.
+  vi: Họ của tôi là Phạm.
+- de: Er wohnt in Hamburg und spricht Englisch.
+  vi: Anh ấy sống ở Hamburg và nói tiếng Anh.
+- de: Das ist Frau Becker.
+  vi: Đây là bà Becker.
+common_mistakes:
+- wrong: Ich aus Vietnam komme.
+  right: Ich komme aus Vietnam.
+  explanation_vi: Động từ phải ở vị trí 2, ngay sau chủ ngữ ở câu này.
+- wrong: Ich Vietnamesisch spreche.
+  right: Ich spreche Vietnamesisch.
+  explanation_vi: Tiếng Việt có thể đảo “Tiếng Việt thì tôi nói”, nhưng động từ tiếng Đức không được rời vị trí 2.
+- wrong: Mein Name Hoa ist.
+  right: Mein Name ist Hoa.
+  explanation_vi: Mein Name là một khối (vị trí 1), động từ ist phải đứng ngay sau.
+comparison_vi: 'So sánh với W-Frage: câu kể và W-Frage có cùng quy tắc động từ ở vị trí 2. Khác ở vị trí 1: câu kể thường là chủ ngữ, W-Frage là từ để hỏi.'
+vietnamese_contrast_vi: 'Ở Kapitel 1, câu kể tiếng Đức giống tiếng Việt (Chủ ngữ – Động từ – …): “Tôi đến từ Việt Nam” = “Ich komme aus Vietnam”. Khác biệt lớn xuất hiện ở Kapitel 4: tiếng Việt nói “Hôm nay tôi học”, tiếng Đức phải nói “Heute lerne ich” (động từ vẫn ở vị trí 2, chủ ngữ ra sau) – hãy nhớ trước quy tắc vị trí 2 để không bị bất ngờ.'
+recap_vi: 'Câu kể: động từ chia ở vị trí 2. Một vị trí có thể gồm nhiều từ (Mein Name, Frau Weber). und không tính là một vị trí.'
+next_level_note_vi: Đưa thông tin khác lên vị trí 1 (Heute lerne ich…) và các khung câu (Satzklammer) học ở Kapitel 4, 5, 6 và 10.
+prerequisites:
+- g-a1-verben-singular
+exercises:
+- id: a1.g.aussagesatz.ex.01
+  type: word-order
+  skill: grammar
+  difficulty: 1
+  objective_refs:
+  - a1.g.aussagesatz.r1
+  - a1.g.aussagesatz.r2
+  - a1.g.aussagesatz.obj1
+  instructions_vi: Sắp xếp thành câu kể đúng.
+  items:
+  - id: a1.g.aussagesatz.ex.01.q1
+    tokens:
+    - aus
+    - Ich
+    - komme
+    - Vietnam
+    answer: Ich komme aus Vietnam.
+    explanation_vi: Ich (1) – komme (2) – aus Vietnam.
+  - id: a1.g.aussagesatz.ex.01.q2
+    tokens:
+    - ist
+    - Name
+    - Mein
+    - Hoa
+    answer: Mein Name ist Hoa.
+    explanation_vi: Mein Name (1) – ist (2) – Hoa.
+  - id: a1.g.aussagesatz.ex.01.q3
+    tokens:
+    - Berlin
+    - in
+    - wohnt
+    - Frau
+    - Weber
+    answer: Frau Weber wohnt in Berlin.
+    explanation_vi: Frau Weber (1) – wohnt (2) – in Berlin.
+- id: a1.g.aussagesatz.ex.02
+  type: true-false
+  skill: grammar
+  difficulty: 2
+  objective_refs:
+  - a1.g.aussagesatz.r1
+  - a1.g.aussagesatz.r3
+  - a1.g.aussagesatz.obj1
+  instructions_vi: Câu có đúng trật tự từ không?
+  items:
+  - id: a1.g.aussagesatz.ex.02.q1
+    prompt: Ich Deutsch spreche.
+    answer: false
+    explanation_vi: 'Đúng phải là: Ich spreche Deutsch.'
+  - id: a1.g.aussagesatz.ex.02.q2
+    prompt: Er kommt aus Polen und wohnt in Köln.
+    answer: true
+    explanation_vi: Hai câu kể nối bằng und, động từ đều ở vị trí 2 (câu sau lược chủ ngữ).
+  - id: a1.g.aussagesatz.ex.02.q3
+    prompt: Das ist Herr Braun.
+    answer: true
+    explanation_vi: Das (1) – ist (2) – Herr Braun.

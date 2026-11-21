@@ -1,0 +1,232 @@
+schema_version: '2.0'
+content_type: exercise-set
+id: a1.m06.l03.ex
+level: A1
+module: a1.m06
+lesson: a1.m06.l03
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+exercises:
+- id: a1.m06.l03.ex.01
+  type: matching
+  skill: vocabulary
+  difficulty: 1
+  objective_refs:
+  - a1.m06.l03.obj1
+  instructions_vi: Nối từ vựng về quà tặng và thiệp mời với nghĩa tiếng Việt tương ứng.
+  items:
+  - id: a1.m06.l03.ex.01.q1
+    pairs:
+    - left: das Geschenk
+      right: món quà, quà tặng
+    - left: schenken
+      right: cho tặng quà
+    - left: der Gutschein
+      right: phiếu quà tặng, voucher
+    - left: der Blumenstrauß
+      right: bó hoa tươi
+    - left: die Einladungskarte
+      right: thiệp mời tiệc
+    - left: die Praline
+      right: kẹo sô-cô-la nhân đặc biệt
+    explanation_vi: Các từ vựng cốt lõi liên quan đến quà tặng và tiệc tùng.
+- id: a1.m06.l03.ex.02
+  type: multiple-choice
+  skill: grammar
+  difficulty: 1
+  objective_refs:
+  - a1.m06.l03.obj2
+  - a1.m06.l03.obj3
+  instructions_vi: Chọn dạng đúng của đại từ hoặc mạo từ ở Akkusativ.
+  items:
+  - id: a1.m06.l03.ex.02.q1
+    prompt: Das Geschenk ist für ___ (du).
+    options:
+    - id: a
+      text: dich
+    - id: b
+      text: dein
+    - id: c
+      text: dir
+    - id: d
+      text: du
+    answer:
+    - a
+    explanation_vi: 'Sau giới từ für là cách Akkusativ: du → dich.'
+  - id: a1.m06.l03.ex.02.q2
+    prompt: Ich kaufe einen Blumenstrauß für ___ (mein) Vater.
+    options:
+    - id: a
+      text: meinen
+    - id: b
+      text: meinem
+    - id: c
+      text: mein
+    - id: d
+      text: meine
+    answer:
+    - a
+    explanation_vi: der Vater là giống đực, sau für ở Akkusativ → meinen Vater.
+  - id: a1.m06.l03.ex.02.q3
+    prompt: Lukas lädt ___ (wir) alle zur Party ein.
+    options:
+    - id: a
+      text: uns
+    - id: b
+      text: euch
+    - id: c
+      text: wir
+    - id: d
+      text: ihnen
+    answer:
+    - a
+    explanation_vi: wir ở Akkusativ đổi thành uns.
+  - id: a1.m06.l03.ex.02.q4
+    prompt: Wo ist mein Schlüssel? Ich suche ___ (er) schon lange.
+    options:
+    - id: a
+      text: ihm
+    - id: b
+      text: er
+    - id: c
+      text: es
+    - id: d
+      text: ihn
+    answer:
+    - d
+    explanation_vi: der Schlüssel (er) làm tân ngữ Akkusativ cho suchen → ihn.
+- id: a1.m06.l03.ex.03
+  type: multiple-choice
+  skill: listening
+  difficulty: 2
+  objective_refs:
+  - a1.m06.l03.obj1
+  - a1.m06.l03.obj4
+  instructions_vi: Nghe đoạn thoại giữa Laura và Tim rồi chọn đáp án chính xác.
+  stimulus:
+    ref: a1.m06.l03.b5
+  items:
+  - id: a1.m06.l03.ex.03.q1
+    prompt: Was wollen Laura und Tim für Markus kaufen?
+    options:
+    - id: a
+      text: ein Fahrrad
+    - id: b
+      text: nur Blumen
+    - id: c
+      text: einen Buch-Gutschein und Pralinen
+    - id: d
+      text: ein Ticket
+    answer:
+    - c
+    explanation_vi: Laura gợi ý phiếu mua sách và Tim mua thêm kẹo sô-cô-la cho Markus.
+  - id: a1.m06.l03.ex.03.q2
+    prompt: Warum passt ein Buch-Gutschein gut zu Markus?
+    options:
+    - id: a
+      text: Weil er sehr gern Bücher liest.
+    - id: b
+      text: Weil er Geld braucht.
+    - id: c
+      text: Weil er Lehrer ist.
+    - id: d
+      text: Weil er keine Pralinen mag.
+    answer:
+    - a
+    explanation_vi: 'Laura nói: ''Markus liest sehr gern Bücher''.'
+- id: a1.m06.l03.ex.04
+  type: fill-blank
+  skill: listening
+  difficulty: 2
+  objective_refs:
+  - a1.m06.l03.obj2
+  - a1.m06.l03.obj3
+  instructions_vi: Nghe và điền từ thích hợp vào chỗ trống.
+  stimulus:
+    ref: a1.m06.l03.b5
+  items:
+  - id: a1.m06.l03.ex.04.q1
+    prompt: Laura und Tim suchen ein Geschenk ___ Markus. Sie kaufen Pralinen für ___.
+    answers:
+    - für
+    - ihn
+    explanation_vi: '1. für. 2. ihn (cho Markus: er → ihn).'
+- id: a1.m06.l03.ex.05
+  type: true-false
+  skill: reading
+  difficulty: 2
+  objective_refs:
+  - a1.m06.l03.obj4
+  instructions_vi: Đọc email của Sofia và xác định các câu sau là Đúng (true) hay Sai (false).
+  stimulus:
+    ref: a1.m06.l03.b6
+  items:
+  - id: a1.m06.l03.ex.05.q1
+    prompt: Sofia feiert ihren 25. Geburtstag am 20. Mai.
+    answer: true
+    explanation_vi: Đúng. 'am 20. Mai habe ich Geburtstag und werde 25 Jahre alt!'.
+  - id: a1.m06.l03.ex.05.q2
+    prompt: Die Party findet in einem Restaurant statt.
+    answer: false
+    explanation_vi: Sai. Bữa tiệc diễn ra tại nhà riêng của Sofia ('Bei mir zu Hause').
+  - id: a1.m06.l03.ex.05.q3
+    prompt: Die Gäste müssen alle Getränke selbst mitbringen.
+    answer: false
+    explanation_vi: Sai. Sofia đã chuẩn bị sẵn đồ uống ('Für Getränke und Musik ist gesorgt').
+  - id: a1.m06.l03.ex.05.q4
+    prompt: Die Freunde sollen bis zum 15. Mai Bescheid geben.
+    answer: true
+    explanation_vi: Đúng. 'Gebt mir bitte bis zum 15. Mai Bescheid'.
+- id: a1.m06.l03.ex.06
+  type: fill-blank
+  skill: speaking
+  difficulty: 2
+  objective_refs:
+  - a1.m06.l03.obj1
+  - a1.m06.l03.obj2
+  instructions_vi: Điền từ thích hợp vào chỗ trống.
+  items:
+  - id: a1.m06.l03.ex.06.q1
+    prompt: Was schenken wir Florian? – Das Buch ist ein tolles Geschenk ___ ihn.
+    answers:
+    - für
+    explanation_vi: 'Giới từ: für ihn (cho anh ấy).'
+- id: a1.m06.l03.ex.07
+  type: word-order
+  skill: writing
+  difficulty: 2
+  objective_refs:
+  - a1.m06.l03.obj2
+  - a1.m06.l03.obj3
+  instructions_vi: Sắp xếp các từ bị xáo trộn thành câu hoàn chỉnh đúng ngữ pháp.
+  items:
+  - id: a1.m06.l03.ex.07.q1
+    tokens:
+    - dich
+    - Geschenk
+    - Das
+    - ist
+    - für
+    answer: Das Geschenk ist für dich.
+    prompt_vi: 'Sắp xếp câu với giới từ für và đại từ Akkusativ:'
+    explanation_vi: Chủ ngữ 'Das Geschenk' + động từ 'ist' + 'für dich'.
+  - id: a1.m06.l03.ex.07.q2
+    tokens:
+    - Party
+    - Ich
+    - zur
+    - dich
+    - lade
+    - ein
+    answer: Ich lade dich zur Party ein.
+    prompt_vi: 'Sắp xếp câu mời tiệc:'
+    explanation_vi: Chủ ngữ 'Ich' + 'lade' vị trí 2 + 'dich zur Party' + tiền tố 'ein' ở cuối câu.

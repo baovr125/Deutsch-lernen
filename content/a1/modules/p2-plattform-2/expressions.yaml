@@ -1,0 +1,106 @@
+schema_version: '2.0'
+content_type: expression-set
+id: a1.p2.expr
+level: A1
+module: a1.p2
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+  references:
+  - work: Netzwerk neu A1 (Klett)
+    scope: 'Plattform 2: Plattform 2: wiederholen und trainieren (Kapitel 4–6); Landeskunde: Essen und Feste in D-A-CH; Prüfungstraining: Lesen Teil 1, Schreiben Teil 1, Sprechen Teil 2'
+    verification: verified
+  notes_vi: 'Theo Stoffverteilungsplan Netzwerk neu A1.1 (Plattform 2: 5 UE Kursbuch + 2 UE Prüfungstraining). Bài ôn tổng hợp kết nối ẩm thực, thời gian biểu, gia đình và gặp gỡ bạn bè; đề luyện thi tự biên soạn theo cấu trúc chuẩn Goethe/ÖSD A1.'
+entries:
+- id: a1.p2.x.ich-brauche-noch-einen-eine-ein
+  de: Ich brauche noch einen / eine / ein …
+  vi: Tôi còn cần một …
+  register: neutral
+  situation_vi: Mua sắm và chuẩn bị tiệc.
+  dialogue:
+  - speaker: A
+    de: Haben wir alles für die Party? Brauchen wir noch etwas?
+    vi: Chúng ta đã có đủ mọi thứ cho bữa tiệc chưa? Còn cần gì nữa không?
+  - speaker: B
+    de: Ich brauche noch einen Kuchen und zwei Flaschen Saft.
+    vi: Tớ còn cần một chiếc bánh ngọt và hai chai nước hoa quả.
+  lesson_refs:
+  - a1.p2.l01
+- id: a1.p2.x.hast-du-am-um-zeit-wollen-wir
+  de: Hast du am … um … Zeit? Wollen wir …?
+  vi: Cậu có rảnh vào … lúc … không? Chúng mình cùng … nhé?
+  register: informal
+  situation_vi: Hẹn gặp và rủ bạn bè.
+  dialogue:
+  - speaker: A
+    de: Hast du am Freitag um 19 Uhr Zeit? Wollen wir essen gehen?
+    vi: Cậu có rảnh vào thứ Sáu lúc 19 giờ không? Chúng mình đi ăn nhé?
+  - speaker: B
+    de: Ja gerne! Wann und wo treffen wir uns?
+    vi: Ừ được đấy! Chúng mình gặp nhau khi nào và ở đâu?
+  lesson_refs:
+  - a1.p2.l01
+- id: a1.p2.x.ist-eine-spezialitaet-aus
+  de: … ist eine Spezialität aus …
+  vi: … là một món đặc sản từ …
+  register: neutral
+  situation_vi: Giới thiệu món ăn đặc sản.
+  dialogue:
+  - speaker: A
+    de: Was ist das Wiener Schnitzel?
+    vi: Món Wiener Schnitzel là gì vậy?
+  - speaker: B
+    de: Das ist eine sehr berühmte Spezialität aus Österreich.
+    vi: Đó là một món đặc sản vô cùng nổi tiếng của nước Áo.
+  lesson_refs:
+  - a1.p2.l02
+- id: a1.p2.x.in-feiert-man-oft-das-ist-ein-alter-brau
+  de: In … feiert man oft … Das ist ein alter Brauch.
+  vi: Ở … người ta thường tổ chức … Đó là một phong tục cổ xưa.
+  register: neutral
+  situation_vi: Nói về phong tục lễ hội.
+  dialogue:
+  - speaker: A
+    de: Gibt es im September ein Fest in München?
+    vi: Ở München có lễ hội gì vào tháng Chín không?
+  - speaker: B
+    de: Ja, das Oktoberfest! Das hat eine lange Tradition und ist ein bekannter Brauch.
+    vi: Có, lễ hội Oktoberfest! Lễ hội đó có truyền thống lâu đời và là một phong tục nổi tiếng.
+  lesson_refs:
+  - a1.p2.l02
+- id: a1.p2.x.thema-essen-und-trinken-trinken-sie-gern
+  de: 'Thema: Essen und Trinken – Trinken Sie gern …? / Was essen Sie gern zum …?'
+  vi: Chủ đề Ăn uống – Bạn có thích uống… không? / Bạn thích ăn gì vào bữa…?
+  register: formal
+  situation_vi: Đặt câu hỏi phần thi Nói Teil 2 theo chủ đề đồ ăn.
+  dialogue:
+  - speaker: Kandidat A
+    de: 'Thema: Essen und Trinken. Mein Wort ist ''Kaffee''. Trinken Sie morgens Kaffee?'
+    vi: 'Chủ đề: Đồ ăn và thức uống. Từ của tôi là ''cà phê''. Buổi sáng bạn có uống cà phê không?'
+  - speaker: Kandidat B
+    de: Nein, ich trinke lieber Tee. Aber mein Mann trinkt gern Kaffee.
+    vi: Không, tôi thích uống trà hơn. Nhưng chồng tôi thích uống cà phê.
+  lesson_refs:
+  - a1.p2.l03
+- id: a1.p2.x.thema-freizeit-was-machen-sie-am-gehen-s
+  de: 'Thema: Freizeit – Was machen Sie am …? / Gehen Sie gern ins …?'
+  vi: Chủ đề Giải trí – Bạn làm gì vào…? / Bạn có thích đi… không?
+  register: formal
+  situation_vi: Đặt câu hỏi phần thi Nói Teil 2 theo chủ đề giải trí.
+  dialogue:
+  - speaker: Kandidat B
+    de: 'Thema: Freizeit. Mein Wort ist ''Kino''. Gehen Sie am Wochenende ins Kino?'
+    vi: 'Chủ đề: Giải trí. Từ của tôi là ''rạp chiếu phim''. Cuối tuần bạn có đi xem phim không?'
+  - speaker: Kandidat A
+    de: Ja, sehr gern! Am Samstag gehe ich mit meinen Freunden ins Kino.
+    vi: Có, rất thích! Vào thứ Bảy tôi đi xem phim cùng bạn bè.
+  lesson_refs:
+  - a1.p2.l03

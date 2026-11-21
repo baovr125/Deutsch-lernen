@@ -1,0 +1,229 @@
+schema_version: '2.0'
+content_type: exercise-set
+id: a1.m06.l05.ex
+level: A1
+module: a1.m06
+lesson: a1.m06.l05
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+exercises:
+- id: a1.m06.l05.ex.01
+  type: matching
+  skill: vocabulary
+  difficulty: 1
+  objective_refs:
+  - a1.m06.l05.obj1
+  - a1.m06.l05.obj3
+  instructions_vi: Nối từ vựng về trải nghiệm và thời tiết với nghĩa tiếng Việt tương ứng.
+  items:
+  - id: a1.m06.l05.ex.01.q1
+    pairs:
+    - left: fantastisch
+      right: tuyệt diệu, tuyệt vời
+    - left: erholsam
+      right: thư thái, giúp hồi phục sức lực
+    - left: langweilig
+      right: nhàm chán, buồn tẻ
+    - left: sonnig
+      right: nắng ấm, có nắng
+    - left: bewölkt
+      right: nhiều mây, u ám
+    - left: faulenzen
+      right: lười biếng thư giãn, nằm dài
+    explanation_vi: Các tính từ đánh giá trải nghiệm và mô tả thời tiết trong quá khứ.
+- id: a1.m06.l05.ex.02
+  type: multiple-choice
+  skill: grammar
+  difficulty: 1
+  objective_refs:
+  - a1.m06.l05.obj2
+  instructions_vi: Chọn dạng đúng của war hoặc hatte.
+  items:
+  - id: a1.m06.l05.ex.02.q1
+    prompt: Wo ___ du am Samstagabend?
+    options:
+    - id: a
+      text: wart
+    - id: b
+      text: warst
+    - id: c
+      text: waren
+    - id: d
+      text: war
+    answer:
+    - b
+    explanation_vi: Chủ ngữ du đi với warst.
+  - id: a1.m06.l05.ex.02.q2
+    prompt: Gestern ___ ich viel Zeit für meine Hobbys.
+    options:
+    - id: a
+      text: hattet
+    - id: b
+      text: hattest
+    - id: c
+      text: hatte
+    - id: d
+      text: hatten
+    answer:
+    - c
+    explanation_vi: Chủ ngữ ich đi với hatte.
+  - id: a1.m06.l05.ex.02.q3
+    prompt: Das Wetter am Wochenende ___ wirklich herrlich!
+    options:
+    - id: a
+      text: war
+    - id: b
+      text: waren
+    - id: c
+      text: hatte
+    - id: d
+      text: warst
+    answer:
+    - a
+    explanation_vi: das Wetter (ngôi es) đi với war.
+  - id: a1.m06.l05.ex.02.q4
+    prompt: Wir ___ gestern viel Spaß auf der Party.
+    options:
+    - id: a
+      text: hattet
+    - id: b
+      text: hatten
+    - id: c
+      text: hatte
+    - id: d
+      text: waren
+    answer:
+    - b
+    explanation_vi: Chủ ngữ wir đi với hatten.
+- id: a1.m06.l05.ex.03
+  type: multiple-choice
+  skill: listening
+  difficulty: 2
+  objective_refs:
+  - a1.m06.l05.obj1
+  - a1.m06.l05.obj4
+  instructions_vi: Nghe cuộc trò chuyện giữa Thomas và Laura rồi chọn câu trả lời đúng.
+  stimulus:
+    ref: a1.m06.l05.b5
+  items:
+  - id: a1.m06.l05.ex.03.q1
+    prompt: Wie war das Wetter am Samstag bei Laura?
+    options:
+    - id: a
+      text: es hat geregnet
+    - id: b
+      text: super sonnig
+    - id: c
+      text: stürmisch
+    - id: d
+      text: sehr kalt
+    answer:
+    - b
+    explanation_vi: 'Laura nói: ''Am Samstag war das Wetter super sonnig''.'
+  - id: a1.m06.l05.ex.03.q2
+    prompt: Was hat Laura am Sonntag gemacht?
+    options:
+    - id: a
+      text: Sie ist Fahrrad gefahren.
+    - id: b
+      text: Sie war zu Hause und hat ein Buch gelesen.
+    - id: c
+      text: Sie war im Büro.
+    - id: d
+      text: Sie war auf einer Party.
+    answer:
+    - b
+    explanation_vi: 'Laura nói: ''Am Sonntag hat es leider geregnet. Ich war den ganzen Tag zu Hause und hatte Zeit für ein gutes Buch''.'
+- id: a1.m06.l05.ex.04
+  type: fill-blank
+  skill: listening
+  difficulty: 2
+  objective_refs:
+  - a1.m06.l05.obj1
+  - a1.m06.l05.obj2
+  instructions_vi: Nghe và điền từ thích hợp vào chỗ trống.
+  stimulus:
+    ref: a1.m06.l05.b5
+  items:
+  - id: a1.m06.l05.ex.04.q1
+    prompt: Thomas war auf einer ___. Sie ___ viel Spaß zusammen.
+    answers:
+    - Geburtstagsparty
+    - hatten
+    explanation_vi: 1. Geburtstagsparty. 2. hatten (wir hatten viel Spaß).
+- id: a1.m06.l05.ex.05
+  type: true-false
+  skill: reading
+  difficulty: 2
+  objective_refs:
+  - a1.m06.l05.obj3
+  - a1.m06.l05.obj4
+  instructions_vi: Đọc nhật ký của Florian và xác định các câu sau là Đúng (true) hay Sai (false).
+  stimulus:
+    ref: a1.m06.l05.b6
+  items:
+  - id: a1.m06.l05.ex.05.q1
+    prompt: Florian war am Samstag mit dem Fahrrad am Badesee.
+    answer: true
+    explanation_vi: Đúng. 'Ich hatte frei und fuhr mit dem Fahrrad an den Badesee'.
+  - id: a1.m06.l05.ex.05.q2
+    prompt: Am Sonntag war das Wetter sonnig und warm.
+    answer: false
+    explanation_vi: Sai. Chủ Nhật trời nhiều mây và có mưa ('Am Sonntag war das Wetter leider bewölkt và am Abend regnete es').
+  - id: a1.m06.l05.ex.05.q3
+    prompt: Florian hatte am Sonntag Zeit zum Faulenzen und Ausruhen.
+    answer: true
+    explanation_vi: Đúng. 'Ich hatte endlich wieder Zeit zum Faulenzen!'.
+- id: a1.m06.l05.ex.06
+  type: fill-blank
+  skill: speaking
+  difficulty: 2
+  objective_refs:
+  - a1.m06.l05.obj1
+  - a1.m06.l05.obj2
+  instructions_vi: Điền từ thích hợp vào câu kể về cuối tuần.
+  items:
+  - id: a1.m06.l05.ex.06.q1
+    prompt: Wie ___ dein Wochenende? – Es ___ fantastisch!
+    answers:
+    - war
+    - war
+    explanation_vi: 'Động từ war: ''Wie war dein Wochenende? – Es war fantastisch!''.'
+- id: a1.m06.l05.ex.07
+  type: word-order
+  skill: writing
+  difficulty: 2
+  objective_refs:
+  - a1.m06.l05.obj1
+  - a1.m06.l05.obj2
+  instructions_vi: Sắp xếp các từ bị xáo trộn thành câu hoàn chỉnh ở thì quá khứ.
+  items:
+  - id: a1.m06.l05.ex.07.q1
+    tokens:
+    - war
+    - Gestern
+    - zu
+    - Hause
+    - ich
+    answer: Gestern war ich zu Hause.
+    prompt_vi: 'Sắp xếp câu với động từ war:'
+    explanation_vi: Thời gian 'Gestern' vị trí 1 + động từ 'war' vị trí 2 + chủ ngữ 'ich' + 'zu Hause'.
+  - id: a1.m06.l05.ex.07.q2
+    tokens:
+    - hatten
+    - Spaß
+    - Wir
+    - viel
+    - zusammen
+    answer: Wir hatten viel Spaß zusammen.
+    prompt_vi: 'Sắp xếp câu với động từ hatte:'
+    explanation_vi: Chủ ngữ 'Wir' + 'hatten' vị trí 2 + 'viel Spaß zusammen'.

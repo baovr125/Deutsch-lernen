@@ -1,0 +1,258 @@
+schema_version: '2.0'
+content_type: lesson
+id: a1.m04.l03
+level: A1
+module: a1.m04
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+  references:
+  - work: Netzwerk neu A1 (Klett)
+    scope: 'Kapitel 4: Einkaufen im Supermarkt'
+    verification: verified
+  notes_vi: 'Sprachhandlungen: nach Preisen fragen, Mengenangaben verstehen, Verkaufsgespräche führen. Wortschatz: Preise, Maße und Gewichte. Aussprache: Preise lesen.'
+order: 3
+title_de: Einkaufen im Supermarkt – Preise und Maße
+title_vi: Mua sắm tại siêu thị – Giá cả và đơn vị đo lường
+topic_vi: Đơn vị đo lường thực phẩm, hỏi và đọc giá tiền, hội thoại tại quầy thu ngân
+duration_min: 75
+difficulty: 2
+cefr:
+- A1.SI2
+- A1.H3
+- A1.L3
+- A1.SP2
+prerequisites:
+- a1.m04.l02
+objectives:
+- id: a1.m04.l03.obj1
+  text_vi: 'Sử dụng thành thạo các đơn vị đo lường thực phẩm: Gramm, Kilo, Liter, Stück, Flasche, Packung.'
+  skill: vocabulary
+- id: a1.m04.l03.obj2
+  text_vi: Hỏi và đọc chính xác giá tiền bằng Euro và Cent (Was kostet das? – Das kostet 2 Euro 50).
+  skill: listening
+- id: a1.m04.l03.obj3
+  text_vi: 'Giao tiếp tự nhiên tại quầy thu ngân siêu thị: Sonst noch etwas? – Nein danke, das ist alles.'
+  skill: listening
+- id: a1.m04.l03.obj4
+  text_vi: 'Chia đúng động từ bất quy tắc nehmen: du nimmst, er nimmt.'
+  skill: grammar
+vocabulary_refs:
+- a1.m04.v.kosten
+- a1.m04.v.preis
+- a1.m04.v.cent
+- a1.m04.v.gramm
+- a1.m04.v.kilo
+- a1.m04.v.liter
+- a1.m04.v.stueck
+- a1.m04.v.packung
+- a1.m04.v.flasche
+- a1.m04.v.dose
+- a1.m04.v.tuete
+- a1.m04.v.moechten
+- a1.m04.v.nehmen
+- a1.m04.v.sonst
+- a1.m04.v.etwas
+- a1.m04.v.dort
+- a1.m04.v.wechseln
+- a1.m04.v.wie-viel
+- a1.m04.v.kassenzettel
+review_vocabulary_refs:
+- a1.m01.v.stadt
+- a1.m04.v.brot
+- a1.m04.v.kaese
+- a1.m04.v.tomate
+- a1.m04.v.apfel
+grammar_refs: []
+expression_refs:
+- a1.m04.x.was-kostet-wie-viel-kostet-kostet-euro
+- a1.m04.x.sonst-noch-etwas-nein-danke-das-ist-alle
+exercise_set_ref: a1.m04.l03.ex
+summary_vi: Bài học giúp bạn thành thạo cách biểu đạt đơn vị đo lường (Kilo, Gramm, Liter, Packung...), hỏi và đọc giá tiền chuẩn bằng Euro và Cent, tự tin trò chuyện tại quầy tính tiền và chia động từ bất quy tắc nehmen (du nimmst, er nimmt).
+self_check:
+- Tôi có thể đọc lưu loát các mức giá tiền như 1,99 € hoặc 2,50 € bằng tiếng Đức.
+- 'Tôi nhớ chia động từ nehmen: du nimmst, er nimmt.'
+- Tôi biết dùng các đơn vị khối lượng như Gramm, Kilo, Liter khi mua sắm đồ ăn.
+blocks:
+- id: a1.m04.l03.b1
+  kind: explanation
+  title_vi: Giới thiệu bài học
+  body_vi: 'Đi siêu thị hoặc đi chợ là một trải nghiệm thực tế không thể thiếu khi bạn sống, học tập hoặc du lịch tại Đức, Áo, Thụy Sĩ:
+
+    - Bạn sẽ học cách hỏi khối lượng và số lượng: *ein Kilo Äpfel, 200 Gramm Käse, ein Liter Milch, eine Packung Reis, zwei Flaschen Wasser, ein Stück Kuchen*.
+
+    - Cách hỏi và đọc chuẩn giá tiền bằng Euro và Cent: *Was kostet das? – Das kostet 1 Euro 99.*
+
+    - Học các mẫu câu mua bán phổ biến nhất: *Ich nehme ..., Ich möchte ..., Sonst noch etwas? – Nein, das ist alles.*
+
+    - Chia động từ bất quy tắc đặc biệt: *nehmen* (*du nimmst, er nimmt*).'
+- id: a1.m04.l03.b2
+  kind: explanation
+  title_vi: Động từ bất quy tắc nehmen (lấy, chọn mua)
+  skill: grammar
+  body_vi: 'Động từ nehmen đổi nguyên âm e → i ở ngôi số ít du và er/sie/es. Ngoài ra, phụ âm h mất đi và gấp đôi phụ âm m: du nimmst, er/sie/es nimmt. Động từ này đi với tân ngữ Akkusativ.'
+  examples:
+  - de: Was nimmst du? – Ich nehme ein Kilo Tomaten.
+    vi: Bạn chọn mua gì? – Tôi lấy một ký cà chua.
+  - de: Er nimmt zwei Flaschen Mineralwasser.
+    vi: Anh ấy lấy hai chai nước khoáng.
+- id: a1.m04.l03.b3
+  kind: explanation
+  title_vi: Cách đọc giá tiền trong tiếng Đức
+  skill: grammar
+  body_vi: 'Trong tiếng Đức, dấu phẩy (Komma) được dùng làm dấu phân cách thập phân. Khi đọc giá tiền, ta chèn chữ ''Euro'' vào vị trí dấu phẩy: 1,99 € đọc là ''ein Euro neunundneunzig'' (hoặc nói tắt ''eins neunundneunzig''). Dưới 1 Euro đọc theo Cent: 0,79 € = ''neunundsiebzig Cent''.'
+  examples:
+  - de: Das Brot kostet 2,40 € (zwei Euro vierzig).
+    vi: Ổ bánh mì có giá 2 euro 40 xu.
+  - de: Die Banane kostet 45 Cent.
+    vi: Quả chuối có giá 45 xu.
+- id: a1.m04.l03.b4
+  kind: pronunciation
+  title_vi: Ngữ điệu và cách đọc giá tiền
+  skill: pronunciation
+  body_vi: 'Ngữ điệu và cách đọc giá tiền
+
+
+    Khi đọc giá tiền có Euro và Cent, nhấn nhẹ vào số Euro và số Cent, không ngắt quãng quá lâu ở chữ Euro: zwei Euro FÜNF-zig, drei Euro NEUN-und-neun-zig.
+
+
+    Luyện tập: Luyện đọc to các mức giá: 0,80 € (achtzig Cent), 2,15 € (zwei Euro fünfzehn), 5,49 € (fünf Euro neunundvierzig).'
+  items:
+  - de: 1,50 € – ein Euro fünfzig
+    vi: 1 euro 50 xu
+  - de: 3,99 € – drei Euro neunundneunzig
+    vi: 3 euro 99 xu
+- id: a1.m04.l03.b5
+  kind: examples
+  title_vi: Câu ví dụ
+  examples:
+  - de: Ich nehme bitte ein Kilo Bananen und eine Flasche Milch.
+    vi: Cho tôi một ký chuối và một chai sữa.
+  - de: Wie viel kosten die Tomaten? – Sie kosten 1,80 Euro pro Kilo.
+    vi: Những quả cà chua này giá bao nhiêu? – Chúng có giá 1,80 euro mỗi ký.
+  - de: Brauchen Sie eine Tüte? – Nein danke, ich habe eine Tasche.
+    vi: Quý khách có cần túi không? – Dạ không, tôi có túi riêng rồi.
+  - de: Können Sie bitte wechseln? Ich habe nur einen Fünfzig-Euro-Schein.
+    vi: Anh/chị có thể đổi tiền giúp tôi được không? Tôi chỉ có tờ 50 euro.
+  - de: Hier ist Ihr Kassenzettel. Einen schönen Tag noch!
+    vi: Hóa đơn của quý khách đây ạ. Chúc quý khách một ngày tốt lành!
+- id: a1.m04.l03.b6
+  kind: listening
+  title_vi: Hội thoại mua sắm tại chợ nông sản (Wochenmarkt)
+  lines:
+  - speaker: Verkäufer
+    de: Guten Tag! Was darf es sein?
+    vi: Xin chào! Bà muốn mua gì ạ?
+  - speaker: Frau Weber
+    de: Guten Tag! Ich möchte ein Kilo Äpfel und 300 Gramm Käse, bitte.
+    vi: Xin chào! Cho tôi một ký táo và 300 gam phô mai.
+  - speaker: Verkäufer
+    de: Sehr gerne. Hier sind die Äpfel und der Käse. Möchten Sie sonst noch etwas?
+    vi: Rất sẵn lòng. Táo và phô mai của bà đây. Bà còn muốn gì nữa không ạ?
+  - speaker: Frau Weber
+    de: Ja, ich nehme noch eine Packung Erdbeeren. Wie viel kostet das zusammen?
+    vi: Có, tôi lấy thêm một hộp dâu tây nữa. Tổng cộng hết bao nhiêu vậy chú?
+  - speaker: Verkäufer
+    de: Das macht genau sieben Euro fünfzig, bitte.
+    vi: Dạ tổng cộng đúng 7 euro 50 xu ạ.
+  audio_status: pending-tts
+  situation_vi: Frau Weber mua hoa quả và phô mai tại một quầy hàng ở chợ.
+  skill: listening
+  audio:
+    speed: normal
+- id: a1.m04.l03.b7
+  kind: reading
+  title_vi: Hóa đơn siêu thị của Herr Meyer
+  paragraphs:
+  - de: 'SUPERMARKT FRISCH & GUT
+
+      ------------------------------------
+
+      1x Bio-Vollmilch 1L          1,19 EUR
+
+      1x Bauernbrot 500g           2,49 EUR
+
+      2x Tafel Schokolade          2,38 EUR
+
+      1kg Äpfel Elstar             2,29 EUR
+
+      1x Mineralwasser 1,5L        0,69 EUR
+
+      ------------------------------------
+
+      GESAMTSUMME:                 9,04 EUR
+
+      GEGEBEN:                    10,00 EUR
+
+      RÜCKGELD:                    0,96 EUR
+
+      Vielen Dank für Ihren Einkauf!'
+    vi: 'SIÊU THỊ TƯƠI & TỐT
+
+      ------------------------------------
+
+      1x Sữa tươi hữu cơ 1L        1,19 EUR
+
+      1x Bánh mì truyền thống 500g 2,49 EUR
+
+      2x Thanh sô-cô-la            2,38 EUR
+
+      1kg Táo giống Elstar         2,29 EUR
+
+      1x Nước khoáng 1,5L          0,69 EUR
+
+      ------------------------------------
+
+      TỔNG CỘNG:                   9,04 EUR
+
+      TIỀN KHÁCH ĐƯA:             10,00 EUR
+
+      TIỀN THỐI LẠI:               0,96 EUR
+
+      Cảm ơn quý khách đã mua sắm!'
+  text_type_vi: Hóa đơn mua hàng (Kassenzettel)
+  skill: reading
+  glossary:
+  - de: die Gesamtsumme
+    vi: tổng số tiền
+  - de: das Rückgeld
+    vi: tiền thối lại
+- id: a1.m04.l03.b8
+  kind: speaking
+  title_vi: Đóng vai người mua và người bán hàng
+  skill: speaking
+  task_vi: Thực hành đoạn hội thoại mua bán thực phẩm tại quầy hàng với bạn học.
+  steps_vi:
+  - 'Chào hỏi: Guten Tag! Was möchten Sie?'
+  - 'Chọn đồ: Ich möchte / Ich nehme ein Kilo ... und zwei Flaschen ...'
+  - 'Hỏi giá: Wie viel kostet das?'
+  - 'Thanh toán: Das macht zusammen ... Euro.'
+  lines:
+  - speaker: Verkäufer
+    de: Guten Tag! Was kann ich für Sie tun?
+    vi: Xin chào! Tôi có thể giúp gì cho bạn?
+  - speaker: Kunde
+    de: Ich nehme ein Kilo Bananen und eine Flasche Orangensaft. Was kostet das?
+    vi: Tôi lấy một ký chuối và một chai nước cam. Hết bao nhiêu tiền ạ?
+  - speaker: Verkäufer
+    de: Das macht zusammen drei Euro achtzig.
+    vi: Tổng cộng là 3 euro 80 xu ạ.
+- id: a1.m04.l03.b9
+  kind: writing
+  title_vi: Viết đoạn hội thoại mua hàng tại siêu thị
+  skill: writing
+  task_vi: Viết một đoạn hội thoại mua bán ngắn (4–6 lượt lời) giữa bạn và nhân viên bán hàng bao gồm lượng hàng và giá tiền.
+  model:
+    de: – Guten Tag! Ich möchte 300 Gramm Käse und ein Kilo Äpfel, bitte. – Sonst noch etwas? – Nein danke, das ist alles. Was kostet das? – Das macht vier Euro fünfzig. – Hier bitte, fünf Euro. – Und fünfzig Cent zurück. Danke!
+    vi: – Xin chào! Cho tôi 300 gam phô mai và một ký táo. – Còn gì nữa không ạ? – Dạ không, thế là hết rồi. Hết bao nhiêu ạ? – Tổng cộng là 4 euro 50 xu. – Gửi bạn 5 euro này. – Và trả lại bạn 50 xu. Cảm ơn!
+  checklist_vi:
+  - Có sử dụng ít nhất hai đơn vị đo lường (Gramm, Kilo, Liter, Packung...).
+  - Có câu hỏi giá (Was kostet das?) và nêu số tiền bằng Euro/Cent.

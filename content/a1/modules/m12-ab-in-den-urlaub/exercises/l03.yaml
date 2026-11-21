@@ -1,0 +1,135 @@
+schema_version: "2.0"
+content_type: exercise-set
+id: a1.m12.l03.ex
+level: A1
+module: a1.m12
+lesson: a1.m12.l03
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  tags: ["denn", "perfekt"]
+exercises:
+  - id: a1.m12.l03.ex.01
+    type: multiple-choice
+    skill: vocabulary
+    difficulty: 1
+    objective_refs: [a1.m12.l03.obj2, a1.m12.obj.urlaub]
+    instructions_vi: "Chọn đáp án đúng."
+    items:
+      - id: a1.m12.l03.ex.01.q1
+        prompt: "Wir ___ nach Wien gefahren."
+        options: [{ id: a, text: "haben" }, { id: b, text: "sind" }, { id: c, text: "hat" }]
+        answer: [b]
+        explanation_vi: "fahren chỉ di chuyển → Perfekt dùng „sein“: wir sind gefahren."
+      - id: a1.m12.l03.ex.01.q2
+        prompt: "Was bedeutet „ankommen“?"
+        options: [{ id: a, text: "đến nơi" }, { id: b, text: "khởi hành" }, { id: c, text: "lên xe" }]
+        answer: [a]
+        explanation_vi: "ankommen = đến nơi; abfahren = khởi hành."
+      - id: a1.m12.l03.ex.01.q3
+        prompt: "Der Zug fährt um acht Uhr ___."
+        options: [{ id: a, text: "an" }, { id: b, text: "ab" }, { id: c, text: "aus" }]
+        answer: [b]
+        explanation_vi: "abfahren là động từ tách: „fährt … ab“."
+      - id: a1.m12.l03.ex.01.q4
+        prompt: "Das Gegenteil von „einsteigen“ ist ___."
+        options: [{ id: a, text: "aussteigen" }, { id: b, text: "abfahren" }, { id: c, text: "ankommen" }]
+        answer: [a]
+        explanation_vi: "einsteigen (lên) – aussteigen (xuống)."
+  - id: a1.m12.l03.ex.02
+    type: fill-blank
+    skill: grammar
+    difficulty: 2
+    objective_refs: [a1.m12.l03.obj1, a1.g.denn.obj1, a1.m12.obj.denn]
+    instructions_vi: "Điền denn, aber hoặc und."
+    word_bank: ["denn", "aber", "und"]
+    items:
+      - { id: a1.m12.l03.ex.02.q1, prompt: "Wir fahren zum Strand, ___ das Wetter ist schön.", answers: ["denn"], explanation_vi: "Vế sau là lý do → denn." }
+      - { id: a1.m12.l03.ex.02.q2, prompt: "Ich möchte reisen, ___ ich habe kein Geld.", answers: ["aber"], explanation_vi: "Hai ý đối lập → aber." }
+      - { id: a1.m12.l03.ex.02.q3, prompt: "Ich packe den Koffer ___ gehe zum Bahnhof.", answers: ["und"], explanation_vi: "Hai việc nối tiếp → und." }
+      - { id: a1.m12.l03.ex.02.q4, prompt: "Sie bleibt zu Hause, ___ sie ist krank.", answers: ["denn"], explanation_vi: "Vế sau là lý do → denn." }
+  - id: a1.m12.l03.ex.03
+    type: word-order
+    skill: grammar
+    difficulty: 2
+    objective_refs: [a1.m12.l03.obj1, a1.g.denn.obj1]
+    instructions_vi: "Sắp xếp các từ thành câu đúng."
+    items:
+      - id: a1.m12.l03.ex.03.q1
+        tokens: ["denn", "Ich", "zu", "bleibe", "Hause,", "es", "regnet."]
+        answer: "Ich bleibe zu Hause, denn es regnet."
+        translation_vi: "Tôi ở nhà vì trời mưa."
+        explanation_vi: "Sau „denn“: chủ ngữ „es“ rồi động từ „regnet“."
+      - id: a1.m12.l03.ex.03.q2
+        tokens: ["denn", "Wir", "Spanien,", "fahren", "das", "nach", "Meer", "ist", "warm."]
+        answer: "Wir fahren nach Spanien, denn das Meer ist warm."
+        translation_vi: "Chúng tôi đi Tây Ban Nha vì biển ở đó ấm."
+        explanation_vi: "Trật tự câu sau „denn“ giữ nguyên: das Meer ist warm."
+      - id: a1.m12.l03.ex.03.q3
+        tokens: ["denn", "Er", "müde,", "ist", "er", "hat", "gearbeitet.", "lange"]
+        answer: "Er ist müde, denn er hat lange gearbeitet."
+        translation_vi: "Anh ấy mệt vì đã làm việc lâu."
+        explanation_vi: "Sau „denn“ là câu Perfekt bình thường: er hat … gearbeitet."
+  - id: a1.m12.l03.ex.04
+    type: matching
+    skill: vocabulary
+    difficulty: 1
+    objective_refs: [a1.m12.l03.obj2, a1.m12.obj.urlaub]
+    instructions_vi: "Nối câu cảm nhận với nghĩa tiếng Việt."
+    items:
+      - { id: a1.m12.l03.ex.04.q1, left: "Es war toll!", right: "Thật tuyệt!", explanation_vi: "toll = tuyệt." }
+      - { id: a1.m12.l03.ex.04.q2, left: "Es war langweilig.", right: "Thật chán.", explanation_vi: "langweilig = chán." }
+      - { id: a1.m12.l03.ex.04.q3, left: "Es war anstrengend.", right: "Thật mệt.", explanation_vi: "anstrengend = vất vả, mệt." }
+      - { id: a1.m12.l03.ex.04.q4, left: "Es war interessant.", right: "Thật thú vị.", explanation_vi: "interessant = thú vị." }
+  - id: a1.m12.l03.ex.05
+    type: listening-practice
+    skill: listening
+    difficulty: 2
+    objective_refs: [a1.m12.l03.obj2, a1.m12.obj.urlaub]
+    instructions_vi: "Nghe (hoặc đọc transcript) và chọn đáp án."
+    stimulus:
+      text_de: "Wie war deine Reise? – Sehr schön! Wir sind mit dem Zug nach Wien gefahren und um zehn Uhr angekommen. Wir haben das Schloss besichtigt. Das war interessant, aber auch anstrengend."
+      audio_status: pending-tts
+    items:
+      - id: a1.m12.l03.ex.05.q1
+        prompt: "Wie sind sie nach Wien gefahren?"
+        options: [{ id: a, text: "Mit dem Zug." }, { id: b, text: "Mit dem Flugzeug." }, { id: c, text: "Mit dem Auto." }]
+        answer: [a]
+        explanation_vi: "„mit dem Zug nach Wien gefahren“."
+      - id: a1.m12.l03.ex.05.q2
+        prompt: "Was haben sie besichtigt?"
+        options: [{ id: a, text: "Die Kirche." }, { id: b, text: "Das Schloss." }, { id: c, text: "Das Museum." }]
+        answer: [b]
+        explanation_vi: "„Wir haben das Schloss besichtigt.“"
+      - id: a1.m12.l03.ex.05.q3
+        prompt: "Wie war die Reise?"
+        options: [{ id: a, text: "Langweilig." }, { id: b, text: "Interessant und anstrengend." }, { id: c, text: "Schrecklich." }]
+        answer: [b]
+        explanation_vi: "„interessant, aber auch anstrengend“."
+  - id: a1.m12.l03.ex.06
+    type: sentence-construction
+    skill: writing
+    difficulty: 2
+    objective_refs: [a1.m12.l03.obj1, a1.m12.l03.obj2, a1.g.denn.obj1]
+    instructions_vi: "Viết câu tiếng Đức với các từ bắt buộc."
+    items:
+      - { id: a1.m12.l03.ex.06.q1, prompt_vi: "Tôi ở nhà vì trời mưa.", required_words: ["denn", "regnet"], answers: ["Ich bleibe zu Hause, denn es regnet."], explanation_vi: "Kết quả + dấu phẩy + denn + lý do." }
+      - { id: a1.m12.l03.ex.06.q2, prompt_vi: "Chúng tôi đã đến Wien bằng tàu.", required_words: ["sind", "Zug"], answers: ["Wir sind mit dem Zug nach Wien gefahren.", "Wir sind mit dem Zug gefahren."], explanation_vi: "fahren dùng sein; mit dem Zug (Dativ)." }
+      - { id: a1.m12.l03.ex.06.q3, prompt_vi: "Hôm qua thật mệt.", required_words: ["war", "anstrengend"], answers: ["Gestern war es anstrengend.", "Es war gestern anstrengend."], explanation_vi: "„war“ là Präteritum của sein." }
+  - id: a1.m12.l03.ex.07
+    type: speaking-practice
+    skill: speaking
+    difficulty: 2
+    objective_refs: [a1.m12.l03.obj1, a1.m12.l03.obj2, a1.m12.obj.urlaub]
+    instructions_vi: "Hãy kể 3–4 câu về một chuyến đi và nêu một lý do bằng „denn“."
+    items:
+      - id: a1.m12.l03.ex.07.q1
+        prompt_vi: "Kể chuyến đi, đi bằng gì, cảm nhận và lý do."
+        model_answer: { de: "Ich bin mit dem Zug nach Berlin gefahren. Die Reise war interessant, aber anstrengend, denn der Zug war voll.", vi: "Tôi đã đi tàu đến Berlin. Chuyến đi thú vị nhưng mệt, vì tàu rất đông." }
+        rubric_vi: ["Dùng Perfekt với sein đúng.", "Nêu cảm nhận (interessant, anstrengend…).", "Dùng „denn“ với trật tự câu đúng.", "Nói trôi chảy."]
+        explanation_vi: "Bài mẫu kết hợp sein-Perfekt và denn."

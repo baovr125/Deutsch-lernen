@@ -1,0 +1,252 @@
+schema_version: '2.0'
+content_type: lesson
+id: a1.p1.l03
+level: A1
+module: a1.p1
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+  references:
+  - work: Netzwerk neu A1 (Klett)
+    scope: 'Plattform 1: Prüfungstraining: Hören Teil 1; Prüfungstraining: Sprechen Teil 1'
+    verification: verified
+  notes_vi: 'Đề luyện tự biên soạn theo dạng đề A1 thường gặp (ví dụ Goethe-Zertifikat A1: Start Deutsch 1). Không sao chép đề thi hay đề luyện của giáo trình.'
+order: 3
+title_de: 'Prüfungstraining: Hören Teil 1 und Sprechen Teil 1'
+title_vi: 'Luyện thi A1: Nghe phần 1 và Nói phần 1'
+topic_vi: Làm quen dạng đề thi A1; chiến lược nghe hội thoại ngắn; tự giới thiệu theo từ khóa
+duration_min: 90
+difficulty: 2
+cefr:
+- A1.H1
+- A1.H3
+- A1.H4
+- A1.SI2
+- A1.SI3
+- A1.SP1
+prerequisites:
+- a1.p1.l02
+objectives:
+- id: a1.p1.l03.obj1
+  text_vi: 'Hiểu cấu trúc phần Nghe 1 của đề A1 và áp dụng chiến lược: đọc câu hỏi trước, nghe thông tin chính (số, ngày, địa điểm).'
+  skill: listening
+- id: a1.p1.l03.obj2
+  text_vi: Trả lời đúng câu hỏi trắc nghiệm về các hội thoại ngắn hằng ngày.
+  skill: listening
+- id: a1.p1.l03.obj3
+  text_vi: Tự giới thiệu theo 7 từ khóa (Name, Alter, Land, Wohnort, Sprachen, Beruf, Hobby), đánh vần tên và đọc số.
+  skill: reading
+vocabulary_refs:
+- a1.p1.v.pruefung
+- a1.p1.v.teil
+review_vocabulary_refs:
+- a1.m01.v.buchstabieren
+- a1.m01.v.telefonnummer
+- a1.m02.v.alt
+- a1.m02.v.hobby
+- a1.m02.v.beruf
+grammar_refs: []
+expression_refs:
+- a1.p1.x.koennen-sie-das-bitte-buchstabieren-ja-t
+- a1.p1.x.entschuldigung-noch-einmal-bitte
+exercise_set_ref: a1.p1.l03.ex
+summary_vi: 'Hören Teil 1: đọc câu hỏi trước, nghe thông tin chính, cẩn thận bẫy (cả 3 lựa chọn đều được nhắc). Sprechen Teil 1: tự giới thiệu theo 7 từ khóa (Name, Alter, Land, Wohnort, Sprachen, Beruf, Hobby), đánh vần tên, đọc số; khi không hiểu: Noch einmal, bitte.'
+self_check:
+- Tôi biết cấu trúc phần Nghe 1 và phần Nói 1 của đề A1.
+- Tôi trả lời đúng 3 câu luyện nghe.
+- Tôi tự giới thiệu được theo 7 từ khóa trong khoảng 1 phút.
+blocks:
+- id: a1.p1.l03.b1
+  kind: explanation
+  title_vi: Giới thiệu bài học
+  body_vi: 'Các kỳ thi A1 phổ biến (ví dụ **Goethe-Zertifikat A1: Start Deutsch 1**) có 4 phần: **Hören** (nghe), **Lesen** (đọc), **Schreiben** (viết), **Sprechen** (nói).
+
+    Bốn Plattform của chương trình sẽ lần lượt giúp bạn làm quen với từng phần. Hôm nay là hai phần đầu tiên:
+
+
+    **Hören, Teil 1 (Nghe, phần 1):** bạn nghe các **hội thoại ngắn hằng ngày** (thường được nghe **hai lần**)
+
+    và chọn đáp án đúng trong 3 lựa chọn. Câu hỏi thường hỏi về **số, giờ, ngày, địa điểm, giá tiền**.
+
+
+    **Sprechen, Teil 1 (Nói, phần 1):** bạn **tự giới thiệu** theo các **từ khóa** trên một tấm thẻ, sau đó
+
+    **đánh vần** tên mình và **đọc một con số** (ví dụ số điện thoại).
+
+
+    ⚠️ Đây là bài luyện tập theo dạng đề, không phải đề thi thật. Hãy luôn kiểm tra thông tin mới nhất về kỳ thi trên trang chính thức của đơn vị tổ chức.'
+- id: a1.p1.l03.b2
+  kind: explanation
+  title_vi: Chiến lược cho Hören Teil 1
+  skill: grammar
+  body_vi: '1. **Trước khi nghe:** đọc câu hỏi và 3 lựa chọn, gạch chân từ để hỏi (Wann? Wo? Wie viel?).
+
+    2. **Nghe lần 1:** chỉ tập trung vào thông tin được hỏi – đừng cố hiểu từng từ.
+
+    3. **Nghe lần 2:** kiểm tra lại. Cẩn thận “bẫy”: hội thoại thường nhắc đến **cả 3 lựa chọn**, nhưng chỉ một cái là đúng (ví dụ: “Montag? – Nein, Montag geht nicht. Dienstag!”).
+
+    '
+  examples:
+  - de: Wann ist der Termin? – Am Montag? – Nein, am Dienstag.
+    vi: Hẹn khi nào? – Thứ Hai à? – Không, thứ Ba.
+- id: a1.p1.l03.b3
+  kind: explanation
+  title_vi: Chiến lược cho Sprechen Teil 1
+  skill: grammar
+  body_vi: 'Thẻ từ khóa thường có: Name? Alter? Land? Wohnort? Sprachen? Beruf? Hobby? – Mỗi từ khóa nói MỘT câu hoàn chỉnh. Sau đó giám khảo yêu cầu đánh vần tên và đọc một số (số nhà, số điện thoại). Nói chậm, rõ; nếu không hiểu, dùng: Wie bitte? / Noch einmal, bitte.'
+  examples:
+  - de: Name? → Ich heiße Minh Tran.
+    vi: Tên? → Tôi tên là Minh Trần.
+  - de: Hobby? → Ich spiele gern Fußball.
+    vi: Sở thích? → Tôi thích chơi bóng đá.
+- id: a1.p1.l03.b4
+  kind: pronunciation
+  title_vi: Nói rõ ràng trong bài thi
+  skill: pronunciation
+  body_vi: 'Nói rõ ràng trong bài thi
+
+
+    Giám khảo chấm việc người nghe có hiểu bạn không. Ưu tiên: (1) phụ âm cuối rõ (heiße, komme, wohne), (2) trọng âm đúng ở các từ quan trọng (Vietnam, Deutschland, Informatiker), (3) đọc số rõ từng chữ số, dùng zwo cho 2.
+
+
+    Luyện tập: Ghi âm phần tự giới thiệu, nghe lại và đánh dấu chỗ nói chưa rõ.'
+  items:
+  - de: Meine Telefonnummer ist null, eins, sieben, zwo …
+    vi: Số điện thoại của tôi là 0, 1, 7, 2 …
+- id: a1.p1.l03.b5
+  kind: examples
+  title_vi: Câu ví dụ
+  examples:
+  - de: Ich heiße Lan Nguyen. Ich bin 25 Jahre alt.
+    vi: Tôi tên Lan Nguyễn. Tôi 25 tuổi.
+  - de: Ich komme aus Vietnam und wohne in Leipzig.
+    vi: Tôi đến từ Việt Nam và sống ở Leipzig.
+  - de: Ich spreche Vietnamesisch, Englisch und ein bisschen Deutsch.
+    vi: Tôi nói tiếng Việt, tiếng Anh và một chút tiếng Đức.
+  - de: Ich bin Studentin. Mein Hobby ist Kochen.
+    vi: Tôi là sinh viên. Sở thích của tôi là nấu ăn.
+  - de: 'Die Prüfung hat vier Teile: Hören, Lesen, Schreiben und Sprechen.'
+    vi: 'Kỳ thi có bốn phần: nghe, đọc, viết và nói.'
+- id: a1.p1.l03.b6
+  kind: listening
+  title_vi: Đề luyện Hören Teil 1 – Hội thoại 1
+  lines:
+  - speaker: Frau
+    de: Praxis Dr. Klein, guten Tag.
+    vi: Phòng khám bác sĩ Klein, xin chào.
+  - speaker: Mann
+    de: Guten Tag, hier ist Tran. Ich habe am Montag einen Termin. Aber Montag geht leider nicht.
+    vi: Xin chào, tôi là Trần. Tôi có lịch hẹn thứ Hai. Nhưng tiếc là thứ Hai không được.
+  - speaker: Frau
+    de: Kein Problem. Mittwoch?
+    vi: Không sao. Thứ Tư nhé?
+  - speaker: Mann
+    de: Mittwoch arbeite ich. Geht Donnerstag?
+    vi: Thứ Tư tôi làm việc. Thứ Năm được không?
+  - speaker: Frau
+    de: Ja, Donnerstag geht.
+    vi: Vâng, thứ Năm được.
+  audio_status: pending-tts
+  situation_vi: 'Ở quầy lễ tân phòng khám: hẹn ngày.'
+  skill: listening
+  audio:
+    speed: normal
+- id: a1.p1.l03.b7
+  kind: listening
+  title_vi: Đề luyện Hören Teil 1 – Hội thoại 2
+  lines:
+  - speaker: Frau
+    de: Eine Fahrkarte nach Hamburg, bitte. Was kostet das?
+    vi: Cho tôi một vé đi Hamburg. Giá bao nhiêu?
+  - speaker: Mann
+    de: Neunundzwanzig Euro.
+    vi: Hai mươi chín euro.
+  - speaker: Frau
+    de: Neunzehn?
+    vi: Mười chín ạ?
+  - speaker: Mann
+    de: Nein, neunundzwanzig.
+    vi: Không, hai mươi chín.
+  audio_status: pending-tts
+  situation_vi: 'Ở nhà ga: hỏi giá vé.'
+  skill: listening
+  audio:
+    speed: normal
+- id: a1.p1.l03.b8
+  kind: listening
+  title_vi: Đề luyện Hören Teil 1 – Hội thoại 3
+  lines:
+  - speaker: Kollegin
+    de: Gehen wir heute ins Restaurant?
+    vi: Hôm nay mình đi nhà hàng nhé?
+  - speaker: Kollege
+    de: Das Restaurant ist teuer. Gehen wir lieber ins Café am Markt.
+    vi: Nhà hàng đắt. Mình đi quán cà phê ở chợ thì hơn.
+  - speaker: Kollegin
+    de: Okay, ins Café. Aber nicht ins Café am Bahnhof – das ist so laut!
+    vi: Ok, đi cà phê. Nhưng đừng đi quán ở nhà ga – ở đó ồn lắm!
+  audio_status: pending-tts
+  situation_vi: 'Hai đồng nghiệp: đi ăn trưa ở đâu.'
+  skill: listening
+  audio:
+    speed: normal
+- id: a1.p1.l03.b9
+  kind: reading
+  title_vi: Thẻ từ khóa Sprechen Teil 1
+  paragraphs:
+  - de: 'Sprechen, Teil 1 – Sich vorstellen
+
+      Name? · Alter? · Land? · Wohnort? · Sprachen? · Beruf? · Hobby?
+
+      Buchstabieren Sie Ihren Namen.
+
+      Wie ist Ihre Telefonnummer?'
+    vi: 'Nói, phần 1 – Tự giới thiệu
+
+      Tên? · Tuổi? · Nước? · Nơi ở? · Ngôn ngữ? · Nghề? · Sở thích?
+
+      Hãy đánh vần tên của bạn.
+
+      Số điện thoại của bạn là gì?'
+  text_type_vi: Thẻ đề thi nói
+  skill: reading
+  glossary:
+  - de: sich vorstellen
+    vi: tự giới thiệu
+  - de: das Alter
+    vi: tuổi
+- id: a1.p1.l03.b10
+  kind: speaking
+  title_vi: Luyện Sprechen Teil 1
+  skill: speaking
+  task_vi: 'Tự giới thiệu theo 7 từ khóa trên thẻ, đánh vần tên và đọc số điện thoại. Bấm giờ: khoảng 1–1,5 phút.'
+  steps_vi:
+  - Mỗi từ khóa một câu hoàn chỉnh.
+  - Đánh vần họ và tên.
+  - Đọc số điện thoại từng chữ số (zwo cho 2).
+  lines:
+  - speaker: Lan
+    de: Ich heiße Lan Nguyen. Ich bin 25 Jahre alt. Ich komme aus Vietnam. Ich wohne in Leipzig. Ich spreche Vietnamesisch, Englisch und ein bisschen Deutsch. Ich bin Studentin. Mein Hobby ist Kochen.
+    vi: Tôi tên Lan Nguyễn. Tôi 25 tuổi. Tôi đến từ Việt Nam. Tôi sống ở Leipzig. Tôi nói tiếng Việt, tiếng Anh và một chút tiếng Đức. Tôi là sinh viên. Sở thích của tôi là nấu ăn.
+  - speaker: Lan
+    de: 'Lan: L – A – N. Nguyen: N – G – U – Y – E – N. Meine Telefonnummer ist null, eins, sieben, sechs, zwo, vier, acht, fünf, null, drei.'
+    vi: 'Lan: L – A – N. Nguyễn: N – G – U – Y – E – N. Số điện thoại của tôi là 0176 248503.'
+- id: a1.p1.l03.b11
+  kind: writing
+  title_vi: Chuẩn bị thẻ trả lời
+  skill: writing
+  task_vi: Viết 7 câu trả lời cho 7 từ khóa của thẻ Sprechen Teil 1 (để luyện nói).
+  model:
+    de: Ich heiße Minh Tran. Ich bin 26 Jahre alt. Ich komme aus Vietnam. Ich wohne in Hamburg. Ich spreche Vietnamesisch und Englisch. Ich bin Informatiker. Ich spiele gern Fußball.
+    vi: 7 câu trả lời mẫu.
+  checklist_vi:
+  - 7 câu hoàn chỉnh, động từ chia đúng.
+  - Tuổi dùng sein; nghề không mạo từ; sở thích với gern.

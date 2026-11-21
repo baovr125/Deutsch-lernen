@@ -1,0 +1,200 @@
+schema_version: '2.0'
+content_type: exercise-set
+id: a1.m04.review.ex
+level: A1
+module: a1.m04
+lesson: a1.m04.review
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+exercises:
+- id: a1.m04.review.ex.01
+  type: matching
+  skill: vocabulary
+  difficulty: 1
+  objective_refs:
+  - a1.m04.review.obj1
+  instructions_vi: Nối thực phẩm với nhóm tương ứng.
+  items:
+  - id: a1.m04.review.ex.01.q1
+    pairs:
+    - left: der Apfel
+      right: Obst
+    - left: die Tomate
+      right: Gemüse
+    - left: das Hähnchen
+      right: Fleisch
+    - left: der Käse
+      right: Milchprodukt
+    - left: der Orangensaft
+      right: Getränk
+    explanation_vi: Phân loại các nhóm thực phẩm cơ bản trong đời sống.
+- id: a1.m04.review.ex.02
+  type: multiple-choice
+  skill: grammar
+  difficulty: 1
+  objective_refs:
+  - a1.m04.review.obj2
+  instructions_vi: Chọn dạng đúng của từ trong ngoặc.
+  items:
+  - id: a1.m04.review.ex.02.q1
+    prompt: Ich brauche ___ (der) Kuchen für das Fest.
+    options:
+    - id: a
+      text: die
+    - id: b
+      text: der
+    - id: c
+      text: den
+    - id: d
+      text: das
+    answer:
+    - c
+    explanation_vi: der Kuchen ở Akkusativ đổi thành den Kuchen.
+  - id: a1.m04.review.ex.02.q2
+    prompt: Was ___ du trinken? – Einen Tee, bitte.
+    options:
+    - id: a
+      text: möchtest
+    - id: b
+      text: mag
+    - id: c
+      text: möchte
+    - id: d
+      text: mögt
+    answer:
+    - a
+    explanation_vi: Chủ ngữ du → chia möchten là möchtest.
+  - id: a1.m04.review.ex.02.q3
+    prompt: Am Abend ___ wir warm zu Hause.
+    options:
+    - id: a
+      text: wir essen
+    - id: b
+      text: essen wir
+    - id: c
+      text: essen
+    - id: d
+      text: gegessen
+    answer:
+    - c
+    explanation_vi: Am Abend (1) + essen (động từ 2) + wir (chủ ngữ 3).
+- id: a1.m04.review.ex.03
+  type: multiple-choice
+  skill: listening
+  difficulty: 2
+  objective_refs:
+  - a1.m04.review.obj3
+  instructions_vi: Nghe đoạn thoại và chọn đáp án chính xác.
+  stimulus:
+    ref: a1.m04.review.b5
+  items:
+  - id: a1.m04.review.ex.03.q1
+    prompt: Was brauchen David und Sandra noch aus dem Supermarkt?
+    options:
+    - id: a
+      text: nur Brot
+    - id: b
+      text: Salat, Tomaten und Mineralwasser
+    - id: c
+      text: Fleisch und Reis
+    - id: d
+      text: nur Äpfel
+    answer:
+    - b
+    explanation_vi: 'Sandra nói: ''wir brauchen noch einen Salat, zwei Tomaten und eine Flasche Mineralwasser''.'
+  - id: a1.m04.review.ex.03.q2
+    prompt: Welchen Kuchen soll David mitbringen?
+    options:
+    - id: a
+      text: einen Schokoladenkuchen
+    - id: b
+      text: einen Apfelkuchen
+    - id: c
+      text: einen Käsekuchen
+    - id: d
+      text: keinen Kuchen
+    answer:
+    - a
+    explanation_vi: 'Sandra dặn: ''bring bitte auch einen Schokoladenkuchen mit!''.'
+- id: a1.m04.review.ex.04
+  type: true-false
+  skill: listening
+  difficulty: 2
+  objective_refs:
+  - a1.m04.review.obj3
+  instructions_vi: Nghe lại và xác định câu sau là Đúng hay Sai.
+  stimulus:
+    ref: a1.m04.review.b5
+  items:
+  - id: a1.m04.review.ex.04.q1
+    prompt: David und Sandra haben schon Fleisch und Reis zu Hause.
+    answer: true
+    explanation_vi: 'Đúng, Sandra nói: ''Wir haben schon Fleisch und Reis''.'
+  - id: a1.m04.review.ex.04.q2
+    prompt: Sandra möchte später ein Glas Bier trinken.
+    answer: false
+    explanation_vi: 'Sai, Sandra nói: ''Ich möchte einen Apfelsaft, bitte!''.'
+- id: a1.m04.review.ex.05
+  type: true-false
+  skill: reading
+  difficulty: 2
+  objective_refs:
+  - a1.m04.review.obj4
+  instructions_vi: Đọc thực đơn và xác định các câu sau là Đúng hay Sai.
+  stimulus:
+    ref: a1.m04.review.b6
+  items:
+  - id: a1.m04.review.ex.05.q1
+    prompt: Gegrilltes Hähnchen mit Pommes frites kostet 8,90 Euro.
+    answer: true
+    explanation_vi: Đúng, trên thực đơn ghi món chính 1 giá 8,90 EUR.
+  - id: a1.m04.review.ex.05.q2
+    prompt: Tomatensuppe ist ein Hauptgericht.
+    answer: false
+    explanation_vi: Sai, Tomatensuppe là món khai vị (Vorspeise).
+- id: a1.m04.review.ex.06
+  type: fill-blank
+  skill: speaking
+  difficulty: 2
+  objective_refs:
+  - a1.m04.review.obj5
+  instructions_vi: Điền câu giao tiếp bàn tiệc thích hợp.
+  items:
+  - id: a1.m04.review.ex.06.q1
+    prompt: 'Vor dem Essen sagt man: Guten ___! – Danke, gleichfalls!'
+    answers:
+    - Appetit
+    explanation_vi: Guten Appetit! = Chúc ngon miệng!
+  - id: a1.m04.review.ex.06.q2
+    prompt: 'Beim Anstoßen sagt man: ___! Auf uns!'
+    answers:
+    - Prost
+    explanation_vi: Prost! = Nâng ly!
+- id: a1.m04.review.ex.07
+  type: word-order
+  skill: writing
+  difficulty: 2
+  objective_refs:
+  - a1.m04.review.obj2
+  - a1.m04.review.obj5
+  instructions_vi: Sắp xếp các từ thành câu hoàn chỉnh đúng trật tự từ.
+  items:
+  - id: a1.m04.review.ex.07.q1
+    tokens:
+    - trinke
+    - einen
+    - Morgens
+    - Kaffee
+    - ich
+    answer: Morgens trinke ich einen Kaffee.
+    prompt_vi: 'Sắp xếp: Morgens / ich / einen / Kaffee / trinke .'
+    explanation_vi: Morgens (vị trí 1) + trinke (động từ vị trí 2) + ich (chủ ngữ vị trí 3) + einen Kaffee (tân ngữ Akkusativ).

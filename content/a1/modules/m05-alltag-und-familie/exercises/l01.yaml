@@ -1,0 +1,204 @@
+schema_version: '2.0'
+content_type: exercise-set
+id: a1.m05.l01.ex
+level: A1
+module: a1.m05
+lesson: a1.m05.l01
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+exercises:
+- id: a1.m05.l01.ex.01
+  type: matching
+  skill: vocabulary
+  difficulty: 1
+  objective_refs:
+  - a1.m05.l01.obj1
+  instructions_vi: Nối cụm từ tiếng Đức với nghĩa tiếng Việt tương ứng.
+  items:
+  - id: a1.m05.l01.ex.01.q1
+    pairs:
+    - left: aufstehen
+      right: thức dậy
+    - left: anfangen
+      right: bắt đầu
+    - left: aufhören
+      right: kết thúc
+    - left: fernsehen
+      right: xem tivi
+    - left: aufräumen
+      right: dọn dẹp
+    - left: ins Bett gehen
+      right: đi ngủ
+    explanation_vi: Các động từ chỉ hoạt động thường nhật quan trọng nhất.
+- id: a1.m05.l01.ex.02
+  type: multiple-choice
+  skill: grammar
+  difficulty: 1
+  objective_refs:
+  - a1.m05.l01.obj2
+  instructions_vi: Chọn vị trí tiền tố đúng cho câu chứa động từ tách.
+  items:
+  - id: a1.m05.l01.ex.02.q1
+    prompt: Ich stehe jeden Morgen um sechs Uhr ___.
+    options:
+    - id: a
+      text: mit
+    - id: b
+      text: auf
+    - id: c
+      text: an
+    - id: d
+      text: ein
+    answer:
+    - b
+    explanation_vi: aufstehen (thức dậy) → tiền tố auf ở cuối câu.
+  - id: a1.m05.l01.ex.02.q2
+    prompt: Wann fängt der Deutschkurs ___?
+    options:
+    - id: a
+      text: auf
+    - id: b
+      text: fern
+    - id: c
+      text: mit
+    - id: d
+      text: an
+    answer:
+    - d
+    explanation_vi: anfangen (bắt đầu) → tiền tố an ở cuối câu.
+  - id: a1.m05.l01.ex.02.q3
+    prompt: Mein Bruder sieht am Abend oft ___.
+    options:
+    - id: a
+      text: an
+    - id: b
+      text: fern
+    - id: c
+      text: auf
+    - id: d
+      text: ab
+    answer:
+    - b
+    explanation_vi: fernsehen (xem tivi) → tiền tố fern ở cuối câu.
+- id: a1.m05.l01.ex.03
+  type: multiple-choice
+  skill: listening
+  difficulty: 2
+  objective_refs:
+  - a1.m05.l01.obj4
+  instructions_vi: Nghe câu chuyện của Thomas và chọn câu trả lời đúng.
+  stimulus:
+    ref: a1.m05.l01.b5
+  items:
+  - id: a1.m05.l01.ex.03.q1
+    prompt: Wann steht Thomas jeden Morgen auf?
+    options:
+    - id: a
+      text: um sieben Uhr
+    - id: b
+      text: um acht Uhr
+    - id: c
+      text: um sechs Uhr
+    - id: d
+      text: um halb acht
+    answer:
+    - c
+    explanation_vi: 'Thomas nói: ''Ich stehe jeden Morgen um sechs Uhr auf''.'
+  - id: a1.m05.l01.ex.03.q2
+    prompt: Wann hat Thomas Feierabend?
+    options:
+    - id: a
+      text: um zwölf Uhr
+    - id: b
+      text: um acht Uhr
+    - id: c
+      text: um siebzehn Uhr
+    - id: d
+      text: um neunzehn Uhr
+    answer:
+    - c
+    explanation_vi: 'Thomas nói: ''Um siebzehn Uhr habe ich Feierabend''.'
+- id: a1.m05.l01.ex.04
+  type: true-false
+  skill: listening
+  difficulty: 2
+  objective_refs:
+  - a1.m05.l01.obj4
+  instructions_vi: Nghe lại và xác định câu sau là Đúng hay Sai.
+  stimulus:
+    ref: a1.m05.l01.b5
+  items:
+  - id: a1.m05.l01.ex.04.q1
+    prompt: Thomas fährt mit dem Fahrrad zur Arbeit.
+    answer: false
+    explanation_vi: Sai, Thomas đi bằng xe buýt ('mit dem Bus').
+  - id: a1.m05.l01.ex.04.q2
+    prompt: Thomas geht um elf Uhr ins Bett.
+    answer: true
+    explanation_vi: 'Đúng, Thomas nói: ''Um elf Uhr gehe ich ins Bett''.'
+- id: a1.m05.l01.ex.05
+  type: true-false
+  skill: reading
+  difficulty: 2
+  objective_refs:
+  - a1.m05.l01.obj4
+  instructions_vi: Đọc bài viết của Mia và xác định Đúng hay Sai.
+  stimulus:
+    ref: a1.m05.l01.b6
+  items:
+  - id: a1.m05.l01.ex.05.q1
+    prompt: Mias Vorlesungen an der Universität fangen um neun Uhr an.
+    answer: true
+    explanation_vi: 'Đúng, bài viết ghi: ''Meine Vorlesungen fangen um neun Uhr an''.'
+  - id: a1.m05.l01.ex.05.q2
+    prompt: Mia arbeitet am Nachmittag in einem Restaurant.
+    answer: false
+    explanation_vi: Sai, cô ấy làm ở tiệm bánh ('in einer Bäckerei').
+- id: a1.m05.l01.ex.06
+  type: fill-blank
+  skill: speaking
+  difficulty: 2
+  objective_refs:
+  - a1.m05.l01.obj2
+  - a1.m05.l01.obj3
+  instructions_vi: Điền dạng chia đúng của động từ trong ngoặc.
+  items:
+  - id: a1.m05.l01.ex.06.q1
+    prompt: Wann ___ (aufstehen) du sonntags auf?
+    answers:
+    - stehst
+    explanation_vi: 'Ngôi du: du stehst ... auf.'
+  - id: a1.m05.l01.ex.06.q2
+    prompt: Er ___ (aufräumen) heute sein Zimmer auf.
+    answers:
+    - räumt
+    explanation_vi: 'Ngôi er: er räumt ... auf.'
+- id: a1.m05.l01.ex.07
+  type: word-order
+  skill: writing
+  difficulty: 2
+  objective_refs:
+  - a1.m05.l01.obj1
+  - a1.m05.l01.obj2
+  instructions_vi: Sắp xếp các từ thành câu hoàn chỉnh đúng quy tắc động từ tách.
+  items:
+  - id: a1.m05.l01.ex.07.q1
+    tokens:
+    - auf
+    - Ich
+    - sieben
+    - stehe
+    - um
+    - Uhr
+    answer: Ich stehe um sieben Uhr auf.
+    prompt_vi: 'Sắp xếp: Ich / um / auf / stehe / sieben / Uhr .'
+    explanation_vi: Ich (chủ ngữ) + stehe (vị trí 2) + um sieben Uhr (thời gian) + auf (tiền tố ở cuối).

@@ -1,0 +1,78 @@
+schema_version: "2.0"
+content_type: lesson
+id: a1.m08.l04
+level: A1
+module: a1.m08
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  references:
+    - { work: "Netzwerk neu A1.2 – Stoffverteilungsplan (Klett)", scope: "Kapitel 8, Mục Beim Arzt; Landeskunde Hausmittel gegen Krankheiten; Berufe im Krankenhaus; sollen; Aussprache p/b, t/d, k/g", verification: verified }
+  tags: ["arzt", "sollen", "aussprache"]
+order: 4
+title_de: "Beim Arzt"
+title_vi: "Ở phòng khám"
+duration_min: 55
+difficulty: 2
+objectives:
+  - { id: a1.m08.l04.obj1, text_vi: "Bạn có thể nói với bác sĩ bạn đau ở đâu và hiểu lời dặn đơn giản (nên uống thuốc, nghỉ ngơi).", skill: speaking }
+  - { id: a1.m08.l04.obj2, text_vi: "Bạn có thể dùng sollen để thuật lại lời khuyên của bác sĩ.", skill: grammar }
+  - { id: a1.m08.l04.obj3, text_vi: "Bạn có thể phân biệt cách phát âm p/b, t/d, k/g ở đầu và cuối từ.", skill: pronunciation }
+vocabulary_refs: [a1.m08.v.arzt, a1.m08.v.aerztin, a1.m08.v.patient, a1.m08.v.praxis, a1.m08.v.medikament, a1.m08.v.tablette, a1.m08.v.rezept, a1.m08.v.erkaeltung, a1.m08.v.fieber, a1.m08.v.husten, a1.m08.v.tee, a1.m08.v.krank, a1.m08.v.sollen, a1.m08.v.nehmen, a1.m08.v.gute-besserung]
+grammar_refs: [a1.g.sollen]
+expression_refs: [a1.m08.x.arzt-frage, a1.m08.x.termin-arzt, a1.m08.x.rat-arzt, a1.m08.x.hausmittel]
+exercise_set_ref: a1.m08.l04.ex
+blocks:
+  - id: a1.m08.l04.b1
+    kind: explanation
+    skill: vocabulary
+    title_vi: "Bắt đầu: khám bệnh"
+    body_vi: |
+      Ở phòng khám bạn thường nghe: **Was fehlt Ihnen?** (Ông/bà bị làm sao?) và trả lời: **Ich habe Fieber / Husten / Schmerzen im Rücken.**
+      Chú ý: *Fieber haben*, *Husten haben* không dùng mạo từ. *Ihnen* là đại từ trang trọng, ở giai đoạn này hãy học thuộc cả cụm.
+  - id: a1.m08.l04.b2
+    kind: dialogue
+    skill: speaking
+    title_vi: "Hội thoại: Cuộc hẹn với bác sĩ"
+    lines:
+      - { speaker: "Ärztin", de: "Guten Tag, Herr Aydin. Was fehlt Ihnen?", vi: "Xin chào ông Aydin. Ông bị làm sao ạ?" }
+      - { speaker: "Herr Aydin", de: "Ich habe Husten und Halsschmerzen. Seit zwei Tagen habe ich auch Fieber.", vi: "Tôi bị ho và đau họng. Hai ngày nay tôi còn bị sốt." }
+      - { speaker: "Ärztin", de: "Machen Sie bitte den Mund auf. … Sie haben eine Erkältung.", vi: "Xin ông há miệng ra. … Ông bị cảm lạnh." }
+      - { speaker: "Herr Aydin", de: "Muss ich ein Medikament nehmen?", vi: "Tôi có phải uống thuốc không?" }
+      - { speaker: "Ärztin", de: "Ja, nehmen Sie dreimal am Tag eine Tablette. Und Sie sollen viel Tee trinken und im Bett bleiben.", vi: "Có, mỗi ngày uống ba lần, mỗi lần một viên. Và ông nên uống nhiều trà và nằm nghỉ." }
+      - { speaker: "Herr Aydin", de: "Danke. Wie lange soll ich zu Hause bleiben?", vi: "Cảm ơn. Tôi nên ở nhà trong bao lâu?" }
+      - { speaker: "Ärztin", de: "Drei Tage. Gute Besserung!", vi: "Ba ngày. Chúc ông mau khỏe!" }
+  - id: a1.m08.l04.b3
+    kind: reading
+    skill: reading
+    title_vi: "Bài đọc: Hausmittel bei Erkältung"
+    paragraphs:
+      - { de: "Bei einer Erkältung hilft oft warmer Tee mit Honig.", vi: "Khi bị cảm, trà ấm với mật ong thường có ích." }
+      - { de: "Man soll viel trinken und sich ausruhen.", vi: "Nên uống nhiều nước và nghỉ ngơi." }
+      - { de: "Bei Fieber geht man zum Arzt.", vi: "Khi bị sốt thì đi khám bác sĩ." }
+  - id: a1.m08.l04.b4
+    kind: pronunciation
+    skill: pronunciation
+    title_vi: "Phát âm: p/b, t/d, k/g"
+    body_vi: |
+      Ở **đầu từ** hoặc giữa từ, **p/t/k** là âm vô thanh bật hơi, còn **b/d/g** là âm hữu thanh nhẹ.
+      Ở **cuối từ** (và cuối âm tiết), **b/d/g** được đọc thành **/p/, /t/, /k/**: *Tag* /taːk/, *gesund* /ɡəˈzʊnt/, *Arzt*.
+      Hãy luyện cặp tối thiểu để nghe khác biệt đầu từ.
+    items:
+      - { de: "Pass – Bass", ipa: "/pas/ – /bas/", note_vi: "p đầu từ bật hơi; b mềm hơn" }
+      - { de: "Tank – Dank", ipa: "/taŋk/ – /daŋk/", note_vi: "t bật hơi; d hữu thanh" }
+      - { de: "Kunst – Gunst", ipa: "/kʊnst/ – /ɡʊnst/", note_vi: "k bật hơi; g hữu thanh" }
+      - { de: "Gesundheit", ipa: "/ɡəˈzʊnthaɪt/", note_vi: "g đầu từ hữu thanh; -heit cuối" }
+      - { de: "gesund", ipa: "/ɡəˈzʊnt/", note_vi: "d cuối từ đọc thành /t/" }
+  - id: a1.m08.l04.b5
+    kind: culture
+    skill: reading
+    title_vi: "Văn hóa: phòng khám và bệnh viện"
+    body_vi: |
+      Ở Đức, bạn thường đặt hẹn (**Termin**) trước khi đến **Praxis** của bác sĩ gia đình (**Hausarzt**). Thuốc kê đơn cần **Rezept** và mua ở **Apotheke**. Khi ốm bạn cần giấy nghỉ ốm (**Krankschreibung**) từ bác sĩ để báo với công ty.
+      Ở bệnh viện (**Krankenhaus**) có nhiều nghề: **Ärztin/Arzt** (bác sĩ), **Pfleger/Pflegerin** (điều dưỡng).

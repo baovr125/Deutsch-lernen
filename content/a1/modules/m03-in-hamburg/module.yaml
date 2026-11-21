@@ -1,0 +1,83 @@
+schema_version: '2.0'
+content_type: module
+id: a1.m03
+level: A1
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+  references:
+  - work: Netzwerk neu A1 (Klett)
+    scope: 'Kapitel 3: In Hamburg; Die Taxifahrt; Kein Glück?!; Links, rechts, geradeaus; Landeskunde: Events in Hamburg; Landeskunde: Jahreszeiten in D-A-CH; Film: Die Netzwerk-WG; kurz und klar: Redemittel und Grammatik'
+    verification: verified
+  notes_vi: Trình tự và phạm vi theo Stoffverteilungsplan Netzwerk neu A1.1 (Kapitel 3, 10 UE) và Kapitelwortschatz. Thông tin về Hamburg trong bài đọc là thông tin phổ thông, viết lại hoàn toàn.
+kind: kapitel
+order: 3
+title_de: In Hamburg
+title_vi: Ở Hamburg
+summary_vi: 'Tham quan thành phố: địa điểm trong thành phố, mạo từ không xác định ein/eine, phương tiện giao thông và phủ định kein/keine, chỉ đường với câu mệnh lệnh Sie, sự kiện văn hóa và từ quốc tế, tháng và mùa ở D-A-CH; lời chào vùng miền (Moin, Grüß Gott, Grüezi).'
+cefr:
+- A1.SI5
+- A1.H2
+- A1.H4
+- A1.L1
+- A1.L3
+- A1.L4
+- A1.SP1
+- A1.SP3
+- A1.S2
+not_covered_vi:
+- 'Film „Die Netzwerk-WG“ (Szene 6–7): không sử dụng video giáo trình.'
+- Từ chỉ dùng trong bài tập của giáo trình (bilden, passend, doppelt, Konsonant, Vokal, klopfen, kreisen, würfeln, Start…) không đưa vào danh sách học; Konsonant/Vokal được giải thích trong phần phát âm.
+- Nội dung về các sự kiện cụ thể ở Hamburg trong giáo trình không được sao chép; bài đọc về sự kiện là văn bản tự viết.
+lessons:
+- id: a1.m03.l01
+  file: lessons/l01.yaml
+- id: a1.m03.l02
+  file: lessons/l02.yaml
+- id: a1.m03.l03
+  file: lessons/l03.yaml
+- id: a1.m03.l04
+  file: lessons/l04.yaml
+- id: a1.m03.l05
+  file: lessons/l05.yaml
+- id: a1.m03.l06
+  file: lessons/l06.yaml
+- id: a1.m03.review
+  file: lessons/review.yaml
+grammar:
+- id: a1.g.unbestimmter-artikel
+  file: ../../grammar/unbestimmter-artikel.yaml
+- id: a1.g.negation-kein
+  file: ../../grammar/negation-kein.yaml
+- id: a1.g.imperativ-sie
+  file: ../../grammar/imperativ-sie.yaml
+vocabulary:
+  id: a1.m03.vocab
+  file: vocabulary.yaml
+expressions:
+  id: a1.m03.expr
+  file: expressions.yaml
+exercises:
+- id: a1.m03.l01.ex
+  file: exercises/l01.yaml
+- id: a1.m03.l02.ex
+  file: exercises/l02.yaml
+- id: a1.m03.l03.ex
+  file: exercises/l03.yaml
+- id: a1.m03.l04.ex
+  file: exercises/l04.yaml
+- id: a1.m03.l05.ex
+  file: exercises/l05.yaml
+- id: a1.m03.l06.ex
+  file: exercises/l06.yaml
+- id: a1.m03.review.ex
+  file: exercises/review.yaml
+estimated_hours: 8.1

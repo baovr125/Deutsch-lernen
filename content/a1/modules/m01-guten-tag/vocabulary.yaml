@@ -1,0 +1,1911 @@
+schema_version: '2.0'
+content_type: vocabulary-set
+id: a1.m01.vocab
+level: A1
+module: a1.m01
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+  references:
+  - work: Netzwerk neu A1 (Klett)
+    scope: 'Kapitel 1: Guten Tag! (Kapitelauftakt); Hallo! Tschüs!; Guten Tag! Auf Wiedersehen!; Woher kommen Sie?; Zahlen und Buchstaben; Landeskunde: Länder und Sprachen; Film: Die Netzwerk-WG; kurz und klar: Redemittel und Grammatik'
+    verification: verified
+  notes_vi: Trình tự và phạm vi theo Stoffverteilungsplan Netzwerk neu A1.1 (Kapitel 1, 10 UE). Toàn bộ giảng giải, hội thoại, bài đọc và bài tập là nội dung tự biên soạn.
+entries:
+- id: a1.m01.v.ich
+  de: ich
+  pos: pronoun
+  vi: tôi
+  ipa: /ɪç/
+  example:
+    de: Ich bin Minh.
+    vi: Tôi là Minh.
+  usage_vi: Viết thường (trừ khi đứng đầu câu). ch sau i đọc là [ç] – thổi hơi nhẹ, không đọc "ích" có âm k.
+  lesson_refs:
+  - a1.m01.l01
+  tags:
+  - personalpronomen
+  source: nwn-lern
+- id: a1.m01.v.du
+  de: du
+  pos: pronoun
+  vi: bạn, cậu, em, anh… (xưng hô thân mật)
+  ipa: /duː/
+  example:
+    de: Bist du Anna?
+    vi: Bạn là Anna à?
+  usage_vi: Một từ "du" thay cho rất nhiều đại từ tiếng Việt (bạn, cậu, em, anh, chị…). Dùng với bạn bè, gia đình, trẻ em, người trẻ cùng lứa.
+  lesson_refs:
+  - a1.m01.l01
+  tags:
+  - personalpronomen
+  - informell
+  source: nwn-lern
+- id: a1.m01.v.sein
+  de: sein
+  pos: verb
+  vi: là, thì, ở
+  forms:
+    text: ich bin, du bist, er/sie/es ist, Sie sind
+    er: ist
+  ipa: /zaɪ̯n/
+  example:
+    de: Ich bin Lan.
+    vi: Tôi là Lan.
+  usage_vi: 'Động từ bất quy tắc quan trọng nhất. Tiếng Việt có thể nói "Tôi Lan" nhưng tiếng Đức BẮT BUỘC có động từ: Ich bin Lan.'
+  lesson_refs:
+  - a1.m01.l01
+  tags:
+  - verb
+  - unregelmaessig
+  source: nwn-lern
+- id: a1.m01.v.heissen
+  de: heißen
+  pos: verb
+  vi: tên là, được gọi là
+  forms:
+    text: ich heiße, du heißt, er heißt, Sie heißen
+    er: heißt
+  ipa: /ˈhaɪ̯sn̩/
+  example:
+    de: Ich heiße Nam.
+    vi: Tôi tên là Nam.
+  usage_vi: du heißt (không phải "du heißst") vì gốc từ đã tận cùng bằng ß. Nói "Ich heiße…" hoặc "Mein Name ist…", không nói "Mein Name heißt…".
+  lesson_refs:
+  - a1.m01.l01
+  tags:
+  - verb
+  source: nwn-lern
+- id: a1.m01.v.wer
+  de: wer
+  pos: interrogative
+  vi: ai
+  ipa: /veːɐ̯/
+  example:
+    de: Wer ist das?
+    vi: Đó là ai?
+  usage_vi: 'Dễ nhầm: wer = ai (không phải "where"). w đọc là [v].'
+  lesson_refs:
+  - a1.m01.l01
+  tags:
+  - w-frage
+  source: nwn-lern
+- id: a1.m01.v.wie
+  de: wie
+  pos: interrogative
+  vi: như thế nào, ra sao
+  ipa: /viː/
+  example:
+    de: Wie heißt du?
+    vi: Bạn tên là gì?
+  usage_vi: 'Hỏi tên dùng "Wie heißt du?" (nghĩa đen: bạn được gọi thế nào?), KHÔNG dùng "Was heißt du?". ie đọc là [iː] dài.'
+  lesson_refs:
+  - a1.m01.l01
+  tags:
+  - w-frage
+  source: nwn-lern
+- id: a1.m01.v.name
+  de: Name
+  pos: noun
+  article: der
+  plural: Namen
+  vi: tên
+  ipa: /ˈnaːmə/
+  example:
+    de: Wie ist der Name?
+    vi: Tên là gì?
+  usage_vi: 'Danh từ giống đực: der Name. Số nhiều: die Namen.'
+  lesson_refs:
+  - a1.m01.l01
+  tags:
+  - person
+  source: nwn-lern
+- id: a1.m01.v.das
+  de: das
+  pos: pronoun
+  vi: đây, đó, cái này/ cái đó
+  ipa: /das/
+  example:
+    de: Das ist Tom.
+    vi: Đây là Tom.
+  usage_vi: 'Trong "Das ist…", "das" không đổi dù người được giới thiệu là nam hay nữ: Das ist Tom. / Das ist Anna. (Đừng nhầm với mạo từ "das" của danh từ.)'
+  lesson_refs:
+  - a1.m01.l01
+  tags:
+  - vorstellen
+  source: nwn-lern
+- id: a1.m01.v.gut
+  de: gut
+  pos: adjective
+  vi: tốt, khỏe, giỏi
+  ipa: /ɡuːt/
+  example:
+    de: Gut, danke!
+    vi: Khỏe, cảm ơn!
+  usage_vi: u đọc là [uː] dài; t cuối phải bật rõ.
+  lesson_refs:
+  - a1.m01.l01
+  tags:
+  - befinden
+  source: nwn-lern
+- id: a1.m01.v.sehr
+  de: sehr
+  pos: adverb
+  vi: rất
+  ipa: /zeːɐ̯/
+  example:
+    de: Sehr gut, danke!
+    vi: Rất khỏe, cảm ơn!
+  usage_vi: h sau nguyên âm không đọc, chỉ làm nguyên âm dài. r cuối đọc nhẹ như [ɐ].
+  lesson_refs:
+  - a1.m01.l01
+  tags:
+  - befinden
+  source: nwn-lern
+- id: a1.m01.v.ganz
+  de: ganz
+  pos: adverb
+  vi: khá; hoàn toàn
+  ipa: /ɡants/
+  example:
+    de: Ganz gut, danke.
+    vi: Khá ổn, cảm ơn.
+  usage_vi: '"Ganz gut" = khá ổn (KHÔNG phải "hoàn toàn tốt"). z đọc là [ts].'
+  lesson_refs:
+  - a1.m01.l01
+  tags:
+  - befinden
+  - mehrdeutig
+  source: nwn-lern
+- id: a1.m01.v.auch
+  de: auch
+  pos: adverb
+  vi: cũng
+  ipa: /aʊ̯x/
+  example:
+    de: Ich heiße auch Anna.
+    vi: Tôi cũng tên là Anna.
+  usage_vi: au đọc gần "ao"; ch sau a, o, u, au đọc là [x] – giống "kh" trong tiếng Việt.
+  lesson_refs:
+  - a1.m01.l01
+  source: nwn-lern
+- id: a1.m01.v.und
+  de: und
+  pos: conjunction
+  vi: và; còn
+  ipa: /ʊnt/
+  example:
+    de: Gut, und dir?
+    vi: Khỏe, còn bạn?
+  usage_vi: d ở cuối từ đọc thành [t].
+  lesson_refs:
+  - a1.m01.l01
+  source: nwn-lern
+- id: a1.m01.v.oder
+  de: oder
+  pos: conjunction
+  vi: hay, hoặc
+  ipa: /ˈoːdɐ/
+  example:
+    de: Anna oder Julia?
+    vi: Anna hay Julia?
+  usage_vi: Đuôi -er đọc là [ɐ], không đọc "ơ" có âm r.
+  lesson_refs:
+  - a1.m01.l01
+  source: nwn-lern
+- id: a1.m01.v.wie-geht-s
+  de: Wie geht's?
+  pos: phrase
+  vi: Bạn khỏe không?
+  ipa: /viː ˈɡeːts/
+  example:
+    de: Hallo, Paul! Wie geht's?
+    vi: Chào Paul! Khỏe không?
+  usage_vi: 'Thân mật. Dạng đầy đủ: "Wie geht es dir?". Dạng trang trọng (bài 2): "Wie geht es Ihnen?".'
+  lesson_refs:
+  - a1.m01.l01
+  tags:
+  - befinden
+  - informell
+  source: nwn
+- id: a1.m01.v.und-dir
+  de: Und dir?
+  pos: phrase
+  vi: Còn bạn thì sao?
+  ipa: /ʊnt ˈdiːɐ̯/
+  example:
+    de: Gut, danke. Und dir?
+    vi: Khỏe, cảm ơn. Còn bạn?
+  usage_vi: 'Chỉ dùng khi xưng "du". Với "Sie": "Und Ihnen?".'
+  lesson_refs:
+  - a1.m01.l01
+  tags:
+  - befinden
+  - informell
+  source: nwn
+- id: a1.m01.v.es-geht
+  de: Es geht.
+  pos: phrase
+  vi: Tạm được.
+  ipa: /ɛs ˈɡeːt/
+  example:
+    de: – Wie geht's? – Es geht.
+    vi: – Khỏe không? – Tạm được.
+  usage_vi: Câu trả lời trung tính, hơi kém hơn "gut".
+  lesson_refs:
+  - a1.m01.l01
+  tags:
+  - befinden
+  source: supplement
+- id: a1.m01.v.nicht-so-gut
+  de: Nicht so gut.
+  pos: phrase
+  vi: Không khỏe lắm.
+  ipa: /nɪçt zoː ˈɡuːt/
+  example:
+    de: – Wie geht's? – Nicht so gut.
+    vi: – Khỏe không? – Không khỏe lắm.
+  usage_vi: 'Học nguyên cụm. Người nghe thường hỏi tiếp: "Oh, was ist los?" (Ồ, có chuyện gì vậy?).'
+  lesson_refs:
+  - a1.m01.l01
+  tags:
+  - befinden
+  source: supplement
+- id: a1.m01.v.freut-mich
+  de: Freut mich!
+  pos: phrase
+  vi: Rất vui được gặp bạn!
+  ipa: /ˈfʁɔʏ̯t mɪç/
+  example:
+    de: – Das ist Mai. – Freut mich!
+    vi: – Đây là Mai. – Rất vui được gặp bạn!
+  usage_vi: Nói khi được giới thiệu với ai đó. eu đọc là [ɔʏ̯] – gần "oi".
+  lesson_refs:
+  - a1.m01.l01
+  tags:
+  - vorstellen
+  source: supplement
+- id: a1.m01.v.bis-bald
+  de: bis bald
+  pos: phrase
+  vi: hẹn sớm gặp lại
+  ipa: /bɪs ˈbalt/
+  example:
+    de: Tschüs, bis bald!
+    vi: Tạm biệt, hẹn sớm gặp lại!
+  usage_vi: Thân mật, dùng khi chia tay người quen.
+  lesson_refs:
+  - a1.m01.l01
+  tags:
+  - verabschiedung
+  - informell
+  source: nwn
+- id: a1.m01.v.ciao
+  de: ciao
+  pos: interjection
+  vi: chào (khi gặp và khi chia tay)
+  ipa: /tʃaʊ̯/
+  example:
+    de: Ciao, Lisa!
+    vi: Chào Lisa!
+  usage_vi: Mượn từ tiếng Ý, rất thân mật. Đọc là "chao".
+  lesson_refs:
+  - a1.m01.l01
+  tags:
+  - begruessung
+  - verabschiedung
+  - informell
+  source: nwn
+- id: a1.m01.v.guten-morgen
+  de: Guten Morgen!
+  pos: phrase
+  vi: Chào buổi sáng!
+  ipa: /ˈɡuːtn̩ ˈmɔʁɡn̩/
+  example:
+    de: Guten Morgen, Herr Weber!
+    vi: Chào buổi sáng, ông Weber!
+  usage_vi: Dùng từ sáng sớm đến khoảng 10–11 giờ.
+  lesson_refs:
+  - a1.m01.l02
+  tags:
+  - begruessung
+  - tageszeit
+  source: nwn
+- id: a1.m01.v.guten-tag
+  de: Guten Tag!
+  pos: phrase
+  vi: Xin chào! (ban ngày, trang trọng)
+  ipa: /ˈɡuːtn̩ ˈtaːk/
+  example:
+    de: Guten Tag, Frau Schmidt!
+    vi: Xin chào bà Schmidt!
+  usage_vi: Dùng khoảng từ 10 giờ đến chiều tối. Văn nói hay rút gọn thành "Tag!". g cuối đọc là [k].
+  lesson_refs:
+  - a1.m01.l02
+  tags:
+  - begruessung
+  - tageszeit
+  - formell
+  source: nwn
+- id: a1.m01.v.guten-abend
+  de: Guten Abend!
+  pos: phrase
+  vi: Chào buổi tối!
+  ipa: /ˈɡuːtn̩ ˈaːbn̩t/
+  example:
+    de: Guten Abend! Wie geht es Ihnen?
+    vi: Chào buổi tối! Ông/Bà có khỏe không?
+  usage_vi: Dùng khi GẶP nhau, khoảng từ 18 giờ.
+  lesson_refs:
+  - a1.m01.l02
+  tags:
+  - begruessung
+  - tageszeit
+  source: nwn
+- id: a1.m01.v.gute-nacht
+  de: Gute Nacht!
+  pos: phrase
+  vi: Chúc ngủ ngon!
+  ipa: /ˈɡuːtə ˈnaxt/
+  example:
+    de: Gute Nacht, Mama!
+    vi: Chúc mẹ ngủ ngon!
+  usage_vi: Chỉ dùng khi CHIA TAY buổi tối muộn hoặc trước khi đi ngủ, KHÔNG dùng để chào khi gặp.
+  lesson_refs:
+  - a1.m01.l02
+  tags:
+  - verabschiedung
+  - tageszeit
+  source: nwn
+- id: a1.m01.v.auf-wiedersehen
+  de: Auf Wiedersehen!
+  pos: phrase
+  vi: Tạm biệt! (trang trọng)
+  ipa: /aʊ̯f ˈviːdɐˌzeːən/
+  example:
+    de: Auf Wiedersehen, Herr Klein!
+    vi: Tạm biệt ông Klein!
+  usage_vi: 'Trang trọng, dùng với người dùng "Sie". Nghĩa đen: hẹn gặp lại.'
+  lesson_refs:
+  - a1.m01.l02
+  tags:
+  - verabschiedung
+  - formell
+  source: nwn-lern
+- id: a1.m01.v.sie
+  de: Sie
+  pos: pronoun
+  vi: ông, bà, anh, chị… (xưng hô trang trọng)
+  ipa: /ziː/
+  example:
+    de: Wie heißen Sie?
+    vi: Ông/Bà tên là gì?
+  usage_vi: 'Luôn VIẾT HOA chữ S, kể cả giữa câu. Dùng với người lạ, người lớn tuổi, trong công việc. Động từ đi với Sie giống dạng nguyên mẫu: Sie heißen, Sie kommen (riêng sein: Sie sind).'
+  lesson_refs:
+  - a1.m01.l02
+  tags:
+  - personalpronomen
+  - formell
+  source: nwn-lern
+- id: a1.m01.v.wie-geht-es-ihnen
+  de: Wie geht es Ihnen?
+  pos: phrase
+  vi: Ông/Bà… có khỏe không?
+  ipa: /viː ˈɡeːt ɛs ˈiːnən/
+  example:
+    de: Guten Tag, Frau Lang! Wie geht es Ihnen?
+    vi: Chào bà Lang! Bà có khỏe không?
+  usage_vi: 'Trang trọng. Trả lời: "Danke, gut. Und Ihnen?".'
+  lesson_refs:
+  - a1.m01.l02
+  tags:
+  - befinden
+  - formell
+  source: nwn
+- id: a1.m01.v.frau
+  de: Frau
+  pos: noun
+  article: die
+  plural: Frauen
+  vi: bà, cô (+ họ); người phụ nữ; vợ
+  ipa: /fʁaʊ̯/
+  example:
+    de: Guten Tag, Frau Weber!
+    vi: Xin chào bà Weber!
+  usage_vi: Từ nhiều nghĩa. "Frau + HỌ" là cách gọi trang trọng cho mọi phụ nữ trưởng thành (không dùng "Fräulein" nữa). Không nói "Frau + tên riêng".
+  lesson_refs:
+  - a1.m01.l02
+  tags:
+  - person
+  - formell
+  - mehrdeutig
+  source: nwn-lern
+- id: a1.m01.v.herr
+  de: Herr
+  pos: noun
+  article: der
+  plural: Herren
+  vi: ông (+ họ); quý ông
+  ipa: /hɛʁ/
+  example:
+    de: Guten Abend, Herr Schmidt!
+    vi: Chào buổi tối ông Schmidt!
+  usage_vi: '"Herr + HỌ" là cách gọi trang trọng. Số nhiều bất quy tắc: die Herren.'
+  lesson_refs:
+  - a1.m01.l02
+  tags:
+  - person
+  - formell
+  source: nwn-lern
+- id: a1.m01.v.vorname
+  de: Vorname
+  pos: noun
+  article: der
+  plural: Vornamen
+  vi: tên (tên gọi)
+  ipa: /ˈfoːɐ̯ˌnaːmə/
+  example:
+    de: Mein Vorname ist Linh.
+    vi: Tên tôi là Linh.
+  usage_vi: 'Người Đức viết tên trước, họ sau. Khi điền form: Vorname = Linh (có thể ghi cả tên đệm: Thi Linh), Nachname = Nguyen.'
+  lesson_refs:
+  - a1.m01.l02
+  tags:
+  - person
+  - formular
+  source: nwn-lern
+- id: a1.m01.v.nachname
+  de: Nachname
+  pos: noun
+  article: der
+  plural: Nachnamen
+  vi: họ
+  ipa: /ˈnaːxˌnaːmə/
+  example:
+    de: Mein Nachname ist Nguyen.
+    vi: Họ của tôi là Nguyễn.
+  usage_vi: Trong tình huống trang trọng, người Đức gọi nhau bằng Herr/Frau + Nachname.
+  lesson_refs:
+  - a1.m01.l02
+  tags:
+  - person
+  - formular
+  source: nwn
+- id: a1.m01.v.mein
+  de: mein
+  pos: pronoun
+  vi: của tôi
+  ipa: /maɪ̯n/
+  example:
+    de: Mein Name ist Hoa.
+    vi: Tên tôi là Hoa.
+  usage_vi: Ở Kapitel 1 chỉ cần dùng "Mein Name ist…", "Mein Vorname ist…". Quy tắc đầy đủ của mạo từ sở hữu học ở Kapitel 5.
+  lesson_refs:
+  - a1.m01.l02
+  tags:
+  - possessiv
+  source: nwn-lern
+- id: a1.m01.v.formell
+  de: formell
+  pos: adjective
+  vi: trang trọng
+  ipa: /fɔʁˈmɛl/
+  example:
+    de: '"Guten Tag" ist formell.'
+    vi: '"Guten Tag" là cách chào trang trọng.'
+  usage_vi: Từ dùng trong đề bài và giải thích ngữ pháp.
+  lesson_refs:
+  - a1.m01.l02
+  tags:
+  - sprache-lernen
+  source: nwn
+- id: a1.m01.v.informell
+  de: informell
+  pos: adjective
+  vi: thân mật, không trang trọng
+  ipa: /ˈɪnfɔʁmɛl/
+  example:
+    de: '"Hallo" ist informell.'
+    vi: '"Hallo" là cách chào thân mật.'
+  usage_vi: Từ dùng trong đề bài và giải thích ngữ pháp.
+  lesson_refs:
+  - a1.m01.l02
+  tags:
+  - sprache-lernen
+  source: nwn
+- id: a1.m01.v.morgen
+  de: Morgen
+  pos: noun
+  article: der
+  plural: Morgen
+  vi: buổi sáng
+  ipa: /ˈmɔʁɡn̩/
+  example:
+    de: Der Morgen ist schön.
+    vi: Buổi sáng thật đẹp.
+  usage_vi: 'Số nhiều giống số ít: die Morgen. Lưu ý: "morgen" viết thường nghĩa là "ngày mai" (học sau).'
+  lesson_refs:
+  - a1.m01.l02
+  tags:
+  - tageszeit
+  - mehrdeutig
+  source: supplement
+- id: a1.m01.v.tag
+  de: Tag
+  pos: noun
+  article: der
+  plural: Tage
+  vi: ngày; ban ngày
+  ipa: /taːk/
+  example:
+    de: Guten Tag!
+    vi: 'Xin chào! (nghĩa đen: ngày tốt lành)'
+  usage_vi: 'g cuối đọc [k], số nhiều die Tage đọc lại [ɡ]: [ˈtaːɡə].'
+  lesson_refs:
+  - a1.m01.l02
+  tags:
+  - tageszeit
+  source: supplement
+- id: a1.m01.v.abend
+  de: Abend
+  pos: noun
+  article: der
+  plural: Abende
+  vi: buổi tối
+  ipa: /ˈaːbn̩t/
+  example:
+    de: Guten Abend!
+    vi: Chào buổi tối!
+  usage_vi: d cuối đọc [t].
+  lesson_refs:
+  - a1.m01.l02
+  tags:
+  - tageszeit
+  source: supplement
+- id: a1.m01.v.nacht
+  de: Nacht
+  pos: noun
+  article: die
+  plural: Nächte
+  vi: ban đêm
+  ipa: /naxt/
+  example:
+    de: Gute Nacht!
+    vi: 'Chúc ngủ ngon! (nghĩa đen: đêm tốt lành)'
+  usage_vi: 'Số nhiều có biến âm: die Nächte [ˈnɛçtə]. Chú ý: Gute Nacht (không phải "Guten Nacht") vì Nacht là giống cái.'
+  lesson_refs:
+  - a1.m01.l02
+  tags:
+  - tageszeit
+  source: supplement
+- id: a1.m01.v.kommen
+  de: kommen
+  pos: verb
+  vi: đến; đến từ
+  forms:
+    text: du kommst, er kommt
+    er: kommt
+  ipa: /ˈkɔmən/
+  example:
+    de: Ich komme aus Vietnam.
+    vi: Tôi đến từ Việt Nam.
+  usage_vi: kommen aus + tên nước/thành phố = đến từ (quê ở đâu).
+  lesson_refs:
+  - a1.m01.l03
+  tags:
+  - verb
+  - herkunft
+  source: nwn-lern
+- id: a1.m01.v.aus
+  de: aus
+  pos: preposition
+  vi: từ (nơi xuất xứ)
+  ipa: /aʊ̯s/
+  example:
+    de: Sie kommt aus Hanoi.
+    vi: Cô ấy đến từ Hà Nội.
+  usage_vi: 'Với tên nước/thành phố không có mạo từ: aus Vietnam, aus Berlin. Với nước có mạo từ xem bài 5: aus der Schweiz.'
+  lesson_refs:
+  - a1.m01.l03
+  tags:
+  - herkunft
+  source: nwn-lern
+- id: a1.m01.v.woher
+  de: woher
+  pos: interrogative
+  vi: từ đâu
+  ipa: /voˈheːɐ̯/
+  example:
+    de: Woher kommst du?
+    vi: Bạn đến từ đâu?
+  usage_vi: 'Trọng âm ở âm tiết thứ hai: wo-HER. Trả lời bằng "aus".'
+  lesson_refs:
+  - a1.m01.l03
+  tags:
+  - w-frage
+  - herkunft
+  source: nwn-lern
+- id: a1.m01.v.wo
+  de: wo
+  pos: interrogative
+  vi: ở đâu
+  ipa: /voː/
+  example:
+    de: Wo wohnen Sie?
+    vi: Ông/Bà sống ở đâu?
+  usage_vi: 'Dễ nhầm 3 từ: wo = ở đâu, wer = ai, wie = thế nào. Trả lời bằng "in".'
+  lesson_refs:
+  - a1.m01.l03
+  tags:
+  - w-frage
+  source: nwn-lern
+- id: a1.m01.v.wohnen
+  de: wohnen
+  pos: verb
+  vi: sống, cư trú (ở đâu)
+  forms:
+    text: du wohnst, er wohnt
+    er: wohnt
+  ipa: /ˈvoːnən/
+  example:
+    de: Ich wohne in Berlin.
+    vi: Tôi sống ở Berlin.
+  usage_vi: 'wohnen chỉ nơi ở (thành phố, địa chỉ). Ngắn gọn: Ich wohne in…'
+  lesson_refs:
+  - a1.m01.l03
+  tags:
+  - verb
+  - wohnen
+  source: nwn-lern
+- id: a1.m01.v.in
+  de: in
+  pos: preposition
+  vi: ở, trong
+  ipa: /ɪn/
+  example:
+    de: Er wohnt in Hamburg.
+    vi: Anh ấy sống ở Hamburg.
+  usage_vi: 'in + thành phố/nước để nói nơi ở: in Wien, in Vietnam.'
+  lesson_refs:
+  - a1.m01.l03
+  tags:
+  - ort
+  source: nwn-lern
+- id: a1.m01.v.sprechen
+  de: sprechen
+  pos: verb
+  vi: nói (một ngôn ngữ); nói chuyện
+  forms:
+    text: du sprichst, er spricht
+    er: spricht
+  ipa: /ˈʃpʁɛçn̩/
+  example:
+    de: Ich spreche Vietnamesisch.
+    vi: Tôi nói tiếng Việt.
+  usage_vi: 'Đổi nguyên âm e → i ở "du" và "er/sie/es": du sprichst, er spricht. sp đầu từ đọc là [ʃp].'
+  lesson_refs:
+  - a1.m01.l03
+  tags:
+  - verb
+  - sprache
+  - unregelmaessig
+  source: nwn-lern
+- id: a1.m01.v.deutschland
+  de: Deutschland
+  pos: name
+  vi: nước Đức
+  ipa: /ˈdɔʏ̯tʃlant/
+  example:
+    de: Ich wohne in Deutschland.
+    vi: Tôi sống ở Đức.
+  usage_vi: Tên nước không có mạo từ (như phần lớn các nước). eu đọc là [ɔʏ̯].
+  lesson_refs:
+  - a1.m01.l03
+  tags:
+  - land
+  source: nwn-lern
+- id: a1.m01.v.vietnam
+  de: Vietnam
+  pos: name
+  vi: Việt Nam
+  ipa: /vi̯ɛtˈnam/
+  example:
+    de: Ich komme aus Vietnam.
+    vi: Tôi đến từ Việt Nam.
+  usage_vi: 'Không có mạo từ. Người Đức thường nhấn ở âm tiết cuối: vi-et-NAM.'
+  lesson_refs:
+  - a1.m01.l03
+  tags:
+  - land
+  source: supplement
+- id: a1.m01.v.deutsch
+  de: Deutsch
+  pos: name
+  vi: tiếng Đức
+  ipa: /dɔʏ̯tʃ/
+  example:
+    de: Sprichst du Deutsch?
+    vi: Bạn có nói tiếng Đức không?
+  usage_vi: 'Tên ngôn ngữ viết hoa và thường dùng KHÔNG có mạo từ: Ich spreche Deutsch. (Tính từ "deutsch" viết thường – học sau.)'
+  lesson_refs:
+  - a1.m01.l03
+  tags:
+  - sprache
+  source: nwn-lern
+- id: a1.m01.v.vietnamesisch
+  de: Vietnamesisch
+  pos: name
+  vi: tiếng Việt
+  ipa: /vi̯ɛtnaˈmeːzɪʃ/
+  example:
+    de: Ich spreche Vietnamesisch.
+    vi: Tôi nói tiếng Việt.
+  usage_vi: 'Tên ngôn ngữ thường tận cùng bằng -isch. Trọng âm: viet-na-ME-sisch.'
+  lesson_refs:
+  - a1.m01.l03
+  tags:
+  - sprache
+  source: supplement
+- id: a1.m01.v.englisch
+  de: Englisch
+  pos: name
+  vi: tiếng Anh
+  ipa: /ˈɛŋlɪʃ/
+  example:
+    de: Sprechen Sie Englisch?
+    vi: Ông/Bà có nói tiếng Anh không?
+  usage_vi: ng đọc là [ŋ] như "ng" tiếng Việt, không có âm g phía sau.
+  lesson_refs:
+  - a1.m01.l03
+  tags:
+  - sprache
+  source: nwn-lern
+- id: a1.m01.v.sprache
+  de: Sprache
+  pos: noun
+  article: die
+  plural: Sprachen
+  vi: ngôn ngữ
+  ipa: /ˈʃpʁaːxə/
+  example:
+    de: Welche Sprachen sprichst du?
+    vi: Bạn nói những ngôn ngữ nào?
+  usage_vi: sp đầu từ đọc [ʃp]; ch sau a đọc [x].
+  lesson_refs:
+  - a1.m01.l03
+  tags:
+  - sprache
+  source: nwn-lern
+- id: a1.m01.v.welche
+  de: welche
+  pos: interrogative
+  vi: nào, những … nào
+  ipa: /ˈvɛlçə/
+  example:
+    de: Welche Sprachen sprechen Sie?
+    vi: Ông/Bà nói những ngôn ngữ nào?
+  usage_vi: 'Đuôi thay đổi theo danh từ – quy tắc đầy đủ học ở Kapitel 11. Ở đây dùng cố định: "Welche Sprachen…?".'
+  lesson_refs:
+  - a1.m01.l03
+  tags:
+  - w-frage
+  source: nwn-lern
+- id: a1.m01.v.er
+  de: er
+  pos: pronoun
+  vi: anh ấy, ông ấy, cậu ấy; nó (danh từ giống đực)
+  ipa: /eːɐ̯/
+  example:
+    de: Das ist Paul. Er kommt aus Deutschland.
+    vi: Đây là Paul. Anh ấy đến từ Đức.
+  usage_vi: Thay cho một người nam hoặc một danh từ giống đực (der).
+  lesson_refs:
+  - a1.m01.l03
+  tags:
+  - personalpronomen
+  source: nwn-lern
+- id: a1.m01.v.sie-pron
+  de: sie
+  pos: pronoun
+  vi: cô ấy, bà ấy, chị ấy; nó (danh từ giống cái)
+  ipa: /ziː/
+  example:
+    de: Das ist Mai. Sie wohnt in Köln.
+    vi: Đây là Mai. Cô ấy sống ở Köln.
+  usage_vi: 'sie (viết thường) = cô ấy. Sie (viết hoa) = ông/bà (trang trọng). Ở Kapitel 2 sẽ học thêm sie = họ (số nhiều). Phân biệt nhờ chữ hoa và đuôi động từ: sie kommt / Sie kommen.'
+  lesson_refs:
+  - a1.m01.l03
+  tags:
+  - personalpronomen
+  - mehrdeutig
+  source: nwn-lern
+- id: a1.m01.v.person
+  de: Person
+  pos: noun
+  article: die
+  plural: Personen
+  vi: người (một người)
+  ipa: /pɛʁˈzoːn/
+  example:
+    de: Wer ist die Person?
+    vi: Người đó là ai?
+  usage_vi: 'Luôn là giống cái, kể cả khi nói về một người đàn ông. Trọng âm: per-SON.'
+  lesson_refs:
+  - a1.m01.l03
+  tags:
+  - person
+  source: nwn-lern
+- id: a1.m01.v.frage
+  de: Frage
+  pos: noun
+  article: die
+  plural: Fragen
+  vi: câu hỏi
+  ipa: /ˈfʁaːɡə/
+  example:
+    de: 'Frage 1: Wie heißt du?'
+    vi: 'Câu hỏi 1: Bạn tên là gì?'
+  usage_vi: die W-Frage = câu hỏi bắt đầu bằng từ để hỏi W- (wer, wie, wo, woher…).
+  lesson_refs:
+  - a1.m01.l03
+  tags:
+  - sprache-lernen
+  source: nwn
+- id: a1.m01.v.antwort
+  de: Antwort
+  pos: noun
+  article: die
+  plural: Antworten
+  vi: câu trả lời
+  ipa: /ˈantvɔʁt/
+  example:
+    de: Die Antwort ist richtig.
+    vi: Câu trả lời đúng.
+  usage_vi: 'Trọng âm ở âm tiết đầu: ANT-wort.'
+  lesson_refs:
+  - a1.m01.l03
+  tags:
+  - sprache-lernen
+  source: nwn
+- id: a1.m01.v.reisefuehrer
+  de: Reiseführer
+  pos: noun
+  article: der
+  plural: Reiseführer
+  vi: hướng dẫn viên du lịch (nam); sách hướng dẫn du lịch
+  ipa: /ˈʁaɪ̯zəˌfyːʁɐ/
+  example:
+    de: Er ist Reiseführer.
+    vi: Anh ấy là hướng dẫn viên du lịch.
+  usage_vi: 'Từ nhiều nghĩa: chỉ người hoặc cuốn sách. Nói nghề nghiệp KHÔNG dùng mạo từ: Er ist Reiseführer. Số nhiều giống số ít.'
+  lesson_refs:
+  - a1.m01.l03
+  tags:
+  - beruf
+  - mehrdeutig
+  source: nwn-lern
+- id: a1.m01.v.reisefuehrerin
+  de: Reiseführerin
+  pos: noun
+  article: die
+  plural: Reiseführerinnen
+  vi: hướng dẫn viên du lịch (nữ)
+  ipa: /ˈʁaɪ̯zəˌfyːʁəʁɪn/
+  example:
+    de: Sie ist Reiseführerin.
+    vi: Cô ấy là hướng dẫn viên du lịch.
+  usage_vi: Thêm -in vào danh từ chỉ người để có dạng nữ; dạng nữ luôn là "die", số nhiều -innen.
+  lesson_refs:
+  - a1.m01.l03
+  tags:
+  - beruf
+  source: nwn-lern
+- id: a1.m01.v.partner
+  de: Partner
+  pos: noun
+  article: der
+  plural: Partner
+  vi: bạn cùng nhóm, người cùng làm; đối tác; bạn đời (nam)
+  ipa: /ˈpaʁtnɐ/
+  example:
+    de: Mein Partner heißt Tom.
+    vi: Bạn cùng nhóm của tôi tên là Tom.
+  usage_vi: Từ nhiều nghĩa; trong lớp học thường là "bạn cùng làm bài". Số nhiều giống số ít.
+  lesson_refs:
+  - a1.m01.l03
+  tags:
+  - person
+  - mehrdeutig
+  source: nwn-lern
+- id: a1.m01.v.partnerin
+  de: Partnerin
+  pos: noun
+  article: die
+  plural: Partnerinnen
+  vi: bạn cùng nhóm, đối tác, bạn đời (nữ)
+  ipa: /ˈpaʁtnəʁɪn/
+  example:
+    de: Meine Partnerin heißt Eva.
+    vi: Bạn cùng nhóm của tôi tên là Eva.
+  usage_vi: Dạng nữ với -in; dùng "meine" vì là danh từ giống cái.
+  lesson_refs:
+  - a1.m01.l03
+  tags:
+  - person
+  source: nwn-lern
+- id: a1.m01.v.vor-stellen
+  de: vor|stellen
+  pos: verb
+  vi: giới thiệu
+  forms:
+    text: ich stelle vor, du stellst vor, er stellt vor
+    er: stellt vor
+    separable: true
+  ipa: /ˈfoːɐ̯ˌʃtɛlən/
+  example:
+    de: 'Ich stelle Anna vor: Das ist Anna.'
+    vi: 'Tôi giới thiệu Anna: Đây là Anna.'
+  usage_vi: 'Động từ tách: "vor" chạy về cuối câu. Ở Kapitel 1 bạn chỉ cần hiểu khi đọc đề; quy tắc đầy đủ học ở Kapitel 6. Để giới thiệu người khác, dùng đơn giản: "Das ist…".'
+  lesson_refs:
+  - a1.m01.l03
+  tags:
+  - verb
+  - trennbar
+  source: nwn-lern
+- id: a1.m01.v.null
+  de: 'null'
+  pos: numeral
+  vi: số 0
+  ipa: /nʊl/
+  example:
+    de: Null plus eins ist eins.
+    vi: Không cộng một là một.
+  usage_vi: 'u ngắn [ʊ]. Viết thường khi là số đếm. (Cẩn thận khi viết YAML/JSON: chữ "null" có thể bị hiểu là giá trị rỗng.)'
+  lesson_refs:
+  - a1.m01.l04
+  tags:
+  - zahl
+  source: nwn-lern
+- id: a1.m01.v.eins
+  de: eins
+  pos: numeral
+  vi: số 1
+  ipa: /aɪ̯ns/
+  example:
+    de: Eins, zwei, drei!
+    vi: Một, hai, ba!
+  usage_vi: 'Khi đếm: eins. Đứng trước danh từ: ein/eine (ein Kaffee).'
+  lesson_refs:
+  - a1.m01.l04
+  tags:
+  - zahl
+  source: nwn-lern
+- id: a1.m01.v.zwei
+  de: zwei
+  pos: numeral
+  vi: số 2
+  ipa: /tsvaɪ̯/
+  example:
+    de: Ich spreche zwei Sprachen.
+    vi: Tôi nói hai ngôn ngữ.
+  usage_vi: Khi đọc số điện thoại, người Đức hay nói "zwo" [tsvoː] để khỏi nhầm với "drei".
+  lesson_refs:
+  - a1.m01.l04
+  tags:
+  - zahl
+  source: nwn-lern
+- id: a1.m01.v.drei
+  de: drei
+  pos: numeral
+  vi: số 3
+  ipa: /dʁaɪ̯/
+  example:
+    de: Eins, zwei, drei!
+    vi: Một, hai, ba!
+  usage_vi: 'dr: phát âm liền, không chèn nguyên âm (không đọc "đơ-rai").'
+  lesson_refs:
+  - a1.m01.l04
+  tags:
+  - zahl
+  source: nwn-lern
+- id: a1.m01.v.vier
+  de: vier
+  pos: numeral
+  vi: số 4
+  ipa: /fiːɐ̯/
+  example:
+    de: Vier plus vier ist acht.
+    vi: Bốn cộng bốn là tám.
+  usage_vi: v đọc là [f]; ie đọc [iː] dài.
+  lesson_refs:
+  - a1.m01.l04
+  tags:
+  - zahl
+  source: nwn-lern
+- id: a1.m01.v.fuenf
+  de: fünf
+  pos: numeral
+  vi: số 5
+  ipa: /fʏnf/
+  example:
+    de: Fünf plus fünf ist zehn.
+    vi: Năm cộng năm là mười.
+  usage_vi: 'ü: đọc "i" nhưng tròn môi như "u". Phải bật rõ hai phụ âm cuối nf.'
+  lesson_refs:
+  - a1.m01.l04
+  tags:
+  - zahl
+  - aussprache
+  source: nwn-lern
+- id: a1.m01.v.sechs
+  de: sechs
+  pos: numeral
+  vi: số 6
+  ipa: /zɛks/
+  example:
+    de: Sechs ist meine Zahl.
+    vi: Sáu là con số của tôi.
+  usage_vi: chs đọc là [ks]. s đầu từ trước nguyên âm đọc [z].
+  lesson_refs:
+  - a1.m01.l04
+  tags:
+  - zahl
+  - aussprache
+  source: nwn-lern
+- id: a1.m01.v.sieben
+  de: sieben
+  pos: numeral
+  vi: số 7
+  ipa: /ˈziːbn̩/
+  example:
+    de: Sieben plus drei ist zehn.
+    vi: Bảy cộng ba là mười.
+  usage_vi: 'Khi đọc số điện thoại không bao giờ bỏ số 7 – hai âm tiết: SIE-ben.'
+  lesson_refs:
+  - a1.m01.l04
+  tags:
+  - zahl
+  source: nwn-lern
+- id: a1.m01.v.acht
+  de: acht
+  pos: numeral
+  vi: số 8
+  ipa: /axt/
+  example:
+    de: Acht plus zwei ist zehn.
+    vi: Tám cộng hai là mười.
+  usage_vi: 'ch sau a đọc [x] – như "kh" tiếng Việt: "akht".'
+  lesson_refs:
+  - a1.m01.l04
+  tags:
+  - zahl
+  - aussprache
+  source: nwn-lern
+- id: a1.m01.v.neun
+  de: neun
+  pos: numeral
+  vi: số 9
+  ipa: /nɔʏ̯n/
+  example:
+    de: Neun plus eins ist zehn.
+    vi: Chín cộng một là mười.
+  usage_vi: eu đọc [ɔʏ̯] gần "noi".
+  lesson_refs:
+  - a1.m01.l04
+  tags:
+  - zahl
+  source: nwn-lern
+- id: a1.m01.v.zehn
+  de: zehn
+  pos: numeral
+  vi: số 10
+  ipa: /tseːn/
+  example:
+    de: Zehn minus fünf ist fünf.
+    vi: Mười trừ năm là năm.
+  usage_vi: z đọc [ts]; eh đọc [eː] dài.
+  lesson_refs:
+  - a1.m01.l04
+  tags:
+  - zahl
+  - aussprache
+  source: nwn-lern
+- id: a1.m01.v.elf
+  de: elf
+  pos: numeral
+  vi: số 11
+  ipa: /ɛlf/
+  example:
+    de: Das ist die Zahl elf.
+    vi: Đó là số mười một.
+  usage_vi: 11 và 12 là số đặc biệt, phải học thuộc.
+  lesson_refs:
+  - a1.m01.l04
+  tags:
+  - zahl
+  source: nwn-lern
+- id: a1.m01.v.zwoelf
+  de: zwölf
+  pos: numeral
+  vi: số 12
+  ipa: /tsvœlf/
+  example:
+    de: Das ist die Zahl zwölf.
+    vi: Đó là số mười hai.
+  usage_vi: 'ö: đọc "e" nhưng tròn môi. Bật rõ lf cuối.'
+  lesson_refs:
+  - a1.m01.l04
+  tags:
+  - zahl
+  - aussprache
+  source: nwn-lern
+- id: a1.m01.v.dreizehn
+  de: dreizehn
+  pos: numeral
+  vi: số 13
+  ipa: /ˈdʁaɪ̯tseːn/
+  example:
+    de: Dreizehn plus sieben ist zwanzig.
+    vi: Mười ba cộng bảy là hai mươi.
+  usage_vi: '13–19: hàng đơn vị + zehn. Trọng âm ở đầu: DREI-zehn.'
+  lesson_refs:
+  - a1.m01.l04
+  tags:
+  - zahl
+  source: nwn-lern
+- id: a1.m01.v.vierzehn
+  de: vierzehn
+  pos: numeral
+  vi: số 14
+  ipa: /ˈfɪʁtseːn/
+  example:
+    de: Vierzehn minus vier ist zehn.
+    vi: Mười bốn trừ bốn là mười.
+  usage_vi: Trong vierzehn, ie đọc NGẮN [ɪ] (khác với vier [fiːɐ̯]).
+  lesson_refs:
+  - a1.m01.l04
+  tags:
+  - zahl
+  - aussprache
+  source: nwn-lern
+- id: a1.m01.v.fuenfzehn
+  de: fünfzehn
+  pos: numeral
+  vi: số 15
+  ipa: /ˈfʏnftseːn/
+  example:
+    de: Fünfzehn plus fünf ist zwanzig.
+    vi: Mười lăm cộng năm là hai mươi.
+  usage_vi: 'Cụm phụ âm nftsch… dài – đọc chậm từng phần: fünf-zehn.'
+  lesson_refs:
+  - a1.m01.l04
+  tags:
+  - zahl
+  source: nwn-lern
+- id: a1.m01.v.sechzehn
+  de: sechzehn
+  pos: numeral
+  vi: số 16
+  ipa: /ˈzɛçtseːn/
+  example:
+    de: Sechzehn plus vier ist zwanzig.
+    vi: Mười sáu cộng bốn là hai mươi.
+  usage_vi: 'Chú ý chính tả: sechzehn MẤT chữ s (không viết "sechszehn"); ch đọc [ç].'
+  lesson_refs:
+  - a1.m01.l04
+  tags:
+  - zahl
+  - rechtschreibung
+  source: nwn-lern
+- id: a1.m01.v.siebzehn
+  de: siebzehn
+  pos: numeral
+  vi: số 17
+  ipa: /ˈziːptseːn/
+  example:
+    de: Siebzehn plus drei ist zwanzig.
+    vi: Mười bảy cộng ba là hai mươi.
+  usage_vi: 'Chú ý chính tả: siebzehn MẤT "en" (không viết "siebenzehn"); b đọc [p].'
+  lesson_refs:
+  - a1.m01.l04
+  tags:
+  - zahl
+  - rechtschreibung
+  source: nwn-lern
+- id: a1.m01.v.achtzehn
+  de: achtzehn
+  pos: numeral
+  vi: số 18
+  ipa: /ˈaxtseːn/
+  example:
+    de: Achtzehn plus zwei ist zwanzig.
+    vi: Mười tám cộng hai là hai mươi.
+  usage_vi: Đọc liền "akh-tsên".
+  lesson_refs:
+  - a1.m01.l04
+  tags:
+  - zahl
+  source: nwn-lern
+- id: a1.m01.v.neunzehn
+  de: neunzehn
+  pos: numeral
+  vi: số 19
+  ipa: /ˈnɔʏ̯ntseːn/
+  example:
+    de: Neunzehn plus eins ist zwanzig.
+    vi: Mười chín cộng một là hai mươi.
+  usage_vi: 'Số 13–19 ghép từ số đơn vị + -zehn: neun + zehn = neunzehn. Riêng 16 (sechzehn) và 17 (siebzehn) bị rút gọn, còn neunzehn ghép thẳng.'
+  lesson_refs:
+  - a1.m01.l04
+  tags:
+  - zahl
+  source: nwn-lern
+- id: a1.m01.v.zwanzig
+  de: zwanzig
+  pos: numeral
+  vi: số 20
+  ipa: /ˈtsvantsɪç/
+  example:
+    de: Zehn plus zehn ist zwanzig.
+    vi: Mười cộng mười là hai mươi.
+  usage_vi: Đuôi -zig đọc [tsɪç]. Các số từ 21 trở lên học ở Kapitel 2.
+  lesson_refs:
+  - a1.m01.l04
+  tags:
+  - zahl
+  source: nwn-lern
+- id: a1.m01.v.zahl
+  de: Zahl
+  pos: noun
+  article: die
+  plural: Zahlen
+  vi: con số, số
+  ipa: /tsaːl/
+  example:
+    de: Welche Zahl ist das?
+    vi: Đó là số mấy?
+  usage_vi: h sau a làm nguyên âm dài, không đọc.
+  lesson_refs:
+  - a1.m01.l04
+  tags:
+  - zahl
+  source: nwn-lern
+- id: a1.m01.v.telefon
+  de: Telefon
+  pos: noun
+  article: das
+  plural: Telefone
+  vi: điện thoại
+  ipa: /teləˈfoːn/
+  example:
+    de: Das Telefon ist neu.
+    vi: Cái điện thoại mới.
+  usage_vi: 'ph/f đọc [f]. Trọng âm thường ở cuối: te-le-FON.'
+  lesson_refs:
+  - a1.m01.l04
+  tags:
+  - telefon
+  source: nwn-lern
+- id: a1.m01.v.telefonnummer
+  de: Telefonnummer
+  pos: noun
+  article: die
+  plural: Telefonnummern
+  vi: số điện thoại
+  ipa: /teləˈfoːnˌnʊmɐ/
+  example:
+    de: Wie ist Ihre Telefonnummer?
+    vi: Số điện thoại của ông/bà là gì?
+  usage_vi: 'Danh từ ghép: das Telefon + die Nummer → giống của danh từ ghép theo TỪ CUỐI: die Telefonnummer.'
+  lesson_refs:
+  - a1.m01.l04
+  tags:
+  - telefon
+  - formular
+  source: nwn
+- id: a1.m01.v.handynummer
+  de: Handynummer
+  pos: noun
+  article: die
+  plural: Handynummern
+  vi: số điện thoại di động
+  ipa: /ˈhɛndiˌnʊmɐ/
+  example:
+    de: Wie ist deine Handynummer?
+    vi: Số di động của bạn là gì?
+  usage_vi: das Handy + die Nummer → die Handynummer (theo từ cuối).
+  lesson_refs:
+  - a1.m01.l04
+  tags:
+  - telefon
+  source: nwn
+- id: a1.m01.v.handy
+  de: Handy
+  pos: noun
+  article: das
+  plural: Handys
+  vi: điện thoại di động
+  ipa: /ˈhɛndi/
+  example:
+    de: Mein Handy ist neu.
+    vi: Điện thoại di động của tôi mới.
+  usage_vi: Người Đức gọi điện thoại di động là "Handy" – người nói tiếng Anh không dùng từ này. Đọc gần "hen-đi".
+  lesson_refs:
+  - a1.m01.l04
+  tags:
+  - telefon
+  - medien
+  source: supplement
+- id: a1.m01.v.e-mail-adresse
+  de: E-Mail-Adresse
+  pos: noun
+  article: die
+  plural: E-Mail-Adressen
+  vi: địa chỉ email
+  ipa: /ˈiːmeɪ̯l aˌdʁɛsə/
+  example:
+    de: Wie ist Ihre E-Mail-Adresse?
+    vi: Địa chỉ email của ông/bà là gì?
+  usage_vi: 'Theo từ cuối: die Adresse → die E-Mail-Adresse. Cách đọc ký hiệu email xem phần Redemittel.'
+  lesson_refs:
+  - a1.m01.l04
+  tags:
+  - kontakt
+  - formular
+  source: nwn
+- id: a1.m01.v.punkt
+  de: Punkt
+  pos: noun
+  article: der
+  plural: Punkte
+  vi: dấu chấm; điểm
+  ipa: /pʊŋkt/
+  example:
+    de: anna punkt berg at web punkt de
+    vi: anna chấm berg a còng web chấm de
+  usage_vi: 'Từ nhiều nghĩa: dấu chấm (trong email, cuối câu) và "điểm" (điểm số – học sau).'
+  lesson_refs:
+  - a1.m01.l04
+  tags:
+  - kontakt
+  - mehrdeutig
+  source: nwn-lern
+- id: a1.m01.v.unterstrich
+  de: Unterstrich
+  pos: noun
+  article: der
+  plural: Unterstriche
+  vi: dấu gạch dưới (_)
+  ipa: /ˈʊntɐˌʃtʁɪç/
+  example:
+    de: mai Unterstrich tran at gmx punkt de
+    vi: mai gạch dưới tran a còng gmx chấm de
+  usage_vi: Dùng khi đọc email/tên đăng nhập.
+  lesson_refs:
+  - a1.m01.l04
+  tags:
+  - kontakt
+  source: nwn
+- id: a1.m01.v.bindestrich
+  de: Bindestrich
+  pos: noun
+  article: der
+  plural: Bindestriche
+  vi: dấu gạch nối (-)
+  ipa: /ˈbɪndəˌʃtʁɪç/
+  example:
+    de: hoa Bindestrich le at web punkt de
+    vi: hoa gạch nối le a còng web chấm de
+  usage_vi: Một số người nói "Minus" thay cho "Bindestrich" khi đọc email.
+  lesson_refs:
+  - a1.m01.l04
+  tags:
+  - kontakt
+  source: supplement
+- id: a1.m01.v.at
+  de: at
+  pos: phrase
+  vi: a còng (@)
+  ipa: /ɛt/
+  example:
+    de: tom at web punkt de
+    vi: tom a còng web chấm de
+  usage_vi: Ký hiệu @ đọc theo tiếng Anh "ét". Một số người nói "Klammeraffe" (khỉ bám) – vui nhưng ít dùng khi đọc email.
+  lesson_refs:
+  - a1.m01.l04
+  tags:
+  - kontakt
+  source: supplement
+- id: a1.m01.v.buchstabieren
+  de: buchstabieren
+  pos: verb
+  vi: đánh vần
+  forms:
+    text: du buchstabierst, er buchstabiert
+    er: buchstabiert
+  ipa: /buːxʃtaˈbiːʁən/
+  example:
+    de: Buchstabieren Sie, bitte!
+    vi: Xin ông/bà đánh vần giúp!
+  usage_vi: 'Động từ tận cùng -ieren luôn nhấn vào "ie": buch-sta-BIE-ren.'
+  lesson_refs:
+  - a1.m01.l04
+  tags:
+  - verstaendigung
+  source: nwn-lern
+- id: a1.m01.v.verstehen
+  de: verstehen
+  pos: verb
+  vi: hiểu
+  forms:
+    text: du verstehst, er versteht
+    er: versteht
+  ipa: /fɛɐ̯ˈʃteːən/
+  example:
+    de: Ich verstehe das nicht.
+    vi: Tôi không hiểu cái đó.
+  usage_vi: 'v đọc [f]. Câu "Ich verstehe nicht." (đã học ở phần nhập môn) giờ bạn hiểu được cấu tạo: ich + verstehe + nicht.'
+  lesson_refs:
+  - a1.m01.l04
+  tags:
+  - verstaendigung
+  - verb
+  source: nwn-lern
+- id: a1.m01.v.langsam
+  de: langsam
+  pos: adjective
+  vi: chậm
+  ipa: /ˈlaŋzaːm/
+  example:
+    de: Langsam, bitte!
+    vi: Làm ơn nói chậm thôi!
+  usage_vi: ng đọc [ŋ]; s trước nguyên âm đọc [z].
+  lesson_refs:
+  - a1.m01.l04
+  tags:
+  - verstaendigung
+  source: nwn-lern
+- id: a1.m01.v.noch-einmal
+  de: noch einmal
+  pos: phrase
+  vi: một lần nữa
+  ipa: /nɔx ˈaɪ̯nmaːl/
+  example:
+    de: Noch einmal, bitte!
+    vi: Làm ơn nói lại một lần nữa!
+  usage_vi: 'Văn nói hay rút gọn: "Noch mal, bitte!".'
+  lesson_refs:
+  - a1.m01.l04
+  tags:
+  - verstaendigung
+  source: nwn
+- id: a1.m01.v.ein-bisschen
+  de: ein bisschen
+  pos: phrase
+  vi: một chút, một ít
+  ipa: /aɪ̯n ˈbɪsçən/
+  example:
+    de: Ich spreche ein bisschen Deutsch.
+    vi: Tôi nói được một chút tiếng Đức.
+  usage_vi: Câu rất hữu ích khi mới học. ss đọc [s], ch đọc [ç].
+  lesson_refs:
+  - a1.m01.l04
+  tags:
+  - verstaendigung
+  source: nwn-lern
+- id: a1.m01.v.nicht
+  de: nicht
+  pos: particle
+  vi: không
+  ipa: /nɪçt/
+  example:
+    de: Ich verstehe das nicht.
+    vi: Tôi không hiểu cái đó.
+  usage_vi: Phủ định cho động từ/tính từ. Trong câu ngắn, "nicht" thường đứng cuối. Phủ định danh từ (kein/keine) học ở Kapitel 3.
+  lesson_refs:
+  - a1.m01.l04
+  tags:
+  - negation
+  source: nwn-lern
+- id: a1.m01.v.fragen
+  de: fragen
+  pos: verb
+  vi: hỏi
+  forms:
+    text: du fragst, er fragt
+    er: fragt
+  ipa: /ˈfʁaːɡn̩/
+  example:
+    de: 'Ich frage: Wie heißt du?'
+    vi: 'Tôi hỏi: Bạn tên là gì?'
+  usage_vi: Không nhầm với "die Frage" (danh từ, viết hoa).
+  lesson_refs:
+  - a1.m01.l04
+  tags:
+  - verb
+  - kommunikation
+  source: nwn-lern
+- id: a1.m01.v.sagen
+  de: sagen
+  pos: verb
+  vi: nói (nói ra điều gì)
+  forms:
+    text: du sagst, er sagt
+    er: sagt
+  ipa: /ˈzaːɡn̩/
+  example:
+    de: Wie sagt man das auf Deutsch?
+    vi: Cái này tiếng Đức nói thế nào?
+  usage_vi: 'So sánh: sagen + NỘI DUNG (sagen "Hallo"); sprechen + NGÔN NGỮ hoặc nói chuyện (sprechen Deutsch).'
+  lesson_refs:
+  - a1.m01.l04
+  tags:
+  - verb
+  - kommunikation
+  source: nwn-lern
+- id: a1.m01.v.dein
+  de: dein
+  pos: pronoun
+  vi: của bạn (thân mật)
+  ipa: /daɪ̯n/
+  example:
+    de: Wie ist deine Handynummer?
+    vi: Số di động của bạn là gì?
+  usage_vi: 'Dùng khi xưng "du". Trước danh từ giống cái thêm -e: deine Nummer, deine E-Mail-Adresse.'
+  lesson_refs:
+  - a1.m01.l04
+  tags:
+  - possessiv
+  - informell
+  source: nwn-lern
+- id: a1.m01.v.ihr
+  de: Ihr
+  pos: pronoun
+  vi: của ông/bà… (trang trọng)
+  ipa: /iːɐ̯/
+  example:
+    de: Wie ist Ihre E-Mail-Adresse?
+    vi: Địa chỉ email của ông/bà là gì?
+  usage_vi: 'Dùng khi xưng "Sie" – luôn viết hoa. Trước danh từ giống cái: Ihre.'
+  lesson_refs:
+  - a1.m01.l04
+  tags:
+  - possessiv
+  - formell
+  source: nwn-lern
+- id: a1.m01.v.land
+  de: Land
+  pos: noun
+  article: das
+  plural: Länder
+  vi: đất nước; nông thôn
+  ipa: /lant/
+  example:
+    de: Vietnam ist ein Land in Asien.
+    vi: Việt Nam là một đất nước ở châu Á.
+  usage_vi: 'Từ nhiều nghĩa: đất nước / vùng quê (auf dem Land – học sau). Số nhiều có biến âm: die Länder.'
+  lesson_refs:
+  - a1.m01.l05
+  tags:
+  - land
+  - mehrdeutig
+  source: nwn-lern
+- id: a1.m01.v.stadt
+  de: Stadt
+  pos: noun
+  article: die
+  plural: Städte
+  vi: thành phố
+  ipa: /ʃtat/
+  example:
+    de: Hanoi ist eine Stadt in Vietnam.
+    vi: Hà Nội là một thành phố ở Việt Nam.
+  usage_vi: 'dt đọc [t]; st đầu từ đọc [ʃt]. Số nhiều: die Städte.'
+  lesson_refs:
+  - a1.m01.l05
+  tags:
+  - ort
+  source: nwn-lern
+- id: a1.m01.v.oesterreich
+  de: Österreich
+  pos: name
+  vi: nước Áo
+  ipa: /ˈøːstəʁaɪ̯ç/
+  example:
+    de: Wien ist in Österreich.
+    vi: Viên ở nước Áo.
+  usage_vi: Không có mạo từ. "st" ở giữa từ đọc [st], không phải [ʃt].
+  lesson_refs:
+  - a1.m01.l05
+  tags:
+  - land
+  - dach
+  source: nwn-lern
+- id: a1.m01.v.schweiz
+  de: Schweiz
+  pos: name
+  vi: Thụy Sĩ
+  ipa: /ʃvaɪ̯ts/
+  example:
+    de: Sie kommt aus der Schweiz.
+    vi: Cô ấy đến từ Thụy Sĩ.
+  usage_vi: 'Tên nước LUÔN có mạo từ die: aus der Schweiz, in der Schweiz.'
+  lesson_refs:
+  - a1.m01.l05
+  tags:
+  - land
+  - dach
+  - mit-artikel
+  source: nwn-lern
+- id: a1.m01.v.usa
+  de: USA
+  pos: name
+  vi: Hoa Kỳ (Mỹ)
+  ipa: /uːʔɛsˈʔaː/
+  example:
+    de: Olivia kommt aus den USA.
+    vi: Olivia đến từ Mỹ.
+  usage_vi: 'Tên nước ở dạng SỐ NHIỀU: die USA → aus den USA, in den USA.'
+  lesson_refs:
+  - a1.m01.l05
+  tags:
+  - land
+  - mit-artikel
+  source: nwn
+- id: a1.m01.v.tuerkei
+  de: Türkei
+  pos: name
+  vi: Thổ Nhĩ Kỳ
+  ipa: /tʏʁˈkaɪ̯/
+  example:
+    de: Er kommt aus der Türkei.
+    vi: Anh ấy đến từ Thổ Nhĩ Kỳ.
+  usage_vi: 'Luôn có mạo từ die: aus der Türkei, in der Türkei.'
+  lesson_refs:
+  - a1.m01.l05
+  tags:
+  - land
+  - mit-artikel
+  source: nwn
+- id: a1.m01.v.frankreich
+  de: Frankreich
+  pos: name
+  vi: nước Pháp
+  ipa: /ˈfʁaŋkʁaɪ̯ç/
+  example:
+    de: Paris ist in Frankreich.
+    vi: Paris ở nước Pháp.
+  usage_vi: Không có mạo từ.
+  lesson_refs:
+  - a1.m01.l05
+  tags:
+  - land
+  source: nwn
+- id: a1.m01.v.spanien
+  de: Spanien
+  pos: name
+  vi: Tây Ban Nha
+  ipa: /ˈʃpaːni̯ən/
+  example:
+    de: Ich wohne in Spanien.
+    vi: Tôi sống ở Tây Ban Nha.
+  usage_vi: sp đầu từ đọc [ʃp].
+  lesson_refs:
+  - a1.m01.l05
+  tags:
+  - land
+  source: nwn
+- id: a1.m01.v.italien
+  de: Italien
+  pos: name
+  vi: nước Ý
+  ipa: /iˈtaːli̯ən/
+  example:
+    de: Rom ist in Italien.
+    vi: Rome ở nước Ý.
+  usage_vi: 'Trọng âm: i-TA-li-en.'
+  lesson_refs:
+  - a1.m01.l05
+  tags:
+  - land
+  source: nwn
+- id: a1.m01.v.china
+  de: China
+  pos: name
+  vi: Trung Quốc
+  ipa: /ˈçiːna/
+  example:
+    de: Peking ist in China.
+    vi: Bắc Kinh ở Trung Quốc.
+  usage_vi: Ở miền Bắc Đức đọc [ˈçiːna]; ở miền Nam Đức và Áo đọc [ˈkiːna] – cả hai đều đúng.
+  lesson_refs:
+  - a1.m01.l05
+  tags:
+  - land
+  source: supplement
+- id: a1.m01.v.japan
+  de: Japan
+  pos: name
+  vi: Nhật Bản
+  ipa: /ˈjaːpan/
+  example:
+    de: Tokio ist in Japan.
+    vi: Tokyo ở Nhật Bản.
+  usage_vi: 'j đọc [j]: JA-pan.'
+  lesson_refs:
+  - a1.m01.l05
+  tags:
+  - land
+  source: nwn
+- id: a1.m01.v.polen
+  de: Polen
+  pos: name
+  vi: Ba Lan
+  ipa: /ˈpoːlən/
+  example:
+    de: Er kommt aus Polen.
+    vi: Anh ấy đến từ Ba Lan.
+  usage_vi: Không có mạo từ.
+  lesson_refs:
+  - a1.m01.l05
+  tags:
+  - land
+  source: nwn
+- id: a1.m01.v.franzoesisch
+  de: Französisch
+  pos: name
+  vi: tiếng Pháp
+  ipa: /fʁanˈtsøːzɪʃ/
+  example:
+    de: Sie spricht Französisch.
+    vi: Cô ấy nói tiếng Pháp.
+  usage_vi: 'Trọng âm: fran-ZÖ-sisch.'
+  lesson_refs:
+  - a1.m01.l05
+  tags:
+  - sprache
+  source: nwn-lern
+- id: a1.m01.v.spanisch
+  de: Spanisch
+  pos: name
+  vi: tiếng Tây Ban Nha
+  ipa: /ˈʃpaːnɪʃ/
+  example:
+    de: Sprichst du Spanisch?
+    vi: Bạn có nói tiếng Tây Ban Nha không?
+  usage_vi: 'Tên ngôn ngữ viết hoa như danh từ và không dùng mạo từ sau sprechen/lernen: „Ich spreche Spanisch.“ Tên nước: Spanien.'
+  lesson_refs:
+  - a1.m01.l05
+  tags:
+  - sprache
+  source: nwn
+- id: a1.m01.v.italienisch
+  de: Italienisch
+  pos: name
+  vi: tiếng Ý
+  ipa: /itaˈli̯eːnɪʃ/
+  example:
+    de: Er lernt Italienisch.
+    vi: Anh ấy học tiếng Ý.
+  usage_vi: 'Tên ngôn ngữ viết hoa, không mạo từ sau sprechen/lernen: „Er lernt Italienisch.“ Tên nước: Italien. Ngôn ngữ kết thúc bằng -isch.'
+  lesson_refs:
+  - a1.m01.l05
+  tags:
+  - sprache
+  source: nwn
+- id: a1.m01.v.chinesisch
+  de: Chinesisch
+  pos: name
+  vi: tiếng Trung Quốc
+  ipa: /çiˈneːzɪʃ/
+  example:
+    de: Ich lerne Chinesisch.
+    vi: Tôi học tiếng Trung.
+  usage_vi: 'Tên ngôn ngữ viết hoa, không mạo từ sau sprechen/lernen. Tên nước: China. „ch“ ở đầu từ Chinesisch đọc /ç/ (hoặc /k/ ở một số vùng).'
+  lesson_refs:
+  - a1.m01.l05
+  tags:
+  - sprache
+  source: supplement
+- id: a1.m01.v.japanisch
+  de: Japanisch
+  pos: name
+  vi: tiếng Nhật
+  ipa: /jaˈpaːnɪʃ/
+  example:
+    de: Sie spricht Japanisch.
+    vi: Cô ấy nói tiếng Nhật.
+  usage_vi: 'Tên ngôn ngữ viết hoa, không mạo từ sau sprechen/lernen: „Sie spricht Japanisch.“ Tên nước: Japan; „j“ đọc /j/.'
+  lesson_refs:
+  - a1.m01.l05
+  tags:
+  - sprache
+  source: nwn
+- id: a1.m01.v.lernen
+  de: lernen
+  pos: verb
+  vi: học
+  forms:
+    text: du lernst, er lernt
+    er: lernt
+  ipa: /ˈlɛʁnən/
+  example:
+    de: Ich lerne Deutsch.
+    vi: Tôi học tiếng Đức.
+  usage_vi: lernen = học (một kỹ năng, một môn). "Học đại học" là studieren – học ở Kapitel 10.
+  lesson_refs:
+  - a1.m01.l05
+  tags:
+  - verb
+  - sprache-lernen
+  source: nwn-lern
+- id: a1.m01.v.text
+  de: Text
+  pos: noun
+  article: der
+  plural: Texte
+  vi: văn bản, bài đọc
+  ipa: /tɛkst/
+  example:
+    de: Der Text ist kurz.
+    vi: Bài đọc ngắn.
+  usage_vi: Bật rõ cụm phụ âm cuối -xt [kst].
+  lesson_refs:
+  - a1.m01.l05
+  tags:
+  - sprache-lernen
+  source: nwn-lern
+- id: a1.m01.v.kurz
+  de: kurz
+  pos: adjective
+  vi: ngắn
+  ipa: /kʊʁts/
+  example:
+    de: Der Text ist kurz.
+    vi: Bài đọc ngắn.
+  usage_vi: 'Trái nghĩa: lang (dài).'
+  lesson_refs:
+  - a1.m01.l05
+  source: nwn-lern
+- id: a1.m01.v.was
+  de: was
+  pos: interrogative
+  vi: cái gì, gì
+  ipa: /vas/
+  example:
+    de: Was ist das? – Das ist ein Taxi.
+    vi: Đó là cái gì? – Đó là một chiếc taxi.
+  usage_vi: Hỏi về đồ vật/sự việc. Hỏi tên người dùng wie (Wie heißt du?), hỏi người dùng wer (Wer ist das?). a đọc ngắn [a].
+  lesson_refs:
+  - a1.m01.l03
+  tags:
+  - w-frage
+  source: nwn-lern

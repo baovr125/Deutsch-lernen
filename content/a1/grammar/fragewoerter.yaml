@@ -1,0 +1,71 @@
+schema_version: "2.0"
+content_type: grammar-topic
+id: a1.g.fragewoerter
+level: A1
+introduced_in: a1.m12
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  references:
+    - { work: "Netzwerk neu A1.2 – Stoffverteilungsplan (Klett)", scope: "Kapitel 12, Grammatik: Fragewörter", verification: verified }
+  tags: ["frage", "w-frage"]
+title_de: "Fragewörter"
+title_vi: "Từ để hỏi (W-Fragen)"
+summary_vi: "Từ để hỏi đứng ở vị trí 1, động từ đã chia ở vị trí 2: Wohin fährst du? Mỗi từ để hỏi tương ứng một loại thông tin: wer (ai), was (cái gì), wo (ở đâu), wohin (đi đâu), woher (từ đâu), wann (khi nào), wie (như thế nào), warum (tại sao), wie lange (bao lâu), wie viel (bao nhiêu)."
+usage_vi: "Dùng khi muốn biết một thông tin cụ thể. Câu trả lời cho W-Frage không phải „ja/nein“ mà là thông tin."
+objectives:
+  - { id: a1.g.fragewoerter.obj1, text_vi: "Chọn đúng từ để hỏi theo thông tin cần biết và đặt động từ ở vị trí 2.", skill: grammar }
+rules:
+  - id: a1.g.fragewoerter.r1
+    title_vi: "Bảng từ để hỏi"
+    body_vi: "Học theo nhóm: người – vật – nơi chốn – thời gian – cách thức – lý do."
+    table:
+      header: ["Từ để hỏi", "Hỏi về", "Ví dụ trả lời"]
+      rows:
+        - ["Wer?", "người", "Anna."]
+        - ["Was?", "vật, việc", "Ein Koffer."]
+        - ["Wo?", "ở đâu", "Im Hotel."]
+        - ["Wohin?", "đi đâu", "Nach Rom."]
+        - ["Woher?", "từ đâu", "Aus Wien."]
+        - ["Wann?", "khi nào", "Im Juli."]
+        - ["Wie?", "như thế nào", "Sehr schön."]
+        - ["Wie lange?", "bao lâu", "Eine Woche."]
+        - ["Wie viel?", "bao nhiêu", "Zwanzig Euro."]
+        - ["Warum?", "tại sao", "Ich habe keine Zeit."]
+    examples:
+      - { de: "Wohin fährst du? – Nach Rom.", vi: "Bạn đi đâu? – Đến Rome." }
+      - { de: "Wie lange bleibst du? – Eine Woche.", vi: "Bạn ở lại bao lâu? – Một tuần." }
+  - id: a1.g.fragewoerter.r2
+    title_vi: "Vị trí trong câu"
+    body_vi: "Từ để hỏi ở vị trí 1, động từ chia ở vị trí 2, sau đó là chủ ngữ. Không đảo ngược như câu Ja/Nein (động từ đầu câu)."
+    table:
+      header: ["Vị trí 1", "Vị trí 2", "…"]
+      rows:
+        - ["Wann", "fährt", "der Zug ab?"]
+        - ["Wo", "übernachtest", "du?"]
+    examples:
+      - { de: "Wann fährt der Zug ab?", vi: "Khi nào tàu khởi hành?" }
+      - { de: "Wo übernachtest du?", vi: "Bạn nghỉ đêm ở đâu?" }
+  - id: a1.g.fragewoerter.r3
+    title_vi: "Từ để hỏi gồm hai từ: wie lange, wie viel(e)"
+    body_vi: "Một số từ để hỏi gồm hai từ: wie lange (bao lâu), wie viel (bao nhiêu), wie viele (bao nhiêu cái, đếm được). Hãy học như một khối."
+    examples:
+      - { de: "Wie viele Tage dauert die Reise?", vi: "Chuyến đi kéo dài bao nhiêu ngày?" }
+      - { de: "Wie viel kostet die Fahrkarte?", vi: "Vé giá bao nhiêu?" }
+sentence_structures:
+  - { pattern: "Fragewort + Verb + Subjekt + …?", example: { de: "Wohin reist ihr im Sommer?", vi: "Mùa hè các bạn đi du lịch đâu?" } }
+examples:
+  - { de: "Woher kommt der Tourist?", vi: "Vị khách du lịch đến từ đâu?" }
+  - { de: "Warum fährst du nicht mit?", vi: "Tại sao bạn không đi cùng?" }
+  - { de: "Wann kommt der Bus an?", vi: "Khi nào xe buýt đến?" }
+  - { de: "Wie ist das Wetter?", vi: "Thời tiết thế nào?" }
+common_mistakes:
+  - { wrong: "Wohin du fährst?", right: "Wohin fährst du?", explanation_vi: "Động từ phải ở vị trí 2, đứng trước chủ ngữ." }
+  - { wrong: "Wo gehst du? (ý: đi đâu)", right: "Wohin gehst du?", explanation_vi: "Có chuyển động đến một nơi thì dùng „wohin“, không dùng „wo“." }
+  - { wrong: "Wie viel Tage?", right: "Wie viele Tage?", explanation_vi: "Danh từ đếm được số nhiều dùng „wie viele“; „wie viel“ dành cho danh từ không đếm được (Geld, Zeit)." }
+exercise_refs: [a1.m12.l02.ex.01, a1.m12.l02.ex.02, a1.m12.l02.ex.04]

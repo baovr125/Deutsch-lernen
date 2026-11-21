@@ -1,0 +1,65 @@
+schema_version: "2.0"
+content_type: grammar-topic
+id: a1.g.denn
+level: A1
+introduced_in: a1.m12
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  references:
+    - { work: "Netzwerk neu A1.2 – Stoffverteilungsplan (Klett)", scope: "Kapitel 12, Grammatik: Sätze verbinden – denn", verification: verified }
+  tags: ["konjunktion", "grund"]
+title_de: "Sätze verbinden: denn"
+title_vi: "Nối câu bằng „denn“ (vì, bởi vì)"
+summary_vi: "„denn“ nối hai câu và cho biết lý do của câu đầu. Giống und/aber/oder, „denn“ ở vị trí 0: sau „denn“ vẫn là chủ ngữ rồi động từ như câu thường. Có dấu phẩy trước „denn“."
+usage_vi: "Dùng để giải thích lý do: „Ich bleibe zu Hause, denn es regnet.“ Rất hữu ích khi kể về kỳ nghỉ hoặc lý do không đi được."
+objectives:
+  - { id: a1.g.denn.obj1, text_vi: "Nối hai câu bằng „denn“ để nêu lý do, giữ nguyên trật tự câu sau „denn“.", skill: grammar }
+rules:
+  - id: a1.g.denn.r1
+    title_vi: "denn = lý do của vế trước"
+    body_vi: "Câu thứ nhất là kết quả, câu thứ hai (sau „denn“) là lý do. Luôn có dấu phẩy trước „denn“."
+    examples:
+      - { de: "Ich bleibe zu Hause, denn es regnet.", vi: "Tôi ở nhà vì trời mưa." }
+      - { de: "Wir fahren nach Spanien, denn das Meer ist dort warm.", vi: "Chúng tôi đi Tây Ban Nha vì biển ở đó ấm." }
+  - id: a1.g.denn.r2
+    title_vi: "Trật tự câu sau „denn“ không đổi"
+    body_vi: "Sau „denn“: chủ ngữ ở vị trí 1, động từ chia ở vị trí 2 (như câu kể bình thường). Với Perfekt: Partizip II vẫn ở cuối."
+    table:
+      header: ["Câu 1", "denn (vị trí 0)", "Vị trí 1", "Vị trí 2", "…"]
+      rows:
+        - ["Ich bin müde,", "denn", "ich", "habe", "lange gearbeitet."]
+        - ["Wir bleiben hier,", "denn", "es", "regnet", "stark."]
+    examples:
+      - { de: "Er ist müde, denn er hat lange gearbeitet.", vi: "Anh ấy mệt vì đã làm việc lâu." }
+      - { de: "Sie kommt nicht, denn sie ist krank.", vi: "Cô ấy không đến vì cô ấy bị ốm." }
+  - id: a1.g.denn.r3
+    title_vi: "So sánh: und – aber – oder – denn"
+    body_vi: "Bốn liên từ này đều ở vị trí 0 và không đổi trật tự câu: và (und), nhưng (aber), hoặc (oder), vì (denn)."
+    table:
+      header: ["Liên từ", "Nghĩa", "Ví dụ"]
+      rows:
+        - ["und", "và", "Ich packe den Koffer und gehe zum Bahnhof."]
+        - ["aber", "nhưng", "Ich möchte reisen, aber ich habe kein Geld."]
+        - ["oder", "hoặc", "Fliegen wir oder fahren wir mit dem Zug?"]
+        - ["denn", "vì", "Ich fahre nicht, denn ich bin krank."]
+    examples:
+      - { de: "Ich möchte reisen, aber ich habe kein Geld.", vi: "Tôi muốn đi du lịch nhưng không có tiền." }
+      - { de: "Fliegen wir oder fahren wir mit dem Zug?", vi: "Chúng ta bay hay đi tàu?" }
+sentence_structures:
+  - { pattern: "Satz 1 + , denn + Subjekt + Verb + …", example: { de: "Ich nehme den Mantel, denn es ist kalt.", vi: "Tôi mang áo măng tô vì trời lạnh." } }
+examples:
+  - { de: "Wir bleiben im Hotel, denn es schneit.", vi: "Chúng tôi ở trong khách sạn vì tuyết rơi." }
+  - { de: "Ich esse viel, denn ich habe Hunger.", vi: "Tôi ăn nhiều vì tôi đói." }
+  - { de: "Er fährt mit dem Zug, denn das Flugzeug ist teuer.", vi: "Anh ấy đi tàu vì máy bay đắt." }
+  - { de: "Sie bucht das Hotel, denn es ist günstig.", vi: "Cô ấy đặt khách sạn vì nó rẻ." }
+common_mistakes:
+  - { wrong: "Denn es regnet, ich bleibe zu Hause.", right: "Ich bleibe zu Hause, denn es regnet.", explanation_vi: "„denn“ đứng giữa hai câu, không mở đầu câu. Câu nêu kết quả đứng trước, lý do đứng sau „denn“." }
+  - { wrong: "Ich bleibe zu Hause, denn regnet es.", right: "Ich bleibe zu Hause, denn es regnet.", explanation_vi: "Sau „denn“ chủ ngữ đứng trước động từ, không đảo như sau từ để hỏi." }
+  - { wrong: "Ich bleibe zu Hause denn es regnet.", right: "Ich bleibe zu Hause, denn es regnet.", explanation_vi: "Trước „denn“ cần có dấu phẩy." }
+exercise_refs: [a1.m12.l03.ex.02, a1.m12.l03.ex.03]

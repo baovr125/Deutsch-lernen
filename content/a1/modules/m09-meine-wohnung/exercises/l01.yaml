@@ -1,0 +1,136 @@
+schema_version: "2.0"
+content_type: exercise-set
+id: a1.m09.l01.ex
+level: A1
+module: a1.m09
+lesson: a1.m09.l01
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  tags: ["wohnen", "adjektiv"]
+exercises:
+  - id: a1.m09.l01.ex.01
+    type: multiple-choice
+    skill: vocabulary
+    difficulty: 1
+    objective_refs: [a1.m09.l01.obj1, a1.m09.obj.wohnung]
+    instructions_vi: "Chọn đáp án đúng."
+    items:
+      - id: a1.m09.l01.ex.01.q1
+        prompt: "Welchen Artikel hat „Küche“?"
+        options: [{ id: a, text: "der" }, { id: b, text: "die" }, { id: c, text: "das" }]
+        answer: [b]
+        explanation_vi: "Đúng là „die Küche“ (số nhiều die Küchen)."
+      - id: a1.m09.l01.ex.01.q2
+        prompt: "Wie sagt man „phòng ngủ“ auf Deutsch?"
+        options: [{ id: a, text: "das Badezimmer" }, { id: b, text: "das Schlafzimmer" }, { id: c, text: "die Küche" }]
+        answer: [b]
+        explanation_vi: "„Schlafzimmer“ = phòng ngủ (schlafen = ngủ). „Badezimmer“ là phòng tắm."
+      - id: a1.m09.l01.ex.01.q3
+        prompt: "Wo kocht man normalerweise?"
+        options: [{ id: a, text: "Im Badezimmer." }, { id: b, text: "Im Flur." }, { id: c, text: "In der Küche." }]
+        answer: [c]
+        explanation_vi: "Nấu ăn ở bếp: „in der Küche“."
+      - id: a1.m09.l01.ex.01.q4
+        prompt: "Welche Farbe hat Milch?"
+        options: [{ id: a, text: "blau" }, { id: b, text: "weiß" }, { id: c, text: "rot" }]
+        answer: [b]
+        explanation_vi: "Sữa màu trắng: „weiß“."
+  - id: a1.m09.l01.ex.02
+    type: matching
+    skill: vocabulary
+    difficulty: 1
+    objective_refs: [a1.m09.l01.obj2, a1.m09.obj.adjektiv]
+    instructions_vi: "Nối màu tiếng Đức với nghĩa tiếng Việt."
+    items:
+      - { id: a1.m09.l01.ex.02.q1, left: "rot", right: "đỏ", explanation_vi: "rot = đỏ." }
+      - { id: a1.m09.l01.ex.02.q2, left: "blau", right: "xanh dương", explanation_vi: "blau = xanh dương." }
+      - { id: a1.m09.l01.ex.02.q3, left: "grün", right: "xanh lá", explanation_vi: "grün = xanh lá cây." }
+      - { id: a1.m09.l01.ex.02.q4, left: "gelb", right: "vàng", explanation_vi: "gelb = vàng." }
+      - { id: a1.m09.l01.ex.02.q5, left: "schwarz", right: "đen", explanation_vi: "schwarz = đen." }
+  - id: a1.m09.l01.ex.03
+    type: fill-blank
+    skill: grammar
+    difficulty: 1
+    objective_refs: [a1.m09.l01.obj2, a1.g.sein-adjektiv.obj1, a1.m09.obj.adjektiv]
+    instructions_vi: "Điền tính từ thích hợp (gợi ý)."
+    word_bank: ["groß", "dunkel", "teuer", "grün"]
+    items:
+      - { id: a1.m09.l01.ex.03.q1, prompt: "Das Wohnzimmer ist ___.", hint_vi: "trái nghĩa với klein", answers: ["groß"], explanation_vi: "Trái nghĩa của „klein“ là „groß“. Sau „sein“ tính từ không đổi đuôi." }
+      - { id: a1.m09.l01.ex.03.q2, prompt: "Der Flur ist ___.", hint_vi: "trái nghĩa với hell", answers: ["dunkel"], explanation_vi: "Trái nghĩa của „hell“ là „dunkel“." }
+      - { id: a1.m09.l01.ex.03.q3, prompt: "Die Wohnung ist ___.", hint_vi: "trái nghĩa với günstig", answers: ["teuer"], explanation_vi: "Trái nghĩa của „günstig“ là „teuer“." }
+      - { id: a1.m09.l01.ex.03.q4, prompt: "Das Sofa ist rot und der Teppich ist ___.", hint_vi: "màu xanh lá", answers: ["grün"], explanation_vi: "grün = xanh lá. Tính từ màu sau „sein“ cũng không đổi." }
+  - id: a1.m09.l01.ex.04
+    type: word-order
+    skill: grammar
+    difficulty: 2
+    objective_refs: [a1.m09.l01.obj2, a1.g.sein-adjektiv.obj1]
+    instructions_vi: "Sắp xếp các từ thành câu đúng."
+    items:
+      - id: a1.m09.l01.ex.04.q1
+        tokens: ["klein.", "Küche", "sehr", "ist", "Die"]
+        answer: "Die Küche ist sehr klein."
+        translation_vi: "Nhà bếp rất nhỏ."
+        explanation_vi: "Chủ ngữ + ist + sehr + tính từ."
+      - id: a1.m09.l01.ex.04.q2
+        tokens: ["gemütlich.", "hell", "und", "Schlafzimmer", "Das", "ist"]
+        answer: "Das Schlafzimmer ist hell und gemütlich."
+        translation_vi: "Phòng ngủ sáng và ấm cúng."
+        explanation_vi: "Hai tính từ nối bằng „und“."
+      - id: a1.m09.l01.ex.04.q3
+        tokens: ["groß.", "Teppich", "nicht", "Der", "ist"]
+        answer: "Der Teppich ist nicht groß."
+        translation_vi: "Tấm thảm không to."
+        explanation_vi: "„nicht“ đứng trước tính từ."
+  - id: a1.m09.l01.ex.05
+    type: reading-comprehension
+    skill: reading
+    difficulty: 1
+    objective_refs: [a1.m09.l01.obj1, a1.m09.obj.wohnung]
+    instructions_vi: "Đọc và trả lời."
+    stimulus:
+      text_de: "Lena wohnt in einer Wohnung mit drei Zimmern. Das Wohnzimmer ist groß und hell. Die Küche ist klein, aber gelb und gemütlich. Das Bad ist weiß."
+      text_vi: "Lena sống trong một căn hộ có ba phòng. Phòng khách rộng và sáng. Nhà bếp nhỏ nhưng màu vàng và ấm cúng. Phòng tắm màu trắng."
+    items:
+      - id: a1.m09.l01.ex.05.q1
+        prompt: "Wie viele Zimmer hat die Wohnung?"
+        options: [{ id: a, text: "Zwei." }, { id: b, text: "Drei." }, { id: c, text: "Vier." }]
+        answer: [b]
+        explanation_vi: "„mit drei Zimmern“ = có ba phòng."
+      - id: a1.m09.l01.ex.05.q2
+        prompt: "Wie ist das Wohnzimmer?"
+        options: [{ id: a, text: "Klein und dunkel." }, { id: b, text: "Groß und hell." }, { id: c, text: "Gelb." }]
+        answer: [b]
+        explanation_vi: "„Das Wohnzimmer ist groß und hell.“"
+      - id: a1.m09.l01.ex.05.q3
+        prompt: "Welche Farbe hat das Bad?"
+        options: [{ id: a, text: "Weiß." }, { id: b, text: "Gelb." }, { id: c, text: "Grün." }]
+        answer: [a]
+        explanation_vi: "„Das Bad ist weiß.“"
+  - id: a1.m09.l01.ex.06
+    type: translation
+    skill: writing
+    difficulty: 2
+    objective_refs: [a1.m09.l01.obj1, a1.m09.l01.obj2, a1.g.sein-adjektiv.obj1]
+    instructions_vi: "Dịch sang tiếng Đức."
+    items:
+      - { id: a1.m09.l01.ex.06.q1, direction: vi-de, source: "Căn hộ của tôi có hai phòng.", answers: ["Meine Wohnung hat zwei Zimmer."], explanation_vi: "„haben“ để nói có bao nhiêu phòng; „Wohnung“ giống cái nên dùng „Meine“." }
+      - { id: a1.m09.l01.ex.06.q2, direction: vi-de, source: "Nhà bếp nhỏ nhưng sáng.", answers: ["Die Küche ist klein, aber hell."], explanation_vi: "sein + tính từ; „, aber“ nối hai ý đối lập." }
+      - { id: a1.m09.l01.ex.06.q3, direction: vi-de, source: "Chiếc ghế sofa màu đỏ.", answers: ["Das Sofa ist rot."], explanation_vi: "Mô tả màu sắc bằng „sein“ + màu." }
+  - id: a1.m09.l01.ex.07
+    type: speaking-practice
+    skill: speaking
+    difficulty: 2
+    objective_refs: [a1.m09.l01.obj1, a1.m09.obj.wohnung]
+    instructions_vi: "Hãy nói 3–4 câu giới thiệu căn hộ/phòng của bạn."
+    items:
+      - id: a1.m09.l01.ex.07.q1
+        prompt_vi: "Giới thiệu nơi bạn sống: có mấy phòng, phòng nào thế nào."
+        model_answer: { de: "Ich wohne in einer Wohnung mit zwei Zimmern. Das Wohnzimmer ist groß und hell. Die Küche ist klein, aber gemütlich.", vi: "Tôi sống trong một căn hộ có hai phòng. Phòng khách rộng và sáng. Nhà bếp nhỏ nhưng ấm cúng." }
+        rubric_vi: ["Nêu số phòng và nơi ở.", "Dùng sein + tính từ không đổi đuôi.", "Gọi đúng tên phòng kèm mạo từ.", "Có một liên từ (und/aber)."]
+        explanation_vi: "Bài mẫu kết hợp số phòng, hai phòng cụ thể và tính từ."

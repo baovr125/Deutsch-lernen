@@ -1,0 +1,444 @@
+schema_version: '2.0'
+content_type: expression-set
+id: a1.m01.expr
+level: A1
+module: a1.m01
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+  references:
+  - work: Netzwerk neu A1 (Klett)
+    scope: 'Kapitel 1: Guten Tag! (Kapitelauftakt); Hallo! Tschüs!; Guten Tag! Auf Wiedersehen!; Woher kommen Sie?; Zahlen und Buchstaben; Landeskunde: Länder und Sprachen; Film: Die Netzwerk-WG; kurz und klar: Redemittel und Grammatik'
+    verification: verified
+  notes_vi: Trình tự và phạm vi theo Stoffverteilungsplan Netzwerk neu A1.1 (Kapitel 1, 10 UE). Toàn bộ giảng giải, hội thoại, bài đọc và bài tập là nội dung tự biên soạn.
+entries:
+- id: a1.m01.x.hallo-hi
+  de: Hallo! / Hi!
+  vi: Chào!
+  register: informal
+  situation_vi: Chào khi gặp bạn bè, bạn học, người trẻ.
+  dialogue:
+  - speaker: Lisa
+    de: Hallo!
+    vi: Chào!
+  - speaker: Minh
+    de: Hi!
+    vi: Chào!
+  lesson_refs:
+  - a1.m01.l01
+- id: a1.m01.x.ich-bin-ich-heisse
+  de: Ich bin … / Ich heiße …
+  vi: Mình là … / Mình tên là …
+  register: neutral
+  situation_vi: Tự giới thiệu tên.
+  dialogue:
+  - speaker: Lisa
+    de: Hallo, ich bin Lisa.
+    vi: Chào, mình là Lisa.
+  - speaker: Minh
+    de: Hallo, Lisa. Ich heiße Minh.
+    vi: Chào Lisa. Mình tên là Minh.
+  lesson_refs:
+  - a1.m01.l01
+- id: a1.m01.x.wie-heisst-du-wer-bist-du
+  de: Wie heißt du? / Wer bist du?
+  vi: Bạn tên là gì? / Bạn là ai?
+  register: informal
+  situation_vi: Hỏi tên trong tình huống thân mật.
+  dialogue:
+  - speaker: Paul
+    de: Hallo! Wie heißt du?
+    vi: Chào! Bạn tên là gì?
+  - speaker: Mai
+    de: Ich heiße Mai. Und du?
+    vi: Mình tên là Mai. Còn bạn?
+  - speaker: Paul
+    de: Ich bin Paul.
+    vi: Mình là Paul.
+  lesson_refs:
+  - a1.m01.l01
+- id: a1.m01.x.das-ist-freut-mich
+  de: Das ist … – Freut mich!
+  vi: Đây là … – Rất vui được gặp bạn!
+  register: neutral
+  situation_vi: Giới thiệu một người với người khác và đáp lại.
+  dialogue:
+  - speaker: Lisa
+    de: Minh, das ist Paul.
+    vi: Minh, đây là Paul.
+  - speaker: Minh
+    de: Hallo, Paul! Freut mich!
+    vi: Chào Paul! Rất vui được gặp bạn!
+  - speaker: Paul
+    de: Freut mich auch!
+    vi: Mình cũng rất vui!
+  lesson_refs:
+  - a1.m01.l01
+- id: a1.m01.x.wie-geht-s-gut-danke-und-dir
+  de: Wie geht's? – Gut, danke. Und dir?
+  vi: Khỏe không? – Khỏe, cảm ơn. Còn bạn?
+  register: informal
+  situation_vi: 'Hỏi thăm sức khỏe giữa bạn bè. Thang trả lời: Sehr gut! > Gut. > Ganz gut. > Es geht. > Nicht so gut.'
+  dialogue:
+  - speaker: Mai
+    de: Hallo, Paul! Wie geht's?
+    vi: Chào Paul! Khỏe không?
+  - speaker: Paul
+    de: Sehr gut, danke! Und dir?
+    vi: Rất khỏe, cảm ơn! Còn bạn?
+  - speaker: Mai
+    de: Es geht.
+    vi: Tạm được.
+  lesson_refs:
+  - a1.m01.l01
+- id: a1.m01.x.tschues-ciao-bis-bald
+  de: Tschüs! / Ciao! / Bis bald!
+  vi: Tạm biệt! / Chào nhé! / Hẹn sớm gặp lại!
+  register: informal
+  situation_vi: Chào khi chia tay trong tình huống thân mật.
+  dialogue:
+  - speaker: Lisa
+    de: Tschüs, Minh! Bis bald!
+    vi: Tạm biệt Minh! Hẹn sớm gặp lại!
+  - speaker: Minh
+    de: Ciao, Lisa!
+    vi: Chào nhé, Lisa!
+  lesson_refs:
+  - a1.m01.l01
+- id: a1.m01.x.guten-morgen-guten-tag-guten-abend
+  de: Guten Morgen! / Guten Tag! / Guten Abend!
+  vi: Chào buổi sáng! / Xin chào! / Chào buổi tối!
+  register: neutral
+  situation_vi: 'Chào khi gặp, theo thời điểm: sáng (đến ~10–11h), ban ngày (~10–18h), tối (từ ~18h). Dùng được cả với du và Sie.'
+  dialogue:
+  - speaker: Rezeption
+    de: Guten Morgen, Herr Tran!
+    vi: Chào buổi sáng, ông Trần!
+  - speaker: Herr Tran
+    de: Guten Morgen!
+    vi: Chào buổi sáng!
+  lesson_refs:
+  - a1.m01.l02
+- id: a1.m01.x.wie-heissen-sie-mein-name-ist
+  de: Wie heißen Sie? – Mein Name ist …
+  vi: Ông/Bà tên là gì? – Tên tôi là …
+  register: formal
+  situation_vi: Hỏi và nói tên trong tình huống trang trọng.
+  dialogue:
+  - speaker: Frau Weber
+    de: Guten Tag! Wie heißen Sie?
+    vi: Xin chào! Anh tên là gì ạ?
+  - speaker: Minh
+    de: Guten Tag! Mein Name ist Minh Tran.
+    vi: Xin chào! Tên tôi là Minh Trần.
+  - speaker: Frau Weber
+    de: Ich bin Frau Weber.
+    vi: Tôi là bà Weber.
+  lesson_refs:
+  - a1.m01.l02
+- id: a1.m01.x.wie-geht-es-ihnen-danke-gut-und-ihnen
+  de: Wie geht es Ihnen? – Danke, gut. Und Ihnen?
+  vi: Ông/Bà khỏe không? – Cảm ơn, tôi khỏe. Còn ông/bà?
+  register: formal
+  situation_vi: Hỏi thăm trang trọng.
+  dialogue:
+  - speaker: Herr Lehmann
+    de: Guten Abend, Frau Schmidt! Wie geht es Ihnen?
+    vi: Chào buổi tối bà Schmidt! Bà có khỏe không?
+  - speaker: Frau Schmidt
+    de: Danke, sehr gut. Und Ihnen?
+    vi: Cảm ơn, rất khỏe. Còn ông?
+  - speaker: Herr Lehmann
+    de: Auch gut, danke.
+    vi: Tôi cũng khỏe, cảm ơn.
+  lesson_refs:
+  - a1.m01.l02
+- id: a1.m01.x.auf-wiedersehen
+  de: Auf Wiedersehen!
+  vi: Tạm biệt!
+  register: formal
+  situation_vi: Chia tay trong tình huống trang trọng.
+  dialogue:
+  - speaker: Kunde
+    de: Danke! Auf Wiedersehen!
+    vi: Cảm ơn! Tạm biệt!
+  - speaker: Verkäuferin
+    de: Auf Wiedersehen!
+    vi: Tạm biệt!
+  lesson_refs:
+  - a1.m01.l02
+- id: a1.m01.x.gute-nacht
+  de: Gute Nacht!
+  vi: Chúc ngủ ngon!
+  register: neutral
+  situation_vi: Chỉ dùng khi chia tay buổi tối muộn hoặc trước khi đi ngủ.
+  dialogue:
+  - speaker: Mai
+    de: Ich gehe jetzt. Gute Nacht!
+    vi: Giờ mình đi đây. Chúc ngủ ngon!
+  - speaker: Anna
+    de: Gute Nacht, Mai!
+    vi: Chúc ngủ ngon, Mai!
+  lesson_refs:
+  - a1.m01.l02
+- id: a1.m01.x.woher-kommst-du-woher-kommen-sie-ich-kom
+  de: Woher kommst du? / Woher kommen Sie? – Ich komme aus …
+  vi: Bạn / Ông bà đến từ đâu? – Tôi đến từ …
+  register: neutral
+  situation_vi: Hỏi và nói quê quán, nước hoặc thành phố xuất xứ.
+  dialogue:
+  - speaker: Anna
+    de: Woher kommst du, Minh?
+    vi: Minh đến từ đâu?
+  - speaker: Minh
+    de: Ich komme aus Vietnam, aus Hanoi.
+    vi: Mình đến từ Việt Nam, từ Hà Nội.
+  lesson_refs:
+  - a1.m01.l03
+- id: a1.m01.x.wo-wohnst-du-wo-wohnen-sie-ich-wohne-in
+  de: Wo wohnst du? / Wo wohnen Sie? – Ich wohne in …
+  vi: Bạn / Ông bà sống ở đâu? – Tôi sống ở …
+  register: neutral
+  situation_vi: Hỏi và nói nơi đang sống.
+  dialogue:
+  - speaker: Herr Novak
+    de: Wo wohnen Sie, Frau Pham?
+    vi: Chị sống ở đâu, chị Phạm?
+  - speaker: Frau Pham
+    de: Ich wohne in Leipzig.
+    vi: Tôi sống ở Leipzig.
+  lesson_refs:
+  - a1.m01.l03
+- id: a1.m01.x.welche-sprachen-sprichst-du-ich-spreche
+  de: Welche Sprachen sprichst du? – Ich spreche … und …
+  vi: Bạn nói những ngôn ngữ nào? – Tôi nói … và …
+  register: informal
+  situation_vi: Hỏi và nói về ngôn ngữ.
+  dialogue:
+  - speaker: Paul
+    de: Welche Sprachen sprichst du?
+    vi: Bạn nói những thứ tiếng nào?
+  - speaker: Lan
+    de: Ich spreche Vietnamesisch und Englisch.
+    vi: Mình nói tiếng Việt và tiếng Anh.
+  lesson_refs:
+  - a1.m01.l03
+- id: a1.m01.x.das-ist-er-sie-kommt-aus-und-wohnt-in
+  de: Das ist … Er/Sie kommt aus … und wohnt in …
+  vi: Đây là … Anh ấy/Cô ấy đến từ … và sống ở …
+  register: neutral
+  situation_vi: Giới thiệu một người khác cho lớp hoặc cho bạn bè.
+  dialogue:
+  - speaker: Lan
+    de: Das ist Tom. Er kommt aus Deutschland und wohnt in Köln.
+    vi: Đây là Tom. Anh ấy đến từ Đức và sống ở Köln.
+  - speaker: Kurs
+    de: Hallo, Tom!
+    vi: Chào Tom!
+  lesson_refs:
+  - a1.m01.l03
+- id: a1.m01.x.wie-ist-deine-ihre-telefonnummer-meine-n
+  de: Wie ist deine/Ihre Telefonnummer? – Meine Nummer ist …
+  vi: Số điện thoại của bạn/ông bà là gì? – Số của tôi là …
+  register: neutral
+  situation_vi: Hỏi và nói số điện thoại. Đọc từng chữ số; người Đức hay nói “zwo” thay “zwei” để khỏi nhầm với “drei”.
+  dialogue:
+  - speaker: Tom
+    de: Wie ist deine Handynummer?
+    vi: Số di động của bạn là gì?
+  - speaker: Lan
+    de: Null, eins, sieben, sechs – drei, vier, acht – neun, null, zwo.
+    vi: 0176 – 348 – 902.
+  - speaker: Tom
+    de: Danke!
+    vi: Cảm ơn!
+  lesson_refs:
+  - a1.m01.l04
+- id: a1.m01.x.wie-ist-ihre-e-mail-adresse
+  de: Wie ist Ihre E-Mail-Adresse?
+  vi: Địa chỉ email của ông/bà là gì?
+  register: formal
+  situation_vi: 'Hỏi email. Đọc ký hiệu: @ = at [ɛt], . = Punkt, _ = Unterstrich, - = Bindestrich (hoặc Minus).'
+  dialogue:
+  - speaker: Frau Lang
+    de: Wie ist Ihre E-Mail-Adresse?
+    vi: Địa chỉ email của anh là gì?
+  - speaker: Minh
+    de: minh Punkt tran at web Punkt de.
+    vi: minh.tran@web.de
+  lesson_refs:
+  - a1.m01.l04
+- id: a1.m01.x.wie-schreibt-man-das-buchstabieren-sie-b
+  de: Wie schreibt man das? / Buchstabieren Sie, bitte.
+  vi: Cái đó viết thế nào? / Xin ông/bà đánh vần giúp.
+  register: formal
+  situation_vi: Đề nghị đánh vần một tên hoặc một từ.
+  dialogue:
+  - speaker: Frau Lang
+    de: Wie heißen Sie?
+    vi: Chị tên là gì?
+  - speaker: Lan
+    de: Nguyen.
+    vi: Nguyễn.
+  - speaker: Frau Lang
+    de: Wie schreibt man das? Buchstabieren Sie, bitte.
+    vi: Viết thế nào ạ? Chị đánh vần giúp tôi.
+  - speaker: Lan
+    de: N – G – U – Y – E – N.
+    vi: N – G – U – Y – E – N.
+  lesson_refs:
+  - a1.m01.l04
+- id: a1.m01.x.wie-bitte-noch-einmal-bitte-langsam-bitt
+  de: Wie bitte? / Noch einmal, bitte. / Langsam, bitte.
+  vi: Xin lỗi, gì cơ? / Làm ơn nói lại. / Làm ơn nói chậm thôi.
+  register: neutral
+  situation_vi: Ba câu cứu nguy khi chưa nghe kịp hoặc chưa hiểu.
+  dialogue:
+  - speaker: Herr Bauer
+    de: Meine Nummer ist null-eins-fünf-zwo-acht-sieben-drei.
+    vi: Số của tôi là 0152 873.
+  - speaker: Lan
+    de: Entschuldigung, langsam, bitte. Noch einmal, bitte.
+    vi: Xin lỗi, làm ơn nói chậm thôi. Làm ơn nói lại.
+  - speaker: Herr Bauer
+    de: Null – eins – fünf – zwo …
+    vi: 0 – 1 – 5 – 2 …
+  lesson_refs:
+  - a1.m01.l04
+- id: a1.m01.x.ich-spreche-ein-bisschen-deutsch-ich-ver
+  de: Ich spreche ein bisschen Deutsch. – Ich verstehe das nicht.
+  vi: Tôi nói được một chút tiếng Đức. – Tôi không hiểu cái đó.
+  register: neutral
+  situation_vi: Cho người đối diện biết trình độ của bạn để họ nói chậm, đơn giản hơn.
+  dialogue:
+  - speaker: Mann
+    de: Entschuldigung, wo ist die Bushaltestelle?
+    vi: Xin lỗi, trạm xe buýt ở đâu ạ?
+  - speaker: Minh
+    de: Entschuldigung, ich spreche nur ein bisschen Deutsch. Ich verstehe das nicht.
+    vi: Xin lỗi, tôi chỉ nói được một chút tiếng Đức. Tôi không hiểu.
+  lesson_refs:
+  - a1.m01.l04
+- id: a1.m01.x.ich-komme-aus-und-wohne-in
+  de: Ich komme aus … und wohne in …
+  vi: Tôi đến từ … và sống ở …
+  register: neutral
+  situation_vi: Nói quê quán và nơi ở trong một câu.
+  dialogue:
+  - speaker: Kursleiterin
+    de: Stellen Sie sich bitte vor.
+    vi: Mời anh/chị tự giới thiệu.
+  - speaker: Minh
+    de: Ich heiße Minh. Ich komme aus Vietnam und wohne in Wien.
+    vi: Tôi tên là Minh. Tôi đến từ Việt Nam và sống ở Viên.
+  lesson_refs:
+  - a1.m01.l05
+- id: a1.m01.x.ich-spreche-und-ein-bisschen
+  de: Ich spreche … und ein bisschen …
+  vi: Tôi nói tiếng … và một chút tiếng …
+  register: neutral
+  situation_vi: Nói các ngôn ngữ mình biết và mức độ.
+  dialogue:
+  - speaker: Anna
+    de: Welche Sprachen sprichst du?
+    vi: Bạn nói những thứ tiếng nào?
+  - speaker: Hoa
+    de: Ich spreche Vietnamesisch, Englisch und ein bisschen Deutsch.
+    vi: Mình nói tiếng Việt, tiếng Anh và một chút tiếng Đức.
+  lesson_refs:
+  - a1.m01.l05
+- id: a1.m01.x.ich-lerne
+  de: Ich lerne …
+  vi: Tôi đang học …
+  register: neutral
+  situation_vi: Nói ngôn ngữ/môn mình đang học.
+  dialogue:
+  - speaker: Paul
+    de: Was lernst du?
+    vi: Bạn đang học gì?
+  - speaker: Lan
+    de: Ich lerne Deutsch. Und du?
+    vi: Mình học tiếng Đức. Còn bạn?
+  - speaker: Paul
+    de: Ich lerne Vietnamesisch!
+    vi: Mình học tiếng Việt!
+  lesson_refs:
+  - a1.m01.l05
+- id: a1.m01.x.ist-in
+  de: … ist in …
+  vi: … ở …
+  register: neutral
+  situation_vi: Nói một thành phố nằm ở nước nào.
+  dialogue:
+  - speaker: Tom
+    de: Wo ist Zürich?
+    vi: Zürich ở đâu?
+  - speaker: Mai
+    de: Zürich ist in der Schweiz.
+    vi: Zürich ở Thụy Sĩ.
+  lesson_refs:
+  - a1.m01.l05
+- id: a1.m01.x.begruessen-und-verabschieden-hallo-guten
+  de: 'Begrüßen und verabschieden: Hallo! / Guten Morgen/Tag/Abend! – Tschüs! / Auf Wiedersehen! / Gute Nacht!'
+  vi: Chào khi gặp và khi chia tay
+  register: neutral
+  situation_vi: 'Thân mật: Hallo – Tschüs. Trang trọng: Guten Tag – Auf Wiedersehen.'
+  dialogue:
+  - speaker: A
+    de: Guten Tag, Frau Berg!
+    vi: Xin chào bà Berg!
+  - speaker: B
+    de: Guten Tag, Herr Le! Auf Wiedersehen!
+    vi: Xin chào ông Lê! (… sau đó) Tạm biệt!
+  lesson_refs:
+  - a1.m01.review
+- id: a1.m01.x.sich-vorstellen-ich-bin-ich-heisse-mein
+  de: 'Sich vorstellen: Ich bin … / Ich heiße … / Mein Name ist … – Das ist …'
+  vi: Giới thiệu bản thân và người khác
+  register: neutral
+  situation_vi: Mein Name ist … trang trọng hơn một chút.
+  dialogue:
+  - speaker: A
+    de: Mein Name ist Lan Pham. Und das ist Herr Becker.
+    vi: Tên tôi là Lan Phạm. Còn đây là ông Becker.
+  - speaker: B
+    de: Guten Tag! Freut mich!
+    vi: Xin chào! Rất vui được gặp chị!
+  lesson_refs:
+  - a1.m01.review
+- id: a1.m01.x.nach-dem-befinden-fragen-wie-geht-s-wie
+  de: 'Nach dem Befinden fragen: Wie geht''s? / Wie geht es Ihnen? – Gut, danke. Und dir? / Und Ihnen?'
+  vi: Hỏi thăm sức khỏe
+  register: neutral
+  situation_vi: Chọn câu hỏi và câu đáp theo du/Sie.
+  dialogue:
+  - speaker: A
+    de: Wie geht es Ihnen?
+    vi: Ông/Bà khỏe không?
+  - speaker: B
+    de: Danke, gut. Und Ihnen?
+    vi: Cảm ơn, khỏe. Còn ông/bà?
+  lesson_refs:
+  - a1.m01.review
+- id: a1.m01.x.herkunft-wohnort-sprachen-kontakt-woher
+  de: 'Herkunft, Wohnort, Sprachen, Kontakt: Woher …? Wo …? Welche Sprachen …? Wie ist Ihre Telefonnummer/E-Mail-Adresse? – Wie bitte? Langsam, bitte. Buchstabieren Sie, bitte.'
+  vi: Hỏi quê quán, nơi ở, ngôn ngữ, thông tin liên lạc; xử lý khi chưa hiểu
+  register: neutral
+  situation_vi: Bộ câu hỏi cơ bản khi làm quen hoặc đăng ký.
+  dialogue:
+  - speaker: A
+    de: Woher kommen Sie und wo wohnen Sie?
+    vi: Ông/Bà đến từ đâu và sống ở đâu?
+  - speaker: B
+    de: Ich komme aus Vietnam und wohne in Dresden.
+    vi: Tôi đến từ Việt Nam và sống ở Dresden.
+  lesson_refs:
+  - a1.m01.review
