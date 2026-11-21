@@ -1,6 +1,9 @@
-"""Extract all German strings from content/<level> YAML + CSV for proofreading.
-Usage: python -I extract_de.py <level_dir> <out_file>"""
-import csv
+"""Trích toàn bộ chuỗi tiếng Đức từ content/<level> (Content Standard v2) để soát lỗi.
+
+Usage: python -I extract_de.py <level_dir> <out_file>
+Ví dụ: python -I extract_de.py content/a1 de.txt
+Mỗi dòng: <tệp>  <đường dẫn trường>  <nội dung>
+"""
 import pathlib
 import sys
 
@@ -8,33 +11,32 @@ import yaml
 
 sys.stdout.reconfigure(encoding="utf-8")
 lvl = pathlib.Path(sys.argv[1])
-out = []
-DE_KEYS = {"de", "text_de", "model_de", "example_de", "answer", "model_answer", "prompt", "tts", "pattern"}
+out_file = pathlib.Path(sys.argv[2])
+# Trường chứa văn bản tiếng Đức (list hoặc chuỗi)
+DE_KEYS = {"de", "title_de", "source", "tts", "answer", "answers", "model_answer", "pattern", "wrong", "right", "prompt", "text_de",
+           "left", "right", "tokens", "word_bank", "required_words", "plural"}
+SKIP_FILES = {"cefr-a1.yaml", "course.yaml"}
+lines = []
 
 
-def walk(node, path, src):
+def walk(node, path, fname):
     if isinstance(node, dict):
-        typ = node.get("type")
         for k, v in node.items():
-            if k in DE_KEYS and isinstance(v, str):
-                out.append(f"{src}|{path}.{k}|{v.strip()}")
-            elif k == "answer" and isinstance(v, list):
-                out.append(f"{src}|{path}.answer|{' / '.join(map(str, v))}")
-            elif k == "accept" and isinstance(v, list):
-                out.append(f"{src}|{path}.accept|{v}")
-            elif k == "options" and isinstance(v, list):
-                out.append(f"{src}|{path}.options|{' | '.join(v)}")
+            if k in DE_KEYS and k in ("tokens", "answers", "word_bank", "required_words") and isinstance(v, list):
+                lines.append(f"{fname}\t{path}/{k}\t{' | '.join(str(x) for x in v)}")
+            elif k in DE_KEYS and isinstance(v, str):
+                lines.append(f"{fname}\t{path}/{k}\t{v}")
             else:
-                walk(v, f"{path}.{k}", src)
+                walk(v, f"{path}/{k}", fname)
     elif isinstance(node, list):
-        for i, v in enumerate(node):
-            walk(v, f"{path}[{i}]", src)
+        for i, x in enumerate(node):
+            walk(x, f"{path}[{i}]", fname)
 
 
-for p in sorted(lvl.rglob("*.yaml")):
-    walk(yaml.safe_load(p.read_text(encoding="utf-8")), "", p.relative_to(lvl))
-for p in sorted((lvl / "vocabulary").glob("*.csv")):
-    for r in csv.DictReader(p.open(encoding="utf-8")):
-        out.append(f"{p.name}|{r['id']}|{r['article']} {r['lemma']} ({r['plural']}) [{r['forms']}] :: {r['example_de']}")
-pathlib.Path(sys.argv[2]).write_text("\n".join(out), encoding="utf-8")
-print(len(out), "dòng")
+files = sorted(lvl.glob("modules/*/**/*.yaml")) + sorted(lvl.glob("grammar/*.yaml"))
+for f in files:
+    if f.name in SKIP_FILES:
+        continue
+    walk(yaml.safe_load(f.read_text(encoding="utf-8")), "", str(f.relative_to(lvl)))
+out_file.write_text("\n".join(lines), encoding="utf-8")
+print(f"{len(lines)} dòng từ {len(files)} tệp -> {out_file}")
