@@ -9,7 +9,7 @@
     "id": { "$ref": "urn:deutsch-lernen:content:common#/$defs/id" },
     "level": { "$ref": "urn:deutsch-lernen:content:common#/$defs/level" },
     "order": { "type": "integer", "minimum": 0 },
-    "kind": { "enum": ["intro", "kapitel"] },
+    "kind": { "enum": ["intro", "kapitel", "plattform"] },
     "title_de": { "type": "string", "minLength": 1 },
     "title_vi": { "type": "string", "minLength": 1 },
     "source": { "$ref": "urn:deutsch-lernen:content:common#/$defs/source" },

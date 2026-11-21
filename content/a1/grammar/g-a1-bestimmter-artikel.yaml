@@ -1,0 +1,110 @@
+id: g-a1-bestimmter-artikel
+level: A1
+title_de: "Der bestimmte Artikel: der, die, das – und wie man Artikel lernt"
+title_vi: "Mạo từ xác định der/die/das và cách học mạo từ"
+introduced_in: a1-k02-l04
+source:
+  type: netzwerk-neu
+  kapitel: 2
+  sections: ["Mein Beruf", "Strategie: Artikel lernen"]
+  note_vi: "Tương ứng Grammatik „Definitartikel“ và „Artikel“ (Strategie: Artikel lernen) của Kapitel 2."
+prerequisites: [g-a1-satzbau-grundlagen]
+explanation_vi: |
+  Ở phần nhập môn bạn đã biết: mỗi danh từ tiếng Đức có một **giống** – đực (*der*), cái (*die*), trung (*das*).
+  **der, die, das** là **mạo từ xác định** – giống “the” trong tiếng Anh: dùng khi người nghe **biết** bạn nói về cái nào.
+
+  *Das Auto ist neu.* – Chiếc ô tô (mà cả hai ta đều biết) thì mới.
+
+  **Giống không đoán được từ nghĩa** (*das Mädchen* = cô bé nhưng là giống trung). Tuy vậy, có một số **dấu hiệu** giúp đoán:
+
+  | Dấu hiệu | Giống | Ví dụ |
+  |---|---|---|
+  | người nam / nghề nam | der | der Arzt, der Lehrer |
+  | người nữ, đuôi **-in** | die | die Ärztin, die Lehrerin |
+  | đuôi **-ung, -tion, -tät, -e** (phần lớn) | die | die Rechnung, die Information, die Universität, die Straße |
+  | ngày trong tuần, mùa, tháng | der | der Montag, der Sommer, der Mai |
+  | đuôi **-chen**, **-um** (phần lớn), từ mượn -o | das | das Mädchen, das Museum, das Auto |
+  | **danh từ ghép** → theo **từ cuối** | – | das Haus + die Nummer → **die** Hausnummer |
+
+  **Cách học mạo từ hiệu quả:**
+  1. Luôn học **mạo từ + danh từ + số nhiều**: *der Stift, die Stifte*.
+  2. Dùng **màu**: der = xanh dương, die = đỏ, das = xanh lá – viết thẻ từ bằng màu tương ứng.
+  3. Dùng **hình ảnh (Artikelbild)**: tưởng tượng mọi từ *der* ở trong một căn phòng màu xanh, mọi từ *die* ở căn phòng màu đỏ…
+  4. Tra **từ điển**: từ điển luôn ghi giống, ví dụ *Stift, der, -e* hoặc *Stift m.* (m = maskulin = giống đực; f = feminin = giống cái; n = neutrum = giống trung).
+usage_vi: "Dùng der/die/das khi nói về một vật/người cụ thể đã biết, và khi học từ mới. Mạo từ không xác định (ein/eine) – khi nói về một vật chưa xác định – học ở Kapitel 3."
+structure:
+  - pattern: "der + danh từ giống đực"
+    example_de: "der Computer, der Schlüssel"
+    example_vi: "cái máy tính, chiếc chìa khóa"
+  - pattern: "die + danh từ giống cái / mọi danh từ số nhiều"
+    example_de: "die Rechnung – die Stifte"
+    example_vi: "hóa đơn – những cây bút"
+  - pattern: "das + danh từ giống trung"
+    example_de: "das Auto, das Glas"
+    example_vi: "ô tô, cái ly"
+rules:
+  - rule_vi: "Mỗi danh từ có một mạo từ cố định. Học danh từ luôn kèm mạo từ."
+    examples:
+      - { de: "der Stift – die Tablette – das Medikament", vi: "cây bút – viên thuốc – thuốc" }
+  - rule_vi: "Một số dấu hiệu giúp đoán giống: -in, -ung, -tion, -tät → die; -chen → das; người nam, ngày trong tuần → der."
+    examples:
+      - { de: "die Lehrerin, die Rechnung, die Information", vi: "cô giáo, hóa đơn, thông tin" }
+      - { de: "der Montag, der Kellner", vi: "thứ Hai, người bồi bàn" }
+  - rule_vi: "Danh từ ghép lấy giống theo từ cuối."
+    examples:
+      - { de: "das Taxi + der Fahrer → der Taxifahrer", vi: "tài xế taxi" }
+      - { de: "die Woche + das Ende → das Wochenende", vi: "cuối tuần" }
+  - rule_vi: "Số nhiều của mọi giống đều dùng die."
+    examples:
+      - { de: "der Schlüssel → die Schlüssel; das Glas → die Gläser", vi: "chìa khóa → những chìa khóa; cái ly → những cái ly" }
+tables:
+  - title_vi: "Đọc ký hiệu giống trong từ điển"
+    columns: ["Ký hiệu", "Nghĩa", "Mạo từ", "Ví dụ"]
+    rows:
+      - ["m. (maskulin)", "giống đực", "der", "Stift m."]
+      - ["f. (feminin)", "giống cái", "die", "Rechnung f."]
+      - ["n. (neutrum)", "giống trung", "das", "Glas n."]
+examples:
+  - { de: "Der Schlüssel ist hier.", vi: "Chìa khóa ở đây." }
+  - { de: "Die Rechnung, bitte!", vi: "Cho tôi xin hóa đơn!" }
+  - { de: "Das Medikament ist für Frau Lang.", vi: "Thuốc này dành cho bà Lang." }
+  - { de: "Der Kellner bringt die Rechnung.", vi: "Người bồi bàn mang hóa đơn đến." }
+  - { de: "Die Computer sind neu.", vi: "Những cái máy tính đều mới.", note_vi: "Số nhiều → die, động từ chia số nhiều (sind)." }
+common_mistakes:
+  - wrong: "Das Rechnung, bitte!"
+    right: "Die Rechnung, bitte!"
+    explanation_vi: "Đuôi -ung → luôn die."
+  - wrong: "Der Lehrerin ist nett."
+    right: "Die Lehrerin ist nett."
+    explanation_vi: "Dạng nữ -in luôn là die."
+  - wrong: "Das Hausnummer ist 12."
+    right: "Die Hausnummer ist 12."
+    explanation_vi: "Danh từ ghép theo từ cuối: die Nummer → die Hausnummer."
+comparison_vi: "So với tiếng Anh: chỉ có “the” cho mọi danh từ. So với tiếng Pháp/Tây Ban Nha (nếu bạn biết): có 2 giống; tiếng Đức có 3 giống và số nhiều luôn là die."
+vietnamese_contrast_vi: "Tiếng Việt không có mạo từ “the”; ta dùng “cái này, cái đó” hoặc không dùng gì. Người Việt hay bỏ mạo từ khi nói (“Schlüssel ist hier”) – sai. Hãy coi mạo từ là một phần không tách rời của từ – giống như người Việt học “con mèo”, “cái bàn”, “quyển sách” chứ không học riêng “mèo”, “bàn”, “sách” – và học thuộc ngay từ đầu."
+exercises:
+  - id: g-a1-bestimmter-artikel-ex01
+    type: gap-fill
+    skill: grammar
+    objectives: [r1, r2]
+    difficulty: 1
+    instructions_vi: "Điền der, die hoặc das."
+    items:
+      - { id: q1, prompt: "___ Rechnung", answer: ["die"], explanation_vi: "-ung → die." }
+      - { id: q2, prompt: "___ Ärztin", answer: ["die"], explanation_vi: "-in → die." }
+      - { id: q3, prompt: "___ Montag", answer: ["der"], explanation_vi: "Ngày trong tuần → der." }
+      - { id: q4, prompt: "___ Information", answer: ["die"], explanation_vi: "-tion → die." }
+      - { id: q5, prompt: "___ Auto", answer: ["das"], explanation_vi: "das Auto." }
+      - { id: q6, prompt: "___ Schlüssel", answer: ["der"], explanation_vi: "der Schlüssel – học thuộc." }
+  - id: g-a1-bestimmter-artikel-ex02
+    type: multiple-choice
+    skill: grammar
+    objectives: [r3, r4]
+    difficulty: 2
+    instructions_vi: "Chọn mạo từ đúng."
+    items:
+      - { id: q1, prompt: "___ Krankenhaus (krank + das Haus)", options: ["der", "die", "das"], answer: "das", explanation_vi: "Theo từ cuối: das Haus." }
+      - { id: q2, prompt: "___ Telefonnummer", options: ["der", "die", "das"], answer: "die", explanation_vi: "Theo từ cuối: die Nummer." }
+      - { id: q3, prompt: "___ Stifte (số nhiều)", options: ["der", "die", "das"], answer: "die", explanation_vi: "Số nhiều luôn die." }
+summary_vi: "der (đực), die (cái), das (trung); số nhiều: die. Học danh từ với mạo từ và số nhiều. Dấu hiệu: -in, -ung, -tion, -tät → die; -chen → das; danh từ ghép theo từ cuối. Dùng màu và hình ảnh để nhớ."
+next_level_note_vi: "Mạo từ không xác định ein/eine và phủ định kein/keine: Kapitel 3. Mạo từ ở cách Akkusativ (den): Kapitel 4."

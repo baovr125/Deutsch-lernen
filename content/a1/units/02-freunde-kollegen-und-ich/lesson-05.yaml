@@ -1,0 +1,279 @@
+id: a1-k02-l05
+kind: lesson
+level: A1
+unit: a1-k02
+order: 5
+title_de: "Mein Arbeitstag – haben, sein und Zahlen ab 20"
+title_vi: "Công việc của tôi: haben, sein, số nhiều và số từ 20"
+topic_vi: "Văn bản ngắn về nghề nghiệp; tuổi; thời gian làm việc; số đếm lớn; số nhiều"
+source:
+  type: netzwerk-neu
+  kapitel: 2
+  sections: ["Mein Beruf"]
+  note_vi: "Phần thứ hai của mục „Mein Beruf“: Texte verstehen und ergänzen; Zahlen ab 20 hören und nachsprechen; Informationen sammeln und präsentieren; Pluralformen erkennen und Lernkarten schreiben; Partnerarbeit; einen Ich-Text schreiben. Grammatik: Plural, Verben haben und sein. Wortschatz: Zahlen ab 20. Aussprache: Zahlen ab 20."
+cefr: [A1.SP2, A1.H3, A1.L1, A1.S2, A1.SI2]
+objectives:
+  - { id: o1, vi: "Chia và dùng haben và sein; nói tuổi bằng sein." }
+  - { id: o2, vi: "Nghe, đọc và nói các số từ 20 đến 1 triệu." }
+  - { id: o3, vi: "Nhận biết và tạo dạng số nhiều của danh từ đã học." }
+  - { id: o4, vi: "Hiểu văn bản ngắn về công việc (giờ làm, ngày nghỉ, số liệu) và viết một đoạn giới thiệu nghề nghiệp của mình." }
+estimated_minutes: 90
+prerequisites: [a1-k02-l04]
+intro_vi: |
+  Trong bài này, ba người kể về công việc của họ: **bao nhiêu tuổi**, **làm bao nhiêu giờ mỗi tuần**,
+  **nghỉ ngày nào**, **chạy bao nhiêu km**… Để hiểu và kể như vậy, bạn cần ba công cụ:
+
+  1. **haben và sein** – hai động từ quan trọng nhất (chủ điểm *haben và sein*). Chú ý: nói tuổi dùng **sein**: *Ich bin 22.*
+  2. **Số từ 20** – tiếng Đức đọc **hàng đơn vị trước, hàng chục sau**: 21 = *ein**und**zwanzig* (“một-và-hai mươi”).
+  3. **Số nhiều** – *der Patient → die Patient**en***, *das Jahr → die Jahr**e*** (chủ điểm *Số nhiều của danh từ*).
+vocabulary:
+  file: vocabulary/02-freunde-kollegen-und-ich.csv
+  new: [a1-k02-v120, a1-k02-v121, a1-k02-v122, a1-k02-v123, a1-k02-v124, a1-k02-v125, a1-k02-v126, a1-k02-v127, a1-k02-v128, a1-k02-v129, a1-k02-v130, a1-k02-v131, a1-k02-v132, a1-k02-v133, a1-k02-v134, a1-k02-v135, a1-k02-v136, a1-k02-v137, a1-k02-v138, a1-k02-v139, a1-k02-v140, a1-k02-v141, a1-k02-v142, a1-k02-v143, a1-k02-v144, a1-k02-v145, a1-k02-v146, a1-k02-v147, a1-k02-v148, a1-k02-v149, a1-k02-v150, a1-k02-v151, a1-k02-v152, a1-k02-v153, a1-k02-v154, a1-k02-v155, a1-k02-v156, a1-k02-v157, a1-k02-v158, a1-k02-v159, a1-k02-v160, a1-k02-v161, a1-k02-v162, a1-k02-v163]
+  review: [a1-k02-v062, a1-k02-v069, a1-k02-v081, a1-k02-v082, a1-k02-v067, a1-k02-v017, a1-k01-v084, a1-k01-v038]
+grammar:
+  topics:
+    - { topic: g-a1-haben-sein, focus_vi: "Bảng chia haben/sein; tuổi dùng sein; haben + danh từ; frei|haben." }
+    - { topic: g-a1-plural, focus_vi: "Năm cách tạo số nhiều; sau số đếm dùng số nhiều; viết thẻ học có số nhiều." }
+  notes:
+    - title_vi: "Số từ 21 đến 99: đơn vị + und + chục"
+      explanation_vi: |
+        Tiếng Việt: hai mươi mốt (chục trước). Tiếng Đức: **ein-und-zwanzig** (đơn vị + und + chục), viết liền thành MỘT từ.
+        21 einundzwanzig · 22 zweiundzwanzig · 35 fünfunddreißig · 47 siebenundvierzig · 99 neunundneunzig.
+        Chú ý: 21 là ein**und**zwanzig (không phải „einsundzwanzig“). Hàng chục: zwanzig, dreißig (ß!), vierzig, fünfzig, sechzig, siebzig, achtzig, neunzig.
+        Số lớn: 100 (ein)hundert, 125 hundertfünfundzwanzig, 1000 (ein)tausend, 2500 zweitausendfünfhundert, 1.000.000 eine Million.
+        Người Đức viết dấu chấm ngăn hàng nghìn: 1.250 = một nghìn hai trăm năm mươi (giống Việt Nam).
+      examples:
+        - { de: "24 = vierundzwanzig", vi: "hai mươi tư (nghĩa đen: bốn và hai mươi)" }
+        - { de: "68 = achtundsechzig", vi: "sáu mươi tám" }
+        - { de: "1.250 = tausendzweihundertfünfzig", vi: "một nghìn hai trăm năm mươi" }
+    - title_vi: "Wie alt bist du? – Ich bin … (Jahre alt)."
+      explanation_vi: "Hỏi tuổi: Wie alt bist du? / Wie alt sind Sie? Trả lời: Ich bin 25. hoặc Ich bin 25 Jahre alt. KHÔNG dùng haben."
+      examples:
+        - { de: "Wie alt sind Sie? – Ich bin 42 Jahre alt.", vi: "Ông bao nhiêu tuổi? – Tôi 42 tuổi." }
+redemittel:
+  - id: a1-k02-l05-r01
+    de: "Wie alt bist du / sind Sie? – Ich bin …"
+    vi: "Bạn / Ông bà bao nhiêu tuổi? – Tôi … tuổi."
+    context_vi: "Hỏi và nói tuổi (ở Đức hỏi tuổi người lạ có thể bị coi là tò mò – hãy dùng trong tình huống phù hợp)."
+    register: neutral
+    dialogue:
+      - { speaker: "Lisa", de: "Wie alt bist du?", vi: "Bạn bao nhiêu tuổi?" }
+      - { speaker: "Minh", de: "Ich bin 24. Und du?", vi: "Mình 24. Còn bạn?" }
+      - { speaker: "Lisa", de: "Ich bin 23.", vi: "Mình 23." }
+  - id: a1-k02-l05-r02
+    de: "Ich arbeite von … bis … / … Stunden pro Woche."
+    vi: "Tôi làm việc từ … đến … / … giờ mỗi tuần."
+    context_vi: "Nói thời gian làm việc."
+    register: neutral
+    dialogue:
+      - { speaker: "Reporterin", de: "Wie viel arbeiten Sie?", vi: "Chị làm việc bao nhiêu?" }
+      - { speaker: "Hoa", de: "Ich arbeite von Montag bis Freitag, 38 Stunden pro Woche.", vi: "Tôi làm từ thứ Hai đến thứ Sáu, 38 giờ mỗi tuần." }
+  - id: a1-k02-l05-r03
+    de: "Am … habe ich frei."
+    vi: "Thứ … tôi được nghỉ."
+    context_vi: "Nói ngày nghỉ."
+    register: neutral
+    dialogue:
+      - { speaker: "Tom", de: "Wann hast du frei?", vi: "Khi nào bạn được nghỉ?" }
+      - { speaker: "Huy", de: "Am Montag und am Dienstag habe ich frei.", vi: "Thứ Hai và thứ Ba mình được nghỉ." }
+pronunciation:
+  - id: a1-k02-l05-p01
+    focus_vi: "Số từ 20: trọng âm và đuôi -zig"
+    explanation_vi: "Trong số ghép, trọng âm rơi vào phần ĐƠN VỊ: EIN-und-zwan-zig, FÜNF-und-drei-ßig. Đuôi -zig đọc [tsɪç]; dreißig [ˈdʁaɪ̯sɪç] không có [ts]."
+    examples:
+      - { de: "einundzwanzig", vi: "21", ipa: "[ˈaɪ̯nʊntˌtsvantsɪç]" }
+      - { de: "dreißig", vi: "30", ipa: "[ˈdʁaɪ̯sɪç]" }
+      - { de: "hundert", vi: "100", ipa: "[ˈhʊndɐt]" }
+    practice_vi: "Đếm theo hàng chục 20 → 100; rồi đọc năm sinh và số nhà của bạn."
+examples:
+  - { de: "Ich bin 22 Jahre alt und studiere Informatik.", vi: "Tôi 22 tuổi và học ngành tin học." }
+  - { de: "Er hat am Wochenende frei.", vi: "Cuối tuần anh ấy được nghỉ." }
+  - { de: "Das Krankenhaus ist groß: Es hat Platz für 600 Patienten.", vi: "Bệnh viện lớn: có chỗ cho 600 bệnh nhân." }
+  - { de: "Ich fahre 300 Kilometer pro Tag.", vi: "Mỗi ngày tôi lái 300 km." }
+  - { de: "Die Patienten warten nicht gern.", vi: "Bệnh nhân không thích phải chờ." }
+  - { de: "Ich arbeite viel, aber ich habe am Montag frei.", vi: "Tôi làm việc nhiều, nhưng thứ Hai tôi được nghỉ." }
+skills:
+  listening:
+    - id: a1-k02-l05-listen-01
+      title_vi: "Phỏng vấn trên radio: Nghề của tôi"
+      situation_vi: "Một chương trình radio phỏng vấn hai người về công việc."
+      audio: { status: pending-tts, speed: slow }
+      script:
+        - { speaker: "Reporterin", de: "Herr Kaya, was sind Sie von Beruf?", vi: "Ông Kaya, ông làm nghề gì?" }
+        - { speaker: "Herr Kaya", de: "Ich bin Taxifahrer in Hamburg. Ich bin 46 Jahre alt.", vi: "Tôi là tài xế taxi ở Hamburg. Tôi 46 tuổi." }
+        - { speaker: "Reporterin", de: "Fahren Sie viel?", vi: "Ông có lái xe nhiều không?" }
+        - { speaker: "Herr Kaya", de: "Ja! Ich fahre 250 Kilometer pro Tag. Ich arbeite meistens nachts. Am Sonntag habe ich frei.", vi: "Có! Tôi lái 250 km mỗi ngày. Tôi thường làm ban đêm. Chủ nhật tôi được nghỉ." }
+        - { speaker: "Reporterin", de: "Und Sie, Frau Tran?", vi: "Còn chị, chị Trần?" }
+        - { speaker: "Frau Tran", de: "Ich bin Krankenpflegerin. Ich bin 31 und arbeite im Krankenhaus. Das Krankenhaus ist sehr groß – es hat 800 Zimmer. Ich arbeite 38 Stunden pro Woche.", vi: "Tôi là điều dưỡng. Tôi 31 tuổi và làm ở bệnh viện. Bệnh viện rất lớn – có 800 phòng. Tôi làm 38 giờ mỗi tuần." }
+      exercises: [a1-k02-l05-ex04, a1-k02-l05-ex05]
+  reading:
+    - id: a1-k02-l05-read-01
+      title_vi: "Ba người, ba nghề"
+      text_type_vi: "Đoạn văn ngắn tự giới thiệu nghề"
+      text_de: |
+        Ich heiße Mai und bin 22 Jahre alt. Ich bin Studentin. Ich studiere Medizin an der Universität Leipzig. Ich habe 24 Stunden Seminare pro Woche. Am Wochenende arbeite ich im Café.
+
+        Mein Name ist Jonas. Ich bin 35 und Lehrer. Ich habe 28 Schüler. Ich arbeite von Montag bis Freitag, aber am Nachmittag habe ich meistens frei.
+
+        Ich bin Frau Weber und ich bin Köchin. Ich arbeite im Restaurant „Lindenhof“. Wir kochen jeden Tag für 120 Gäste. Am Montag und am Dienstag habe ich frei.
+      translation_vi: |
+        Mình tên là Mai và 22 tuổi. Mình là sinh viên. Mình học y ở Đại học Leipzig. Mỗi tuần mình có 24 giờ seminar. Cuối tuần mình làm ở quán cà phê.
+
+        Tôi tên là Jonas. Tôi 35 tuổi và là giáo viên. Tôi có 28 học sinh. Tôi làm từ thứ Hai đến thứ Sáu, nhưng buổi chiều tôi thường được nghỉ.
+
+        Tôi là bà Weber và tôi là đầu bếp. Tôi làm ở nhà hàng “Lindenhof”. Chúng tôi nấu ăn mỗi ngày cho 120 khách. Thứ Hai và thứ Ba tôi được nghỉ.
+      glossary:
+        - { de: "die Medizin", vi: "y khoa" }
+        - { de: "das Seminar, die Seminare", vi: "buổi seminar (thảo luận ở đại học)" }
+        - { de: "der Schüler, die Schüler", vi: "học sinh" }
+        - { de: "der Gast, die Gäste", vi: "khách" }
+      exercises: [a1-k02-l05-ex06]
+  speaking:
+    - id: a1-k02-l05-speak-01
+      title_vi: "Phỏng vấn về công việc"
+      task_vi: "Trả lời 5 câu hỏi về bạn (hoặc một nhân vật tưởng tượng): Was sind Sie von Beruf? Wie alt sind Sie? Wo arbeiten Sie? Wie viele Stunden arbeiten Sie pro Woche? Wann haben Sie frei?"
+      steps_vi:
+        - "Chuẩn bị số liệu (tuổi, số giờ, ngày nghỉ)."
+        - "Trả lời bằng câu đầy đủ, dùng sein cho tuổi và haben cho ngày nghỉ."
+      model:
+        - { speaker: "Lan", de: "Ich bin Verkäuferin. Ich bin 29 Jahre alt. Ich arbeite bei Rewe. Ich arbeite 30 Stunden pro Woche. Am Sonntag habe ich frei.", vi: "Tôi là nhân viên bán hàng. Tôi 29 tuổi. Tôi làm ở Rewe. Tôi làm 30 giờ mỗi tuần. Chủ nhật tôi được nghỉ." }
+      exercises: [a1-k02-l05-ex09]
+  writing:
+    - id: a1-k02-l05-write-01
+      title_vi: "Đoạn văn: Nghề của tôi"
+      task_vi: "Viết 5–6 câu về nghề (hoặc việc học) của bạn: tên, tuổi, nghề, nơi làm/học, thời gian làm việc, ngày nghỉ."
+      model_de: "Ich heiße Minh und bin 26 Jahre alt. Ich bin Informatiker. Ich arbeite bei einer Firma in Hamburg. Ich arbeite 40 Stunden pro Woche, von Montag bis Freitag. Am Wochenende habe ich frei."
+      model_vi: "Tôi tên là Minh, 26 tuổi. Tôi là kỹ sư tin học. Tôi làm ở một công ty tại Hamburg. Tôi làm 40 giờ mỗi tuần, từ thứ Hai đến thứ Sáu. Cuối tuần tôi được nghỉ."
+      checklist_vi:
+        - "Tuổi dùng sein (Ich bin …)."
+        - "Nghề không có mạo từ."
+        - "Có ít nhất một số lớn hơn 20 viết bằng số."
+        - "frei|haben: frei đứng cuối câu."
+      exercises: [a1-k02-l05-ex10]
+exercises:
+  - id: a1-k02-l05-ex01
+    type: matching
+    skill: vocabulary
+    objectives: [o2]
+    difficulty: 1
+    instructions_vi: "Nối số với cách đọc."
+    items:
+      - id: q1
+        pairs:
+          - { left: "21", right: "einundzwanzig" }
+          - { left: "35", right: "fünfunddreißig" }
+          - { left: "47", right: "siebenundvierzig" }
+          - { left: "66", right: "sechsundsechzig" }
+          - { left: "100", right: "hundert" }
+        explanation_vi: "Đơn vị + und + chục. 66: sechs + und + sechzig."
+  - id: a1-k02-l05-ex02
+    type: dictation
+    skill: listening
+    objectives: [o2]
+    difficulty: 2
+    instructions_vi: "Nghe và viết số bằng chữ số."
+    items:
+      - { id: q1, tts: "dreiundzwanzig", answer: "23", explanation_vi: "drei + und + zwanzig." }
+      - { id: q2, tts: "achtundfünfzig", answer: "58", explanation_vi: "acht + und + fünfzig." }
+      - { id: q3, tts: "zweihundertvierzig", answer: "240", explanation_vi: "zweihundert + vierzig." }
+      - { id: q4, tts: "tausendfünfhundert", answer: "1500", accept: [], explanation_vi: "tausend + fünfhundert = 1500 (hoặc 1.500)." }
+  - id: a1-k02-l05-ex03
+    type: gap-fill
+    skill: grammar
+    objectives: [o1]
+    difficulty: 1
+    instructions_vi: "Điền dạng đúng của haben hoặc sein."
+    items:
+      - { id: q1, prompt: "Ich ___ 22 Jahre alt.", answer: ["bin"], explanation_vi: "Tuổi → sein." }
+      - { id: q2, prompt: "Er ___ am Montag frei.", answer: ["hat"], explanation_vi: "frei|haben → er hat … frei." }
+      - { id: q3, prompt: "___ du ein Auto?", answer: ["Hast"], explanation_vi: "du hast." }
+      - { id: q4, prompt: "Wir ___ Krankenpfleger.", answer: ["sind"], explanation_vi: "Nghề → sein; wir sind." }
+      - { id: q5, prompt: "Ihr ___ viel Arbeit.", answer: ["habt"], explanation_vi: "ihr habt." }
+  - id: a1-k02-l05-ex04
+    type: multiple-choice
+    skill: listening
+    objectives: [o2, o4]
+    difficulty: 2
+    stimulus: a1-k02-l05-listen-01
+    instructions_vi: "Nghe phỏng vấn trên radio. Chọn số đúng."
+    items:
+      - { id: q1, prompt: "Ông Kaya bao nhiêu tuổi?", options: ["36", "46", "64"], answer: "46", explanation_vi: "sechsundvierzig = 46." }
+      - { id: q2, prompt: "Ông Kaya lái bao nhiêu km mỗi ngày?", options: ["150", "250", "520"], answer: "250", explanation_vi: "zweihundertfünfzig." }
+      - { id: q3, prompt: "Bệnh viện có bao nhiêu phòng?", options: ["80", "180", "800"], answer: "800", explanation_vi: "achthundert." }
+  - id: a1-k02-l05-ex05
+    type: true-false
+    skill: listening
+    objectives: [o4]
+    difficulty: 2
+    stimulus: a1-k02-l05-listen-01
+    instructions_vi: "Nghe lại. Đúng hay sai?"
+    items:
+      - { id: q1, prompt: "Ông Kaya thường làm ban đêm.", answer: true, explanation_vi: "“Ich arbeite meistens nachts.”" }
+      - { id: q2, prompt: "Chị Trần làm 40 giờ mỗi tuần.", answer: false, explanation_vi: "38 Stunden pro Woche." }
+  - id: a1-k02-l05-ex06
+    type: multiple-choice
+    skill: reading
+    objectives: [o4]
+    difficulty: 2
+    stimulus: a1-k02-l05-read-01
+    instructions_vi: "Đọc ba đoạn văn. Chọn đáp án đúng."
+    items:
+      - { id: q1, prompt: "Mai học gì?", options: ["Informatik", "Medizin", "Deutsch"], answer: "Medizin", explanation_vi: "„Ich studiere Medizin …“" }
+      - { id: q2, prompt: "Jonas thường nghỉ khi nào?", options: ["am Nachmittag", "am Wochenende", "am Montag"], answer: "am Nachmittag", explanation_vi: "„… am Nachmittag habe ich meistens frei.“" }
+      - { id: q3, prompt: "Nhà hàng nấu cho bao nhiêu khách mỗi ngày?", options: ["102", "120", "220"], answer: "120", explanation_vi: "„… jeden Tag für 120 Gäste.“" }
+      - { id: q4, prompt: "Ai làm việc vào cuối tuần?", options: ["Mai", "Jonas", "Frau Weber"], answer: "Mai", explanation_vi: "Mai: „Am Wochenende arbeite ich im Café.“" }
+  - id: a1-k02-l05-ex07
+    type: gap-fill
+    skill: grammar
+    objectives: [o3]
+    difficulty: 2
+    instructions_vi: "Viết dạng số nhiều."
+    items:
+      - { id: q1, prompt: "der Patient → die ___", answer: ["Patienten"], explanation_vi: "-en." }
+      - { id: q2, prompt: "die Stunde → die ___", answer: ["Stunden"], explanation_vi: "-n." }
+      - { id: q3, prompt: "das Krankenhaus → die ___", answer: ["Krankenhäuser"], explanation_vi: "¨-er." }
+      - { id: q4, prompt: "das Zimmer → die ___", answer: ["Zimmer"], explanation_vi: "Không đổi (-er)." }
+      - { id: q5, prompt: "drei ___ (das Jahr)", answer: ["Jahre"], explanation_vi: "Sau số đếm dùng số nhiều: Jahre." }
+  - id: a1-k02-l05-ex08
+    type: translation
+    skill: grammar
+    objectives: [o1, o2]
+    difficulty: 2
+    direction: vi-de
+    instructions_vi: "Dịch sang tiếng Đức."
+    items:
+      - { id: q1, prompt: "Tôi 25 tuổi.", answer: "Ich bin 25 Jahre alt.", accept: ["Ich bin 25.", "Ich bin fünfundzwanzig Jahre alt.", "Ich bin fünfundzwanzig."], explanation_vi: "Tuổi dùng sein." }
+      - { id: q2, prompt: "Thứ Hai tôi được nghỉ.", answer: "Am Montag habe ich frei.", accept: ["Ich habe am Montag frei."], explanation_vi: "frei|haben; frei ở cuối câu." }
+  - id: a1-k02-l05-ex09
+    type: speaking
+    skill: speaking
+    objectives: [o1, o2, o4]
+    difficulty: 2
+    grading: self
+    instructions_vi: "Trả lời 5 câu hỏi về công việc (phần Nói). Ghi âm."
+    rubric:
+      - { criterion_vi: "Trả lời đủ 5 câu bằng câu hoàn chỉnh", points: 2 }
+      - { criterion_vi: "Dùng đúng sein (tuổi, nghề) và haben (ngày nghỉ)", points: 2 }
+      - { criterion_vi: "Đọc số đúng (đơn vị + und + chục)", points: 1 }
+    items:
+      - { id: q1, prompt: "Phỏng vấn về công việc", model_answer: "Ich bin Verkäuferin. Ich bin 29 Jahre alt. Ich arbeite bei Rewe. Ich arbeite 30 Stunden pro Woche. Am Sonntag habe ich frei.", explanation_vi: "So sánh với mẫu ở phần Nói." }
+  - id: a1-k02-l05-ex10
+    type: writing
+    skill: writing
+    objectives: [o4, o1]
+    difficulty: 2
+    grading: self
+    instructions_vi: "Viết đoạn văn 5–6 câu: Nghề của tôi (phần Viết)."
+    rubric:
+      - { criterion_vi: "Nội dung: đủ 6 thông tin", points: 3 }
+      - { criterion_vi: "haben/sein đúng; nghề không mạo từ; frei ở cuối câu", points: 2 }
+      - { criterion_vi: "Chính tả: danh từ viết hoa", points: 1 }
+    items:
+      - { id: q1, prompt: "Nghề của tôi", model_answer: "Ich heiße Minh und bin 26 Jahre alt. Ich bin Informatiker. Ich arbeite bei einer Firma in Hamburg. Ich arbeite 40 Stunden pro Woche, von Montag bis Freitag. Am Wochenende habe ich frei.", explanation_vi: "So sánh với bài mẫu." }
+summary_vi: "haben: habe, hast, hat, haben, habt, haben; sein: bin, bist, ist, sind, seid, sind. Tuổi: Ich bin 25 (Jahre alt). Số từ 21: einundzwanzig (đơn vị + und + chục); 30 dreißig; 100 hundert; 1000 tausend. Số nhiều: -e, ¨-e, -er, -(e)n, -s, –; sau số đếm dùng số nhiều."
+self_check:
+  - "Tôi chia được haben và sein với mọi ngôi."
+  - "Tôi nói được tuổi của mình và hỏi tuổi người khác."
+  - "Tôi đọc và nghe được các số đến 1000."
+  - "Tôi viết được dạng số nhiều của 10 danh từ."
+  - "Tôi viết được đoạn văn ngắn về công việc/việc học của mình."

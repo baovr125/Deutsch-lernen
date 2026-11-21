@@ -1,0 +1,261 @@
+id: a1-k02-l02
+kind: lesson
+level: A1
+unit: a1-k02
+order: 2
+title_de: "Meine Hobbys, meine Freunde"
+title_vi: "Sở thích của chúng tôi – chia động từ đầy đủ"
+topic_vi: "wir, ihr, sie; động từ quy tắc và bất quy tắc ở thì hiện tại"
+source:
+  type: netzwerk-neu
+  kapitel: 2
+  sections: ["Meine Hobbys, meine Freunde"]
+  note_vi: "Sprachhandlungen: Sätze ergänzen; Endungen in Kommentaren ergänzen; Konjugation üben; über die eigenen Freizeitaktivitäten sprechen. Grammatik: Konjugation regelmäßige und unregelmäßige Verben."
+cefr: [A1.SP2, A1.L2, A1.SI2, A1.S2]
+objectives:
+  - { id: o1, vi: "Chia động từ với wir, ihr, sie (số nhiều) và Sie." }
+  - { id: o2, vi: "Chia đúng động từ có gốc -t/-d (arbeiten), -s/-z (reisen, tanzen) và động từ đổi nguyên âm (lesen, fahren, sprechen)." }
+  - { id: o3, vi: "Nói về hoạt động của nhóm bạn và hỏi bằng ihr: Was macht ihr am Wochenende?" }
+  - { id: o4, vi: "Phản hồi bài đăng/tin nhắn bằng các từ cảm xúc: super, toll, lustig, Wirklich?" }
+estimated_minutes: 75
+prerequisites: [a1-k02-l01]
+intro_vi: |
+  Đến giờ bạn đã chia động từ cho **một người** (ich, du, er/sie, Sie). Bài này hoàn thiện bảng chia động từ với **nhiều người**:
+  **wir** (chúng tôi), **ihr** (các bạn), **sie** (họ).
+
+  Tin vui: **wir, sie, Sie** đều giống **dạng nguyên mẫu** (*wir spielen, sie spielen*). Chỉ cần nhớ thêm **ihr + -t**.
+
+  Bạn cũng học ba nhóm động từ “khó tính” – xem chủ điểm *Chia động từ thì hiện tại đầy đủ*:
+  - *arbeiten* → du arbeit**e**st (thêm e),
+  - *reisen* → du reis**t** (chỉ thêm t),
+  - *lesen, fahren* → du l**ie**st, du f**ä**hrst (đổi nguyên âm).
+vocabulary:
+  file: vocabulary/02-freunde-kollegen-und-ich.csv
+  new: [a1-k02-v022, a1-k02-v023, a1-k02-v024, a1-k02-v025, a1-k02-v026, a1-k02-v027, a1-k02-v028, a1-k02-v029, a1-k02-v030, a1-k02-v031, a1-k02-v032, a1-k02-v033, a1-k02-v034, a1-k02-v035, a1-k02-v036, a1-k02-v037, a1-k02-v038, a1-k02-v039, a1-k02-v040, a1-k02-v041]
+  review: [a1-k02-v001, a1-k02-v013, a1-k02-v017, a1-k02-v019, a1-k02-v020, a1-u00-v013, a1-k01-v046, a1-k01-v055]
+grammar:
+  topics:
+    - { topic: g-a1-verben-praesens, focus_vi: "Bảng đuôi đầy đủ; gốc -t/-d và -s/-z; đổi nguyên âm ở du và er/sie/es." }
+  notes:
+    - title_vi: "sie hay sie? – cô ấy và họ"
+      explanation_vi: "sie (viết thường) có hai nghĩa: cô ấy (động từ -t) và họ (động từ -en). Phân biệt bằng đuôi động từ: Sie spielt = cô ấy chơi; sie spielen = họ chơi. Sie viết hoa + -en = ông/bà."
+      examples:
+        - { de: "Lisa spielt Tennis. Sie spielt gern.", vi: "Lisa chơi tennis. Cô ấy thích chơi." }
+        - { de: "Lisa und Paul spielen Tennis. Sie spielen gern.", vi: "Lisa và Paul chơi tennis. Họ thích chơi." }
+    - title_vi: "Từ chỉ thời gian: am Wochenende, morgen, im Moment"
+      explanation_vi: "Các từ này thường đứng sau động từ: Wir kochen am Wochenende. Nếu đưa chúng lên ĐẦU câu, động từ vẫn ở vị trí 2 và chủ ngữ ra sau: Am Wochenende kochen wir. (Quy tắc này học kỹ ở Kapitel 4 – bây giờ chỉ cần nhận ra.)"
+      examples:
+        - { de: "Wir kochen am Wochenende.", vi: "Cuối tuần chúng tôi nấu ăn." }
+        - { de: "Morgen spiele ich Tennis.", vi: "Ngày mai tôi chơi tennis." }
+redemittel:
+  - id: a1-k02-l02-r01
+    de: "Was macht ihr am Wochenende? – Wir …"
+    vi: "Cuối tuần các bạn làm gì? – Chúng mình …"
+    context_vi: "Hỏi một nhóm bạn (thân mật, số nhiều)."
+    register: informal
+    dialogue:
+      - { speaker: "Minh", de: "Was macht ihr am Wochenende?", vi: "Cuối tuần các bạn làm gì?" }
+      - { speaker: "Lisa", de: "Wir kochen Spaghetti und lesen. Und du?", vi: "Bọn mình nấu mì Ý và đọc sách. Còn bạn?" }
+  - id: a1-k02-l02-r02
+    de: "Wirklich? Das ist super / toll / lustig!"
+    vi: "Thật à? Tuyệt quá / Hay quá / Vui quá!"
+    context_vi: "Bày tỏ ngạc nhiên và khen."
+    register: informal
+    dialogue:
+      - { speaker: "Paul", de: "Ich spiele Fußball mit Kollegen.", vi: "Mình chơi bóng đá với đồng nghiệp." }
+      - { speaker: "Mai", de: "Wirklich? Das ist toll!", vi: "Thật à? Hay quá!" }
+  - id: a1-k02-l02-r03
+    de: "Im Moment lese ich …"
+    vi: "Dạo này tôi đang đọc …"
+    context_vi: "Nói việc mình đang làm trong thời gian này."
+    register: neutral
+    dialogue:
+      - { speaker: "Anna", de: "Liest du gern?", vi: "Bạn có thích đọc sách không?" }
+      - { speaker: "Huy", de: "Ja! Im Moment lese ich ein Buch von Bernhard Schlink.", vi: "Có! Dạo này mình đang đọc một cuốn của Bernhard Schlink." }
+pronunciation:
+  - id: a1-k02-l02-p01
+    focus_vi: "ihr [iːɐ̯] – er [eːɐ̯]; ä trong fährst, ie trong liest"
+    explanation_vi: "ihr (các bạn) đọc “i” dài; er (anh ấy) đọc “ê” dài – đừng nhầm. fährst [fɛːɐ̯st]: ä dài như “e” kéo dài. liest [liːst]: ie = i dài."
+    examples:
+      - { de: "ihr spielt – er spielt", vi: "các bạn chơi – anh ấy chơi", ipa: "[iːɐ̯ ʃpiːlt] – [eːɐ̯ ʃpiːlt]" }
+      - { de: "du fährst – du liest", vi: "bạn đi xe – bạn đọc", ipa: "[duː fɛːɐ̯st] – [duː liːst]" }
+    practice_vi: "Đọc to hàng chia của fahren: ich fahre, du fährst, er fährt, wir fahren, ihr fahrt, sie fahren."
+examples:
+  - { de: "Wir spielen am Wochenende Fußball.", vi: "Cuối tuần chúng tôi chơi bóng đá." }
+  - { de: "Was macht ihr morgen?", vi: "Ngày mai các bạn làm gì?" }
+  - { de: "Lisa und Paul tanzen gern.", vi: "Lisa và Paul thích nhảy." }
+  - { de: "Du liest viel! – Ja, ich liebe Bücher.", vi: "Bạn đọc nhiều thật! – Ừ, mình mê sách." }
+  - { de: "Er fährt am Wochenende nach Wien.", vi: "Cuối tuần anh ấy đi Viên." }
+  - { de: "Mein Hobby ist Kochen. Ich koche oft mit Freunden.", vi: "Sở thích của tôi là nấu ăn. Tôi hay nấu ăn với bạn bè." }
+skills:
+  listening:
+    - id: a1-k02-l02-listen-01
+      title_vi: "Tin nhắn thoại: kế hoạch cuối tuần"
+      situation_vi: "Paul gửi tin nhắn thoại cho nhóm bạn."
+      audio: { status: pending-tts, speed: slow }
+      script:
+        - { speaker: "Paul", de: "Hallo, Leute! Was macht ihr am Wochenende? Lisa und ich spielen am Samstag Fußball. Spielt ihr auch? Am Sonntag kochen wir Spaghetti. Minh, du kochst doch gern! Und Mai, du liest im Moment viel, oder? Bis morgen!", vi: "Chào mọi người! Cuối tuần các bạn làm gì? Lisa và mình chơi bóng đá vào thứ Bảy. Các bạn cũng chơi chứ? Chủ nhật bọn mình nấu mì Ý. Minh, bạn thích nấu ăn mà! Còn Mai, dạo này bạn đọc sách nhiều đúng không? Hẹn mai gặp!" }
+      exercises: [a1-k02-l02-ex05]
+  reading:
+    - id: a1-k02-l02-read-01
+      title_vi: "Bình luận dưới ảnh"
+      text_type_vi: "Bài đăng và bình luận mạng xã hội"
+      text_de: |
+        📷 Foto: Kochabend mit Freunden
+        Mai: Wir kochen heute Pho! 🍜 Super lustig!
+        Tom: Wirklich? Kocht ihr oft zusammen?
+        Mai: Ja, jedes Wochenende. Kommst du auch?
+        Tom: Toll! Ich koche nicht gern, aber ich esse sehr gern! 😄
+      translation_vi: |
+        📷 Ảnh: Buổi tối nấu ăn với bạn bè
+        Mai: Hôm nay bọn mình nấu phở! 🍜 Vui cực!
+        Tom: Thật à? Các bạn hay nấu ăn cùng nhau à?
+        Mai: Ừ, cuối tuần nào cũng thế. Bạn cũng đến chứ?
+        Tom: Tuyệt! Mình không thích nấu ăn nhưng rất thích ăn! 😄
+      glossary:
+        - { de: "heute", vi: "hôm nay" }
+        - { de: "zusammen", vi: "cùng nhau" }
+        - { de: "essen (du isst, er isst)", vi: "ăn" }
+      exercises: [a1-k02-l02-ex06]
+  speaking:
+    - id: a1-k02-l02-speak-01
+      title_vi: "Nhóm của chúng tôi"
+      task_vi: "Kể về hoạt động của bạn và nhóm bạn/gia đình (dùng wir), rồi đặt 2 câu hỏi với ihr."
+      steps_vi:
+        - "Nói 3 câu với wir: Wir … am Wochenende / morgen / oft."
+        - "Hỏi 2 câu với ihr: Was macht ihr …? … ihr gern …?"
+      model:
+        - { speaker: "Lan", de: "Meine Freunde und ich kochen oft. Am Wochenende spielen wir Tennis. Wir lesen auch gern. Und ihr? Was macht ihr am Wochenende? Spielt ihr auch Tennis?", vi: "Bạn bè và tôi hay nấu ăn. Cuối tuần chúng tôi chơi tennis. Chúng tôi cũng thích đọc sách. Còn các bạn? Cuối tuần các bạn làm gì? Các bạn cũng chơi tennis chứ?" }
+      exercises: [a1-k02-l02-ex09]
+  writing:
+    - id: a1-k02-l02-write-01
+      title_vi: "Viết bình luận"
+      task_vi: "Viết 3–4 câu bình luận dưới bài đăng của Mai: bày tỏ cảm xúc, kể nhóm bạn mình làm gì, hỏi một câu với ihr."
+      model_de: "Super! Meine Freunde und ich kochen auch gern. Wir kochen oft Spaghetti. Was kocht ihr morgen?"
+      model_vi: "Tuyệt! Bạn bè mình và mình cũng thích nấu ăn. Bọn mình hay nấu mì Ý. Ngày mai các bạn nấu gì?"
+      checklist_vi:
+        - "Có một từ cảm xúc (super, toll, lustig…)."
+        - "wir + động từ -en; ihr + động từ -t."
+      exercises: [a1-k02-l02-ex10]
+exercises:
+  - id: a1-k02-l02-ex01
+    type: gap-fill
+    skill: grammar
+    objectives: [o1]
+    difficulty: 1
+    instructions_vi: "Chia động từ trong ngoặc."
+    items:
+      - { id: q1, prompt: "Wir ___ gern. (kochen)", answer: ["kochen"], explanation_vi: "wir → -en." }
+      - { id: q2, prompt: "___ ihr Fußball? (spielen)", answer: ["Spielt"], explanation_vi: "ihr → -t." }
+      - { id: q3, prompt: "Lisa und Paul ___ gern. (tanzen)", answer: ["tanzen"], explanation_vi: "sie (họ) → -en." }
+      - { id: q4, prompt: "Was ___ ihr am Wochenende? (machen)", answer: ["macht"], explanation_vi: "ihr → -t." }
+      - { id: q5, prompt: "Wir ___ Studenten. (sein)", answer: ["sind"], explanation_vi: "wir sind." }
+  - id: a1-k02-l02-ex02
+    type: multiple-choice
+    skill: grammar
+    objectives: [o2]
+    difficulty: 2
+    instructions_vi: "Chọn dạng đúng."
+    items:
+      - { id: q1, prompt: "Du ___ viel. (lesen)", options: ["lest", "liest", "lesst"], answer: "liest", explanation_vi: "du: e → ie." }
+      - { id: q2, prompt: "Er ___ nach Wien. (fahren)", options: ["fahrt", "fährt", "fahren"], answer: "fährt", explanation_vi: "er: a → ä." }
+      - { id: q3, prompt: "Du ___ in Köln. (arbeiten)", options: ["arbeitst", "arbeitest", "arbeitet"], answer: "arbeitest", explanation_vi: "Gốc -t → thêm e." }
+      - { id: q4, prompt: "Du ___ gern. (reisen)", options: ["reist", "reisst", "reisest"], answer: "reist", explanation_vi: "Gốc -s → du chỉ thêm -t." }
+      - { id: q5, prompt: "Ihr ___ Deutsch. (sprechen)", options: ["sprecht", "sprichst", "spricht"], answer: "sprecht", explanation_vi: "ihr không đổi nguyên âm." }
+  - id: a1-k02-l02-ex03
+    type: matching
+    skill: grammar
+    objectives: [o1, o2]
+    difficulty: 1
+    instructions_vi: "Nối đại từ với dạng đúng của „fahren“."
+    items:
+      - id: q1
+        pairs:
+          - { left: "ich", right: "fahre" }
+          - { left: "du", right: "fährst" }
+          - { left: "er/sie/es", right: "fährt" }
+          - { left: "ihr", right: "fahrt" }
+          - { left: "wir / sie / Sie", right: "fahren" }
+        explanation_vi: "Chỉ du và er/sie/es đổi a → ä."
+  - id: a1-k02-l02-ex04
+    type: sentence-building
+    skill: grammar
+    objectives: [o1, o3]
+    difficulty: 2
+    instructions_vi: "Viết câu hoàn chỉnh."
+    items:
+      - { id: q1, prompt: "wir / am Wochenende / Tennis / spielen", answer: "Wir spielen am Wochenende Tennis.", accept: ["Am Wochenende spielen wir Tennis."], explanation_vi: "wir spielen; thời gian thường đứng sau động từ." }
+      - { id: q2, prompt: "ihr / gern / lesen ?", answer: "Lest ihr gern?", explanation_vi: "ihr lest (không đổi nguyên âm); câu hỏi có/không: động từ đầu câu." }
+      - { id: q3, prompt: "Paul und Lisa / nach Wien / fahren", answer: "Paul und Lisa fahren nach Wien.", explanation_vi: "Hai người = sie (họ) → fahren." }
+  - id: a1-k02-l02-ex05
+    type: true-false
+    skill: listening
+    objectives: [o3]
+    difficulty: 2
+    stimulus: a1-k02-l02-listen-01
+    instructions_vi: "Nghe tin nhắn của Paul. Đúng hay sai?"
+    items:
+      - { id: q1, prompt: "Paul và Lisa chơi bóng đá vào thứ Bảy.", answer: true, explanation_vi: "“Lisa und ich spielen am Samstag Fußball.”" }
+      - { id: q2, prompt: "Chủ nhật họ nấu phở.", answer: false, explanation_vi: "“Am Sonntag kochen wir Spaghetti.”" }
+      - { id: q3, prompt: "Dạo này Mai đọc sách nhiều.", answer: true, explanation_vi: "“Mai, du liest im Moment viel, oder?”" }
+  - id: a1-k02-l02-ex06
+    type: multiple-choice
+    skill: reading
+    objectives: [o4, o3]
+    difficulty: 1
+    stimulus: a1-k02-l02-read-01
+    instructions_vi: "Đọc bài đăng và bình luận. Chọn đáp án đúng."
+    items:
+      - { id: q1, prompt: "Nhóm của Mai nấu ăn cùng nhau khi nào?", options: ["jeden Montag", "jedes Wochenende", "heute nicht"], answer: "jedes Wochenende", explanation_vi: "Mai: “Ja, jedes Wochenende.”" }
+      - { id: q2, prompt: "Tom thích gì?", options: ["kochen", "essen", "tanzen"], answer: "essen", explanation_vi: "Tom: “… ich esse sehr gern!”" }
+      - { id: q3, prompt: "„Kocht ihr oft zusammen?“ – Tom hỏi ai?", options: ["chỉ Mai", "Mai và nhóm bạn", "chính mình"], answer: "Mai và nhóm bạn", explanation_vi: "ihr = các bạn (số nhiều)." }
+  - id: a1-k02-l02-ex07
+    type: ordering
+    skill: grammar
+    objectives: [o3]
+    difficulty: 1
+    instructions_vi: "Sắp xếp thành câu hỏi."
+    items:
+      - { id: q1, tokens: ["am", "macht", "Was", "Wochenende", "ihr"], answer: "Was macht ihr am Wochenende?", explanation_vi: "Was – macht – ihr – am Wochenende." }
+  - id: a1-k02-l02-ex08
+    type: translation
+    skill: grammar
+    objectives: [o1, o2]
+    difficulty: 2
+    direction: vi-de
+    instructions_vi: "Dịch sang tiếng Đức."
+    items:
+      - { id: q1, prompt: "Chúng tôi thích đọc sách.", answer: "Wir lesen gern.", explanation_vi: "wir lesen." }
+      - { id: q2, prompt: "Các bạn có nói tiếng Anh không? (thân mật)", answer: "Sprecht ihr Englisch?", explanation_vi: "ihr sprecht." }
+      - { id: q3, prompt: "Cô ấy đi Berlin (bằng xe).", answer: "Sie fährt nach Berlin.", explanation_vi: "sie fährt (a → ä)." }
+  - id: a1-k02-l02-ex09
+    type: speaking
+    skill: speaking
+    objectives: [o1, o3]
+    difficulty: 2
+    grading: self
+    instructions_vi: "Ghi âm phần Nói: 3 câu với wir và 2 câu hỏi với ihr."
+    rubric:
+      - { criterion_vi: "wir + -en đúng ở 3 câu", points: 2 }
+      - { criterion_vi: "Câu hỏi với ihr + -t đúng", points: 2 }
+      - { criterion_vi: "Phát âm rõ ihr [iːɐ̯] (không đọc thành er)", points: 1 }
+    items:
+      - { id: q1, prompt: "Nhóm của chúng tôi", model_answer: "Meine Freunde und ich kochen oft. Am Wochenende spielen wir Tennis. Wir lesen auch gern. Was macht ihr am Wochenende? Spielt ihr auch Tennis?", explanation_vi: "So sánh với mẫu ở phần Nói." }
+  - id: a1-k02-l02-ex10
+    type: writing
+    skill: writing
+    objectives: [o4, o1]
+    difficulty: 1
+    grading: self
+    instructions_vi: "Viết bình luận 3–4 câu dưới bài đăng của Mai (phần Viết)."
+    rubric:
+      - { criterion_vi: "Có từ cảm xúc và câu hỏi với ihr", points: 2 }
+      - { criterion_vi: "Chia động từ đúng (wir/ihr)", points: 2 }
+    items:
+      - { id: q1, prompt: "Bình luận dưới ảnh „Kochabend mit Freunden“", model_answer: "Super! Meine Freunde und ich kochen auch gern. Wir kochen oft Spaghetti. Was kocht ihr morgen?", explanation_vi: "So sánh với mẫu." }
+summary_vi: "Đuôi đầy đủ: ich -e, du -st, er -t, wir -en, ihr -t, sie/Sie -en. Gốc -t: du arbeitest. Gốc -s/-z: du reist, du tanzt. Đổi nguyên âm ở du/er: liest, fährt, spricht. Hỏi nhóm bạn: Was macht ihr …? Phản hồi: Wirklich? Super! Toll!"
+self_check:
+  - "Tôi chia được động từ với cả 6 ngôi."
+  - "Tôi chia đúng arbeiten, reisen, lesen, fahren."
+  - "Tôi hỏi được một nhóm bạn: Was macht ihr am Wochenende?"
+  - "Tôi phản hồi được bằng super, toll, wirklich."

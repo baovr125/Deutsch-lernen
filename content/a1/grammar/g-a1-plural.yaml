@@ -1,0 +1,109 @@
+id: g-a1-plural
+level: A1
+title_de: "Der Plural der Nomen"
+title_vi: "Số nhiều của danh từ"
+introduced_in: a1-k02-l05
+source:
+  type: netzwerk-neu
+  kapitel: 2
+  sections: ["Mein Beruf"]
+  note_vi: "Tương ứng Grammatik „Plural“ của Kapitel 2 (Pluralformen erkennen und Lernkarten schreiben)."
+prerequisites: [g-a1-bestimmter-artikel]
+explanation_vi: |
+  Tiếng Việt nói số nhiều bằng cách thêm **những, các, nhiều**: *những cây bút*. Từ “bút” không đổi.
+  Tiếng Đức thì **đổi chính danh từ** và mạo từ luôn là **die**: *der Stift → die Stift**e***.
+
+  Có **5 cách** tạo số nhiều chính. Không có quy tắc chắc chắn, nên phải **học thuộc cùng từ** – từ điển và sổ từ ghi theo dạng rút gọn:
+
+  | Ký hiệu | Cách tạo | Ví dụ |
+  |---|---|---|
+  | **-e** | thêm e | der Stift → die Stift**e** |
+  | **¨-e** | biến âm + e | der Arzt → die **Ä**rzt**e** |
+  | **-er / ¨-er** | (biến âm +) er | das Buch → die B**ü**ch**er** |
+  | **-(e)n** | thêm n hoặc en | die Straße → die Straße**n**, der Student → die Student**en** |
+  | **-s** | thêm s (thường là từ mượn) | das Auto → die Auto**s** |
+  | **– / ¨** | không đổi (hoặc chỉ biến âm) | der Lehrer → die Lehrer |
+
+  **Vài quy luật giúp đoán:**
+  - Đuôi **-in** → **-innen**: die Lehrerin → die Lehrerinnen.
+  - Đuôi **-ung, -tion, -tät, -e** (giống cái) → **-(e)n**: die Rechnung → die Rechnungen.
+  - Đuôi **-er, -el** (giống đực/trung) → thường **không đổi**: der Computer → die Computer.
+  - Từ mượn tận cùng nguyên âm (-o, -a, -i, -y) → **-s**: das Foto → die Fotos, das Hobby → die Hobbys.
+usage_vi: "Dùng khi nói về nhiều người/vật: Die Studenten lernen Deutsch. Sau số đếm (zwei, drei…) danh từ ở số nhiều: drei Bücher."
+structure:
+  - pattern: "die + danh từ số nhiều + động từ số nhiều"
+    example_de: "Die Patienten warten."
+    example_vi: "Các bệnh nhân đang chờ."
+  - pattern: "số đếm + danh từ số nhiều"
+    example_de: "zwei Schlüssel, drei Bücher"
+    example_vi: "hai chiếc chìa khóa, ba quyển sách"
+rules:
+  - rule_vi: "Số nhiều luôn dùng mạo từ die, và động từ chia theo số nhiều (sind, haben, -en)."
+    examples:
+      - { de: "Die Autos sind neu.", vi: "Những chiếc ô tô đều mới." }
+  - rule_vi: "Có 5 cách tạo số nhiều; học thuộc từng từ theo ký hiệu (-e, ¨-e, -er, -(e)n, -s, –)."
+    examples:
+      - { de: "der Tag, die Tage – das Glas, die Gläser – die Seite, die Seiten", vi: "ngày – cái ly – trang" }
+  - rule_vi: "Một số quy luật: -in → -innen; -ung/-tion/-tät → -en; -er/-el → không đổi; từ mượn đuôi nguyên âm → -s."
+    examples:
+      - { de: "die Ärztin → die Ärztinnen; die Information → die Informationen", vi: "nữ bác sĩ → các nữ bác sĩ; thông tin → các thông tin" }
+      - { de: "der Kellner → die Kellner; das Hobby → die Hobbys", vi: "bồi bàn → các bồi bàn; sở thích → các sở thích" }
+  - rule_vi: "Một số danh từ chỉ có số ít (das Geld, die Musik) hoặc chỉ có số nhiều (die Leute, die Spaghetti)."
+    examples:
+      - { de: "Die Leute sind nett.", vi: "Mọi người dễ mến." }
+tables:
+  - title_vi: "Thẻ học (Lernkarte) mẫu"
+    columns: ["Mặt trước", "Mặt sau"]
+    rows:
+      - ["cây bút", "der Stift, -e (die Stifte)"]
+      - ["bác sĩ (nam)", "der Arzt, ¨-e (die Ärzte)"]
+      - ["quyển sách", "das Buch, ¨-er (die Bücher)"]
+      - ["đường phố", "die Straße, -n (die Straßen)"]
+      - ["ô tô", "das Auto, -s (die Autos)"]
+      - ["giáo viên (nam)", "der Lehrer, - (die Lehrer)"]
+examples:
+  - { de: "Ich habe drei Stifte.", vi: "Tôi có ba cây bút." }
+  - { de: "Die Studentinnen kommen aus Vietnam.", vi: "Các nữ sinh viên đến từ Việt Nam." }
+  - { de: "Das Krankenhaus hat 200 Zimmer.", vi: "Bệnh viện có 200 phòng.", note_vi: "Zimmer: số nhiều giống số ít." }
+  - { de: "Wo sind die Schlüssel?", vi: "Mấy chiếc chìa khóa đâu rồi?" }
+common_mistakes:
+  - wrong: "zwei Buch"
+    right: "zwei Bücher"
+    explanation_vi: "Tiếng Việt “hai quyển sách” – danh từ không đổi. Tiếng Đức phải dùng dạng số nhiều."
+  - wrong: "Die Studenten ist hier."
+    right: "Die Studenten sind hier."
+    explanation_vi: "Chủ ngữ số nhiều → động từ số nhiều."
+  - wrong: "die Hobbies"
+    right: "die Hobbys"
+    explanation_vi: "Tiếng Đức chỉ thêm -s, không đổi y thành ies như tiếng Anh."
+comparison_vi: "So với tiếng Anh: tiếng Anh gần như luôn thêm -s; tiếng Đức chỉ dùng -s cho một số từ mượn. Đừng áp dụng thói quen tiếng Anh."
+vietnamese_contrast_vi: "Tiếng Việt dùng từ chỉ lượng (những, các) và danh từ không đổi. Tiếng Đức đổi danh từ, đổi mạo từ (die) và đổi động từ. Vì vậy khi học từ mới, hãy học “bộ ba”: mạo từ – danh từ – số nhiều."
+exercises:
+  - id: g-a1-plural-ex01
+    type: matching
+    skill: grammar
+    objectives: [r2, r3]
+    difficulty: 1
+    instructions_vi: "Nối số ít với số nhiều."
+    items:
+      - id: q1
+        pairs:
+          - { left: "der Arzt", right: "die Ärzte" }
+          - { left: "das Buch", right: "die Bücher" }
+          - { left: "die Rechnung", right: "die Rechnungen" }
+          - { left: "das Foto", right: "die Fotos" }
+          - { left: "der Lehrer", right: "die Lehrer" }
+        explanation_vi: "¨-e, ¨-er, -en, -s, không đổi."
+  - id: g-a1-plural-ex02
+    type: gap-fill
+    skill: grammar
+    objectives: [r1, r3]
+    difficulty: 2
+    instructions_vi: "Viết dạng số nhiều."
+    items:
+      - { id: q1, prompt: "die Lehrerin → die ___", answer: ["Lehrerinnen"], explanation_vi: "-in → -innen." }
+      - { id: q2, prompt: "die Information → die ___", answer: ["Informationen"], explanation_vi: "-tion → -en." }
+      - { id: q3, prompt: "das Hobby → die ___", answer: ["Hobbys"], explanation_vi: "Từ mượn đuôi -y → -s." }
+      - { id: q4, prompt: "Die Patienten ___ im Krankenhaus. (sein)", answer: ["sind"], explanation_vi: "Số nhiều → sind." }
+summary_vi: "Số nhiều luôn dùng die. Năm cách: -e, ¨-e, -er/¨-er, -(e)n, -s, không đổi. Học từ theo bộ ba: der Stift, -e. Sau số đếm dùng số nhiều."
+next_level_note_vi: "Số nhiều ở cách Dativ (thêm -n: mit den Kindern) học ở Kapitel 7."
