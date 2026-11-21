@@ -30,17 +30,17 @@ Trạng thái: ✅ đã viết · ⏳ kế hoạch. ID của các chủ điểm 
 | 11 | 3 | `g-a1-unbestimmter-artikel` | Mạo từ không xác định ein/eine | ✅ | |
 | 12 | 3 | `g-a1-negation-kein` | Phủ định kein/keine (và so sánh với nicht) | ✅ | |
 | 13 | 3 | `g-a1-imperativ-sie` | Câu mệnh lệnh với Sie | ✅ | |
-| 14 | 4 | `g-a1-akkusativ` | Cách Akkusativ; động từ đi với Akkusativ | ⏳ | Khái niệm “cách” không có trong tiếng Việt – cần giải thích kỹ |
-| 15 | 4 | `g-a1-moechten-moegen` | möchten và mögen | ⏳ | |
-| 16 | 4 | `g-a1-satzpositionen` | Vị trí trong câu (đảo chủ ngữ khi vị trí 1 là thông tin khác) | ⏳ | “Hôm nay tôi học” ≠ “Heute ich lerne” |
-| 17 | 5 | `g-a1-zeitangaben-wann` | Wann? Um …; Wie lange? | ⏳ | |
-| 18 | 5 | `g-a1-possessivartikel` | Mạo từ sở hữu (Nominativ, Akkusativ của mein) | ⏳ | |
-| 19 | 5 | `g-a1-modalverben` | Động từ khuyết thiếu; khung câu với động từ khuyết thiếu | ⏳ | Động từ chính chạy về cuối câu |
-| 20 | 6 | `g-a1-ordinalzahlen` | Số thứ tự, ngày tháng | ⏳ | |
-| 21 | 6 | `g-a1-trennbare-verben` | Động từ tách | ⏳ | |
-| 22 | 6 | `g-a1-fuer-akkusativ` | für + Akkusativ | ⏳ | |
-| 23 | 6 | `g-a1-personalpronomen-akkusativ` | Đại từ nhân xưng ở Akkusativ | ⏳ | |
-| 24 | 6 | `g-a1-praeteritum-haben-sein` | Präteritum của haben, sein (war, hatte) | ⏳ | Sát ranh giới A2 – dạy ở mức mẫu câu |
+| 14 | 4 | `g-a1-akkusativ` | Cách Akkusativ; động từ đi với Akkusativ | ✅ | Khái niệm “cách” không có trong tiếng Việt – cần giải thích kỹ |
+| 15 | 4 | `g-a1-moechten-moegen` | möchten và mögen | ✅ | |
+| 16 | 4 | `g-a1-satzpositionen` | Vị trí trong câu (đảo chủ ngữ khi vị trí 1 là thông tin khác) | ✅ | “Hôm nay tôi học” ≠ “Heute ich lerne” |
+| 17 | 5 | `g-a1-zeitangaben-wann` | Wann? Um …; Wie lange? | ✅ | |
+| 18 | 5 | `g-a1-possessivartikel` | Mạo từ sở hữu (Nominativ, Akkusativ của mein) | ✅ | |
+| 19 | 5 | `g-a1-modalverben` | Động từ khuyết thiếu; khung câu với động từ khuyết thiếu | ✅ | Động từ chính chạy về cuối câu |
+| 20 | 6 | `g-a1-ordinalzahlen` | Số thứ tự, ngày tháng | ✅ | |
+| 21 | 6 | `g-a1-trennbare-verben` | Động từ tách | ✅ | |
+| 22 | 6 | `g-a1-fuer-akkusativ` | für + Akkusativ | ✅ | |
+| 23 | 6 | `g-a1-personalpronomen-akkusativ` | Đại từ nhân xưng ở Akkusativ | ✅ | |
+| 24 | 6 | `g-a1-praeteritum-haben-sein` | Präteritum của haben, sein (war, hatte) | ✅ | Sát ranh giới A2 – dạy ở mức mẫu câu |
 | 25 | 7 | `g-a1-konnektoren-und-oder-aber` | Nối câu: und, oder, aber | ⏳ | |
 | 26 | 7 | `g-a1-dativ-praepositionen` | mit + Dativ; giới từ chỉ nơi chốn + Dativ, dạng rút gọn (zum, im…) | ⏳ | |
 | 27 | 8 | `g-a1-imperativ` | Câu mệnh lệnh với du, ihr, Sie | ⏳ | |

@@ -80,7 +80,9 @@ Hướng dẫn chi tiết cho người học: [a1-self-study-guide.md](a1-self-s
 | a1-k02 | Kapitel 2 – Freunde, Kollegen und ich | ✅ ready |
 | a1-k03 | Kapitel 3 – In Hamburg | ✅ ready |
 | a1-p1 | Plattform 1 | ✅ ready |
-| a1-k04 … a1-k12 | Kapitel 4–12 | ⏳ planned |
+| a1-k04 | Kapitel 4 – Guten Appetit! | ✅ ready |
+| a1-k05 | Kapitel 5 – Alltag und Familie | ✅ ready |
+| a1-k06 … a1-k12 | Kapitel 6–12 | ⏳ planned |
 | a1-p2 … a1-p4 | Plattform 2–4 | ⏳ planned |
 
 **Khối 1 (Einstieg + Kapitel 1–3 + Plattform 1) đã hoàn chỉnh.** Thời lượng thực tế: Einstieg 220 phút, Kapitel 1 435 phút, Kapitel 2 520 phút, Kapitel 3 485 phút, Plattform 1 240 phút – tổng khoảng 32 giờ.

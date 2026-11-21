@@ -1,5 +1,8 @@
 # A1 Lesson Content Specification – Đặc tả nội dung bài học
 
+> ⚠️ **Đã lỗi thời (2026-11-21):** nội dung A1 đã chuyển sang **Content Standard v2** (`content/a1/modules/`, `content/a1/grammar/`). Các đường dẫn/định dạng cũ (`units/`, `vocabulary/*.csv`, `g-a1-*.yaml`, `validate_content.py`) không còn tồn tại. Chuẩn hiện hành: [docs/content/content-standard.md](../../content/content-standard.md). Tài liệu này giữ lại để tham khảo lịch sử và phạm vi sư phạm.
+
+
 > Áp dụng cho mọi bài học A1 (và làm mẫu cho các cấp độ sau). Schema: [`content/_schemas/`](../../../content/_schemas). Cập nhật: 2026-11-21.
 
 ## 1. Bố cục file

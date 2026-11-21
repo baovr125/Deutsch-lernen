@@ -1,5 +1,8 @@
 # Báo cáo Phase 1 – Nội dung A1 (đợt 1)
 
+> ⚠️ **Đã lỗi thời (2026-11-21):** nội dung A1 đã chuyển sang **Content Standard v2** (`content/a1/modules/`, `content/a1/grammar/`). Các đường dẫn/định dạng cũ (`units/`, `vocabulary/*.csv`, `g-a1-*.yaml`, `validate_content.py`) không còn tồn tại. Chuẩn hiện hành: [docs/content/content-standard.md](../../content/content-standard.md). Tài liệu này giữ lại để tham khảo lịch sử và phạm vi sư phạm.
+
+
 > Ngày: 2026-11-21 · Nhánh: `content/a1-phase1` · Phạm vi: chỉ A1.
 
 ## 1. Tài liệu A1 đã nghiên cứu
