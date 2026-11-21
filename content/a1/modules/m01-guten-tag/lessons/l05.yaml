@@ -1,0 +1,287 @@
+schema_version: '2.0'
+content_type: lesson
+id: a1.m01.l05
+level: A1
+module: a1.m01
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+  references:
+  - work: Netzwerk neu A1 (Klett)
+    scope: 'Kapitel 1: Landeskunde: Länder und Sprachen'
+    verification: verified
+  notes_vi: 'Sprachhandlungen: Vorstellungstexte verstehen und eine Tabelle ergänzen; Sprachen zu Ländern ergänzen; fragen und auf Fragen reagieren; Ländernamen mit der eigenen Sprache vergleichen; einen Text über sich schreiben.'
+order: 5
+title_de: Länder und Sprachen
+title_vi: Các nước và ngôn ngữ – viết đoạn giới thiệu bản thân
+topic_vi: Tên nước, ngôn ngữ, các nước nói tiếng Đức (D-A-CH); viết về bản thân
+duration_min: 75
+difficulty: 2
+cefr:
+- A1.L1
+- A1.S2
+- A1.SP1
+- A1.H1
+- A1.SI2
+prerequisites:
+- a1.m01.l04
+objectives:
+- id: a1.m01.l05.obj1
+  text_vi: 'Gọi tên các nước và ngôn ngữ thường gặp, đặc biệt ba nước nói tiếng Đức: Deutschland, Österreich, die Schweiz.'
+  skill: vocabulary
+- id: a1.m01.l05.obj2
+  text_vi: 'Dùng đúng aus/in với tên nước có mạo từ như cụm cố định: aus der Schweiz, in den USA.'
+  skill: vocabulary
+- id: a1.m01.l05.obj3
+  text_vi: Hiểu các đoạn tự giới thiệu ngắn và điền thông tin vào bảng.
+  skill: listening
+- id: a1.m01.l05.obj4
+  text_vi: Viết và nói một đoạn 5–6 câu giới thiệu bản thân (tên, quê, nơi ở, ngôn ngữ, đang học gì).
+  skill: grammar
+vocabulary_refs:
+- a1.m01.v.land
+- a1.m01.v.stadt
+- a1.m01.v.oesterreich
+- a1.m01.v.schweiz
+- a1.m01.v.usa
+- a1.m01.v.tuerkei
+- a1.m01.v.frankreich
+- a1.m01.v.spanien
+- a1.m01.v.italien
+- a1.m01.v.china
+- a1.m01.v.japan
+- a1.m01.v.polen
+- a1.m01.v.franzoesisch
+- a1.m01.v.spanisch
+- a1.m01.v.italienisch
+- a1.m01.v.chinesisch
+- a1.m01.v.japanisch
+- a1.m01.v.lernen
+- a1.m01.v.text
+- a1.m01.v.kurz
+review_vocabulary_refs:
+- a1.m01.v.kommen
+- a1.m01.v.aus
+- a1.m01.v.wohnen
+- a1.m01.v.in
+- a1.m01.v.sprechen
+- a1.m01.v.deutschland
+- a1.m01.v.vietnam
+- a1.m01.v.deutsch
+- a1.m01.v.vietnamesisch
+- a1.m01.v.englisch
+- a1.m01.v.sprache
+- a1.m01.v.welche
+- a1.m01.v.ein-bisschen
+grammar_refs:
+- a1.g.aussagesatz
+grammar_focus:
+- ref: a1.g.aussagesatz
+  focus_vi: 'Ôn: viết đoạn văn với nhiều câu kể, động từ luôn ở vị trí 2; nối câu bằng und.'
+expression_refs:
+- a1.m01.x.ich-komme-aus-und-wohne-in
+- a1.m01.x.ich-spreche-und-ein-bisschen
+- a1.m01.x.ich-lerne
+- a1.m01.x.ist-in
+exercise_set_ref: a1.m01.l05.ex
+summary_vi: 'D-A-CH = Deutschland, Österreich, die Schweiz – ba nước nói tiếng Đức. Tên nước thường không có mạo từ; ngoại lệ: die Schweiz, die Türkei, die USA → aus der Schweiz, in den USA. Nhiều ngôn ngữ có đuôi -isch. Đoạn tự giới thiệu: Ich heiße … Ich komme aus … Ich wohne in … Ich spreche … Ich lerne …'
+self_check:
+- Tôi kể được tên ba nước nói tiếng Đức.
+- 'Tôi nói đúng: aus der Schweiz, in den USA.'
+- Tôi hiểu các đoạn tự giới thiệu ngắn.
+- Tôi viết được đoạn 5–6 câu giới thiệu bản thân.
+blocks:
+- id: a1.m01.l05.b1
+  kind: explanation
+  title_vi: Giới thiệu bài học
+  body_vi: 'Tiếng Đức là ngôn ngữ chính thức ở **Đức (Deutschland)**, **Áo (Österreich)** và **Thụy Sĩ (die Schweiz)** –
+
+    người Đức gọi ba nước này là **D-A-CH** (theo ký hiệu quốc gia D, A, CH). Ở Thụy Sĩ người ta còn nói tiếng Pháp,
+
+    tiếng Ý và tiếng Romansh.
+
+
+    Trong bài này bạn học:
+
+    - Tên các nước và ngôn ngữ (nhiều ngôn ngữ tận cùng bằng **-isch**).
+
+    - Một điểm đặc biệt: **vài tên nước có mạo từ** – *die Schweiz, die Türkei, die USA*.
+
+    - Cuối bài, bạn viết **đoạn văn đầu tiên về chính mình** bằng tiếng Đức – tổng hợp mọi thứ đã học ở Kapitel 1.'
+- id: a1.m01.l05.b2
+  kind: explanation
+  title_vi: Tên nước có mạo từ
+  skill: grammar
+  body_vi: 'Phần lớn tên nước KHÔNG có mạo từ: aus Vietnam, in Deutschland, aus Österreich.
+
+    Một số ít tên nước CÓ mạo từ và phải học kèm:
+
+    - die Schweiz, die Türkei, die Ukraine → aus **der** Schweiz, in **der** Türkei
+
+    - die USA (số nhiều) → aus **den** USA, in **den** USA
+
+    Sau aus và in, mạo từ đổi dạng (die → der, die số nhiều → den) vì đây là cách Dativ – bạn sẽ học quy tắc ở Kapitel 7 và 9.
+
+    Bây giờ hãy học thuộc như cụm từ cố định.
+
+    '
+  examples:
+  - de: Ich komme aus der Schweiz.
+    vi: Tôi đến từ Thụy Sĩ.
+  - de: Sie wohnt in den USA.
+    vi: Cô ấy sống ở Mỹ.
+  - de: Er kommt aus Österreich.
+    vi: Anh ấy đến từ Áo.
+    note_vi: Không có mạo từ.
+- id: a1.m01.l05.b3
+  kind: explanation
+  title_vi: Từ tên nước đến tên ngôn ngữ
+  skill: grammar
+  body_vi: 'Nhiều ngôn ngữ được tạo bằng đuôi -isch: Spanien → Spanisch, Japan → Japanisch, China → Chinesisch, Vietnam → Vietnamesisch. Nhưng có ngoại lệ: Deutschland → Deutsch, Frankreich → Französisch, England → Englisch. Ở Áo và Thụy Sĩ, người ta nói tiếng Đức (Deutsch) – không có tiếng “Österreichisch” hay “Schweizerisch” như một ngôn ngữ riêng.'
+  examples:
+  - de: Spanien – Spanisch
+    vi: Tây Ban Nha – tiếng Tây Ban Nha
+  - de: Österreich – Deutsch
+    vi: Áo – tiếng Đức
+- id: a1.m01.l05.b4
+  kind: pronunciation
+  title_vi: Trọng âm của tên nước và ngôn ngữ
+  skill: pronunciation
+  body_vi: 'Trọng âm của tên nước và ngôn ngữ
+
+
+    Tên nước thường nhấn âm tiết đầu: DEUTSCH-land, ÖS-ter-reich, FRANK-reich, SPA-ni-en. Ngoại lệ: I-TA-li-en, die Tür-KEI. Ngôn ngữ đuôi -isch: nhấn âm tiết ngay trước -isch nếu có nhiều âm tiết: ja-PA-nisch, chi-NE-sisch, viet-na-ME-sisch; nhưng ENG-lisch, SPA-nisch (chỉ hai âm tiết).
+
+
+    Luyện tập: Đọc to các cặp nước – ngôn ngữ trong bài, vỗ tay ở âm tiết nhấn.'
+  items:
+  - de: Österreich
+    vi: nước Áo
+    ipa: '[ˈøːstəʁaɪ̯ç]'
+  - de: Italien
+    vi: nước Ý
+    ipa: '[iˈtaːli̯ən]'
+  - de: Japanisch
+    vi: tiếng Nhật
+    ipa: '[jaˈpaːnɪʃ]'
+  - de: die Türkei
+    vi: Thổ Nhĩ Kỳ
+    ipa: '[tʏʁˈkaɪ̯]'
+- id: a1.m01.l05.b5
+  kind: examples
+  title_vi: Câu ví dụ
+  examples:
+  - de: Wien ist in Österreich.
+    vi: Viên ở nước Áo.
+  - de: Zürich ist in der Schweiz.
+    vi: Zürich ở Thụy Sĩ.
+  - de: In der Schweiz spricht man Deutsch, Französisch und Italienisch.
+    vi: Ở Thụy Sĩ người ta nói tiếng Đức, tiếng Pháp và tiếng Ý.
+    note_vi: man = người ta (học ở Kapitel 12); động từ vẫn ở vị trí 2.
+  - de: Olivia kommt aus den USA.
+    vi: Olivia đến từ Mỹ.
+  - de: Ich lerne Deutsch.
+    vi: Tôi học tiếng Đức.
+  - de: Hanoi ist eine Stadt in Vietnam.
+    vi: Hà Nội là một thành phố ở Việt Nam.
+- id: a1.m01.l05.b6
+  kind: listening
+  title_vi: Ba người, ba nước D-A-CH
+  lines:
+  - speaker: Lukas
+    de: Hallo! Ich bin Lukas. Ich komme aus Österreich und wohne in Wien. Ich spreche Deutsch und Englisch.
+    vi: Chào! Mình là Lukas. Mình đến từ Áo và sống ở Viên. Mình nói tiếng Đức và tiếng Anh.
+  - speaker: Chiara
+    de: Ciao! Ich heiße Chiara. Ich komme aus der Schweiz, aus Lugano. Ich spreche Italienisch, Deutsch und Französisch.
+    vi: Chào! Mình tên là Chiara. Mình đến từ Thụy Sĩ, từ Lugano. Mình nói tiếng Ý, tiếng Đức và tiếng Pháp.
+  - speaker: Hoa
+    de: Hallo! Mein Name ist Hoa. Ich komme aus Vietnam. Ich wohne in Hamburg. Ich spreche Vietnamesisch und Englisch. Ich lerne Deutsch.
+    vi: Chào! Mình tên là Hoa. Mình đến từ Việt Nam. Mình sống ở Hamburg. Mình nói tiếng Việt và tiếng Anh. Mình đang học tiếng Đức.
+  audio_status: pending-tts
+  situation_vi: Ba người tự giới thiệu ngắn trong một video của trường ngôn ngữ.
+  skill: listening
+  audio:
+    speed: slow
+- id: a1.m01.l05.b7
+  kind: reading
+  title_vi: Lớp tiếng Đức của chúng tôi
+  paragraphs:
+  - de: 'Unser Deutschkurs A1
+
+
+      Ich heiße Ana. Ich komme aus Spanien, aus Madrid. Ich wohne jetzt in Köln.
+
+      Ich spreche Spanisch und Englisch. Ich lerne Deutsch.
+
+
+      Mein Name ist Kenji. Ich komme aus Japan. Ich wohne in Köln.
+
+      Ich spreche Japanisch und ein bisschen Englisch.
+
+
+      Ich bin Emre. Ich komme aus der Türkei, aber ich wohne schon lange in Deutschland.
+
+      Ich spreche Türkisch und Deutsch. Ich lerne Französisch.'
+    vi: 'Lớp tiếng Đức A1 của chúng tôi
+
+
+      Mình tên là Ana. Mình đến từ Tây Ban Nha, từ Madrid. Bây giờ mình sống ở Köln.
+
+      Mình nói tiếng Tây Ban Nha và tiếng Anh. Mình đang học tiếng Đức.
+
+
+      Tên mình là Kenji. Mình đến từ Nhật Bản. Mình sống ở Köln.
+
+      Mình nói tiếng Nhật và một chút tiếng Anh.
+
+
+      Mình là Emre. Mình đến từ Thổ Nhĩ Kỳ, nhưng mình đã sống ở Đức lâu rồi.
+
+      Mình nói tiếng Thổ Nhĩ Kỳ và tiếng Đức. Mình đang học tiếng Pháp.'
+  text_type_vi: Đoạn tự giới thiệu trên trang web của lớp
+  skill: reading
+  glossary:
+  - de: unser
+    vi: của chúng tôi
+  - de: jetzt
+    vi: bây giờ
+  - de: aber
+    vi: nhưng (học ở Kapitel 7)
+  - de: schon lange
+    vi: đã lâu rồi
+  - de: Türkisch
+    vi: tiếng Thổ Nhĩ Kỳ
+- id: a1.m01.l05.b8
+  kind: speaking
+  title_vi: Giới thiệu bản thân trước lớp
+  skill: speaking
+  task_vi: 'Nói 5–6 câu giới thiệu bản thân: tên, quê, nơi ở, ngôn ngữ, đang học gì. Nói chậm, rõ, không đọc từ giấy ở lần thứ hai.'
+  steps_vi:
+  - 'Lần 1: nhìn dàn ý và nói.'
+  - 'Lần 2: không nhìn, nói lại và ghi âm.'
+  - 'Nghe lại: động từ có ở vị trí 2 không? Có bật rõ phụ âm cuối không?'
+  lines:
+  - speaker: Lan
+    de: Hallo! Ich heiße Lan. Ich komme aus Vietnam, aus Da Nang. Ich wohne jetzt in Leipzig. Ich spreche Vietnamesisch und Englisch. Ich lerne Deutsch.
+    vi: Xin chào! Tôi tên là Lan. Tôi đến từ Việt Nam, từ Đà Nẵng. Bây giờ tôi sống ở Leipzig. Tôi nói tiếng Việt và tiếng Anh. Tôi đang học tiếng Đức.
+- id: a1.m01.l05.b9
+  kind: writing
+  title_vi: Đoạn văn đầu tiên về bản thân
+  skill: writing
+  task_vi: Viết một đoạn 5–6 câu về bản thân để đăng lên trang web của lớp (giống các đoạn ở phần Đọc).
+  model:
+    de: Hallo! Ich heiße Minh. Ich komme aus Vietnam, aus Hanoi. Ich wohne in Hamburg. Ich spreche Vietnamesisch, Englisch und ein bisschen Deutsch. Ich lerne Deutsch.
+    vi: Xin chào! Tôi tên là Minh. Tôi đến từ Việt Nam, từ Hà Nội. Tôi sống ở Hamburg. Tôi nói tiếng Việt, tiếng Anh và một chút tiếng Đức. Tôi đang học tiếng Đức.
+  checklist_vi:
+  - 'Có đủ: tên – quê – nơi ở – ngôn ngữ – đang học gì.'
+  - 'Mỗi câu có động từ ở vị trí 2, chia đúng với ich (-e; riêng sein: bin).'
+  - kommen aus …, wohnen in …
+  - Tên nước, thành phố, ngôn ngữ viết hoa.

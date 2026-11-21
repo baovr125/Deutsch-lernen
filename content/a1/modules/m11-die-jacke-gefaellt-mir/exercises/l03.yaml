@@ -1,0 +1,135 @@
+schema_version: "2.0"
+content_type: exercise-set
+id: a1.m11.l03.ex
+level: A1
+module: a1.m11
+lesson: a1.m11.l03
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  tags: ["dativ", "hoeflichkeit"]
+exercises:
+  - id: a1.m11.l03.ex.01
+    type: multiple-choice
+    skill: vocabulary
+    difficulty: 1
+    objective_refs: [a1.m11.l03.obj2, a1.m11.obj.einkaufen]
+    instructions_vi: "Chọn đáp án đúng."
+    items:
+      - id: a1.m11.l03.ex.01.q1
+        prompt: "Die Hose ist zu eng. Das Gegenteil von „eng“ ist ___."
+        options: [{ id: a, text: "weit" }, { id: b, text: "kurz" }, { id: c, text: "bequem" }]
+        answer: [a]
+        explanation_vi: "eng (chật) – weit (rộng)."
+      - id: a1.m11.l03.ex.01.q2
+        prompt: "Der Rock ist zu ___. (ngắn)"
+        options: [{ id: a, text: "lang" }, { id: b, text: "kurz" }, { id: c, text: "weit" }]
+        answer: [b]
+        explanation_vi: "kurz = ngắn; lang = dài."
+      - id: a1.m11.l03.ex.01.q3
+        prompt: "Was sagt man nach „Danke“?"
+        options: [{ id: a, text: "Guten Tag." }, { id: b, text: "Gute Nacht." }, { id: c, text: "Bitte schön." }]
+        answer: [c]
+        explanation_vi: "Đáp lại cảm ơn: „Bitte schön.“"
+      - id: a1.m11.l03.ex.01.q4
+        prompt: "Wem gehört die Mütze? – Sie gehört ___."
+        options: [{ id: a, text: "ich" }, { id: b, text: "mir" }, { id: c, text: "mich" }]
+        answer: [b]
+        explanation_vi: "„gehören“ đi với Dativ: mir."
+  - id: a1.m11.l03.ex.02
+    type: fill-blank
+    skill: grammar
+    difficulty: 2
+    objective_refs: [a1.m11.l03.obj1, a1.g.personalpronomen-dativ.obj1, a1.m11.obj.dativ]
+    instructions_vi: "Điền đại từ Dativ đúng."
+    items:
+      - { id: a1.m11.l03.ex.02.q1, prompt: "Der Mantel passt ___ nicht.", hint_vi: "er", answers: ["ihm"], explanation_vi: "er → ihm." }
+      - { id: a1.m11.l03.ex.02.q2, prompt: "Die Hose passt ___ gut.", hint_vi: "sie (một người nữ)", answers: ["ihr"], explanation_vi: "sie → ihr." }
+      - { id: a1.m11.l03.ex.02.q3, prompt: "Das Hemd passt ___.", hint_vi: "ich", answers: ["mir"], explanation_vi: "ich → mir." }
+      - { id: a1.m11.l03.ex.02.q4, prompt: "Passt ___ die Größe?", hint_vi: "Sie (lịch sự)", answers: ["Ihnen"], explanation_vi: "Sie → Ihnen (viết hoa)." }
+  - id: a1.m11.l03.ex.03
+    type: matching
+    skill: grammar
+    difficulty: 1
+    objective_refs: [a1.m11.l03.obj1, a1.g.personalpronomen-dativ.obj1]
+    instructions_vi: "Nối đại từ Nominativ với Dativ."
+    items:
+      - { id: a1.m11.l03.ex.03.q1, left: "ich", right: "mir", explanation_vi: "ich → mir." }
+      - { id: a1.m11.l03.ex.03.q2, left: "du", right: "dir", explanation_vi: "du → dir." }
+      - { id: a1.m11.l03.ex.03.q3, left: "er", right: "ihm", explanation_vi: "er → ihm." }
+      - { id: a1.m11.l03.ex.03.q4, left: "wir", right: "uns", explanation_vi: "wir → uns (giống Akkusativ)." }
+      - { id: a1.m11.l03.ex.03.q5, left: "ihr", right: "euch", explanation_vi: "ihr → euch (giống Akkusativ)." }
+  - id: a1.m11.l03.ex.04
+    type: word-order
+    skill: grammar
+    difficulty: 2
+    objective_refs: [a1.m11.l03.obj1, a1.g.personalpronomen-dativ.obj1]
+    instructions_vi: "Sắp xếp các từ thành câu đúng."
+    items:
+      - id: a1.m11.l03.ex.04.q1
+        tokens: ["mir", "gut.", "passt", "Hose", "Die"]
+        answer: "Die Hose passt mir gut."
+        translation_vi: "Cái quần vừa với tôi."
+        explanation_vi: "Chủ ngữ + passt + Dativ + trạng từ."
+      - id: a1.m11.l03.ex.04.q2
+        tokens: ["Ihnen", "helfen?", "ich", "Kann"]
+        answer: "Kann ich Ihnen helfen?"
+        translation_vi: "Tôi có thể giúp gì cho ông/bà?"
+        explanation_vi: "„helfen“ + Dativ Ihnen; modalverb đầu câu hỏi."
+      - id: a1.m11.l03.ex.04.q3
+        tokens: ["ihm.", "gehört", "Mütze", "Die"]
+        answer: "Die Mütze gehört ihm."
+        translation_vi: "Chiếc mũ là của anh ấy."
+        explanation_vi: "„gehören“ + Dativ ihm."
+  - id: a1.m11.l03.ex.05
+    type: sentence-construction
+    skill: writing
+    difficulty: 2
+    objective_refs: [a1.m11.l03.obj1, a1.m11.l03.obj2]
+    instructions_vi: "Viết một câu tiếng Đức với các từ bắt buộc."
+    items:
+      - { id: a1.m11.l03.ex.05.q1, prompt_vi: "Cái quần chật với tôi.", required_words: ["Hose", "mir", "eng"], answers: ["Die Hose ist mir zu eng.", "Die Hose ist mir eng."], explanation_vi: "„sein + mir + tính từ“: Die Hose ist mir zu eng." }
+      - { id: a1.m11.l03.ex.05.q2, prompt_vi: "Chiếc áo len vừa với cô ấy.", required_words: ["Pullover", "ihr", "passt"], answers: ["Der Pullover passt ihr."], explanation_vi: "passen + Dativ ihr." }
+      - { id: a1.m11.l03.ex.05.q3, prompt_vi: "Chiếc mũ này là của anh ấy.", required_words: ["Mütze", "gehört", "ihm"], answers: ["Die Mütze gehört ihm.", "Diese Mütze gehört ihm."], explanation_vi: "gehören + Dativ ihm." }
+  - id: a1.m11.l03.ex.06
+    type: listening-practice
+    skill: listening
+    difficulty: 2
+    objective_refs: [a1.m11.l03.obj2, a1.m11.obj.einkaufen]
+    instructions_vi: "Nghe đoạn hội thoại (hoặc đọc transcript) rồi chọn đáp án."
+    stimulus:
+      text_de: "Guten Tag! Kann ich Ihnen helfen? – Ja, ich suche einen Mantel. – Dieser Mantel hier gefällt Ihnen vielleicht. – Er ist mir zu lang. – Dann probieren Sie bitte diesen Mantel an."
+      audio_status: pending-tts
+    items:
+      - id: a1.m11.l03.ex.06.q1
+        prompt: "Was sucht der Kunde?"
+        options: [{ id: a, text: "Eine Hose." }, { id: b, text: "Einen Mantel." }, { id: c, text: "Schuhe." }]
+        answer: [b]
+        explanation_vi: "„ich suche einen Mantel“."
+      - id: a1.m11.l03.ex.06.q2
+        prompt: "Was ist das Problem mit dem ersten Mantel?"
+        options: [{ id: a, text: "Er ist zu teuer." }, { id: b, text: "Er ist zu eng." }, { id: c, text: "Er ist zu lang." }]
+        answer: [c]
+        explanation_vi: "„Er ist mir zu lang.“"
+      - id: a1.m11.l03.ex.06.q3
+        prompt: "Was soll der Kunde jetzt tun?"
+        options: [{ id: a, text: "Den anderen Mantel anprobieren." }, { id: b, text: "Bezahlen." }, { id: c, text: "Nach Hause gehen." }]
+        answer: [a]
+        explanation_vi: "„probieren Sie bitte diesen Mantel an“."
+  - id: a1.m11.l03.ex.07
+    type: speaking-practice
+    skill: speaking
+    difficulty: 2
+    objective_refs: [a1.m11.l03.obj2, a1.m11.obj.einkaufen]
+    instructions_vi: "Đóng vai khách hàng: bạn nói với nhân viên rằng bạn tìm một chiếc áo khoác, nó hơi chật và bạn xin cỡ lớn hơn."
+    items:
+      - id: a1.m11.l03.ex.07.q1
+        prompt_vi: "Đáp lại câu „Kann ich Ihnen helfen?“ và nói về cỡ áo."
+        model_answer: { de: "Ja, ich suche eine Jacke. Diese Jacke gefällt mir, aber sie ist mir zu eng. Haben Sie eine Größe größer? – Danke!", vi: "Vâng, tôi tìm một chiếc áo khoác. Chiếc này tôi thích nhưng nó chật với tôi. Ông/bà có cỡ lớn hơn không? – Cảm ơn!" }
+        rubric_vi: ["Đáp lại lịch sự với Sie.", "Dùng gefallen/passen + Dativ đúng.", "Nói rõ vấn đề (zu eng/zu lang…).", "Nói cảm ơn đúng lúc."]
+        explanation_vi: "Bài mẫu có đủ: tìm đồ, ý kiến, vấn đề về cỡ, và cảm ơn."

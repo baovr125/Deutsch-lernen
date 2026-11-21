@@ -1,0 +1,196 @@
+schema_version: '2.0'
+content_type: grammar-topic
+id: a1.g.unbestimmter-artikel
+level: A1
+introduced_in: a1.m03
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+  references:
+  - work: Netzwerk neu A1 (Klett)
+    scope: 'Kapitel 3: Die Taxifahrt'
+    verification: verified
+  notes_vi: Tương ứng Grammatik „unbestimmter + bestimmter Artikel“ của Kapitel 3.
+introduced_in_lesson: a1.m03.l02
+title_de: Der unbestimmte und der bestimmte Artikel
+title_vi: Mạo từ không xác định ein/eine và mạo từ xác định der/die/das
+summary_vi: 'Tiếng Đức có hai loại mạo từ:
+
+
+  | | Giống đực | Giống trung | Giống cái | Số nhiều |
+
+  |---|---|---|---|---|
+
+  | **xác định** (cái đã biết) | der | das | die | die |
+
+  | **không xác định** (một cái nào đó) | **ein** | **ein** | **eine** | – (không có) |
+
+
+  **Khi nào dùng ein/eine?** Khi nói về một người/vật **lần đầu**, **chưa xác định**, hoặc **một trong nhiều**:
+
+  *Da ist **ein** Hotel.* – Kia có một khách sạn (người nghe chưa biết khách sạn nào).
+
+
+  **Khi nào dùng der/die/das?** Khi người nghe **đã biết** đang nói về cái nào (đã nhắc trước đó, hoặc chỉ có một):
+
+  ***Das** Hotel heißt „Elbblick“.* – Khách sạn (vừa nói đến) tên là “Elbblick”.
+
+
+  **Mẫu rất thường gặp:** câu 1 dùng ein/eine, câu 2 dùng der/die/das:
+
+  *Das ist **eine** Kirche. **Die** Kirche ist sehr alt.*
+
+
+  **Số nhiều không có ein:** *Das sind Brücken.* (Đó là những cây cầu.)'
+usage_vi: 'ein/eine khi giới thiệu cái mới; der/die/das khi cái đó đã được biết. Gọi tên đồ vật: Was ist das? – Das ist ein/eine …'
+objectives:
+- id: a1.g.unbestimmter-artikel.obj1
+  text_vi: Chọn đúng ein/eine hay der/die/das.
+  skill: grammar
+rules:
+- id: a1.g.unbestimmter-artikel.r1
+  title_vi: ein và eine
+  body_vi: ein cho giống đực và giống trung, eine cho giống cái; số nhiều không có mạo từ không xác định.
+  examples:
+  - de: ein Turm, ein Schiff, eine Brücke – Türme, Schiffe, Brücken
+    vi: một tòa tháp, một con tàu, một cây cầu – các tòa tháp, …
+- id: a1.g.unbestimmter-artikel.r2
+  title_vi: Lần đầu dùng ein, đã biết dùng der
+  body_vi: Dùng ein/eine khi nhắc đến lần đầu; dùng der/die/das khi đã biết.
+  examples:
+  - de: Da ist ein Hotel. Das Hotel ist schön.
+    vi: Kia có một khách sạn. Khách sạn đó đẹp.
+  - de: Hamburg hat einen Hafen. Der Hafen ist groß.
+    vi: Hamburg có một bến cảng. Bến cảng đó lớn.
+    note_vi: einen = ein ở cách Akkusativ (sau haben) – học ở Kapitel 4.
+- id: a1.g.unbestimmter-artikel.r3
+  title_vi: Cái duy nhất dùng der/die/das
+  body_vi: Cái duy nhất hoặc ai cũng biết dùng der/die/das.
+  examples:
+  - de: Die Elbe ist ein Fluss.
+    vi: Sông Elbe là một con sông.
+sentence_structures:
+- pattern: Das ist ein/eine + danh từ.
+  example:
+    de: Das ist ein Bahnhof.
+    vi: Đây là một nhà ga.
+- pattern: Der/Die/Das + danh từ + ist …
+  example:
+    de: Der Bahnhof ist groß.
+    vi: Nhà ga (đó) lớn.
+tables:
+- title_vi: So sánh hai loại mạo từ (Nominativ)
+  header:
+  - Giống
+  - xác định
+  - không xác định
+  - Ví dụ
+  rows:
+  - - đực (m)
+    - der
+    - ein
+    - der/ein Turm
+  - - trung (n)
+    - das
+    - ein
+    - das/ein Schiff
+  - - cái (f)
+    - die
+    - eine
+    - die/eine Brücke
+  - - số nhiều
+    - die
+    - –
+    - die Brücken / Brücken
+examples:
+- de: Was ist das? – Das ist eine Kirche.
+  vi: Đó là gì? – Đó là một nhà thờ.
+- de: Die Kirche heißt „Michel“.
+  vi: Nhà thờ đó tên là “Michel”.
+- de: Da ist ein See. Der See ist schön.
+  vi: Kia có một cái hồ. Cái hồ đẹp.
+- de: Das sind Schiffe.
+  vi: Đó là những con tàu.
+- de: Ist das ein Hotel? – Ja, das ist das Hotel „Elbblick“.
+  vi: Đó là khách sạn à? – Vâng, đó là khách sạn “Elbblick”.
+common_mistakes:
+- wrong: Das ist ein Brücke.
+  right: Das ist eine Brücke.
+  explanation_vi: die Brücke (giống cái) → eine.
+- wrong: Das sind eine Schiffe.
+  right: Das sind Schiffe.
+  explanation_vi: Số nhiều không dùng ein/eine.
+- wrong: Da ist ein Hotel. Ein Hotel ist schön.
+  right: Da ist ein Hotel. Das Hotel ist schön.
+  explanation_vi: Lần thứ hai nhắc đến → người nghe đã biết → dùng der/die/das.
+comparison_vi: 'Giống tiếng Anh: a/an ↔ ein/eine, the ↔ der/die/das; quy tắc dùng gần như giống nhau. Khác: tiếng Đức ein/eine thay đổi theo giống (và cách), tiếng Anh “a” thì không.'
+vietnamese_contrast_vi: Tiếng Việt dùng “một” (một cái hồ) và “đó/này” (cái hồ đó) – tương tự ein và der/die/das. Nhưng tiếng Việt thường bỏ cả hai (“Kia có hồ, hồ đẹp lắm”), còn tiếng Đức hầu như luôn phải có mạo từ trước danh từ số ít.
+recap_vi: 'ein (m/n), eine (f), số nhiều không có. Lần đầu nhắc đến: ein/eine; đã biết: der/die/das. Mẫu: Das ist eine Kirche. Die Kirche ist alt.'
+next_level_note_vi: ein/eine ở cách Akkusativ (einen) học ở Kapitel 4; ở Dativ (einem/einer) ở Kapitel 7.
+prerequisites:
+- g-a1-bestimmter-artikel
+exercises:
+- id: a1.g.unbestimmter-artikel.ex.01
+  type: fill-blank
+  skill: grammar
+  difficulty: 1
+  objective_refs:
+  - a1.g.unbestimmter-artikel.r1
+  - a1.g.unbestimmter-artikel.obj1
+  instructions_vi: Điền ein hoặc eine.
+  items:
+  - id: a1.g.unbestimmter-artikel.ex.01.q1
+    prompt: Das ist ___ Brücke.
+    answers:
+    - eine
+    explanation_vi: die Brücke → eine.
+  - id: a1.g.unbestimmter-artikel.ex.01.q2
+    prompt: Das ist ___ Turm.
+    answers:
+    - ein
+    explanation_vi: der Turm → ein.
+  - id: a1.g.unbestimmter-artikel.ex.01.q3
+    prompt: Das ist ___ Schiff.
+    answers:
+    - ein
+    explanation_vi: das Schiff → ein.
+  - id: a1.g.unbestimmter-artikel.ex.01.q4
+    prompt: Das ist ___ Kirche.
+    answers:
+    - eine
+    explanation_vi: die Kirche → eine.
+- id: a1.g.unbestimmter-artikel.ex.02
+  type: fill-blank
+  skill: grammar
+  difficulty: 2
+  objective_refs:
+  - a1.g.unbestimmter-artikel.r2
+  - a1.g.unbestimmter-artikel.r3
+  - a1.g.unbestimmter-artikel.obj1
+  instructions_vi: 'Điền mạo từ phù hợp: ein/eine hoặc der/die/das.'
+  items:
+  - id: a1.g.unbestimmter-artikel.ex.02.q1
+    prompt: Da ist ___ See. ___ See ist schön.
+    answers:
+    - ein
+    - Der
+    explanation_vi: 'Lần đầu: ein; lần hai: Der.'
+  - id: a1.g.unbestimmter-artikel.ex.02.q2
+    prompt: Das ist ___ Kirche. ___ Kirche ist alt.
+    answers:
+    - eine
+    - Die
+    explanation_vi: eine → Die.
+  - id: a1.g.unbestimmter-artikel.ex.02.q3
+    prompt: ___ Elbe ist ein Fluss.
+    answers:
+    - Die
+    explanation_vi: Sông Elbe là duy nhất → die.

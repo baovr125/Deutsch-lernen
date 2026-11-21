@@ -1,0 +1,228 @@
+schema_version: '2.0'
+content_type: exercise-set
+id: a1.m05.l06.ex
+level: A1
+module: a1.m05
+lesson: a1.m05.l06
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+exercises:
+- id: a1.m05.l06.ex.01
+  type: matching
+  skill: vocabulary
+  difficulty: 1
+  objective_refs:
+  - a1.m05.l06.obj1
+  - a1.m05.l06.obj2
+  instructions_vi: Nối câu nói của người gọi ở cột trái với câu đáp của nhân viên phòng khám ở cột phải.
+  items:
+  - id: a1.m05.l06.ex.01.q1
+    pairs:
+    - left: Praxis Dr. Klein, guten Tag!
+      right: Guten Tag, mein Name ist Becker. Ich brauche einen Termin.
+    - left: Ist es dringend oder zur Routinekontrolle?
+      right: Es ist dringend, ich habe starke Zahnschmerzen.
+    - left: Einen Moment bitte, ich schaue gleich nach.
+      right: Ja, vielen Dank, ich warte am Telefon.
+    - left: Geht es heute Nachmittag um 16 Uhr?
+      right: Ja, das ist prima! Um 16 Uhr passt es mir sehr gut.
+    explanation_vi: Các mẫu câu trao đổi cơ bản khi gọi điện đặt lịch tại phòng khám ở Đức.
+- id: a1.m05.l06.ex.02
+  type: multiple-choice
+  skill: vocabulary
+  difficulty: 1
+  objective_refs:
+  - a1.m05.l06.obj1
+  - a1.m05.l06.obj3
+  instructions_vi: Chọn từ vựng đúng để hoàn thành câu.
+  items:
+  - id: a1.m05.l06.ex.02.q1
+    prompt: Guten Tag, ich möchte bitte einen Termin beim Zahnarzt ___.
+    options:
+    - id: a
+      text: warten
+    - id: b
+      text: vereinbaren
+    - id: c
+      text: verpassen
+    - id: d
+      text: vorbereiten
+    answer:
+    - b
+    explanation_vi: '''einen Termin vereinbaren'' là cụm cố định có nghĩa là đặt / sắp xếp một lịch hẹn.'
+  - id: a1.m05.l06.ex.02.q2
+    prompt: Mein Auto steht im ___, deshalb komme ich 15 Minuten später.
+    options:
+    - id: a
+      text: Moment
+    - id: b
+      text: Praxis
+    - id: c
+      text: Telefongespräch
+    - id: d
+      text: Stau
+    answer:
+    - d
+    explanation_vi: '''im Stau stehen'' = bị kẹt xe, tắc đường.'
+  - id: a1.m05.l06.ex.02.q3
+    prompt: Bitte ___ Sie die Verspätung, der Bus ist ausgefallen!
+    options:
+    - id: a
+      text: nachschauen
+    - id: b
+      text: vereinbaren
+    - id: c
+      text: entschuldigen
+    - id: d
+      text: warten
+    answer:
+    - c
+    explanation_vi: '''Bitte entschuldigen Sie...'' = Xin quý vị tha thứ / thứ lỗi cho...'
+  - id: a1.m05.l06.ex.02.q4
+    prompt: Dr. Müller ist ein sehr bekannter ___ in unserer Stadt.
+    options:
+    - id: a
+      text: Termin
+    - id: b
+      text: Praxis
+    - id: c
+      text: Arzt
+    - id: d
+      text: Stau
+    answer:
+    - c
+    explanation_vi: 'Dr. Müller là danh từ chỉ bác sĩ nam: ''der Arzt''.'
+- id: a1.m05.l06.ex.03
+  type: multiple-choice
+  skill: listening
+  difficulty: 2
+  objective_refs:
+  - a1.m05.l06.obj1
+  - a1.m05.l06.obj2
+  instructions_vi: Nghe cuộc gọi giữa anh Pham và phòng khám rồi chọn câu trả lời đúng.
+  stimulus:
+    ref: a1.m05.l06.b6
+  items:
+  - id: a1.m05.l06.ex.03.q1
+    prompt: Warum ruft Herr Pham in der Praxis an?
+    options:
+    - id: a
+      text: Er sucht eine Apotheke.
+    - id: b
+      text: Er möchte einen Termin vereinbaren.
+    - id: c
+      text: Er muss den Termin absagen.
+    - id: d
+      text: Er hat sich verfahren.
+    answer:
+    - b
+    explanation_vi: 'Anh Pham nói rõ: ''Ich möchte gern einen Termin bei Dr. Weber vereinbaren''.'
+  - id: a1.m05.l06.ex.03.q2
+    prompt: Wann findet der Termin statt?
+    options:
+    - id: a
+      text: am Donnerstag um 10:00 Uhr
+    - id: b
+      text: am nächsten Dienstag um 10:30 Uhr
+    - id: c
+      text: am Freitag um 11:30 Uhr
+    - id: d
+      text: heute um 14:00 Uhr
+    answer:
+    - b
+    explanation_vi: 'Cô trợ lý đề xuất: ''Geht es am nächsten Dienstag um zehn Uhr dreißig?'' và anh Pham đồng ý.'
+- id: a1.m05.l06.ex.04
+  type: fill-blank
+  skill: listening
+  difficulty: 2
+  objective_refs:
+  - a1.m05.l06.obj1
+  - a1.m05.l06.obj2
+  instructions_vi: Nghe lại và điền từ thích hợp vào chỗ trống.
+  stimulus:
+    ref: a1.m05.l06.b6
+  items:
+  - id: a1.m05.l06.ex.04.q1
+    prompt: Der Termin ist nicht ___. Die Assistentin schaut im Terminkalender ___.
+    answers:
+    - dringend
+    - nach
+    explanation_vi: 1. dringend (khẩn cấp). 2. nach (tiền tố của nachschauen).
+- id: a1.m05.l06.ex.05
+  type: true-false
+  skill: reading
+  difficulty: 2
+  objective_refs:
+  - a1.m05.l06.obj3
+  - a1.m05.l06.obj4
+  instructions_vi: Đọc câu chuyện của David và xác định các câu sau là Đúng (true) hay Sai (false).
+  stimulus:
+    ref: a1.m05.l06.b7
+  items:
+  - id: a1.m05.l06.ex.05.q1
+    prompt: David geht extra früh los, weil ihm Pünktlichkeit wichtig ist.
+    answer: true
+    explanation_vi: 'Đúng. ''Er weiß: In Deutschland ist Pünktlichkeit sehr wichtig. Deshalb geht er schon um 13:45 Uhr los''.'
+  - id: a1.m05.l06.ex.05.q2
+    prompt: David kommt pünktlich an, weil es keinen Stau gibt.
+    answer: false
+    explanation_vi: Sai. Xe buýt bị kẹt xe 20 phút do tai nạn ('der Bus steht zwanzig Minuten im Stau').
+  - id: a1.m05.l06.ex.05.q3
+    prompt: David ruft sofort in der Praxis an und sagt Bescheid.
+    answer: true
+    explanation_vi: Đúng. Anh ấy gọi điện ngay để báo tin và xin lỗi ('Er ruft sofort in der Praxis an').
+  - id: a1.m05.l06.ex.05.q4
+    prompt: Die Praxis sagt den Termin komplett ab und schickt David nach Hause.
+    answer: false
+    explanation_vi: Sai. Trợ lý trả lời thân thiện rằng họ sẽ đợi anh ('wir warten auf Sie').
+- id: a1.m05.l06.ex.06
+  type: fill-blank
+  skill: speaking
+  difficulty: 2
+  objective_refs:
+  - a1.m05.l06.obj1
+  - a1.m05.l06.obj2
+  instructions_vi: Điền từ thích hợp để hoàn thành câu giao tiếp lịch sự qua điện thoại.
+  items:
+  - id: a1.m05.l06.ex.06.q1
+    prompt: Einen ___ bitte, ich schaue sofort im Kalender ___.
+    answers:
+    - Moment
+    - nach
+    explanation_vi: 'Mẫu câu: ''Einen Moment bitte, ich schaue ... nach'' (nachschauen).'
+- id: a1.m05.l06.ex.07
+  type: word-order
+  skill: writing
+  difficulty: 2
+  objective_refs:
+  - a1.m05.l06.obj3
+  instructions_vi: Sắp xếp các từ bị xáo trộn thành câu xin lỗi vì đến muộn.
+  items:
+  - id: a1.m05.l06.ex.07.q1
+    tokens:
+    - Entschuldigung
+    - Verspätung
+    - die
+    - für
+    answer: Entschuldigung für die Verspätung.
+    prompt_vi: 'Sắp xếp câu xin lỗi chuẩn:'
+    explanation_vi: 'Mẫu câu xin lỗi trang trọng: ''Entschuldigung für die Verspätung!'' (Xin lỗi vì sự chậm trễ).'
+  - id: a1.m05.l06.ex.07.q2
+    tokens:
+    - Auto
+    - Mein
+    - im
+    - steht
+    - Stau
+    answer: Mein Auto steht im Stau.
+    prompt_vi: 'Sắp xếp câu giải thích lý do kẹt xe:'
+    explanation_vi: Chủ ngữ 'Mein Auto' + động từ 'steht' + bổ ngữ 'im Stau'.

@@ -1,0 +1,240 @@
+schema_version: '2.0'
+content_type: lesson
+id: a1.m05.l03
+level: A1
+module: a1.m05
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+  references:
+  - work: Netzwerk neu A1 (Klett)
+    scope: 'Kapitel 5: Familie und Termine'
+    verification: verified
+  notes_vi: 'Sprachhandlungen: über die Familie sprechen, Familienfotos beschreiben, Besitzverhältnisse ausdrücken. Wortschatz: Familie, Haustiere. Grammatik: Possessivartikel im Nominativ und Akkusativ.'
+order: 3
+title_de: Meine Familie und Possessivartikel
+title_vi: Gia đình của tôi và mạo từ sở hữu
+topic_vi: Các thành viên trong gia đình, thú cưng, mạo từ sở hữu ở Nominativ và Akkusativ
+duration_min: 80
+difficulty: 2
+cefr:
+- A1.L1
+- A1.H2
+- A1.SP1
+- A1.S2
+prerequisites:
+- a1.m05.l02
+objectives:
+- id: a1.m05.l03.obj1
+  text_vi: Gọi tên các thành viên trong gia đình và họ hàng kèm mạo từ chính xác.
+  skill: vocabulary
+- id: a1.m05.l03.obj2
+  text_vi: Sử dụng thành thạo các mạo từ sở hữu ở Nominativ (mein, dein, sein, ihr, unser, euer, Ihr).
+  skill: grammar
+- id: a1.m05.l03.obj3
+  text_vi: 'Vận dụng đúng mạo từ sở hữu ở Akkusativ (chỉ giống đực biến đổi: meinen, deinen, seinen...).'
+  skill: grammar
+- id: a1.m05.l03.obj4
+  text_vi: Hiểu bài giới thiệu về gia đình và tự tin mô tả các thành viên trong gia đình mình.
+  skill: listening
+vocabulary_refs:
+- a1.m05.v.familie
+- a1.m05.v.vater
+- a1.m05.v.mutter
+- a1.m05.v.eltern
+- a1.m05.v.sohn
+- a1.m05.v.tochter
+- a1.m05.v.kind
+- a1.m05.v.bruder
+- a1.m05.v.schwester
+- a1.m05.v.geschwister
+- a1.m05.v.grossvater
+- a1.m05.v.opa
+- a1.m05.v.grossmutter
+- a1.m05.v.oma
+- a1.m05.v.grosseltern
+- a1.m05.v.enkel
+- a1.m05.v.enkelin
+- a1.m05.v.baby
+- a1.m05.v.hund
+- a1.m05.v.katze
+- a1.m05.v.haustier
+- a1.m05.v.verheiratet
+review_vocabulary_refs:
+- a1.m04.v.mann
+- a1.m05.v.alltag
+- a1.m05.v.anrufen
+- a1.m05.v.spazierengehen
+grammar_refs:
+- a1.g.possessivartikel
+grammar_focus:
+- ref: a1.g.possessivartikel
+  focus_vi: 'Mạo từ sở hữu (mein, dein, sein, ihr, unser, euer, Ihr) ở Nominativ và Akkusativ (giống đực thêm đuôi -en: meinen...)'
+expression_refs:
+- a1.m05.x.das-ist-mein-meine-er-sie-heisst-er-sie
+- a1.m05.x.hast-du-geschwister-haustiere-ja-ich-hab
+exercise_set_ref: a1.m05.l03.ex
+summary_vi: Bài học giúp bạn gọi tên chuẩn xác các thành viên trong gia đình, sử dụng nhuần nhuyễn các mạo từ sở hữu (mein, dein, sein, ihr, unser, euer, Ihr) ở cả Nominativ và Akkusativ (meinen Bruder) và tự tin chia sẻ về tổ ấm của mình.
+self_check:
+- 'Tôi nhớ chia đuôi mạo từ sở hữu: giống đực/trung không đuôi, giống cái/số nhiều thêm đuôi -e.'
+- 'Tôi nhớ ở Akkusativ chỉ giống đực đổi thành -en: meinen Vater, meinen Bruder.'
+- Tôi biết giới thiệu tên, tuổi và nghề nghiệp của người thân trong gia đình.
+blocks:
+- id: a1.m05.l03.b1
+  kind: explanation
+  title_vi: Giới thiệu bài học
+  body_vi: 'Gia đình luôn là chủ đề trò chuyện ấm áp và gần gũi nhất trong mọi ngôn ngữ.
+
+    Trong bài học này, bạn sẽ:
+
+    - Khám phá từ vựng về cây phả hệ gia đình: *der Vater, die Mutter, die Eltern, der Sohn, die Tochter, die Kinder, der Bruder, die Schwester, die Geschwister, der Opa, die Oma, das Baby...*
+
+    - Học cách nói về quyền sở hữu: "của tôi" (*mein/meine*), "của bạn" (*dein/deine*), "của anh ấy" (*sein/seine*), "của cô ấy" (*ihr/ihre*), "của chúng tôi" (*unser/unsere*), "của các bạn" (*euer/eure*).
+
+    - Nắm vững quy tắc biến đổi mạo từ sở hữu ở cách Akkusativ: chỉ có giống đực thêm đuôi -en (*Ich besuche meinen Bruder*).
+
+    - Tự hào giới thiệu bức ảnh gia đình và thú cưng yêu quý của bạn bằng tiếng Đức.'
+- id: a1.m05.l03.b2
+  kind: explanation
+  title_vi: Danh từ chỉ dùng ở số nhiều (Pluralwörter) trong gia đình
+  skill: grammar
+  body_vi: 'Các danh từ như die Eltern (bố mẹ), die Großeltern (ông bà), die Geschwister (anh chị em ruột) chỉ có hình thức số nhiều. Động từ đi kèm luôn chia ở số nhiều (wohnen, sind, leben) và mạo từ sở hữu luôn có đuôi -e: meine Eltern, deine Geschwister.'
+  examples:
+  - de: Meine Eltern leben in Vietnam.
+    vi: Bố mẹ tôi sống ở Việt Nam.
+  - de: Hast du Geschwister? – Ja, zwei Brüder.
+    vi: Bạn có anh chị em không? – Có, hai người anh trai.
+- id: a1.m05.l03.b3
+  kind: pronunciation
+  title_vi: Biến âm Umlaut khi chuyển sang số nhiều
+  skill: pronunciation
+  body_vi: 'Biến âm Umlaut khi chuyển sang số nhiều
+
+
+    Nhiều danh từ gia đình đổi nguyên âm sang biến âm khi sang số nhiều: der Vater → die Väter [ˈfɛːtɐ], die Mutter → die Mütter [ˈmʏtɐ], der Bruder → die Brüder [ˈbʁyːdɐ], die Tochter → die Töchter [ˈtɔxtɐ].
+
+
+    Luyện tập: Luyện phát âm theo cặp: Vater – Väter, Mutter – Mütter, Bruder – Brüder.'
+  items:
+  - de: der Vater – die Väter
+    vi: người cha – các người cha
+    ipa: '[ˈfaːtɐ] – [ˈfɛːtɐ]'
+  - de: die Mutter – die Mütter
+    vi: người mẹ – các người mẹ
+    ipa: '[ˈmʊtɐ] – [ˈmʏtɐ]'
+  - de: die Tochter – die Töchter
+    vi: con gái – các con gái
+    ipa: '[ˈtɔxtɐ] – [ˈtɔxtɐ]'
+- id: a1.m05.l03.b4
+  kind: examples
+  title_vi: Câu ví dụ
+  examples:
+  - de: Mein Vater ist Arzt und meine Mutter ist Lehrerin.
+    vi: Bố tôi là bác sĩ và mẹ tôi là giáo viên.
+  - de: 'Ich habe zwei Geschwister: einen Bruder und eine Schwester.'
+    vi: 'Tôi có hai người anh chị em: một anh trai và một em gái.'
+  - de: Wie heißt eure Katze? – Unsere Katze heißt Mimi.
+    vi: Con mèo của các bạn tên là gì? – Con mèo của tụi mình tên là Mimi.
+  - de: Herr Weber ruft seinen Sohn an.
+    vi: Ông Weber gọi điện cho con trai của mình.
+  - de: Meine Großeltern sind schon über achtzig Jahre alt.
+    vi: Ông bà tôi đã ngoài 80 tuổi rồi.
+- id: a1.m05.l03.b5
+  kind: listening
+  title_vi: Xem ảnh gia đình và giới thiệu người thân
+  lines:
+  - speaker: Jan
+    de: Laura, ist das deine Familie auf dem Foto?
+    vi: Laura, đây là gia đình bạn trong ảnh phải không?
+  - speaker: Laura
+    de: 'Ja, genau! Das hier sind meine Eltern: mein Vater Michael und meine Mutter Sabine.'
+    vi: 'Đúng rồi! Đây là bố mẹ mình: bố Michael và mẹ Sabine.'
+  - speaker: Jan
+    de: Und wer ist das kleine Mädchen?
+    vi: Còn cô bé nhỏ này là ai thế?
+  - speaker: Laura
+    de: Das ist meine Schwester Emma. Sie ist erst zehn Jahre alt. Und hier ist mein Bruder Felix. Er studiert Informatik in München.
+    vi: Đó là em gái Emma của mình. Em ấy mới mười tuổi thôi. Còn đây là anh trai Felix của mình. Anh ấy học ngành tin học ở München.
+  - speaker: Jan
+    de: Und der Hund da?
+    vi: Thế còn chú chó đằng kia?
+  - speaker: Laura
+    de: Das ist unser Hund Bruno. Er gehört zur Familie!
+    vi: Đó là chú chó Bruno của tụi mình. Nó là một thành viên của gia đình đấy!
+  audio_status: pending-tts
+  situation_vi: Laura cho đồng nghiệp Jan xem bức ảnh gia đình chụp trong kỳ nghỉ.
+  skill: listening
+  audio:
+    speed: normal
+- id: a1.m05.l03.b6
+  kind: reading
+  title_vi: Bức thư ngắn kể về gia đình của David
+  paragraphs:
+  - de: 'Liebe Freunde,
+
+      ich möchte euch meine Familie vorstellen!
+
+      Ich lebe mit meiner Frau Julia và unseren zwei Kindern in Frankfurt. Unser Sohn Leo ist sechs Jahre alt und geht schon in die Schule. Unsere Tochter Sophie ist erst zwei.
+
+      Meine Eltern wohnen auch in Frankfurt, ganz in der Nähe. Mein Vater hilft uns oft và holt Leo von der Schule ab.
+
+      Wir haben auch ein Haustier: eine kleine schwarze Katze. Sie heißt Luna und schläft den ganzen Tag.
+
+      Herzliche Grüße,
+
+      David'
+    vi: 'Các bạn thân mến,
+
+      mình muốn giới thiệu với các bạn về gia đình mình!
+
+      Mình sống cùng vợ là Julia và hai con ở Frankfurt. Con trai Leo của tụi mình sáu tuổi và đã đi học tiểu học rồi. Con gái Sophie của tụi mình mới hai tuổi.
+
+      Bố mẹ mình cũng sống ở Frankfurt, ngay gần nhà. Bố mình thường giúp tụi mình và đón Leo đi học về.
+
+      Tụi mình cũng có một con thú cưng: một chú mèo đen nhỏ. Nó tên là Luna và ngủ suốt cả ngày.
+
+      Thân ái,
+
+      David'
+  text_type_vi: Thư cá nhân (Persönlicher Brief)
+  skill: reading
+  glossary:
+  - de: in der Nähe
+    vi: ở gần đây
+  - de: den ganzen Tag
+    vi: suốt cả ngày
+- id: a1.m05.l03.b7
+  kind: speaking
+  title_vi: Giới thiệu các thành viên trong gia đình bạn
+  skill: speaking
+  task_vi: 'Thực hành giới thiệu gia đình bạn (3–4 người): tên, tuổi, nghề nghiệp hoặc sở thích.'
+  steps_vi:
+  - 'Bố/Mẹ: Mein Vater / Meine Mutter heißt ... Er/Sie ist ... Jahre alt.'
+  - 'Anh/Chị/Em: Ich habe einen Bruder / eine Schwester ...'
+  - 'Thú cưng: Wir haben einen Hund / eine Katze ...'
+  lines:
+  - speaker: A
+    de: Hast du eine große Familie?
+    vi: Gia đình bạn có đông người không?
+  - speaker: B
+    de: Ja, ich habe zwei Brüder und eine Schwester. Mein ältester Bruder wohnt in Berlin.
+    vi: Có, mình có hai anh trai và một em gái. Anh cả của mình sống ở Berlin.
+- id: a1.m05.l03.b8
+  kind: writing
+  title_vi: Viết đoạn văn ngắn giới thiệu về gia đình bạn
+  skill: writing
+  task_vi: Viết đoạn văn 4–5 câu giới thiệu các thành viên trong gia đình bạn, sử dụng các mạo từ sở hữu (mein, meine, meinen...).
+  model:
+    de: Das ist meine Familie. Mein Vater heißt Hung und ist 50 Jahre alt. Meine Mutter heißt Mai. Ich habe einen Bruder. Sein Name ist Nam. Wir haben auch einen Hund. Unser Hund ist sehr freundlich.
+    vi: Đây là gia đình tôi. Bố tôi tên là Hùng và 50 tuổi. Mẹ tôi tên là Mai. Tôi có một người em trai. Tên của em ấy là Nam. Chúng tôi cũng nuôi một chú chó. Chú chó của chúng tôi rất thân thiện.
+  checklist_vi:
+  - Dùng đúng đuôi mạo từ sở hữu (mein cho giống đực/trung, meine cho giống cái/số nhiều).
+  - Nếu có động từ Akkusativ tác động lên danh từ giống đực thì dùng meinen (Ich habe einen Bruder / Ich besuche meinen Bruder).

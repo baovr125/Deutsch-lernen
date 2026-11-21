@@ -1,0 +1,74 @@
+schema_version: "2.0"
+content_type: lesson
+id: a1.m12.l04
+level: A1
+module: a1.m12
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  references:
+    - { work: "Netzwerk neu A1.2 – Stoffverteilungsplan (Klett)", scope: "Kapitel 12, Mục Immer dieses Wetter! (Strategie über einen Text berichten); Landeskunde Reiseziele in Deutschland; Wortschatz Wetter, Himmelsrichtungen; Aussprache f, v, w", verification: verified }
+  tags: ["wetter", "aussprache", "berichten"]
+order: 4
+title_de: "Immer dieses Wetter!"
+title_vi: "Lại cái thời tiết này!"
+duration_min: 50
+difficulty: 2
+objectives:
+  - { id: a1.m12.l04.obj1, text_vi: "Bạn có thể đọc và hiểu dự báo thời tiết ngắn cùng thông tin về phương hướng (Norden, Süden, Osten, Westen).", skill: reading }
+  - { id: a1.m12.l04.obj2, text_vi: "Bạn có thể phát âm đúng f, v, w.", skill: pronunciation }
+  - { id: a1.m12.l04.obj3, text_vi: "Bạn có thể viết 3–4 câu tóm tắt thời tiết hoặc chuyến đi để báo cáo lại cho người khác.", skill: writing }
+vocabulary_refs: [a1.m12.v.wetter, a1.m12.v.sonne, a1.m12.v.regen, a1.m12.v.schnee, a1.m12.v.wolke, a1.m12.v.warm, a1.m12.v.kalt, a1.m12.v.heiss, a1.m12.v.scheinen, a1.m12.v.regnen, a1.m12.v.norden, a1.m12.v.sueden, a1.m12.v.osten, a1.m12.v.westen]
+grammar_refs: []
+expression_refs: [a1.m12.x.wetter-fragen, a1.m12.x.wetter-beschreiben, a1.m12.x.postkarte]
+exercise_set_ref: a1.m12.l04.ex
+blocks:
+  - id: a1.m12.l04.b1
+    kind: explanation
+    skill: vocabulary
+    title_vi: "Bắt đầu: thời tiết và phương hướng"
+    body_vi: |
+      Hỏi: **Wie ist das Wetter?** Trả lời: **Es ist warm / kalt / heiß. Die Sonne scheint. Es regnet. Es gibt viele Wolken.**
+      Phương hướng: **im Norden, im Süden, im Osten, im Westen** (ở phía bắc, nam, đông, tây).
+      **Chiến lược khi báo cáo lại một văn bản:** đọc, gạch ba từ khóa, rồi viết 3–4 câu bằng lời của mình.
+  - id: a1.m12.l04.b2
+    kind: reading
+    skill: reading
+    title_vi: "Dự báo thời tiết"
+    paragraphs:
+      - { de: "Das Wetter morgen: Im Norden regnet es und es ist kalt.", vi: "Thời tiết ngày mai: ở phía bắc mưa và lạnh." }
+      - { de: "Im Süden scheint die Sonne und es ist warm.", vi: "Ở phía nam nắng và ấm." }
+      - { de: "Im Osten und im Westen gibt es viele Wolken.", vi: "Ở phía đông và phía tây có nhiều mây." }
+  - id: a1.m12.l04.b3
+    kind: dialogue
+    skill: speaking
+    title_vi: "Hội thoại: Nhắn tin hỏi thời tiết"
+    lines:
+      - { speaker: "Jana", de: "Wie ist das Wetter bei euch im Norden?", vi: "Ở chỗ các bạn phía bắc thời tiết thế nào?" }
+      - { speaker: "Paul", de: "Immer dieses Wetter! Es regnet schon drei Tage.", vi: "Lại cái thời tiết này! Mưa đã ba ngày rồi." }
+      - { speaker: "Jana", de: "Bei uns im Süden scheint die Sonne. Kommt doch zu uns!", vi: "Ở chỗ mình phía nam thì nắng. Hay là đến chỗ mình đi!" }
+      - { speaker: "Paul", de: "Gute Idee! Am Wochenende fahren wir los.", vi: "Ý hay! Cuối tuần chúng mình lên đường." }
+  - id: a1.m12.l04.b4
+    kind: pronunciation
+    skill: pronunciation
+    title_vi: "Phát âm: f, v, w"
+    body_vi: |
+      • **f** luôn đọc /f/: *Fahrkarte, Flugzeug.* • **v** trong từ gốc Đức thường đọc /f/: *Vater, viel.* • **w** luôn đọc /v/: *Wetter, Wolke, Westen.* • **v** trong từ mượn nước ngoài đọc /v/: *Vase, Visum.*
+      Mẹo: **Wetter** bắt đầu bằng /v/, **Vater** bắt đầu bằng /f/.
+    items:
+      - { de: "Fahrkarte", ipa: "/ˈfaːɐ̯ˌkaʁtə/", note_vi: "f → /f/" }
+      - { de: "Vater", ipa: "/ˈfaːtɐ/", note_vi: "v ở từ gốc Đức → /f/" }
+      - { de: "Wetter", ipa: "/ˈvɛtɐ/", note_vi: "w → /v/" }
+      - { de: "Wolke", ipa: "/ˈvɔlkə/", note_vi: "w → /v/" }
+      - { de: "Westen", ipa: "/ˈvɛstn̩/", note_vi: "w → /v/" }
+  - id: a1.m12.l04.b5
+    kind: culture
+    skill: reading
+    title_vi: "Landeskunde: Reiseziele in Deutschland"
+    body_vi: |
+      **Im Norden:** Nordsee und Ostsee, Hamburg. **Im Süden:** Alpen und München. **Im Osten:** Dresden, Berlin. **Im Westen:** Rhein và Köln. Nhiều người Đức nghỉ hè ở biển hoặc ở vùng núi, và đi thành phố vào cuối tuần.

@@ -1,0 +1,197 @@
+schema_version: '2.0'
+content_type: grammar-topic
+id: a1.g.ja-nein-frage
+level: A1
+introduced_in: a1.m02
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+  references:
+  - work: Netzwerk neu A1 (Klett)
+    scope: 'Kapitel 2: Gehen wir ins Kino?'
+    verification: verified
+  notes_vi: 'Tương ứng Grammatik „Ja/Nein-Frage“ và Aussprache „Satzmelodie: Fragen und Antworten“ của Kapitel 2.'
+introduced_in_lesson: a1.m02.l03
+title_de: Die Ja/Nein-Frage
+title_vi: Câu hỏi có/không (Ja/Nein-Frage)
+summary_vi: '**Câu hỏi có/không** là câu hỏi mà người nghe trả lời bằng **ja** (có) hoặc **nein** (không).
+
+
+  **Cấu tạo:** đưa **động từ chia lên vị trí 1** (đầu câu), chủ ngữ đứng ngay sau:
+
+
+  | Vị trí 1 | Vị trí 2 | Phần còn lại |
+
+  |---|---|---|
+
+  | **Kommst** | du | aus Vietnam? |
+
+  | **Spielen** | Sie | Tennis? |
+
+  | **Gehen** | wir | ins Kino? |
+
+
+  **Ngữ điệu:** giọng **đi lên** ở cuối câu (↗) – khác với câu hỏi W- (đi xuống ↘).
+
+
+  **Trả lời:** *Ja, …* hoặc *Nein, …* (thường kèm câu đầy đủ hoặc thông tin đúng).
+
+  *Kommst du aus Japan? – Nein, ich komme aus Vietnam.*
+
+
+  **Gợi ý rủ rê:** *Gehen wir …?* (Chúng ta đi … nhé?) cũng là câu hỏi có/không với wir.'
+usage_vi: Dùng để xác nhận thông tin, hỏi sở thích (Kochst du gern?) và rủ rê (Gehen wir ins Café?).
+objectives:
+- id: a1.g.ja-nein-frage.obj1
+  text_vi: Lập và trả lời câu hỏi có/không.
+  skill: grammar
+rules:
+- id: a1.g.ja-nein-frage.r1
+  title_vi: Động từ ở vị trí 1
+  body_vi: Động từ chia đứng ở vị trí 1, chủ ngữ ngay sau động từ.
+  examples:
+  - de: Wohnst du in Berlin?
+    vi: Bạn sống ở Berlin à?
+  - de: Sprechen Sie Englisch?
+    vi: Ông/Bà có nói tiếng Anh không?
+- id: a1.g.ja-nein-frage.r2
+  title_vi: Lên giọng ở cuối câu
+  body_vi: Câu hỏi có/không lên giọng ở cuối câu.
+  examples:
+  - de: Kochst du gern? ↗
+    vi: Bạn có thích nấu ăn không?
+- id: a1.g.ja-nein-frage.r3
+  title_vi: Trả lời ja hoặc nein
+  body_vi: Trả lời bằng ja hoặc nein, thường thêm câu đầy đủ.
+  examples:
+  - de: Spielst du Fußball? – Ja, sehr gern.
+    vi: Bạn có chơi bóng đá không? – Có, rất thích.
+  - de: Bist du Lehrerin? – Nein, ich bin Ärztin.
+    vi: Bạn là giáo viên à? – Không, mình là bác sĩ.
+sentence_structures:
+- pattern: Verb (1) + Subjekt (2) + …? ↗
+  example:
+    de: Tanzt du gern?
+    vi: Bạn có thích nhảy không?
+- pattern: Gehen wir + ins/in … ? ↗
+  example:
+    de: Gehen wir am Freitag ins Theater?
+    vi: Thứ Sáu mình đi nhà hát nhé?
+tables:
+- title_vi: So sánh ba loại câu
+  header:
+  - Loại câu
+  - Vị trí 1
+  - Vị trí 2
+  - Ngữ điệu
+  rows:
+  - - Câu kể
+    - Du
+    - spielst Tennis.
+    - ↘
+  - - Câu hỏi W-
+    - Was
+    - spielst du?
+    - ↘
+  - - Câu hỏi có/không
+    - Spielst
+    - du Tennis?
+    - ↗
+examples:
+- de: Kommst du aus Vietnam? – Ja.
+  vi: Bạn đến từ Việt Nam à? – Ừ.
+- de: Gehen wir ins Kino? – Nein, das geht leider nicht.
+  vi: Mình đi xem phim nhé? – Không được rồi, tiếc quá.
+- de: Arbeitest du am Samstag? – Nein, am Samstag habe ich frei.
+  vi: Thứ Bảy bạn có làm không? – Không, thứ Bảy mình được nghỉ.
+- de: Seid ihr Studenten? – Ja, wir studieren in Wien.
+  vi: Các bạn là sinh viên à? – Ừ, chúng mình học ở Viên.
+common_mistakes:
+- wrong: Du kommst aus Vietnam? (khi viết)
+  right: Kommst du aus Vietnam?
+  explanation_vi: Văn nói có thể chỉ lên giọng, nhưng câu hỏi chuẩn phải đưa động từ lên đầu.
+- wrong: Kommst du aus Vietnam? ↘ (xuống giọng)
+  right: Kommst du aus Vietnam? ↗
+  explanation_vi: Câu hỏi có/không phải lên giọng ở cuối.
+- wrong: Spielen du Tennis?
+  right: Spielst du Tennis?
+  explanation_vi: Động từ vẫn phải chia theo chủ ngữ, kể cả khi đứng đầu câu.
+comparison_vi: 'So với câu hỏi W-: câu hỏi W- có từ để hỏi ở vị trí 1 và xuống giọng; câu hỏi có/không có ĐỘNG TỪ ở vị trí 1 và lên giọng. So với tiếng Anh: tiếng Anh cần “do/does” (Do you play?), tiếng Đức chỉ cần đảo động từ (Spielst du?).'
+vietnamese_contrast_vi: 'Tiếng Việt tạo câu hỏi có/không bằng từ ở cuối câu: “… không?”, “… à?”, “… phải không?”. Tiếng Đức không có các từ này – thay vào đó đổi trật tự từ (động từ lên đầu) và lên giọng.'
+recap_vi: 'Câu hỏi có/không: động từ chia ở vị trí 1, chủ ngữ ở vị trí 2, lên giọng cuối câu. Trả lời ja/nein + câu đầy đủ.'
+next_level_note_vi: Trả lời “doch” cho câu hỏi phủ định (Kommst du nicht? – Doch!) sẽ học sau.
+prerequisites:
+- g-a1-w-fragen
+- g-a1-verben-praesens
+exercises:
+- id: a1.g.ja-nein-frage.ex.01
+  type: word-order
+  skill: grammar
+  difficulty: 1
+  objective_refs:
+  - a1.g.ja-nein-frage.r1
+  - a1.g.ja-nein-frage.obj1
+  instructions_vi: Sắp xếp thành câu hỏi có/không.
+  items:
+  - id: a1.g.ja-nein-frage.ex.01.q1
+    tokens:
+    - du
+    - gern
+    - Kochst
+    answer: Kochst du gern?
+    explanation_vi: Động từ (Kochst) đứng đầu.
+  - id: a1.g.ja-nein-frage.ex.01.q2
+    tokens:
+    - ins
+    - wir
+    - Kino
+    - Gehen
+    answer: Gehen wir ins Kino?
+    explanation_vi: Gehen (1) – wir (2) – ins Kino.
+  - id: a1.g.ja-nein-frage.ex.01.q3
+    tokens:
+    - Englisch
+    - Sie
+    - Sprechen
+    answer: Sprechen Sie Englisch?
+    explanation_vi: Sprechen (1) – Sie (2) – Englisch.
+- id: a1.g.ja-nein-frage.ex.02
+  type: multiple-choice
+  skill: grammar
+  difficulty: 1
+  objective_refs:
+  - a1.g.ja-nein-frage.r2
+  - a1.g.ja-nein-frage.r3
+  - a1.g.ja-nein-frage.obj1
+  instructions_vi: Chọn đáp án đúng.
+  items:
+  - id: a1.g.ja-nein-frage.ex.02.q1
+    prompt: Ngữ điệu cuối câu „Tanzt du gern?“
+    options:
+    - id: a
+      text: ↗ lên giọng
+    - id: b
+      text: ↘ xuống giọng
+    answer:
+    - a
+    explanation_vi: Câu hỏi có/không lên giọng.
+  - id: a1.g.ja-nein-frage.ex.02.q2
+    prompt: '„Bist du Student?“ – Bạn là kỹ sư. Bạn trả lời:'
+    options:
+    - id: a
+      text: Ja, ich bin Ingenieur.
+    - id: b
+      text: Ja, ich bin Student.
+    - id: c
+      text: Nein, ich bin Ingenieur.
+    answer:
+    - c
+    explanation_vi: Không phải sinh viên → Nein + thông tin đúng.

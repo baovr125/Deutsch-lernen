@@ -1,0 +1,78 @@
+schema_version: "2.0"
+content_type: lesson
+id: a1.p4.l02
+level: A1
+module: a1.p4
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  references:
+    - { work: "Netzwerk neu A1.2 – Stoffverteilungsplan (Klett)", scope: "Plattform 4: Landeskunde – Eine Reise durch D-A-CH", verification: verified }
+    - { work: "Dự án Deutsch-lernen", scope: "Bài đọc và hội thoại hoàn toàn tự soạn", verification: proposed }
+  tags: ["landeskunde", "reisen"]
+order: 2
+title_de: "Landeskunde: Eine Reise durch D-A-CH"
+title_vi: "Văn hóa: Một chuyến đi qua Đức, Áo, Thụy Sĩ"
+topic_vi: "Địa lý cơ bản và điểm đến ở D-A-CH"
+duration_min: 60
+difficulty: 1
+objectives:
+  - { id: a1.p4.l02.obj1, text_vi: "Dùng các từ địa lý cơ bản: thủ đô, sông, biên giới, tiểu bang, đảo, và các phương hướng.", skill: vocabulary }
+  - { id: a1.p4.l02.obj2, text_vi: "Hiểu bài đọc và bản tin du lịch ngắn về Đức, Áo, Thụy Sĩ.", skill: reading }
+  - { id: a1.p4.l02.obj3, text_vi: "Nói và viết ngắn về một điểm đến bạn muốn ghé thăm.", skill: speaking }
+vocabulary_refs: [a1.p4.v.hauptstadt, a1.p4.v.fluss, a1.p4.v.grenze, a1.p4.v.bundesland, a1.p4.v.insel]
+review_vocabulary_refs: [a1.m12.v.norden, a1.m12.v.sueden, a1.m12.v.meer, a1.m12.v.berg]
+grammar_refs: []
+expression_refs: []
+exercise_set_ref: a1.p4.l02.ex
+blocks:
+  - id: a1.p4.l02.b1
+    kind: explanation
+    title_vi: "Giới thiệu bài học"
+    body_vi: |
+      **D-A-CH** là cách viết gọn cho **D**eutschland, **A**ustria (Österreich) và die Schweiz (**CH**). Bài này đưa bạn đi qua ba nước: địa lý, thành phố và những điều nên làm khi du lịch.
+  - id: a1.p4.l02.b2
+    kind: reading
+    skill: reading
+    title_vi: "Đọc: Ba nước, một chuyến đi"
+    text_type_vi: "Bài giới thiệu văn hóa"
+    paragraphs:
+      - { de: "Deutschland, Österreich und die Schweiz heißen zusammen D-A-CH. Die Hauptstadt von Deutschland ist Berlin, die Hauptstadt von Österreich ist Wien. Deutschland hat sechzehn Bundesländer. Im Norden gibt es die Nordsee, die Ostsee und viele Inseln, zum Beispiel Rügen. Im Süden liegen die Alpen. Dort kann man im Winter Ski fahren und im Sommer wandern. Die Donau fließt durch Wien, und der Rhein fließt durch Köln. In der Schweiz spricht man Deutsch, Französisch, Italienisch und Rätoromanisch.", vi: "Đức, Áo và Thụy Sĩ gọi chung là D-A-CH. Thủ đô của nước Đức là Berlin, thủ đô của nước Áo là Wien. Đức có mười sáu tiểu bang. Ở phía bắc có Biển Bắc, Biển Baltic và nhiều hòn đảo, ví dụ Rügen. Ở phía nam là dãy Alpen. Ở đó mùa đông có thể trượt tuyết và mùa hè có thể đi bộ đường dài. Sông Donau chảy qua Wien còn sông Rhein chảy qua Köln. Ở Thụy Sĩ người ta nói tiếng Đức, Pháp, Ý và Rätoromanisch." }
+    glossary:
+      - { de: "wandern", vi: "đi bộ đường dài" }
+      - { de: "fließen", vi: "chảy" }
+      - { de: "die Donau", vi: "sông Donau (Danube)" }
+  - id: a1.p4.l02.b3
+    kind: listening
+    skill: listening
+    title_vi: "Nghe: Gợi ý du lịch của tuần"
+    audio_status: pending-tts
+    situation_vi: "Một bản tin ngắn trên đài gợi ý điểm đến."
+    lines:
+      - { speaker: "Radio", de: "Der Reisetipp der Woche: Fahren Sie nach Wien!", vi: "Gợi ý du lịch của tuần: Hãy đến Wien!" }
+      - { speaker: "Radio", de: "In der Stadt kann man das Schloss besichtigen und im Café Kuchen essen.", vi: "Trong thành phố có thể tham quan lâu đài và ăn bánh ở quán cà phê." }
+      - { speaker: "Radio", de: "Im Sommer ist es warm, im Winter ist es kalt. Die Donau ist nicht weit.", vi: "Mùa hè trời ấm, mùa đông trời lạnh. Sông Donau không xa." }
+  - id: a1.p4.l02.b4
+    kind: speaking
+    skill: speaking
+    title_vi: "Nói: Một điểm đến mơ ước"
+    task_vi: "Nói 3–4 câu: bạn muốn đến thành phố hay vùng nào ở D-A-CH, ở đó nằm ở phía nào, và bạn muốn làm gì."
+    steps_vi: ["Nêu nơi muốn đến (Ich möchte nach … fahren).", "Nói nơi đó ở phía nào (im Norden/Süden).", "Dùng man kann … để nêu một điều làm được.", "Nêu thời điểm (im Sommer/Winter)."]
+    lines:
+      - { speaker: "Beispiel", de: "Ich möchte nach München fahren. München liegt im Süden. Man kann dort die Alpen sehen. Im Winter kann man Ski fahren.", vi: "Tôi muốn đến München. München nằm ở phía nam. Ở đó có thể nhìn thấy dãy Alpen. Mùa đông có thể trượt tuyết." }
+  - id: a1.p4.l02.b5
+    kind: writing
+    skill: writing
+    title_vi: "Viết: Bưu thiếp từ một thành phố"
+    task_vi: "Viết bưu thiếp 3–4 câu cho người thân từ một thành phố D-A-CH: bạn ở đâu, thời tiết và một điều bạn đã làm."
+    model: { de: "Liebe Mama, liebe Grüße aus Wien! Das Wetter ist schön und die Sonne scheint. Wir haben das Schloss besichtigt. Es war toll! Bis bald, Lan", vi: "Mẹ thân mến, gửi những lời thân ái từ Wien! Thời tiết đẹp và trời nắng. Chúng con đã tham quan lâu đài. Tuyệt lắm! Hẹn sớm gặp lại, Lan" }
+    checklist_vi: ["Có lời chào và lời kết.", "Nêu thành phố và thời tiết.", "Có một câu Perfekt đúng.", "Chính tả đúng."]
+summary_vi: "Bạn biết vài điều cơ bản về địa lý D-A-CH và có thể nói, viết ngắn về một điểm đến."
+self_check:
+  - "Tôi gọi được thủ đô của Đức và Áo."
+  - "Tôi dùng im Norden/im Süden đúng."

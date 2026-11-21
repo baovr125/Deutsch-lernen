@@ -1,0 +1,249 @@
+schema_version: '2.0'
+content_type: exercise-set
+id: a1.m00.l04.ex
+level: A1
+module: a1.m00
+lesson: a1.m00.l04
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+exercises:
+- id: a1.m00.l04.ex.01
+  type: multiple-choice
+  skill: vocabulary
+  difficulty: 1
+  objective_refs:
+  - a1.m00.l04.obj1
+  - a1.m00.l04.obj2
+  instructions_vi: Bạn nói gì trong tình huống này?
+  items:
+  - id: a1.m00.l04.ex.01.q1
+    prompt: Bạn va vào một người trên phố.
+    options:
+    - id: a
+      text: Danke!
+    - id: b
+      text: Entschuldigung!
+    - id: c
+      text: Tschüs!
+    answer:
+    - b
+    explanation_vi: Entschuldigung = xin lỗi.
+  - id: a1.m00.l04.ex.01.q2
+    prompt: Ai đó nói “Danke!” với bạn.
+    options:
+    - id: a
+      text: Bitte!
+    - id: b
+      text: Hallo!
+    - id: c
+      text: Danke!
+    answer:
+    - a
+    explanation_vi: Đáp lại lời cảm ơn bằng Bitte! (không có gì).
+  - id: a1.m00.l04.ex.01.q3
+    prompt: Bạn không nghe rõ tên của người đối diện.
+    options:
+    - id: a
+      text: Tschüs!
+    - id: b
+      text: Wie bitte?
+    - id: c
+      text: Ja.
+    answer:
+    - b
+    explanation_vi: Wie bitte? = Xin lỗi, gì cơ ạ?
+  - id: a1.m00.l04.ex.01.q4
+    prompt: Bạn nghe rõ nhưng không hiểu nghĩa.
+    options:
+    - id: a
+      text: Danke!
+    - id: b
+      text: Nein, danke.
+    - id: c
+      text: Ich verstehe nicht.
+    answer:
+    - c
+    explanation_vi: Ich verstehe nicht = Tôi không hiểu.
+- id: a1.m00.l04.ex.02
+  type: true-false
+  skill: listening
+  difficulty: 1
+  objective_refs:
+  - a1.m00.l04.obj1
+  - a1.m00.l04.obj2
+  instructions_vi: Nghe ba tình huống. Đúng hay sai?
+  stimulus:
+    ref: a1.m00.l04.b4
+  items:
+  - id: a1.m00.l04.ex.02.q1
+    prompt: Ở quán cà phê, khách gọi một ly cà phê.
+    answer: false
+    explanation_vi: Khách gọi Tee (trà).
+  - id: a1.m00.l04.ex.02.q2
+    prompt: Người đàn ông xin lỗi.
+    answer: true
+    explanation_vi: Oh, Entschuldigung!
+  - id: a1.m00.l04.ex.02.q3
+    prompt: Minh hỏi lại vì không nghe rõ.
+    answer: true
+    explanation_vi: 'Minh nói: Wie bitte?'
+- id: a1.m00.l04.ex.03
+  type: matching
+  skill: vocabulary
+  difficulty: 1
+  objective_refs:
+  - a1.m00.l04.obj1
+  instructions_vi: Nối từ tiếng Đức với nghĩa tiếng Việt.
+  items:
+  - id: a1.m00.l04.ex.03.q1
+    pairs:
+    - left: Hallo!
+      right: Xin chào!
+    - left: Tschüs!
+      right: Tạm biệt!
+    - left: Danke!
+      right: Cảm ơn!
+    - left: Ja.
+      right: Vâng / Có.
+    - left: Nein.
+      right: Không.
+    explanation_vi: Năm từ giao tiếp cơ bản nhất.
+- id: a1.m00.l04.ex.04
+  type: multiple-choice
+  skill: reading
+  difficulty: 1
+  objective_refs:
+  - a1.m00.l04.obj1
+  instructions_vi: Đọc tin nhắn và trả lời.
+  stimulus:
+    ref: a1.m00.l04.b5
+  items:
+  - id: a1.m00.l04.ex.04.q1
+    prompt: Mai trả lời thế nào?
+    options:
+    - id: a
+      text: Mai đồng ý.
+    - id: b
+      text: Mai từ chối.
+    - id: c
+      text: Mai không hiểu.
+    answer:
+    - a
+    explanation_vi: Ja, super! = Ừ, tuyệt!
+  - id: a1.m00.l04.ex.04.q2
+    prompt: Tom đề nghị gì?
+    options:
+    - id: a
+      text: Trà
+    - id: b
+      text: Taxi
+    - id: c
+      text: Pizza và cà phê
+    answer:
+    - c
+    explanation_vi: Pizza und Kaffee heute?
+- id: a1.m00.l04.ex.05
+  type: fill-blank
+  skill: vocabulary
+  difficulty: 1
+  objective_refs:
+  - a1.m00.l04.obj1
+  - a1.m00.l04.obj2
+  instructions_vi: Hoàn thành hội thoại.
+  items:
+  - id: a1.m00.l04.ex.05.q1
+    prompt: – Ein Kaffee, ___! – Bitte! – ___!
+    answers:
+    - bitte
+    - Danke
+    explanation_vi: Gọi đồ dùng bitte; nhận đồ thì nói Danke.
+  - id: a1.m00.l04.ex.05.q2
+    prompt: – Ich heiße Schwarzenberger. – Wie ___?
+    answers:
+    - bitte
+    explanation_vi: Wie bitte? = nói lại giúp.
+  - id: a1.m00.l04.ex.05.q3
+    prompt: – Ein Tee? – ___, ein Kaffee, bitte.
+    answers:
+    - Nein
+    explanation_vi: Từ chối trà → Nein.
+- id: a1.m00.l04.ex.06
+  type: multiple-choice
+  skill: grammar
+  difficulty: 1
+  objective_refs:
+  - a1.m00.l04.obj3
+  instructions_vi: Áp dụng 5 đặc điểm cơ bản của câu tiếng Đức. Chọn câu đúng.
+  items:
+  - id: a1.m00.l04.ex.06.q1
+    prompt: Câu nào đúng?
+    options:
+    - id: a
+      text: Ich Lan bin.
+    - id: b
+      text: Ich Lan.
+    - id: c
+      text: Ich bin Lan.
+    answer:
+    - c
+    explanation_vi: Câu bắt buộc có động từ, và động từ ở vị trí 2.
+  - id: a1.m00.l04.ex.06.q2
+    prompt: Câu nào đúng?
+    options:
+    - id: a
+      text: Das ist der tee.
+    - id: b
+      text: Das ist der Tee.
+    - id: c
+      text: das ist der Tee.
+    answer:
+    - b
+    explanation_vi: Đầu câu và danh từ (Tee) viết hoa.
+- id: a1.m00.l04.ex.07
+  type: speaking-practice
+  skill: speaking
+  difficulty: 1
+  objective_refs:
+  - a1.m00.l04.obj1
+  - a1.m00.l04.obj2
+  instructions_vi: Đóng vai tình huống ở quán cà phê (phần Nói). Bạn đọc vai khách; nếu học một mình, hãy đọc cả hai vai.
+  grading: self
+  rubric:
+  - criterion_vi: 'Dùng đúng: Ein …, bitte! / Wie bitte? / Danke! / Tschüs!'
+    points: 3
+  - criterion_vi: Phát âm rõ tschüs [tʃyːs] và đuôi -e trong danke, bitte
+    points: 1
+  items:
+  - id: a1.m00.l04.ex.07.q1
+    prompt_vi: Gọi đồ, hỏi lại, cảm ơn, chào.
+    model_answer:
+      de: Hallo! Ein Kaffee, bitte! – Wie bitte? – Nein, danke. – Danke! Tschüs!
+    explanation_vi: So sánh với hội thoại mẫu ở phần Nói.
+- id: a1.m00.l04.ex.08
+  type: writing-practice
+  skill: writing
+  difficulty: 1
+  objective_refs:
+  - a1.m00.l04.obj1
+  instructions_vi: Viết tin nhắn trả lời Tom (xem phần Viết).
+  grading: self
+  rubric:
+  - criterion_vi: Có lời chào, ja/nein, danke và lời tạm biệt
+    points: 3
+  - criterion_vi: Chính tả đúng
+    points: 1
+  items:
+  - id: a1.m00.l04.ex.08.q1
+    prompt_vi: 'Tom: Hallo! Pizza und Kaffee heute?'
+    model_answer:
+      de: Hallo Tom! Ja, super! Danke! Tschüs, Lan
+    explanation_vi: 'Nếu từ chối: Hallo Tom! Nein, danke. Tschüs, Lan'

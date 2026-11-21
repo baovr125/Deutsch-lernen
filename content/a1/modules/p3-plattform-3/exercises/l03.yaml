@@ -1,0 +1,161 @@
+schema_version: "2.0"
+content_type: exercise-set
+id: a1.p3.l03.ex
+level: A1
+module: a1.p3
+lesson: a1.p3.l03
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+exercises:
+  - id: a1.p3.l03.ex.01
+    type: multiple-choice
+    skill: reading
+    difficulty: 2
+    objective_refs: [a1.p3.l03.obj1]
+    instructions_vi: "Lesen Teil 2: đọc ba quảng cáo (khối đọc ở trên) và chọn đáp án đúng."
+    stimulus: { ref: a1.p3.l03.b2 }
+    items:
+      - id: a1.p3.l03.ex.01.q1
+        prompt: "Eine Studentin sucht ein günstiges Zimmer. Welche Anzeige passt?"
+        options: [{ id: a, text: "Anzeige A" }, { id: b, text: "Anzeige B" }, { id: c, text: "Anzeige C" }]
+        answer: [a]
+        explanation_vi: "A là phòng trong WG giá 350 euro, phù hợp sinh viên."
+      - id: a1.p3.l03.ex.01.q2
+        prompt: "Wann kann man das Zimmer in Anzeige A besichtigen?"
+        options: [{ id: a, text: "Am Samstag um 14 Uhr." }, { id: b, text: "Am Sonntag." }, { id: c, text: "Ab 18 Uhr." }]
+        answer: [a]
+        explanation_vi: "„Besichtigung: Samstag, 14 Uhr.“"
+      - id: a1.p3.l03.ex.01.q3
+        prompt: "Was kostet die Wohnung in Anzeige B?"
+        options: [{ id: a, text: "350 Euro." }, { id: b, text: "620 Euro kalt." }, { id: c, text: "55 Euro." }]
+        answer: [b]
+        explanation_vi: "„620 Euro kalt“ (chưa gồm chi phí phụ)."
+      - id: a1.p3.l03.ex.01.q4
+        prompt: "Wo kann man eine Lampe kaufen?"
+        options: [{ id: a, text: "In Anzeige A." }, { id: b, text: "In Anzeige B." }, { id: c, text: "In Anzeige C." }]
+        answer: [c]
+        explanation_vi: "Cửa hàng nội thất Rieger bán sofa, tủ, đèn."
+      - id: a1.p3.l03.ex.01.q5
+        prompt: "Wann soll man bei Anzeige B anrufen?"
+        options: [{ id: a, text: "Vor 18 Uhr." }, { id: b, text: "Ab 18 Uhr." }, { id: c, text: "Am Samstag." }]
+        answer: [b]
+        explanation_vi: "„Anruf bitte ab 18 Uhr.“"
+  - id: a1.p3.l03.ex.02
+    type: true-false
+    skill: reading
+    difficulty: 2
+    objective_refs: [a1.p3.l03.obj1]
+    instructions_vi: "Chọn Richtig hoặc Falsch theo ba quảng cáo."
+    stimulus: { ref: a1.p3.l03.b2 }
+    items:
+      - { id: a1.p3.l03.ex.02.q1, prompt: "In Anzeige A ist das Zimmer nicht möbliert.", answer: false, explanation_vi: "A ghi „möbliert“ (có nội thất)." }
+      - { id: a1.p3.l03.ex.02.q2, prompt: "In der Wohnung in Anzeige B darf man rauchen.", answer: false, explanation_vi: "B: „Nur Nichtraucher“." }
+      - { id: a1.p3.l03.ex.02.q3, prompt: "Das Möbelhaus ist sonntags geöffnet.", answer: false, explanation_vi: "C: Montag bis Samstag." }
+  - id: a1.p3.l03.ex.03
+    type: multiple-choice
+    skill: listening
+    difficulty: 2
+    objective_refs: [a1.p3.l03.obj2]
+    instructions_vi: "Hören Teil 3: nghe ba tin nhắn thoại (khối nghe ở trên) và chọn đáp án."
+    stimulus: { ref: a1.p3.l03.b3 }
+    items:
+      - id: a1.p3.l03.ex.03.q1
+        prompt: "Wann kommt der Techniker?"
+        options: [{ id: a, text: "Heute." }, { id: b, text: "Morgen um neun Uhr." }, { id: c, text: "Am Montag." }]
+        answer: [b]
+        explanation_vi: "„Der Techniker kommt morgen um neun Uhr.“"
+      - id: a1.p3.l03.ex.03.q2
+        prompt: "Was soll Herr Tran tun?"
+        options: [{ id: a, text: "Zu Hause bleiben." }, { id: b, text: "Ins Büro gehen." }, { id: c, text: "Frau Lehmann anrufen." }]
+        answer: [a]
+        explanation_vi: "„Bitte seien Sie zu Hause.“"
+      - id: a1.p3.l03.ex.03.q3
+        prompt: "Warum ruft die Praxis an?"
+        options: [{ id: a, text: "Der Termin am Montag ist nicht möglich." }, { id: b, text: "Das Medikament ist fertig." }, { id: c, text: "Der Arzt ist krank." }]
+        answer: [a]
+        explanation_vi: "„Ihr Termin am Montag ist leider nicht möglich.“"
+      - id: a1.p3.l03.ex.03.q4
+        prompt: "Was soll Herr Aydin machen?"
+        options: [{ id: a, text: "Nichts." }, { id: b, text: "Die Praxis anrufen." }, { id: c, text: "Zum Arzt gehen." }]
+        answer: [b]
+        explanation_vi: "„Bitte rufen Sie uns an und machen Sie einen neuen Termin.“"
+      - id: a1.p3.l03.ex.03.q5
+        prompt: "Was soll Paul mitbringen?"
+        options: [{ id: a, text: "Kartons." }, { id: b, text: "Tee." }, { id: c, text: "Lampen." }]
+        answer: [a]
+        explanation_vi: "„Bring bitte Kartons mit!“"
+  - id: a1.p3.l03.ex.04
+    type: true-false
+    skill: listening
+    difficulty: 1
+    objective_refs: [a1.p3.l03.obj2]
+    instructions_vi: "Chọn Richtig hoặc Falsch theo ba tin nhắn."
+    stimulus: { ref: a1.p3.l03.b3 }
+    items:
+      - { id: a1.p3.l03.ex.04.q1, prompt: "Lea zieht am Samstag um.", answer: true, explanation_vi: "„Ich ziehe am Samstag um.“" }
+      - { id: a1.p3.l03.ex.04.q2, prompt: "Der Termin in der Praxis ist am Dienstag.", answer: false, explanation_vi: "Lịch hẹn là thứ Hai (Montag)." }
+      - { id: a1.p3.l03.ex.04.q3, prompt: "Die Hausverwaltung ruft an.", answer: true, explanation_vi: "Bà Lehmann gọi từ Hausverwaltung." }
+  - id: a1.p3.l03.ex.05
+    type: matching
+    skill: speaking
+    difficulty: 1
+    objective_refs: [a1.p3.l03.obj3]
+    instructions_vi: "Nối thẻ tình huống với câu nhờ lịch sự phù hợp."
+    items:
+      - id: a1.p3.l03.ex.05.q1
+        pairs:
+          - { left: "Karte: Fenster", right: "Können Sie bitte das Fenster aufmachen?" }
+          - { left: "Karte: Stift", right: "Haben Sie bitte einen Stift?" }
+          - { left: "Karte: Wasser", right: "Haben Sie bitte ein Glas Wasser?" }
+          - { left: "Karte: Pause", right: "Machen wir bitte eine Pause?" }
+        explanation_vi: "Dùng „Können Sie bitte …?“ cho việc cần làm và „Haben Sie bitte …?“ cho vật cần mượn."
+  - id: a1.p3.l03.ex.06
+    type: sentence-construction
+    skill: speaking
+    difficulty: 2
+    objective_refs: [a1.p3.l03.obj3]
+    instructions_vi: "Viết câu nhờ lịch sự với các từ bắt buộc."
+    items:
+      - { id: a1.p3.l03.ex.06.q1, prompt_vi: "Nhờ ai đó đóng cửa (lịch sự).", required_words: ["Können", "Sie", "Tür"], answers: ["Können Sie bitte die Tür zumachen?"], explanation_vi: "Modalverb đầu câu hỏi; động từ tách „zumachen“ ở cuối." }
+      - { id: a1.p3.l03.ex.06.q2, prompt_vi: "Hỏi xin một chiếc bút.", required_words: ["Haben", "Stift"], answers: ["Haben Sie bitte einen Stift?"], explanation_vi: "einen Stift: Akkusativ giống đực." }
+      - { id: a1.p3.l03.ex.06.q3, prompt_vi: "Nhờ bạn thân mở cửa sổ.", required_words: ["Kannst", "du", "Fenster"], answers: ["Kannst du bitte das Fenster aufmachen?"], explanation_vi: "Với bạn thân dùng „Kannst du …?“." }
+  - id: a1.p3.l03.ex.07
+    type: speaking-practice
+    skill: speaking
+    difficulty: 2
+    objective_refs: [a1.p3.l03.obj3]
+    instructions_vi: "Sprechen Teil 3: nhìn thẻ „Wasser“ rồi đặt câu nhờ và cảm ơn."
+    items:
+      - id: a1.p3.l03.ex.07.q1
+        prompt_vi: "Xin một cốc nước và cảm ơn."
+        model_answer: { de: "Haben Sie bitte ein Glas Wasser? – Danke schön!", vi: "Ông/bà có cốc nước không ạ? – Cảm ơn nhiều!" }
+        rubric_vi: ["Dùng câu hỏi lịch sự đúng (Haben Sie bitte …?).", "Dùng đúng mạo từ (ein Glas Wasser).", "Có từ cảm ơn.", "Giọng rõ ràng, nói chậm."]
+        explanation_vi: "Câu ngắn, đủ lịch sự và có cảm ơn."
+  - id: a1.p3.l03.ex.08
+    type: multiple-choice
+    skill: reading
+    difficulty: 1
+    objective_refs: [a1.p3.l03.obj1, a1.p3.l03.obj2]
+    instructions_vi: "Chọn chiến lược làm bài đúng."
+    items:
+      - id: a1.p3.l03.ex.08.q1
+        prompt: "Was macht man bei Lesen Teil 2 zuerst?"
+        options: [{ id: a, text: "Die Fragen lesen und Schlüsselwörter suchen." }, { id: b, text: "Alle Wörter übersetzen." }, { id: c, text: "Nur das Ende lesen." }]
+        answer: [a]
+        explanation_vi: "Đọc câu hỏi trước, tìm từ khóa (giá, ngày giờ) trong quảng cáo."
+      - id: a1.p3.l03.ex.08.q2
+        prompt: "Was ist bei Hören Teil 3 wichtig?"
+        options: [{ id: a, text: "Jedes Wort verstehen." }, { id: b, text: "Wer spricht und was die Person will." }, { id: c, text: "Nur Zahlen aufschreiben." }]
+        answer: [b]
+        explanation_vi: "Lần đầu nghe: ai nói, về việc gì; lần hai: chi tiết."
+      - id: a1.p3.l03.ex.08.q3
+        prompt: "Wie klingt eine höfliche Bitte bei Sprechen Teil 3?"
+        options: [{ id: a, text: "Fenster auf!" }, { id: b, text: "Können Sie bitte das Fenster aufmachen?" }, { id: c, text: "Ich will das Fenster." }]
+        answer: [b]
+        explanation_vi: "Lịch sự: Können Sie bitte …? kèm bitte."

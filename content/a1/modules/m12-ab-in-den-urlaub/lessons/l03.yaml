@@ -1,0 +1,63 @@
+schema_version: "2.0"
+content_type: lesson
+id: a1.m12.l03
+level: A1
+module: a1.m12
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  references:
+    - { work: "Netzwerk neu A1.2 – Stoffverteilungsplan (Klett)", scope: "Kapitel 12, Mục Wie war's?; Sätze verbinden: denn", verification: verified }
+  tags: ["denn", "perfekt", "reisebericht"]
+order: 3
+title_de: "Wie war's?"
+title_vi: "Chuyến đi thế nào?"
+duration_min: 50
+difficulty: 2
+objectives:
+  - { id: a1.m12.l03.obj1, text_vi: "Bạn có thể nối hai câu bằng „denn“ để nêu lý do và giữ đúng trật tự câu.", skill: grammar }
+  - { id: a1.m12.l03.obj2, text_vi: "Bạn có thể nghe và hiểu một lời kể ngắn về chuyến đi (đi bằng gì, đến khi nào, cảm nhận).", skill: listening }
+vocabulary_refs: [a1.m12.v.ankommen, a1.m12.v.abfahren, a1.m12.v.einsteigen, a1.m12.v.aussteigen, a1.m12.v.langweilig, a1.m12.v.interessant, a1.m12.v.anstrengend, a1.m12.v.denn, a1.m12.v.wie-wars]
+grammar_refs: [a1.g.denn]
+expression_refs: [a1.m12.x.wie-wars, a1.m12.x.reisebericht, a1.m12.x.grund]
+exercise_set_ref: a1.m12.l03.ex
+blocks:
+  - id: a1.m12.l03.b1
+    kind: explanation
+    skill: grammar
+    title_vi: "Bắt đầu: kể chuyến đi và nêu lý do"
+    body_vi: |
+      Hỏi cảm nhận: **Wie war's?** (= Wie war es?). Trả lời: **Es war toll / langweilig / anstrengend / interessant.**
+      Nêu lý do bằng **denn** (vì): *Ich bleibe zu Hause, **denn** es regnet.* Sau „denn“ trật tự câu giữ nguyên (chủ ngữ rồi động từ).
+      Chuyến đi bằng tàu/xe dùng **sein + Partizip II**: *Wir sind angekommen. Der Zug ist abgefahren.*
+  - id: a1.m12.l03.b2
+    kind: dialogue
+    skill: speaking
+    title_vi: "Hội thoại: Vừa đi nghỉ về"
+    lines:
+      - { speaker: "Maja", de: "Hallo Emil! Wie war's in Wien?", vi: "Chào Emil! Ở Wien thế nào?" }
+      - { speaker: "Emil", de: "Super! Wir sind mit dem Zug gefahren und am Abend angekommen.", vi: "Tuyệt! Chúng mình đi tàu và đến vào buổi tối." }
+      - { speaker: "Maja", de: "Und was habt ihr gemacht?", vi: "Và các bạn đã làm gì?" }
+      - { speaker: "Emil", de: "Wir haben das Schloss besichtigt. Das war interessant, aber auch anstrengend, denn es war sehr heiß.", vi: "Chúng mình đã tham quan lâu đài. Thú vị nhưng cũng mệt, vì trời rất nóng." }
+      - { speaker: "Maja", de: "Schön! Fahrt ihr bald wieder hin?", vi: "Hay quá! Các bạn sắp đi lại không?" }
+  - id: a1.m12.l03.b3
+    kind: listening
+    skill: listening
+    title_vi: "Nghe: Chuyến đi đến Wien"
+    audio_status: pending-tts
+    lines:
+      - { speaker: "Nora", de: "Wie war deine Reise? – Sehr schön!", vi: "Chuyến đi của bạn thế nào? – Rất tuyệt!" }
+      - { speaker: "Nora", de: "Wir sind mit dem Zug nach Wien gefahren und um zehn Uhr angekommen.", vi: "Chúng mình đã đi tàu đến Wien và đến nơi lúc mười giờ." }
+      - { speaker: "Nora", de: "Wir haben das Schloss besichtigt. Das war interessant, aber auch anstrengend.", vi: "Chúng mình đã tham quan lâu đài. Thú vị nhưng cũng mệt." }
+  - id: a1.m12.l03.b4
+    kind: explanation
+    skill: grammar
+    title_vi: "Ngữ pháp: denn ở vị trí 0"
+    body_vi: |
+      **und, aber, oder, denn** đều là liên từ vị trí 0: sau chúng, chủ ngữ + động từ như câu thường.
+      *Ich möchte reisen, aber ich habe kein Geld.* — *Ich fahre nicht, denn ich bin krank.* Xem a1.g.denn.

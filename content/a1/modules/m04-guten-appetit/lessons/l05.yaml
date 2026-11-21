@@ -1,0 +1,234 @@
+schema_version: '2.0'
+content_type: lesson
+id: a1.m04.l05
+level: A1
+module: a1.m04
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+  references:
+  - work: Netzwerk neu A1 (Klett)
+    scope: 'Kapitel 4: Frühstück, Mittagessen, Abendessen'
+    verification: verified
+  notes_vi: 'Sprachhandlungen: über Essgewohnheiten und Tageszeiten sprechen, Vorlieben ausdrücken (mögen). Grammatik: mögen, Positionen im Satz.'
+order: 5
+title_de: Frühstück, Mittagessen, Abendessen
+title_vi: Bữa sáng, bữa trưa, bữa tối – Thói quen ăn uống và vị trí trong câu
+topic_vi: Các bữa ăn trong ngày, trạng từ chỉ thời gian thường lệ, động từ mögen, hiện tượng đảo ngữ
+duration_min: 80
+difficulty: 2
+cefr:
+- A1.SI2
+- A1.H3
+- A1.L3
+- A1.SP1
+prerequisites:
+- a1.m04.l04
+objectives:
+- id: a1.m04.l05.obj1
+  text_vi: Kể về thói quen ăn uống trong các bữa ăn hàng ngày (Zum Frühstück esse ich..., Mittags esse ich in der Kantine).
+  skill: reading
+- id: a1.m04.l05.obj2
+  text_vi: 'Sử dụng thành thạo động từ mögen để diễn đạt sở thích về món ăn: Ich mag Obst, ich mag keinen Fisch.'
+  skill: grammar
+- id: a1.m04.l05.obj3
+  text_vi: 'Nắm vững trật tự từ đảo ngữ (Inversion): khi đưa từ chỉ thời gian lên vị trí 1, động từ giữ vị trí 2, chủ ngữ lùi về vị trí 3.'
+  skill: grammar
+- id: a1.m04.l05.obj4
+  text_vi: Hiểu nội dung các bài phỏng vấn về thói quen ăn uống qua bài đọc và nghe.
+  skill: listening
+vocabulary_refs:
+- a1.m04.v.moegen
+- a1.m04.v.fruehstuecken
+- a1.m04.v.obst
+- a1.m04.v.gesund
+- a1.m04.v.morgens
+- a1.m04.v.vormittags
+- a1.m04.v.vormittag
+- a1.m04.v.mittag
+- a1.m04.v.mittags
+- a1.m04.v.nachmittags
+- a1.m04.v.abends
+- a1.m04.v.um
+- a1.m04.v.halb
+- a1.m04.v.manchmal
+- a1.m04.v.nur
+- a1.m04.v.nichts
+- a1.m04.v.wenig
+- a1.m04.v.allein
+- a1.m04.v.arbeit
+- a1.m04.v.schlafen
+- a1.m04.v.wach
+- a1.m04.v.erzaehlen
+- a1.m04.v.kantine
+- a1.m04.v.doener
+review_vocabulary_refs:
+- a1.m04.v.fruehstueck
+- a1.m04.v.mittagessen
+- a1.m04.v.abendessen
+- a1.m04.v.essen-verb
+- a1.m04.v.trinken
+grammar_refs:
+- a1.g.satzpositionen
+grammar_focus:
+- ref: a1.g.satzpositionen
+  focus_vi: 'Trật tự từ trong câu kể và hiện tượng đảo ngữ: trạng từ thời gian ở vị trí 1, động từ ở vị trí 2, chủ ngữ ở vị trí 3'
+expression_refs:
+- a1.m04.x.was-isst-du-zum-fruehstueck-zu-mittag-zu
+- a1.m04.x.magst-du-ja-ich-mag-nein-ich-mag-keinen
+exercise_set_ref: a1.m04.l05.ex
+summary_vi: Bài học giúp bạn thành thạo cách nói về các bữa ăn trong ngày (Frühstück, Mittagessen, Abendessen), các trạng từ thường lệ (morgens, mittags, abends), chia động từ sở thích mögen (ich mag, du magst, er mag) và làm chủ hiện tượng đảo ngữ Inversion trong câu kể.
+self_check:
+- Tôi nhớ đặt động từ ở vị trí 2 khi đưa trạng từ thời gian lên đầu câu (Morgens trinke ich...).
+- 'Tôi nhớ cách chia của động từ mögen: ich mag, du magst, er mag.'
+- Tôi có thể kể được mình thường ăn gì vào bữa sáng, trưa và tối.
+blocks:
+- id: a1.m04.l05.b1
+  kind: explanation
+  title_vi: Giới thiệu bài học
+  body_vi: 'Một ngày của người Đức diễn ra với các bữa ăn như thế nào? Bữa sáng họ ăn gì, buổi trưa ăn ở đâu và bữa tối có điểm gì đặc biệt?
+
+    Bài học này sẽ giúp bạn:
+
+    - Gọi tên và nói về các bữa ăn: *das Frühstück, das Mittagessen, das Abendessen (hay das Abendbrot)*.
+
+    - Sử dụng các trạng từ thời gian chỉ thói quen quen thuộc: *morgens, vormittags, mittags, nachmittags, abends*.
+
+    - Học động từ diễn tả sở thích: *mögen* (*ich mag, du magst, er mag*).
+
+    - Khám phá hiện tượng **đảo ngữ (Inversion)** cực kỳ phổ biến trong tiếng Đức: đưa thời gian lên đầu câu để câu văn sinh động hơn (*Morgens trinke ich Kaffee* thay vì lúc nào cũng *Ich trinke morgens Kaffee*).'
+- id: a1.m04.l05.b2
+  kind: explanation
+  title_vi: Động từ bất quy tắc mögen (thích danh từ)
+  skill: grammar
+  body_vi: 'Động từ mögen đổi nguyên âm ö → a ở ngôi số ít: ich mag, du magst, er/sie/es mag. Ngôi ich và er/sie/es chia giống hệt nhau và không có đuôi. Động từ này đi với tân ngữ Akkusativ.'
+  examples:
+  - de: Magst du Käse? – Ja, ich mag Käse sehr.
+    vi: Bạn có thích phô mai không? – Có, mình rất thích phô mai.
+  - de: Er mag kein Gemüse.
+    vi: Anh ấy không thích rau củ.
+- id: a1.m04.l05.b3
+  kind: explanation
+  title_vi: Trạng từ chỉ thời gian thường lệ với đuôi -s
+  skill: grammar
+  body_vi: 'Khi thêm đuôi -s vào các buổi trong ngày (morgens, mittags, abends), ta được trạng từ mang nghĩa ''vào mỗi buổi... / thường lệ vào...''. Lưu ý: viết thường chữ cái đầu (khác với danh từ der Morgen, der Abend viết hoa).'
+  examples:
+  - de: Morgens trinke ich nur Tee.
+    vi: Mỗi buổi sáng tôi chỉ uống trà.
+  - de: Mittags essen wir in der Kantine.
+    vi: Buổi trưa chúng tôi ăn ở căng-tin.
+- id: a1.m04.l05.b4
+  kind: pronunciation
+  title_vi: Ngữ điệu câu có đảo ngữ (Inversion)
+  skill: pronunciation
+  body_vi: 'Ngữ điệu câu có đảo ngữ (Inversion)
+
+
+    Khi từ chỉ thời gian đứng ở đầu câu (Morgens..., Am Sonntag...), lên giọng nhẹ ở trạng từ rồi nhấn rõ vào động từ ở vị trí 2, sau đó hạ giọng ở cuối câu.
+
+
+    Luyện tập: Luyện đọc có ngữ điệu: MOR-gens TRIN-ke ich Kaf-fee. MIT-tags ES-se ich Sa-lat.'
+  items:
+  - de: Morgens trinke ich Kaffee.
+    vi: Buổi sáng tôi uống cà phê.
+  - de: Mittags esse ich in der Kantine.
+    vi: Buổi trưa tôi ăn ở căng-tin.
+- id: a1.m04.l05.b5
+  kind: examples
+  title_vi: Câu ví dụ
+  examples:
+  - de: Ich frühstücke jeden Morgen um sieben Uhr.
+    vi: Tôi ăn sáng mỗi ngày lúc bảy giờ.
+  - de: Manchmal habe ich mittags keine Zeit und esse nur einen Apfel.
+    vi: Thỉnh thoảng buổi trưa tôi không có thời gian và chỉ ăn một quả táo.
+  - de: 'Abends essen wir oft kalt: Brot, Käse und Wurst.'
+    vi: 'Buổi tối chúng tôi thường ăn đồ nguội: bánh mì, phô mai và xúc xích.'
+  - de: Am Sonntag schlafe ich lange und frühstücke erst um zehn Uhr.
+    vi: Chủ nhật tôi ngủ dậy muộn và tận mười giờ mới ăn sáng.
+  - de: Obst und Gemüse sind sehr gesund für den Körper.
+    vi: Trái cây và rau củ rất tốt cho sức khỏe cơ thể.
+- id: a1.m04.l05.b6
+  kind: listening
+  title_vi: Phỏng vấn về thói quen ăn uống hằng ngày
+  lines:
+  - speaker: Reporter
+    de: 'Guten Tag Herr Becker! Erzählen Sie mal: Was essen Sie am Tag?'
+    vi: 'Xin chào ông Becker! Ông hãy kể xem: Một ngày ông ăn uống những gì?'
+  - speaker: Herr Becker
+    de: Also, morgens esse ich fast nichts, nur ein Brötchen und ich trinke einen großen Kaffee.
+    vi: À, buổi sáng tôi gần như không ăn gì, chỉ một cái bánh mì nhỏ và uống một cốc cà phê lớn.
+  - speaker: Reporter
+    de: Und was essen Sie mittags?
+    vi: Còn buổi trưa ông ăn gì ạ?
+  - speaker: Herr Becker
+    de: Mittags esse ich mit Kollegen in der Kantine. Oft esse ich Fisch oder Gemüse mit Reis. Und abends esse ich mit meiner Familie warm zu Hause.
+    vi: Buổi trưa tôi ăn cùng đồng nghiệp ở căng-tin. Thường thì tôi ăn cá hoặc rau củ với cơm. Còn buổi tối tôi ăn đồ nóng ở nhà cùng gia đình.
+  audio_status: pending-tts
+  situation_vi: Phóng viên hỏi phỏng vấn Herr Becker về thói quen ăn uống của ông ấy.
+  skill: listening
+  audio:
+    speed: normal
+- id: a1.m04.l05.b7
+  kind: reading
+  title_vi: Một ngày ăn uống của cô sinh viên Laura
+  paragraphs:
+  - de: 'Mein Essen am Tag – von Laura:
+
+      Morgens stehe ich um sieben Uhr auf. Zum Frühstück trinke ich immer einen grünen Tee und esse Obst mit Joghurt. Ich mag keine Wurst am Morgen.
+
+      Mittags habe ich Vorlesungen an der Universität. Um eins esse ich schnell einen Döner oder einen Salat mit Freunden.
+
+      Abends koche ich sehr gerne. Ich mache oft frische Gemüsesuppe. Manchmal lade ich Freunde ein và wir essen zusammen. Essen mit Freunden macht einfach Spaß!'
+    vi: 'Một ngày ăn uống của tôi – Laura:
+
+      Buổi sáng tôi thức dậy lúc bảy giờ. Bữa sáng tôi luôn uống trà xanh và ăn trái cây với sữa chua. Tôi không thích ăn xúc xích vào buổi sáng.
+
+      Buổi trưa tôi có các tiết giảng ở trường đại học. Lúc một giờ tôi ăn nhanh một chiếc bánh Döner hoặc một phần salad cùng bạn bè.
+
+      Buổi tối tôi rất thích nấu ăn. Tôi thường nấu súp rau củ tươi. Thỉnh thoảng tôi mời bạn bè đến và tụi mình ăn cùng nhau. Ăn cùng bạn bè thực sự rất vui!'
+  text_type_vi: Bài viết nhật ký ngắn (Blog-Beitrag)
+  skill: reading
+  glossary:
+  - de: die Vorlesung
+    vi: tiết giảng đại học
+  - de: Spaß machen
+    vi: mang lại niềm vui
+- id: a1.m04.l05.b8
+  kind: speaking
+  title_vi: Kể về thói quen ăn uống của bạn
+  skill: speaking
+  task_vi: Kể cho bạn học nghe về thói quen ăn uống một ngày của bạn bằng 4–5 câu có sử dụng đảo ngữ (Morgens..., Mittags..., Abends...).
+  steps_vi:
+  - 'Bữa sáng: Morgens esse / trinke ich ...'
+  - 'Bữa trưa: Mittags esse ich in der Kantine / zu Hause ...'
+  - 'Bữa tối: Abends koche ich ...'
+  - 'Sở thích: Ich mag ... / Ich mag kein ...'
+  lines:
+  - speaker: A
+    de: Was isst du morgens?
+    vi: Buổi sáng bạn ăn gì?
+  - speaker: B
+    de: Morgens trinke ich Kaffee und esse ein Brot mit Käse. Und du?
+    vi: Buổi sáng mình uống cà phê và ăn một lát bánh mì với phô mai. Còn bạn?
+  - speaker: A
+    de: Morgens esse ich nichts, aber mittags esse ich viel in der Kantine.
+    vi: Buổi sáng mình không ăn gì, nhưng buổi trưa mình ăn nhiều ở căng-tin.
+- id: a1.m04.l05.b9
+  kind: writing
+  title_vi: Viết đoạn văn ngắn về thói quen ăn uống cá nhân
+  skill: writing
+  task_vi: Viết đoạn văn 4–5 câu mô tả các bữa ăn trong ngày của bạn, sử dụng các trạng từ morgens, mittags, abends và động từ mögen.
+  model:
+    de: Morgens trinke ich einen Kaffee mit Milch und esse zwei Eier. Mittags esse ich mit Kollegen in der Kantine. Ich mag Fisch và Gemüse sehr. Abends esse ich mit meiner Familie warm zu Hause. Manchmal kochen wir zusammen.
+    vi: Buổi sáng tôi uống một ly cà phê sữa và ăn hai quả trứng. Buổi trưa tôi ăn cùng đồng nghiệp ở căng-tin. Tôi rất thích cá và rau củ. Buổi tối tôi ăn đồ nóng ở nhà cùng gia đình. Thỉnh thoảng chúng tôi cùng nhau nấu nướng.
+  checklist_vi:
+  - Đưa trạng từ thời gian lên đầu câu ở ít nhất 2 câu và đảo ngữ đúng (Động từ ở vị trí 2, chủ ngữ vị trí 3).
+  - Có sử dụng động từ chia đúng của mögen.

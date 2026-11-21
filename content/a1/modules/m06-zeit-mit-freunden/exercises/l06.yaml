@@ -1,0 +1,233 @@
+schema_version: '2.0'
+content_type: exercise-set
+id: a1.m06.l06.ex
+level: A1
+module: a1.m06
+lesson: a1.m06.l06
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+exercises:
+- id: a1.m06.l06.ex.01
+  type: matching
+  skill: vocabulary
+  difficulty: 1
+  objective_refs:
+  - a1.m06.l06.obj1
+  - a1.m06.l06.obj3
+  instructions_vi: Nối từ vựng sự kiện và địa điểm vui chơi với nghĩa tiếng Việt tương ứng.
+  items:
+  - id: a1.m06.l06.ex.01.q1
+    pairs:
+    - left: die Kneipe
+      right: quán rượu, quán bia bình dân
+    - left: der Biergarten
+      right: quán bia ngoài trời sân vườn
+    - left: das Stadtfest
+      right: lễ hội đường phố thành phố
+    - left: der Eintritt
+      right: vé vào cửa, tiền vào cổng
+    - left: die Live-Musik
+      right: nhạc sống biểu diễn trực tiếp
+    - left: reservieren
+      right: đặt bàn trước, đặt chỗ
+    explanation_vi: Từ vựng then chốt về đời sống văn hóa và sự kiện tại các nước nói tiếng Đức.
+- id: a1.m06.l06.ex.02
+  type: multiple-choice
+  skill: grammar
+  difficulty: 1
+  objective_refs:
+  - a1.m06.l06.obj1
+  - a1.m06.l06.obj2
+  instructions_vi: Chọn từ đúng để hoàn thành câu.
+  items:
+  - id: a1.m06.l06.ex.02.q1
+    prompt: Das große Konzert findet am Samstag ___.
+    options:
+    - id: a
+      text: aus
+    - id: b
+      text: los
+    - id: c
+      text: mit
+    - id: d
+      text: statt
+    answer:
+    - d
+    explanation_vi: 'stattfinden (diễn ra) là động từ tách: statt đứng ở cuối câu.'
+  - id: a1.m06.l06.ex.02.q2
+    prompt: Was ist heute Abend in der Stadt ___?
+    options:
+    - id: a
+      text: statt
+    - id: b
+      text: frei
+    - id: c
+      text: geöffnet
+    - id: d
+      text: los
+    answer:
+    - d
+    explanation_vi: 'Cụm thành ngữ hỏi sự kiện: ''Was ist los?''.'
+  - id: a1.m06.l06.ex.02.q3
+    prompt: Ich möchte einen Tisch für vier Personen ___.
+    options:
+    - id: a
+      text: geöffnet
+    - id: b
+      text: reservieren
+    - id: c
+      text: stattfinden
+    - id: d
+      text: los sein
+    answer:
+    - b
+    explanation_vi: 'Đặt bàn trước: ''einen Tisch reservieren''.'
+  - id: a1.m06.l06.ex.02.q4
+    prompt: Das Museum ist heute bis 18 Uhr ___.
+    options:
+    - id: a
+      text: reserviert
+    - id: b
+      text: gefeiert
+    - id: c
+      text: geöffnet
+    - id: d
+      text: stattgefunden
+    answer:
+    - c
+    explanation_vi: 'Mở cửa đón khách: ''geöffnet sein''.'
+- id: a1.m06.l06.ex.03
+  type: multiple-choice
+  skill: listening
+  difficulty: 2
+  objective_refs:
+  - a1.m06.l06.obj2
+  - a1.m06.l06.obj4
+  instructions_vi: Nghe cuộc gọi đặt bàn của Florian rồi chọn câu trả lời đúng.
+  stimulus:
+    ref: a1.m06.l06.b6
+  items:
+  - id: a1.m06.l06.ex.03.q1
+    prompt: Für wie viele Personen reserviert Florian einen Tisch?
+    options:
+    - id: a
+      text: für zwei Personen
+    - id: b
+      text: nur für sich selbst
+    - id: c
+      text: für zehn Personen
+    - id: d
+      text: für vier Personen
+    answer:
+    - d
+    explanation_vi: 'Florian nói rõ: ''Ich möchte gern einen Tisch für vier Personen reservieren''.'
+  - id: a1.m06.l06.ex.03.q2
+    prompt: Wo möchte Florian sitzen?
+    options:
+    - id: a
+      text: im Theater
+    - id: b
+      text: draußen im Biergarten
+    - id: c
+      text: drinnen an der Bar
+    - id: d
+      text: im Büro
+    answer:
+    - b
+    explanation_vi: 'Florian hỏi: ''Geht das draußen im Biergarten?'' và chủ quán xác nhận có bàn.'
+- id: a1.m06.l06.ex.04
+  type: fill-blank
+  skill: listening
+  difficulty: 2
+  objective_refs:
+  - a1.m06.l06.obj1
+  - a1.m06.l06.obj2
+  instructions_vi: Nghe và điền thông tin đặt chỗ vào chỗ trống.
+  stimulus:
+    ref: a1.m06.l06.b6
+  items:
+  - id: a1.m06.l06.ex.04.q1
+    prompt: Florian reserviert für diesen Samstag um ___ Uhr einen Tisch im ___.
+    answers:
+    - '19:30'
+    - Biergarten
+    explanation_vi: 1. 19:30. 2. Biergarten.
+- id: a1.m06.l06.ex.05
+  type: true-false
+  skill: reading
+  difficulty: 2
+  objective_refs:
+  - a1.m06.l06.obj2
+  - a1.m06.l06.obj4
+  instructions_vi: Đọc tờ rơi sự kiện tại München và xác định các câu sau là Đúng (true) hay Sai (false).
+  stimulus:
+    ref: a1.m06.l06.b7
+  items:
+  - id: a1.m06.l06.ex.05.q1
+    prompt: Der Eintritt zum Stadtfest am Odeonsplatz ist kostenlos.
+    answer: true
+    explanation_vi: Đúng. 'Der Eintritt ist komplett frei!' = kostenlos (miễn phí).
+  - id: a1.m06.l06.ex.05.q2
+    prompt: Das Theaterstück „Sommernacht“ findet am Sonntagvormittag statt.
+    answer: false
+    explanation_vi: Sai. Vở kịch diễn ra vào thứ Bảy lúc 19:30 ('Samstag um 19:30 Uhr').
+  - id: a1.m06.l06.ex.05.q3
+    prompt: Man darf im Biergarten Hirschgarten sein eigenes Essen mitbringen.
+    answer: true
+    explanation_vi: Đúng. 'Bringen Sie Ihre Brotzeit selbst mit...'.
+- id: a1.m06.l06.ex.06
+  type: fill-blank
+  skill: speaking
+  difficulty: 2
+  objective_refs:
+  - a1.m06.l06.obj1
+  - a1.m06.l06.obj2
+  instructions_vi: Điền từ thích hợp vào câu hỏi sự kiện.
+  items:
+  - id: a1.m06.l06.ex.06.q1
+    prompt: Was ist am Wochenende ___? Wo findet das Konzert ___?
+    answers:
+    - los
+    - statt
+    explanation_vi: 1. los (Was ist los?). 2. statt (stattfinden).
+- id: a1.m06.l06.ex.07
+  type: word-order
+  skill: writing
+  difficulty: 2
+  objective_refs:
+  - a1.m06.l06.obj1
+  - a1.m06.l06.obj2
+  instructions_vi: Sắp xếp các từ bị xáo trộn thành câu hoàn chỉnh đúng ngữ pháp.
+  items:
+  - id: a1.m06.l06.ex.07.q1
+    tokens:
+    - findet
+    - Samstag
+    - Das
+    - statt
+    - Konzert
+    - am
+    answer: Das Konzert findet am Samstag statt.
+    prompt_vi: 'Sắp xếp câu với động từ stattfinden:'
+    explanation_vi: Chủ ngữ 'Das Konzert' + 'findet' vị trí 2 + 'am Samstag' + tiền tố 'statt' ở cuối câu.
+  - id: a1.m06.l06.ex.07.q2
+    tokens:
+    - Personen
+    - vier
+    - einen
+    - Ich
+    - für
+    - reserviere
+    - Tisch
+    answer: Ich reserviere einen Tisch für vier Personen.
+    prompt_vi: 'Sắp xếp câu đặt bàn:'
+    explanation_vi: Chủ ngữ 'Ich' + 'reserviere' vị trí 2 + 'einen Tisch für vier Personen'.

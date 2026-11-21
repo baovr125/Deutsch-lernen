@@ -1,0 +1,270 @@
+schema_version: '2.0'
+content_type: lesson
+id: a1.m00.l03
+level: A1
+module: a1.m00
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+  references:
+  - work: Dự án Deutsch-lernen
+    scope: nội dung bổ sung ngoài giáo trình
+    verification: proposed
+  notes_vi: Nhập môn bổ sung. Satzmelodie (ngữ điệu câu hỏi – câu trả lời) được Netzwerk neu A1 luyện ở Kapitel 2; bài này giới thiệu trước để người học tự học nhận biết sớm.
+order: 3
+title_de: Betonung und Satzmelodie
+title_vi: Trọng âm, ngữ điệu và các yêu cầu trong bài tập
+topic_vi: Nhịp điệu tiếng Đức; hiểu đề bài tiếng Đức
+duration_min: 50
+difficulty: 1
+cefr:
+- A1.SP3
+- A1.H2
+- A1.L4
+prerequisites:
+- a1.m00.l02
+objectives:
+- id: a1.m00.l03.obj1
+  text_vi: 'Nhận biết trọng âm từ: đa số từ tiếng Đức nhấn âm tiết đầu; biết các ngoại lệ thường gặp.'
+  skill: pronunciation
+- id: a1.m00.l03.obj2
+  text_vi: 'Nhận biết ngữ điệu: câu kể và câu hỏi W- đi xuống, câu hỏi có/không đi lên.'
+  skill: listening
+- id: a1.m00.l03.obj3
+  text_vi: 'Hiểu và làm theo các yêu cầu bài tập: hören, lesen, schreiben, nachsprechen, richtig/falsch.'
+  skill: reading
+- id: a1.m00.l03.obj4
+  text_vi: Đọc to câu ngắn với âm tiết nhấn mạnh và âm tiết đọc lướt, không đọc đều từng chữ.
+  skill: speaking
+vocabulary_refs:
+- a1.m00.v.hoeren
+- a1.m00.v.lesen
+- a1.m00.v.schreiben
+- a1.m00.v.nach-sprechen
+- a1.m00.v.richtig
+- a1.m00.v.falsch
+review_vocabulary_refs:
+- a1.m00.v.hotel
+- a1.m00.v.taxi
+- a1.m00.v.kaffee
+- a1.m00.v.musik
+- a1.m00.v.internet
+grammar_refs: []
+expression_refs:
+- a1.m00.x.hoeren-sie-und-sprechen-sie-nach
+- a1.m00.x.richtig-oder-falsch
+exercise_set_ref: a1.m00.l03.ex
+summary_vi: 'Mỗi từ tiếng Đức có một âm tiết nhấn – thường là âm tiết đầu (trừ nhiều từ vay mượn, động từ -ieren, tiền tố be-/ver-/ent-). Câu kể và câu hỏi W- xuống giọng; câu hỏi có/không lên giọng. Đề bài thường có dạng: Hören Sie. Lesen Sie. Sprechen Sie nach.'
+self_check:
+- Tôi nói được âm tiết nhấn của Hotel, Taxi, Musik.
+- Tôi biết câu hỏi W- xuống giọng ở cuối.
+- 'Tôi hiểu các yêu cầu: Hören Sie, Lesen Sie, Schreiben Sie, Sprechen Sie nach, Richtig oder falsch.'
+blocks:
+- id: a1.m00.l03.b1
+  kind: explanation
+  title_vi: Giới thiệu bài học
+  body_vi: 'Tiếng Việt là ngôn ngữ **thanh điệu**: mỗi chữ có dấu thanh riêng và các chữ được đọc gần như **dài bằng nhau**.
+
+    Tiếng Đức thì khác:
+
+    - **Không có thanh điệu** cho từng chữ.
+
+    - Trong mỗi từ có **một âm tiết được nhấn** (to hơn, dài hơn, rõ hơn), các âm tiết còn lại đọc **nhẹ và lướt**.
+
+    - Cả câu có **ngữ điệu**: giọng đi lên hoặc đi xuống ở cuối câu.
+
+
+    Nếu bạn đọc mọi âm tiết đều nhau như tiếng Việt, người Đức sẽ khó hiểu dù bạn phát âm từng âm đúng.
+
+
+    Bài này cũng dạy bạn **các yêu cầu tiếng Đức thường gặp trong bài tập** (*Hören Sie. Lesen Sie. Sprechen Sie nach.*),
+
+    để bạn quen với chúng ngay từ đầu.'
+- id: a1.m00.l03.b2
+  kind: explanation
+  title_vi: 'Câu yêu cầu trong đề bài: động từ + Sie'
+  skill: grammar
+  body_vi: 'Đề bài tiếng Đức thường có dạng ĐỘNG TỪ + Sie (lịch sự): Hören Sie. = Hãy nghe. Đây là thể mệnh lệnh trang trọng, sẽ học kỹ ở Kapitel 3. Bây giờ chỉ cần học thuộc như cụm từ.'
+  examples:
+  - de: Hören Sie.
+    vi: Hãy nghe.
+  - de: Lesen Sie.
+    vi: Hãy đọc.
+  - de: Hören Sie und sprechen Sie nach.
+    vi: Hãy nghe và nhắc lại.
+- id: a1.m00.l03.b3
+  kind: pronunciation
+  title_vi: Trọng âm từ (Wortakzent)
+  skill: pronunciation
+  body_vi: 'Trọng âm từ (Wortakzent)
+
+
+    **Quy tắc chung:** từ gốc Đức thường nhấn **âm tiết đầu**: *HÖ-ren, LE-sen, SCHREI-ben, RICH-tig, DAN-ke*.
+
+
+    **Ngoại lệ thường gặp ở A1:**
+
+    - Nhiều **từ vay mượn** nhấn ở **cuối**: *Ho-TEL, Mu-SIK, Al-pha-BET*.
+
+    - Động từ tận cùng **-ieren** nhấn vào **ie**: *buch-sta-BIE-ren*.
+
+    - Từ có tiền tố **be-, ver-, ent-** không nhấn tiền tố: *ver-STE-hen, Ent-SCHUL-di-gung*.
+
+
+    Trong sổ từ, IPA có dấu **ˈ** đứng trước âm tiết được nhấn: *Musik* [muˈziːk].
+
+
+
+    Luyện tập: Đọc từng từ, vỗ tay mạnh ở âm tiết nhấn và vỗ nhẹ ở âm tiết còn lại.'
+  items:
+  - de: Hotel
+    vi: khách sạn
+    ipa: '[hoˈtɛl]'
+  - de: Taxi
+    vi: taxi
+    ipa: '[ˈtaksi]'
+  - de: richtig
+    vi: đúng
+    ipa: '[ˈʁɪçtɪç]'
+  - de: Musik
+    vi: âm nhạc
+    ipa: '[muˈziːk]'
+- id: a1.m00.l03.b4
+  kind: pronunciation
+  title_vi: Ngữ điệu câu (Satzmelodie)
+  skill: pronunciation
+  body_vi: 'Ngữ điệu câu (Satzmelodie)
+
+
+    - **Câu kể** → giọng **đi xuống** ở cuối (↘): *Das ist ein Taxi.* ↘
+
+    - **Câu hỏi W-** (wie, wo, wer…) → giọng **đi xuống** (↘): *Wie heißt du?* ↘
+
+    - **Câu hỏi có/không** (động từ đứng đầu) → giọng **đi lên** (↗): *Ist das ein Taxi?* ↗
+
+
+    Người Việt hay lên giọng ở mọi câu hỏi. Nhớ: câu hỏi W- của tiếng Đức hạ giọng!
+
+
+
+    Luyện tập: Đọc ba câu trên, dùng tay vẽ mũi tên lên/xuống trong không khí khi đọc phần cuối câu.'
+  items:
+  - de: Das ist ein Taxi. ↘
+    vi: Đó là một chiếc taxi.
+  - de: Ist das ein Taxi? ↗
+    vi: Đó có phải là taxi không?
+  - de: Wie heißt du? ↘
+    vi: Bạn tên là gì?
+- id: a1.m00.l03.b5
+  kind: pronunciation
+  title_vi: 'Nhịp: âm tiết mạnh – âm tiết yếu'
+  skill: pronunciation
+  body_vi: 'Nhịp: âm tiết mạnh – âm tiết yếu
+
+
+    Các âm tiết không nhấn, đặc biệt đuôi -e [ə] và -en, được đọc rất nhẹ và nhanh: lesen [ˈleːzn̩] gần như chỉ còn “LÊ-zn”. Ngược lại, âm tiết nhấn được kéo dài và đọc rõ.
+
+
+    Luyện tập: Đọc “lesen – schreiben – hören” thật nhanh như nhịp trống: MẠNH-nhẹ, MẠNH-nhẹ.'
+  items:
+  - de: lesen
+    vi: đọc
+    ipa: '[ˈleːzn̩]'
+  - de: schreiben
+    vi: viết
+    ipa: '[ˈʃʁaɪ̯bn̩]'
+- id: a1.m00.l03.b6
+  kind: examples
+  title_vi: Câu ví dụ
+  examples:
+  - de: Hören Sie, bitte.
+    vi: Xin hãy nghe.
+  - de: Lesen Sie, bitte.
+    vi: Xin hãy đọc.
+  - de: Ich schreibe.
+    vi: Tôi viết.
+  - de: Richtig oder falsch?
+    vi: Đúng hay sai?
+  - de: Das ist falsch.
+    vi: Cái đó sai.
+- id: a1.m00.l03.b7
+  kind: listening
+  title_vi: Lên giọng hay xuống giọng?
+  lines:
+  - speaker: Sprecherin
+    de: Das ist ein Hotel.
+    vi: Đó là một khách sạn.
+  - speaker: Sprecherin
+    de: Ist das ein Hotel?
+    vi: Đó có phải là khách sạn không?
+  - speaker: Sprecherin
+    de: Wo ist das Hotel?
+    vi: Khách sạn ở đâu?
+  audio_status: pending-tts
+  situation_vi: Nghe ba câu và chú ý phần cuối câu.
+  skill: listening
+  audio:
+    speed: slow
+- id: a1.m00.l03.b8
+  kind: reading
+  title_vi: Đề bài tiếng Đức
+  paragraphs:
+  - de: '1. Hören Sie.
+
+      2. Lesen Sie den Text.
+
+      3. Hören Sie und sprechen Sie nach.
+
+      4. Schreiben Sie die Wörter.
+
+      5. Richtig oder falsch? Kreuzen Sie an.'
+    vi: '1. Hãy nghe.
+
+      2. Hãy đọc bài đọc.
+
+      3. Hãy nghe và nhắc lại.
+
+      4. Hãy viết các từ.
+
+      5. Đúng hay sai? Hãy đánh dấu (x).'
+  text_type_vi: Yêu cầu bài tập
+  skill: reading
+  glossary:
+  - de: der Text
+    vi: bài đọc, văn bản
+  - de: die Wörter
+    vi: các từ (số nhiều của das Wort)
+  - de: an|kreuzen
+    vi: đánh dấu x
+- id: a1.m00.l03.b9
+  kind: speaking
+  title_vi: Đọc với trọng âm và ngữ điệu
+  skill: speaking
+  task_vi: Đọc to 5 từ và 3 câu, chú ý âm tiết nhấn và ngữ điệu cuối câu.
+  steps_vi:
+  - 'Đọc: Hotel – Taxi – Musik – Internet – richtig.'
+  - 'Đọc: Das ist ein Taxi. ↘ / Ist das ein Taxi? ↗ / Wie heißt du? ↘'
+  - Ghi âm, nghe lại và so sánh với audio mẫu.
+  lines:
+  - speaker: Sprecher
+    de: Ho-TEL, TA-xi, Mu-SIK, IN-ter-net, RICH-tig.
+    vi: (chữ in hoa = âm tiết nhấn)
+- id: a1.m00.l03.b10
+  kind: writing
+  title_vi: Chép đề bài
+  skill: writing
+  task_vi: Chép lại chính xác 3 yêu cầu đề bài và viết nghĩa tiếng Việt bên cạnh.
+  model:
+    de: Hören Sie. – Lesen Sie. – Sprechen Sie nach.
+    vi: Hãy nghe. – Hãy đọc. – Hãy nhắc lại.
+  checklist_vi:
+  - Viết hoa chữ đầu câu và chữ Sie.
+  - Có dấu chấm cuối câu.

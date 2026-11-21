@@ -1,0 +1,243 @@
+schema_version: '2.0'
+content_type: grammar-topic
+id: a1.g.verben-singular
+level: A1
+introduced_in: a1.m01
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+  references:
+  - work: Netzwerk neu A1 (Klett)
+    scope: 'Kapitel 1: Woher kommen Sie?'
+    verification: verified
+  notes_vi: Tương ứng Grammatik „Verben und Personalpronomen (Singular)“ của Kapitel 1.
+introduced_in_lesson: a1.m01.l03
+title_de: 'Verben und Personalpronomen im Singular: ich, du, er/sie/es, Sie'
+title_vi: 'Chia động từ ở số ít: ich, du, er/sie/es và Sie'
+summary_vi: 'Ở bài 2 bạn đã chia động từ với *ich, du, Sie*. Bây giờ thêm ngôi thứ ba – khi **nói về một người khác**:
+
+
+  - **er** = anh ấy / ông ấy / cậu ấy (người nam) – và mọi danh từ giống đực (*der*)
+
+  - **sie** = cô ấy / bà ấy / chị ấy (người nữ) – và mọi danh từ giống cái (*die*)
+
+  - **es** = nó – cho danh từ giống trung (*das*)
+
+
+  **Quy tắc:** er/sie/es → gốc + **-t**: *er kommt, sie wohnt, es heißt*.
+
+
+  **Động từ đổi nguyên âm:** một số động từ đổi **e → i** ở *du* và *er/sie/es* (không đổi ở ich và Sie):
+
+  *sprechen → ich spreche, du **sprich**st, er **sprich**t*. Bạn cần học thuộc từng động từ loại này –
+
+  trong sổ từ vựng, chúng có cột "forms" ghi sẵn.
+
+
+  **sie hay Sie?** Khi nói, hai từ đọc giống nhau [ziː]. Phân biệt bằng **động từ**:
+
+  *sie kommt* (cô ấy đến) – *Sie kommen* (ông/bà đến). Khi viết, phân biệt thêm bằng **chữ hoa**.'
+usage_vi: 'Dùng khi giới thiệu và nói về người khác: Das ist Paul. Er kommt aus Wien. Er spricht Deutsch.'
+objectives:
+- id: a1.g.verben-singular.obj1
+  text_vi: Chia động từ ở số ít (ich, du, er/sie/es, Sie).
+  skill: grammar
+rules:
+- id: a1.g.verben-singular.r1
+  title_vi: er, sie, es theo giống
+  body_vi: er = người nam / danh từ der; sie = người nữ / danh từ die; es = danh từ das.
+  examples:
+  - de: Das ist Paul. Er kommt aus Deutschland.
+    vi: Đây là Paul. Anh ấy đến từ Đức.
+  - de: Das ist Mai. Sie wohnt in Köln.
+    vi: Đây là Mai. Cô ấy sống ở Köln.
+- id: a1.g.verben-singular.r2
+  title_vi: Đuôi -t ở ngôi thứ ba
+  body_vi: er/sie/es + gốc + t.
+  examples:
+  - de: er kommt, sie wohnt, es heißt
+    vi: anh ấy đến, cô ấy sống, nó tên là
+- id: a1.g.verben-singular.r3
+  title_vi: Đổi nguyên âm e → i
+  body_vi: Một số động từ đổi e → i ở du và er/sie/es, ví dụ sprechen.
+  examples:
+  - de: ich spreche – du sprichst – er spricht – Sie sprechen
+    vi: tôi nói – bạn nói – anh ấy nói – ông/bà nói
+- id: a1.g.verben-singular.r4
+  title_vi: 'sein ở ngôi thứ ba: ist'
+  body_vi: sein ở ngôi thứ ba số ít là ist.
+  examples:
+  - de: Er ist Reiseführer. Sie ist Reiseführerin.
+    vi: Anh ấy là hướng dẫn viên du lịch. Cô ấy là hướng dẫn viên du lịch.
+- id: a1.g.verben-singular.r5
+  title_vi: sie và Sie
+  body_vi: sie (cô ấy) + động từ -t; Sie (ông/bà) + động từ -en. Khi nghe, nhận biết qua đuôi động từ.
+  examples:
+  - de: Woher kommt sie? – Woher kommen Sie?
+    vi: Cô ấy đến từ đâu? – Ông/Bà đến từ đâu?
+sentence_structures:
+- pattern: er/sie/es + gốc-t
+  example:
+    de: Er wohnt in Hamburg.
+    vi: Anh ấy sống ở Hamburg.
+- pattern: du/er/sie/es + gốc đổi nguyên âm (e → i)
+  example:
+    de: Sie spricht Vietnamesisch.
+    vi: Cô ấy nói tiếng Việt.
+tables:
+- title_vi: Bảng chia động từ số ít + Sie (Präsens)
+  header:
+  - ''
+  - kommen
+  - wohnen
+  - heißen
+  - sprechen
+  - sein
+  rows:
+  - - ich
+    - komme
+    - wohne
+    - heiße
+    - spreche
+    - bin
+  - - du
+    - kommst
+    - wohnst
+    - heißt
+    - sprichst
+    - bist
+  - - er/sie/es
+    - kommt
+    - wohnt
+    - heißt
+    - spricht
+    - ist
+  - - Sie
+    - kommen
+    - wohnen
+    - heißen
+    - sprechen
+    - sind
+  note_vi: 'Lưu ý: du heißt và er heißt giống nhau. sprechen đổi e→i ở du và er/sie/es.'
+examples:
+- de: Das ist Herr Becker. Er kommt aus Österreich.
+  vi: Đây là ông Becker. Ông ấy đến từ Áo.
+  note_vi: Österreich học ở bài 5.
+- de: Woher kommst du? – Ich komme aus Vietnam.
+  vi: Bạn đến từ đâu? – Mình đến từ Việt Nam.
+- de: Sie heißt Hoa und wohnt in Berlin.
+  vi: Cô ấy tên là Hoa và sống ở Berlin.
+- de: Er spricht Englisch und Deutsch.
+  vi: Anh ấy nói tiếng Anh và tiếng Đức.
+- de: Wo wohnen Sie, Frau Lang?
+  vi: Bà sống ở đâu, thưa bà Lang?
+common_mistakes:
+- wrong: Er kommen aus Vietnam.
+  right: Er kommt aus Vietnam.
+  explanation_vi: er/sie/es luôn đi với đuôi -t.
+- wrong: Sie sprecht Deutsch. (cô ấy)
+  right: Sie spricht Deutsch.
+  explanation_vi: 'sprechen đổi e → i ở er/sie/es: spricht.'
+- wrong: Ich spriche Deutsch.
+  right: Ich spreche Deutsch.
+  explanation_vi: Với ich KHÔNG đổi nguyên âm – chỉ đổi ở du và er/sie/es.
+- wrong: Das ist Paul. Sie kommt aus Wien.
+  right: Das ist Paul. Er kommt aus Wien.
+  explanation_vi: Paul là nam → er. Tiếng Việt nói “bạn ấy” cho cả nam lẫn nữ, nên người Việt hay nhầm er/sie.
+comparison_vi: 'So sánh ba đuôi -st / -t / -en: du kommst (bạn) – er kommt (anh ấy) – Sie kommen (ông/bà). Chỉ khác vài chữ cuối nhưng đổi hoàn toàn người được nói tới, nên phải phát âm rõ phụ âm cuối.'
+vietnamese_contrast_vi: Tiếng Việt có “bạn ấy”, “người đó” dùng chung cho nam và nữ; tiếng Đức phải chọn er hoặc sie. Ngoài ra, er/sie còn dùng cho đồ vật (der Tee → er, die Pizza → sie), điều tiếng Việt không có – bạn sẽ gặp nhiều hơn từ Kapitel 2.
+recap_vi: 'er/sie/es + -t (er kommt). sprechen đổi e→i ở du/er (du sprichst, er spricht). sein: er ist. sie (cô ấy) + -t ≠ Sie (ông/bà) + -en.'
+next_level_note_vi: Số nhiều wir/ihr/sie, thêm các động từ bất quy tắc khác và haben học ở Kapitel 2.
+prerequisites:
+- g-a1-verben-ich-du-sie
+exercises:
+- id: a1.g.verben-singular.ex.01
+  type: fill-blank
+  skill: grammar
+  difficulty: 2
+  objective_refs:
+  - a1.g.verben-singular.r2
+  - a1.g.verben-singular.r3
+  - a1.g.verben-singular.r4
+  - a1.g.verben-singular.obj1
+  instructions_vi: Chia động từ trong ngoặc.
+  items:
+  - id: a1.g.verben-singular.ex.01.q1
+    prompt: Er ___ aus Polen. (kommen)
+    answers:
+    - kommt
+    explanation_vi: er + gốc + t.
+  - id: a1.g.verben-singular.ex.01.q2
+    prompt: Sie ___ in Hamburg. (wohnen) – (cô ấy)
+    answers:
+    - wohnt
+    explanation_vi: sie (cô ấy) + t.
+  - id: a1.g.verben-singular.ex.01.q3
+    prompt: ___ du Englisch? (sprechen)
+    answers:
+    - Sprichst
+    explanation_vi: 'du: e → i, sprichst.'
+  - id: a1.g.verben-singular.ex.01.q4
+    prompt: Tom ___ Reiseführer. (sein)
+    answers:
+    - ist
+    explanation_vi: er (Tom) → ist.
+  - id: a1.g.verben-singular.ex.01.q5
+    prompt: Frau Weber ___ Deutsch und Französisch. (sprechen)
+    answers:
+    - spricht
+    explanation_vi: sie (Frau Weber) → spricht.
+- id: a1.g.verben-singular.ex.02
+  type: multiple-choice
+  skill: grammar
+  difficulty: 2
+  objective_refs:
+  - a1.g.verben-singular.r1
+  - a1.g.verben-singular.r5
+  - a1.g.verben-singular.obj1
+  instructions_vi: Chọn đại từ phù hợp.
+  items:
+  - id: a1.g.verben-singular.ex.02.q1
+    prompt: Das ist Anna. ___ kommt aus Wien.
+    options:
+    - id: a
+      text: Er
+    - id: b
+      text: Sie
+    - id: c
+      text: Es
+    answer:
+    - b
+    explanation_vi: Anna là nữ → sie (viết hoa vì đầu câu).
+  - id: a1.g.verben-singular.ex.02.q2
+    prompt: Das ist Minh. ___ wohnt in Leipzig.
+    options:
+    - id: a
+      text: Du
+    - id: b
+      text: Er
+    - id: c
+      text: Sie
+    answer:
+    - b
+    explanation_vi: Minh là nam → er.
+  - id: a1.g.verben-singular.ex.02.q3
+    prompt: Woher kommen ___, Herr Klein?
+    options:
+    - id: a
+      text: Sie
+    - id: b
+      text: er
+    - id: c
+      text: sie
+    answer:
+    - a
+    explanation_vi: Hỏi trực tiếp ông Klein (trang trọng) + kommen → Sie viết hoa.

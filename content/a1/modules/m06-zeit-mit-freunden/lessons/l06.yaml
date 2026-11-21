@@ -1,0 +1,270 @@
+schema_version: '2.0'
+content_type: lesson
+id: a1.m06.l06
+level: A1
+module: a1.m06
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+  references:
+  - work: Netzwerk neu A1 (Klett)
+    scope: 'Kapitel 6: Landeskunde: Kneipen & Co in D-A-CH; Landeskunde: Was ist los in ...?'
+    verification: verified
+  notes_vi: 'Sprachhandlungen: über Veranstaltungen sprechen, nach Öffnungszeiten und Eintritt fragen, einen Tisch reservieren, die Kneipenkultur in D-A-CH kennenlernen. Wortschatz: Kneipe, Biergarten, Bar, Konzertabend, Stadtfest, Band, Live-Musik, Eintritt, Eintrittskarte, stattfinden, los sein, reservieren, geöffnet, Kinoabend.'
+order: 6
+title_de: Veranstaltungen und Kneipenkultur
+title_vi: Sự kiện văn hóa và văn hóa quán xá
+topic_vi: Tìm hiểu các sự kiện vui chơi trong thành phố (hòa nhạc, kịch, lễ hội), văn hóa quán bia sân vườn (Biergarten, Kneipe), hỏi thông tin và đặt chỗ
+duration_min: 85
+difficulty: 2
+cefr:
+- A1.L1
+- A1.H2
+- A1.SP1
+- A1.S2
+prerequisites:
+- a1.m06.l05
+objectives:
+- id: a1.m06.l06.obj1
+  text_vi: Hỏi và cung cấp thông tin về các sự kiện giải trí trong thành phố (Was ist heute los? – Ein Konzert findet statt).
+  skill: vocabulary
+- id: a1.m06.l06.obj2
+  text_vi: Hỏi giá vé vào cửa (Eintritt), giờ mở cửa (geöffnet) và đặt bàn trước (einen Tisch reservieren).
+  skill: listening
+- id: a1.m06.l06.obj3
+  text_vi: Khám phá nét đặc sắc của văn hóa quán xá bình dân (Kneipe) và quán bia ngoài trời (Biergarten) tại Đức.
+  skill: vocabulary
+- id: a1.m06.l06.obj4
+  text_vi: Đọc hiểu tờ rơi giới thiệu sự kiện và viết tin nhắn rủ bạn bè đi nghe nhạc hoặc đi xem kịch.
+  skill: listening
+vocabulary_refs:
+- a1.m06.v.kneipe
+- a1.m06.v.biergarten
+- a1.m06.v.bar-noun
+- a1.m06.v.konzertabend
+- a1.m06.v.stadtfest
+- a1.m06.v.band
+- a1.m06.v.live-musik
+- a1.m06.v.eintritt
+- a1.m06.v.eintrittskarte
+- a1.m06.v.konzertkarte
+- a1.m06.v.theaterstueck
+- a1.m06.v.museumsbesuch
+- a1.m06.v.kunst
+- a1.m06.v.stattfinden
+- a1.m06.v.los-sein
+- a1.m06.v.reservieren
+- a1.m06.v.reservierung
+- a1.m06.v.geoeffnet
+- a1.m06.v.kinoabend
+review_vocabulary_refs:
+- a1.m05.v.alltag
+- a1.m05.v.terminkalender
+- a1.m06.v.vorbeikommen
+- a1.m06.v.lokal
+grammar_refs:
+- a1.g.trennbare-verben
+grammar_focus:
+- ref: a1.g.trennbare-verben
+  focus_vi: 'Động từ tách: stattfinden (Das Konzert findet am Samstag statt)'
+expression_refs:
+- a1.m06.x.was-ist-am-wochenende-los-wo-findet-stat
+- a1.m06.x.ich-moechte-einen-tisch-fuer-personen-re
+exercise_set_ref: a1.m06.l06.ex
+summary_vi: Bài học giúp bạn tự tin tìm hiểu thông tin về các sự kiện vui chơi giải trí trong thành phố (stattfinden, los sein), biết cách đặt bàn trước (reservieren) và hiểu sâu sắc nét văn hóa quán xá bình dân Kneipe và quán bia ngoài trời Biergarten ở các nước nói tiếng Đức.
+self_check:
+- Tôi có thể hỏi xem cuối tuần trong thành phố có sự kiện gì diễn ra (Was ist los?).
+- Tôi biết dùng động từ tách stattfinden (Das Fest findet am Samstag statt).
+- Tôi có thể gọi điện thoại đặt bàn tại nhà hàng bằng tiếng Đức.
+blocks:
+- id: a1.m06.l06.b1
+  kind: explanation
+  title_vi: Giới thiệu bài học
+  body_vi: 'Đời sống văn hóa tại Đức, Áo và Thụy Sĩ vô cùng sôi động với hàng loạt sự kiện (*Veranstaltungen*) và không gian giao lưu gần gũi.
+
+    Trong bài học này, bạn sẽ:
+
+    - Khám phá các địa điểm gặp gỡ đặc trưng: quán rượu bình dân (*die Kneipe*), quán bia sân vườn (*der Biergarten*), quán bar (*die Bar*), buổi tối xem phim rạp (*der Kinoabend*).
+
+    - Học từ vựng về các sự kiện nghệ thuật: buổi tối hòa nhạc (*der Konzertabend*), lễ hội thành phố (*das Stadtfest*), ban nhạc (*die Band*), nhạc sống (*die Live-Musik*), vở kịch (*das Theaterstück*), chuyến đi bảo tàng (*der Museumsbesuch*).
+
+    - Nắm vững các mẫu câu thực tế: diễn ra ở đâu (*stattfinden*), "Có chuyện gì vui?" (*Was ist los?*), giá vé (*der Eintritt*), vé vào cửa (*die Eintrittskarte*), mở cửa (*geöffnet*), đặt bàn (*einen Tisch reservieren*).'
+- id: a1.m06.l06.b2
+  kind: explanation
+  title_vi: 'Khái niệm văn hóa: Der Biergarten'
+  skill: grammar
+  body_vi: Biergarten (quán bia sân vườn dưới tán cây dẻ mát rượi) là biểu tượng văn hóa bắt nguồn từ bang Bayern. Điểm độc đáo truyền thống của Biergarten là bạn có thể tự mang đồ ăn của mình từ nhà đi (bánh mì, xúc xích, phô mai...), miễn là bạn mua đồ uống tại quán!
+  examples:
+  - de: Im Sommer sitzen wir nach Feierabend gern im Biergarten.
+    vi: Vào mùa hè sau giờ tan làm chúng tôi rất thích ngồi ở quán bia sân vườn.
+  - de: Man darf im Biergarten eigenes Essen mitbringen.
+    vi: Người ta được phép tự mang đồ ăn của mình vào Biergarten.
+- id: a1.m06.l06.b3
+  kind: explanation
+  title_vi: 'Thành ngữ: Was ist los?'
+  skill: grammar
+  body_vi: 'Cụm từ ''Was ist los?'' có hai nghĩa tùy ngữ cảnh:
+
+    1. ''Có chuyện gì thế? / Bạn bị sao thế?'' (khi ai đó buồn hoặc có sự cố).
+
+    2. ''Có sự kiện gì đang diễn ra vui vẻ không?'' (khi nói về các hoạt động giải trí trong thành phố: ''Was ist am Wochenende in der Stadt los?'').'
+  examples:
+  - de: Was ist heute Abend in der Stadt los? – Ein tolles Straßenfest!
+    vi: Tối nay trong thành phố có gì vui thế? – Một lễ hội đường phố tuyệt vời!
+- id: a1.m06.l06.b4
+  kind: pronunciation
+  title_vi: Nguyên âm đôi ei [aɪ̯] trong các từ giải trí
+  skill: pronunciation
+  body_vi: 'Nguyên âm đôi ei [aɪ̯] trong các từ giải trí
+
+
+    Nguyên âm đôi ''ei'' được phát âm là [aɪ̯] (giống âm ''ai'' trong tiếng Việt nhưng dứt khoát hơn): die ''Kneipe'', der ''Eintritt'', ''frei'', ''feiern'', ''live''.
+
+
+    Luyện tập: Luyện đọc chuỗi từ có âm [aɪ̯]: Kneipe – Eintritt – frei – feierlich.'
+  items:
+  - de: die Kneipe
+    vi: quán rượu bình dân
+    ipa: '[ˈknaɪ̯pə]'
+  - de: der Eintritt
+    vi: vé vào cửa
+    ipa: '[ˈaɪ̯nˌtʁɪt]'
+  - de: frei
+    vi: miễn phí, tự do
+    ipa: '[fʁaɪ̯]'
+- id: a1.m06.l06.b5
+  kind: examples
+  title_vi: Câu ví dụ
+  examples:
+  - de: Das Musikfestival findet jedes Jahr im Juli statt.
+    vi: Liên hoan âm nhạc diễn ra vào tháng 7 hằng năm.
+  - de: Die Kneipe ist von 18 Uhr bis 2 Uhr nachts geöffnet.
+    vi: Quán rượu mở cửa từ 18 giờ đến 2 giờ đêm.
+  - de: Wir haben für heute Abend zwei Konzertkarten reserviert.
+    vi: Chúng tôi đã đặt trước hai vé hòa nhạc cho tối nay.
+  - de: Am Freitag machen wir einen gemütlichen Kinoabend zu Hause.
+    vi: Thứ Sáu chúng tôi làm một buổi tối xem phim ấm cúng ở nhà.
+- id: a1.m06.l06.b6
+  kind: listening
+  title_vi: 'Hội thoại: Đặt bàn trước tại quán ăn sân vườn'
+  lines:
+  - speaker: Gastwirt
+    de: Gasthaus am Park, guten Tag!
+    vi: Quán ăn bên công viên xin chào!
+  - speaker: Florian
+    de: Guten Tag! Mein Name ist Florian Hoffmann. Ich möchte gern einen Tisch für vier Personen reservieren.
+    vi: Xin chào! Tôi tên là Florian Hoffmann. Tôi muốn đặt một bàn cho bốn người.
+  - speaker: Gastwirt
+    de: Gerne, Herr Hoffmann. Für welchen Tag und welche Uhrzeit?
+    vi: Vâng được ạ, anh Hoffmann. Cho ngày nào và lúc mấy giờ ạ?
+  - speaker: Florian
+    de: Für diesen Samstag um 19:30 Uhr. Geht das draußen im Biergarten?
+    vi: Cho thứ Bảy này lúc 19:30 ạ. Có bàn ở ngoài sân vườn Biergarten được không?
+  - speaker: Gastwirt
+    de: Ja, das klappt prima! Wir reservieren einen schönen Tisch im Biergarten für Sie.
+    vi: Vâng, rất ổn ạ! Chúng tôi sẽ đặt một bàn đẹp ở sân vườn cho anh.
+  - speaker: Florian
+    de: Vielen herzlichen Dank! Auf Wiederhören!
+    vi: Cảm ơn rất nhiều ạ! Chào anh!
+  audio_status: pending-tts
+  situation_vi: Florian gọi điện đến nhà hàng Gasthaus am Park để đặt bàn ăn ngoài sân vườn cho tối thứ Bảy.
+  skill: listening
+  audio:
+    speed: slow
+- id: a1.m06.l06.b7
+  kind: reading
+  title_vi: 'Đọc hiểu: Tờ rơi sự kiện cuối tuần tại thành phố'
+  paragraphs:
+  - de: 'Was ist los in München am Wochenende?
+
+      1. Großes Stadtfest am Odeonsplatz:
+
+      Samstag und Sonntag ab 11 Uhr.
+
+      Zwei Bühnen mit Live-Musik, Tanz und leckerem Essen.
+
+      Der Eintritt ist komplett frei!
+
+      2. Theaterstück „Sommernacht“ im Stadttheater:
+
+      Samstag um 19:30 Uhr.
+
+      Eintrittskarten: 15 Euro an der Abendkasse, für Studenten 10 Euro.
+
+      3. Gemütlicher Abend im Hirschgarten:
+
+      Größter Biergarten Bayerns! Geöffnet täglich von 10 bis 23 Uhr.
+
+      Bringen Sie Ihre Brotzeit selbst mit oder probieren Sie bayerische Spezialitäten!'
+    vi: 'Có gì vui ở München vào cuối tuần này?
+
+      1. Lễ hội thành phố lớn tại quảng trường Odeonsplatz:
+
+      Thứ Bảy và Chủ Nhật từ 11 giờ.
+
+      Hai sân khấu với nhạc sống, khiêu vũ và ẩm thực thơm ngon.
+
+      Vào cửa hoàn toàn miễn phí!
+
+      2. Vở kịch „Đêm mùa hè“ tại nhà hát thành phố:
+
+      Thứ Bảy lúc 19:30.
+
+      Vé vào cửa: 15 euro mua tại quầy vé buổi tối, cho sinh viên là 10 euro.
+
+      3. Buổi tối ấm cúng tại Hirschgarten:
+
+      Quán bia sân vườn lớn nhất xứ Bayern! Mở cửa hằng ngày từ 10 đến 23 giờ.
+
+      Hãy tự mang đồ ăn vặt của bạn đi hoặc thưởng thức các đặc sản xứ Bayern!'
+  text_type_vi: Chương trình sự kiện văn hóa cuối tuần
+  skill: reading
+  glossary:
+  - de: die Bühne
+    vi: sân khấu
+  - de: die Abendkasse
+    vi: quầy bán vé buổi tối trước giờ diễn
+  - de: die Brotzeit
+    vi: bữa ăn nhẹ gồm bánh mì và xúc xích
+- id: a1.m06.l06.b8
+  kind: speaking
+  title_vi: Hỏi thông tin sự kiện và rủ bạn đi chơi
+  skill: speaking
+  task_vi: Thực hành hỏi bạn học xem trong thành phố có sự kiện gì và rủ bạn cùng đi tham dự.
+  steps_vi:
+  - 'Hỏi sự kiện: Was ist am Wochenende in der Stadt los?'
+  - 'Cung cấp thông tin: Am Samstag findet ein Konzert / Stadtfest statt.'
+  - 'Hỏi giá vé: Was kostet der Eintritt? – Der Eintritt ist frei / kostet 10 Euro.'
+  - 'Rủ rê: Wollen wir zusammen hingehen?'
+  lines:
+  - speaker: A
+    de: Was ist am Samstagabend los?
+    vi: Tối thứ Bảy có gì vui không?
+  - speaker: B
+    de: Auf dem Marktplatz gibt es ein Straßenfest mit Live-Musik. Der Eintritt ist frei!
+    vi: Ở quảng trường chợ có lễ hội đường phố với nhạc sống. Vào cửa tự do đấy!
+  - speaker: A
+    de: Toll! Gehen wir zusammen hin?
+    vi: Tuyệt quá! Chúng mình cùng đi nhé?
+  - speaker: B
+    de: Ja, sehr gerne!
+    vi: Ừ, mình rất thích!
+- id: a1.m06.l06.b9
+  kind: writing
+  title_vi: Viết tin nhắn rủ bạn đến quán Biergarten hoặc xem kịch
+  skill: writing
+  task_vi: Viết tin nhắn ngắn (4–5 câu) rủ một người bạn tham gia một sự kiện hoặc ngồi ở quán Biergarten vào cuối tuần.
+  model:
+    de: Hallo Stefan! Am Freitag ist das Wetter super warm. Wollen wir uns nach Feierabend im Biergarten treffen? Er ist bis 23 Uhr geöffnet. Ich reserviere einen Tisch für uns. Kommst du mit? Liebe Grüße, Lukas
+    vi: Chào Stefan! Thứ Sáu thời tiết rất ấm áp. Chúng mình gặp nhau sau giờ làm ở quán bia ngoài trời nhé? Quán mở cửa đến 23 giờ. Mình sẽ đặt trước một bàn cho tụi mình. Bạn đi cùng nhé? Thân ái, Lukas
+  checklist_vi:
+  - Có sử dụng từ vựng sự kiện hoặc địa điểm (Biergarten, geöffnet).
+  - Có câu đề nghị đặt chỗ hoặc hẹn giờ (reservieren).

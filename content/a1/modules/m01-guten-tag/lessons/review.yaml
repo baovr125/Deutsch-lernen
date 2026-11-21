@@ -1,0 +1,306 @@
+schema_version: '2.0'
+content_type: lesson
+id: a1.m01.review
+level: A1
+module: a1.m01
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+  references:
+  - work: Netzwerk neu A1 (Klett)
+    scope: 'Kapitel 1: kurz und klar: Redemittel und Grammatik'
+    verification: verified
+  notes_vi: Tương ứng phần tổng kết cuối Kapitel của giáo trình. Bảng tổng kết, đề kiểm tra và đáp án là nội dung tự biên soạn; không dùng Kapiteltest của nhà xuất bản.
+order: 6
+title_de: Kurz und klar – Test Kapitel 1
+title_vi: Tổng kết và kiểm tra Kapitel 1
+topic_vi: Ôn Redemittel và ngữ pháp Kapitel 1; kiểm tra 4 kỹ năng
+duration_min: 60
+difficulty: 2
+kind: review
+cefr:
+- A1.SI1
+- A1.SI2
+- A1.SI3
+- A1.H1
+- A1.H3
+- A1.L1
+- A1.L3
+- A1.S1
+- A1.S2
+- A1.SP1
+prerequisites:
+- a1.m01.l05
+objectives:
+- id: a1.m01.review.obj1
+  text_vi: 'Kiểm tra từ vựng và Redemittel: chào hỏi, giới thiệu, quê quán, số, đánh vần.'
+  skill: vocabulary
+- id: a1.m01.review.obj2
+  text_vi: 'Kiểm tra ngữ pháp: du/Sie, chia động từ số ít, câu hỏi W-, câu kể.'
+  skill: grammar
+- id: a1.m01.review.obj3
+  text_vi: 'Kiểm tra nghe hiểu: thông tin cá nhân, số điện thoại, đánh vần.'
+  skill: listening
+- id: a1.m01.review.obj4
+  text_vi: 'Kiểm tra đọc hiểu: tìm thông tin cá nhân trong văn bản ngắn.'
+  skill: reading
+- id: a1.m01.review.obj5
+  text_vi: 'Kiểm tra viết và nói: điền biểu mẫu, giới thiệu bản thân.'
+  skill: writing
+vocabulary_refs: []
+review_vocabulary_refs:
+- a1.m01.v.sein
+- a1.m01.v.heissen
+- a1.m01.v.wie
+- a1.m01.v.wie-geht-s
+- a1.m01.v.guten-tag
+- a1.m01.v.auf-wiedersehen
+- a1.m01.v.sie
+- a1.m01.v.frau
+- a1.m01.v.herr
+- a1.m01.v.vorname
+- a1.m01.v.nachname
+- a1.m01.v.kommen
+- a1.m01.v.woher
+- a1.m01.v.wo
+- a1.m01.v.wohnen
+- a1.m01.v.sprechen
+- a1.m01.v.sprache
+- a1.m01.v.telefonnummer
+- a1.m01.v.e-mail-adresse
+- a1.m01.v.buchstabieren
+- a1.m01.v.langsam
+- a1.m01.v.noch-einmal
+- a1.m01.v.land
+- a1.m01.v.schweiz
+grammar_refs:
+- a1.g.du-und-sie
+- a1.g.verben-ich-du-sie
+- a1.g.verben-singular
+- a1.g.w-fragen
+- a1.g.aussagesatz
+grammar_focus:
+- ref: a1.g.du-und-sie
+  focus_vi: 'Ôn: chọn du/Sie, cặp câu thân mật – trang trọng.'
+- ref: a1.g.verben-ich-du-sie
+  focus_vi: 'Ôn: đuôi -e, -st, -en; sein.'
+- ref: a1.g.verben-singular
+  focus_vi: 'Ôn: er/sie/es -t; sprechen e → i.'
+- ref: a1.g.w-fragen
+  focus_vi: 'Ôn: từ để hỏi và trật tự câu hỏi W-.'
+- ref: a1.g.aussagesatz
+  focus_vi: 'Ôn: động từ ở vị trí 2.'
+expression_refs:
+- a1.m01.x.begruessen-und-verabschieden-hallo-guten
+- a1.m01.x.sich-vorstellen-ich-bin-ich-heisse-mein
+- a1.m01.x.nach-dem-befinden-fragen-wie-geht-s-wie
+- a1.m01.x.herkunft-wohnort-sprachen-kontakt-woher
+exercise_set_ref: a1.m01.review.ex
+summary_vi: 'Kapitel 1 – bạn có thể: chào hỏi thân mật và trang trọng; giới thiệu bản thân và người khác; hỏi và trả lời về tên, quê, nơi ở, ngôn ngữ; trao đổi số điện thoại, email; đánh vần; báo khi không hiểu. Ngữ pháp: du/Sie; chia động từ số ít (sein, heißen, kommen, wohnen, sprechen); câu hỏi W-; câu kể với động từ ở vị trí 2.'
+self_check:
+- Tôi có thể chào hỏi và tạm biệt đúng tình huống (du/Sie, thời điểm trong ngày).
+- Tôi có thể giới thiệu bản thân và một người khác bằng 4–5 câu.
+- Tôi có thể hỏi và trả lời về quê quán, nơi ở, ngôn ngữ.
+- Tôi có thể đọc và ghi lại số điện thoại, đánh vần tên, đọc email.
+- Tôi biết nói gì khi không hiểu.
+- Tôi có thể điền một biểu mẫu đơn giản và viết tin nhắn giới thiệu ngắn.
+blocks:
+- id: a1.m01.review.b1
+  kind: explanation
+  title_vi: Giới thiệu bài học
+  body_vi: '**Bạn đã hoàn thành 5 bài của Kapitel 1!** Bài này có hai phần:
+
+
+    **Phần A – Tổng kết (kurz und klar):** đọc lại bảng Redemittel và các chủ điểm ngữ pháp. Nếu phần nào chưa chắc, quay lại bài tương ứng.
+
+
+    **Phần B – Kiểm tra:** 10 bài tập kiểm tra cả 4 kỹ năng. Hệ thống sẽ ghi nhận kết quả theo **từng mục tiêu**, không chỉ điểm trung bình:
+
+    - Mỗi kỹ năng (từ vựng, ngữ pháp, nghe, đọc, viết, nói) cần đạt **ít nhất 60%**.
+
+    - Nếu một kỹ năng dưới 60%, hệ thống sẽ đề xuất bài cần ôn lại trước khi sang Kapitel 2.
+
+
+    Hãy làm bài **không xem lại bài học**, sau đó mới xem đáp án và giải thích.'
+- id: a1.m01.review.b2
+  kind: explanation
+  title_vi: Bảng tổng kết ngữ pháp Kapitel 1
+  skill: grammar
+  body_vi: '| | sein | heißen | kommen | wohnen | sprechen |
+
+    |---|---|---|---|---|---|
+
+    | ich | bin | heiße | komme | wohne | spreche |
+
+    | du | bist | heißt | kommst | wohnst | sprichst |
+
+    | er/sie/es | ist | heißt | kommt | wohnt | spricht |
+
+    | Sie | sind | heißen | kommen | wohnen | sprechen |
+
+
+    **Câu hỏi W-:** W-Wort (1) – động từ (2) – chủ ngữ: *Woher kommst du?*
+
+    **Câu kể:** chủ ngữ (1) – động từ (2) – …: *Ich komme aus Vietnam.*
+
+    '
+  examples:
+  - de: Woher kommen Sie? – Ich komme aus Vietnam.
+    vi: Ông/Bà đến từ đâu? – Tôi đến từ Việt Nam.
+  - de: Wo wohnt sie? – Sie wohnt in Wien.
+    vi: Cô ấy sống ở đâu? – Cô ấy sống ở Viên.
+- id: a1.m01.review.b3
+  kind: pronunciation
+  title_vi: Ôn phát âm Kapitel 1
+  skill: pronunciation
+  body_vi: 'Ôn phát âm Kapitel 1
+
+
+    Tự kiểm tra: ü (tschüs), ß (heißen), ch [ç] (ich, nicht), ch [x] (acht, auch), sp [ʃp] (sprechen), z [ts] (zehn, zwanzig), v [f] (vier), w [v] (wo, wie, woher), phụ âm cuối rõ (Text, nicht, fünf), câu hỏi W- xuống giọng.
+
+
+    Luyện tập: Đọc to hai câu ví dụ và ghi âm; so sánh với audio mẫu.'
+  items:
+  - de: Ich spreche ein bisschen Deutsch.
+    vi: Tôi nói được một chút tiếng Đức.
+    ipa: '[ɪç ˈʃpʁɛçə aɪ̯n ˈbɪsçən dɔʏ̯tʃ]'
+  - de: Woher kommen Sie? ↘
+    vi: Ông/Bà đến từ đâu?
+- id: a1.m01.review.b4
+  kind: examples
+  title_vi: Câu ví dụ
+  examples:
+  - de: Guten Abend! Mein Name ist Minh Tran.
+    vi: Chào buổi tối! Tên tôi là Minh Trần.
+  - de: Das ist Anna. Sie kommt aus der Schweiz und spricht Deutsch und Französisch.
+    vi: Đây là Anna. Cô ấy đến từ Thụy Sĩ và nói tiếng Đức và tiếng Pháp.
+  - de: Wie ist Ihre Telefonnummer? – Null, eins, sieben, zwo …
+    vi: Số điện thoại của ông/bà là gì? – 0, 1, 7, 2 …
+  - de: Langsam, bitte! Noch einmal, bitte.
+    vi: Làm ơn nói chậm thôi! Làm ơn nói lại.
+- id: a1.m01.review.b5
+  kind: listening
+  title_vi: Ở văn phòng sinh viên quốc tế
+  lines:
+  - speaker: Herr Krüger
+    de: Guten Morgen! Wie heißen Sie?
+    vi: Chào buổi sáng! Anh tên là gì?
+  - speaker: Student
+    de: Guten Morgen! Mein Name ist Duc Vo.
+    vi: Chào buổi sáng! Tên tôi là Đức Võ.
+  - speaker: Herr Krüger
+    de: Wie schreibt man das? Buchstabieren Sie, bitte.
+    vi: Viết thế nào ạ? Anh đánh vần giúp.
+  - speaker: Student
+    de: 'Vorname: D – U – C. Nachname: V – O.'
+    vi: 'Tên: D – U – C. Họ: V – O.'
+  - speaker: Herr Krüger
+    de: Danke. Woher kommen Sie?
+    vi: Cảm ơn. Anh đến từ đâu?
+  - speaker: Student
+    de: Ich komme aus Vietnam, aus Hue.
+    vi: Tôi đến từ Việt Nam, từ Huế.
+  - speaker: Herr Krüger
+    de: Und wo wohnen Sie jetzt?
+    vi: Còn bây giờ anh sống ở đâu?
+  - speaker: Student
+    de: In Dresden.
+    vi: Ở Dresden.
+  - speaker: Herr Krüger
+    de: Welche Sprachen sprechen Sie?
+    vi: Anh nói những ngôn ngữ nào?
+  - speaker: Student
+    de: Vietnamesisch, Englisch und ein bisschen Deutsch.
+    vi: Tiếng Việt, tiếng Anh và một chút tiếng Đức.
+  - speaker: Herr Krüger
+    de: Und Ihre Handynummer?
+    vi: Còn số di động của anh?
+  - speaker: Student
+    de: Null, eins, sechs, null – vier, vier, sieben – eins, neun, acht.
+    vi: 0160 – 447 – 198.
+  - speaker: Herr Krüger
+    de: Danke, Herr Vo. Auf Wiedersehen!
+    vi: Cảm ơn anh Võ. Tạm biệt!
+  audio_status: pending-tts
+  situation_vi: Một sinh viên mới đến văn phòng quốc tế (International Office) của trường đại học để đăng ký.
+  skill: listening
+  audio:
+    speed: normal
+- id: a1.m01.review.b6
+  kind: reading
+  title_vi: Tìm bạn học tandem
+  paragraphs:
+  - de: 'Tandempartner gesucht!
+
+      Hallo! Ich heiße Julia Berger. Ich komme aus Österreich, aus Graz.
+
+      Ich wohne jetzt in Dresden. Ich spreche Deutsch und Englisch.
+
+      Ich lerne Vietnamesisch – aber nur ein bisschen!
+
+      Sprichst du Vietnamesisch und lernst du Deutsch?
+
+      Meine E-Mail-Adresse: julia.berger@web.de
+
+      Telefon: 0172 581346'
+    vi: 'Tìm bạn học tandem (học trao đổi ngôn ngữ)!
+
+      Xin chào! Mình tên là Julia Berger. Mình đến từ Áo, từ Graz.
+
+      Bây giờ mình sống ở Dresden. Mình nói tiếng Đức và tiếng Anh.
+
+      Mình đang học tiếng Việt – nhưng chỉ một chút thôi!
+
+      Bạn nói tiếng Việt và đang học tiếng Đức không?
+
+      Email của mình: julia.berger@web.de
+
+      Điện thoại: 0172 581346'
+  text_type_vi: Thông báo trên bảng tin
+  skill: reading
+  glossary:
+  - de: der Tandempartner
+    vi: bạn học tandem (hai người dạy ngôn ngữ cho nhau)
+  - de: gesucht
+    vi: đang tìm
+  - de: nur
+    vi: chỉ
+- id: a1.m01.review.b7
+  kind: speaking
+  title_vi: 'Kiểm tra nói: giới thiệu và trả lời câu hỏi'
+  skill: speaking
+  task_vi: 'Phần 1: tự giới thiệu (tên, quê, nơi ở, ngôn ngữ, đánh vần họ). Phần 2: trả lời 3 câu hỏi trang trọng: Wie geht es Ihnen? / Wie ist Ihre Telefonnummer? / Welche Sprachen sprechen Sie?'
+  steps_vi:
+  - Chuẩn bị 1 phút, không viết thành câu hoàn chỉnh – chỉ ghi từ khóa.
+  - Nói phần 1 (khoảng 1 phút) và ghi âm.
+  - Nghe câu hỏi phần 2 (audio) và trả lời.
+  lines:
+  - speaker: Lernende
+    de: 'Guten Tag! Mein Name ist Lan Pham. Pham: P – H – A – M. Ich komme aus Vietnam und wohne in Leipzig. Ich spreche Vietnamesisch, Englisch und ein bisschen Deutsch.'
+    vi: 'Xin chào! Tên tôi là Lan Phạm. Phạm: P – H – A – M. Tôi đến từ Việt Nam và sống ở Leipzig. Tôi nói tiếng Việt, tiếng Anh và một chút tiếng Đức.'
+  - speaker: Prüfer
+    de: Wie geht es Ihnen?
+    vi: Chị khỏe không?
+  - speaker: Lernende
+    de: Danke, gut. Und Ihnen?
+    vi: Cảm ơn, tôi khỏe. Còn ông?
+- id: a1.m01.review.b8
+  kind: writing
+  title_vi: 'Kiểm tra viết: trả lời thông báo tìm bạn tandem'
+  skill: writing
+  task_vi: 'Viết tin nhắn ngắn trả lời Julia (5–6 câu): chào, giới thiệu (tên, quê, nơi ở), ngôn ngữ bạn nói và đang học, số điện thoại hoặc email của bạn, chào tạm biệt.'
+  model:
+    de: Hallo Julia! Ich heiße Minh. Ich komme aus Vietnam und wohne in Dresden. Ich spreche Vietnamesisch und Englisch. Ich lerne Deutsch. Meine Nummer ist 0151 2736481. Tschüs, Minh
+    vi: Chào Julia! Mình tên là Minh. Mình đến từ Việt Nam và sống ở Dresden. Mình nói tiếng Việt và tiếng Anh. Mình đang học tiếng Đức. Số của mình là 0151 2736481. Tạm biệt, Minh
+  checklist_vi:
+  - Xưng du (Julia dùng du trong thông báo).
+  - 'Đủ các ý: chào – tên – quê – nơi ở – ngôn ngữ – liên lạc – tạm biệt.'
+  - Động từ chia đúng, ở vị trí 2.

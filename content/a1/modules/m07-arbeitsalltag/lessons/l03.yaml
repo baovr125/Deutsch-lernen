@@ -1,0 +1,69 @@
+schema_version: "2.0"
+content_type: lesson
+id: a1.m07.l03
+level: A1
+module: a1.m07
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  references:
+    - { work: "Netzwerk neu A1.2 – Stoffverteilungsplan (Klett)", scope: "Kapitel 7, Mục Wohin gehst du?; Grammatik Präpositionen mit Dativ + Kurzformen", verification: verified }
+  tags: ["ort", "dativ", "praeposition"]
+order: 3
+title_de: "Wohin gehst du?"
+title_vi: "Bạn đi đâu đấy?"
+duration_min: 50
+difficulty: 2
+objectives:
+  - { id: a1.m07.l03.obj1, text_vi: "Bạn có thể dùng đúng giới từ + Dativ và dạng rút gọn (im, am, beim, zum, zur, vom) với Wo/Wohin/Woher.", skill: grammar }
+  - { id: a1.m07.l03.obj2, text_vi: "Bạn có thể nói bạn đang ở đâu, định đi đâu và hỏi đường đến một địa điểm quen thuộc.", skill: speaking }
+vocabulary_refs: [a1.m07.v.bahnhof, a1.m07.v.bank, a1.m07.v.post, a1.m07.v.apotheke, a1.m07.v.supermarkt, a1.m07.v.cafe, a1.m07.v.gehen, a1.m07.v.fahren, a1.m07.v.bei, a1.m07.v.zu, a1.m07.v.von, a1.m07.v.aus, a1.m07.v.nach, a1.m07.v.zu-hause, a1.m07.v.nach-hause]
+grammar_refs: [a1.g.ortspraepositionen]
+expression_refs: [a1.m07.x.wohin-gehst-du, a1.m07.x.wo-ist]
+exercise_set_ref: a1.m07.l03.ex
+blocks:
+  - id: a1.m07.l03.b1
+    kind: explanation
+    skill: vocabulary
+    title_vi: "Bắt đầu: nơi chốn quanh chỗ làm"
+    body_vi: |
+      Trước khi chọn giới từ, hãy tự hỏi: **Wo?** (ở đâu) – **Wohin?** (đi đâu) – **Woher?** (từ đâu).
+      *Ich bin **im** Büro. (Wo?) · Ich gehe **zur** Bank. (Wohin?) · Ich komme **vom** Bahnhof. (Woher?)*
+  - id: a1.m07.l03.b2
+    kind: dialogue
+    skill: speaking
+    title_vi: "Hội thoại: Giờ nghỉ trưa"
+    lines:
+      - { speaker: "Nora", de: "Hallo Emre, wohin gehst du?", vi: "Chào Emre, bạn đi đâu đấy?" }
+      - { speaker: "Emre", de: "Ich gehe zur Post und dann zum Supermarkt.", vi: "Tôi đi bưu điện rồi đi siêu thị." }
+      - { speaker: "Nora", de: "Und wann bist du wieder im Büro?", vi: "Và khi nào bạn quay lại văn phòng?" }
+      - { speaker: "Emre", de: "Um halb zwei. Ich komme gerade von der Bank, dort war viel los.", vi: "Lúc một rưỡi. Tôi vừa từ ngân hàng về, ở đó rất đông." }
+      - { speaker: "Nora", de: "Dann gehen wir nach der Arbeit in ein Café, oder?", vi: "Vậy sau giờ làm chúng ta đi quán cà phê nhé, được không?" }
+      - { speaker: "Emre", de: "Gern! Ich fahre mit dem Bus nach Hause und komme später.", vi: "Rất sẵn lòng! Tôi đi xe buýt về nhà rồi đến sau." }
+  - id: a1.m07.l03.b3
+    kind: reading
+    skill: reading
+    title_vi: "Bài đọc: Nach der Arbeit"
+    paragraphs:
+      - { de: "Herr Weber arbeitet bei einer Bank. Nach der Arbeit geht er zum Supermarkt.", vi: "Anh Weber làm việc ở một ngân hàng. Sau giờ làm anh đi siêu thị." }
+      - { de: "Dann fährt er mit dem Bus zum Bahnhof und holt seine Tochter ab.", vi: "Sau đó anh đi xe buýt đến nhà ga và đón con gái." }
+      - { de: "Um sechs Uhr sind sie zu Hause. Der Tag ist lang, aber schön.", vi: "Sáu giờ họ ở nhà. Ngày dài nhưng vui." }
+  - id: a1.m07.l03.b4
+    kind: explanation
+    skill: grammar
+    title_vi: "Ngữ pháp: giới từ + Dativ và dạng rút gọn"
+    body_vi: |
+      Rút gọn: **in dem → im · an dem → am · bei dem → beim · zu dem → zum · zu der → zur · von dem → vom.**
+      Hai cụm cố định: **zu Hause** (đang ở nhà) và **nach Hause** (về nhà).
+      Xem bảng đầy đủ ở chủ điểm a1.g.ortspraepositionen.
+  - id: a1.m07.l03.b5
+    kind: culture
+    skill: reading
+    title_vi: "Văn hóa: giờ mở cửa"
+    body_vi: |
+      Ở Đức, Áo, Thụy Sĩ, nhiều cửa hàng và siêu thị nhỏ **đóng cửa vào Chủ nhật**; ngân hàng, bưu điện, hiệu thuốc cũng có giờ mở cửa riêng. Nên kiểm tra giờ mở cửa (Öffnungszeiten) trước khi đi.

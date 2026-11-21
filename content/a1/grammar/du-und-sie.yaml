@@ -1,0 +1,214 @@
+schema_version: '2.0'
+content_type: grammar-topic
+id: a1.g.du-und-sie
+level: A1
+introduced_in: a1.m01
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+  references:
+  - work: Netzwerk neu A1 (Klett)
+    scope: 'Kapitel 1: Guten Tag! Auf Wiedersehen!'
+    verification: verified
+  notes_vi: 'Tương ứng Sprachhandlung „Unterschiede systematisieren: formell und informell“ và Grammatik „Verben und Personalpronomen (ich, du, Sie)“.'
+introduced_in_lesson: a1.m01.l02
+title_de: du oder Sie? – informell und formell
+title_vi: Xưng hô thân mật (du) và trang trọng (Sie)
+summary_vi: 'Tiếng Việt có rất nhiều cách xưng hô (anh, chị, em, cô, chú, bác, ông, bà…) tùy tuổi tác và quan hệ.
+
+  Tiếng Đức đơn giản hơn: chỉ có **hai** cách nói với người đối diện.
+
+
+  | | **du** | **Sie** |
+
+  |---|---|---|
+
+  | Tính chất | thân mật (informell) | trang trọng, lịch sự (formell) |
+
+  | Dùng với | bạn bè, gia đình, trẻ em, sinh viên với nhau, đồng nghiệp đã thỏa thuận "du" | người lạ, người lớn tuổi, khách hàng, giáo viên/giảng viên, cơ quan, cấp trên |
+
+  | Cách gọi tên | gọi **tên riêng**: Hallo, Anna! | gọi **Herr/Frau + họ**: Guten Tag, Frau Weber! |
+
+  | Chào | Hallo! / Tschüs! | Guten Tag! / Auf Wiedersehen! |
+
+  | Viết | du (thường) | **Sie** (luôn viết hoa) |
+
+
+  **Mẹo an toàn:** khi không chắc chắn, hãy dùng *Sie*. Người Đức sẽ đề nghị chuyển sang *du* nếu họ muốn
+
+  ("Wollen wir uns duzen?" – Mình xưng *du* với nhau nhé?).'
+usage_vi: Chọn du hoặc Sie ngay từ câu chào đầu tiên. Khi đã chọn, cả lời chào, động từ và từ sở hữu đều phải theo (du → dein, Sie → Ihr).
+objectives:
+- id: a1.g.du-und-sie.obj1
+  text_vi: Chọn đúng du hay Sie và lời chào phù hợp với người đối thoại.
+  skill: grammar
+rules:
+- id: a1.g.du-und-sie.r1
+  title_vi: 'Xưng hô thân mật: du'
+  body_vi: du dùng trong quan hệ thân mật; khi xưng du ta gọi tên riêng.
+  examples:
+  - de: Hallo, Tom! Wie heißt du?
+    vi: Chào Tom! … Bạn tên là gì?
+  - de: Wie geht's? – Gut, und dir?
+    vi: Khỏe không? – Khỏe, còn bạn?
+- id: a1.g.du-und-sie.r2
+  title_vi: 'Xưng hô trang trọng: Sie'
+  body_vi: Sie dùng trong quan hệ trang trọng; gọi Herr/Frau + HỌ (không phải tên riêng). Sie luôn viết hoa.
+  examples:
+  - de: Guten Tag, Frau Klein! Wie heißen Sie?
+    vi: Xin chào bà Klein! … Ông/Bà tên là gì?
+  - de: Wie geht es Ihnen? – Danke, gut. Und Ihnen?
+    vi: Ông/Bà khỏe không? – Cảm ơn, khỏe. Còn ông/bà?
+- id: a1.g.du-und-sie.r3
+  title_vi: Lời chào theo mức trang trọng
+  body_vi: 'Lời chào cũng phân biệt: Hallo/Tschüs (thân mật) – Guten Tag/Auf Wiedersehen (trang trọng). Guten Morgen, Guten Abend, Gute Nacht dùng được cả hai.'
+  examples:
+  - de: Tschüs, Lisa!
+    vi: Tạm biệt Lisa!
+    note_vi: thân mật
+  - de: Auf Wiedersehen, Herr Braun!
+    vi: Tạm biệt ông Braun!
+    note_vi: trang trọng
+sentence_structures:
+- pattern: 'Thân mật: Hallo + tên riêng! / Wie heißt du? / Wie geht''s? – Und dir?'
+  example:
+    de: Hallo, Anna! Wie geht's?
+    vi: Chào Anna! Khỏe không?
+- pattern: 'Trang trọng: Guten Tag + Herr/Frau + họ! / Wie heißen Sie? / Wie geht es Ihnen? – Und Ihnen?'
+  example:
+    de: Guten Tag, Herr Lehmann! Wie geht es Ihnen?
+    vi: Xin chào ông Lehmann! Ông có khỏe không ạ?
+tables:
+- title_vi: Cùng một nội dung – hai cách nói
+  header:
+  - Nội dung
+  - du (thân mật)
+  - Sie (trang trọng)
+  rows:
+  - - Chào khi gặp
+    - Hallo!
+    - Guten Tag!
+  - - Hỏi tên
+    - Wie heißt du?
+    - Wie heißen Sie?
+  - - Hỏi thăm sức khỏe
+    - Wie geht's? / Wie geht es dir?
+    - Wie geht es Ihnen?
+  - - Hỏi lại
+    - Und dir?
+    - Und Ihnen?
+  - - Hỏi quê
+    - Woher kommst du?
+    - Woher kommen Sie?
+  - - Tạm biệt
+    - Tschüs! / Ciao! / Bis bald!
+    - Auf Wiedersehen!
+examples:
+- de: Hallo, ich bin Minh. Und du?
+  vi: Chào, mình là Minh. Còn bạn?
+- de: Guten Tag, mein Name ist Nguyen.
+  vi: Xin chào, tên tôi là Nguyễn.
+- de: Guten Morgen, Frau Weber! Wie geht es Ihnen?
+  vi: Chào buổi sáng bà Weber! Bà có khỏe không ạ?
+- de: Danke, gut. Und Ihnen?
+  vi: Cảm ơn, tôi khỏe. Còn ông/bà?
+- de: Tschüs, Paul! Bis bald!
+  vi: Tạm biệt Paul! Hẹn sớm gặp lại!
+common_mistakes:
+- wrong: Guten Tag, Frau Anna!
+  right: Guten Tag, Frau Weber!
+  explanation_vi: Người Việt hay gọi “cô Anna”, nhưng tiếng Đức ghép Frau/Herr với HỌ, không ghép với tên riêng.
+- wrong: Wie geht es Ihnen? – Gut, und dir?
+  right: Wie geht es Ihnen? – Gut, und Ihnen?
+  explanation_vi: Không trộn hai kiểu xưng hô trong cùng cuộc nói chuyện.
+- wrong: Wie heißen sie?
+  right: Wie heißen Sie?
+  explanation_vi: Khi viết, sie (thường) nghĩa là “cô ấy/họ”. Muốn hỏi người đối diện một cách trang trọng phải viết hoa Sie.
+- wrong: Gute Nacht! (khi vừa gặp nhau buổi tối)
+  right: Guten Abend!
+  explanation_vi: Gute Nacht chỉ dùng khi chia tay buổi tối muộn hoặc đi ngủ.
+comparison_vi: 'Tiếng Anh chỉ có “you” cho mọi trường hợp. Tiếng Pháp có tu/vous, tiếng Tây Ban Nha có tú/usted – tương tự du/Sie. Nếu bạn biết tiếng Pháp, hãy liên hệ: du ≈ tu, Sie ≈ vous.'
+vietnamese_contrast_vi: Tiếng Việt chọn đại từ theo tuổi và vai vế (em – anh – chú…), tiếng Đức chọn theo mức độ thân mật. Một sinh viên 20 tuổi nói chuyện với sinh viên 30 tuổi vẫn dùng du; nhưng với nhân viên bán hàng cùng tuổi vẫn dùng Sie. Đừng chọn theo tuổi như thói quen tiếng Việt.
+recap_vi: 'du = thân mật, gọi tên riêng, chào Hallo/Tschüs. Sie = trang trọng, luôn viết hoa, gọi Herr/Frau + họ, chào Guten Tag/Auf Wiedersehen. Khi không chắc chắn: dùng Sie.'
+next_level_note_vi: Dạng số nhiều thân mật “ihr” (các bạn) học ở Kapitel 2.
+prerequisites:
+- g-a1-satzbau-grundlagen
+exercises:
+- id: a1.g.du-und-sie.ex.01
+  type: multiple-choice
+  skill: grammar
+  difficulty: 1
+  objective_refs:
+  - a1.g.du-und-sie.r1
+  - a1.g.du-und-sie.r2
+  - a1.g.du-und-sie.obj1
+  instructions_vi: Tình huống nào dùng du, tình huống nào dùng Sie?
+  items:
+  - id: a1.g.du-und-sie.ex.01.q1
+    prompt: Bạn nói chuyện với một bạn học cùng lớp tiếng Đức (cùng là sinh viên).
+    options:
+    - id: a
+      text: du
+    - id: b
+      text: Sie
+    answer:
+    - a
+    explanation_vi: Sinh viên với nhau thường dùng du.
+  - id: a1.g.du-und-sie.ex.01.q2
+    prompt: Bạn hỏi đường một người đàn ông lớn tuổi trên phố.
+    options:
+    - id: a
+      text: du
+    - id: b
+      text: Sie
+    answer:
+    - b
+    explanation_vi: Người lạ, lớn tuổi → Sie.
+  - id: a1.g.du-und-sie.ex.01.q3
+    prompt: Bạn gọi điện tới văn phòng đăng ký cư trú (Bürgeramt).
+    options:
+    - id: a
+      text: Sie
+    - id: b
+      text: du
+    answer:
+    - a
+    explanation_vi: Cơ quan nhà nước → luôn dùng Sie.
+  - id: a1.g.du-und-sie.ex.01.q4
+    prompt: Bạn nói chuyện với đứa em họ 8 tuổi.
+    options:
+    - id: a
+      text: Sie
+    - id: b
+      text: du
+    answer:
+    - b
+    explanation_vi: Gia đình, trẻ em → du.
+- id: a1.g.du-und-sie.ex.02
+  type: matching
+  skill: grammar
+  difficulty: 1
+  objective_refs:
+  - a1.g.du-und-sie.r3
+  - a1.g.du-und-sie.obj1
+  instructions_vi: Nối cách nói thân mật với cách nói trang trọng tương ứng.
+  items:
+  - id: a1.g.du-und-sie.ex.02.q1
+    pairs:
+    - left: Hallo!
+      right: Guten Tag!
+    - left: Wie heißt du?
+      right: Wie heißen Sie?
+    - left: Und dir?
+      right: Und Ihnen?
+    - left: Tschüs!
+      right: Auf Wiedersehen!
+    explanation_vi: 'Thân mật ↔ trang trọng: Hallo ↔ Guten Tag; heißt du ↔ heißen Sie; dir ↔ Ihnen; Tschüs ↔ Auf Wiedersehen.'

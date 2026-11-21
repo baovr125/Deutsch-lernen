@@ -1,0 +1,69 @@
+schema_version: "2.0"
+content_type: grammar-topic
+id: a1.g.imperativ-du
+level: A1
+introduced_in: a1.m08
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  references:
+    - { work: "Netzwerk neu A1.2 – Stoffverteilungsplan (Klett)", scope: "Kapitel 8, Grammatik: Imperativ mit du", verification: verified }
+  tags: ["imperativ", "verb"]
+title_de: "Imperativ mit du"
+title_vi: "Câu mệnh lệnh với du (thân mật)"
+summary_vi: "Mệnh lệnh với „du“: lấy thân động từ (bỏ -en), không có chủ ngữ. Trực tiếp: „Komm!“, „Trink Wasser!“. Động từ đổi nguyên âm e→i/ie thì giữ nguyên đổi đó; a→ä thì không đổi."
+usage_vi: "Dùng để ra lệnh, nhắc nhở, khuyên, mời người thân hoặc bạn bè (dùng „du“). Thêm „bitte“ cho lịch sự."
+objectives:
+  - { id: a1.g.imperativ-du.obj1, text_vi: "Tạo và dùng đúng Imperativ du, kể cả động từ bất quy tắc và động từ tách.", skill: grammar }
+rules:
+  - id: a1.g.imperativ-du.r1
+    title_vi: "Quy tắc thường: thân động từ"
+    body_vi: "Bỏ -en khỏi dạng nguyên mẫu, không đặt „du“. Khi thân kết thúc bằng -t, -d hoặc -ig có thể thêm -e cho dễ phát âm: arbeiten → Arbeite!"
+    table:
+      header: ["Nguyên mẫu", "Imperativ du"]
+      rows:
+        - ["kommen", "Komm!"]
+        - ["trinken", "Trink!"]
+        - ["warten", "Warte!"]
+        - ["joggen", "Jogg!"]
+    examples:
+      - { de: "Komm bitte schnell!", vi: "Làm ơn đến nhanh lên!" }
+      - { de: "Trink mehr Wasser!", vi: "Hãy uống nhiều nước hơn!" }
+  - id: a1.g.imperativ-du.r2
+    title_vi: "Động từ đổi nguyên âm e → i / ie"
+    body_vi: "Động từ đổi e → i hoặc ie ở „du“ (du nimmst, du siehst) giữ nguyên đổi đó trong Imperativ. Động từ đổi a → ä (fahren, schlafen) thì không giữ ä: Fahr! Schlaf!"
+    table:
+      header: ["Nguyên mẫu", "du-Form", "Imperativ du"]
+      rows:
+        - ["nehmen", "du nimmst", "Nimm!"]
+        - ["sprechen", "du sprichst", "Sprich!"]
+        - ["helfen", "du hilfst", "Hilf!"]
+        - ["fahren", "du fährst", "Fahr!"]
+    examples:
+      - { de: "Nimm eine Tablette!", vi: "Uống một viên thuốc đi!" }
+      - { de: "Fahr bitte langsam!", vi: "Làm ơn đi chậm thôi!" }
+  - id: a1.g.imperativ-du.r3
+    title_vi: "Động từ tách và „sein“"
+    body_vi: "Động từ tách: động từ ở đầu câu, tiền tố ở cuối: aufstehen → Steh auf! „sein“ là trường hợp đặc biệt: Sei!"
+    examples:
+      - { de: "Steh früh auf!", vi: "Dậy sớm đi!" }
+      - { de: "Sei bitte ruhig!", vi: "Làm ơn giữ yên lặng!" }
+sentence_structures:
+  - { pattern: "Verb (thân) + (Ergänzung) + !", example: { de: "Mach jeden Tag Sport!", vi: "Hãy tập thể thao mỗi ngày!" } }
+  - { pattern: "Verb + bitte + (Ergänzung)!", example: { de: "Komm bitte um acht Uhr.", vi: "Làm ơn đến lúc tám giờ." } }
+  - { pattern: "Trennbares Verb + (Ergänzung) + Präfix!", example: { de: "Ruh dich nach dem Training aus!", vi: "Nghỉ ngơi sau buổi tập đi!" } }
+examples:
+  - { de: "Geh heute früh ins Bett!", vi: "Hôm nay đi ngủ sớm đi!" }
+  - { de: "Iss nicht so viel Zucker!", vi: "Đừng ăn nhiều đường như thế!" }
+  - { de: "Schwimm doch mit uns!", vi: "Bơi cùng chúng tôi đi!" }
+  - { de: "Hör auf deinen Körper und ruh dich aus!", vi: "Hãy lắng nghe cơ thể và nghỉ ngơi đi!" }
+common_mistakes:
+  - { wrong: "Du komm!", right: "Komm!", explanation_vi: "Imperativ du không có chủ ngữ „du“." }
+  - { wrong: "Nehm eine Tablette!", right: "Nimm eine Tablette!", explanation_vi: "Động từ đổi e→i ở „du nimmst“ thì Imperativ là „Nimm“, không phải „Nehm“." }
+  - { wrong: "Fähr langsam!", right: "Fahr langsam!", explanation_vi: "Với a→ä (du fährst), Imperativ bỏ dấu Umlaut: Fahr!" }
+exercise_refs: [a1.m08.l01.ex.03, a1.m08.l01.ex.04]

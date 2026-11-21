@@ -1,0 +1,278 @@
+schema_version: '2.0'
+content_type: lesson
+id: a1.m05.review
+level: A1
+module: a1.m05
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+  references:
+  - work: Netzwerk neu A1 (Klett)
+    scope: 'Kapitel 5: kurz und klar: Redemittel und Grammatik'
+    verification: verified
+  notes_vi: Bảng tổng kết, đề kiểm tra và đáp án tự biên soạn.
+order: 7
+title_de: Kurz und klar – Test Kapitel 5
+title_vi: Tổng kết và kiểm tra Kapitel 5
+topic_vi: Ôn Redemittel và ngữ pháp Kapitel 5 (Zeitangaben, Possessivartikel, Modalverben); kiểm tra tổng hợp 4 kỹ năng
+duration_min: 60
+difficulty: 2
+kind: review
+cefr:
+- A1.SI2
+- A1.H3
+- A1.L3
+- A1.SP1
+- A1.S2
+prerequisites:
+- a1.m05.l06
+objectives:
+- id: a1.m05.review.obj1
+  text_vi: 'Kiểm tra từ vựng: giờ giấc, ngày trong tuần, buổi trong ngày, gia đình, sinh hoạt thường nhật, lịch hẹn.'
+  skill: vocabulary
+- id: a1.m05.review.obj2
+  text_vi: 'Kiểm tra ngữ pháp: Giới từ chỉ thời gian (am, um, im, von... bis), mạo từ sở hữu (mein, dein, sein, ihr...), động từ tình thái (können, wollen, müssen).'
+  skill: grammar
+- id: a1.m05.review.obj3
+  text_vi: 'Kiểm tra nghe hiểu: thời gian biểu và cuộc gọi điện thoại đặt lịch hẹn.'
+  skill: listening
+- id: a1.m05.review.obj4
+  text_vi: 'Kiểm tra đọc hiểu: lịch làm việc và trao đổi tin nhắn sắp xếp cuộc hẹn.'
+  skill: reading
+- id: a1.m05.review.obj5
+  text_vi: 'Kiểm tra viết và nói: viết tin nhắn hẹn gặp và giới thiệu gia đình, lịch trình trong tuần.'
+  skill: speaking
+vocabulary_refs: []
+review_vocabulary_refs:
+- a1.m05.v.alltag
+- a1.m05.v.aufhoeren
+- a1.m05.v.mitkommen
+- a1.m05.v.spazierengehen
+- a1.m05.v.uhrzeit
+- a1.m05.v.vor
+- a1.m05.v.familie
+- a1.m05.v.schwester
+- a1.m05.v.haustier
+- a1.m05.v.terminkalender
+- a1.m05.v.feierabend
+- a1.m05.v.bringen
+- a1.m05.v.abholen
+- a1.m05.v.verabredung
+- a1.m05.v.koennen
+- a1.m05.v.wollen
+- a1.m05.v.muessen
+- a1.m05.v.vereinbaren
+- a1.m05.v.puenktlichkeit
+- a1.m05.v.stau
+grammar_refs:
+- a1.g.zeitangaben-wann
+- a1.g.possessivartikel
+- a1.g.modalverben
+grammar_focus:
+- ref: a1.g.zeitangaben-wann
+  focus_vi: 'Ôn: Cụm từ chỉ thời gian (um + giờ, am + ngày/buổi, im + tháng/mùa, von... bis).'
+- ref: a1.g.possessivartikel
+  focus_vi: 'Ôn: Mạo từ sở hữu ở Nominativ và Akkusativ (giống đực: meinen, deinen...).'
+- ref: a1.g.modalverben
+  focus_vi: 'Ôn: Chia và đặt câu với können, wollen, müssen trong cấu trúc khung câu Satzklammer.'
+expression_refs:
+- a1.m05.x.wie-spaet-ist-es-wie-viel-uhr-ist-es-es-2
+- a1.m05.x.ueber-familie-sprechen-das-ist-mein-mein
+- a1.m05.x.verabredungen-termine-wollen-wir-passt-e
+exercise_set_ref: a1.m05.review.ex
+summary_vi: 'Bài ôn tập giúp bạn củng cố toàn bộ kiến thức của Kapitel 5: cách diễn đạt giờ giấc và lịch sinh hoạt, từ vựng gia đình và mạo từ sở hữu, 3 động từ tình thái (können, wollen, müssen), cùng kỹ năng đặt lịch hẹn và giao tiếp văn minh khi đến muộn.'
+self_check:
+- Tôi đã nắm vững cách hỏi và trả lời về giờ giấc theo cả cách trang trọng lẫn đời thường.
+- Tôi sử dụng thành thạo mạo từ sở hữu ở cả Nominativ và Akkusativ.
+- Tôi tự tin chia và đặt câu với động từ tình thái können, wollen, müssen.
+- Tôi biết cách gọi điện đặt lịch hẹn khám bệnh và xử lý lịch sự khi bị chậm trễ.
+blocks:
+- id: a1.m05.review.b1
+  kind: explanation
+  title_vi: Giới thiệu bài học
+  body_vi: '**Chúc mừng bạn đã hoàn thành trọn vẹn 6 bài học của Kapitel 5: Alltag und Familie!**
+
+    Bài học tổng kết này được thiết kế để:
+
+    - Hệ thống hóa toàn bộ các mẫu câu giao tiếp quan trọng nhất (Redemittel) về giờ giấc, lịch sinh hoạt hằng ngày, gia đình và cách đặt lịch hẹn.
+
+    - Tóm tắt cô đọng 3 trụ cột ngữ pháp của chương: Giới từ chỉ thời gian (*Zeitangaben*), Mạo từ sở hữu (*Possessivartikel*), và Động từ tình thái (*Modalverben: können, wollen, müssen*).
+
+    - Đánh giá năng lực toàn diện của bạn qua bài kiểm tra 4 kỹ năng theo chuẩn CEFR A1.'
+- id: a1.m05.review.b2
+  kind: explanation
+  title_vi: Bảng tổng hợp ngữ pháp Kapitel 5
+  skill: grammar
+  body_vi: '**1. Cụm từ chỉ thời gian (Zeitangaben):**
+
+    - **um** + giờ chính xác: *um 8 Uhr, um Viertel vor neun*.
+
+    - **am** + thứ / buổi trong ngày / cuối tuần: *am Montag, am Morgen, am Wochenende* (ngoại lệ: *in der Nacht*).
+
+    - **im** + tháng / mùa: *im Juli, im Sommer*.
+
+    - **von ... bis ...**: *von 9 bis 17 Uhr*.
+
+
+    **2. Mạo từ sở hữu (Possessivartikel):**
+
+    - der Vater: *mein* Vater (Nom) → Ich besuche *meinen* Vater (Akk).
+
+    - das Kind: *mein* Kind (Nom) → Ich liebe *mein* Kind (Akk).
+
+    - die Mutter: *meine* Mutter (Nom) → Ich frage *meine* Mutter (Akk).
+
+    - die Eltern (số nhiều): *meine* Eltern (Nom) → Ich besuche *meine* Eltern (Akk).
+
+
+    **3. Động từ tình thái (Modalverben) & Khung câu (Satzklammer):**
+
+    - *können* (khả năng): ich kann, du kannst, er kann, wir können, ihr könnt, sie können.
+
+    - *wollen* (ý muốn): ich will, du willst, er will, wir wollen, ihr wollt, sie wollen.
+
+    - *müssen* (bắt buộc): ich muss, du musst, er muss, wir müssen, ihr müsst, sie müssen.
+
+    - Vị trí: [Modalverb ở vị trí 2] ... [Infinitiv ở cuối câu].
+
+    '
+  examples:
+  - de: Am Freitag will ich meinen Bruder besuchen.
+    vi: Vào thứ Sáu tôi muốn đến thăm anh trai tôi.
+  - de: Um wie viel Uhr musst du die Kinder abholen?
+    vi: Bạn phải đón các cháu vào lúc mấy giờ?
+- id: a1.m05.review.b3
+  kind: pronunciation
+  title_vi: Trọng âm từ và nhịp điệu câu trong giao tiếp hằng ngày
+  skill: pronunciation
+  body_vi: 'Trọng âm từ và nhịp điệu câu trong giao tiếp hằng ngày
+
+
+    Trong câu hỏi có từ để hỏi (W-Frage), ngữ điệu đi xuống ở cuối câu: ''Wann fängt der Kurs an? ↘''. Trong câu hỏi Yes/No (Ja/Nein-Frage), ngữ điệu đi lên ở cuối câu: ''Hast du am Wochenende Zeit? ↗''.
+
+
+    Luyện tập: Luyện đọc đúng ngữ điệu giữa câu hỏi thông tin và câu hỏi Yes/No.'
+  items:
+  - de: Wie spät ist es?
+    vi: Mấy giờ rồi? (ngữ điệu xuống)
+    ipa: '[viː ˈʃpɛːt ɪst ɛs] ↘'
+  - de: Können wir uns treffen?
+    vi: Chúng ta gặp nhau được không? (ngữ điệu lên)
+    ipa: '[ˈkœnən viːɐ̯ ʊns ˈtʁɛfn̩] ↗'
+- id: a1.m05.review.b4
+  kind: examples
+  title_vi: Câu ví dụ
+  examples:
+  - de: Am Morgen trinke ich Kaffee und bringe die Kinder in die Schule.
+    vi: Buổi sáng tôi uống cà phê và đưa các con đến trường.
+  - de: Am Nachmittag muss ich arbeiten, nhưng buổi tối tôi có thời gian.
+    vi: Buổi chiều tôi phải làm việc, nhưng buổi tối tôi có thời gian.
+  - de: Kannst du am Samstag um 15 Uhr kommen? – Ja, das passt prima!
+    vi: Bạn có thể đến vào thứ Bảy lúc 15 giờ không? – Có, tiện lắm!
+  - de: Entschuldigung für die Verspätung, ich stand im Stau.
+    vi: Xin lỗi vì sự chậm trễ, tôi đã bị kẹt xe.
+- id: a1.m05.review.b5
+  kind: listening
+  title_vi: 'Kiểm tra nghe: Cuộc gọi đổi lịch khám tại phòng khám'
+  lines:
+  - speaker: Assistentin
+    de: Praxis Dr. Neumann, guten Tag!
+    vi: Phòng khám bác sĩ Neumann xin chào!
+  - speaker: Herr Berg
+    de: Guten Tag, hier ist Markus Berg. Ich habe am Freitag um 10 Uhr einen Termin bei Dr. Neumann. Leider muss ich am Freitag dringend arbeiten. Kann ich den Termin auf nächste Woche verschieben?
+    vi: Xin chào, tôi là Markus Berg. Tôi có một lịch hẹn vào thứ Sáu lúc 10 giờ với bác sĩ Neumann. Tiếc là thứ Sáu tôi phải làm việc gấp. Tôi có thể dời lịch hẹn sang tuần sau được không?
+  - speaker: Assistentin
+    de: Einen Moment bitte, ich schaue nach ... Ja, am Dienstag um elf Uhr dreißig haben wir noch einen Termin frei. Passt es Ihnen da?
+    vi: Xin đợi một lát, để tôi kiểm tra... Vâng, thứ Ba lúc 11:30 chúng tôi còn một lịch hẹn trống. Quý vị có tiện vào lúc đó không?
+  - speaker: Herr Berg
+    de: Dienstag um elf Uhr dreißig klappt prima! Vielen Dank für Ihre Hilfe!
+    vi: Thứ Ba lúc 11:30 thì rất ổn thỏa! Cảm ơn sự giúp đỡ của chị!
+  audio_status: pending-tts
+  situation_vi: Anh Berg gọi điện đến phòng khám xin dời lịch hẹn khám từ thứ Sáu sang tuần sau.
+  skill: listening
+  audio:
+    speed: slow
+- id: a1.m05.review.b6
+  kind: reading
+  title_vi: 'Kiểm tra đọc: Một tuần bận rộn của Sophie'
+  paragraphs:
+  - de: 'Sophie ist 28 Jahre alt und arbeitet als Architektin in München.
+
+      Ihr Arbeitstag beginnt von Montag bis Donnerstag um 8:30 Uhr und endet um 17:00 Uhr.
+
+      Freitags hat sie schon um 14:00 Uhr Feierabend.
+
+      Nach Feierabend macht sie dienstags und donnerstags Sport im Verein.
+
+      Für diesen Samstag hat sie eine Verabredung mit ihrer Freundin Lea:
+
+      Sie wollen zusammen frühstücken und danach die Stadtgalerie besuchen.
+
+      Doch am Freitagmorgen ruft Sophie beim Zahnarzt an:
+
+      Sie hat Zahnschmerzen und vereinbart dringend einen Termin für Samstagnachmittag.
+
+      Deshalb verschiebt sie das Treffen mit Lea auf Sonntag.'
+    vi: 'Sophie 28 tuổi và làm kiến trúc sư tại München.
+
+      Ngày làm việc của cô bắt đầu từ thứ Hai đến thứ Năm lúc 8:30 và kết thúc lúc 17:00.
+
+      Vào các ngày thứ Sáu cô tan sở sớm lúc 14:00.
+
+      Sau giờ làm, cô tập thể thao ở câu lạc bộ vào các ngày thứ Ba và thứ Năm.
+
+      Thứ Bảy này cô có hẹn với cô bạn thân Lea:
+
+      Họ muốn cùng nhau ăn sáng và sau đó đến thăm triển lãm thành phố.
+
+      Thế nhưng vào sáng thứ Sáu, Sophie phải gọi điện cho nha sĩ:
+
+      Cô bị đau răng và khẩn cấp đặt một lịch hẹn vào chiều thứ Bảy.
+
+      Vì vậy, cô dời cuộc hẹn đi chơi với Lea sang Chủ Nhật.'
+  text_type_vi: Bài viết nhật ký tuần của Sophie
+  skill: reading
+  glossary:
+  - de: die Stadtgalerie
+    vi: triển lãm tranh thành phố
+  - de: die Zahnschmerzen
+    vi: chứng đau răng
+- id: a1.m05.review.b7
+  kind: speaking
+  title_vi: 'Kiểm tra nói: Rủ bạn đi chơi và thống nhất lịch hẹn'
+  skill: speaking
+  task_vi: Thực hành rủ bạn học làm một hoạt động cuối tuần, thống nhất giờ giấc và địa điểm.
+  steps_vi:
+  - 'Rủ bạn: Hast du am Samstag Zeit und Lust auf ...?'
+  - 'Đề xuất giờ: Wollen wir uns um ... Uhr treffen?'
+  - 'Phản hồi: Ja, das passt prima / Das klappt!'
+  lines:
+  - speaker: A
+    de: Hast du am Samstag Lust auf Kino?
+    vi: Thứ Bảy bạn có hứng đi xem phim không?
+  - speaker: B
+    de: Gute Idee! Wollen wir uns um 18 Uhr treffen?
+    vi: Ý kiến hay đấy! Chúng mình gặp nhau lúc 18 giờ nhé?
+  - speaker: A
+    de: Ja, 18 Uhr passt mir prima!
+    vi: Được, 18 giờ rất tiện cho mình!
+- id: a1.m05.review.b8
+  kind: writing
+  title_vi: 'Kiểm tra viết: Kể về gia đình và sinh hoạt hằng ngày'
+  skill: writing
+  task_vi: Viết đoạn văn ngắn 5–6 câu mô tả gia đình bạn, lịch trình trong ngày và các hoạt động sau giờ làm (Feierabend).
+  model:
+    de: Das ist meine Familie. Ich lebe mit meiner Frau und meinem Sohn in Frankfurt. Mein Arbeitstag beginnt um acht Uhr. Ich bringe morgens meinen Sohn in den Kindergarten. Um siebzehn Uhr habe ich Feierabend. Nach Feierabend mache ich gern Sport. Am Wochenende wollen wir zusammen spazieren gehen.
+    vi: Đây là gia đình tôi. Tôi sống cùng vợ và con trai ở Frankfurt. Ngày làm việc của tôi bắt đầu lúc 8 giờ. Buổi sáng tôi đưa con trai đến trường mầm non. Lúc 17 giờ tôi tan làm. Sau giờ làm tôi thích tập thể thao. Vào cuối tuần chúng tôi muốn cùng nhau đi dạo.
+  checklist_vi:
+  - 'Sử dụng đúng mạo từ sở hữu: mein, meine, meinen...'
+  - 'Sử dụng đúng giới từ thời gian: um ... Uhr, nach Feierabend, am Wochenende...'
+  - Có câu với động từ tình thái (wollen / können) hoặc động từ tách.

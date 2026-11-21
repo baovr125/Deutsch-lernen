@@ -1,0 +1,381 @@
+schema_version: '2.0'
+content_type: expression-set
+id: a1.m02.expr
+level: A1
+module: a1.m02
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+  references:
+  - work: Netzwerk neu A1 (Klett)
+    scope: 'Kapitel 2: Freunde, Kollegen und ich; Meine Hobbys, meine Freunde; Gehen wir ins Kino?; Mein Beruf; Strategie: Artikel lernen; Landeskunde: Neu im Club; Film: Die Netzwerk-WG; kurz und klar: Redemittel und Grammatik'
+    verification: verified
+  notes_vi: 'Trình tự và phạm vi theo Stoffverteilungsplan Netzwerk neu A1.1 (Kapitel 2, 10 UE) và Kapitelwortschatz. Mục „Mein Beruf“ (3 UE) được chia thành 2 bài; „Strategie: Artikel lernen“ được gộp vào bài „Mein Beruf“. Mọi nội dung là tự biên soạn.'
+entries:
+- id: a1.m02.x.was-machst-du-gern-ich-gern
+  de: Was machst du gern? – Ich … gern.
+  vi: Bạn thích làm gì? – Tôi thích …
+  register: informal
+  situation_vi: 'Hỏi và nói về sở thích (thân mật). Trang trọng: Was machen Sie gern?'
+  dialogue:
+  - speaker: Lisa
+    de: Was machst du gern, Minh?
+    vi: Minh thích làm gì?
+  - speaker: Minh
+    de: Ich koche gern. Und ich fotografiere gern.
+    vi: Mình thích nấu ăn. Và mình thích chụp ảnh.
+  lesson_refs:
+  - a1.m02.l01
+- id: a1.m02.x.ja-sehr-gern-nein-nicht-so-gern
+  de: Ja, sehr gern! / Nein, nicht so gern.
+  vi: Có, rất thích! / Không, không thích lắm.
+  register: informal
+  situation_vi: Trả lời câu hỏi “… du gern …?” với các mức độ.
+  dialogue:
+  - speaker: Paul
+    de: Tanzt du gern?
+    vi: Bạn có thích nhảy không?
+  - speaker: Mai
+    de: Nein, nicht so gern. Aber ich singe sehr gern!
+    vi: Không, không thích lắm. Nhưng mình rất thích hát!
+  lesson_refs:
+  - a1.m02.l01
+- id: a1.m02.x.ich-auch-ich-nicht
+  de: Ich auch! / Ich nicht.
+  vi: Mình cũng vậy! / Mình thì không.
+  register: informal
+  situation_vi: Phản ứng nhanh khi người khác nói về sở thích.
+  dialogue:
+  - speaker: Lisa
+    de: Ich schwimme gern.
+    vi: Mình thích bơi.
+  - speaker: Minh
+    de: Ich auch!
+    vi: Mình cũng vậy!
+  - speaker: Paul
+    de: Ich nicht.
+    vi: Mình thì không.
+  lesson_refs:
+  - a1.m02.l01
+- id: a1.m02.x.es-geht-so
+  de: Es geht so.
+  vi: Tàm tạm.
+  register: informal
+  situation_vi: Trả lời trung tính khi không thích cũng không ghét.
+  dialogue:
+  - speaker: Anna
+    de: Joggst du gern?
+    vi: Bạn có thích chạy bộ không?
+  - speaker: Tom
+    de: Es geht so.
+    vi: Tàm tạm.
+  lesson_refs:
+  - a1.m02.l01
+- id: a1.m02.x.was-macht-ihr-am-wochenende-wir
+  de: Was macht ihr am Wochenende? – Wir …
+  vi: Cuối tuần các bạn làm gì? – Chúng mình …
+  register: informal
+  situation_vi: Hỏi một nhóm bạn (thân mật, số nhiều).
+  dialogue:
+  - speaker: Minh
+    de: Was macht ihr am Wochenende?
+    vi: Cuối tuần các bạn làm gì?
+  - speaker: Lisa
+    de: Wir kochen Spaghetti und lesen. Und du?
+    vi: Bọn mình nấu mì Ý và đọc sách. Còn bạn?
+  lesson_refs:
+  - a1.m02.l02
+- id: a1.m02.x.wirklich-das-ist-super-toll-lustig
+  de: Wirklich? Das ist super / toll / lustig!
+  vi: Thật à? Tuyệt quá / Hay quá / Vui quá!
+  register: informal
+  situation_vi: Bày tỏ ngạc nhiên và khen.
+  dialogue:
+  - speaker: Paul
+    de: Ich spiele Fußball mit Kollegen.
+    vi: Mình chơi bóng đá với đồng nghiệp.
+  - speaker: Mai
+    de: Wirklich? Das ist toll!
+    vi: Thật à? Hay quá!
+  lesson_refs:
+  - a1.m02.l02
+- id: a1.m02.x.im-moment-lese-ich
+  de: Im Moment lese ich …
+  vi: Dạo này tôi đang đọc …
+  register: neutral
+  situation_vi: Nói việc mình đang làm trong thời gian này.
+  dialogue:
+  - speaker: Anna
+    de: Liest du gern?
+    vi: Bạn có thích đọc sách không?
+  - speaker: Huy
+    de: Ja! Im Moment lese ich ein Buch von Bernhard Schlink.
+    vi: Có! Dạo này mình đang đọc một cuốn của Bernhard Schlink.
+  lesson_refs:
+  - a1.m02.l02
+- id: a1.m02.x.gehen-wir-am-ins
+  de: Gehen wir am … ins …?
+  vi: Thứ … mình đi … nhé?
+  register: informal
+  situation_vi: Rủ một người bạn đi chơi.
+  dialogue:
+  - speaker: Lisa
+    de: Gehen wir am Freitag ins Kino?
+    vi: Thứ Sáu mình đi xem phim nhé?
+  - speaker: Minh
+    de: Ja, gern!
+    vi: Ừ, thích lắm!
+  lesson_refs:
+  - a1.m02.l03
+- id: a1.m02.x.das-geht-leider-nicht-am-arbeite-ich
+  de: Das geht leider nicht. Am … arbeite ich.
+  vi: Tiếc là không được. Thứ … mình phải làm.
+  register: neutral
+  situation_vi: Từ chối lịch sự và nêu lý do.
+  dialogue:
+  - speaker: Paul
+    de: Gehen wir am Montag ins Schwimmbad?
+    vi: Thứ Hai đi bơi nhé?
+  - speaker: Mai
+    de: Das geht leider nicht. Am Montag arbeite ich. Am Dienstag?
+    vi: Tiếc là không được. Thứ Hai mình làm việc. Thứ Ba nhé?
+  - speaker: Paul
+    de: Ja, das geht!
+    vi: Ừ, được!
+  lesson_refs:
+  - a1.m02.l03
+- id: a1.m02.x.wann-am
+  de: Wann? – Am …
+  vi: Khi nào? – Vào thứ …
+  register: neutral
+  situation_vi: Hỏi và trả lời về ngày.
+  dialogue:
+  - speaker: Anna
+    de: Wann gehen wir ins Theater?
+    vi: Khi nào mình đi nhà hát?
+  - speaker: Tom
+    de: Am Samstag.
+    vi: Thứ Bảy.
+  lesson_refs:
+  - a1.m02.l03
+- id: a1.m02.x.gute-idee-super
+  de: Gute Idee! / Super!
+  vi: Ý hay đấy! / Tuyệt!
+  register: informal
+  situation_vi: Nhận lời một cách vui vẻ.
+  dialogue:
+  - speaker: Huy
+    de: Gehen wir ins Restaurant?
+    vi: Mình đi nhà hàng nhé?
+  - speaker: Lan
+    de: Gute Idee!
+    vi: Ý hay đấy!
+  lesson_refs:
+  - a1.m02.l03
+- id: a1.m02.x.was-sind-sie-von-beruf-was-machst-du-ber
+  de: Was sind Sie von Beruf? / Was machst du beruflich? – Ich bin …
+  vi: Ông/Bà làm nghề gì? / Bạn làm nghề gì? – Tôi là …
+  register: neutral
+  situation_vi: Hỏi và trả lời về nghề nghiệp.
+  dialogue:
+  - speaker: Frau Lang
+    de: Was sind Sie von Beruf?
+    vi: Anh làm nghề gì?
+  - speaker: Herr Vo
+    de: Ich bin Krankenpfleger.
+    vi: Tôi là điều dưỡng.
+  lesson_refs:
+  - a1.m02.l04
+- id: a1.m02.x.ich-arbeite-bei-im
+  de: Ich arbeite bei … / im …
+  vi: Tôi làm ở …
+  register: neutral
+  situation_vi: Nói nơi làm việc.
+  dialogue:
+  - speaker: Lisa
+    de: Wo arbeitest du?
+    vi: Bạn làm ở đâu?
+  - speaker: Minh
+    de: Ich arbeite bei SAP. Ich bin Informatiker.
+    vi: Mình làm ở SAP. Mình là kỹ sư tin học.
+  lesson_refs:
+  - a1.m02.l04
+- id: a1.m02.x.was-ist-das-das-ist-der-die-das
+  de: Was ist das? – Das ist der/die/das …
+  vi: Đây là cái gì? – Đây là …
+  register: neutral
+  situation_vi: Hỏi và gọi tên đồ vật kèm mạo từ.
+  dialogue:
+  - speaker: Kind
+    de: Was ist das?
+    vi: Cái này là gì ạ?
+  - speaker: Ärztin
+    de: Das ist das Medikament. Und das ist die Tablette.
+    vi: Đây là thuốc. Còn đây là viên thuốc.
+  lesson_refs:
+  - a1.m02.l04
+- id: a1.m02.x.welcher-artikel-der-die-das
+  de: Welcher Artikel? – der / die / das.
+  vi: Mạo từ nào? – der / die / das.
+  register: neutral
+  situation_vi: Hỏi mạo từ của một từ khi học.
+  dialogue:
+  - speaker: Lan
+    de: Schlüssel – welcher Artikel?
+    vi: Schlüssel – mạo từ nào ạ?
+  - speaker: Lehrer
+    de: Der Schlüssel. Er ist blau!
+    vi: Der Schlüssel. Nó màu xanh dương (theo mẹo màu)!
+  lesson_refs:
+  - a1.m02.l04
+- id: a1.m02.x.wie-alt-bist-du-sind-sie-ich-bin
+  de: Wie alt bist du / sind Sie? – Ich bin …
+  vi: Bạn / Ông bà bao nhiêu tuổi? – Tôi … tuổi.
+  register: neutral
+  situation_vi: Hỏi và nói tuổi (ở Đức hỏi tuổi người lạ có thể bị coi là tò mò – hãy dùng trong tình huống phù hợp).
+  dialogue:
+  - speaker: Lisa
+    de: Wie alt bist du?
+    vi: Bạn bao nhiêu tuổi?
+  - speaker: Minh
+    de: Ich bin 24. Und du?
+    vi: Mình 24. Còn bạn?
+  - speaker: Lisa
+    de: Ich bin 23.
+    vi: Mình 23.
+  lesson_refs:
+  - a1.m02.l05
+- id: a1.m02.x.ich-arbeite-von-bis-stunden-pro-woche
+  de: Ich arbeite von … bis … / … Stunden pro Woche.
+  vi: Tôi làm việc từ … đến … / … giờ mỗi tuần.
+  register: neutral
+  situation_vi: Nói thời gian làm việc.
+  dialogue:
+  - speaker: Reporterin
+    de: Wie viel arbeiten Sie?
+    vi: Chị làm việc bao nhiêu?
+  - speaker: Hoa
+    de: Ich arbeite von Montag bis Freitag, 38 Stunden pro Woche.
+    vi: Tôi làm từ thứ Hai đến thứ Sáu, 38 giờ mỗi tuần.
+  lesson_refs:
+  - a1.m02.l05
+- id: a1.m02.x.am-habe-ich-frei
+  de: Am … habe ich frei.
+  vi: Thứ … tôi được nghỉ.
+  register: neutral
+  situation_vi: Nói ngày nghỉ.
+  dialogue:
+  - speaker: Tom
+    de: Wann hast du frei?
+    vi: Khi nào bạn được nghỉ?
+  - speaker: Huy
+    de: Am Montag und am Dienstag habe ich frei.
+    vi: Thứ Hai và thứ Ba mình được nghỉ.
+  lesson_refs:
+  - a1.m02.l05
+- id: a1.m02.x.wie-ist-ihre-adresse-meine-adresse-ist
+  de: Wie ist Ihre Adresse? – Meine Adresse ist …
+  vi: Địa chỉ của ông/bà là gì? – Địa chỉ của tôi là …
+  register: formal
+  situation_vi: Hỏi và nói địa chỉ khi đăng ký.
+  dialogue:
+  - speaker: Mitarbeiter
+    de: Wie ist Ihre Adresse?
+    vi: Địa chỉ của chị là gì?
+  - speaker: Lan
+    de: Lindenstraße 12, 04109 Leipzig.
+    vi: Số 12 phố Linden, 04109 Leipzig.
+  lesson_refs:
+  - a1.m02.l06
+- id: a1.m02.x.ich-bin-neu-hier-neu-im-club
+  de: Ich bin neu hier / neu im Club.
+  vi: Tôi mới đến đây / mới vào câu lạc bộ.
+  register: neutral
+  situation_vi: Giới thiệu mình là người mới.
+  dialogue:
+  - speaker: Huy
+    de: Hallo! Ich bin neu im Club.
+    vi: Xin chào! Tôi mới vào câu lạc bộ.
+  - speaker: Trainerin
+    de: Willkommen! Spielst du Tennis oder Basketball?
+    vi: Chào mừng! Bạn chơi tennis hay bóng rổ?
+  lesson_refs:
+  - a1.m02.l06
+- id: a1.m02.x.wann-ist-der-kurs-am
+  de: Wann ist der Kurs? – Am …
+  vi: Khóa học vào khi nào? – Vào …
+  register: neutral
+  situation_vi: Hỏi lịch của khóa học.
+  dialogue:
+  - speaker: Mai
+    de: Wann ist der Yoga-Kurs?
+    vi: Lớp yoga vào khi nào ạ?
+  - speaker: Mitarbeiterin
+    de: Am Dienstag und am Donnerstag.
+    vi: Thứ Ba và thứ Năm.
+  lesson_refs:
+  - a1.m02.l06
+- id: a1.m02.x.ueber-hobbys-sprechen-was-machst-du-gern
+  de: 'Über Hobbys sprechen: Was machst du gern? – Ich … (sehr/nicht so/nicht) gern.'
+  vi: Nói về sở thích
+  register: informal
+  situation_vi: Tổng kết bài 1–2.
+  dialogue:
+  - speaker: A
+    de: Was machst du gern?
+    vi: Bạn thích làm gì?
+  - speaker: B
+    de: Ich koche sehr gern, aber ich tanze nicht so gern.
+    vi: Mình rất thích nấu ăn, nhưng không thích nhảy lắm.
+  lesson_refs:
+  - a1.m02.review
+- id: a1.m02.x.sich-verabreden-gehen-wir-am-ins-ja-gern
+  de: 'Sich verabreden: Gehen wir am … ins …? – Ja, gern! / Das geht leider nicht.'
+  vi: Hẹn đi chơi
+  register: informal
+  situation_vi: Tổng kết bài 3.
+  dialogue:
+  - speaker: A
+    de: Gehen wir am Freitag ins Kino?
+    vi: Thứ Sáu đi xem phim nhé?
+  - speaker: B
+    de: Das geht leider nicht. Am Samstag?
+    vi: Tiếc là không được. Thứ Bảy nhé?
+  lesson_refs:
+  - a1.m02.review
+- id: a1.m02.x.ueber-den-beruf-sprechen-was-sind-sie-vo
+  de: 'Über den Beruf sprechen: Was sind Sie von Beruf? – Ich bin … Ich arbeite bei … Am … habe ich frei.'
+  vi: Nói về nghề nghiệp
+  register: formal
+  situation_vi: Tổng kết bài 4–5.
+  dialogue:
+  - speaker: A
+    de: Was sind Sie von Beruf?
+    vi: Anh làm nghề gì?
+  - speaker: B
+    de: Ich bin Koch. Ich arbeite im Restaurant. Am Montag habe ich frei.
+    vi: Tôi là đầu bếp. Tôi làm ở nhà hàng. Thứ Hai tôi được nghỉ.
+  lesson_refs:
+  - a1.m02.review
+- id: a1.m02.x.formulare-wie-ist-ihre-adresse-lindenstr
+  de: 'Formulare: Wie ist Ihre Adresse? – Lindenstraße 12, 04109 Leipzig.'
+  vi: Biểu mẫu, địa chỉ
+  register: formal
+  situation_vi: Tổng kết bài 6.
+  dialogue:
+  - speaker: A
+    de: Wie ist Ihr Geburtsdatum?
+    vi: Ngày sinh của chị là gì?
+  - speaker: B
+    de: Der 03.09.1999.
+    vi: Ngày 03/09/1999.
+  lesson_refs:
+  - a1.m02.review

@@ -1,0 +1,192 @@
+schema_version: '2.0'
+content_type: grammar-topic
+id: a1.g.trennbare-verben
+level: A1
+introduced_in: a1.m06
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+  references:
+  - work: Netzwerk neu A1 (Klett)
+    scope: 'Kapitel 6: Zeit mit Freunden'
+    verification: verified
+  notes_vi: Tương ứng Grammatik „Trennbare Verben“ của Kapitel 6.
+introduced_in_lesson: a1.m06.l01
+title_de: Trennbare Verben im Präsens
+title_vi: Động từ tách ở thì hiện tại
+summary_vi: "Trong tiếng Đức, nhiều động từ được cấu tạo từ một **tiền tố (Präfix)** kết hợp với một **động từ gốc**.\nRất nhiều trong số đó là **động từ tách (trennbare Verben)**:\n- Khi chia ở thì hiện tại trong câu đơn (Aussagesatz) hoặc câu hỏi (W-Frage, Ja/Nein-Frage):\n  * **Động từ gốc** được chia theo ngôi chủ ngữ và đứng ở **vị trí số 2** (hoặc vị trí số 1 trong câu hỏi Ja/Nein).\n  * **Tiền tố (Präfix)** bị tách ra và bị đẩy về **đứng ở vị trí CUỐI CÙNG của câu**.\n\n**1. Các tiền tố tách thường gặp ở A1:**\n- **mit-**: *mitkommen* (đi cùng), *mitbringen* (mang theo), *mitmachen* (tham gia cùng)\n- **an-**: *anrufen* (gọi điện), *anfangen* (bắt đầu), *ankommen* (đến nơi)\n- **auf-**: *aufstehen* (thức dậy), *aufräumen* (dọn dẹp), *aufhören* (kết thúc)\n- **aus-**: *ausgehen* (đi chơi tối), *aussehen* (trông như thế nào)\n- **ein-**: *einkaufen* (đi chợ), *einladen* (mời), *einschlafen* (ngủ thiếp đi)\n- **ab-**: *abholen* (đón về), *absagen* (hủy hẹn)\n- **fern-**: *fernsehen*\
+  \ (xem tivi)\n\n**2. Dấu hiệu nhận biết khi phát âm:**\nTiền tố tách luôn nhận **TRỌNG ÂM CHÍNH** của từ:\n- *'mit-kom-men*, *'an-ru-fen*, *'aus-ge-hen*, *'ein-la-den*.\n- (Ngược lại, các tiền tố không tách như *be-, ver-, ge-, ent-, er-* không mang trọng âm: *be-'su-chen, ver-'ste-hen*)."
+usage_vi: Dùng để diễn tả các hoạt động thường nhật, giải trí, đi chơi cùng bạn bè. Động từ gốc chia theo ngôi ở vị trí 2, tiền tố tách đứng ở cuối câu.
+objectives:
+- id: a1.g.trennbare-verben.obj1
+  text_vi: Dùng động từ tách trong câu chính và khi có Modalverb.
+  skill: grammar
+rules:
+- id: a1.g.trennbare-verben.r1
+  title_vi: Tiền tố tách ở cuối câu
+  body_vi: Trong câu chính ở thì hiện tại, động từ gốc chia theo chủ ngữ và đứng ở vị trí 2, tiền tố tách ra và đứng ở vị trí cuối cùng của câu.
+  examples:
+  - de: Ich lade dich zu meinem Geburtstag ein.
+    vi: Tôi mời bạn đến sinh nhật của tôi.
+  - de: Wir kaufen am Samstag im Supermarkt ein.
+    vi: Chúng tôi đi mua sắm ở siêu thị vào thứ Bảy.
+- id: a1.g.trennbare-verben.r2
+  title_vi: Không tách khi có Modalverb
+  body_vi: 'Khi đi cùng động từ khuyết thiếu (Modalverb: können, wollen, müssen), động từ tách KHÔNG BỊ TÁCH mà giữ nguyên dạng nguyên thể (Infinitiv) ở cuối câu.'
+  examples:
+  - de: Kannst du mich morgen anrufen?
+    vi: Bạn có thể gọi điện cho tôi vào ngày mai được không?
+  - de: Wir wollen am Abend ausgehen.
+    vi: Chúng tôi muốn đi chơi vào buổi tối.
+sentence_structures:
+- pattern: Chủ ngữ (Pos 1) + Động từ gốc đã chia (Pos 2) + ... + Tiền tố tách (Cuối câu).
+  example:
+    de: Lukas ruft seine Freundin an.
+    vi: Lukas gọi điện cho bạn gái.
+- pattern: Thời gian (Pos 1) + Động từ gốc đã chia (Pos 2) + Chủ ngữ (Pos 3) + ... + Tiền tố tách (Cuối câu).
+  example:
+    de: Am Freitagabend gehe ich mit Freunden aus.
+    vi: Tối thứ Sáu tôi đi chơi cùng bạn bè.
+- pattern: Động từ gốc đã chia (Pos 1) + Chủ ngữ + ... + Tiền tố tách (Cuối câu)?
+  example:
+    de: Kommst du zur Party mit?
+    vi: Bạn có đi cùng đến bữa tiệc không?
+tables:
+- title_vi: Chia động từ tách mitkommen và anrufen ở thì hiện tại
+  header:
+  - Ngôi
+  - mitkommen (đi cùng)
+  - anrufen (gọi điện)
+  rows:
+  - - ich
+    - komme ... mit
+    - rufe ... an
+  - - du
+    - kommst ... mit
+    - rufst ... an
+  - - er / sie / es
+    - kommt ... mit
+    - ruft ... an
+  - - wir
+    - kommen ... mit
+    - rufen ... an
+  - - ihr
+    - kommt ... mit
+    - ruft ... an
+  - - sie / Sie
+    - kommen ... mit
+    - rufen ... an
+examples:
+- de: Kommst du heute Abend mit ins Kino?
+  vi: Tối nay bạn có đi cùng đến rạp chiếu phim không?
+- de: Ich bringe einen Kuchen zur Party mit.
+  vi: Tôi mang theo một chiếc bánh ngọt đến bữa tiệc.
+- de: Am Wochenende schlafe ich erst um Mitternacht ein.
+  vi: Vào cuối tuần tôi thiếp đi ngủ lúc nửa đêm.
+- de: Wann fängt das Konzert an? – Um zwanzig Uhr.
+  vi: Khi nào buổi hòa nhạc bắt đầu? – Lúc 20 giờ.
+common_mistakes:
+- wrong: Ich mitkomme heute Abend ins Kino.
+  right: Ich komme heute Abend ins Kino mit.
+  explanation_vi: Tiền tố mit- bắt buộc phải tách ra và đứng ở cuối câu chính.
+- wrong: Ich kann dich anrufen morgen.
+  right: Ich kann dich morgen anrufen.
+  explanation_vi: Khi có Modalverb (kann), động từ anrufen nguyên thể không bị tách và đứng ở cuối câu.
+comparison_vi: 'Trong tiếng Anh: phrasal verbs (như ''call up'', ''pick up'') có thể đứng liền hoặc cách tân ngữ. Trong tiếng Đức: tiền tố tách bắt buộc phải đứng ở vị trí tuyệt đối cuối cùng của câu chính.'
+vietnamese_contrast_vi: 'Tiếng Việt nói ''Tôi đi chơi với bạn'' (các từ đi liền nhau). Tiếng Đức ''ausgehen'' bị chẻ đôi: ''Ich gehe ... aus'', tiền tố ''aus'' bị đẩy ra tận cuối câu. Người học Việt Nam rất dễ quên tiền tố ở cuối câu nếu câu quá dài.'
+recap_vi: 'Động từ tách: Động từ gốc chia theo chủ ngữ ở vị trí 2, tiền tố tách chuyển ra đứng ở vị trí cuối cùng của câu. Khi có Modalverb, động từ tách giữ nguyên thể không tách ở cuối câu.'
+next_level_note_vi: Ở trình độ A2, khi học mệnh đề phụ (Nebensatz với weil, dass, wenn), động từ tách sẽ không bị tách mà gắn liền lại với nhau ở cuối câu (z.B. weil ich dich anrufe).
+prerequisites:
+- g-a1-verben-praesens
+- g-a1-satzbau-grundlagen
+exercises:
+- id: a1.g.trennbare-verben.ex.01
+  type: multiple-choice
+  skill: grammar
+  difficulty: 1
+  objective_refs:
+  - a1.g.trennbare-verben.r1
+  - a1.g.trennbare-verben.obj1
+  instructions_vi: Chọn tiền tố đúng ở cuối câu để hoàn chỉnh câu.
+  items:
+  - id: a1.g.trennbare-verben.ex.01.q1
+    prompt: Ich rufe dich heute Abend ___.
+    options:
+    - id: a
+      text: mit
+    - id: b
+      text: aus
+    - id: c
+      text: an
+    - id: d
+      text: auf
+    answer:
+    - c
+    explanation_vi: anrufen (gọi điện thoại) → tiền tố an ở cuối câu.
+  - id: a1.g.trennbare-verben.ex.01.q2
+    prompt: Bringst du zur Party einen Salat ___?
+    options:
+    - id: a
+      text: ein
+    - id: b
+      text: ab
+    - id: c
+      text: an
+    - id: d
+      text: mit
+    answer:
+    - d
+    explanation_vi: mitbringen (mang theo) → tiền tố mit ở cuối câu.
+  - id: a1.g.trennbare-verben.ex.01.q3
+    prompt: Am Samstag gehen wir mit Freunden ___.
+    options:
+    - id: a
+      text: an
+    - id: b
+      text: mit
+    - id: c
+      text: auf
+    - id: d
+      text: aus
+    answer:
+    - d
+    explanation_vi: ausgehen (đi chơi buổi tối) → tiền tố aus ở cuối câu.
+- id: a1.g.trennbare-verben.ex.02
+  type: word-order
+  skill: grammar
+  difficulty: 2
+  objective_refs:
+  - a1.g.trennbare-verben.r1
+  - a1.g.trennbare-verben.r2
+  - a1.g.trennbare-verben.obj1
+  instructions_vi: Sắp xếp các từ thành câu hoàn chỉnh với động từ tách.
+  items:
+  - id: a1.g.trennbare-verben.ex.02.q1
+    tokens:
+    - dich
+    - lade
+    - Ich
+    - ein
+    - Geburtstag
+    - zum
+    answer: Ich lade dich zum Geburtstag ein.
+    prompt_vi: 'Sắp xếp câu với động từ einladen:'
+    explanation_vi: Chủ ngữ 'Ich' + 'lade' ở vị trí 2 + 'dich zum Geburtstag' + tiền tố 'ein' ở cuối câu.
+  - id: a1.g.trennbare-verben.ex.02.q2
+    tokens:
+    - kann
+    - mitkommen
+    - Er
+    - heute
+    - nicht
+    answer: Er kann heute nicht mitkommen.
+    prompt_vi: 'Sắp xếp câu với Modalverb và động từ tách:'
+    explanation_vi: Chủ ngữ 'Er' + Modalverb 'kann' vị trí 2 + 'heute nicht' + Infinitiv 'mitkommen' ở cuối câu.

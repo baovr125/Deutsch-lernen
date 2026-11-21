@@ -1,0 +1,332 @@
+schema_version: '2.0'
+content_type: exercise-set
+id: a1.m02.review.ex
+level: A1
+module: a1.m02
+lesson: a1.m02.review
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+exercises:
+- id: a1.m02.review.ex.01
+  type: multiple-choice
+  skill: vocabulary
+  difficulty: 1
+  objective_refs:
+  - a1.m02.review.obj1
+  instructions_vi: Phần B1 – Từ vựng. Chọn đáp án đúng.
+  items:
+  - id: a1.m02.review.ex.01.q1
+    prompt: 'Ngày sau Mittwoch là:'
+    options:
+    - id: a
+      text: Dienstag
+    - id: b
+      text: Freitag
+    - id: c
+      text: Donnerstag
+    answer:
+    - c
+    explanation_vi: Mittwoch (T4) → Donnerstag (T5).
+  - id: a1.m02.review.ex.01.q2
+    prompt: '„Er arbeitet im Krankenhaus.“ Anh ấy là:'
+    options:
+    - id: a
+      text: Lehrer
+    - id: b
+      text: Krankenpfleger
+    - id: c
+      text: Kellner
+    answer:
+    - b
+    explanation_vi: Trong ba nghề, chỉ điều dưỡng làm ở bệnh viện.
+  - id: a1.m02.review.ex.01.q3
+    prompt: '73 là:'
+    options:
+    - id: a
+      text: siebenunddreißig
+    - id: b
+      text: siebzigdrei
+    - id: c
+      text: dreiundsiebzig
+    answer:
+    - c
+    explanation_vi: drei + und + siebzig.
+  - id: a1.m02.review.ex.01.q4
+    prompt: 'Mục „PLZ“ trong biểu mẫu là:'
+    options:
+    - id: a
+      text: ngày sinh
+    - id: b
+      text: mã bưu chính
+    - id: c
+      text: số nhà
+    answer:
+    - b
+    explanation_vi: PLZ = Postleitzahl.
+- id: a1.m02.review.ex.02
+  type: fill-blank
+  skill: grammar
+  difficulty: 2
+  objective_refs:
+  - a1.m02.review.obj2
+  instructions_vi: Phần B2 – Chia động từ trong ngoặc.
+  items:
+  - id: a1.m02.review.ex.02.q1
+    prompt: Was ___ ihr am Wochenende? (machen)
+    answers:
+    - macht
+    explanation_vi: ihr → -t.
+  - id: a1.m02.review.ex.02.q2
+    prompt: Du ___ viel. (lesen)
+    answers:
+    - liest
+    explanation_vi: du liest.
+  - id: a1.m02.review.ex.02.q3
+    prompt: Er ___ nach Hamburg. (fahren)
+    answers:
+    - fährt
+    explanation_vi: er fährt.
+  - id: a1.m02.review.ex.02.q4
+    prompt: Wir ___ am Montag frei. (haben)
+    answers:
+    - haben
+    explanation_vi: wir haben.
+  - id: a1.m02.review.ex.02.q5
+    prompt: Du ___ bei Siemens. (arbeiten)
+    answers:
+    - arbeitest
+    explanation_vi: du arbeitest.
+  - id: a1.m02.review.ex.02.q6
+    prompt: Ich ___ 30 Jahre alt. (sein)
+    answers:
+    - bin
+    explanation_vi: Tuổi → sein.
+- id: a1.m02.review.ex.03
+  type: fill-blank
+  skill: grammar
+  difficulty: 2
+  objective_refs:
+  - a1.m02.review.obj2
+  instructions_vi: Phần B2 – Điền mạo từ (der/die/das) hoặc dạng số nhiều.
+  items:
+  - id: a1.m02.review.ex.03.q1
+    prompt: ___ Rechnung
+    answers:
+    - die
+    explanation_vi: -ung → die.
+  - id: a1.m02.review.ex.03.q2
+    prompt: ___ Wochenende
+    answers:
+    - das
+    explanation_vi: 'Theo từ cuối: das Ende.'
+  - id: a1.m02.review.ex.03.q3
+    prompt: das Buch → die ___
+    answers:
+    - Bücher
+    explanation_vi: ¨-er.
+  - id: a1.m02.review.ex.03.q4
+    prompt: die Kollegin → die ___
+    answers:
+    - Kolleginnen
+    explanation_vi: -innen.
+- id: a1.m02.review.ex.04
+  type: word-order
+  skill: grammar
+  difficulty: 2
+  objective_refs:
+  - a1.m02.review.obj2
+  instructions_vi: Phần B2 – Sắp xếp thành câu hỏi có/không.
+  items:
+  - id: a1.m02.review.ex.04.q1
+    tokens:
+    - am
+    - frei
+    - du
+    - Hast
+    - Sonntag
+    answer: Hast du am Sonntag frei?
+    explanation_vi: Hast (1) – du (2) – am Sonntag – frei (cuối).
+  - id: a1.m02.review.ex.04.q2
+    tokens:
+    - Theater
+    - wir
+    - ins
+    - Gehen
+    answer: Gehen wir ins Theater?
+    explanation_vi: Gehen – wir – ins Theater.
+- id: a1.m02.review.ex.05
+  type: multiple-choice
+  skill: grammar
+  difficulty: 2
+  objective_refs:
+  - a1.m02.review.obj2
+  instructions_vi: Phần B2 – Chọn câu đúng.
+  items:
+  - id: a1.m02.review.ex.05.q1
+    prompt: Câu nào đúng?
+    options:
+    - id: a
+      text: Ich bin 25 Jahre.
+    - id: b
+      text: Ich habe 25 Jahre.
+    - id: c
+      text: Ich bin 25 Jahre alt.
+    answer:
+    - c
+    explanation_vi: 'Tuổi: sein + Jahre alt (hoặc chỉ Ich bin 25).'
+  - id: a1.m02.review.ex.05.q2
+    prompt: Câu nào đúng?
+    options:
+    - id: a
+      text: Ich bin Lehrer die.
+    - id: b
+      text: Ich bin die Lehrerin.
+    - id: c
+      text: Ich bin Lehrerin.
+    answer:
+    - c
+    explanation_vi: Nói nghề không có mạo từ.
+- id: a1.m02.review.ex.06
+  type: multiple-choice
+  skill: listening
+  difficulty: 2
+  objective_refs:
+  - a1.m02.review.obj3
+  instructions_vi: Phần B3 – Nghe (tốc độ bình thường). Chọn đáp án đúng.
+  stimulus:
+    ref: a1.m02.review.b5
+  items:
+  - id: a1.m02.review.ex.06.q1
+    prompt: Khi nào Jonas và Mai chơi tennis?
+    options:
+    - id: a
+      text: am Donnerstag
+    - id: b
+      text: am Samstag
+    - id: c
+      text: am Dienstag
+    answer:
+    - a
+    explanation_vi: 'Mai: „Am Donnerstag habe ich frei.“ – Jonas: „Donnerstag ist super!“'
+  - id: a1.m02.review.ex.06.q2
+    prompt: Thứ Ba Mai làm gì?
+    options:
+    - id: a
+      text: Sie spielt Tennis.
+    - id: b
+      text: Sie arbeitet im Café.
+    - id: c
+      text: Sie hat frei.
+    answer:
+    - b
+    explanation_vi: „Am Dienstag arbeite ich im Café.“
+  - id: a1.m02.review.ex.06.q3
+    prompt: Sân tennis ở phố Goethe số mấy?
+    options:
+    - id: a
+      text: '54'
+    - id: b
+      text: '15'
+    - id: c
+      text: '45'
+    answer:
+    - c
+    explanation_vi: fünfundvierzig = 45.
+- id: a1.m02.review.ex.07
+  type: true-false
+  skill: reading
+  difficulty: 2
+  objective_refs:
+  - a1.m02.review.obj4
+  instructions_vi: Phần B4 – Đọc thông báo. Đúng hay sai?
+  stimulus:
+    ref: a1.m02.review.b6
+  items:
+  - id: a1.m02.review.ex.07.q1
+    prompt: Ana là kỹ sư.
+    answer: true
+    explanation_vi: „Sie ist Ingenieurin …“
+  - id: a1.m02.review.ex.07.q2
+    prompt: Kenji rất thích chơi tennis.
+    answer: false
+    explanation_vi: „Er spielt Tennis, aber nicht so gern.“
+  - id: a1.m02.review.ex.07.q3
+    prompt: Kenji được nghỉ thứ Hai và thứ Ba.
+    answer: true
+    explanation_vi: „… hat am Montag und am Dienstag frei.“
+  - id: a1.m02.review.ex.07.q4
+    prompt: Ana 34 tuổi.
+    answer: false
+    explanation_vi: Ana 27, Kenji 34.
+- id: a1.m02.review.ex.08
+  type: translation
+  skill: grammar
+  difficulty: 2
+  objective_refs:
+  - a1.m02.review.obj2
+  - a1.m02.review.obj1
+  instructions_vi: Phần B2 – Dịch sang tiếng Đức.
+  items:
+  - id: a1.m02.review.ex.08.q1
+    direction: vi-de
+    source: Các bạn có thích nấu ăn không?
+    answers:
+    - Kocht ihr gern?
+    explanation_vi: ihr kocht; câu hỏi có/không.
+  - id: a1.m02.review.ex.08.q2
+    direction: vi-de
+    source: Anh ấy là đầu bếp và chủ nhật được nghỉ.
+    answers:
+    - Er ist Koch und hat am Sonntag frei.
+    explanation_vi: Nghề không mạo từ; frei|haben.
+- id: a1.m02.review.ex.09
+  type: writing-practice
+  skill: writing
+  difficulty: 2
+  objective_refs:
+  - a1.m02.review.obj5
+  instructions_vi: Phần B5 – Viết tin nhắn cho câu lạc bộ (phần Viết). Tối đa 8 điểm.
+  grading: self
+  rubric:
+  - criterion_vi: 'Nội dung: đủ 6 ý'
+    points: 4
+  - criterion_vi: 'Ngữ pháp: haben/sein, chia động từ, gern'
+    points: 2
+  - criterion_vi: Chính tả và dấu câu
+    points: 2
+  items:
+  - id: a1.m02.review.ex.09.q1
+    prompt_vi: Tin nhắn cho câu lạc bộ
+    model_answer:
+      de: Hallo! Ich heiße Lan und bin 25 Jahre alt. Ich bin Krankenpflegerin. Ich spiele gern Basketball. Ich habe am Mittwoch und am Freitag frei. Wann ist der Basketball-Kurs?
+    explanation_vi: So sánh với bài mẫu.
+- id: a1.m02.review.ex.10
+  type: speaking-practice
+  skill: speaking
+  difficulty: 2
+  objective_refs:
+  - a1.m02.review.obj5
+  instructions_vi: Phần B6 – Kiểm tra nói (phần Nói). Tối đa 8 điểm.
+  grading: self
+  rubric:
+  - criterion_vi: 'Phần 1: đủ 5 thông tin, câu đúng ngữ pháp'
+    points: 4
+  - criterion_vi: 'Phần 2: rủ bằng câu hỏi có/không, từ chối/đề nghị ngày khác'
+    points: 3
+  - criterion_vi: 'Phát âm: ngữ điệu câu hỏi, số'
+    points: 1
+  items:
+  - id: a1.m02.review.ex.10.q1
+    prompt_vi: Giới thiệu bản thân và hẹn đi chơi
+    model_answer:
+      de: Ich bin 24 Jahre alt. Ich bin Studentin. Ich koche gern und spiele gern Tennis. Am Wochenende habe ich frei. – Gehen wir am Dienstag ins Kino?
+    explanation_vi: So sánh với mẫu.

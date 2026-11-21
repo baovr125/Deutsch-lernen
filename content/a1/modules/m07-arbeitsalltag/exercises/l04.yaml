@@ -1,0 +1,134 @@
+schema_version: "2.0"
+content_type: exercise-set
+id: a1.m07.l04.ex
+level: A1
+module: a1.m07
+lesson: a1.m07.l04
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  tags: ["schreiben", "aussprache"]
+exercises:
+  - id: a1.m07.l04.ex.01
+    type: multiple-choice
+    skill: pronunciation
+    difficulty: 1
+    objective_refs: [a1.m07.l04.obj2]
+    instructions_vi: "Chọn đáp án đúng về cách phát âm."
+    items:
+      - id: a1.m07.l04.ex.01.q1
+        prompt: "Wie spricht man „st“ am Anfang von „Stunde“?"
+        options: [{ id: a, text: "/st/" }, { id: b, text: "/ʃt/" }, { id: c, text: "/zt/" }]
+        answer: [b]
+        explanation_vi: "st- ở đầu từ đọc /ʃt/ (Stunde = /ˈʃtʊndə/)."
+      - id: a1.m07.l04.ex.01.q2
+        prompt: "Wie spricht man das „s“ in „Sie“?"
+        options: [{ id: a, text: "/z/" }, { id: b, text: "/ʃ/" }, { id: c, text: "/s/" }]
+        answer: [a]
+        explanation_vi: "s đứng trước nguyên âm đọc /z/ (Sie = /ziː/)."
+      - id: a1.m07.l04.ex.01.q3
+        prompt: "In welchem Wort spricht man „st“ als /st/?"
+        options: [{ id: a, text: "Stunde" }, { id: b, text: "sprechen" }, { id: c, text: "ist" }]
+        answer: [c]
+        explanation_vi: "Ở cuối từ „st“ đọc /st/ (ist = /ɪst/); ở đầu từ (Stunde) đọc /ʃt/."
+      - id: a1.m07.l04.ex.01.q4
+        prompt: "Welches Wort beginnt mit dem Laut /ʃ/?"
+        options: [{ id: a, text: "Schreibtisch" }, { id: b, text: "Sonne" }, { id: c, text: "Computer" }]
+        answer: [a]
+        explanation_vi: "„sch“ đọc /ʃ/ (Schreibtisch). „Sonne“ bắt đầu bằng /z/."
+  - id: a1.m07.l04.ex.02
+    type: fill-blank
+    skill: writing
+    difficulty: 1
+    objective_refs: [a1.m07.l04.obj1, a1.m07.obj.email]
+    instructions_vi: "Điền từ thiếu trong lời chào/kết thư."
+    items:
+      - { id: a1.m07.l04.ex.02.q1, prompt: "Sehr ___ Frau Berger,", hint_vi: "Kính gửi bà Berger", answers: ["geehrte"], explanation_vi: "Mở đầu thư trang trọng với người nữ: „Sehr geehrte Frau …“ (với nam: „Sehr geehrter Herr …“)." }
+      - { id: a1.m07.l04.ex.02.q2, prompt: "Mit freundlichen ___", hint_vi: "Trân trọng", answers: ["Grüßen"], explanation_vi: "Cụm kết thư trang trọng: „Mit freundlichen Grüßen“." }
+      - { id: a1.m07.l04.ex.02.q3, prompt: "___ Anna,", hint_vi: "Anna thân mến", answers: ["Liebe"], explanation_vi: "Thư thân mật gửi nữ: „Liebe Anna“ (nam: „Lieber Tom“)." }
+      - { id: a1.m07.l04.ex.02.q4, prompt: "Viele ___, Paul", hint_vi: "Thân ái", answers: ["Grüße"], explanation_vi: "Kết thư thân mật: „Viele Grüße“." }
+  - id: a1.m07.l04.ex.03
+    type: word-order
+    skill: writing
+    difficulty: 2
+    objective_refs: [a1.m07.l04.obj1, a1.m07.obj.email]
+    instructions_vi: "Sắp xếp các từ thành câu dùng trong e-mail."
+    items:
+      - id: a1.m07.l04.ex.03.q1
+        tokens: ["einen", "morgen", "Ich", "Termin", "mit", "habe", "Kunden.", "dem"]
+        answer: "Ich habe morgen einen Termin mit dem Kunden."
+        translation_vi: "Ngày mai tôi có một cuộc hẹn với khách hàng."
+        explanation_vi: "Chủ ngữ + habe + trạng ngữ + einen Termin + mit dem Kunden."
+      - id: a1.m07.l04.ex.03.q2
+        tokens: ["den", "du", "Kannst", "Brief", "bitte", "drucken?"]
+        answer: "Kannst du bitte den Brief drucken?"
+        translation_vi: "Bạn in giúp mình bức thư được không?"
+        explanation_vi: "Câu hỏi Ja/Nein: động từ khuyết thiếu „Kannst“ đứng đầu, động từ nguyên mẫu „drucken“ ở cuối."
+      - id: a1.m07.l04.ex.03.q3
+        tokens: ["Frage", "habe", "eine", "Ich", "Text.", "zum"]
+        answer: "Ich habe eine Frage zum Text."
+        translation_vi: "Tôi có một câu hỏi về văn bản."
+        explanation_vi: "„zum Text“ = zu + dem Text: ‘về (chủ đề)’."
+  - id: a1.m07.l04.ex.04
+    type: reading-comprehension
+    skill: reading
+    difficulty: 2
+    objective_refs: [a1.m07.l04.obj1, a1.m07.obj.email]
+    instructions_vi: "Đọc e-mail và trả lời."
+    stimulus:
+      text_de: "Sehr geehrte Frau Berger, ich habe morgen um neun Uhr einen Termin. Leider habe ich ein Problem: Mein Zug fährt erst um halb zehn. Kann ich um zehn Uhr kommen? Mit freundlichen Grüßen, Adam Roth"
+      text_vi: "Kính gửi bà Berger, ngày mai lúc chín giờ tôi có một cuộc hẹn. Tiếc là tôi gặp vấn đề: tàu của tôi mãi đến chín rưỡi mới chạy. Tôi có thể đến lúc mười giờ được không? Trân trọng, Adam Roth"
+    items:
+      - id: a1.m07.l04.ex.04.q1
+        prompt: "Warum schreibt Adam Roth die E-Mail?"
+        options: [{ id: a, text: "Er hat ein Problem mit dem Zug." }, { id: b, text: "Der Drucker ist kaputt." }, { id: c, text: "Er hat keinen Termin." }]
+        answer: [a]
+        explanation_vi: "„Mein Zug fährt erst um halb zehn.“ là vấn đề của anh."
+      - id: a1.m07.l04.ex.04.q2
+        prompt: "Wann möchte er kommen?"
+        options: [{ id: a, text: "Um neun Uhr." }, { id: b, text: "Um zehn Uhr." }, { id: c, text: "Um halb zehn." }]
+        answer: [b]
+        explanation_vi: "Câu hỏi: „Kann ich um zehn Uhr kommen?“"
+      - id: a1.m07.l04.ex.04.q3
+        prompt: "Wie ist die E-Mail?"
+        options: [{ id: a, text: "Formell (Sie)." }, { id: b, text: "Informell (du)." }, { id: c, text: "Ohne Anrede." }]
+        answer: [a]
+        explanation_vi: "Mở đầu „Sehr geehrte Frau …“ và kết „Mit freundlichen Grüßen“ là thư trang trọng."
+  - id: a1.m07.l04.ex.05
+    type: writing-practice
+    skill: writing
+    difficulty: 3
+    objective_refs: [a1.m07.l04.obj1, a1.m07.obj.email]
+    instructions_vi: "Viết một e-mail ngắn (3–4 câu) gửi đồng nghiệp tên Katrin: bạn có cuộc hẹn và nhờ bạn ấy in một bức thư."
+    items:
+      - id: a1.m07.l04.ex.05.q1
+        prompt_vi: "Viết e-mail theo cấu trúc: lời chào – lý do – yêu cầu – lời kết."
+        model_answer: { de: "Liebe Katrin, ich habe heute um zwei Uhr einen Termin mit einem Kunden. Kannst du bitte den Brief drucken? Das ist sehr wichtig. Viele Grüße, Paul", vi: "Katrin thân mến, hôm nay lúc hai giờ mình có cuộc hẹn với một khách hàng. Bạn in giúp mình bức thư được không? Việc này rất quan trọng. Thân ái, Paul" }
+        rubric_vi: ["Có lời chào thân mật (Liebe …) và lời kết (Viele Grüße).", "Nêu lý do viết (Termin) bằng câu đầy đủ.", "Có một yêu cầu lịch sự (Kannst du bitte …?).", "Mạo từ Dativ sau mit đúng (mit einem/dem Kunden)."]
+        explanation_vi: "Bài mẫu đủ bốn khối: chào, lý do, yêu cầu, kết. Bạn có thể đổi nội dung miễn là giữ cấu trúc và dùng đúng Dativ sau „mit“."
+  - id: a1.m07.l04.ex.06
+    type: speaking-practice
+    skill: pronunciation
+    difficulty: 2
+    objective_refs: [a1.m07.l04.obj2]
+    instructions_vi: "Nghe lại phần phát âm trong bài rồi đọc to (có thể tự ghi âm) và tự so sánh."
+    items:
+      - id: a1.m07.l04.ex.06.q1
+        prompt_vi: "Đọc to cả đoạn có s, sch, st-, sp-."
+        model_answer: { de: "Sie sprechen am Schreibtisch. Die Stunde ist wichtig, und die Besprechung ist schon um zehn.", vi: "Họ nói chuyện ở bàn làm việc. Giờ học quan trọng, và cuộc họp lúc mười giờ rồi." }
+        rubric_vi: ["„Sie“ bắt đầu bằng /z/ (không phải /s/).", "„Sch-“ (Schreibtisch) đọc /ʃ/.", "„Stunde“ và „sprechen“ bắt đầu bằng /ʃt/ và /ʃp/.", "„ist“ cuối từ đọc /st/."]
+        explanation_vi: "Ghi âm rồi so sánh với audio mẫu (khi có). Chú ý ba chỗ khác với cách đọc tiếng Anh: Sie, Stunde, sprechen."
+  - id: a1.m07.l04.ex.07
+    type: translation
+    skill: reading
+    difficulty: 1
+    objective_refs: [a1.m07.l04.obj1]
+    instructions_vi: "Dịch sang tiếng Việt."
+    items:
+      - { id: a1.m07.l04.ex.07.q1, direction: de-vi, source: "Kannst du bitte den Brief drucken?", answers: ["Bạn in giúp mình bức thư được không?", "Bạn có thể in bức thư giúp mình không?", "Bạn có thể in bức thư giúp tôi không?"], explanation_vi: "„Kannst du bitte … ?“ là câu nhờ vả thân mật; „drucken“ = in." }
+      - { id: a1.m07.l04.ex.07.q2, direction: de-vi, source: "Mit freundlichen Grüßen", answers: ["Trân trọng", "Trân trọng kính chào"], explanation_vi: "Cụm kết thư trang trọng, tương đương ‘Trân trọng’." }

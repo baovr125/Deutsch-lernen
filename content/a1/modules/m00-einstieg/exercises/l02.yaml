@@ -1,0 +1,251 @@
+schema_version: '2.0'
+content_type: exercise-set
+id: a1.m00.l02.ex
+level: A1
+module: a1.m00
+lesson: a1.m00.l02
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+exercises:
+- id: a1.m00.l02.ex.01
+  type: multiple-choice
+  skill: pronunciation
+  difficulty: 1
+  objective_refs:
+  - a1.m00.l02.obj1
+  - a1.m00.l02.obj5
+  instructions_vi: Nguyên âm được gạch chân/được hỏi là dài hay ngắn?
+  items:
+  - id: a1.m00.l02.ex.01.q1
+    prompt: e trong „Tee“
+    options:
+    - id: a
+      text: dài
+    - id: b
+      text: ngắn
+    answer:
+    - a
+    explanation_vi: ee → dài [teː].
+  - id: a1.m00.l02.ex.01.q2
+    prompt: a trong „Kaffee“
+    options:
+    - id: a
+      text: dài
+    - id: b
+      text: ngắn
+    answer:
+    - b
+    explanation_vi: a + ff (hai phụ âm) → ngắn.
+  - id: a1.m00.l02.ex.01.q3
+    prompt: e trong „sehr“
+    options:
+    - id: a
+      text: dài
+    - id: b
+      text: ngắn
+    answer:
+    - a
+    explanation_vi: e + h → dài; h không đọc.
+  - id: a1.m00.l02.ex.01.q4
+    prompt: i trong „Pizza“
+    options:
+    - id: a
+      text: dài
+    - id: b
+      text: ngắn
+    answer:
+    - b
+    explanation_vi: i + zz → ngắn [ˈpɪtsa].
+- id: a1.m00.l02.ex.02
+  type: matching
+  skill: pronunciation
+  difficulty: 2
+  objective_refs:
+  - a1.m00.l02.obj2
+  - a1.m00.l02.obj3
+  instructions_vi: Nối chữ viết với âm (IPA) tương ứng.
+  items:
+  - id: a1.m00.l02.ex.02.q1
+    pairs:
+    - left: ei (nein)
+      right: '[aɪ̯]'
+    - left: ie (vier)
+      right: '[iː]'
+    - left: eu (neun)
+      right: '[ɔʏ̯]'
+    - left: z (Pizza)
+      right: '[ts]'
+    - left: ch (acht)
+      right: '[x]'
+    - left: ch (ich)
+      right: '[ç]'
+    explanation_vi: ei = ai, ie = i dài, eu = oi, z = ts, ch sau a = kh [x], ch sau i = [ç].
+- id: a1.m00.l02.ex.03
+  type: multiple-choice
+  skill: listening
+  difficulty: 2
+  objective_refs:
+  - a1.m00.l02.obj1
+  instructions_vi: Nghe từng cặp. Từ nào có nguyên âm DÀI?
+  stimulus:
+    ref: a1.m00.l02.b9
+  items:
+  - id: a1.m00.l02.ex.03.q1
+    prompt: Cặp 1
+    options:
+    - id: a
+      text: Stadt
+    - id: b
+      text: Staat
+    answer:
+    - b
+    explanation_vi: aa → dài; Stadt có dt → a ngắn.
+  - id: a1.m00.l02.ex.03.q2
+    prompt: Cặp 2
+    options:
+    - id: a
+      text: Miete
+    - id: b
+      text: Mitte
+    answer:
+    - a
+    explanation_vi: ie → i dài; tt → i ngắn.
+  - id: a1.m00.l02.ex.03.q3
+    prompt: Cặp 3
+    options:
+    - id: a
+      text: Ofen
+    - id: b
+      text: offen
+    answer:
+    - a
+    explanation_vi: o + một phụ âm f → dài; ff → ngắn.
+- id: a1.m00.l02.ex.04
+  type: dictation
+  skill: listening
+  difficulty: 2
+  objective_refs:
+  - a1.m00.l02.obj3
+  - a1.m00.l02.obj5
+  instructions_vi: Nghe và viết từ kèm mạo từ.
+  stimulus:
+    ref: a1.m00.l02.b10
+  items:
+  - id: a1.m00.l02.ex.04.q1
+    tts: das Taxi
+    answers:
+    - das Taxi
+    explanation_vi: 'Giống trung: das Taxi.'
+  - id: a1.m00.l02.ex.04.q2
+    tts: die Musik
+    answers:
+    - die Musik
+    explanation_vi: s giữa hai nguyên âm đọc [z]; giống cái.
+  - id: a1.m00.l02.ex.04.q3
+    tts: die Pizza
+    answers:
+    - die Pizza
+    explanation_vi: zz đọc [ts]; giống cái.
+- id: a1.m00.l02.ex.05
+  type: fill-blank
+  skill: vocabulary
+  difficulty: 1
+  objective_refs:
+  - a1.m00.l02.obj5
+  instructions_vi: Điền mạo từ der, die hoặc das (xem sổ từ của bài).
+  items:
+  - id: a1.m00.l02.ex.05.q1
+    prompt: ___ Tee
+    answers:
+    - der
+    explanation_vi: der Tee.
+  - id: a1.m00.l02.ex.05.q2
+    prompt: ___ Internet
+    answers:
+    - das
+    explanation_vi: das Internet.
+  - id: a1.m00.l02.ex.05.q3
+    prompt: ___ Pizza
+    answers:
+    - die
+    explanation_vi: die Pizza.
+  - id: a1.m00.l02.ex.05.q4
+    prompt: ___ Hotel
+    answers:
+    - das
+    explanation_vi: das Hotel.
+- id: a1.m00.l02.ex.06
+  type: true-false
+  skill: reading
+  difficulty: 1
+  objective_refs:
+  - a1.m00.l02.obj3
+  - a1.m00.l02.obj4
+  instructions_vi: Đọc thực đơn Café Bella. Đúng hay sai?
+  stimulus:
+    ref: a1.m00.l02.b11
+  items:
+  - id: a1.m00.l02.ex.06.q1
+    prompt: Internet ở quán miễn phí.
+    answer: true
+    explanation_vi: 'Internet: gratis = miễn phí.'
+  - id: a1.m00.l02.ex.06.q2
+    prompt: Trong „Pizza“, zz đọc như „dd“.
+    answer: false
+    explanation_vi: zz đọc [ts].
+  - id: a1.m00.l02.ex.06.q3
+    prompt: Quán có trà.
+    answer: true
+    explanation_vi: Tee = trà.
+  - id: a1.m00.l02.ex.06.q4
+    prompt: d trong „und“ đọc là [t].
+    answer: true
+    explanation_vi: b, d, g ở cuối từ đọc thành p, t, k.
+- id: a1.m00.l02.ex.07
+  type: speaking-practice
+  skill: speaking
+  difficulty: 1
+  objective_refs:
+  - a1.m00.l02.obj3
+  - a1.m00.l02.obj4
+  instructions_vi: 'Ghi âm bạn gọi món: một đồ uống, một đồ ăn. Tự chấm.'
+  grading: self
+  rubric:
+  - criterion_vi: Đọc đúng z [ts] trong Pizza và ee [eː] trong Tee
+    points: 2
+  - criterion_vi: Bật rõ phụ âm cuối, không thêm thanh điệu tiếng Việt
+    points: 2
+  items:
+  - id: a1.m00.l02.ex.07.q1
+    prompt_vi: Gọi một đồ uống và một đồ ăn.
+    model_answer:
+      de: Ein Kaffee, bitte! Und eine Pizza Salami, bitte!
+    explanation_vi: 'Kaffee: nhấn KAF; Pizza: [ˈpɪtsa].'
+- id: a1.m00.l02.ex.08
+  type: writing-practice
+  skill: writing
+  difficulty: 1
+  objective_refs:
+  - a1.m00.l02.obj5
+  instructions_vi: 'Viết 5 từ quốc tế đã học theo mẫu: mạo từ + danh từ – số nhiều.'
+  grading: self
+  rubric:
+  - criterion_vi: Đúng mạo từ
+    points: 2
+  - criterion_vi: Danh từ viết hoa, có số nhiều
+    points: 2
+  items:
+  - id: a1.m00.l02.ex.08.q1
+    prompt_vi: 5 từ quốc tế
+    model_answer:
+      de: das Hotel – die Hotels; das Taxi – die Taxis; der Kaffee – die Kaffees; der Tee – die Tees; die Pizza – die Pizzas
+    explanation_vi: So sánh với sổ từ vựng của bài (file 00-einstieg.csv).

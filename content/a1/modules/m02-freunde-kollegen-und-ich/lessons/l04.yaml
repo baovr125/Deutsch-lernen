@@ -1,0 +1,294 @@
+schema_version: '2.0'
+content_type: lesson
+id: a1.m02.l04
+level: A1
+module: a1.m02
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+  references:
+  - work: Netzwerk neu A1 (Klett)
+    scope: 'Kapitel 2: Mein Beruf; Strategie: Artikel lernen'
+    verification: verified
+  notes_vi: 'Sprachhandlungen: Objekte zu den Berufen zuordnen; Artikel markieren; mit dem Wörterbuch / einem Artikelbild arbeiten. Grammatik: Definitartikel, Artikel. Wortschatz: Berufe. Phần số và haben/sein của mục „Mein Beruf“ ở bài 5.'
+order: 4
+title_de: Mein Beruf – Artikel lernen
+title_vi: Nghề nghiệp, đồ vật và mạo từ der/die/das
+topic_vi: Nghề nghiệp (nam/nữ), đồ vật của nghề, mạo từ xác định và chiến lược học mạo từ
+duration_min: 90
+difficulty: 1
+cefr:
+- A1.SI2
+- A1.SP1
+- A1.L1
+- A1.H1
+prerequisites:
+- a1.m02.l03
+objectives:
+- id: a1.m02.l04.obj1
+  text_vi: 'Hỏi và nói về nghề nghiệp: Was sind Sie von Beruf? – Ich bin … / Ich arbeite bei …'
+  skill: vocabulary
+- id: a1.m02.l04.obj2
+  text_vi: Dùng dạng nam và nữ của nghề nghiệp (-in).
+  skill: vocabulary
+- id: a1.m02.l04.obj3
+  text_vi: Dùng đúng mạo từ der/die/das với đồ vật và người.
+  skill: vocabulary
+- id: a1.m02.l04.obj4
+  text_vi: 'Áp dụng chiến lược học mạo từ: dấu hiệu đuôi từ, danh từ ghép, màu, từ điển.'
+  skill: grammar
+vocabulary_refs:
+- a1.m02.v.beruf
+- a1.m02.v.arzt
+- a1.m02.v.aerztin
+- a1.m02.v.kellner
+- a1.m02.v.kellnerin
+- a1.m02.v.student
+- a1.m02.v.studentin
+- a1.m02.v.taxifahrer
+- a1.m02.v.taxifahrerin
+- a1.m02.v.lehrer
+- a1.m02.v.lehrerin
+- a1.m02.v.verkaeufer
+- a1.m02.v.verkaeuferin
+- a1.m02.v.friseur
+- a1.m02.v.friseurin
+- a1.m02.v.informatiker
+- a1.m02.v.informatikerin
+- a1.m02.v.ingenieur
+- a1.m02.v.ingenieurin
+- a1.m02.v.krankenpfleger
+- a1.m02.v.krankenpflegerin
+- a1.m02.v.koch
+- a1.m02.v.koechin
+- a1.m02.v.polizist
+- a1.m02.v.polizistin
+- a1.m02.v.handwerker
+- a1.m02.v.handwerkerin
+- a1.m02.v.journalist
+- a1.m02.v.journalistin
+- a1.m02.v.mechaniker
+- a1.m02.v.mechanikerin
+- a1.m02.v.auto
+- a1.m02.v.computer
+- a1.m02.v.geld
+- a1.m02.v.glas
+- a1.m02.v.medikament
+- a1.m02.v.rechnung
+- a1.m02.v.schluessel
+- a1.m02.v.stift
+- a1.m02.v.tablette
+- a1.m02.v.strasse
+- a1.m02.v.artikel
+- a1.m02.v.geben
+- a1.m02.v.markieren
+- a1.m02.v.kurs
+- a1.m02.v.seite
+- a1.m02.v.suchen
+- a1.m02.v.vergleichen
+- a1.m02.v.beispiel
+- a1.m02.v.farbe
+- a1.m02.v.woerterbuch
+- a1.m02.v.blau
+- a1.m02.v.gruen
+- a1.m02.v.rot
+- a1.m02.v.merken
+- a1.m02.v.an-sehen
+- a1.m02.v.stehen
+- a1.m02.v.wort
+review_vocabulary_refs:
+- a1.m01.v.reisefuehrer
+- a1.m01.v.reisefuehrerin
+- a1.m01.v.telefon
+- a1.m01.v.handy
+- a1.m00.v.taxi
+- a1.m00.v.buchstabe
+- a1.m02.v.arbeiten
+grammar_refs:
+- a1.g.bestimmter-artikel
+grammar_focus:
+- ref: a1.g.bestimmter-artikel
+  focus_vi: der/die/das; dấu hiệu -in, -ung, -tion; danh từ ghép theo từ cuối; ký hiệu m/f/n trong từ điển; mẹo dùng màu.
+expression_refs:
+- a1.m02.x.was-sind-sie-von-beruf-was-machst-du-ber
+- a1.m02.x.ich-arbeite-bei-im
+- a1.m02.x.was-ist-das-das-ist-der-die-das
+- a1.m02.x.welcher-artikel-der-die-das
+exercise_set_ref: a1.m02.l04.ex
+summary_vi: 'Nghề: Ich bin Arzt / Sie ist Ärztin (không mạo từ); nơi làm: bei + công ty, im + nơi chốn. Hỏi: Was sind Sie von Beruf? Mạo từ: der (xanh dương), die (đỏ), das (xanh lá); dấu hiệu -in/-ung/-tion → die; danh từ ghép theo từ cuối; từ điển ghi m./f./n.'
+self_check:
+- Tôi hỏi và nói được nghề nghiệp của mình.
+- Tôi nói được dạng nam và nữ của 10 nghề.
+- Tôi nói đúng mạo từ của 10 đồ vật trong bài.
+- Tôi có phương pháp riêng để học mạo từ.
+blocks:
+- id: a1.m02.l04.b1
+  kind: explanation
+  title_vi: Giới thiệu bài học
+  body_vi: 'Hai phần trong bài này:
+
+
+    **1. Nghề nghiệp.** Hầu hết nghề có dạng **nam** và **nữ**: *der Lehrer – die Lehrer**in***.
+
+    Khi nói “tôi là …”, tiếng Đức **không dùng mạo từ**: *Ich bin Lehrerin.* (không nói “Ich bin die Lehrerin”).
+
+
+    **2. Mạo từ der/die/das.** Mỗi nghề có những **đồ vật** đặc trưng: bác sĩ có *das Medikament*, người bồi bàn có *die Rechnung*,
+
+    tài xế taxi có *der Schlüssel*… Bạn học đồ vật **kèm mạo từ** và học **mẹo đoán mạo từ** (xem chủ điểm *Mạo từ xác định và cách học mạo từ*).
+
+
+    Bài này có nhiều từ mới (khoảng 60), nhưng phần lớn là cặp nam/nữ – thực chất chỉ khoảng 35 từ gốc. Hãy chia làm 2 buổi nếu cần.'
+- id: a1.m02.l04.b2
+  kind: explanation
+  title_vi: 'Nói nghề: không có mạo từ'
+  skill: grammar
+  body_vi: 'Ich bin Arzt. / Sie ist Ärztin. – KHÔNG nói “Ich bin der Arzt” hay “Ich bin ein Arzt” khi chỉ nói nghề. Nơi làm việc: Ich arbeite bei + tên công ty (bei Siemens) hoặc im + nơi chốn (im Krankenhaus, im Restaurant – cụm cố định).'
+  examples:
+  - de: Ich bin Informatikerin. Ich arbeite bei Siemens.
+    vi: Tôi là kỹ sư tin học. Tôi làm ở Siemens.
+  - de: Er ist Koch. Er arbeitet im Restaurant.
+    vi: Anh ấy là đầu bếp. Anh ấy làm ở nhà hàng.
+- id: a1.m02.l04.b3
+  kind: explanation
+  title_vi: es gibt = có
+  skill: grammar
+  body_vi: es gibt + danh từ = có (tồn tại). Đây là cụm cố định, rất thường dùng.
+  examples:
+  - de: Im Deutschen gibt es drei Artikel.
+    vi: Trong tiếng Đức có ba mạo từ.
+- id: a1.m02.l04.b4
+  kind: pronunciation
+  title_vi: 'Từ gốc Pháp: Friseur, Ingenieur, Journalist'
+  skill: pronunciation
+  body_vi: 'Từ gốc Pháp: Friseur, Ingenieur, Journalist
+
+
+    Nhiều nghề mượn từ tiếng Pháp và đọc theo tiếng Pháp: eu = [øː] (Friseur [fʁiˈzøːɐ̯]), g/j = [ʒ] (Ingenieur [ɪnʒeˈni̯øːɐ̯], Journalist [ʒʊʁnaˈlɪst]). Trọng âm thường ở âm tiết cuối.
+
+
+    Luyện tập: Đọc to cặp nam/nữ: Friseur – Friseurin, Ingenieur – Ingenieurin.'
+  items:
+  - de: der Friseur
+    vi: thợ cắt tóc
+    ipa: '[fʁiˈzøːɐ̯]'
+  - de: der Ingenieur
+    vi: kỹ sư
+    ipa: '[ɪnʒeˈni̯øːɐ̯]'
+- id: a1.m02.l04.b5
+  kind: pronunciation
+  title_vi: Đuôi -in [ɪn] và -innen
+  skill: pronunciation
+  body_vi: 'Đuôi -in [ɪn] và -innen
+
+
+    Đuôi -in của dạng nữ đọc ngắn và nhẹ: LEH-re-rin. Số nhiều -innen: LEH-re-rin-nen. Trọng âm không đổi.
+
+
+    Luyện tập: Nói dạng nữ của 5 nghề bất kỳ trong bài.'
+  items:
+  - de: die Lehrerin – die Lehrerinnen
+    vi: cô giáo – các cô giáo
+    ipa: '[ˈleːʁəʁɪn] – [ˈleːʁəʁɪnən]'
+- id: a1.m02.l04.b6
+  kind: examples
+  title_vi: Câu ví dụ
+  examples:
+  - de: Was sind Sie von Beruf? – Ich bin Ärztin.
+    vi: Bà làm nghề gì? – Tôi là bác sĩ.
+  - de: Der Kellner bringt die Rechnung.
+    vi: Người bồi bàn mang hóa đơn tới.
+  - de: Der Taxifahrer sucht den Schlüssel.
+    vi: Người tài xế taxi đang tìm chìa khóa.
+    note_vi: den = der ở cách Akkusativ – học ở Kapitel 4.
+  - de: Das Medikament ist für den Patienten.
+    vi: Thuốc này dành cho bệnh nhân.
+  - de: Die Rechnung – rot! Der Schlüssel – blau! Das Glas – grün!
+    vi: Hóa đơn – đỏ! Chìa khóa – xanh dương! Cái ly – xanh lá! (mẹo màu)
+  - de: 'Im Wörterbuch steht: Stift, der, -e.'
+    vi: 'Trong từ điển ghi: Stift, der, -e.'
+- id: a1.m02.l04.b7
+  kind: listening
+  title_vi: 'Trò chơi: Tôi làm nghề gì?'
+  lines:
+  - speaker: Person 1
+    de: 'Das sind meine Dinge: das Glas, die Rechnung, der Stift. Ich arbeite im Restaurant. Was bin ich?'
+    vi: 'Đây là đồ của tôi: cái ly, hóa đơn, cây bút. Tôi làm ở nhà hàng. Tôi là ai?'
+  - speaker: Person 2
+    de: 'Meine Dinge: das Auto, der Schlüssel, das Geld. Ich fahre viel. Was bin ich?'
+    vi: 'Đồ của tôi: ô tô, chìa khóa, tiền. Tôi lái xe nhiều. Tôi là ai?'
+  - speaker: Person 3
+    de: 'Meine Dinge: das Medikament, die Tablette. Ich arbeite im Krankenhaus. Die Ärztin ist meine Kollegin. Was bin ich?'
+    vi: 'Đồ của tôi: thuốc, viên thuốc. Tôi làm ở bệnh viện. Bà bác sĩ là đồng nghiệp của tôi. Tôi là ai?'
+  audio_status: pending-tts
+  situation_vi: Ba người mô tả đồ vật của mình, bạn đoán nghề.
+  skill: listening
+  audio:
+    speed: slow
+- id: a1.m02.l04.b8
+  kind: reading
+  title_vi: Mẹo học mạo từ của Lan
+  paragraphs:
+  - de: 'Hallo! Ich bin Lan und ich lerne Deutsch. Artikel sind schwer!
+
+      Mein Tipp: Ich lerne jedes Wort mit Artikel und Farbe.
+
+      „der“ ist blau: der Stift, der Computer.
+
+      „die“ ist rot: die Rechnung, die Tablette.
+
+      „das“ ist grün: das Auto, das Glas.
+
+      Und das Wörterbuch hilft: Da steht „Stift, der“ oder „Stift m.“.'
+    vi: 'Xin chào! Mình là Lan và mình đang học tiếng Đức. Mạo từ khó quá!
+
+      Mẹo của mình: Mình học mỗi từ kèm mạo từ và màu.
+
+      “der” màu xanh dương: der Stift, der Computer.
+
+      “die” màu đỏ: die Rechnung, die Tablette.
+
+      “das” màu xanh lá: das Auto, das Glas.
+
+      Và từ điển giúp ích: ở đó ghi “Stift, der” hoặc “Stift m.”.'
+  text_type_vi: Bài viết ngắn trên blog học tiếng
+  skill: reading
+  glossary:
+  - de: schwer
+    vi: khó
+  - de: der Tipp
+    vi: mẹo
+  - de: helfen (er hilft)
+    vi: giúp
+- id: a1.m02.l04.b9
+  kind: speaking
+  title_vi: Giới thiệu nghề của bạn (hoặc nghề mơ ước)
+  skill: speaking
+  task_vi: 'Nói 4 câu: bạn làm nghề gì (hoặc học gì), làm ở đâu, và 2 đồ vật bạn dùng (kèm mạo từ).'
+  steps_vi:
+  - Ich bin … / Ich bin Student(in).
+  - Ich arbeite bei … / im …
+  - 'Meine Dinge: der/die/das …'
+  lines:
+  - speaker: Huy
+    de: 'Ich bin Koch. Ich arbeite im Restaurant. Meine Dinge: das Glas und der Stift. Und ich liebe Spaghetti!'
+    vi: 'Tôi là đầu bếp. Tôi làm ở nhà hàng. Đồ của tôi: cái ly và cây bút. Và tôi mê mì Ý!'
+- id: a1.m02.l04.b10
+  kind: writing
+  title_vi: Thẻ học mạo từ
+  skill: writing
+  task_vi: 'Viết 6 thẻ học: mạo từ + danh từ (+ số nhiều trong sổ từ), dùng màu theo mẹo: der = xanh dương, die = đỏ, das = xanh lá.'
+  model:
+    de: der Schlüssel · die Rechnung · das Medikament · der Computer · die Straße · das Glas
+    vi: chìa khóa · hóa đơn · thuốc · máy tính · đường phố · cái ly
+  checklist_vi:
+  - Mỗi danh từ có mạo từ và viết hoa.
+  - Màu đúng với giống.

@@ -1,0 +1,142 @@
+schema_version: "2.0"
+content_type: assessment
+id: a1.m07.test
+level: A1
+module: a1.m07
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  notes_vi: "Bài đánh giá cuối module; ngưỡng đạt 60% là đề xuất, chưa được xác nhận."
+  tags: ["test"]
+title_vi: "Kiểm tra Kapitel 7 – Arbeitsalltag"
+duration_min: 35
+pass_percent: 60
+exercises:
+  - id: a1.m07.test.01
+    type: listening-practice
+    skill: listening
+    difficulty: 2
+    objective_refs: [a1.m07.obj.medien]
+    instructions_vi: "Nghe (hoặc đọc transcript) và chọn đáp án."
+    stimulus:
+      text_de: "Hallo Frau Wolf, hier ist Jan von der Firma Haller. Ich habe morgen um halb elf einen Termin, aber mein Computer ist kaputt. Kann ich den Brief im Büro drucken? Bitte rufen Sie mich an."
+      audio_status: pending-tts
+    items:
+      - id: a1.m07.test.01.q1
+        prompt: "Was ist das Problem?"
+        options: [{ id: a, text: "Der Computer ist kaputt." }, { id: b, text: "Das Internet ist langsam." }, { id: c, text: "Der Termin ist heute." }]
+        answer: [a]
+        explanation_vi: "„mein Computer ist kaputt“ là vấn đề được nêu."
+      - id: a1.m07.test.01.q2
+        prompt: "Wann hat Jan den Termin?"
+        options: [{ id: a, text: "Um zehn Uhr." }, { id: b, text: "Um halb elf." }, { id: c, text: "Um elf Uhr." }]
+        answer: [b]
+        explanation_vi: "„morgen um halb elf“ = ngày mai lúc mười rưỡi."
+  - id: a1.m07.test.02
+    type: reading-comprehension
+    skill: reading
+    difficulty: 2
+    objective_refs: [a1.m07.obj.tagesablauf, a1.m07.obj.orte]
+    instructions_vi: "Đọc và chọn đáp án đúng."
+    stimulus:
+      text_de: "Herr Braun arbeitet in einem Büro am Bahnhof. Sein Arbeitstag fängt um neun Uhr an. Mittags geht er zum Supermarkt oder in die Kantine. Nach der Arbeit fährt er mit dem Zug nach Hause."
+      text_vi: "Anh Braun làm việc ở một văn phòng gần nhà ga. Ngày làm việc của anh bắt đầu lúc chín giờ. Buổi trưa anh đi siêu thị hoặc căng-tin. Sau giờ làm anh đi tàu về nhà."
+    items:
+      - id: a1.m07.test.02.q1
+        prompt: "Wo arbeitet Herr Braun?"
+        options: [{ id: a, text: "Im Supermarkt." }, { id: b, text: "In einem Büro am Bahnhof." }, { id: c, text: "In der Kantine." }]
+        answer: [b]
+        explanation_vi: "Câu đầu: „in einem Büro am Bahnhof“."
+      - id: a1.m07.test.02.q2
+        prompt: "Wie fährt er nach Hause?"
+        options: [{ id: a, text: "Mit dem Bus." }, { id: b, text: "Mit dem Auto." }, { id: c, text: "Mit dem Zug." }]
+        answer: [c]
+        explanation_vi: "„fährt er mit dem Zug nach Hause“."
+  - id: a1.m07.test.03
+    type: fill-blank
+    skill: grammar
+    difficulty: 2
+    objective_refs: [a1.m07.obj.verbinden, a1.m07.obj.mit, a1.m07.obj.orte]
+    instructions_vi: "Điền từ thích hợp."
+    items:
+      - { id: a1.m07.test.03.q1, prompt: "Ich bin müde, ___ ich arbeite noch.", answers: ["aber"], explanation_vi: "Hai ý đối lập: mệt >< vẫn làm việc → „aber“." }
+      - { id: a1.m07.test.03.q2, prompt: "Er spricht mit ___ Chefin.", answers: ["der"], explanation_vi: "„Chefin“ giống cái: Dativ là „der“." }
+      - { id: a1.m07.test.03.q3, prompt: "Wir gehen ___ Bahnhof.", answers: ["zum"], explanation_vi: "zu + dem = zum (Bahnhof giống đực, Wohin?)." }
+      - { id: a1.m07.test.03.q4, prompt: "Um sechs Uhr bin ich ___ Hause.", answers: ["zu"], explanation_vi: "„zu Hause“ = ở nhà (Wo?)." }
+  - id: a1.m07.test.04
+    type: multiple-choice
+    skill: vocabulary
+    difficulty: 1
+    objective_refs: [a1.m07.obj.medien, a1.m07.obj.tagesablauf]
+    instructions_vi: "Chọn đáp án đúng."
+    items:
+      - id: a1.m07.test.04.q1
+        prompt: "Der Drucker funktioniert nicht. Er ist ___."
+        options: [{ id: a, text: "wichtig" }, { id: b, text: "kaputt" }, { id: c, text: "früh" }]
+        answer: [b]
+        explanation_vi: "„kaputt“ = hỏng."
+      - id: a1.m07.test.04.q2
+        prompt: "Wie heißt der Plural von „das Büro“?"
+        options: [{ id: a, text: "die Büros" }, { id: b, text: "die Büroen" }, { id: c, text: "die Büre" }]
+        answer: [a]
+        explanation_vi: "Số nhiều: die Büros."
+      - id: a1.m07.test.04.q3
+        prompt: "Wie sagt man „tan làm“?"
+        options: [{ id: a, text: "die Besprechung" }, { id: b, text: "der Termin" }, { id: c, text: "der Feierabend" }]
+        answer: [c]
+        explanation_vi: "„Feierabend“ = hết giờ làm, tan làm."
+  - id: a1.m07.test.05
+    type: word-order
+    skill: grammar
+    difficulty: 2
+    objective_refs: [a1.m07.obj.mit, a1.m07.obj.orte]
+    instructions_vi: "Sắp xếp thành câu đúng."
+    items:
+      - id: a1.m07.test.05.q1
+        tokens: ["Arbeit.", "fahre", "dem", "Ich", "Bus", "zur", "mit"]
+        answer: "Ich fahre mit dem Bus zur Arbeit."
+        translation_vi: "Tôi đi làm bằng xe buýt."
+        explanation_vi: "mit dem Bus (phương tiện), zur Arbeit (zu + der, đích đến)."
+      - id: a1.m07.test.05.q2
+        tokens: ["der", "gehe", "Nach", "ich", "Post.", "zur", "Arbeit"]
+        answer: "Nach der Arbeit gehe ich zur Post."
+        translation_vi: "Sau giờ làm tôi đi bưu điện."
+        explanation_vi: "Cụm thời gian đứng đầu nên động từ „gehe“ ở vị trí 2."
+  - id: a1.m07.test.06
+    type: translation
+    skill: writing
+    difficulty: 2
+    objective_refs: [a1.m07.obj.verbinden, a1.m07.obj.mit]
+    instructions_vi: "Dịch sang tiếng Đức."
+    items:
+      - { id: a1.m07.test.06.q1, direction: vi-de, source: "Tôi có một cuộc hẹn với sếp.", answers: ["Ich habe einen Termin mit dem Chef.", "Ich habe einen Termin mit der Chefin."], explanation_vi: "„einen Termin“ (Akkusativ) và „mit dem Chef“ (Dativ)." }
+      - { id: a1.m07.test.06.q2, direction: vi-de, source: "Văn phòng nhỏ nhưng sáng.", answers: ["Das Büro ist klein, aber es ist hell."], explanation_vi: "Hai ý đối lập nối bằng „, aber“; sau aber vẫn là chủ ngữ + động từ." }
+  - id: a1.m07.test.07
+    type: writing-practice
+    skill: writing
+    difficulty: 3
+    objective_refs: [a1.m07.obj.email]
+    instructions_vi: "Viết e-mail ngắn (3–4 câu) cho bà Berger: bạn có cuộc hẹn nhưng bị muộn 15 phút và xin lỗi."
+    items:
+      - id: a1.m07.test.07.q1
+        prompt_vi: "Viết e-mail trang trọng với lời chào, lý do, lời xin lỗi và lời kết."
+        model_answer: { de: "Sehr geehrte Frau Berger, ich habe heute um zehn Uhr einen Termin, aber ich komme fünfzehn Minuten später. Entschuldigung! Mit freundlichen Grüßen, Lara Weiß", vi: "Kính gửi bà Berger, hôm nay lúc mười giờ tôi có cuộc hẹn nhưng tôi đến muộn mười lăm phút. Xin lỗi! Trân trọng, Lara Weiß" }
+        rubric_vi: ["Dùng lời chào và kết thư trang trọng đúng.", "Nêu rõ cuộc hẹn và việc đến muộn.", "Có lời xin lỗi.", "Câu đúng ngữ pháp, động từ ở vị trí 2."]
+        explanation_vi: "Bài mẫu dùng „Sehr geehrte Frau …“ và „Mit freundlichen Grüßen“, một lý do, một lời xin lỗi."
+  - id: a1.m07.test.08
+    type: speaking-practice
+    skill: speaking
+    difficulty: 2
+    objective_refs: [a1.m07.obj.tagesablauf, a1.m07.obj.orte]
+    instructions_vi: "Hãy nói 3–4 câu về một ngày làm việc/học của bạn: giờ giấc, nơi bạn đi, bạn đi bằng gì."
+    items:
+      - id: a1.m07.test.08.q1
+        prompt_vi: "Giới thiệu ngày của bạn."
+        model_answer: { de: "Mein Arbeitstag fängt um neun Uhr an. Ich fahre mit dem Bus zur Firma. Mittags gehe ich zum Supermarkt, aber heute esse ich in der Kantine.", vi: "Ngày làm việc của tôi bắt đầu lúc chín giờ. Tôi đi xe buýt đến công ty. Buổi trưa tôi đi siêu thị nhưng hôm nay tôi ăn ở căng-tin." }
+        rubric_vi: ["Có giờ giấc (um … Uhr).", "Dùng mit dem + phương tiện.", "Dùng zum/zur/in der đúng.", "Có ít nhất một liên từ (und/oder/aber)."]
+        explanation_vi: "Bài mẫu tích hợp bốn mục tiêu của Kapitel: Tagesablauf, mit + Dativ, giới từ nơi chốn và liên từ."

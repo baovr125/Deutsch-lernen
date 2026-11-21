@@ -1,0 +1,202 @@
+schema_version: '2.0'
+content_type: exercise-set
+id: a1.m04.l04.ex
+level: A1
+module: a1.m04
+lesson: a1.m04.l04
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+exercises:
+- id: a1.m04.l04.ex.01
+  type: matching
+  skill: vocabulary
+  difficulty: 1
+  objective_refs:
+  - a1.m04.l04.obj2
+  instructions_vi: Nối câu giao tiếp bàn ăn với ngữ cảnh sử dụng tương ứng.
+  items:
+  - id: a1.m04.l04.ex.01.q1
+    pairs:
+    - left: Guten Appetit!
+      right: chúc ngon miệng trước khi ăn
+    - left: Danke, gleichfalls!
+      right: cảm ơn, bạn cũng ngon miệng nhé
+    - left: Prost!
+      right: cụng ly thân mật với bạn bè
+    - left: Zum Wohl!
+      right: chúc sức khỏe khi nâng ly trang trọng
+    - left: Mahlzeit!
+      right: chào đồng nghiệp vào giờ nghỉ trưa
+    - left: Ich bin satt.
+      right: từ chối ăn thêm vì đã no bụng
+    explanation_vi: Các câu nói cửa miệng quen thuộc nhất trong văn hóa ẩm thực Đức.
+- id: a1.m04.l04.ex.02
+  type: multiple-choice
+  skill: grammar
+  difficulty: 1
+  objective_refs:
+  - a1.m04.l04.obj1
+  instructions_vi: Chọn dạng chia đúng của möchten.
+  items:
+  - id: a1.m04.l04.ex.02.q1
+    prompt: Was ___ du trinken, Anna?
+    options:
+    - id: a
+      text: möchtet
+    - id: b
+      text: möchtest
+    - id: c
+      text: möchten
+    - id: d
+      text: möchte
+    answer:
+    - b
+    explanation_vi: Chủ ngữ du → chia là möchtest.
+  - id: a1.m04.l04.ex.02.q2
+    prompt: Mein Mann ___ heute keinen Fisch essen.
+    options:
+    - id: a
+      text: möchtest
+    - id: b
+      text: möchte
+    - id: c
+      text: möchtet
+    - id: d
+      text: möchten
+    answer:
+    - b
+    explanation_vi: Chủ ngữ er (mein Mann) → chia giống ngôi ich là möchte.
+  - id: a1.m04.l04.ex.02.q3
+    prompt: Wir ___ gerne zwei Flaschen Wasser bestellen.
+    options:
+    - id: a
+      text: möchte
+    - id: b
+      text: möchtest
+    - id: c
+      text: möchten
+    - id: d
+      text: mögt
+    answer:
+    - c
+    explanation_vi: Chủ ngữ wir → möchten.
+- id: a1.m04.l04.ex.03
+  type: multiple-choice
+  skill: listening
+  difficulty: 2
+  objective_refs:
+  - a1.m04.l04.obj4
+  instructions_vi: Nghe hội thoại và chọn câu trả lời đúng.
+  stimulus:
+    ref: a1.m04.l04.b5
+  items:
+  - id: a1.m04.l04.ex.03.q1
+    prompt: Was möchte Sarah trinken?
+    options:
+    - id: a
+      text: Orangensaft
+    - id: b
+      text: Bier
+    - id: c
+      text: Mineralwasser
+    - id: d
+      text: Apfelsaft mit Eis
+    answer:
+    - d
+    explanation_vi: 'Sarah nói: ''Ich möchte einen Apfelsaft, bitte. Gerne mit Eis!''.'
+  - id: a1.m04.l04.ex.03.q2
+    prompt: Worauf stoßen alle am Ende an?
+    options:
+    - id: a
+      text: Auf die Prüfung
+    - id: b
+      text: Auf das neue Jahr
+    - id: c
+      text: Auf die Arbeit
+    - id: d
+      text: Auf Ben und die Grillparty
+    answer:
+    - d
+    explanation_vi: 'Felix hô: ''Auf Ben und die Grillparty! Prost!''.'
+- id: a1.m04.l04.ex.04
+  type: true-false
+  skill: listening
+  difficulty: 2
+  objective_refs:
+  - a1.m04.l04.obj4
+  instructions_vi: Nghe lại và xác định câu sau là Đúng hay Sai.
+  stimulus:
+    ref: a1.m04.l04.b5
+  items:
+  - id: a1.m04.l04.ex.04.q1
+    prompt: Sarah findet, dass das Hähnchen super aussieht.
+    answer: true
+    explanation_vi: 'Đúng, Sarah thốt lên: ''das Hähnchen sieht super aus!''.'
+  - id: a1.m04.l04.ex.04.q2
+    prompt: Sarah möchte ein Glas Bier trinken.
+    answer: false
+    explanation_vi: Sai, Sarah chọn uống nước ép táo (Apfelsaft).
+- id: a1.m04.l04.ex.05
+  type: true-false
+  skill: reading
+  difficulty: 2
+  objective_refs:
+  - a1.m04.l04.obj2
+  - a1.m04.l04.obj3
+  instructions_vi: Đọc bài viết về văn hóa bàn ăn và trả lời Đúng hoặc Sai.
+  stimulus:
+    ref: a1.m04.l04.b6
+  items:
+  - id: a1.m04.l04.ex.05.q1
+    prompt: Beim Anstoßen schaut man der anderen Person direkt in die Augen.
+    answer: true
+    explanation_vi: 'Đúng, bài viết ghi rõ: ''schaut der anderen Person direkt in die Augen''.'
+  - id: a1.m04.l04.ex.05.q2
+    prompt: Mit Freunden sagt man im Restaurant immer nur 'Zum Wohl!'.
+    answer: false
+    explanation_vi: Sai, với bạn bè người ta dùng câu thân mật là 'Prost!'.
+- id: a1.m04.l04.ex.06
+  type: fill-blank
+  skill: speaking
+  difficulty: 2
+  objective_refs:
+  - a1.m04.l04.obj3
+  instructions_vi: Điền từ thích hợp thể hiện bạn đã no không muốn ăn thêm.
+  items:
+  - id: a1.m04.l04.ex.06.q1
+    prompt: Möchtest du noch ein Würstchen? – Nein danke, ich bin ___.
+    answers:
+    - satt
+    explanation_vi: ich bin satt = tôi no rồi.
+  - id: a1.m04.l04.ex.06.q2
+    prompt: Der Kuchen schmeckt wirklich sehr ___!
+    answers:
+    - lecker
+    explanation_vi: sehr lecker = rất ngon.
+- id: a1.m04.l04.ex.07
+  type: word-order
+  skill: writing
+  difficulty: 2
+  objective_refs:
+  - a1.m04.l04.obj1
+  instructions_vi: Sắp xếp câu yêu cầu lịch sự với möchten.
+  items:
+  - id: a1.m04.l04.ex.07.q1
+    tokens:
+    - Glas
+    - Ich
+    - Wasser
+    - möchte
+    - ein
+    answer: Ich möchte ein Glas Wasser.
+    prompt_vi: 'Sắp xếp câu: Ich / ein / Wasser / Glas / möchte .'
+    explanation_vi: Ich (chủ ngữ) + möchte (động từ vị trí 2) + ein Glas Wasser (tân ngữ).

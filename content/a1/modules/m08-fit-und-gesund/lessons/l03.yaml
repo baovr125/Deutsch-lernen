@@ -1,0 +1,61 @@
+schema_version: "2.0"
+content_type: lesson
+id: a1.m08.l03
+level: A1
+module: a1.m08
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  references:
+    - { work: "Netzwerk neu A1.2 – Stoffverteilungsplan (Klett)", scope: "Kapitel 8, Mục Der Unfall; Wortschatz Körper, „Das tut weh!“; Strategie Wörter erschließen", verification: verified }
+  tags: ["koerper", "unfall"]
+order: 3
+title_de: "Der Unfall"
+title_vi: "Tai nạn"
+duration_min: 45
+difficulty: 2
+objectives:
+  - { id: a1.m08.l03.obj1, text_vi: "Bạn có thể gọi tên các bộ phận cơ thể và nói chỗ nào đau bằng „… tut weh“.", skill: vocabulary }
+  - { id: a1.m08.l03.obj2, text_vi: "Bạn có thể nghe một đoạn mô tả tai nạn ngắn và hiểu ai bị đau ở đâu.", skill: listening }
+vocabulary_refs: [a1.m08.v.unfall, a1.m08.v.krankenhaus, a1.m08.v.koerper, a1.m08.v.kopf, a1.m08.v.arm, a1.m08.v.bein, a1.m08.v.fuss, a1.m08.v.hand, a1.m08.v.ruecken, a1.m08.v.bauch, a1.m08.v.hals, a1.m08.v.auge, a1.m08.v.schmerz, a1.m08.v.wehtun, a1.m08.v.das-tut-weh]
+grammar_refs: []
+expression_refs: [a1.m08.x.schmerz-sagen, a1.m08.x.hilfe-notfall]
+exercise_set_ref: a1.m08.l03.ex
+blocks:
+  - id: a1.m08.l03.b1
+    kind: explanation
+    skill: vocabulary
+    title_vi: "Bắt đầu: cơ thể và cơn đau"
+    body_vi: |
+      Để nói chỗ nào đau, dùng **„Mein/Meine … tut weh.“**: *Mein Kopf tut weh. Meine Hand tut weh.* Nếu đau nhiều chỗ (số nhiều) dùng **tun**: *Meine Füße tun weh.*
+      **Mẹo đoán nghĩa (Strategie):** nhiều từ ghép chứa bộ phận cơ thể, ví dụ *Kopf* + *Schmerzen* = *Kopfschmerzen* (đau đầu), *Hals* + *Schmerzen* = *Halsschmerzen* (đau họng).
+  - id: a1.m08.l03.b2
+    kind: dialogue
+    skill: speaking
+    title_vi: "Hội thoại: Sau cú ngã xe đạp"
+    lines:
+      - { speaker: "Tina", de: "Aua! Das tut weh!", vi: "Ối! Đau quá!" }
+      - { speaker: "Paul", de: "Was ist los? Hast du einen Unfall?", vi: "Chuyện gì thế? Bạn bị tai nạn à?" }
+      - { speaker: "Tina", de: "Ja, mit dem Fahrrad. Mein Arm und mein Bein tun weh.", vi: "Ừ, đi xe đạp. Tay và chân mình đau." }
+      - { speaker: "Paul", de: "Kannst du aufstehen? Wir fahren zum Krankenhaus.", vi: "Bạn đứng dậy được không? Chúng ta đi đến bệnh viện." }
+      - { speaker: "Tina", de: "Ja, aber bitte langsam. Der Rücken tut auch ein bisschen weh.", vi: "Được, nhưng làm ơn chậm thôi. Lưng mình cũng hơi đau." }
+  - id: a1.m08.l03.b3
+    kind: listening
+    skill: listening
+    title_vi: "Nghe: Báo tin tai nạn"
+    audio_status: pending-tts
+    lines:
+      - { speaker: "Frau Schmidt", de: "Hier ist Frau Schmidt. Mein Mann hat einen Unfall.", vi: "Đây là bà Schmidt. Chồng tôi bị tai nạn." }
+      - { speaker: "Frau Schmidt", de: "Sein Fuß tut sehr weh und sein Kopf auch.", vi: "Chân anh ấy rất đau và đầu cũng đau." }
+      - { speaker: "Frau Schmidt", de: "Bitte kommen Sie schnell zum Park in der Bahnhofstraße.", vi: "Xin hãy đến nhanh đến công viên ở phố Bahnhofstraße." }
+  - id: a1.m08.l03.b4
+    kind: culture
+    skill: speaking
+    title_vi: "Văn hóa: số khẩn cấp 112"
+    body_vi: |
+      Trong Liên minh châu Âu, bao gồm Đức và Áo, số khẩn cấp chung là **112** (cứu hỏa và cấp cứu). Khi gọi, hãy nói rõ: *Wo? Was ist los? Wie viele Personen?* (Ở đâu? Có chuyện gì? Mấy người?).

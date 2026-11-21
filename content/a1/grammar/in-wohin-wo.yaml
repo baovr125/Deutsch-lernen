@@ -1,0 +1,79 @@
+schema_version: "2.0"
+content_type: grammar-topic
+id: a1.g.in-wohin-wo
+level: A1
+introduced_in: a1.m09
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  references:
+    - { work: "Netzwerk neu A1.2 – Stoffverteilungsplan (Klett)", scope: "Kapitel 9, Grammatik: Wohin? in + Akkusativ; Wo? in + Dativ", verification: verified }
+  tags: ["praeposition", "akkusativ", "dativ", "ort"]
+title_de: "Wohin? in + Akkusativ – Wo? in + Dativ"
+title_vi: "„in“: đi vào đâu (Akkusativ) và ở đâu (Dativ)"
+summary_vi: "Với „in“: hỏi Wohin? (đi/di chuyển vào đâu) → Akkusativ (in den Flur, in die Küche, in das Zimmer). Hỏi Wo? (đang ở đâu) → Dativ (im Flur, in der Küche, im Zimmer)."
+usage_vi: "Dùng khi nói đi vào một phòng/tòa nhà (Wohin?) hoặc đang ở trong đó (Wo?). Đây là chuyển động ‘vào’ và vị trí ‘ở trong’."
+objectives:
+  - { id: a1.g.in-wohin-wo.obj1, text_vi: "Phân biệt Wohin? (in + Akkusativ) và Wo? (in + Dativ) với đúng mạo từ.", skill: grammar }
+rules:
+  - id: a1.g.in-wohin-wo.r1
+    title_vi: "Hai câu hỏi, hai cách"
+    body_vi: "Hỏi bằng Wohin? khi có chuyển động đến một nơi (đi vào), dùng Akkusativ. Hỏi bằng Wo? khi chỉ vị trí đang ở, dùng Dativ."
+    table:
+      header: ["Câu hỏi", "Cách", "Ví dụ"]
+      rows:
+        - ["Wohin?", "in + Akkusativ", "Ich gehe in die Küche."]
+        - ["Wo?", "in + Dativ", "Ich bin in der Küche."]
+    examples:
+      - { de: "Wohin gehst du? – Ich gehe in die Küche.", vi: "Bạn đi đâu? – Tôi đi vào bếp." }
+      - { de: "Wo bist du? – Ich bin in der Küche.", vi: "Bạn ở đâu? – Tôi ở trong bếp." }
+  - id: a1.g.in-wohin-wo.r2
+    title_vi: "Mạo từ Akkusativ sau in (Wohin?)"
+    body_vi: "Giống đực đổi: der → den. Giống cái và trung và số nhiều giữ nguyên: die → die, das → das, die (số nhiều) → die."
+    table:
+      header: ["Giống", "Nominativ", "in + Akkusativ"]
+      rows:
+        - ["der Flur", "der", "in den Flur"]
+        - ["die Küche", "die", "in die Küche"]
+        - ["das Zimmer", "das", "in das Zimmer (ins Zimmer)"]
+        - ["die Zimmer (pl)", "die", "in die Zimmer"]
+    examples:
+      - { de: "Wir gehen in den Flur.", vi: "Chúng tôi đi vào hành lang." }
+      - { de: "Er geht ins Schlafzimmer.", vi: "Anh ấy đi vào phòng ngủ." }
+  - id: a1.g.in-wohin-wo.r3
+    title_vi: "Mạo từ Dativ sau in (Wo?)"
+    body_vi: "Giống đực và trung → dem (in dem = im); giống cái → der; số nhiều → den + danh từ thêm -n."
+    table:
+      header: ["Giống", "in + Dativ"]
+      rows:
+        - ["der Flur", "im Flur (in dem)"]
+        - ["die Küche", "in der Küche"]
+        - ["das Zimmer", "im Zimmer (in dem)"]
+        - ["die Zimmer (pl)", "in den Zimmern"]
+    examples:
+      - { de: "Das Sofa steht im Wohnzimmer.", vi: "Ghế sofa ở trong phòng khách." }
+      - { de: "Der Kühlschrank steht in der Küche.", vi: "Tủ lạnh ở trong bếp." }
+  - id: a1.g.in-wohin-wo.r4
+    title_vi: "Mẹo nhớ: Wohin → Akk, Wo → Dat"
+    body_vi: "Chỉ cần tự hỏi: ‘Có đang đi đến đó không?’ Nếu có → Akkusativ. Nếu chỉ đang ở đó → Dativ. Động từ hay đi kèm: gehen, kommen (Wohin); sein, wohnen, stehen, liegen (Wo)."
+    examples:
+      - { de: "Ich gehe in die Küche und koche Kaffee.", vi: "Tôi đi vào bếp và pha cà phê." }
+      - { de: "Ich bin in der Küche und koche Kaffee.", vi: "Tôi đang ở trong bếp và pha cà phê." }
+sentence_structures:
+  - { pattern: "Subjekt + gehen/kommen + in + Akkusativ", example: { de: "Ich gehe in den Flur.", vi: "Tôi đi vào hành lang." } }
+  - { pattern: "Subjekt + sein/wohnen + in + Dativ", example: { de: "Wir sind im Wohnzimmer.", vi: "Chúng tôi ở trong phòng khách." } }
+examples:
+  - { de: "Die Kinder gehen ins Bad.", vi: "Bọn trẻ đi vào phòng tắm." }
+  - { de: "Die Kinder sind im Bad.", vi: "Bọn trẻ đang ở trong phòng tắm." }
+  - { de: "Komm bitte in die Küche!", vi: "Làm ơn vào bếp đi!" }
+  - { de: "Wohnst du in einer Stadt?", vi: "Bạn sống ở trong thành phố à?" }
+common_mistakes:
+  - { wrong: "Ich gehe in der Küche.", right: "Ich gehe in die Küche.", explanation_vi: "„gehen“ chỉ hướng đi vào → Wohin → Akkusativ (die Küche)." }
+  - { wrong: "Ich bin in die Küche.", right: "Ich bin in der Küche.", explanation_vi: "„sein“ chỉ vị trí → Wo → Dativ (der Küche)." }
+  - { wrong: "Ich gehe in dem Flur.", right: "Ich gehe in den Flur.", explanation_vi: "Giống đực Wohin → den (Akkusativ), không phải dem." }
+exercise_refs: [a1.m09.l02.ex.03, a1.m09.l02.ex.04]

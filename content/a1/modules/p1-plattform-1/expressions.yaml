@@ -1,0 +1,106 @@
+schema_version: '2.0'
+content_type: expression-set
+id: a1.p1.expr
+level: A1
+module: a1.p1
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+  references:
+  - work: Netzwerk neu A1 (Klett)
+    scope: 'Plattform 1: Plattform 1: wiederholen und trainieren (Kapitel 1–3); Landeskunde: bekannte Persönlichkeiten, Städte in D-A-CH; Prüfungstraining: Hören Teil 1; Prüfungstraining: Sprechen Teil 1'
+    verification: verified
+  notes_vi: 'Theo Stoffverteilungsplan Netzwerk neu A1.1 (Plattform 1: 5 UE Kursbuch + 2 UE Prüfungstraining). Trò chơi ôn tập của giáo trình được thay bằng bài ôn tập tổng hợp; đề luyện thi là tự biên soạn theo dạng đề A1 (không sao chép đề thi).'
+entries:
+- id: a1.p1.x.erzaehl-mal-wer-bist-du
+  de: 'Erzähl mal: Wer bist du?'
+  vi: 'Kể đi: bạn là ai?'
+  register: informal
+  situation_vi: Mời người khác tự giới thiệu (thân mật).
+  dialogue:
+  - speaker: Anna
+    de: 'Erzähl mal: Wer bist du?'
+    vi: 'Kể đi: bạn là ai?'
+  - speaker: Huy
+    de: Ich heiße Huy, ich bin 28 und komme aus Vietnam. Ich bin Koch und wohne in Köln.
+    vi: Mình tên Huy, 28 tuổi, đến từ Việt Nam. Mình là đầu bếp và sống ở Köln.
+  lesson_refs:
+  - a1.p1.l01
+- id: a1.p1.x.wie-kommst-du-zum-kurs-ich-fahre-fahrrad
+  de: Wie kommst du zum Kurs? – Ich fahre Fahrrad / mit dem Bus.
+  vi: Bạn đến lớp bằng gì? – Mình đi xe đạp / xe buýt.
+  register: informal
+  situation_vi: 'Hỏi phương tiện (mit dem Bus: Dativ – Kapitel 7, học như cụm).'
+  dialogue:
+  - speaker: Lisa
+    de: Wie kommst du zum Kurs?
+    vi: Bạn đến lớp bằng gì?
+  - speaker: Minh
+    de: Ich gehe zu Fuß. Und du?
+    vi: Mình đi bộ. Còn bạn?
+  lesson_refs:
+  - a1.p1.l01
+- id: a1.p1.x.ist-die-hauptstadt-von
+  de: … ist die Hauptstadt von …
+  vi: … là thủ đô của …
+  register: neutral
+  situation_vi: Nói về thủ đô.
+  dialogue:
+  - speaker: Tom
+    de: Wien ist die Hauptstadt von Österreich, richtig?
+    vi: Viên là thủ đô của Áo, đúng không?
+  - speaker: Lan
+    de: Ja, richtig!
+    vi: Ừ, đúng rồi!
+  lesson_refs:
+  - a1.p1.l02
+- id: a1.p1.x.das-ist-er-sie-ist-er-sie-kommt-aus
+  de: Das ist … Er/Sie ist … Er/Sie kommt aus …
+  vi: Đây là … Ông ấy/Bà ấy là … đến từ …
+  register: neutral
+  situation_vi: Giới thiệu một người nổi tiếng.
+  dialogue:
+  - speaker: Minh
+    de: Kennst du Roger Federer?
+    vi: Bạn có biết Roger Federer không?
+  - speaker: Anna
+    de: Ja! Er ist Tennisspieler und kommt aus der Schweiz.
+    vi: Có! Anh ấy là vận động viên quần vợt và đến từ Thụy Sĩ.
+  lesson_refs:
+  - a1.p1.l02
+- id: a1.p1.x.koennen-sie-das-bitte-buchstabieren-ja-t
+  de: 'Können Sie das bitte buchstabieren? – Ja: T – R – A – N.'
+  vi: 'Ông/Bà đánh vần giúp được không? – Vâng: T – R – A – N.'
+  register: formal
+  situation_vi: 'Yêu cầu thường gặp trong phần thi nói (können: Kapitel 5 – học như cụm).'
+  dialogue:
+  - speaker: Prüferin
+    de: Können Sie Ihren Namen bitte buchstabieren?
+    vi: Anh đánh vần tên mình giúp được không?
+  - speaker: Minh
+    de: 'Ja. Minh: M – I – N – H. Tran: T – R – A – N.'
+    vi: 'Vâng. Minh: M – I – N – H. Tran: T – R – A – N.'
+  lesson_refs:
+  - a1.p1.l03
+- id: a1.p1.x.entschuldigung-noch-einmal-bitte
+  de: Entschuldigung, noch einmal, bitte.
+  vi: Xin lỗi, xin nhắc lại ạ.
+  register: formal
+  situation_vi: Khi không hiểu câu hỏi của giám khảo – hoàn toàn được phép trong bài thi.
+  dialogue:
+  - speaker: Prüfer
+    de: Wie ist Ihre Telefonnummer?
+    vi: Số điện thoại của chị là gì?
+  - speaker: Lan
+    de: Entschuldigung, noch einmal, bitte.
+    vi: Xin lỗi, xin nhắc lại ạ.
+  lesson_refs:
+  - a1.p1.l03

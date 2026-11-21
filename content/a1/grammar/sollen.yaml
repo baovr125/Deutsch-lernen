@@ -1,0 +1,61 @@
+schema_version: "2.0"
+content_type: grammar-topic
+id: a1.g.sollen
+level: A1
+introduced_in: a1.m08
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  references:
+    - { work: "Netzwerk neu A1.2 – Stoffverteilungsplan (Klett)", scope: "Kapitel 8, Grammatik: Modalverb sollen", verification: verified }
+  tags: ["modalverb", "rat", "arzt"]
+title_de: "Das Modalverb sollen"
+title_vi: "Động từ khuyết thiếu sollen"
+summary_vi: "„sollen“ nói về điều ai đó (bác sĩ, sếp, giáo viên) bảo hoặc khuyên bạn làm. Cấu trúc như các modalverb khác: sollen ở vị trí 2, động từ chính nguyên mẫu ở cuối."
+usage_vi: "Dùng để thuật lại lời khuyên hoặc chỉ dẫn của người khác, đặc biệt khi nói về bác sĩ và thuốc: „Der Arzt sagt, ich soll …“."
+objectives:
+  - { id: a1.g.sollen.obj1, text_vi: "Chia sollen và dùng để thuật lại lời khuyên hoặc chỉ dẫn.", skill: grammar }
+rules:
+  - id: a1.g.sollen.r1
+    title_vi: "Chia động từ"
+    body_vi: "Ngôi ich và er/sie/es giống nhau (soll). Các ngôi khác thêm đuôi bình thường."
+    table:
+      header: ["Ngôi", "sollen"]
+      rows:
+        - ["ich", "soll"]
+        - ["du", "sollst"]
+        - ["er/sie/es", "soll"]
+        - ["wir / sie / Sie", "sollen"]
+        - ["ihr", "sollt"]
+    examples:
+      - { de: "Ich soll viel schlafen.", vi: "Tôi được dặn là nên ngủ nhiều." }
+      - { de: "Du sollst nicht so laut sein.", vi: "Bạn không nên ồn ào như vậy." }
+  - id: a1.g.sollen.r2
+    title_vi: "Nghĩa: lời khuyên / lệnh từ người khác"
+    body_vi: "Khác với „müssen“ (tự mình bắt buộc), „sollen“ gắn với một người đưa ra lời dặn. Hay đi kèm câu mở đầu „Der Arzt sagt, …“ hoặc „Meine Mutter sagt, …“."
+    examples:
+      - { de: "Der Arzt sagt, ich soll zu Hause bleiben.", vi: "Bác sĩ bảo tôi nên ở nhà." }
+      - { de: "Sie soll jeden Tag eine Tablette nehmen.", vi: "Cô ấy được dặn mỗi ngày uống một viên." }
+  - id: a1.g.sollen.r3
+    title_vi: "Câu hỏi với sollen"
+    body_vi: "Hỏi lời khuyên hoặc chỉ dẫn: „Was soll ich tun?“, „Soll ich kommen?“. Dùng cho việc hỏi ý kiến người nghe."
+    examples:
+      - { de: "Was soll ich gegen Husten tun?", vi: "Tôi nên làm gì khi bị ho?" }
+      - { de: "Soll ich morgen wiederkommen?", vi: "Ngày mai tôi có cần quay lại không?" }
+sentence_structures:
+  - { pattern: "Subjekt + sollen + (Ergänzung) + Infinitiv", example: { de: "Du sollst mehr Tee trinken.", vi: "Bạn nên uống nhiều trà hơn." } }
+  - { pattern: "Was + sollen + Subjekt + Infinitiv?", example: { de: "Was soll ich essen?", vi: "Tôi nên ăn gì?" } }
+examples:
+  - { de: "Die Ärztin sagt, du sollst Pause machen.", vi: "Bác sĩ nữ bảo bạn nên nghỉ ngơi." }
+  - { de: "Wir sollen morgen um acht Uhr kommen.", vi: "Chúng tôi được dặn ngày mai đến lúc tám giờ." }
+  - { de: "Er soll nicht joggen.", vi: "Anh ấy được dặn không nên chạy bộ." }
+  - { de: "Soll ich das Fenster aufmachen?", vi: "Tôi mở cửa sổ nhé?" }
+common_mistakes:
+  - { wrong: "Du sollst zum Arzt gehen müssen.", right: "Du sollst zum Arzt gehen.", explanation_vi: "Không dùng hai modalverb liền nhau ở A1. Chọn một." }
+  - { wrong: "Ich sollen viel trinken.", right: "Ich soll viel trinken.", explanation_vi: "Ngôi ich dùng „soll“ (không có đuôi -en)." }
+exercise_refs: [a1.m08.l04.ex.01, a1.m08.l04.ex.04]

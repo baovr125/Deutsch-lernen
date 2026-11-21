@@ -1,0 +1,133 @@
+schema_version: "2.0"
+content_type: exercise-set
+id: a1.m12.l02.ex
+level: A1
+module: a1.m12
+lesson: a1.m12.l02
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  tags: ["frage", "man"]
+exercises:
+  - id: a1.m12.l02.ex.01
+    type: fill-blank
+    skill: grammar
+    difficulty: 1
+    objective_refs: [a1.m12.l02.obj1, a1.g.fragewoerter.obj1, a1.m12.obj.fragen]
+    instructions_vi: "Điền từ để hỏi đúng (theo câu trả lời)."
+    word_bank: ["Wo", "Woher", "Wohin", "Wann"]
+    items:
+      - { id: a1.m12.l02.ex.01.q1, prompt: "___ wohnst du? – In Berlin.", answers: ["Wo"], explanation_vi: "Hỏi vị trí đang ở → Wo." }
+      - { id: a1.m12.l02.ex.01.q2, prompt: "___ kommst du? – Aus Wien.", answers: ["Woher"], explanation_vi: "Hỏi nơi xuất phát → Woher." }
+      - { id: a1.m12.l02.ex.01.q3, prompt: "___ fährst du? – Nach Rom.", answers: ["Wohin"], explanation_vi: "Hỏi nơi đến → Wohin." }
+      - { id: a1.m12.l02.ex.01.q4, prompt: "___ reist du? – Im Juli.", answers: ["Wann"], explanation_vi: "Hỏi thời gian → Wann." }
+  - id: a1.m12.l02.ex.02
+    type: multiple-choice
+    skill: grammar
+    difficulty: 2
+    objective_refs: [a1.m12.l02.obj1, a1.g.fragewoerter.obj1, a1.m12.obj.fragen]
+    instructions_vi: "Chọn từ để hỏi đúng."
+    items:
+      - id: a1.m12.l02.ex.02.q1
+        prompt: "___ kostet die Fahrkarte? – Zwanzig Euro."
+        options: [{ id: a, text: "Was" }, { id: b, text: "Wo" }, { id: c, text: "Wann" }]
+        answer: [a]
+        explanation_vi: "„Was kostet …?“ hỏi giá."
+      - id: a1.m12.l02.ex.02.q2
+        prompt: "___ dauert die Reise? – Drei Stunden."
+        options: [{ id: a, text: "Wer" }, { id: b, text: "Wie viele" }, { id: c, text: "Wie lange" }]
+        answer: [c]
+        explanation_vi: "Hỏi thời lượng → Wie lange."
+      - id: a1.m12.l02.ex.02.q3
+        prompt: "___ ist das? – Das ist das Schloss."
+        options: [{ id: a, text: "Wo" }, { id: b, text: "Was" }, { id: c, text: "Wann" }]
+        answer: [b]
+        explanation_vi: "Hỏi vật là cái gì → Was."
+      - id: a1.m12.l02.ex.02.q4
+        prompt: "___ fährst du nicht mit? – Ich habe keine Zeit."
+        options: [{ id: a, text: "Wer" }, { id: b, text: "Warum" }, { id: c, text: "Wohin" }]
+        answer: [b]
+        explanation_vi: "Hỏi lý do → Warum."
+  - id: a1.m12.l02.ex.03
+    type: fill-blank
+    skill: grammar
+    difficulty: 2
+    objective_refs: [a1.m12.l02.obj2, a1.g.man.obj1, a1.m12.obj.man]
+    instructions_vi: "Điền dạng đúng của modalverb với „man“."
+    items:
+      - { id: a1.m12.l02.ex.03.q1, prompt: "In der Stadt ___ man viele Kirchen sehen.", hint_vi: "können", answers: ["kann"], explanation_vi: "man kann (như er/sie/es)." }
+      - { id: a1.m12.l02.ex.03.q2, prompt: "Im Museum ___ man nicht essen.", hint_vi: "dürfen", answers: ["darf"], explanation_vi: "man darf nicht = bị cấm." }
+      - { id: a1.m12.l02.ex.03.q3, prompt: "Hier ___ man eine Fahrkarte kaufen.", hint_vi: "müssen", answers: ["muss"], explanation_vi: "man muss = phải." }
+  - id: a1.m12.l02.ex.04
+    type: matching
+    skill: grammar
+    difficulty: 1
+    objective_refs: [a1.m12.l02.obj1, a1.m12.obj.fragen]
+    instructions_vi: "Nối câu hỏi với câu trả lời."
+    items:
+      - { id: a1.m12.l02.ex.04.q1, left: "Wohin fährst du?", right: "Nach Rom.", explanation_vi: "Wohin → nơi đến." }
+      - { id: a1.m12.l02.ex.04.q2, left: "Wann fährst du?", right: "Im Juli.", explanation_vi: "Wann → thời gian." }
+      - { id: a1.m12.l02.ex.04.q3, left: "Wie lange bleibst du?", right: "Eine Woche.", explanation_vi: "Wie lange → thời lượng." }
+      - { id: a1.m12.l02.ex.04.q4, left: "Wo übernachtest du?", right: "Im Hotel.", explanation_vi: "Wo → nơi ở." }
+  - id: a1.m12.l02.ex.05
+    type: reading-comprehension
+    skill: reading
+    difficulty: 2
+    objective_refs: [a1.m12.l02.obj2, a1.m12.obj.urlaub]
+    instructions_vi: "Đọc và trả lời."
+    stimulus:
+      text_de: "In Dresden kann man das Schloss und die Kirche besichtigen. Man braucht einen Stadtplan. Die Stadt ist groß. Viele Touristen übernachten im Hotel."
+      text_vi: "Ở Dresden có thể tham quan lâu đài và nhà thờ. Cần một bản đồ thành phố. Thành phố rộng. Nhiều khách du lịch nghỉ đêm ở khách sạn."
+    items:
+      - id: a1.m12.l02.ex.05.q1
+        prompt: "Was kann man in Dresden besichtigen?"
+        options: [{ id: a, text: "Das Schloss und die Kirche." }, { id: b, text: "Das Meer." }, { id: c, text: "Die Berge." }]
+        answer: [a]
+        explanation_vi: "„das Schloss und die Kirche“."
+      - id: a1.m12.l02.ex.05.q2
+        prompt: "Was braucht man?"
+        options: [{ id: a, text: "Einen Koffer." }, { id: b, text: "Einen Stadtplan." }, { id: c, text: "Ein Flugzeug." }]
+        answer: [b]
+        explanation_vi: "„Man braucht einen Stadtplan.“"
+      - id: a1.m12.l02.ex.05.q3
+        prompt: "Wo übernachten viele Touristen?"
+        options: [{ id: a, text: "Im Schloss." }, { id: b, text: "In der Kirche." }, { id: c, text: "Im Hotel." }]
+        answer: [c]
+        explanation_vi: "„übernachten im Hotel“."
+  - id: a1.m12.l02.ex.06
+    type: word-order
+    skill: grammar
+    difficulty: 2
+    objective_refs: [a1.m12.l02.obj1, a1.m12.l02.obj2, a1.g.man.obj1, a1.g.fragewoerter.obj1]
+    instructions_vi: "Sắp xếp các từ thành câu đúng."
+    items:
+      - id: a1.m12.l02.ex.06.q1
+        tokens: ["kann", "In", "viel", "der", "Stadt", "man", "sehen."]
+        answer: "In der Stadt kann man viel sehen."
+        translation_vi: "Trong thành phố có thể xem nhiều thứ."
+        explanation_vi: "Cụm nơi chốn ở vị trí 1; kann ở vị trí 2; man đi sau."
+      - id: a1.m12.l02.ex.06.q2
+        tokens: ["kaufen.", "muss", "Hier", "eine", "man", "Fahrkarte"]
+        answer: "Hier muss man eine Fahrkarte kaufen."
+        translation_vi: "Ở đây phải mua vé."
+        explanation_vi: "Modalverb vị trí 2, động từ chính nguyên mẫu ở cuối."
+      - id: a1.m12.l02.ex.06.q3
+        tokens: ["ab?", "Wann", "Zug", "fährt", "der"]
+        answer: "Wann fährt der Zug ab?"
+        translation_vi: "Khi nào tàu khởi hành?"
+        explanation_vi: "W-Frage: Wann ở vị trí 1, động từ tách „fährt … ab“."
+  - id: a1.m12.l02.ex.07
+    type: sentence-construction
+    skill: writing
+    difficulty: 2
+    objective_refs: [a1.m12.l02.obj1, a1.m12.l02.obj2]
+    instructions_vi: "Viết câu tiếng Đức với các từ bắt buộc."
+    items:
+      - { id: a1.m12.l02.ex.07.q1, prompt_vi: "Hỏi: Bạn đi đâu?", required_words: ["Wohin"], answers: ["Wohin fährst du?", "Wohin reist du?", "Wohin gehst du?"], explanation_vi: "Wohin ở vị trí 1, động từ chia theo „du“." }
+      - { id: a1.m12.l02.ex.07.q2, prompt_vi: "Hỏi: Bạn ở lại bao lâu?", required_words: ["Wie", "lange", "bleibst"], answers: ["Wie lange bleibst du?"], explanation_vi: "„Wie lange“ + động từ + chủ ngữ." }
+      - { id: a1.m12.l02.ex.07.q3, prompt_vi: "Nói: Ở Berlin có thể tham quan nhiều thứ.", required_words: ["man", "Berlin"], answers: ["In Berlin kann man viel besichtigen.", "In Berlin kann man viel sehen."], explanation_vi: "man + kann + nguyên mẫu ở cuối câu." }

@@ -1,0 +1,61 @@
+schema_version: "2.0"
+content_type: lesson
+id: a1.m11.l03
+level: A1
+module: a1.m11
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  references:
+    - { work: "Netzwerk neu A1.2 – Stoffverteilungsplan (Klett)", scope: "Kapitel 11, Mục Die Reaktionen; Kann ich Ihnen helfen?; Personalpronomen im Dativ; Höflichkeit", verification: verified }
+  tags: ["dativ", "hoeflichkeit", "einkaufen"]
+order: 3
+title_de: "Kann ich Ihnen helfen?"
+title_vi: "Tôi có thể giúp gì cho ông/bà?"
+duration_min: 50
+difficulty: 2
+objectives:
+  - { id: a1.m11.l03.obj1, text_vi: "Bạn có thể dùng đại từ Dativ với passen, gehören và helfen.", skill: grammar }
+  - { id: a1.m11.l03.obj2, text_vi: "Bạn có thể trò chuyện lịch sự với nhân viên bán hàng: nói quần áo vừa hay không, chật hay rộng.", skill: speaking }
+vocabulary_refs: [a1.m11.v.passen, a1.m11.v.gehoeren, a1.m11.v.bequem, a1.m11.v.lang, a1.m11.v.kurz, a1.m11.v.eng, a1.m11.v.weit, a1.m11.v.helfen-hoeflich, a1.m11.v.bitte-schoen]
+grammar_refs: [a1.g.personalpronomen-dativ]
+expression_refs: [a1.m11.x.helfen-verkaeufer, a1.m11.x.passt-mir, a1.m11.x.zu-gross]
+exercise_set_ref: a1.m11.l03.ex
+blocks:
+  - id: a1.m11.l03.b1
+    kind: explanation
+    skill: grammar
+    title_vi: "Bắt đầu: ‘vừa’ và ‘thuộc về’"
+    body_vi: |
+      **passen** (vừa), **gehören** (thuộc về) và **helfen** (giúp) cũng đi với **Dativ**: *Die Hose passt mir. Die Mütze gehört ihm. Kann ich Ihnen helfen?*
+      Nhân viên lịch sự dùng **Sie / Ihnen**; với bạn bè dùng **du / dir**.
+  - id: a1.m11.l03.b2
+    kind: dialogue
+    skill: speaking
+    title_vi: "Hội thoại: Thử quần"
+    lines:
+      - { speaker: "Verkäufer", de: "Guten Tag! Kann ich Ihnen helfen?", vi: "Xin chào! Tôi có thể giúp gì cho ông/bà ạ?" }
+      - { speaker: "Frau Kern", de: "Ja, ich suche eine Hose. Diese hier gefällt mir.", vi: "Vâng, tôi tìm một cái quần. Cái này tôi thích." }
+      - { speaker: "Verkäufer", de: "Die Umkleidekabine ist dort. Probieren Sie sie bitte an.", vi: "Phòng thử đồ ở đằng kia. Xin ông/bà thử nó." }
+      - { speaker: "Frau Kern", de: "Die Hose ist mir zu eng. Haben Sie eine Größe größer?", vi: "Cái quần chật với tôi. Ông có cỡ lớn hơn không?" }
+      - { speaker: "Verkäufer", de: "Bitte schön. Passt die Hose Ihnen jetzt?", vi: "Xin mời. Bây giờ cái quần có vừa ông/bà không?" }
+      - { speaker: "Frau Kern", de: "Ja, sie passt mir gut und ist bequem. Danke!", vi: "Vâng, nó vừa và thoải mái. Cảm ơn!" }
+  - id: a1.m11.l03.b3
+    kind: reading
+    skill: reading
+    title_vi: "Bài đọc: Wem gehört die Jacke?"
+    paragraphs:
+      - { de: "Im Büro liegt eine Jacke auf dem Stuhl. Wem gehört sie?", vi: "Ở văn phòng có một chiếc áo khoác để trên ghế. Nó của ai?" }
+      - { de: "Tom sagt: „Sie gehört mir nicht. Sie ist zu groß.“", vi: "Tom nói: ‘Không phải của tôi. Nó quá rộng.’" }
+      - { de: "Lisa sagt: „Sie gehört Jan. Er trägt sie jeden Tag.“", vi: "Lisa nói: ‘Nó của Jan. Anh ấy mặc nó mỗi ngày.’" }
+  - id: a1.m11.l03.b4
+    kind: culture
+    skill: speaking
+    title_vi: "Văn hóa: lịch sự khi mua sắm"
+    body_vi: |
+      Ở D-A-CH nhân viên thường chào khi bạn bước vào cửa hàng. Nếu chỉ muốn xem, nói: **Nein danke, ich schaue nur.** Khi nhận hàng, nói **Danke**; nhân viên đáp **Bitte schön.**

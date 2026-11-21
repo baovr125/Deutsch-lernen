@@ -1,0 +1,136 @@
+schema_version: "2.0"
+content_type: exercise-set
+id: a1.m09.l04.ex
+level: A1
+module: a1.m09
+lesson: a1.m09.l04
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  tags: ["einladung", "aussprache"]
+exercises:
+  - id: a1.m09.l04.ex.01
+    type: multiple-choice
+    skill: pronunciation
+    difficulty: 1
+    objective_refs: [a1.m09.l04.obj2]
+    instructions_vi: "Chọn đáp án đúng về cách phát âm e."
+    items:
+      - id: a1.m09.l04.ex.01.q1
+        prompt: "Wie spricht man das „e“ in „Tee“?"
+        options: [{ id: a, text: "kurz /ɛ/" }, { id: b, text: "lang /eː/" }, { id: c, text: "schwach /ə/" }]
+        answer: [b]
+        explanation_vi: "„ee“ luôn đọc /eː/ (e dài)."
+      - id: a1.m09.l04.ex.01.q2
+        prompt: "In welchem Wort ist „e“ kurz?"
+        options: [{ id: a, text: "Bett" }, { id: b, text: "Regen" }, { id: c, text: "sehen" }]
+        answer: [a]
+        explanation_vi: "„Bett“: e + tt (hai phụ âm) → e ngắn /ɛ/."
+      - id: a1.m09.l04.ex.01.q3
+        prompt: "Wie spricht man das „e“ in „Fenster“ (erste Silbe)?"
+        options: [{ id: a, text: "lang" }, { id: b, text: "schwach" }, { id: c, text: "kurz" }]
+        answer: [c]
+        explanation_vi: "„Fenster“: e + nst → e ngắn /ɛ/."
+      - id: a1.m09.l04.ex.01.q4
+        prompt: "In welchem Wort ist „e“ lang?"
+        options: [{ id: a, text: "Fenster" }, { id: b, text: "sehen" }, { id: c, text: "Bett" }]
+        answer: [b]
+        explanation_vi: "„sehen“: „eh“ → e dài /eː/."
+  - id: a1.m09.l04.ex.02
+    type: fill-blank
+    skill: writing
+    difficulty: 1
+    objective_refs: [a1.m09.l04.obj1, a1.m09.obj.einladung]
+    instructions_vi: "Điền từ vào thư trả lời lời mời."
+    word_bank: ["Einladung", "sage", "kommen", "Toll"]
+    items:
+      - { id: a1.m09.l04.ex.02.q1, prompt: "Vielen Dank für die ___!", hint_vi: "lời mời", answers: ["Einladung"], explanation_vi: "die Einladung = lời mời." }
+      - { id: a1.m09.l04.ex.02.q2, prompt: "Ich ___ gern zu.", hint_vi: "zusagen, ngôi ich", answers: ["sage"], explanation_vi: "zusagen tách: ich sage … zu. Ở đây „zu“ nằm ở cuối câu." }
+      - { id: a1.m09.l04.ex.02.q3, prompt: "Leider kann ich nicht ___.", hint_vi: "đến", answers: ["kommen"], explanation_vi: "Sau modalverb „kann“, động từ chính ở dạng nguyên mẫu." }
+      - { id: a1.m09.l04.ex.02.q4, prompt: "___! Das ist eine super Idee!", hint_vi: "Tuyệt!", answers: ["Toll"], explanation_vi: "„Toll!“ là cách bày tỏ sự hào hứng." }
+  - id: a1.m09.l04.ex.03
+    type: word-order
+    skill: grammar
+    difficulty: 2
+    objective_refs: [a1.m09.l04.obj1, a1.m09.obj.einladung]
+    instructions_vi: "Sắp xếp các từ thành câu đúng."
+    items:
+      - id: a1.m09.l04.ex.03.q1
+        tokens: ["die", "Dank", "Vielen", "Einladung.", "für"]
+        answer: "Vielen Dank für die Einladung."
+        translation_vi: "Cảm ơn nhiều vì lời mời."
+        explanation_vi: "Cụm cố định „Vielen Dank für + Akkusativ“."
+      - id: a1.m09.l04.ex.03.q2
+        tokens: ["sehr", "Ich", "zur", "gern", "komme", "Party."]
+        answer: "Ich komme sehr gern zur Party."
+        translation_vi: "Tôi rất sẵn lòng đến bữa tiệc."
+        explanation_vi: "„zur Party“ = zu + der Party (đến chỗ nào)."
+      - id: a1.m09.l04.ex.03.q3
+        tokens: ["nicht", "Leider", "ich", "kommen.", "kann"]
+        answer: "Leider kann ich nicht kommen."
+        translation_vi: "Tiếc là tôi không thể đến."
+        explanation_vi: "„Leider“ đứng đầu nên modalverb „kann“ ở vị trí 2."
+  - id: a1.m09.l04.ex.04
+    type: reading-comprehension
+    skill: reading
+    difficulty: 2
+    objective_refs: [a1.m09.l04.obj1, a1.m09.obj.einladung]
+    instructions_vi: "Đọc thư mời và trả lời."
+    stimulus:
+      text_de: "Lieber Max, wir feiern am Samstag in der Wohnung von Ana. Die Party beginnt um 19 Uhr. Bring bitte ein Getränk mit! Viele Grüße, Ana"
+      text_vi: "Max thân mến, thứ Bảy chúng mình tổ chức tiệc ở căn hộ của Ana. Bữa tiệc bắt đầu lúc 19 giờ. Mang theo một đồ uống nhé! Thân ái, Ana"
+    items:
+      - id: a1.m09.l04.ex.04.q1
+        prompt: "Wann beginnt die Party?"
+        options: [{ id: a, text: "Um 19 Uhr." }, { id: b, text: "Um 17 Uhr." }, { id: c, text: "Um 9 Uhr." }]
+        answer: [a]
+        explanation_vi: "„Die Party beginnt um 19 Uhr.“"
+      - id: a1.m09.l04.ex.04.q2
+        prompt: "Wo ist die Party?"
+        options: [{ id: a, text: "Im Büro." }, { id: b, text: "In der Wohnung von Ana." }, { id: c, text: "Im Café." }]
+        answer: [b]
+        explanation_vi: "„in der Wohnung von Ana“ — ở căn hộ của Ana."
+      - id: a1.m09.l04.ex.04.q3
+        prompt: "Was soll Max mitbringen?"
+        options: [{ id: a, text: "Ein Getränk." }, { id: b, text: "Einen Stuhl." }, { id: c, text: "Ein Sofa." }]
+        answer: [a]
+        explanation_vi: "„Bring bitte ein Getränk mit!“ (Imperativ du, động từ tách mitbringen)."
+  - id: a1.m09.l04.ex.05
+    type: writing-practice
+    skill: writing
+    difficulty: 3
+    objective_refs: [a1.m09.l04.obj1, a1.m09.obj.einladung]
+    instructions_vi: "Viết thư ngắn (3–4 câu) trả lời lời mời của Ana: bạn nhận lời và hỏi có cần mang gì không."
+    items:
+      - id: a1.m09.l04.ex.05.q1
+        prompt_vi: "Viết thư với lời chào, cảm ơn, nhận lời và lời kết."
+        model_answer: { de: "Liebe Ana, vielen Dank für die Einladung! Ich komme sehr gern. Kann ich auch etwas mitbringen? Viele Grüße, Max", vi: "Ana thân mến, cảm ơn nhiều vì lời mời! Mình rất sẵn lòng đến. Mình mang theo gì được không? Thân ái, Max" }
+        rubric_vi: ["Có lời chào và lời kết thân mật.", "Cảm ơn lời mời đúng (Vielen Dank für die Einladung).", "Nhận lời rõ ràng (Ich komme gern / Ich sage zu).", "Câu đúng ngữ pháp, động từ tách/modalverb ở đúng vị trí."]
+        explanation_vi: "Bài mẫu ghép các khối: chào, cảm ơn, nhận lời, câu hỏi, kết."
+  - id: a1.m09.l04.ex.06
+    type: speaking-practice
+    skill: speaking
+    difficulty: 2
+    objective_refs: [a1.m09.l04.obj1, a1.m09.obj.einladung]
+    instructions_vi: "Nghe lời mời của bạn bè và đáp lại: một lần nhận lời, một lần từ chối."
+    items:
+      - id: a1.m09.l04.ex.06.q1
+        prompt_vi: "Bạn nghe: „Kommst du am Samstag zu meiner Party?“ Hãy nhận lời, rồi từ chối kèm lý do."
+        model_answer: { de: "Toll, vielen Dank! Ich komme sehr gern. – Leider kann ich nicht kommen. Ich muss arbeiten.", vi: "Tuyệt, cảm ơn nhiều! Mình rất sẵn lòng đến. – Tiếc là mình không thể đến. Mình phải làm việc." }
+        rubric_vi: ["Bày tỏ sự hào hứng (Toll!).", "Nhận lời bằng „Ich komme gern“ hoặc „Ich sage zu“.", "Từ chối bằng „Leider kann ich nicht kommen“ kèm lý do.", "Phát âm rõ, giọng tự nhiên."]
+        explanation_vi: "Bài mẫu có cả hai tình huống: nhận lời và từ chối kèm lý do bằng „muss“."
+  - id: a1.m09.l04.ex.07
+    type: translation
+    skill: writing
+    difficulty: 2
+    objective_refs: [a1.m09.l04.obj1, a1.m09.obj.einladung]
+    instructions_vi: "Dịch sang tiếng Đức."
+    items:
+      - { id: a1.m09.l04.ex.07.q1, direction: vi-de, source: "Cảm ơn bạn đã mời.", answers: ["Danke für die Einladung.", "Vielen Dank für die Einladung."], explanation_vi: "„für + Akkusativ“: für die Einladung." }
+      - { id: a1.m09.l04.ex.07.q2, direction: vi-de, source: "Tôi rất sẵn lòng đến.", answers: ["Ich komme sehr gern.", "Ich komme gern."], explanation_vi: "„gern“ nhấn mạnh sự sẵn lòng; „sehr gern“ mạnh hơn." }
+      - { id: a1.m09.l04.ex.07.q3, direction: vi-de, source: "Tiếc là tôi không thể đến.", answers: ["Leider kann ich nicht kommen."], explanation_vi: "„Leider“ + modalverb „kann“ ở vị trí 2." }

@@ -1,0 +1,214 @@
+schema_version: '2.0'
+content_type: exercise-set
+id: a1.m04.l05.ex
+level: A1
+module: a1.m04
+lesson: a1.m04.l05
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+exercises:
+- id: a1.m04.l05.ex.01
+  type: multiple-choice
+  skill: grammar
+  difficulty: 1
+  objective_refs:
+  - a1.m04.l05.obj2
+  instructions_vi: Chọn dạng chia đúng của động từ mögen.
+  items:
+  - id: a1.m04.l05.ex.01.q1
+    prompt: Ich ___ frisches Obst und Joghurt.
+    options:
+    - id: a
+      text: magst
+    - id: b
+      text: mögen
+    - id: c
+      text: mögt
+    - id: d
+      text: mag
+    answer:
+    - d
+    explanation_vi: Ngôi ich chia là ich mag.
+  - id: a1.m04.l05.ex.01.q2
+    prompt: ___ du Fisch, Thomas?
+    options:
+    - id: a
+      text: Mögt
+    - id: b
+      text: Mag
+    - id: c
+      text: Magst
+    - id: d
+      text: Mögen
+    answer:
+    - c
+    explanation_vi: Ngôi du chia là du magst.
+  - id: a1.m04.l05.ex.01.q3
+    prompt: Mein Kind ___ kein Gemüse.
+    options:
+    - id: a
+      text: magst
+    - id: b
+      text: mag
+    - id: c
+      text: mögen
+    - id: d
+      text: magt
+    answer:
+    - b
+    explanation_vi: Ngôi er/sie/es (mein Kind) chia là mag.
+- id: a1.m04.l05.ex.02
+  type: word-order
+  skill: grammar
+  difficulty: 1
+  objective_refs:
+  - a1.m04.l05.obj3
+  instructions_vi: Sắp xếp câu đảo ngữ bắt đầu bằng trạng từ chỉ thời gian.
+  items:
+  - id: a1.m04.l05.ex.02.q1
+    tokens:
+    - Kaffee
+    - ich
+    - Morgens
+    - trinke
+    answer: Morgens trinke ich Kaffee.
+    prompt_vi: 'Sắp xếp: Morgens / Kaffee / ich / trinke .'
+    explanation_vi: Morgens (vị trí 1) + trinke (động từ vị trí 2) + ich (chủ ngữ vị trí 3) + Kaffee.
+  - id: a1.m04.l05.ex.02.q2
+    tokens:
+    - in
+    - wir
+    - Mittags
+    - Kantine
+    - essen
+    - der
+    answer: Mittags essen wir in der Kantine.
+    prompt_vi: 'Sắp xếp: Mittags / in / essen / der / Kantine / wir .'
+    explanation_vi: Mittags (vị trí 1) + essen (động từ vị trí 2) + wir (chủ ngữ vị trí 3) + in der Kantine.
+- id: a1.m04.l05.ex.03
+  type: multiple-choice
+  skill: listening
+  difficulty: 2
+  objective_refs:
+  - a1.m04.l05.obj4
+  instructions_vi: Nghe hội thoại và chọn đáp án chính xác.
+  stimulus:
+    ref: a1.m04.l05.b6
+  items:
+  - id: a1.m04.l05.ex.03.q1
+    prompt: Wo isst Herr Becker mittags?
+    options:
+    - id: a
+      text: in der Kantine mit Kollegen
+    - id: b
+      text: zu Hause mit der Familie
+    - id: c
+      text: im Restaurant allein
+    - id: d
+      text: im Park
+    answer:
+    - a
+    explanation_vi: 'Herr Becker nói: ''Mittags esse ich mit Kollegen in der Kantine''.'
+  - id: a1.m04.l05.ex.03.q2
+    prompt: Wann isst Herr Becker warm zu Hause?
+    options:
+    - id: a
+      text: morgens
+    - id: b
+      text: mittags
+    - id: c
+      text: nie
+    - id: d
+      text: abends
+    answer:
+    - d
+    explanation_vi: 'Herr Becker nói: ''Und abends esse ich mit meiner Familie warm zu Hause''.'
+- id: a1.m04.l05.ex.04
+  type: true-false
+  skill: listening
+  difficulty: 2
+  objective_refs:
+  - a1.m04.l05.obj4
+  instructions_vi: Nghe lại và xác định câu sau là Đúng hay Sai.
+  stimulus:
+    ref: a1.m04.l05.b6
+  items:
+  - id: a1.m04.l05.ex.04.q1
+    prompt: Morgens isst Herr Becker ein großes Frühstück mit Eiern und Wurst.
+    answer: false
+    explanation_vi: Sai, ông nói buổi sáng hầu như không ăn gì, chỉ ăn một cái bánh mì nhỏ và uống cà phê ('morgens esse ich fast nichts').
+  - id: a1.m04.l05.ex.04.q2
+    prompt: Herr Becker isst mittags oft Fisch oder Gemüse.
+    answer: true
+    explanation_vi: 'Đúng, ông nói: ''Oft esse ich Fisch oder Gemüse mit Reis''.'
+- id: a1.m04.l05.ex.05
+  type: matching
+  skill: reading
+  difficulty: 2
+  objective_refs:
+  - a1.m04.l05.obj1
+  - a1.m04.l05.obj4
+  instructions_vi: Nối thời điểm trong ngày với bữa ăn của Laura.
+  stimulus:
+    ref: a1.m04.l05.b7
+  items:
+  - id: a1.m04.l05.ex.05.q1
+    pairs:
+    - left: Morgens
+      right: trà xanh và trái cây với sữa chua
+    - left: Mittags
+      right: ăn nhanh Döner hoặc salad với bạn bè
+    - left: Abends
+      right: nấu súp rau củ tươi ở nhà
+    - left: Um sieben
+      right: thức dậy bắt đầu một ngày mới
+    explanation_vi: Thực đơn và thời gian biểu của Laura trong bài đọc.
+- id: a1.m04.l05.ex.06
+  type: fill-blank
+  skill: speaking
+  difficulty: 2
+  objective_refs:
+  - a1.m04.l05.obj1
+  instructions_vi: Điền trạng từ thời gian phù hợp vào câu.
+  items:
+  - id: a1.m04.l05.ex.06.q1
+    prompt: Zum ___ esse ich zwei Brötchen mit Käse. (bữa sáng)
+    answers:
+    - Frühstück
+    explanation_vi: das Frühstück = bữa sáng.
+  - id: a1.m04.l05.ex.06.q2
+    prompt: ___ trinke ich oft eine Tasse heißen Tee vor dem Schlafen. (buổi tối)
+    answers:
+    - Abends
+    explanation_vi: Abends = vào buổi tối.
+- id: a1.m04.l05.ex.07
+  type: multiple-choice
+  skill: writing
+  difficulty: 2
+  objective_refs:
+  - a1.m04.l05.obj3
+  instructions_vi: Chọn câu có trật tự từ đúng nguyên tắc đảo ngữ.
+  items:
+  - id: a1.m04.l05.ex.07.q1
+    prompt: Câu nào đúng trật tự từ?
+    options:
+    - id: a
+      text: Am Sonntag kochen wir zusammen.
+    - id: b
+      text: Am Sonntag wir kochen zusammen.
+    - id: c
+      text: Am Sonntag zusammen kochen wir.
+    - id: d
+      text: Am kochen Sonntag wir zusammen.
+    answer:
+    - a
+    explanation_vi: Am Sonntag (vị trí 1) + kochen (động từ vị trí 2) + wir (chủ ngữ vị trí 3).

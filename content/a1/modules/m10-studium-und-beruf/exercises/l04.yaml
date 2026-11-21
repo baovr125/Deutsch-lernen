@@ -1,0 +1,146 @@
+schema_version: "2.0"
+content_type: exercise-set
+id: a1.m10.l04.ex
+level: A1
+module: a1.m10
+lesson: a1.m10.l04
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  tags: ["telefon", "aussprache"]
+exercises:
+  - id: a1.m10.l04.ex.01
+    type: multiple-choice
+    skill: vocabulary
+    difficulty: 1
+    objective_refs: [a1.m10.l04.obj1, a1.m10.obj.telefon]
+    instructions_vi: "Chọn đáp án đúng."
+    items:
+      - id: a1.m10.l04.ex.01.q1
+        prompt: "Wie meldet man sich am Telefon formell?"
+        options: [{ id: a, text: "Guten Tag, hier ist Anna Weber." }, { id: b, text: "Tschüss!" }, { id: c, text: "Gute Nacht!" }]
+        answer: [a]
+        explanation_vi: "Mở đầu cuộc gọi: chào + „hier ist“ + tên."
+      - id: a1.m10.l04.ex.01.q2
+        prompt: "Was bedeutet „Die Leitung ist besetzt“?"
+        options: [{ id: a, text: "Hết pin." }, { id: b, text: "Máy bận." }, { id: c, text: "Đang gọi lại." }]
+        answer: [b]
+        explanation_vi: "„besetzt“ = đường dây đang bận."
+      - id: a1.m10.l04.ex.01.q3
+        prompt: "Wie verabschiedet man sich formell am Telefon?"
+        options: [{ id: a, text: "Auf Wiedersehen!" }, { id: b, text: "Hallo!" }, { id: c, text: "Auf Wiederhören!" }]
+        answer: [c]
+        explanation_vi: "Qua điện thoại dùng „Auf Wiederhören!“ vì chỉ nghe, không nhìn."
+      - id: a1.m10.l04.ex.01.q4
+        prompt: "Was sagt man, wenn Herr Berger nicht da ist?"
+        options: [{ id: a, text: "Herr Berger ist leider nicht da." }, { id: b, text: "Einen Moment, bitte." }, { id: c, text: "Hier ist Anna." }]
+        answer: [a]
+        explanation_vi: "Báo vắng mặt: „… ist leider nicht da.“"
+  - id: a1.m10.l04.ex.02
+    type: fill-blank
+    skill: speaking
+    difficulty: 1
+    objective_refs: [a1.m10.l04.obj1, a1.m10.obj.telefon]
+    instructions_vi: "Điền từ vào đoạn hội thoại điện thoại."
+    word_bank: ["ist", "sprechen", "Moment", "rufe"]
+    items:
+      - { id: a1.m10.l04.ex.02.q1, prompt: "Guten Tag, hier ___ Anna Weber.", answers: ["ist"], explanation_vi: "„hier ist + tên“ để tự giới thiệu." }
+      - { id: a1.m10.l04.ex.02.q2, prompt: "Kann ich bitte Herrn Berger ___?", answers: ["sprechen"], explanation_vi: "Sau modalverb „kann“, động từ nguyên mẫu ở cuối." }
+      - { id: a1.m10.l04.ex.02.q3, prompt: "Einen ___, bitte.", answers: ["Moment"], explanation_vi: "„Einen Moment, bitte.“ = xin đợi một chút." }
+      - { id: a1.m10.l04.ex.02.q4, prompt: "Ich ___ Sie später zurück.", answers: ["rufe"], explanation_vi: "zurückrufen tách: ich rufe … zurück." }
+  - id: a1.m10.l04.ex.03
+    type: word-order
+    skill: grammar
+    difficulty: 2
+    objective_refs: [a1.m10.l04.obj1, a1.m10.obj.telefon]
+    instructions_vi: "Sắp xếp các từ thành câu đúng."
+    items:
+      - id: a1.m10.l04.ex.03.q1
+        tokens: ["Klein.", "ist", "Sara", "Hier"]
+        answer: "Hier ist Sara Klein."
+        translation_vi: "Đây là Sara Klein."
+        explanation_vi: "Cụm tự giới thiệu cố định."
+      - id: a1.m10.l04.ex.03.q2
+        tokens: ["Berger", "ich", "Herrn", "sprechen?", "Kann", "bitte"]
+        answer: "Kann ich bitte Herrn Berger sprechen?"
+        translation_vi: "Tôi có thể nói chuyện với ông Berger được không?"
+        explanation_vi: "Câu hỏi Ja/Nein: modalverb đứng đầu, „sprechen“ ở cuối."
+      - id: a1.m10.l04.ex.03.q3
+        tokens: ["Sie", "zurück.", "später", "Ich", "rufe"]
+        answer: "Ich rufe Sie später zurück."
+        translation_vi: "Tôi sẽ gọi lại cho ông/bà sau."
+        explanation_vi: "Động từ tách: „rufe“ ở vị trí 2, „zurück“ ở cuối câu."
+  - id: a1.m10.l04.ex.04
+    type: listening-practice
+    skill: listening
+    difficulty: 2
+    objective_refs: [a1.m10.l04.obj1, a1.m10.obj.telefon]
+    instructions_vi: "Nghe tin nhắn thoại (hoặc đọc transcript) rồi chọn đáp án."
+    stimulus:
+      text_de: "Hallo Frau Wolf, hier ist Jonas Hahn. Ich habe heute leider keine Zeit. Können Sie mich bitte morgen zurückrufen? Meine Handynummer ist null eins sieben eins."
+      audio_status: pending-tts
+    items:
+      - id: a1.m10.l04.ex.04.q1
+        prompt: "Wer spricht?"
+        options: [{ id: a, text: "Jonas Hahn." }, { id: b, text: "Herr Berger." }, { id: c, text: "Frau Wolf." }]
+        answer: [a]
+        explanation_vi: "„hier ist Jonas Hahn“."
+      - id: a1.m10.l04.ex.04.q2
+        prompt: "Was möchte Jonas?"
+        options: [{ id: a, text: "Einen Termin." }, { id: b, text: "Einen Rückruf morgen." }, { id: c, text: "Eine Nachricht von Frau Wolf." }]
+        answer: [b]
+        explanation_vi: "„Können Sie mich bitte morgen zurückrufen?“"
+      - id: a1.m10.l04.ex.04.q3
+        prompt: "Was sagt Jonas am Ende?"
+        options: [{ id: a, text: "Seine Handynummer." }, { id: b, text: "Seine Adresse." }, { id: c, text: "Sein Passwort." }]
+        answer: [a]
+        explanation_vi: "„Meine Handynummer ist …“"
+  - id: a1.m10.l04.ex.05
+    type: sentence-construction
+    skill: writing
+    difficulty: 2
+    objective_refs: [a1.m10.l04.obj1, a1.m10.obj.telefon]
+    instructions_vi: "Viết câu tiếng Đức với các từ bắt buộc."
+    items:
+      - { id: a1.m10.l04.ex.05.q1, prompt_vi: "Tự giới thiệu khi gọi: Chào, tôi là Anna.", required_words: ["hier", "ist", "Anna"], answers: ["Guten Tag, hier ist Anna."], explanation_vi: "Cụm „Guten Tag, hier ist + tên“." }
+      - { id: a1.m10.l04.ex.05.q2, prompt_vi: "Xin gặp bà Wolf.", required_words: ["Frau", "Wolf", "sprechen"], answers: ["Kann ich bitte Frau Wolf sprechen?"], explanation_vi: "Kann ich bitte + người + sprechen?" }
+      - { id: a1.m10.l04.ex.05.q3, prompt_vi: "Tôi sẽ gọi lại cho ông/bà vào ngày mai.", required_words: ["rufe", "zurück"], answers: ["Ich rufe Sie morgen zurück."], explanation_vi: "Động từ tách zurückrufen: ich rufe … zurück." }
+  - id: a1.m10.l04.ex.06
+    type: speaking-practice
+    skill: speaking
+    difficulty: 2
+    objective_refs: [a1.m10.l04.obj1, a1.m10.obj.telefon]
+    instructions_vi: "Đóng vai một cuộc gọi: bạn gọi đến công ty để nói chuyện với ông Berger nhưng ông không có đây."
+    items:
+      - id: a1.m10.l04.ex.06.q1
+        prompt_vi: "Gọi điện, tự giới thiệu, xin gặp ông Berger, rồi nhờ ghi tin nhắn."
+        model_answer: { de: "Guten Tag, hier ist Sara Klein. Kann ich bitte Herrn Berger sprechen? – Ach, er ist nicht da. Können Sie bitte eine Nachricht aufschreiben? Ich rufe später zurück. Auf Wiederhören!", vi: "Chào ông/bà, tôi là Sara Klein. Tôi có thể nói chuyện với ông Berger được không? – À, ông ấy không có đây. Ông/bà có thể ghi giúp một tin nhắn không? Tôi sẽ gọi lại sau. Xin chào tạm biệt!" }
+        rubric_vi: ["Tự giới thiệu đúng (hier ist …).", "Xin gặp người cần gọi bằng „Kann ich bitte … sprechen?“.", "Nhờ ghi tin nhắn hoặc hẹn gọi lại.", "Kết thúc bằng „Auf Wiederhören!“."]
+        explanation_vi: "Bài mẫu đủ bốn bước của một cuộc gọi lịch sự."
+  - id: a1.m10.l04.ex.07
+    type: multiple-choice
+    skill: pronunciation
+    difficulty: 2
+    objective_refs: [a1.m10.l04.obj2]
+    instructions_vi: "Chọn đáp án đúng về chữ h."
+    items:
+      - id: a1.m10.l04.ex.07.q1
+        prompt: "In welchem Wort spricht man das „h“ deutlich (Hauch)?"
+        options: [{ id: a, text: "gehen" }, { id: b, text: "Handy" }, { id: c, text: "sehen" }]
+        answer: [b]
+        explanation_vi: "„Handy“ có h ở đầu từ: thở nhẹ. Trong „gehen“ và „sehen“ h không đọc."
+      - id: a1.m10.l04.ex.07.q2
+        prompt: "Wie spricht man „sehen“?"
+        options: [{ id: a, text: "/ˈzeːhən/" }, { id: b, text: "/ˈzeːən/" }, { id: c, text: "/ˈzɛhən/" }]
+        answer: [b]
+        explanation_vi: "h sau nguyên âm không đọc, chỉ kéo dài nguyên âm: /ˈzeːən/."
+      - id: a1.m10.l04.ex.07.q3
+        prompt: "Welches Wort hat ein stummes „h“?"
+        options: [{ id: a, text: "Hallo" }, { id: b, text: "Haus" }, { id: c, text: "Uhr" }]
+        answer: [c]
+        explanation_vi: "„Uhr“: h đứng sau nguyên âm nên không đọc (u kéo dài)."

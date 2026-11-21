@@ -1,0 +1,47 @@
+schema_version: "2.0"
+content_type: module
+id: a1.m10
+level: A1
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  references:
+    - { work: "Netzwerk neu A1.2 – Stoffverteilungsplan (Klett, © 2023)", scope: "Kapitel 10 'Studium und Beruf': các mục, Grammatik (Perfekt – Satzklammer; Partizip II regelmäßig, -ieren, unregelmäßig), Wortschatz, Aussprache h, Strategie telefonieren", verification: verified }
+    - { work: "Dự án Deutsch-lernen", scope: "Từ vựng, hội thoại, bài đọc, bài tập hoàn toàn tự biên soạn; chia thành 4 bài học; Perfekt với sein là bổ sung; mục Der Weg zum Job: chủ điểm ngữ pháp chưa xác minh", verification: proposed }
+  notes_vi: "Chưa đối chiếu từng từ với Kapitelwortschatz K10. Chưa có audio (pending-tts)."
+  tags: ["beruf", "perfekt"]
+order: 13
+title_de: "Studium und Beruf"
+title_vi: "Học đại học và nghề nghiệp"
+summary_vi: "Nói về nghề nghiệp và việc học, kể những việc đã làm bằng Perfekt, và gọi điện thoại."
+prerequisites: [a1.m09]
+objectives:
+  - { id: a1.m10.obj.beruf, text_vi: "Bạn có thể nói nghề nghiệp, ngành học và nơi làm việc.", skill: speaking }
+  - { id: a1.m10.obj.perfekt, text_vi: "Bạn có thể lập câu Perfekt với haben/sein và đặt Partizip II ở cuối câu.", skill: grammar }
+  - { id: a1.m10.obj.partizip, text_vi: "Bạn có thể lập Partizip II cho động từ có quy tắc, đuôi -ieren và bất quy tắc thông dụng.", skill: grammar }
+  - { id: a1.m10.obj.erzaehlen, text_vi: "Bạn có thể kể ngắn việc đã làm hôm qua hoặc cuối tuần.", skill: writing }
+  - { id: a1.m10.obj.telefon, text_vi: "Bạn có thể thực hiện và hiểu một cuộc gọi điện thoại ngắn.", skill: speaking }
+lessons:
+  - { id: a1.m10.l01, file: lessons/l01.yaml }
+  - { id: a1.m10.l02, file: lessons/l02.yaml }
+  - { id: a1.m10.l03, file: lessons/l03.yaml }
+  - { id: a1.m10.l04, file: lessons/l04.yaml }
+grammar:
+  - { id: a1.g.perfekt-satzklammer, file: ../../grammar/perfekt-satzklammer.yaml }
+  - { id: a1.g.partizip2-regelmaessig, file: ../../grammar/partizip2-regelmaessig.yaml }
+  - { id: a1.g.partizip2-ieren, file: ../../grammar/partizip2-ieren.yaml }
+  - { id: a1.g.partizip2-unregelmaessig, file: ../../grammar/partizip2-unregelmaessig.yaml }
+vocabulary: { id: a1.m10.vocab, file: vocabulary.yaml }
+expressions: { id: a1.m10.expr, file: expressions.yaml }
+exercises:
+  - { id: a1.m10.l01.ex, file: exercises/l01.yaml }
+  - { id: a1.m10.l02.ex, file: exercises/l02.yaml }
+  - { id: a1.m10.l03.ex, file: exercises/l03.yaml }
+  - { id: a1.m10.l04.ex, file: exercises/l04.yaml }
+assessment: { id: a1.m10.test, file: assessment.yaml }
+estimated_hours: 7

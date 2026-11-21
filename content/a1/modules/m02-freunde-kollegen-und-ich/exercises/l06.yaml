@@ -1,0 +1,212 @@
+schema_version: '2.0'
+content_type: exercise-set
+id: a1.m02.l06.ex
+level: A1
+module: a1.m02
+lesson: a1.m02.l06
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+exercises:
+- id: a1.m02.l06.ex.01
+  type: matching
+  skill: vocabulary
+  difficulty: 1
+  objective_refs:
+  - a1.m02.l06.obj1
+  instructions_vi: Nối mục trong biểu mẫu với nghĩa tiếng Việt.
+  items:
+  - id: a1.m02.l06.ex.01.q1
+    pairs:
+    - left: Familienname
+      right: họ
+    - left: Geburtsdatum
+      right: ngày sinh
+    - left: Geburtsort
+      right: nơi sinh
+    - left: Postleitzahl
+      right: mã bưu chính
+    - left: Wohnort
+      right: nơi ở
+    - left: weiblich
+      right: nữ
+    explanation_vi: Các mục thường gặp trong biểu mẫu.
+- id: a1.m02.l06.ex.02
+  type: multiple-choice
+  skill: writing
+  difficulty: 1
+  objective_refs:
+  - a1.m02.l06.obj2
+  instructions_vi: Cách viết địa chỉ nào đúng kiểu Đức?
+  items:
+  - id: a1.m02.l06.ex.02.q1
+    prompt: Chọn địa chỉ viết đúng.
+    options:
+    - id: a
+      text: Lindenstraße, 12 Leipzig, 04109
+    - id: b
+      text: 12 Lindenstraße, Leipzig 04109
+    - id: c
+      text: Lindenstraße 12, 04109 Leipzig
+    answer:
+    - c
+    explanation_vi: Đường + số nhà; mã bưu chính + thành phố.
+- id: a1.m02.l06.ex.03
+  type: fill-blank
+  skill: listening
+  difficulty: 2
+  objective_refs:
+  - a1.m02.l06.obj1
+  - a1.m02.l06.obj2
+  instructions_vi: Nghe cuộc gọi. Điền thông tin của Huy.
+  stimulus:
+    ref: a1.m02.l06.b5
+  items:
+  - id: a1.m02.l06.ex.03.q1
+    prompt: 'Kurs: ___ (am Mittwoch)'
+    answers:
+    - Basketball
+    explanation_vi: „Der Basketball-Kurs ist am Mittwoch.“
+  - id: a1.m02.l06.ex.03.q2
+    prompt: 'Straße: Karl-Heine-Straße ___'
+    answers:
+    - '28'
+    explanation_vi: achtundzwanzig.
+  - id: a1.m02.l06.ex.03.q3
+    prompt: 'PLZ, Ort: ___ Leipzig'
+    answers:
+    - 04229
+    explanation_vi: null, vier, zwei, zwei, neun.
+  - id: a1.m02.l06.ex.03.q4
+    prompt: 'Geburtsdatum: ___'
+    answers:
+    - 14.07.1998
+    explanation_vi: Ngày 14 tháng 7 năm 1998.
+- id: a1.m02.l06.ex.04
+  type: true-false
+  skill: reading
+  difficulty: 1
+  objective_refs:
+  - a1.m02.l06.obj1
+  - a1.m02.l06.obj3
+  instructions_vi: Đọc bảng khóa học và phiếu đăng ký của Mai. Đúng hay sai?
+  stimulus:
+    ref: a1.m02.l06.b6
+  items:
+  - id: a1.m02.l06.ex.04.q1
+    prompt: Mai chọn khóa học vào thứ Hai.
+    answer: true
+    explanation_vi: 'Kurs: Yoga – Yoga vào Montag.'
+  - id: a1.m02.l06.ex.04.q2
+    prompt: Mai sinh ra ở Leipzig.
+    answer: false
+    explanation_vi: 'Geburtsort: Da Nang.'
+  - id: a1.m02.l06.ex.04.q3
+    prompt: Lớp quần vợt vào thứ Sáu.
+    answer: true
+    explanation_vi: 'Freitag: Tennis.'
+  - id: a1.m02.l06.ex.04.q4
+    prompt: Mai sống ở phố Goethe số 7.
+    answer: true
+    explanation_vi: Goethestraße 7.
+- id: a1.m02.l06.ex.05
+  type: multiple-choice
+  skill: vocabulary
+  difficulty: 1
+  objective_refs:
+  - a1.m02.l06.obj3
+  instructions_vi: Chọn động từ phù hợp.
+  items:
+  - id: a1.m02.l06.ex.05.q1
+    prompt: Ich ___ gern Yoga.
+    options:
+    - id: a
+      text: mache
+    - id: b
+      text: fahre
+    - id: c
+      text: spiele
+    answer:
+    - a
+    explanation_vi: Yoga machen.
+  - id: a1.m02.l06.ex.05.q2
+    prompt: Wir ___ Basketball.
+    options:
+    - id: a
+      text: spielen
+    - id: b
+      text: lesen
+    - id: c
+      text: machen
+    answer:
+    - a
+    explanation_vi: Basketball spielen.
+- id: a1.m02.l06.ex.06
+  type: translation
+  skill: vocabulary
+  difficulty: 2
+  objective_refs:
+  - a1.m02.l06.obj1
+  - a1.m02.l06.obj2
+  instructions_vi: Dịch sang tiếng Đức.
+  items:
+  - id: a1.m02.l06.ex.06.q1
+    direction: vi-de
+    source: Địa chỉ của ông/bà là gì?
+    answers:
+    - Wie ist Ihre Adresse?
+    explanation_vi: die Adresse → Ihre.
+  - id: a1.m02.l06.ex.06.q2
+    direction: vi-de
+    source: Tôi mới vào câu lạc bộ.
+    answers:
+    - Ich bin neu im Club.
+    explanation_vi: neu im Club.
+- id: a1.m02.l06.ex.07
+  type: speaking-practice
+  skill: speaking
+  difficulty: 2
+  objective_refs:
+  - a1.m02.l06.obj1
+  - a1.m02.l06.obj2
+  instructions_vi: Đóng vai đăng ký ở câu lạc bộ (phần Nói). Ghi âm phần của bạn.
+  grading: self
+  rubric:
+  - criterion_vi: Nói đúng họ tên, địa chỉ (đọc số đúng), ngày sinh
+    points: 3
+  - criterion_vi: Chọn khóa học và hỏi lịch
+    points: 1
+  items:
+  - id: a1.m02.l06.ex.07.q1
+    prompt_vi: Đăng ký ở câu lạc bộ
+    model_answer:
+      de: Guten Tag! Ich bin neu hier. Mein Name ist Lan Nguyen. – Lindenstraße 12, 04109 Leipzig. – Ich mache gern Yoga. Wann ist der Kurs?
+    explanation_vi: 'Đọc mã bưu chính từng chữ số hoặc theo cặp: null-vier-eins-null-neun.'
+- id: a1.m02.l06.ex.08
+  type: writing-practice
+  skill: writing
+  difficulty: 1
+  objective_refs:
+  - a1.m02.l06.obj1
+  - a1.m02.l06.obj2
+  instructions_vi: Điền phiếu đăng ký câu lạc bộ (phần Viết).
+  grading: self
+  rubric:
+  - criterion_vi: Mọi ô điền đúng loại thông tin
+    points: 3
+  - criterion_vi: Địa chỉ và ngày sinh đúng định dạng Đức
+    points: 1
+  items:
+  - id: a1.m02.l06.ex.08.q1
+    prompt_vi: Phiếu đăng ký Sportclub Lindenau
+    model_answer:
+      de: 'Familienname: Nguyen · Vorname: Lan · weiblich · Geburtsdatum: 21.02.2000 · Geburtsort: Hanoi · Straße, Hausnummer: Lindenstraße 12 · PLZ, Wohnort: 04109 Leipzig · E-Mail: lan.nguyen@web.de · Kurs: Tennis'
+    explanation_vi: So sánh với phiếu mẫu ở phần Đọc.

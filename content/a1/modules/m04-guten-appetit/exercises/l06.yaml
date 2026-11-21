@@ -1,0 +1,189 @@
+schema_version: '2.0'
+content_type: exercise-set
+id: a1.m04.l06.ex
+level: A1
+module: a1.m04
+lesson: a1.m04.l06
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+exercises:
+- id: a1.m04.l06.ex.01
+  type: matching
+  skill: vocabulary
+  difficulty: 1
+  objective_refs:
+  - a1.m04.l06.obj1
+  instructions_vi: Nối các cặp từ đi liền với nhau trong đời sống ẩm thực (Wortpaare).
+  items:
+  - id: a1.m04.l06.ex.01.q1
+    pairs:
+    - left: Brot
+      right: und Butter
+    - left: Salz
+      right: und Pfeffer
+    - left: Obst
+      right: und Gemüse
+    - left: Kaffee
+      right: und Kuchen
+    - left: Messer
+      right: und Gabel
+    explanation_vi: Các cặp từ cố định rất phổ biến giúp người học ghi nhớ từ vựng dễ dàng theo ngữ cảnh tự nhiên.
+- id: a1.m04.l06.ex.02
+  type: multiple-choice
+  skill: grammar
+  difficulty: 1
+  objective_refs:
+  - a1.m04.l06.obj4
+  instructions_vi: Chọn dạng chia đúng của động từ helfen hoặc waschen.
+  items:
+  - id: a1.m04.l06.ex.02.q1
+    prompt: Er ___ (helfen) dem Küchenchef.
+    options:
+    - id: a
+      text: hilft
+    - id: b
+      text: helfen
+    - id: c
+      text: hilfst
+    - id: d
+      text: helft
+    answer:
+    - a
+    explanation_vi: Ngôi er chia là er hilft (đổi e → i).
+  - id: a1.m04.l06.ex.02.q2
+    prompt: Du ___ (waschen) die Tomaten und den Salat.
+    options:
+    - id: a
+      text: wäscht
+    - id: b
+      text: wäschst
+    - id: c
+      text: waschst
+    - id: d
+      text: waschen
+    answer:
+    - b
+    explanation_vi: Ngôi du chia là du wäschst (đổi a → ä).
+- id: a1.m04.l06.ex.03
+  type: multiple-choice
+  skill: listening
+  difficulty: 2
+  objective_refs:
+  - a1.m04.l06.obj2
+  instructions_vi: Nghe đoạn phỏng vấn và chọn thông tin đúng.
+  stimulus:
+    ref: a1.m04.l06.b6
+  items:
+  - id: a1.m04.l06.ex.03.q1
+    prompt: Wann beginnt Jans Arbeitszeit?
+    options:
+    - id: a
+      text: um 14 Uhr
+    - id: b
+      text: um 18 Uhr
+    - id: c
+      text: um 10 Uhr vormittags
+    - id: d
+      text: um 8 Uhr morgens
+    answer:
+    - d
+    explanation_vi: 'Jan nói: ''Meine Arbeitszeit beginnt früh, um 8 Uhr morgens''.'
+  - id: a1.m04.l06.ex.03.q2
+    prompt: Was macht Jan zuerst in der Küche?
+    options:
+    - id: a
+      text: Tische putzen
+    - id: b
+      text: Gemüse und Zwiebeln waschen und schneiden
+    - id: c
+      text: Suppe probieren
+    - id: d
+      text: Fleisch grillen
+    answer:
+    - b
+    explanation_vi: 'Jan nói: ''Zuerst wasche und schneide ich das Gemüse und die Zwiebeln''.'
+- id: a1.m04.l06.ex.04
+  type: true-false
+  skill: listening
+  difficulty: 2
+  objective_refs:
+  - a1.m04.l06.obj2
+  instructions_vi: Nghe lại và xác định câu sau là Đúng hay Sai.
+  stimulus:
+    ref: a1.m04.l06.b6
+  items:
+  - id: a1.m04.l06.ex.04.q1
+    prompt: Jan findet, dass die Arbeit am Abend stressig ist.
+    answer: true
+    explanation_vi: 'Đúng, Jan nói: ''am Abend ist es echt stressig, wenn viele Gäste kommen''.'
+  - id: a1.m04.l06.ex.04.q2
+    prompt: Jans Chef ist unfreundlich und streng.
+    answer: false
+    explanation_vi: 'Sai, Jan nói: ''mein Chef ist nett und unser Team ist super''.'
+- id: a1.m04.l06.ex.05
+  type: matching
+  skill: reading
+  difficulty: 2
+  objective_refs:
+  - a1.m04.l06.obj3
+  instructions_vi: Dùng câu hỏi W- nối với câu trả lời tương ứng từ bài đọc về Marco.
+  stimulus:
+    ref: a1.m04.l06.b7
+  items:
+  - id: a1.m04.l06.ex.05.q1
+    pairs:
+    - left: Wer arbeitet als Koch?
+      right: Marco, 28 Jahre alt
+    - left: Wo arbeitet er?
+      right: im Restaurant „Alte Oper“ in Frankfurt
+    - left: Wie lange arbeitet er schon dort?
+      right: seit drei Jahren
+    - left: Was macht er in der Küche?
+      right: Gemüse waschen, Fleisch schneiden, Soßen probieren
+    explanation_vi: Cách dùng các câu hỏi W- để trích xuất thông tin trọng tâm của bài đọc.
+- id: a1.m04.l06.ex.06
+  type: fill-blank
+  skill: speaking
+  difficulty: 2
+  objective_refs:
+  - a1.m04.l06.obj2
+  instructions_vi: Điền giới từ hoặc từ thích hợp vào câu.
+  items:
+  - id: a1.m04.l06.ex.06.q1
+    prompt: Marco arbeitet ___ Koch in einem Restaurant. (với tư cách là)
+    answers:
+    - als
+    explanation_vi: arbeiten als + nghề.
+  - id: a1.m04.l06.ex.06.q2
+    prompt: Kochen im Team macht mir großen ___! (niềm vui)
+    answers:
+    - Spaß
+    explanation_vi: Spaß machen = mang lại niềm vui.
+- id: a1.m04.l06.ex.07
+  type: word-order
+  skill: writing
+  difficulty: 2
+  objective_refs:
+  - a1.m04.l06.obj2
+  instructions_vi: Sắp xếp các từ thành câu hoàn chỉnh về công việc nấu nướng.
+  items:
+  - id: a1.m04.l06.ex.07.q1
+    tokens:
+    - Zwiebeln
+    - in
+    - schneidet
+    - der
+    - Er
+    - Küche
+    answer: Er schneidet in der Küche Zwiebeln.
+    prompt_vi: 'Sắp xếp: Er / schneidet / Küche / in / der / Zwiebeln .'
+    explanation_vi: Er (chủ ngữ) + schneidet (động từ vị trí 2) + in der Küche (nơi chốn) + Zwiebeln (tân ngữ).

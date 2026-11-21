@@ -1,0 +1,281 @@
+schema_version: '2.0'
+content_type: exercise-set
+id: a1.m03.l02.ex
+level: A1
+module: a1.m03
+lesson: a1.m03.l02
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+exercises:
+- id: a1.m03.l02.ex.01
+  type: fill-blank
+  skill: grammar
+  difficulty: 1
+  objective_refs:
+  - a1.m03.l02.obj1
+  instructions_vi: Điền ein/eine, rồi der/die/das.
+  items:
+  - id: a1.m03.l02.ex.01.q1
+    prompt: Da ist ___ See. ___ See heißt Alster.
+    answers:
+    - ein
+    - Der
+    explanation_vi: 'der See: lần đầu ein, lần hai Der.'
+  - id: a1.m03.l02.ex.01.q2
+    prompt: Das ist ___ Brücke. ___ Brücke ist lang.
+    answers:
+    - eine
+    - Die
+    explanation_vi: die Brücke.
+  - id: a1.m03.l02.ex.01.q3
+    prompt: Da ist ___ Haus. ___ Haus ist alt.
+    answers:
+    - ein
+    - Das
+    explanation_vi: das Haus.
+- id: a1.m03.l02.ex.02
+  type: multiple-choice
+  skill: grammar
+  difficulty: 1
+  objective_refs:
+  - a1.m03.l02.obj1
+  instructions_vi: Chọn mạo từ đúng.
+  items:
+  - id: a1.m03.l02.ex.02.q1
+    prompt: Was ist das? – Das ist ___ Plan.
+    options:
+    - id: a
+      text: ein
+    - id: b
+      text: eine
+    answer:
+    - a
+    explanation_vi: der Plan → ein.
+  - id: a1.m03.l02.ex.02.q2
+    prompt: Hast du ___ Lösung?
+    options:
+    - id: a
+      text: ein
+    - id: b
+      text: eine
+    answer:
+    - b
+    explanation_vi: die Lösung → eine.
+  - id: a1.m03.l02.ex.02.q3
+    prompt: Das sind ___ Häuser.
+    options:
+    - id: a
+      text: ein
+    - id: b
+      text: eine
+    - id: c
+      text: (không có mạo từ)
+    answer:
+    - c
+    explanation_vi: Số nhiều không có ein/eine.
+- id: a1.m03.l02.ex.03
+  type: multiple-choice
+  skill: listening
+  difficulty: 1
+  objective_refs:
+  - a1.m03.l02.obj2
+  instructions_vi: Nghe hội thoại trên taxi. Chọn đáp án đúng.
+  stimulus:
+    ref: a1.m03.l02.b5
+  items:
+  - id: a1.m03.l02.ex.03.q1
+    prompt: Lan đi đâu?
+    options:
+    - id: a
+      text: zum Bahnhof
+    - id: b
+      text: zum Rathaus
+    - id: c
+      text: zum Hotel Elbblick
+    answer:
+    - c
+    explanation_vi: „Zum Hotel Elbblick, bitte.“
+  - id: a1.m03.l02.ex.03.q2
+    prompt: Hồ tên là gì?
+    options:
+    - id: a
+      text: Michel
+    - id: b
+      text: Elbe
+    - id: c
+      text: Alster
+    answer:
+    - c
+    explanation_vi: „Der See heißt Alster.“
+  - id: a1.m03.l02.ex.03.q3
+    prompt: Tòa nhà Lan hỏi là gì?
+    options:
+    - id: a
+      text: ein Hotel
+    - id: b
+      text: das Rathaus
+    - id: c
+      text: eine Kirche
+    answer:
+    - b
+    explanation_vi: „Nein, das ist das Rathaus.“
+- id: a1.m03.l02.ex.04
+  type: true-false
+  skill: listening
+  difficulty: 1
+  objective_refs:
+  - a1.m03.l02.obj2
+  - a1.m03.l02.obj4
+  instructions_vi: Nghe lại. Đúng hay sai?
+  stimulus:
+    ref: a1.m03.l02.b5
+  items:
+  - id: a1.m03.l02.ex.04.q1
+    prompt: Tài xế chào bằng „Moin!“.
+    answer: true
+    explanation_vi: Lời chào ở Hamburg.
+  - id: a1.m03.l02.ex.04.q2
+    prompt: Hồ ở bên trái.
+    answer: false
+    explanation_vi: „Da rechts ist ein See.“
+  - id: a1.m03.l02.ex.04.q3
+    prompt: Lan mới đến Hamburg.
+    answer: true
+    explanation_vi: „Sind Sie neu in Hamburg?“ – „Ja.“
+- id: a1.m03.l02.ex.05
+  type: matching
+  skill: reading
+  difficulty: 1
+  objective_refs:
+  - a1.m03.l02.obj4
+  instructions_vi: Đọc đoạn thông tin. Nối lời chào với vùng.
+  stimulus:
+    ref: a1.m03.l02.b6
+  items:
+  - id: a1.m03.l02.ex.05.q1
+    pairs:
+    - left: Moin!
+      right: Hamburg, miền Bắc Đức
+    - left: Grüß Gott!
+      right: Bayern, Áo
+    - left: Grüezi!
+      right: Thụy Sĩ
+    - left: Guten Tag!
+      right: khắp D-A-CH
+    explanation_vi: Moin – Norden; Grüß Gott – Bayern/Österreich; Grüezi – Schweiz; Guten Tag – überall.
+- id: a1.m03.l02.ex.06
+  type: multiple-choice
+  skill: pronunciation
+  difficulty: 2
+  objective_refs:
+  - a1.m03.l02.obj3
+  instructions_vi: Nguyên âm in đậm là dài hay ngắn?
+  items:
+  - id: a1.m03.l02.ex.06.q1
+    prompt: W**e**g
+    options:
+    - id: a
+      text: ngắn
+    - id: b
+      text: dài
+    answer:
+    - b
+    explanation_vi: e + một phụ âm → dài [veːk].
+  - id: a1.m03.l02.ex.06.q2
+    prompt: St**a**dt
+    options:
+    - id: a
+      text: dài
+    - id: b
+      text: ngắn
+    answer:
+    - b
+    explanation_vi: a + dt → ngắn.
+  - id: a1.m03.l02.ex.06.q3
+    prompt: S**ee**
+    options:
+    - id: a
+      text: ngắn
+    - id: b
+      text: dài
+    answer:
+    - b
+    explanation_vi: ee → dài.
+  - id: a1.m03.l02.ex.06.q4
+    prompt: Fl**u**ss
+    options:
+    - id: a
+      text: ngắn
+    - id: b
+      text: dài
+    answer:
+    - a
+    explanation_vi: u + ss → ngắn.
+- id: a1.m03.l02.ex.07
+  type: translation
+  skill: grammar
+  difficulty: 2
+  objective_refs:
+  - a1.m03.l02.obj1
+  instructions_vi: Dịch sang tiếng Đức.
+  items:
+  - id: a1.m03.l02.ex.07.q1
+    direction: vi-de
+    source: Kia có một cái hồ. Cái hồ đó đẹp.
+    answers:
+    - Da ist ein See. Der See ist schön.
+    explanation_vi: ein → Der.
+  - id: a1.m03.l02.ex.07.q2
+    direction: vi-de
+    source: Đó là một ngôi nhà.
+    answers:
+    - Das ist ein Haus.
+    explanation_vi: das Haus → ein.
+- id: a1.m03.l02.ex.08
+  type: speaking-practice
+  skill: speaking
+  difficulty: 2
+  objective_refs:
+  - a1.m03.l02.obj1
+  - a1.m03.l02.obj3
+  instructions_vi: Ghi âm phần đóng vai hướng dẫn viên (phần Nói).
+  grading: self
+  rubric:
+  - criterion_vi: Dùng đúng ein/eine rồi der/die/das cho 3 địa điểm
+    points: 3
+  - criterion_vi: Phát âm đúng nguyên âm dài/ngắn
+    points: 1
+  items:
+  - id: a1.m03.l02.ex.08.q1
+    prompt_vi: Giới thiệu 3 địa điểm
+    model_answer:
+      de: Da links ist eine Brücke. Die Brücke ist sehr lang. Da ist ein Turm. Der Turm ist alt. Und da ist ein Museum. Das Museum ist interessant.
+    explanation_vi: So sánh với mẫu.
+- id: a1.m03.l02.ex.09
+  type: writing-practice
+  skill: writing
+  difficulty: 1
+  objective_refs:
+  - a1.m03.l02.obj1
+  instructions_vi: Viết tin nhắn từ thành phố mới (phần Viết).
+  grading: self
+  rubric:
+  - criterion_vi: Dùng đúng ein/eine – der/die/das
+    points: 2
+  - criterion_vi: Có lời chào và mô tả
+    points: 1
+  items:
+  - id: a1.m03.l02.ex.09.q1
+    prompt_vi: Tin nhắn từ Hamburg
+    model_answer:
+      de: Hallo Mai! Ich bin in Hamburg. Hier ist ein See. Der See ist sehr schön!
+    explanation_vi: So sánh với mẫu.

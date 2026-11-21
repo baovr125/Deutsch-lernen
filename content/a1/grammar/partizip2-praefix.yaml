@@ -1,0 +1,69 @@
+schema_version: "2.0"
+content_type: grammar-topic
+id: a1.g.partizip2-praefix
+level: A1
+introduced_in: a1.m11
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  references:
+    - { work: "Netzwerk neu A1.2 – Stoffverteilungsplan (Klett)", scope: "Kapitel 11, Grammatik: Verben ohne/mit Präfix (Partizip II); Aussprache: Betonung von Verben mit Präfix", verification: verified }
+  tags: ["perfekt", "partizip", "praefix"]
+title_de: "Partizip II bei Verben mit Präfix"
+title_vi: "Quá khứ phân từ của động từ có tiền tố"
+summary_vi: "Tiền tố không tách (be-, ver-, ge-, er-, ent-, zer-) → Partizip II KHÔNG có ge-: besuchen → besucht, verstehen → verstanden. Tiền tố tách (an-, um-, ein-, auf-…) → ge chèn giữa: umtauschen → umgetauscht."
+usage_vi: "Dùng khi kể việc đã làm trong Perfekt: Gestern habe ich eine Hose bezahlt. / Wir haben die Hose umgetauscht."
+objectives:
+  - { id: a1.g.partizip2-praefix.obj1, text_vi: "Phân biệt tiền tố tách và không tách để lập đúng Partizip II.", skill: grammar }
+rules:
+  - id: a1.g.partizip2-praefix.r1
+    title_vi: "Tiền tố không tách: không có ge-"
+    body_vi: "Các tiền tố be-, ver-, ge-, er-, ent-, zer- không bao giờ tách ra và không thêm ge-. Trọng âm KHÔNG rơi vào tiền tố: beSUchen, verSTEhen."
+    table:
+      header: ["Nguyên mẫu", "Partizip II"]
+      rows:
+        - ["besuchen", "besucht"]
+        - ["bezahlen", "bezahlt"]
+        - ["verkaufen", "verkauft"]
+        - ["verstehen", "verstanden"]
+        - ["bekommen", "bekommen"]
+        - ["gefallen", "gefallen"]
+    examples:
+      - { de: "Wir haben das Museum besucht.", vi: "Chúng tôi đã tham quan bảo tàng." }
+      - { de: "Ich habe die Jacke bezahlt.", vi: "Tôi đã trả tiền chiếc áo khoác." }
+  - id: a1.g.partizip2-praefix.r2
+    title_vi: "Tiền tố tách: ge chèn giữa"
+    body_vi: "Tiền tố tách (an-, um-, ein-, auf-, zurück-…) mang trọng âm: EINkaufen, UMtauschen. Partizip II: tiền tố + ge + thân."
+    table:
+      header: ["Nguyên mẫu", "Partizip II"]
+      rows:
+        - ["umtauschen", "umgetauscht"]
+        - ["einkaufen", "eingekauft"]
+        - ["anziehen", "angezogen"]
+    examples:
+      - { de: "Sie hat die Hose umgetauscht.", vi: "Cô ấy đã đổi cái quần." }
+      - { de: "Er hat die Jacke angezogen.", vi: "Anh ấy đã mặc áo khoác vào." }
+  - id: a1.g.partizip2-praefix.r3
+    title_vi: "-ieren + tiền tố tách: không ge-"
+    body_vi: "Động từ tách có đuôi -ieren (anprobieren) vẫn không có ge-: anprobiert. Quy tắc -ieren luôn thắng."
+    examples:
+      - { de: "Ich habe die Schuhe anprobiert.", vi: "Tôi đã thử đôi giày." }
+      - { de: "Hast du das Kleid anprobiert?", vi: "Bạn đã thử chiếc váy chưa?" }
+sentence_structures:
+  - { pattern: "Subjekt + haben + (Angaben) + be-/ver-…(t/en)", example: { de: "Ich habe viel verkauft.", vi: "Tôi đã bán được nhiều." } }
+  - { pattern: "Subjekt + haben + (Angaben) + Präfix-ge-…", example: { de: "Wir haben eingekauft.", vi: "Chúng tôi đã đi mua sắm." } }
+examples:
+  - { de: "Gestern habe ich einen Pullover bekommen.", vi: "Hôm qua tôi đã nhận được một chiếc áo len." }
+  - { de: "Er hat die Hose bezahlt.", vi: "Anh ấy đã trả tiền cái quần." }
+  - { de: "Wir haben den Laden besucht.", vi: "Chúng tôi đã đến thăm cửa tiệm." }
+  - { de: "Hast du das Wort verstanden?", vi: "Bạn đã hiểu từ này chưa?" }
+common_mistakes:
+  - { wrong: "Ich habe die Hose gebezahlt.", right: "Ich habe die Hose bezahlt.", explanation_vi: "Tiền tố „be-“ không tách, không thêm „ge-“." }
+  - { wrong: "Sie hat die Hose getauscht um.", right: "Sie hat die Hose umgetauscht.", explanation_vi: "Động từ tách: ge chèn giữa tiền tố và thân: um-ge-tauscht." }
+  - { wrong: "Wir haben das Museum gebesucht.", right: "Wir haben das Museum besucht.", explanation_vi: "„be-“ không tách nên Partizip II không có „ge-“." }
+exercise_refs: [a1.m11.l04.ex.01, a1.m11.l04.ex.02]

@@ -1,0 +1,63 @@
+schema_version: "2.0"
+content_type: lesson
+id: a1.m10.l03
+level: A1
+module: a1.m10
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  references:
+    - { work: "Netzwerk neu A1.2 – Stoffverteilungsplan (Klett)", scope: "Kapitel 10, Mục So war das; Partizip II Verben auf -ieren; unregelmäßige Verben; Wortschatz Aktivitäten", verification: verified }
+  tags: ["perfekt", "partizip"]
+order: 3
+title_de: "So war das"
+title_vi: "Chuyện là như vậy"
+duration_min: 50
+difficulty: 2
+objectives:
+  - { id: a1.m10.l03.obj1, text_vi: "Bạn có thể dùng Partizip II của động từ -ieren và các động từ bất quy tắc thông dụng.", skill: grammar }
+  - { id: a1.m10.l03.obj2, text_vi: "Bạn có thể nghe một đoạn kể chuyện cuối tuần ngắn bằng Perfekt và hiểu ai đã làm gì.", skill: listening }
+vocabulary_refs: [a1.m10.v.sehen, a1.m10.v.lesen, a1.m10.v.essen, a1.m10.v.trinken, a1.m10.v.treffen, a1.m10.v.finden, a1.m10.v.schlafen, a1.m10.v.telefonieren, a1.m10.v.fotografieren]
+grammar_refs: [a1.g.partizip2-ieren, a1.g.partizip2-unregelmaessig]
+expression_refs: [a1.m10.x.wochenende-fragen, a1.m10.x.erzaehlen]
+exercise_set_ref: a1.m10.l03.ex
+blocks:
+  - id: a1.m10.l03.b1
+    kind: explanation
+    skill: grammar
+    title_vi: "Bắt đầu: ba loại Partizip II"
+    body_vi: |
+      **Có quy tắc:** ge + thân + **t** (gekocht). **Đuôi -ieren:** thân + **t**, không có ge- (telefoniert, studiert). **Bất quy tắc:** ge + thân (thường đổi nguyên âm) + **en** (gesehen, getrunken, gegessen).
+      Hãy học động từ cùng Partizip II: *essen – hat gegessen, sehen – hat gesehen*.
+  - id: a1.m10.l03.b2
+    kind: dialogue
+    skill: speaking
+    title_vi: "Hội thoại: Cuối tuần thế nào?"
+    lines:
+      - { speaker: "Lisa", de: "Wie war dein Wochenende?", vi: "Cuối tuần của bạn thế nào?" }
+      - { speaker: "Omar", de: "Sehr schön! Am Samstag habe ich Freunde getroffen. Wir haben Pizza gegessen.", vi: "Rất vui! Thứ Bảy mình đã gặp bạn bè. Chúng mình đã ăn pizza." }
+      - { speaker: "Lisa", de: "Und am Sonntag?", vi: "Còn Chủ nhật?" }
+      - { speaker: "Omar", de: "Da habe ich lange geschlafen und einen Film gesehen. Und du?", vi: "Hôm đó mình đã ngủ rất lâu và xem một bộ phim. Còn bạn?" }
+      - { speaker: "Lisa", de: "Ich habe viel telefoniert und ein Buch gelesen.", vi: "Mình đã nói điện thoại nhiều và đọc một quyển sách." }
+  - id: a1.m10.l03.b3
+    kind: listening
+    skill: listening
+    title_vi: "Nghe: Cuối tuần của Mira"
+    audio_status: pending-tts
+    lines:
+      - { speaker: "Mira", de: "Am Wochenende habe ich viel gemacht.", vi: "Cuối tuần mình đã làm nhiều việc." }
+      - { speaker: "Mira", de: "Am Samstag habe ich Freunde getroffen und wir haben Pizza gegessen.", vi: "Thứ Bảy mình đã gặp bạn bè và chúng mình ăn pizza." }
+      - { speaker: "Mira", de: "Am Sonntag habe ich lange geschlafen und einen Film gesehen.", vi: "Chủ nhật mình đã ngủ rất lâu và xem một bộ phim." }
+  - id: a1.m10.l03.b4
+    kind: explanation
+    skill: grammar
+    title_vi: "Ngữ pháp: -ieren và bất quy tắc"
+    body_vi: |
+      **-ieren:** telefonieren → *telefoniert*, studieren → *studiert*, fotografieren → *fotografiert* (không có ge-).
+      **Bất quy tắc:** sehen → *gesehen*, lesen → *gelesen*, essen → *gegessen*, trinken → *getrunken*, treffen → *getroffen*, finden → *gefunden*, schlafen → *geschlafen*.
+      Động từ chỉ di chuyển dùng **sein**: *Ich bin gegangen / gefahren / gekommen.* Xem a1.g.partizip2-ieren và a1.g.partizip2-unregelmaessig.

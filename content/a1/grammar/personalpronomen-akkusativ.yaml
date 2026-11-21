@@ -1,0 +1,188 @@
+schema_version: '2.0'
+content_type: grammar-topic
+id: a1.g.personalpronomen-akkusativ
+level: A1
+introduced_in: a1.m06
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+  references:
+  - work: Netzwerk neu A1 (Klett)
+    scope: 'Kapitel 6: Eine Überraschung für Sofia'
+    verification: verified
+  notes_vi: Tương ứng Grammatik „Personalpronomen im Akkusativ“ của Kapitel 6.
+introduced_in_lesson: a1.m06.l03
+title_de: Personalpronomen im Akkusativ
+title_vi: Đại từ nhân xưng ở cách Akkusativ
+summary_vi: "Khi một người hoặc vật là **tân ngữ trực tiếp** của động từ (chịu sự tác động trực tiếp của hành động) hoặc đứng sau giới từ đi với Akkusativ (như *für*), ta dùng **đại từ nhân xưng ở cách Akkusativ**.\n\n**1. Bảng đối chiếu Nominativ $\\rightarrow$ Akkusativ:**\n- *ich* (tôi) $\\rightarrow$ **mich** (tôi / tác động lên tôi)\n- *du* (bạn) $\\rightarrow$ **dich** (bạn)\n- *er* (anh ấy / danh từ der) $\\rightarrow$ **ihn** (anh ấy / nó)\n- *es* (nó / danh từ das) $\\rightarrow$ **es** (nó)\n- *sie* (cô ấy / danh từ die) $\\rightarrow$ **sie** (cô ấy / nó)\n- *wir* (chúng tôi) $\\rightarrow$ **uns** (chúng tôi)\n- *ihr* (các bạn) $\\rightarrow$ **euch** (các bạn)\n- *sie* (họ) $\\rightarrow$ **sie** (họ)\n- *Sie* (ngài / quý vị) $\\rightarrow$ **Sie** (ngài / quý vị)\n\n**2. Các trường hợp sử dụng:**\n- Làm tân ngữ cho các động từ tác động trực tiếp: *anrufen* (gọi cho ai), *einladen* (mời ai), *besuchen* (thăm ai), *fragen* (hỏi ai), *treffen* (gặp ai), *lieben* (yêu ai), *verstehen*\
+  \ (hiểu ai).\n  * *Ich rufe **dich** morgen an.* (Tôi gọi điện cho bạn vào ngày mai.)\n  * *Lukas lädt **uns** zur Party ein.* (Lukas mời chúng tôi đến bữa tiệc.)\n- Đứng sau giới từ đi với Akkusativ (như *für*):\n  * *Das Geschenk ist für **mich**? – Nein, für **dich**!* (Món quà này cho tôi à? – Không, cho bạn!)"
+usage_vi: Dùng để thay thế người hoặc vật làm tân ngữ trực tiếp (mich, dich, ihn, sie, es, uns, euch, sie, Sie) hoặc sau giới từ für.
+objectives:
+- id: a1.g.personalpronomen-akkusativ.obj1
+  text_vi: Thay danh từ bằng đại từ Akkusativ (mich, dich, ihn, uns, euch…).
+  skill: grammar
+rules:
+- id: a1.g.personalpronomen-akkusativ.r1
+  title_vi: Đại từ ở Akkusativ
+  body_vi: 'Đại từ nhân xưng ở Akkusativ thay đổi hình thức theo từng ngôi: ich → mich, du → dich, er → ihn, wir → uns, ihr → euch (es, sie, Sie giữ nguyên).'
+  examples:
+  - de: Liebst du mich? – Ja, ich liebe dich.
+    vi: Bạn có yêu mình không? – Có, mình yêu bạn.
+  - de: Kennst du Peter? – Ja, ich kenne ihn gut.
+    vi: Bạn có quen Peter không? – Có, tôi biết rõ anh ấy.
+sentence_structures:
+- pattern: Chủ ngữ (Nom) + Động từ + Đại từ nhân xưng (Akk).
+  example:
+    de: Ich liebe dich.
+    vi: Tôi yêu bạn.
+- pattern: Chủ ngữ (Nom) + Động từ + Đại từ nhân xưng (Akk) + Tiền tố tách.
+  example:
+    de: Er ruft mich heute an.
+    vi: Anh ấy gọi điện cho tôi hôm nay.
+- pattern: für + Đại từ nhân xưng (Akk).
+  example:
+    de: Das ist für ihn.
+    vi: Cái này dành cho anh ấy.
+tables:
+- title_vi: 'Bảng đại từ nhân xưng: Nominativ vs. Akkusativ'
+  header:
+  - Ngôi
+  - Nominativ (Chủ ngữ)
+  - Akkusativ (Tân ngữ)
+  - Ví dụ
+  rows:
+  - - Ngôi 1 số ít
+    - ich
+    - mich
+    - Er liebt mich.
+  - - Ngôi 2 số ít thân mật
+    - du
+    - dich
+    - Ich rufe dich an.
+  - - Ngôi 3 số ít giống đực
+    - er
+    - ihn
+    - Ich kenne ihn.
+  - - Ngôi 3 số ít giống trung
+    - es
+    - es
+    - Ich brauche es.
+  - - Ngôi 3 số ít giống cái
+    - sie
+    - sie
+    - Wir besuchen sie.
+  - - Ngôi 1 số nhiều
+    - wir
+    - uns
+    - Lukas lädt uns ein.
+  - - Ngôi 2 số nhiều thân mật
+    - ihr
+    - euch
+    - Ich frage euch.
+  - - Ngôi 3 số nhiều
+    - sie
+    - sie
+    - Ich mag sie alle.
+  - - Ngôi lịch sự
+    - Sie
+    - Sie
+    - Ich verstehe Sie gut.
+examples:
+- de: Kannst du mich morgen abholen?
+  vi: Bạn có thể đón tôi vào ngày mai được không?
+- de: Ich lade euch herzlich zu meiner Feier ein.
+  vi: Tôi thân mời các bạn đến bữa tiệc của tôi.
+- de: Wo ist mein Schlüssel? Ich finde ihn nicht.
+  vi: Chìa khóa của tôi đâu rồi? Tôi không tìm thấy nó (der Schlüssel → ihn).
+- de: Wir besuchen unsere Oma am Sonntag. Wir besuchen sie oft.
+  vi: Chúng tôi đến thăm bà vào Chủ Nhật. Chúng tôi thăm bà thường xuyên.
+common_mistakes:
+- wrong: Ich rufe du an.
+  right: Ich rufe dich an.
+  explanation_vi: du là chủ ngữ (Nominativ). Làm tân ngữ phải đổi thành dich (Akkusativ).
+- wrong: Das ist für er.
+  right: Das ist für ihn.
+  explanation_vi: 'Sau giới từ für bắt buộc dùng Akkusativ: er đổi thành ihn.'
+comparison_vi: 'Tương đồng với đại từ tân ngữ trong tiếng Anh: I → me, you → you, he → him, we → us, they → them.'
+vietnamese_contrast_vi: Tiếng Việt dùng cùng một từ cho cả chủ ngữ và tân ngữ ('Tôi thấy bạn' / 'Bạn thấy tôi'). Tiếng Đức biến đổi hoàn toàn giữa Nominativ và Akkusativ (ich → mich, du → dich).
+recap_vi: 'Đại từ nhân xưng ở Akkusativ: mich, dich, ihn, sie, es, uns, euch, sie, Sie. Dùng làm tân ngữ trực tiếp cho động từ hoặc sau giới từ für.'
+next_level_note_vi: Ở trình độ tiếp theo, bạn sẽ học đại từ nhân xưng ở cách Dativ (mir, dir, ihm, ihr, uns, euch, ihnen, Ihnen) khi làm tân ngữ gián tiếp.
+prerequisites:
+- g-a1-personalpronomen-nom
+- g-a1-akkusativ
+exercises:
+- id: a1.g.personalpronomen-akkusativ.ex.01
+  type: multiple-choice
+  skill: grammar
+  difficulty: 1
+  objective_refs:
+  - a1.g.personalpronomen-akkusativ.r1
+  - a1.g.personalpronomen-akkusativ.obj1
+  instructions_vi: Chọn đại từ nhân xưng ở Akkusativ phù hợp.
+  items:
+  - id: a1.g.personalpronomen-akkusativ.ex.01.q1
+    prompt: Rufst du ___ (ich) heute Abend an?
+    options:
+    - id: a
+      text: mich
+    - id: b
+      text: ich
+    - id: c
+      text: mir
+    - id: d
+      text: dich
+    answer:
+    - a
+    explanation_vi: Tân ngữ của anrufen (ngôi ich) chia ở Akkusativ là mich.
+  - id: a1.g.personalpronomen-akkusativ.ex.01.q2
+    prompt: Ich liebe ___ (du) sehr!
+    options:
+    - id: a
+      text: ihn
+    - id: b
+      text: dich
+    - id: c
+      text: dir
+    - id: d
+      text: du
+    answer:
+    - b
+    explanation_vi: Tân ngữ của lieben (ngôi du) chia ở Akkusativ là dich.
+  - id: a1.g.personalpronomen-akkusativ.ex.01.q3
+    prompt: Kennst du Herrn Weber? – Ja, ich kenne ___ (er) gut.
+    options:
+    - id: a
+      text: es
+    - id: b
+      text: ihm
+    - id: c
+      text: er
+    - id: d
+      text: ihn
+    answer:
+    - d
+    explanation_vi: Herr Weber (er) ở Akkusativ đổi thành ihn.
+- id: a1.g.personalpronomen-akkusativ.ex.02
+  type: fill-blank
+  skill: grammar
+  difficulty: 2
+  objective_refs:
+  - a1.g.personalpronomen-akkusativ.r1
+  - a1.g.personalpronomen-akkusativ.obj1
+  instructions_vi: Điền đại từ nhân xưng Akkusativ thích hợp (uns, euch, ihn, sie).
+  items:
+  - id: a1.g.personalpronomen-akkusativ.ex.02.q1
+    prompt: Lisa lädt ___ (wir) zur Party ein. Kinder, ich hole ___ (ihr) um 16 Uhr ab. Wo ist der Salat? Ich esse ___ (er) jetzt.
+    answers:
+    - uns
+    - euch
+    - ihn
+    explanation_vi: 1. wir → uns. 2. ihr → euch. 3. der Salat (er) → ihn.

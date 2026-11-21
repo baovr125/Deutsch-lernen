@@ -1,0 +1,147 @@
+schema_version: "2.0"
+content_type: exercise-set
+id: a1.m11.l04.ex
+level: A1
+module: a1.m11
+lesson: a1.m11.l04
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  tags: ["praefix", "partizip"]
+exercises:
+  - id: a1.m11.l04.ex.01
+    type: matching
+    skill: grammar
+    difficulty: 2
+    objective_refs: [a1.m11.l04.obj1, a1.g.partizip2-praefix.obj1, a1.m11.obj.praefix]
+    instructions_vi: "Nối nguyên mẫu với Partizip II."
+    items:
+      - { id: a1.m11.l04.ex.01.q1, left: "besuchen", right: "besucht", explanation_vi: "be- không tách → không có ge-." }
+      - { id: a1.m11.l04.ex.01.q2, left: "bezahlen", right: "bezahlt", explanation_vi: "be- không tách → bezahlt." }
+      - { id: a1.m11.l04.ex.01.q3, left: "verstehen", right: "verstanden", explanation_vi: "ver- không tách; bất quy tắc → verstanden." }
+      - { id: a1.m11.l04.ex.01.q4, left: "umtauschen", right: "umgetauscht", explanation_vi: "um- tách → ge chèn giữa: um-ge-tauscht." }
+      - { id: a1.m11.l04.ex.01.q5, left: "einkaufen", right: "eingekauft", explanation_vi: "ein- tách → ein-ge-kauft." }
+      - { id: a1.m11.l04.ex.01.q6, left: "anprobieren", right: "anprobiert", explanation_vi: "-ieren → không có ge-." }
+  - id: a1.m11.l04.ex.02
+    type: fill-blank
+    skill: grammar
+    difficulty: 2
+    objective_refs: [a1.m11.l04.obj1, a1.g.partizip2-praefix.obj1, a1.m11.obj.praefix]
+    instructions_vi: "Điền Partizip II của động từ trong ngoặc (gợi ý)."
+    items:
+      - { id: a1.m11.l04.ex.02.q1, prompt: "Wir haben das Museum ___.", hint_vi: "besuchen", answers: ["besucht"], explanation_vi: "be- không tách: besucht." }
+      - { id: a1.m11.l04.ex.02.q2, prompt: "Ich habe die Hose ___.", hint_vi: "bezahlen", answers: ["bezahlt"], explanation_vi: "bezahlt." }
+      - { id: a1.m11.l04.ex.02.q3, prompt: "Sie hat die Hose ___.", hint_vi: "umtauschen", answers: ["umgetauscht"], explanation_vi: "um + ge + tauscht." }
+      - { id: a1.m11.l04.ex.02.q4, prompt: "Hast du das Kleid ___?", hint_vi: "anprobieren", answers: ["anprobiert"], explanation_vi: "-ieren: không có ge-." }
+      - { id: a1.m11.l04.ex.02.q5, prompt: "Er hat den Satz nicht ___.", hint_vi: "verstehen", answers: ["verstanden"], explanation_vi: "verstehen → verstanden." }
+  - id: a1.m11.l04.ex.03
+    type: multiple-choice
+    skill: grammar
+    difficulty: 2
+    objective_refs: [a1.m11.l04.obj1, a1.g.partizip2-praefix.obj1]
+    instructions_vi: "Chọn dạng đúng."
+    items:
+      - id: a1.m11.l04.ex.03.q1
+        prompt: "Welcher Satz ist richtig?"
+        options: [{ id: a, text: "Ich habe gebezahlt." }, { id: b, text: "Ich habe bezahlt." }, { id: c, text: "Ich habe bezahlen." }]
+        answer: [b]
+        explanation_vi: "be- không tách, Partizip II không có ge-: bezahlt."
+      - id: a1.m11.l04.ex.03.q2
+        prompt: "Welcher Satz ist richtig?"
+        options: [{ id: a, text: "Sie hat die Hose umgetauscht." }, { id: b, text: "Sie hat umgetauscht die Hose." }, { id: c, text: "Sie hat die Hose getauscht um." }]
+        answer: [a]
+        explanation_vi: "Partizip II ở cuối câu: umgetauscht."
+      - id: a1.m11.l04.ex.03.q3
+        prompt: "Wie heißt Partizip II von „bekommen“?"
+        options: [{ id: a, text: "gebekommen" }, { id: b, text: "bekommen" }, { id: c, text: "bekommt" }]
+        answer: [b]
+        explanation_vi: "be- không tách và là động từ bất quy tắc: bekommen."
+      - id: a1.m11.l04.ex.03.q4
+        prompt: "Wie heißt Partizip II von „einkaufen“?"
+        options: [{ id: a, text: "eingekauft" }, { id: b, text: "geeinkauft" }, { id: c, text: "einkauft" }]
+        answer: [a]
+        explanation_vi: "Tiền tố tách ein-: ein + ge + kauft."
+  - id: a1.m11.l04.ex.04
+    type: word-order
+    skill: grammar
+    difficulty: 2
+    objective_refs: [a1.m11.l04.obj1, a1.g.partizip2-praefix.obj1]
+    instructions_vi: "Sắp xếp các từ thành câu Perfekt đúng."
+    items:
+      - id: a1.m11.l04.ex.04.q1
+        tokens: ["besucht.", "Wir", "das", "haben", "Museum"]
+        answer: "Wir haben das Museum besucht."
+        translation_vi: "Chúng tôi đã tham quan bảo tàng."
+        explanation_vi: "haben vị trí 2; Partizip II cuối câu."
+      - id: a1.m11.l04.ex.04.q2
+        tokens: ["umgetauscht.", "Sie", "die", "hat", "Hose"]
+        answer: "Sie hat die Hose umgetauscht."
+        translation_vi: "Cô ấy đã đổi cái quần."
+        explanation_vi: "Partizip II của động từ tách ở cuối câu."
+      - id: a1.m11.l04.ex.04.q3
+        tokens: ["bezahlt.", "Ich", "habe", "Tasche", "die"]
+        answer: "Ich habe die Tasche bezahlt."
+        translation_vi: "Tôi đã trả tiền cái túi."
+        explanation_vi: "bezahlen → bezahlt."
+  - id: a1.m11.l04.ex.05
+    type: reading-comprehension
+    skill: reading
+    difficulty: 2
+    objective_refs: [a1.m11.l04.obj1, a1.m11.obj.einkaufen]
+    instructions_vi: "Đọc và trả lời."
+    stimulus:
+      text_de: "Lara war gestern in Berlin. Sie hat das Museum besucht und im Kaufhaus eingekauft. Eine Tasche hat sie bezahlt und zwei Hosen hat sie umgetauscht."
+      text_vi: "Hôm qua Lara ở Berlin. Cô ấy đã tham quan bảo tàng và mua sắm ở trung tâm bách hóa. Cô đã trả tiền một cái túi và đổi hai cái quần."
+    items:
+      - id: a1.m11.l04.ex.05.q1
+        prompt: "Wo war Lara gestern?"
+        options: [{ id: a, text: "In Berlin." }, { id: b, text: "In Wien." }, { id: c, text: "In Köln." }]
+        answer: [a]
+        explanation_vi: "„Lara war gestern in Berlin.“"
+      - id: a1.m11.l04.ex.05.q2
+        prompt: "Was hat sie besucht?"
+        options: [{ id: a, text: "Das Kaufhaus." }, { id: b, text: "Das Museum." }, { id: c, text: "Die Universität." }]
+        answer: [b]
+        explanation_vi: "„Sie hat das Museum besucht“."
+      - id: a1.m11.l04.ex.05.q3
+        prompt: "Was hat sie umgetauscht?"
+        options: [{ id: a, text: "Eine Tasche." }, { id: b, text: "Zwei Hosen." }, { id: c, text: "Ein Hemd." }]
+        answer: [b]
+        explanation_vi: "„zwei Hosen hat sie umgetauscht“."
+  - id: a1.m11.l04.ex.06
+    type: multiple-choice
+    skill: pronunciation
+    difficulty: 2
+    objective_refs: [a1.m11.l04.obj2]
+    instructions_vi: "Chọn đáp án đúng về trọng âm."
+    items:
+      - id: a1.m11.l04.ex.06.q1
+        prompt: "Wo liegt die Betonung bei „besuchen“?"
+        options: [{ id: a, text: "be-" }, { id: b, text: "-su-" }, { id: c, text: "-chen" }]
+        answer: [b]
+        explanation_vi: "be- không nhấn; nhấn vào âm tiết „su“: beSUchen."
+      - id: a1.m11.l04.ex.06.q2
+        prompt: "Wo liegt die Betonung bei „umtauschen“?"
+        options: [{ id: a, text: "um-" }, { id: b, text: "-tau-" }, { id: c, text: "-schen" }]
+        answer: [a]
+        explanation_vi: "um- là tiền tố tách nên được nhấn: UMtauschen."
+      - id: a1.m11.l04.ex.06.q3
+        prompt: "Welches Präfix ist NICHT betont?"
+        options: [{ id: a, text: "an-" }, { id: b, text: "ver-" }, { id: c, text: "ein-" }]
+        answer: [b]
+        explanation_vi: "ver- là tiền tố không tách nên không nhấn; an- và ein- là tiền tố tách nên được nhấn."
+  - id: a1.m11.l04.ex.07
+    type: translation
+    skill: writing
+    difficulty: 2
+    objective_refs: [a1.m11.l04.obj1, a1.m11.obj.praefix]
+    instructions_vi: "Dịch sang tiếng Đức (Perfekt)."
+    items:
+      - { id: a1.m11.l04.ex.07.q1, direction: vi-de, source: "Hôm qua tôi đã thanh toán.", answers: ["Gestern habe ich bezahlt.", "Ich habe gestern bezahlt."], explanation_vi: "habe … bezahlt (không có ge-)." }
+      - { id: a1.m11.l04.ex.07.q2, direction: vi-de, source: "Chúng tôi đã tham quan bảo tàng.", answers: ["Wir haben das Museum besucht."], explanation_vi: "besuchen → besucht." }
+      - { id: a1.m11.l04.ex.07.q3, direction: vi-de, source: "Cô ấy đã đổi cái quần.", answers: ["Sie hat die Hose umgetauscht."], explanation_vi: "umtauschen → umgetauscht." }

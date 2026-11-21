@@ -1,0 +1,232 @@
+schema_version: '2.0'
+content_type: lesson
+id: a1.m02.l02
+level: A1
+module: a1.m02
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+  references:
+  - work: Netzwerk neu A1 (Klett)
+    scope: 'Kapitel 2: Meine Hobbys, meine Freunde'
+    verification: verified
+  notes_vi: 'Sprachhandlungen: Sätze ergänzen; Endungen in Kommentaren ergänzen; Konjugation üben; über die eigenen Freizeitaktivitäten sprechen. Grammatik: Konjugation regelmäßige und unregelmäßige Verben.'
+order: 2
+title_de: Meine Hobbys, meine Freunde
+title_vi: Sở thích của chúng tôi – chia động từ đầy đủ
+topic_vi: wir, ihr, sie; động từ quy tắc và bất quy tắc ở thì hiện tại
+duration_min: 75
+difficulty: 2
+cefr:
+- A1.SP2
+- A1.L2
+- A1.SI2
+- A1.S2
+prerequisites:
+- a1.m02.l01
+objectives:
+- id: a1.m02.l02.obj1
+  text_vi: Chia động từ với wir, ihr, sie (số nhiều) và Sie.
+  skill: grammar
+- id: a1.m02.l02.obj2
+  text_vi: Chia đúng động từ có gốc -t/-d (arbeiten), -s/-z (reisen, tanzen) và động từ đổi nguyên âm (lesen, fahren, sprechen).
+  skill: grammar
+- id: a1.m02.l02.obj3
+  text_vi: 'Nói về hoạt động của nhóm bạn và hỏi bằng ihr: Was macht ihr am Wochenende?'
+  skill: grammar
+- id: a1.m02.l02.obj4
+  text_vi: 'Phản hồi bài đăng/tin nhắn bằng các từ cảm xúc: super, toll, lustig, Wirklich?'
+  skill: reading
+vocabulary_refs:
+- a1.m02.v.wir
+- a1.m02.v.ihr
+- a1.m02.v.buch
+- a1.m02.v.fussball
+- a1.m02.v.lieben
+- a1.m02.v.super
+- a1.m02.v.toll
+- a1.m02.v.am
+- a1.m02.v.foto
+- a1.m02.v.lustig
+- a1.m02.v.moment
+- a1.m02.v.morgen
+- a1.m02.v.spaghetti
+- a1.m02.v.von
+- a1.m02.v.wirklich
+- a1.m02.v.wochenende
+- a1.m02.v.nennen
+- a1.m02.v.hobby
+- a1.m02.v.mit
+- a1.m02.v.fahren
+review_vocabulary_refs:
+- a1.m02.v.gern
+- a1.m02.v.kochen
+- a1.m02.v.arbeiten
+- a1.m02.v.spielen
+- a1.m02.v.machen
+- a1.m00.v.lesen
+- a1.m01.v.sprechen
+- a1.m01.v.sie-pron
+grammar_refs:
+- a1.g.verben-praesens
+grammar_focus:
+- ref: a1.g.verben-praesens
+  focus_vi: Bảng đuôi đầy đủ; gốc -t/-d và -s/-z; đổi nguyên âm ở du và er/sie/es.
+expression_refs:
+- a1.m02.x.was-macht-ihr-am-wochenende-wir
+- a1.m02.x.wirklich-das-ist-super-toll-lustig
+- a1.m02.x.im-moment-lese-ich
+exercise_set_ref: a1.m02.l02.ex
+summary_vi: 'Đuôi đầy đủ: ich -e, du -st, er -t, wir -en, ihr -t, sie/Sie -en. Gốc -t: du arbeitest. Gốc -s/-z: du reist, du tanzt. Đổi nguyên âm ở du/er: liest, fährt, spricht. Hỏi nhóm bạn: Was macht ihr …? Phản hồi: Wirklich? Super! Toll!'
+self_check:
+- Tôi chia được động từ với cả 6 ngôi.
+- Tôi chia đúng arbeiten, reisen, lesen, fahren.
+- 'Tôi hỏi được một nhóm bạn: Was macht ihr am Wochenende?'
+- Tôi phản hồi được bằng super, toll, wirklich.
+blocks:
+- id: a1.m02.l02.b1
+  kind: explanation
+  title_vi: Giới thiệu bài học
+  body_vi: 'Đến giờ bạn đã chia động từ cho **một người** (ich, du, er/sie, Sie). Bài này hoàn thiện bảng chia động từ với **nhiều người**:
+
+    **wir** (chúng tôi), **ihr** (các bạn), **sie** (họ).
+
+
+    Tin vui: **wir, sie, Sie** đều giống **dạng nguyên mẫu** (*wir spielen, sie spielen*). Chỉ cần nhớ thêm **ihr + -t**.
+
+
+    Bạn cũng học ba nhóm động từ “khó tính” – xem chủ điểm *Chia động từ thì hiện tại đầy đủ*:
+
+    - *arbeiten* → du arbeit**e**st (thêm e),
+
+    - *reisen* → du reis**t** (chỉ thêm t),
+
+    - *lesen, fahren* → du l**ie**st, du f**ä**hrst (đổi nguyên âm).'
+- id: a1.m02.l02.b2
+  kind: explanation
+  title_vi: sie hay sie? – cô ấy và họ
+  skill: grammar
+  body_vi: 'sie (viết thường) có hai nghĩa: cô ấy (động từ -t) và họ (động từ -en). Phân biệt bằng đuôi động từ: Sie spielt = cô ấy chơi; sie spielen = họ chơi. Sie viết hoa + -en = ông/bà.'
+  examples:
+  - de: Lisa spielt Tennis. Sie spielt gern.
+    vi: Lisa chơi tennis. Cô ấy thích chơi.
+  - de: Lisa und Paul spielen Tennis. Sie spielen gern.
+    vi: Lisa và Paul chơi tennis. Họ thích chơi.
+- id: a1.m02.l02.b3
+  kind: explanation
+  title_vi: 'Từ chỉ thời gian: am Wochenende, morgen, im Moment'
+  skill: grammar
+  body_vi: 'Các từ này thường đứng sau động từ: Wir kochen am Wochenende. Nếu đưa chúng lên ĐẦU câu, động từ vẫn ở vị trí 2 và chủ ngữ ra sau: Am Wochenende kochen wir. (Quy tắc này học kỹ ở Kapitel 4 – bây giờ chỉ cần nhận ra.)'
+  examples:
+  - de: Wir kochen am Wochenende.
+    vi: Cuối tuần chúng tôi nấu ăn.
+  - de: Morgen spiele ich Tennis.
+    vi: Ngày mai tôi chơi tennis.
+- id: a1.m02.l02.b4
+  kind: pronunciation
+  title_vi: ihr [iːɐ̯] – er [eːɐ̯]; ä trong fährst, ie trong liest
+  skill: pronunciation
+  body_vi: 'ihr [iːɐ̯] – er [eːɐ̯]; ä trong fährst, ie trong liest
+
+
+    ihr (các bạn) đọc “i” dài; er (anh ấy) đọc “ê” dài – đừng nhầm. fährst [fɛːɐ̯st]: ä dài như “e” kéo dài. liest [liːst]: ie = i dài.
+
+
+    Luyện tập: Đọc to hàng chia của fahren: ich fahre, du fährst, er fährt, wir fahren, ihr fahrt, sie fahren.'
+  items:
+  - de: ihr spielt – er spielt
+    vi: các bạn chơi – anh ấy chơi
+    ipa: '[iːɐ̯ ʃpiːlt] – [eːɐ̯ ʃpiːlt]'
+  - de: du fährst – du liest
+    vi: bạn đi xe – bạn đọc
+    ipa: '[duː fɛːɐ̯st] – [duː liːst]'
+- id: a1.m02.l02.b5
+  kind: examples
+  title_vi: Câu ví dụ
+  examples:
+  - de: Wir spielen am Wochenende Fußball.
+    vi: Cuối tuần chúng tôi chơi bóng đá.
+  - de: Was macht ihr morgen?
+    vi: Ngày mai các bạn làm gì?
+  - de: Lisa und Paul tanzen gern.
+    vi: Lisa và Paul thích nhảy.
+  - de: Du liest viel! – Ja, ich liebe Bücher.
+    vi: Bạn đọc nhiều thật! – Ừ, mình mê sách.
+  - de: Er fährt am Wochenende nach Wien.
+    vi: Cuối tuần anh ấy đi Viên.
+  - de: Mein Hobby ist Kochen. Ich koche oft mit Freunden.
+    vi: Sở thích của tôi là nấu ăn. Tôi hay nấu ăn với bạn bè.
+- id: a1.m02.l02.b6
+  kind: listening
+  title_vi: 'Tin nhắn thoại: kế hoạch cuối tuần'
+  lines:
+  - speaker: Paul
+    de: Hallo, Leute! Was macht ihr am Wochenende? Lisa und ich spielen am Samstag Fußball. Spielt ihr auch? Am Sonntag kochen wir Spaghetti. Minh, du kochst doch gern! Und Mai, du liest im Moment viel, oder? Bis morgen!
+    vi: Chào mọi người! Cuối tuần các bạn làm gì? Lisa và mình chơi bóng đá vào thứ Bảy. Các bạn cũng chơi chứ? Chủ nhật bọn mình nấu mì Ý. Minh, bạn thích nấu ăn mà! Còn Mai, dạo này bạn đọc sách nhiều đúng không? Hẹn mai gặp!
+  audio_status: pending-tts
+  situation_vi: Paul gửi tin nhắn thoại cho nhóm bạn.
+  skill: listening
+  audio:
+    speed: slow
+- id: a1.m02.l02.b7
+  kind: reading
+  title_vi: Bình luận dưới ảnh
+  paragraphs:
+  - de: '📷 Foto: Kochabend mit Freunden
+
+      Mai: Wir kochen heute Pho! 🍜 Super lustig!
+
+      Tom: Wirklich? Kocht ihr oft zusammen?
+
+      Mai: Ja, jedes Wochenende. Kommst du auch?
+
+      Tom: Toll! Ich koche nicht gern, aber ich esse sehr gern! 😄'
+    vi: '📷 Ảnh: Buổi tối nấu ăn với bạn bè
+
+      Mai: Hôm nay bọn mình nấu phở! 🍜 Vui cực!
+
+      Tom: Thật à? Các bạn hay nấu ăn cùng nhau à?
+
+      Mai: Ừ, cuối tuần nào cũng thế. Bạn cũng đến chứ?
+
+      Tom: Tuyệt! Mình không thích nấu ăn nhưng rất thích ăn! 😄'
+  text_type_vi: Bài đăng và bình luận mạng xã hội
+  skill: reading
+  glossary:
+  - de: heute
+    vi: hôm nay
+  - de: zusammen
+    vi: cùng nhau
+  - de: essen (du isst, er isst)
+    vi: ăn
+- id: a1.m02.l02.b8
+  kind: speaking
+  title_vi: Nhóm của chúng tôi
+  skill: speaking
+  task_vi: Kể về hoạt động của bạn và nhóm bạn/gia đình (dùng wir), rồi đặt 2 câu hỏi với ihr.
+  steps_vi:
+  - 'Nói 3 câu với wir: Wir … am Wochenende / morgen / oft.'
+  - 'Hỏi 2 câu với ihr: Was macht ihr …? … ihr gern …?'
+  lines:
+  - speaker: Lan
+    de: Meine Freunde und ich kochen oft. Am Wochenende spielen wir Tennis. Wir lesen auch gern. Und ihr? Was macht ihr am Wochenende? Spielt ihr auch Tennis?
+    vi: Bạn bè và tôi hay nấu ăn. Cuối tuần chúng tôi chơi tennis. Chúng tôi cũng thích đọc sách. Còn các bạn? Cuối tuần các bạn làm gì? Các bạn cũng chơi tennis chứ?
+- id: a1.m02.l02.b9
+  kind: writing
+  title_vi: Viết bình luận
+  skill: writing
+  task_vi: 'Viết 3–4 câu bình luận dưới bài đăng của Mai: bày tỏ cảm xúc, kể nhóm bạn mình làm gì, hỏi một câu với ihr.'
+  model:
+    de: Super! Meine Freunde und ich kochen auch gern. Wir kochen oft Spaghetti. Was kocht ihr morgen?
+    vi: Tuyệt! Bạn bè mình và mình cũng thích nấu ăn. Bọn mình hay nấu mì Ý. Ngày mai các bạn nấu gì?
+  checklist_vi:
+  - Có một từ cảm xúc (super, toll, lustig…).
+  - wir + động từ -en; ihr + động từ -t.

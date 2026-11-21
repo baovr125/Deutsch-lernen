@@ -1,0 +1,66 @@
+schema_version: "2.0"
+content_type: grammar-topic
+id: a1.g.zeitangaben-dativ
+level: A1
+introduced_in: a1.m12
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  references:
+    - { work: "Netzwerk neu A1.2 – Stoffverteilungsplan (Klett)", scope: "Kapitel 12, Grammatik: Zeitangaben – Präpositionen mit Dativ", verification: verified }
+  tags: ["zeit", "praeposition", "dativ"]
+title_de: "Zeitangaben: Präpositionen mit Dativ"
+title_vi: "Giới từ chỉ thời gian đi với Dativ"
+summary_vi: "Dùng im, am, um, vor, nach, in, von … bis để nói khi nào: im Sommer, am Montag, um acht Uhr, vor dem Urlaub, nach dem Essen, in einer Woche."
+usage_vi: "Dùng để lập kế hoạch kỳ nghỉ, hẹn gặp, kể lịch trình. Mỗi giới từ đi với một nhóm thời gian nhất định."
+objectives:
+  - { id: a1.g.zeitangaben-dativ.obj1, text_vi: "Chọn đúng giới từ thời gian (im, am, um, vor, nach, in) và dạng Dativ.", skill: grammar }
+rules:
+  - id: a1.g.zeitangaben-dativ.r1
+    title_vi: "im / am / um theo loại thời gian"
+    body_vi: "„im“ cho tháng và mùa; „am“ cho thứ, ngày và buổi trong ngày; „um“ cho giờ chính xác (um không đổi mạo từ)."
+    table:
+      header: ["Giới từ", "Dùng cho", "Ví dụ"]
+      rows:
+        - ["im", "tháng, mùa, năm", "im Juli, im Sommer"]
+        - ["am", "thứ, ngày, buổi, cuối tuần", "am Montag, am Morgen, am Wochenende"]
+        - ["um", "giờ", "um acht Uhr"]
+    examples:
+      - { de: "Im Juli fahre ich in den Urlaub.", vi: "Tháng Bảy tôi đi nghỉ." }
+      - { de: "Am Samstag fliege ich nach Rom.", vi: "Thứ Bảy tôi bay đến Rome." }
+  - id: a1.g.zeitangaben-dativ.r2
+    title_vi: "vor và nach + Dativ"
+    body_vi: "„vor“ = trước, „nach“ = sau. Theo sau là danh từ ở Dativ: vor dem Urlaub, nach der Arbeit, vor einer Woche (cách đây một tuần)."
+    table:
+      header: ["Giống", "Dativ", "Ví dụ"]
+      rows:
+        - ["der Urlaub", "dem", "vor dem Urlaub"]
+        - ["die Arbeit", "der", "nach der Arbeit"]
+        - ["das Frühstück", "dem", "nach dem Frühstück"]
+    examples:
+      - { de: "Vor dem Urlaub packe ich den Koffer.", vi: "Trước kỳ nghỉ tôi sắp xếp va li." }
+      - { de: "Nach der Reise bin ich müde.", vi: "Sau chuyến đi tôi mệt." }
+  - id: a1.g.zeitangaben-dativ.r3
+    title_vi: "in + Dativ (sau bao lâu), von … bis (từ … đến)"
+    body_vi: "„in einer Woche“ = trong một tuần nữa (tương lai gần). „von Montag bis Freitag“ = từ thứ Hai đến thứ Sáu. Không đổi mạo từ với tên thứ, tháng."
+    examples:
+      - { de: "In einer Woche fahre ich ans Meer.", vi: "Một tuần nữa tôi đi biển." }
+      - { de: "Von Montag bis Freitag arbeite ich.", vi: "Từ thứ Hai đến thứ Sáu tôi làm việc." }
+sentence_structures:
+  - { pattern: "Zeitangabe (Präp. + Dativ) + Verb + Subjekt …", example: { de: "Im Sommer fliege ich nach Spanien.", vi: "Mùa hè tôi bay đến Tây Ban Nha." } }
+  - { pattern: "Subjekt + Verb + … + Zeitangabe", example: { de: "Ich buche das Hotel vor dem Urlaub.", vi: "Tôi đặt khách sạn trước kỳ nghỉ." } }
+examples:
+  - { de: "Im August ist es oft heiß.", vi: "Tháng Tám trời thường nóng." }
+  - { de: "Der Zug fährt um zehn Uhr ab.", vi: "Tàu khởi hành lúc mười giờ." }
+  - { de: "Nach dem Frühstück besichtigen wir die Stadt.", vi: "Sau bữa sáng chúng tôi đi tham quan thành phố." }
+  - { de: "Am Wochenende bleibe ich zu Hause.", vi: "Cuối tuần tôi ở nhà." }
+common_mistakes:
+  - { wrong: "In Montag fahre ich nach Wien.", right: "Am Montag fahre ich nach Wien.", explanation_vi: "Thứ trong tuần dùng „am“, không dùng „in“." }
+  - { wrong: "Am Juli fliege ich.", right: "Im Juli fliege ich.", explanation_vi: "Tháng và mùa dùng „im“." }
+  - { wrong: "Nach der Urlaub bin ich müde.", right: "Nach dem Urlaub bin ich müde.", explanation_vi: "„Urlaub“ giống đực; Dativ là „dem“." }
+exercise_refs: [a1.m12.l01.ex.03, a1.m12.l01.ex.04]

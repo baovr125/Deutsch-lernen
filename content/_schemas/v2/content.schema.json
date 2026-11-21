@@ -1,0 +1,2110 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "urn:deutsch-lernen:content:v2",
+  "title": "Content Standard v2 – schema duy nhất cho mọi loại tệp nội dung",
+  "description": "Mỗi tệp YAML có content_type; schema chọn nhánh tương ứng. Xem docs/content-standard.md.",
+  "type": "object",
+  "required": [
+    "schema_version",
+    "content_type",
+    "id",
+    "level",
+    "version",
+    "status",
+    "language",
+    "metadata"
+  ],
+  "properties": {
+    "schema_version": {
+      "const": "2.0"
+    },
+    "content_type": {
+      "enum": [
+        "module",
+        "lesson",
+        "vocabulary-set",
+        "grammar-topic",
+        "expression-set",
+        "exercise-set",
+        "assessment"
+      ]
+    },
+    "id": {
+      "$ref": "#/$defs/id"
+    },
+    "level": {
+      "enum": [
+        "A1",
+        "A2",
+        "B1",
+        "B2",
+        "C1",
+        "C2"
+      ]
+    },
+    "version": {
+      "type": "string",
+      "pattern": "^\\d+\\.\\d+\\.\\d+$"
+    },
+    "status": {
+      "enum": [
+        "draft",
+        "reviewed",
+        "published"
+      ]
+    },
+    "language": {
+      "type": "object",
+      "required": [
+        "target",
+        "explanation"
+      ],
+      "properties": {
+        "target": {
+          "const": "de"
+        },
+        "explanation": {
+          "const": "vi"
+        }
+      },
+      "additionalProperties": false
+    },
+    "metadata": {
+      "$ref": "#/$defs/metadata"
+    }
+  },
+  "allOf": [
+    {
+      "if": {
+        "properties": {
+          "content_type": {
+            "const": "module"
+          }
+        }
+      },
+      "then": {
+        "$ref": "#/$defs/module"
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "content_type": {
+            "const": "lesson"
+          }
+        }
+      },
+      "then": {
+        "$ref": "#/$defs/lesson"
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "content_type": {
+            "const": "vocabulary-set"
+          }
+        }
+      },
+      "then": {
+        "$ref": "#/$defs/vocabularySet"
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "content_type": {
+            "const": "grammar-topic"
+          }
+        }
+      },
+      "then": {
+        "$ref": "#/$defs/grammarTopic"
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "content_type": {
+            "const": "expression-set"
+          }
+        }
+      },
+      "then": {
+        "$ref": "#/$defs/expressionSet"
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "content_type": {
+            "const": "exercise-set"
+          }
+        }
+      },
+      "then": {
+        "$ref": "#/$defs/exerciseSet"
+      }
+    },
+    {
+      "if": {
+        "properties": {
+          "content_type": {
+            "const": "assessment"
+          }
+        }
+      },
+      "then": {
+        "$ref": "#/$defs/assessment"
+      }
+    }
+  ],
+  "$defs": {
+    "id": {
+      "type": "string",
+      "pattern": "^(a1|a2|b1|b2|c1|c2)(\\.[a-z0-9]+(-[a-z0-9]+)*)+$"
+    },
+    "str": {
+      "type": "string",
+      "minLength": 1
+    },
+    "skill": {
+      "enum": [
+        "vocabulary",
+        "grammar",
+        "pronunciation",
+        "listening",
+        "speaking",
+        "reading",
+        "writing"
+      ]
+    },
+    "difficulty": {
+      "type": "integer",
+      "minimum": 1,
+      "maximum": 3
+    },
+    "idList": {
+      "type": "array",
+      "items": {
+        "$ref": "#/$defs/id"
+      },
+      "uniqueItems": true
+    },
+    "pair": {
+      "type": "object",
+      "required": [
+        "de",
+        "vi"
+      ],
+      "properties": {
+        "de": {
+          "$ref": "#/$defs/str"
+        },
+        "vi": {
+          "$ref": "#/$defs/str"
+        }
+      },
+      "additionalProperties": false
+    },
+    "metadata": {
+      "type": "object",
+      "required": [
+        "authors",
+        "created",
+        "updated",
+        "origin"
+      ],
+      "properties": {
+        "authors": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/str"
+          }
+        },
+        "created": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "updated": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$"
+        },
+        "origin": {
+          "const": "original",
+          "description": "Nội dung luôn tự biên soạn."
+        },
+        "references": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "work",
+              "scope",
+              "verification"
+            ],
+            "properties": {
+              "work": {
+                "$ref": "#/$defs/str"
+              },
+              "scope": {
+                "$ref": "#/$defs/str"
+              },
+              "verification": {
+                "enum": [
+                  "verified",
+                  "proposed"
+                ],
+                "description": "verified = có trong tài liệu chính thức đã đọc; proposed = bổ sung của dự án"
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "tags": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/str"
+          }
+        },
+        "notes_vi": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "objective": {
+      "type": "object",
+      "required": [
+        "id",
+        "text_vi",
+        "skill"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "text_vi": {
+          "$ref": "#/$defs/str"
+        },
+        "skill": {
+          "$ref": "#/$defs/skill"
+        }
+      },
+      "additionalProperties": false
+    },
+    "fileRef": {
+      "type": "object",
+      "required": [
+        "id",
+        "file"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "file": {
+          "$ref": "#/$defs/str"
+        }
+      },
+      "additionalProperties": false
+    },
+    "module": {
+      "required": [
+        "order",
+        "title_de",
+        "title_vi",
+        "summary_vi",
+        "estimated_hours"
+      ],
+      "properties": {
+        "order": {
+          "type": "integer",
+          "minimum": 0
+        },
+        "title_de": {
+          "$ref": "#/$defs/str"
+        },
+        "title_vi": {
+          "$ref": "#/$defs/str"
+        },
+        "summary_vi": {
+          "$ref": "#/$defs/str"
+        },
+        "prerequisites": {
+          "$ref": "#/$defs/idList"
+        },
+        "objectives": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/objective"
+          }
+        },
+        "lessons": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/fileRef"
+          }
+        },
+        "grammar": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/fileRef"
+          }
+        },
+        "vocabulary": {
+          "$ref": "#/$defs/fileRef"
+        },
+        "expressions": {
+          "$ref": "#/$defs/fileRef"
+        },
+        "exercises": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/fileRef"
+          }
+        },
+        "assessment": {
+          "$ref": "#/$defs/fileRef"
+        },
+        "estimated_hours": {
+          "type": "number",
+          "exclusiveMinimum": 0
+        },
+        "cefr": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/str"
+          }
+        },
+        "not_covered_vi": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "kind": {
+          "enum": [
+            "intro",
+            "kapitel",
+            "plattform",
+            "assessment"
+          ]
+        },
+        "assessments": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/fileRef"
+          }
+        }
+      }
+    },
+    "lesson": {
+      "required": [
+        "module",
+        "order",
+        "title_de",
+        "title_vi",
+        "duration_min",
+        "difficulty",
+        "objectives",
+        "vocabulary_refs",
+        "grammar_refs",
+        "expression_refs",
+        "blocks"
+      ],
+      "properties": {
+        "module": {
+          "$ref": "#/$defs/id"
+        },
+        "order": {
+          "type": "integer",
+          "minimum": 1
+        },
+        "title_de": {
+          "$ref": "#/$defs/str"
+        },
+        "title_vi": {
+          "$ref": "#/$defs/str"
+        },
+        "duration_min": {
+          "type": "integer",
+          "minimum": 5
+        },
+        "difficulty": {
+          "$ref": "#/$defs/difficulty"
+        },
+        "objectives": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/objective"
+          }
+        },
+        "vocabulary_refs": {
+          "$ref": "#/$defs/idList"
+        },
+        "grammar_refs": {
+          "$ref": "#/$defs/idList"
+        },
+        "expression_refs": {
+          "$ref": "#/$defs/idList"
+        },
+        "blocks": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/block"
+          }
+        },
+        "exercise_set_ref": {
+          "$ref": "#/$defs/id"
+        },
+        "kind": {
+          "enum": [
+            "lesson",
+            "review"
+          ]
+        },
+        "topic_vi": {
+          "type": "string"
+        },
+        "cefr": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/str"
+          }
+        },
+        "prerequisites": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/id"
+          },
+          "uniqueItems": true
+        },
+        "review_vocabulary_refs": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/id"
+          },
+          "uniqueItems": true
+        },
+        "grammar_focus": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "required": [
+              "ref",
+              "focus_vi"
+            ],
+            "properties": {
+              "ref": {
+                "$ref": "#/$defs/id"
+              },
+              "focus_vi": {
+                "$ref": "#/$defs/str"
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "summary_vi": {
+          "type": "string"
+        },
+        "self_check": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/str"
+          }
+        }
+      }
+    },
+    "block": {
+      "type": "object",
+      "required": [
+        "id",
+        "kind",
+        "title_vi"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "kind": {
+          "enum": [
+            "explanation",
+            "dialogue",
+            "reading",
+            "listening",
+            "pronunciation",
+            "culture",
+            "examples",
+            "speaking",
+            "writing"
+          ]
+        },
+        "skill": {
+          "$ref": "#/$defs/skill"
+        },
+        "title_vi": {
+          "$ref": "#/$defs/str"
+        },
+        "body_vi": {
+          "type": "string"
+        },
+        "lines": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": [
+              "speaker",
+              "de",
+              "vi"
+            ],
+            "properties": {
+              "speaker": {
+                "$ref": "#/$defs/str"
+              },
+              "de": {
+                "$ref": "#/$defs/str"
+              },
+              "vi": {
+                "$ref": "#/$defs/str"
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "paragraphs": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/pair"
+          }
+        },
+        "audio_status": {
+          "enum": [
+            "pending-tts",
+            "ready"
+          ]
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": [
+              "de"
+            ],
+            "properties": {
+              "de": {
+                "$ref": "#/$defs/str"
+              },
+              "vi": {
+                "type": "string"
+              },
+              "ipa": {
+                "type": "string"
+              },
+              "note_vi": {
+                "type": "string"
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "examples": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/pairRich"
+          }
+        },
+        "glossary": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/pairRich"
+          }
+        },
+        "text_type_vi": {
+          "type": "string"
+        },
+        "situation_vi": {
+          "type": "string"
+        },
+        "audio": {
+          "type": "object",
+          "properties": {
+            "file": {
+              "type": "string"
+            },
+            "speed": {
+              "enum": [
+                "slow",
+                "normal"
+              ]
+            }
+          },
+          "additionalProperties": false
+        },
+        "task_vi": {
+          "type": "string"
+        },
+        "steps_vi": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/str"
+          }
+        },
+        "model": {
+          "$ref": "#/$defs/pair"
+        },
+        "checklist_vi": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/str"
+          }
+        }
+      },
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "kind": {
+                "enum": [
+                  "explanation",
+                  "culture"
+                ]
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "body_vi"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "kind": {
+                "const": "dialogue"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "lines"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "kind": {
+                "const": "reading"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "paragraphs"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "kind": {
+                "const": "listening"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "lines",
+              "audio_status"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "kind": {
+                "const": "pronunciation"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "body_vi",
+              "items"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "kind": {
+                "const": "examples"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "examples"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "kind": {
+                "const": "speaking"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "task_vi",
+              "lines"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "kind": {
+                "const": "writing"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "task_vi",
+              "model",
+              "checklist_vi"
+            ]
+          }
+        }
+      ]
+    },
+    "vocabularySet": {
+      "required": [
+        "module",
+        "entries"
+      ],
+      "properties": {
+        "module": {
+          "$ref": "#/$defs/id"
+        },
+        "entries": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/vocabEntry"
+          }
+        }
+      }
+    },
+    "vocabEntry": {
+      "type": "object",
+      "required": [
+        "id",
+        "de",
+        "pos",
+        "vi",
+        "ipa",
+        "example",
+        "lesson_refs",
+        "usage_vi"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "de": {
+          "$ref": "#/$defs/str"
+        },
+        "pos": {
+          "enum": [
+            "noun",
+            "name",
+            "verb",
+            "adjective",
+            "adverb",
+            "preposition",
+            "conjunction",
+            "pronoun",
+            "article",
+            "interrogative",
+            "numeral",
+            "particle",
+            "interjection",
+            "phrase"
+          ]
+        },
+        "article": {
+          "enum": [
+            "der",
+            "die",
+            "das",
+            "pl"
+          ]
+        },
+        "plural": {
+          "type": "string"
+        },
+        "no_plural": {
+          "type": "boolean"
+        },
+        "forms": {
+          "type": "object",
+          "properties": {
+            "er": {
+              "type": "string"
+            },
+            "separable": {
+              "type": "boolean"
+            },
+            "perfekt": {
+              "type": "string",
+              "pattern": "^(hat|ist) \\S+$"
+            },
+            "text": {
+              "type": "string",
+              "description": "Các dạng chia cần nhớ, văn bản tự do"
+            }
+          },
+          "additionalProperties": false
+        },
+        "vi": {
+          "$ref": "#/$defs/str"
+        },
+        "ipa": {
+          "type": "string",
+          "pattern": "^/.+/$"
+        },
+        "example": {
+          "$ref": "#/$defs/pair"
+        },
+        "usage_vi": {
+          "$ref": "#/$defs/str"
+        },
+        "lesson_refs": {
+          "$ref": "#/$defs/idList"
+        },
+        "tags": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/str"
+          }
+        },
+        "source": {
+          "enum": [
+            "nwn-lern",
+            "nwn",
+            "supplement"
+          ],
+          "description": "Nguồn phạm vi: Lernwortschatz, Wortschatz của giáo trình hoặc bổ sung của dự án"
+        }
+      },
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "pos": {
+                "const": "noun"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "article"
+            ],
+            "anyOf": [
+              {
+                "required": [
+                  "plural"
+                ]
+              },
+              {
+                "required": [
+                  "no_plural"
+                ]
+              }
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "pos": {
+                "const": "verb"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "forms"
+            ],
+            "properties": {
+              "forms": {
+                "anyOf": [
+                  {
+                    "required": [
+                      "er"
+                    ]
+                  },
+                  {
+                    "required": [
+                      "text"
+                    ]
+                  }
+                ]
+              }
+            }
+          }
+        }
+      ]
+    },
+    "grammarTopic": {
+      "required": [
+        "introduced_in",
+        "title_de",
+        "title_vi",
+        "summary_vi",
+        "usage_vi",
+        "objectives",
+        "rules",
+        "sentence_structures",
+        "examples",
+        "common_mistakes"
+      ],
+      "properties": {
+        "introduced_in": {
+          "$ref": "#/$defs/id",
+          "description": "Module dạy chủ điểm này lần đầu; ID chủ điểm không mang tiền tố module."
+        },
+        "title_de": {
+          "$ref": "#/$defs/str"
+        },
+        "title_vi": {
+          "$ref": "#/$defs/str"
+        },
+        "summary_vi": {
+          "$ref": "#/$defs/str"
+        },
+        "usage_vi": {
+          "$ref": "#/$defs/str"
+        },
+        "objectives": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/objective"
+          }
+        },
+        "rules": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": [
+              "id",
+              "title_vi",
+              "body_vi",
+              "examples"
+            ],
+            "properties": {
+              "id": {
+                "$ref": "#/$defs/id"
+              },
+              "title_vi": {
+                "$ref": "#/$defs/str"
+              },
+              "body_vi": {
+                "$ref": "#/$defs/str"
+              },
+              "table": {
+                "$ref": "#/$defs/table"
+              },
+              "examples": {
+                "type": "array",
+                "minItems": 1,
+                "items": {
+                  "$ref": "#/$defs/pairRich"
+                }
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "sentence_structures": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": [
+              "pattern",
+              "example"
+            ],
+            "properties": {
+              "pattern": {
+                "$ref": "#/$defs/str"
+              },
+              "example": {
+                "$ref": "#/$defs/pair"
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "examples": {
+          "type": "array",
+          "minItems": 4,
+          "items": {
+            "$ref": "#/$defs/pairRich"
+          }
+        },
+        "common_mistakes": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": [
+              "wrong",
+              "right",
+              "explanation_vi"
+            ],
+            "properties": {
+              "wrong": {
+                "$ref": "#/$defs/str"
+              },
+              "right": {
+                "$ref": "#/$defs/str"
+              },
+              "explanation_vi": {
+                "$ref": "#/$defs/str"
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "exercise_refs": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/id"
+          }
+        },
+        "exercises": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/exercise"
+          }
+        },
+        "tables": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/table"
+          }
+        },
+        "comparison_vi": {
+          "type": "string"
+        },
+        "vietnamese_contrast_vi": {
+          "type": "string"
+        },
+        "recap_vi": {
+          "type": "string"
+        },
+        "next_level_note_vi": {
+          "type": "string"
+        },
+        "prerequisites": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "introduced_in_lesson": {
+          "$ref": "#/$defs/id"
+        }
+      },
+      "anyOf": [
+        {
+          "required": [
+            "exercise_refs"
+          ]
+        },
+        {
+          "required": [
+            "exercises"
+          ]
+        }
+      ]
+    },
+    "expressionSet": {
+      "required": [
+        "module",
+        "entries"
+      ],
+      "properties": {
+        "module": {
+          "$ref": "#/$defs/id"
+        },
+        "entries": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": [
+              "id",
+              "de",
+              "vi",
+              "register",
+              "situation_vi",
+              "lesson_refs"
+            ],
+            "properties": {
+              "id": {
+                "$ref": "#/$defs/id"
+              },
+              "de": {
+                "$ref": "#/$defs/str"
+              },
+              "vi": {
+                "$ref": "#/$defs/str"
+              },
+              "register": {
+                "enum": [
+                  "formal",
+                  "informal",
+                  "neutral"
+                ]
+              },
+              "function": {
+                "type": "string"
+              },
+              "situation_vi": {
+                "$ref": "#/$defs/str"
+              },
+              "reply": {
+                "$ref": "#/$defs/pair"
+              },
+              "lesson_refs": {
+                "$ref": "#/$defs/idList"
+              },
+              "dialogue": {
+                "type": "array",
+                "minItems": 1,
+                "items": {
+                  "type": "object",
+                  "required": [
+                    "speaker",
+                    "de",
+                    "vi"
+                  ],
+                  "properties": {
+                    "speaker": {
+                      "$ref": "#/$defs/str"
+                    },
+                    "de": {
+                      "$ref": "#/$defs/str"
+                    },
+                    "vi": {
+                      "$ref": "#/$defs/str"
+                    }
+                  },
+                  "additionalProperties": false
+                }
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      }
+    },
+    "exerciseSet": {
+      "required": [
+        "module",
+        "lesson",
+        "exercises"
+      ],
+      "properties": {
+        "module": {
+          "$ref": "#/$defs/id"
+        },
+        "lesson": {
+          "$ref": "#/$defs/id"
+        },
+        "exercises": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/exercise"
+          }
+        }
+      }
+    },
+    "assessment": {
+      "required": [
+        "module",
+        "title_vi",
+        "duration_min",
+        "pass_percent",
+        "exercises"
+      ],
+      "properties": {
+        "module": {
+          "$ref": "#/$defs/id"
+        },
+        "title_vi": {
+          "$ref": "#/$defs/str"
+        },
+        "duration_min": {
+          "type": "integer",
+          "minimum": 5
+        },
+        "pass_percent": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 100
+        },
+        "exercises": {
+          "type": "array",
+          "minItems": 5,
+          "items": {
+            "$ref": "#/$defs/exercise"
+          }
+        },
+        "version_label": {
+          "type": "string"
+        },
+        "equivalent_to": {
+          "$ref": "#/$defs/id"
+        },
+        "overall_pass_percent": {
+          "type": "integer",
+          "minimum": 1,
+          "maximum": 100
+        },
+        "pass_rule_vi": {
+          "type": "string"
+        },
+        "sections": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "required": [
+              "id",
+              "title_vi",
+              "skill_group",
+              "points",
+              "pass_percent",
+              "duration_min",
+              "exercise_refs"
+            ],
+            "properties": {
+              "id": {
+                "$ref": "#/$defs/id"
+              },
+              "title_vi": {
+                "$ref": "#/$defs/str"
+              },
+              "skill_group": {
+                "enum": [
+                  "listening",
+                  "reading",
+                  "writing",
+                  "speaking",
+                  "language"
+                ]
+              },
+              "points": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "pass_percent": {
+                "type": "integer",
+                "minimum": 1,
+                "maximum": 100
+              },
+              "duration_min": {
+                "type": "integer",
+                "minimum": 1
+              },
+              "exercise_refs": {
+                "type": "array",
+                "minItems": 1,
+                "items": {
+                  "$ref": "#/$defs/id"
+                }
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      }
+    },
+    "exercise": {
+      "type": "object",
+      "required": [
+        "id",
+        "type",
+        "skill",
+        "difficulty",
+        "objective_refs",
+        "instructions_vi",
+        "items"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "type": {
+          "enum": [
+            "multiple-choice",
+            "true-false",
+            "fill-blank",
+            "matching",
+            "word-order",
+            "translation",
+            "sentence-construction",
+            "dictation",
+            "reading-comprehension",
+            "listening-practice",
+            "writing-practice",
+            "speaking-practice"
+          ]
+        },
+        "skill": {
+          "$ref": "#/$defs/skill"
+        },
+        "difficulty": {
+          "$ref": "#/$defs/difficulty"
+        },
+        "objective_refs": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/id"
+          }
+        },
+        "instructions_vi": {
+          "$ref": "#/$defs/str"
+        },
+        "stimulus": {
+          "type": "object",
+          "properties": {
+            "text_de": {
+              "type": "string"
+            },
+            "text_vi": {
+              "type": "string"
+            },
+            "audio_status": {
+              "enum": [
+                "pending-tts",
+                "ready"
+              ]
+            },
+            "ref": {
+              "type": "string",
+              "description": "Id khối (block) của bài học chứa văn bản hoặc bản ghi dùng làm ngữ liệu"
+            }
+          },
+          "additionalProperties": false
+        },
+        "word_bank": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/str"
+          }
+        },
+        "items": {
+          "type": "array",
+          "minItems": 1
+        },
+        "instructions_de": {
+          "type": "string"
+        },
+        "tip_vi": {
+          "type": "string"
+        },
+        "grading": {
+          "enum": [
+            "auto",
+            "self",
+            "ai"
+          ]
+        },
+        "rubric": {
+          "$ref": "#/$defs/rubric"
+        }
+      },
+      "additionalProperties": false,
+      "allOf": [
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "enum": [
+                  "multiple-choice",
+                  "reading-comprehension",
+                  "listening-practice"
+                ]
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "items": {
+                "items": {
+                  "$ref": "#/$defs/itemChoice"
+                }
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "true-false"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "items": {
+                "items": {
+                  "$ref": "#/$defs/itemBool"
+                }
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "fill-blank"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "items": {
+                "items": {
+                  "$ref": "#/$defs/itemFill"
+                }
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "matching"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "items": {
+                "items": {
+                  "$ref": "#/$defs/itemMatch"
+                },
+                "minItems": 1
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "word-order"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "items": {
+                "items": {
+                  "$ref": "#/$defs/itemOrder"
+                }
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "translation"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "items": {
+                "items": {
+                  "$ref": "#/$defs/itemTranslate"
+                }
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "sentence-construction"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "items": {
+                "items": {
+                  "$ref": "#/$defs/itemConstruct"
+                }
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "dictation"
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "items": {
+                "items": {
+                  "$ref": "#/$defs/itemDictation"
+                }
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "enum": [
+                  "writing-practice",
+                  "speaking-practice"
+                ]
+              }
+            }
+          },
+          "then": {
+            "properties": {
+              "items": {
+                "items": {
+                  "$ref": "#/$defs/itemOpen"
+                }
+              }
+            }
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "listening-practice"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "stimulus"
+            ]
+          }
+        },
+        {
+          "if": {
+            "properties": {
+              "type": {
+                "const": "reading-comprehension"
+              }
+            }
+          },
+          "then": {
+            "required": [
+              "stimulus"
+            ]
+          }
+        }
+      ]
+    },
+    "itemChoice": {
+      "type": "object",
+      "required": [
+        "id",
+        "prompt",
+        "options",
+        "answer",
+        "explanation_vi"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "prompt": {
+          "$ref": "#/$defs/str"
+        },
+        "options": {
+          "type": "array",
+          "minItems": 2,
+          "maxItems": 6,
+          "items": {
+            "type": "object",
+            "required": [
+              "id",
+              "text"
+            ],
+            "properties": {
+              "id": {
+                "type": "string",
+                "pattern": "^[a-f]$"
+              },
+              "text": {
+                "$ref": "#/$defs/str"
+              }
+            },
+            "additionalProperties": false
+          }
+        },
+        "answer": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "string",
+            "pattern": "^[a-f]$"
+          }
+        },
+        "explanation_vi": {
+          "$ref": "#/$defs/str"
+        }
+      },
+      "additionalProperties": false
+    },
+    "itemFill": {
+      "type": "object",
+      "required": [
+        "id",
+        "prompt",
+        "answers",
+        "explanation_vi"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "prompt": {
+          "type": "string",
+          "pattern": "___"
+        },
+        "hint_vi": {
+          "type": "string"
+        },
+        "answers": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/str"
+          },
+          "description": "Mỗi phần tử là đáp án của một chỗ trống theo thứ tự; accept = các tổ hợp thay thế"
+        },
+        "explanation_vi": {
+          "$ref": "#/$defs/str"
+        },
+        "accept": {
+          "type": "array",
+          "items": {
+            "type": "array",
+            "items": {
+              "$ref": "#/$defs/str"
+            }
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "itemMatch": {
+      "type": "object",
+      "required": [
+        "id",
+        "explanation_vi"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "left": {
+          "$ref": "#/$defs/str"
+        },
+        "right": {
+          "$ref": "#/$defs/str"
+        },
+        "explanation_vi": {
+          "$ref": "#/$defs/str"
+        },
+        "pairs": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "type": "object",
+            "required": [
+              "left",
+              "right"
+            ],
+            "properties": {
+              "left": {
+                "$ref": "#/$defs/str"
+              },
+              "right": {
+                "$ref": "#/$defs/str"
+              }
+            },
+            "additionalProperties": false
+          }
+        }
+      },
+      "additionalProperties": false,
+      "anyOf": [
+        {
+          "required": [
+            "left",
+            "right"
+          ]
+        },
+        {
+          "required": [
+            "pairs"
+          ]
+        }
+      ]
+    },
+    "itemOrder": {
+      "type": "object",
+      "required": [
+        "id",
+        "tokens",
+        "answer",
+        "explanation_vi"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "tokens": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "$ref": "#/$defs/str"
+          }
+        },
+        "answer": {
+          "$ref": "#/$defs/str"
+        },
+        "translation_vi": {
+          "$ref": "#/$defs/str"
+        },
+        "explanation_vi": {
+          "$ref": "#/$defs/str"
+        },
+        "prompt_vi": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "itemTranslate": {
+      "type": "object",
+      "required": [
+        "id",
+        "direction",
+        "source",
+        "answers",
+        "explanation_vi"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "direction": {
+          "enum": [
+            "vi-de",
+            "de-vi"
+          ]
+        },
+        "source": {
+          "$ref": "#/$defs/str"
+        },
+        "answers": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/str"
+          }
+        },
+        "explanation_vi": {
+          "$ref": "#/$defs/str"
+        }
+      },
+      "additionalProperties": false
+    },
+    "itemConstruct": {
+      "type": "object",
+      "required": [
+        "id",
+        "prompt_vi",
+        "answers",
+        "explanation_vi"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "prompt_vi": {
+          "$ref": "#/$defs/str"
+        },
+        "required_words": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/str"
+          }
+        },
+        "answers": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/str"
+          }
+        },
+        "explanation_vi": {
+          "$ref": "#/$defs/str"
+        }
+      },
+      "additionalProperties": false
+    },
+    "itemOpen": {
+      "type": "object",
+      "required": [
+        "id",
+        "prompt_vi",
+        "model_answer",
+        "explanation_vi"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "prompt_vi": {
+          "$ref": "#/$defs/str"
+        },
+        "model_answer": {
+          "$ref": "#/$defs/modelAnswer"
+        },
+        "rubric_vi": {
+          "type": "array",
+          "items": {
+            "$ref": "#/$defs/str"
+          }
+        },
+        "explanation_vi": {
+          "$ref": "#/$defs/str"
+        }
+      },
+      "additionalProperties": false
+    },
+    "pairRich": {
+      "type": "object",
+      "required": [
+        "de",
+        "vi"
+      ],
+      "properties": {
+        "de": {
+          "$ref": "#/$defs/str"
+        },
+        "vi": {
+          "$ref": "#/$defs/str"
+        },
+        "ipa": {
+          "type": "string"
+        },
+        "note_vi": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "modelAnswer": {
+      "type": "object",
+      "required": [
+        "de"
+      ],
+      "properties": {
+        "de": {
+          "$ref": "#/$defs/str"
+        },
+        "vi": {
+          "type": "string"
+        }
+      },
+      "additionalProperties": false
+    },
+    "dialogueLines": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "speaker",
+          "de",
+          "vi"
+        ],
+        "properties": {
+          "speaker": {
+            "$ref": "#/$defs/str"
+          },
+          "de": {
+            "$ref": "#/$defs/str"
+          },
+          "vi": {
+            "$ref": "#/$defs/str"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "table": {
+      "type": "object",
+      "required": [
+        "header",
+        "rows"
+      ],
+      "properties": {
+        "title_vi": {
+          "type": "string"
+        },
+        "note_vi": {
+          "type": "string"
+        },
+        "header": {
+          "type": "array",
+          "items": {
+            "type": "string"
+          }
+        },
+        "rows": {
+          "type": "array",
+          "items": {
+            "type": "array",
+            "items": {
+              "type": "string"
+            }
+          }
+        }
+      },
+      "additionalProperties": false
+    },
+    "rubric": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": [
+          "criterion_vi",
+          "points"
+        ],
+        "properties": {
+          "criterion_vi": {
+            "$ref": "#/$defs/str"
+          },
+          "points": {
+            "type": "integer",
+            "minimum": 1
+          },
+          "description_vi": {
+            "type": "string"
+          }
+        },
+        "additionalProperties": false
+      }
+    },
+    "itemBool": {
+      "type": "object",
+      "required": [
+        "id",
+        "prompt",
+        "answer",
+        "explanation_vi"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "prompt": {
+          "$ref": "#/$defs/str"
+        },
+        "answer": {
+          "type": "boolean"
+        },
+        "explanation_vi": {
+          "$ref": "#/$defs/str"
+        }
+      },
+      "additionalProperties": false
+    },
+    "itemDictation": {
+      "type": "object",
+      "required": [
+        "id",
+        "tts",
+        "answers",
+        "explanation_vi"
+      ],
+      "properties": {
+        "id": {
+          "$ref": "#/$defs/id"
+        },
+        "tts": {
+          "$ref": "#/$defs/str"
+        },
+        "answers": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "$ref": "#/$defs/str"
+          }
+        },
+        "explanation_vi": {
+          "$ref": "#/$defs/str"
+        }
+      },
+      "additionalProperties": false
+    }
+  }
+}

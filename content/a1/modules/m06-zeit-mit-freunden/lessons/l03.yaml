@@ -1,0 +1,255 @@
+schema_version: '2.0'
+content_type: lesson
+id: a1.m06.l03
+level: A1
+module: a1.m06
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+  references:
+  - work: Netzwerk neu A1 (Klett)
+    scope: 'Kapitel 6: Eine Überraschung für Sofia'
+    verification: verified
+  notes_vi: 'Sprachhandlungen: Geschenke auswählen, Einladungen schreiben und beantworten, Personen im Akkusativ ansprechen. Wortschatz: Geschenk, schenken, einladen, Einladungskarte, Blumenstrauß, Praline, Gutschein, mich, dich, ihn, uns, euch. Grammatik: für + Akkusativ, Personalpronomen im Akkusativ.'
+order: 3
+title_de: Geschenke und Einladungen – für + Akkusativ
+title_vi: Quà tặng và thiệp mời – für + Akkusativ
+topic_vi: Chọn quà sinh nhật, viết thư mời và phản hồi lời mời, giới từ für và đại từ nhân xưng ở Akkusativ
+duration_min: 85
+difficulty: 2
+cefr:
+- A1.L1
+- A1.H2
+- A1.SP1
+- A1.S2
+prerequisites:
+- a1.m06.l02
+objectives:
+- id: a1.m06.l03.obj1
+  text_vi: Gọi tên các món quà tặng phổ biến (Blumenstrauß, Praline, Gutschein, Geschenk).
+  skill: vocabulary
+- id: a1.m06.l03.obj2
+  text_vi: Sử dụng đúng giới từ für luôn đi kèm cách Akkusativ (für meinen Freund, für meine Mutter).
+  skill: grammar
+- id: a1.m06.l03.obj3
+  text_vi: Vận dụng thành thạo đại từ nhân xưng ở cách Akkusativ (mich, dich, ihn, uns, euch).
+  skill: grammar
+- id: a1.m06.l03.obj4
+  text_vi: Đọc hiểu email mời sinh nhật và viết phản hồi nhận lời hoặc từ chối lịch sự.
+  skill: listening
+vocabulary_refs:
+- a1.m06.v.ueberraschung
+- a1.m06.v.ueberraschen
+- a1.m06.v.geschenk
+- a1.m06.v.schenken
+- a1.m06.v.einladen
+- a1.m06.v.einladungskarte
+- a1.m06.v.einladungsmail
+- a1.m06.v.besucher
+- a1.m06.v.gastgeber
+- a1.m06.v.blumenstrauss
+- a1.m06.v.praline
+- a1.m06.v.gutschein
+- a1.m06.v.mitnehmen
+- a1.m06.v.mich
+- a1.m06.v.dich
+- a1.m06.v.ihn
+- a1.m06.v.uns
+- a1.m06.v.euch
+review_vocabulary_refs:
+- a1.m05.v.familie
+- a1.m05.v.koennen
+- a1.m06.v.geburtstag
+- a1.m06.v.feiern
+grammar_refs:
+- a1.g.fuer-akkusativ
+- a1.g.personalpronomen-akkusativ
+grammar_focus:
+- ref: a1.g.fuer-akkusativ
+  focus_vi: 'Giới từ für + Akkusativ: chỉ có giống đực đổi thành den, einen, meinen'
+- ref: a1.g.personalpronomen-akkusativ
+  focus_vi: Đại từ nhân xưng ở cách Akkusativ (mich, dich, ihn, uns, euch)
+expression_refs:
+- a1.m06.x.was-schenken-wir-ich-finde-gut-wir-koenn
+- a1.m06.x.ich-lade-dich-euch-herzlich-zu-ein-danke
+exercise_set_ref: a1.m06.l03.ex
+summary_vi: Bài học giúp bạn thành thạo từ vựng về quà tặng và thiệp mời, nắm chắc quy tắc giới từ für luôn đi với Akkusativ, cùng bảng đại từ nhân xưng ở Akkusativ (mich, dich, ihn, uns, euch).
+self_check:
+- Tôi có thể kể tên 3 món quà sinh nhật quen thuộc trong tiếng Đức.
+- Tôi nhớ sau giới từ für luôn dùng cách Akkusativ (für meinen Freund, für dich).
+- 'Tôi sử dụng đúng các đại từ nhân xưng: mich, dich, ihn, uns, euch.'
+blocks:
+- id: a1.m06.l03.b1
+  kind: explanation
+  title_vi: Giới thiệu bài học
+  body_vi: 'Đi dự tiệc sinh nhật bạn bè không thể thiếu những món quà xinh xắn và lời mời trang trọng.
+
+    Trong bài học này, bạn sẽ:
+
+    - Khám phá từ vựng về quà tặng: món quà (*das Geschenk*), tặng quà (*schenken*), bó hoa (*der Blumenstrauß*), kẹo sô-cô-la (*die Praline*), phiếu quà tặng (*der Gutschein*), thiệp mời (*die Einladungskarte*), mang theo (*mitnehmen*).
+
+    - Làm chủ giới từ *für* (dành cho ai): giới từ này **luôn luôn đi kèm cách Akkusativ** (*für meinen Bruder, für dich*).
+
+    - Học bảng đại từ nhân xưng ở cách Akkusativ: *mich* (tôi), *dich* (bạn), *ihn* (anh ấy / nó), *uns* (chúng tôi), *euch* (các bạn).
+
+    - Đọc và soạn thảo email mời dự tiệc sinh nhật một cách tự tin.'
+- id: a1.m06.l03.b2
+  kind: explanation
+  title_vi: 'Đại từ nhân xưng thay thế danh từ: er → ihn, es → es, sie → sie'
+  skill: grammar
+  body_vi: 'Khi một danh từ làm tân ngữ trực tiếp hoặc đứng sau für, ta có thể dùng đại từ nhân xưng tương ứng theo giống của danh từ đó:
+
+    - der Blumenstrauß (giống đực) → Ich kaufe **ihn** (er → ihn).
+
+    - das Buch (giống trung) → Das ist für **es** (es → es).
+
+    - die Schokolade (giống cái) → Ich schenke **sie** (sie → sie).'
+  examples:
+  - de: Wo ist der Kuchen? – Ich bringe ihn gleich mit.
+    vi: Bánh ngọt đâu rồi? – Mình mang nó lại ngay đây.
+  - de: Kennst du Sofia? – Ja, ich kenne sie gut.
+    vi: Bạn có biết Sofia không? – Có, tôi biết rõ bạn ấy.
+- id: a1.m06.l03.b3
+  kind: pronunciation
+  title_vi: Phát âm âm 'ch' mềm [ç] trong đại từ mich, dich, euch
+  skill: pronunciation
+  body_vi: 'Phát âm âm ''ch'' mềm [ç] trong đại từ mich, dich, euch
+
+
+    Sau các nguyên âm trước (i, e, eu, ä, ö, ü), âm ''ch'' được phát âm là âm mềm xát vòm miệng [ç] (giống tiếng xù lông nhẹ của mèo), không phát âm thành [k] hay [tʃ].
+
+
+    Luyện tập: Luyện phát âm rõ âm mềm [ç]: mich – dich – euch – sich.'
+  items:
+  - de: mich
+    vi: tôi (Akk)
+    ipa: '[mɪç]'
+  - de: dich
+    vi: bạn (Akk)
+    ipa: '[dɪç]'
+  - de: euch
+    vi: các bạn (Akk)
+    ipa: '[ɔɪ̯ç]'
+- id: a1.m06.l03.b4
+  kind: examples
+  title_vi: Câu ví dụ
+  examples:
+  - de: Das schöne Geschenk ist für dich.
+    vi: Món quà tuyệt đẹp này là dành cho bạn.
+  - de: Florian kauft einen Blumenstrauß für seine Freundin.
+    vi: Florian mua một bó hoa tặng bạn gái của anh ấy.
+  - de: Rufst du mich morgen früh an?
+    vi: Sáng mai bạn gọi điện cho mình nhé?
+  - de: Lukas lädt uns alle zu seinem Geburtstag ein.
+    vi: Lukas mời tất cả chúng tôi đến dự sinh nhật của anh ấy.
+- id: a1.m06.l03.b5
+  kind: listening
+  title_vi: 'Hội thoại: Chọn quà sinh nhật cho bạn'
+  lines:
+  - speaker: Laura
+    de: Tim, hast du schon ein Geschenk für Markus?
+    vi: Tim, bạn đã có quà tặng Markus chưa?
+  - speaker: Tim
+    de: Nein, noch nicht. Was können wir für ihn kaufen?
+    vi: Chưa, vẫn chưa. Chúng mình có thể mua gì cho anh ấy nhỉ?
+  - speaker: Laura
+    de: Markus liest sehr gern Bücher. Wollen wir ihm einen Gutschein für die Buchhandlung schenken?
+    vi: Markus rất thích đọc sách. Chúng mình tặng anh ấy một phiếu quà tặng ở hiệu sách nhé?
+  - speaker: Tim
+    de: Das ist eine fantastische Idee! Und ich kaufe noch eine Schachtel Pralinen für ihn.
+    vi: Đó là một ý kiến tuyệt vời! Và mình sẽ mua thêm một hộp kẹo sô-cô-la cho anh ấy nữa.
+  audio_status: pending-tts
+  situation_vi: Laura và Tim bàn bạc xem nên mua món quà gì tặng sinh nhật cho Markus.
+  skill: listening
+  audio:
+    speed: slow
+- id: a1.m06.l03.b6
+  kind: reading
+  title_vi: 'Đọc hiểu: Email mời dự tiệc sinh nhật của Sofia'
+  paragraphs:
+  - de: 'Liebe Freunde,
+
+      am 20. Mai habe ich Geburtstag und werde 25 Jahre alt!
+
+      Diesen besonderen Tag möchte ich unbedingt mit euch feiern.
+
+      Deshalb lade ich euch ganz herzlich zu meiner Geburtstagsparty ein!
+
+      Wann: Samstag, 20. Mai, ab 18:30 Uhr.
+
+      Wo: Bei mir zu Hause (Goethestraße 12, München).
+
+      Für Getränke und Musik ist gesorgt. Bringt bitte gute Laune mit!
+
+      Gebt mir bitte bis zum 15. Mai Bescheid, ob ihr kommen könnt.
+
+      Ich freue mich riesig auf euch!
+
+      Eure Sofia'
+    vi: 'Các bạn thân mến,
+
+      Vào ngày 20 tháng 5 là sinh nhật của mình và mình tròn 25 tuổi!
+
+      Ngày đặc biệt này mình nhất định muốn cùng ăn mừng với các bạn.
+
+      Vì thế mình thân mời tất cả các bạn đến dự tiệc sinh nhật của mình!
+
+      Thời gian: Thứ Bảy, ngày 20 tháng 5, từ 18:30.
+
+      Địa điểm: Tại nhà mình (Goethestraße 12, München).
+
+      Đồ uống và âm nhạc đã được chuẩn bị sẵn sàng. Các bạn chỉ cần mang theo tâm trạng vui vẻ nhé!
+
+      Xin vui lòng báo cho mình biết trước ngày 15 tháng 5 xem các bạn có đến được không.
+
+      Mình rất mong chờ được gặp các bạn!
+
+      Sofia của các bạn'
+  text_type_vi: Thư điện tử mời tiệc sinh nhật
+  skill: reading
+  glossary:
+  - de: unbedingt
+    vi: nhất định
+  - de: für ... ist gesorgt
+    vi: đã được chuẩn bị chu đáo
+  - de: die Laune
+    vi: tâm trạng
+- id: a1.m06.l03.b7
+  kind: speaking
+  title_vi: 'Đóng vai: Hỏi và gợi ý quà tặng sinh nhật'
+  skill: speaking
+  task_vi: Thực hành cùng bạn học thảo luận chọn quà tặng cho một người bạn chung.
+  steps_vi:
+  - 'Hỏi quà: Was schenken wir ... zum Geburtstag?'
+  - 'Gợi ý quà: Wir können einen Gutschein / Pralinen / Blumen schenken.'
+  - 'Đồng ý: Das ist ein tolles Geschenk für ihn / für sie!'
+  lines:
+  - speaker: A
+    de: Was schenken wir Florian?
+    vi: Chúng mình tặng gì cho Florian đây?
+  - speaker: B
+    de: Er mag Sport. Wir können einen Gutschein für das Sportgeschäft kaufen.
+    vi: Anh ấy thích thể thao. Tụi mình có thể mua một phiếu quà tặng ở cửa hàng thể thao.
+  - speaker: A
+    de: Super, das ist ein perfektes Geschenk für ihn!
+    vi: Tuyệt vời, đó là món quà hoàn hảo cho anh ấy!
+- id: a1.m06.l03.b8
+  kind: writing
+  title_vi: Viết email trả lời thư mời sinh nhật
+  skill: writing
+  task_vi: Viết email ngắn (4–5 câu) cảm ơn lời mời của Sofia và xác nhận bạn sẽ đến tham dự bữa tiệc.
+  model:
+    de: Liebe Sofia, vielen Dank für die Einladung zu deiner Party! Ich komme am 20. Mai sehr gerne zu dir. Ich bringe einen leckeren Salat für das Fest mit. Kann ich dir noch bei etwas helfen? Bis bald und liebe Grüße, Maria
+    vi: Sofia thân mến, cảm ơn bạn rất nhiều vì lời mời đến dự tiệc! Mình rất vui lòng đến chỗ bạn vào ngày 20 tháng 5. Mình sẽ mang theo một món salad ngon cho bữa tiệc. Mình có thể giúp bạn thêm việc gì nữa không? Hẹn sớm gặp lại và thân ái, Maria
+  checklist_vi:
+  - 'Có câu cảm ơn lời mời: Vielen Dank für die Einladung!'
+  - 'Có câu xác nhận sẽ đến: Ich komme sehr gerne.'
+  - Có sử dụng giới từ für.

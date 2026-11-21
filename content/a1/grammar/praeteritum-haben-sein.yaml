@@ -1,0 +1,187 @@
+schema_version: '2.0'
+content_type: grammar-topic
+id: a1.g.praeteritum-haben-sein
+level: A1
+introduced_in: a1.m06
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+  references:
+  - work: Netzwerk neu A1 (Klett)
+    scope: 'Kapitel 6: Wie war das Wochenende?'
+    verification: verified
+  notes_vi: Tương ứng Grammatik „Präteritum von haben und sein“ của Kapitel 6.
+introduced_in_lesson: a1.m06.l05
+title_de: Präteritum von sein und haben
+title_vi: Thì quá khứ đơn của sein và haben (war, hatte)
+summary_vi: "Trong tiếng Đức, khi kể về các sự kiện, trạng thái hoặc cảm xúc đã diễn ra trong quá khứ, người ta thường dùng thì quá khứ đơn (Präteritum) của hai động từ cơ bản nhất: **sein** (thì, là, ở) và **haben** (có).\nỞ trình độ A1, bạn chỉ cần nắm vững dạng quá khứ của hai động từ này: **war** (*đã ở / đã là*) và **hatte** (*đã có*).\n\n**1. Chia động từ sein ở Präteritum (war):**\n- *ich* **war** (tôi đã ở / đã là)\n- *du* **warst**\n- *er / sie / es* **war** *(lưu ý: ngôi ich và ngôi er/sie/es giống hệt nhau!)*\n- *wir* **waren**\n- *ihr* **wart**\n- *sie / Sie* **waren**\n\n**2. Chia động từ haben ở Präteritum (hatte):**\n- *ich* **hatte** (tôi đã có)\n- *du* **hattest**\n- *er / sie / es* **hatte** *(lưu ý: ngôi ich và ngôi er/sie/es giống hệt nhau!)*\n- *wir* **hatten**\n- *ihr* **hattet**\n- *sie / Sie* **hatten**\n\n**3. Ngữ cảnh sử dụng thường gặp:**\n- Kể về cuối tuần hoặc kỳ nghỉ:\n  * *Wie **war** dein Wochenende? – Es **war** super!* (Cuối tuần của bạn thế nào? – Tuyệt\
+  \ vời lắm!)\n  * *Ich **war** am Samstag in Berlin.* (Thứ Bảy tôi đã ở Berlin.)\n  * *Wir **hatten** am Sonntag viel Spaß.* (Chủ Nhật chúng tôi đã có nhiều niềm vui.)\n  * *Ich **hatte** gestern keine Zeit.* (Hôm qua tôi không có thời gian.)"
+usage_vi: Dùng để kể về trạng thái, nơi chốn hoặc sở hữu trong quá khứ (hôm qua, cuối tuần trước, năm ngoái). Ngôi ich và er/sie/es giống hệt nhau.
+objectives:
+- id: a1.g.praeteritum-haben-sein.obj1
+  text_vi: Nói về quá khứ bằng war và hatte.
+  skill: grammar
+rules:
+- id: a1.g.praeteritum-haben-sein.r1
+  title_vi: Ngôi ich giống er/sie/es
+  body_vi: Ở thì Präteritum, ngôi ich và ngôi er/sie/es luôn có dạng giống hệt nhau (ich war = er war; ich hatte = er hatte).
+  examples:
+  - de: Ich war gestern krank und er war auch krank.
+    vi: Hôm qua tôi bị ốm và anh ấy cũng bị ốm.
+  - de: Maria hatte am Sonntag frei.
+    vi: Maria đã được nghỉ vào Chủ Nhật.
+- id: a1.g.praeteritum-haben-sein.r2
+  title_vi: Từ chỉ thời gian quá khứ
+  body_vi: 'Các từ chỉ thời gian quá khứ thông dụng: gestern (hôm qua), vorgestern (hôm kia), am Wochenende (vào cuối tuần), früher (trước đây), letztes Jahr (năm ngoái).'
+  examples:
+  - de: Gestern hatte ich viel Arbeit im Büro.
+    vi: Hôm qua tôi đã có rất nhiều việc ở văn phòng.
+  - de: Am Samstag waren wir im Kino.
+    vi: Vào thứ Bảy chúng tôi đã ở rạp chiếu phim.
+sentence_structures:
+- pattern: 'Chủ ngữ + war / hatte + ... + (Thời gian quá khứ: gestern, am Wochenende, früher).'
+  example:
+    de: Gestern war ich zu Hause.
+    vi: Hôm qua tôi đã ở nhà.
+- pattern: Wie war ...? – ... war sehr schön / toll / stressig.
+  example:
+    de: Wie war das Konzert gestern?
+    vi: Buổi hòa nhạc hôm qua thế nào?
+tables:
+- title_vi: Bảng chia thì quá khứ Präteritum của sein và haben
+  header:
+  - Ngôi
+  - 'sein (thì hiện tại: bin, bist...)'
+  - 'sein (Präteritum: war)'
+  - 'haben (thì hiện tại: habe...)'
+  - 'haben (Präteritum: hatte)'
+  rows:
+  - - ich
+    - bin
+    - war
+    - habe
+    - hatte
+  - - du
+    - bist
+    - warst
+    - hast
+    - hattest
+  - - er / sie / es
+    - ist
+    - war
+    - hat
+    - hatte
+  - - wir
+    - sind
+    - waren
+    - haben
+    - hatten
+  - - ihr
+    - seid
+    - wart
+    - habt
+    - hattet
+  - - sie / Sie
+    - sind
+    - waren
+    - haben
+    - hatten
+examples:
+- de: Wie war dein Urlaub in Wien? – Es war fantastisch!
+  vi: Kỳ nghỉ của bạn ở Viên thế nào? – Tuyệt vời lắm!
+- de: Wir hatten gestern schönes Wetter und viel Sonnenschein.
+  vi: Hôm qua chúng tôi đã có thời tiết đẹp và nhiều ánh nắng.
+- de: Wo warst du am Samstagabend? – Ich war auf einer Party.
+  vi: Tối thứ Bảy bạn đã ở đâu? – Mình đã ở một bữa tiệc.
+- de: Hattet ihr am Wochenende viel Spaß? – Ja, sehr viel!
+  vi: Cuối tuần các bạn có vui không? – Có, nhiều lắm!
+common_mistakes:
+- wrong: Er wart gestern hier.
+  right: Er war gestern hier.
+  explanation_vi: 'Ngôi er/sie/es trong Präteritum không có đuôi -t: er war (giống hệt ich war). Ngôi ihr mới là các bạn wart.'
+- wrong: Ich habe gestern viel Spaß gehabt.
+  right: Ich hatte gestern viel Spaß.
+  explanation_vi: Với haben và sein, người Đức hầu như luôn dùng dạng Präteritum (hatte, war) thay vì dùng thì hoàn thành Perfekt dài dòng.
+comparison_vi: Tương đương hoàn toàn với 'was / were' (sein) và 'had' (haben) trong tiếng Anh.
+vietnamese_contrast_vi: 'Tiếng Việt chỉ cần thêm từ ''đã'' trước động từ (''Tôi đã ở nhà'', ''Tôi đã có thời gian''). Tiếng Đức biến đổi tận gốc động từ: bin → war, habe → hatte.'
+recap_vi: Thì quá khứ Präteritum của sein (war, warst, war, waren, wart, waren) và haben (hatte, hattest, hatte, hatten, hattet, hatten). Ngôi ich và er/sie/es luôn giống hệt nhau.
+next_level_note_vi: Ở Kapitel 10 và A2, bạn sẽ học thì quá khứ hoàn thành Perfekt (với Partizip II) cho toàn bộ các động từ hành động khác.
+prerequisites:
+- g-a1-verben-praesens
+exercises:
+- id: a1.g.praeteritum-haben-sein.ex.01
+  type: multiple-choice
+  skill: grammar
+  difficulty: 1
+  objective_refs:
+  - a1.g.praeteritum-haben-sein.r1
+  - a1.g.praeteritum-haben-sein.obj1
+  instructions_vi: Chọn dạng đúng của động từ war hoặc hatte.
+  items:
+  - id: a1.g.praeteritum-haben-sein.ex.01.q1
+    prompt: Wo ___ du am Wochenende? – In Hamburg.
+    options:
+    - id: a
+      text: warst
+    - id: b
+      text: wart
+    - id: c
+      text: war
+    - id: d
+      text: waren
+    answer:
+    - a
+    explanation_vi: Chủ ngữ du đi với warst.
+  - id: a1.g.praeteritum-haben-sein.ex.01.q2
+    prompt: Gestern ___ ich leider keine Zeit für Sport.
+    options:
+    - id: a
+      text: hattet
+    - id: b
+      text: hatte
+    - id: c
+      text: hattest
+    - id: d
+      text: hatten
+    answer:
+    - b
+    explanation_vi: Chủ ngữ ich đi với hatte.
+  - id: a1.g.praeteritum-haben-sein.ex.01.q3
+    prompt: Das Wetter am Samstag ___ wirklich wunderbar!
+    options:
+    - id: a
+      text: waren
+    - id: b
+      text: war
+    - id: c
+      text: warst
+    - id: d
+      text: hatte
+    answer:
+    - b
+    explanation_vi: das Wetter (ngôi es) đi với war.
+- id: a1.g.praeteritum-haben-sein.ex.02
+  type: fill-blank
+  skill: grammar
+  difficulty: 2
+  objective_refs:
+  - a1.g.praeteritum-haben-sein.r1
+  - a1.g.praeteritum-haben-sein.r2
+  - a1.g.praeteritum-haben-sein.obj1
+  instructions_vi: Điền dạng đúng của war hoặc hatte vào chỗ trống.
+  items:
+  - id: a1.g.praeteritum-haben-sein.ex.02.q1
+    prompt: Gestern ___ (sein) ein schöner Tag. Wir ___ (haben) frei und ___ (sein) am See.
+    answers:
+    - war
+    - hatten
+    - waren
+    explanation_vi: 1. ein schöner Tag (es) → war. 2. wir haben frei → wir hatten. 3. wir sind am See → wir waren.

@@ -1,0 +1,23 @@
+schema_version: "2.0"
+content_type: vocabulary-set
+id: a1.p3.vocab
+level: A1
+module: a1.p3
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  references:
+    - { work: "Netzwerk neu A1.2 – Stoffverteilungsplan (Klett)", scope: "Plattform 3: Landeskunde Wohntypen", verification: verified }
+    - { work: "Dự án Deutsch-lernen", scope: "Danh sách từ văn hóa nhà ở tự đề xuất", verification: proposed }
+  tags: ["wohnen", "landeskunde"]
+entries:
+  - { id: a1.p3.v.lied, de: "Lied", pos: noun, article: das, plural: "Lieder", vi: "bài hát", ipa: "/liːt/", example: { de: "Das Lied handelt von einem Zuhause.", vi: "Bài hát nói về một mái ấm." }, usage_vi: "„d“ cuối từ đọc /t/. Số nhiều có Umlaut: Lieder. „ein Lied singen“ = hát một bài.", lesson_refs: [a1.p3.l02] }
+  - { id: a1.p3.v.hochhaus, de: "Hochhaus", pos: noun, article: das, plural: "Hochhäuser", vi: "nhà cao tầng", ipa: "/ˈhoːxhaʊs/", example: { de: "In der Stadt gibt es viele Hochhäuser.", vi: "Trong thành phố có nhiều nhà cao tầng." }, usage_vi: "Từ ghép hoch + Haus; số nhiều có Umlaut: Hochhäuser. „im Hochhaus wohnen“ = sống ở nhà cao tầng.", lesson_refs: [a1.p3.l02] }
+  - { id: a1.p3.v.einfamilienhaus, de: "Einfamilienhaus", pos: noun, article: das, plural: "Einfamilienhäuser", vi: "nhà riêng cho một gia đình", ipa: "/ˈaɪnfaˌmiːli̯ənhaʊs/", example: { de: "Das Einfamilienhaus hat einen Garten.", vi: "Căn nhà riêng có một khu vườn." }, usage_vi: "Từ ghép dài: ein + Familie + Haus; mạo từ theo từ cuối (das Haus). Số nhiều: Einfamilienhäuser.", lesson_refs: [a1.p3.l02] }
+  - { id: a1.p3.v.wohngemeinschaft, de: "Wohngemeinschaft", pos: noun, article: die, plural: "Wohngemeinschaften", vi: "nhà ở chung nhiều người (WG)", ipa: "/ˈvoːnɡəˌmaɪnʃaft/", example: { de: "Ich wohne in einer Wohngemeinschaft.", vi: "Tôi sống trong một nhà ở chung." }, usage_vi: "Thường nói tắt: die WG (đọc /veːˈɡeː/, số nhiều WGs). Phổ biến với sinh viên: mỗi người một phòng, dùng chung bếp và phòng tắm.", lesson_refs: [a1.p3.l02] }
+  - { id: a1.p3.v.nachbar, de: "Nachbar", pos: noun, article: der, plural: "Nachbarn", vi: "hàng xóm (nam)", ipa: "/ˈnaxbaːɐ̯/", example: { de: "Mein Nachbar ist sehr freundlich.", vi: "Hàng xóm của tôi rất thân thiện." }, usage_vi: "Nữ: die Nachbarin. Danh từ yếu: den Nachbarn, mit dem Nachbarn. „ch“ sau a đọc /x/.", lesson_refs: [a1.p3.l02] }

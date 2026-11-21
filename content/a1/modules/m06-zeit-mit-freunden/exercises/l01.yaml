@@ -1,0 +1,229 @@
+schema_version: '2.0'
+content_type: exercise-set
+id: a1.m06.l01.ex
+level: A1
+module: a1.m06
+lesson: a1.m06.l01
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+exercises:
+- id: a1.m06.l01.ex.01
+  type: matching
+  skill: vocabulary
+  difficulty: 1
+  objective_refs:
+  - a1.m06.l01.obj1
+  - a1.m06.l01.obj3
+  instructions_vi: Nối từ vựng tiếng Đức ở cột trái với nghĩa tiếng Việt tương ứng ở cột phải.
+  items:
+  - id: a1.m06.l01.ex.01.q1
+    pairs:
+    - left: der Ausflug
+      right: chuyến dã ngoại, chuyến đi chơi ngắn
+    - left: der Treffpunkt
+      right: điểm hẹn, nơi gặp nhau
+    - left: der Badesee
+      right: hồ tắm tự nhiên ngoài trời
+    - left: die Fahrradtour
+      right: chuyến đi dạo bằng xe đạp
+    - left: gemeinsam
+      right: cùng nhau, chung
+    - left: bummeln
+      right: đi dạo thong thả ngắm phố
+    explanation_vi: Từ vựng cốt lõi về hoạt động giải trí và rủ bạn bè đi chơi.
+- id: a1.m06.l01.ex.02
+  type: multiple-choice
+  skill: grammar
+  difficulty: 1
+  objective_refs:
+  - a1.m06.l01.obj2
+  instructions_vi: Chọn tiền tố đúng ở cuối câu để hoàn thành câu chứa động từ tách.
+  items:
+  - id: a1.m06.l01.ex.02.q1
+    prompt: Kommst du am Nachmittag bei mir ___?
+    options:
+    - id: a
+      text: mit
+    - id: b
+      text: vorbei
+    - id: c
+      text: aus
+    - id: d
+      text: los
+    answer:
+    - b
+    explanation_vi: vorbeikommen (ghé qua nhà chơi) → tiền tố vorbei ở cuối câu.
+  - id: a1.m06.l01.ex.02.q2
+    prompt: Am Freitagabend gehen die Jugendlichen gern in die Stadt ___.
+    options:
+    - id: a
+      text: mit
+    - id: b
+      text: aus
+    - id: c
+      text: an
+    - id: d
+      text: auf
+    answer:
+    - b
+    explanation_vi: ausgehen (đi chơi buổi tối) → tiền tố aus ở cuối câu.
+  - id: a1.m06.l01.ex.02.q3
+    prompt: Wann geht die Fahrradtour morgen früh ___?
+    options:
+    - id: a
+      text: los
+    - id: b
+      text: vor
+    - id: c
+      text: mit
+    - id: d
+      text: nach
+    answer:
+    - a
+    explanation_vi: losgehen (khởi hành, bắt đầu) → tiền tố los ở cuối câu.
+  - id: a1.m06.l01.ex.02.q4
+    prompt: Was hast du am Wochenende ___?
+    options:
+    - id: a
+      text: aus
+    - id: b
+      text: vor
+    - id: c
+      text: an
+    - id: d
+      text: auf
+    answer:
+    - b
+    explanation_vi: vorhaben (có kế hoạch, dự định) → tiền tố vor ở cuối câu.
+- id: a1.m06.l01.ex.03
+  type: multiple-choice
+  skill: listening
+  difficulty: 2
+  objective_refs:
+  - a1.m06.l01.obj3
+  - a1.m06.l01.obj4
+  instructions_vi: Nghe đoạn hội thoại giữa Jonas và Florian rồi chọn đáp án đúng.
+  stimulus:
+    ref: a1.m06.l01.b5
+  items:
+  - id: a1.m06.l01.ex.03.q1
+    prompt: Was wollen Jonas und seine Freunde am Samstag machen?
+    options:
+    - id: a
+      text: zu Hause lernen
+    - id: b
+      text: ein Museum besuchen
+    - id: c
+      text: eine Fahrradtour an den Badesee
+    - id: d
+      text: ins Kino gehen
+    answer:
+    - c
+    explanation_vi: 'Jonas nói: ''Wir machen eine Fahrradtour an den Badesee und grillen dort gemeinsam''.'
+  - id: a1.m06.l01.ex.03.q2
+    prompt: Wo ist der Treffpunkt?
+    options:
+    - id: a
+      text: am Badesee
+    - id: b
+      text: bei Florian zu Hause
+    - id: c
+      text: im Park
+    - id: d
+      text: am Hauptbahnhof
+    answer:
+    - d
+    explanation_vi: 'Jonas trả lời: ''Der Treffpunkt ist am Hauptbahnhof um zehn Uhr morgens''.'
+- id: a1.m06.l01.ex.04
+  type: fill-blank
+  skill: listening
+  difficulty: 2
+  objective_refs:
+  - a1.m06.l01.obj2
+  - a1.m06.l01.obj3
+  instructions_vi: Nghe và điền từ thích hợp vào chỗ trống.
+  stimulus:
+    ref: a1.m06.l01.b5
+  items:
+  - id: a1.m06.l01.ex.04.q1
+    prompt: Florian hat am Samstag noch nichts ___. Er ist bei der Tour gern ___.
+    answers:
+    - vor
+    - dabei
+    explanation_vi: 1. vor (vorhaben). 2. dabei (dabei sein).
+- id: a1.m06.l01.ex.05
+  type: true-false
+  skill: reading
+  difficulty: 2
+  objective_refs:
+  - a1.m06.l01.obj1
+  - a1.m06.l01.obj4
+  instructions_vi: Đọc tin nhắn nhóm và xác định các câu sau là Đúng (true) hay Sai (false).
+  stimulus:
+    ref: a1.m06.l01.b6
+  items:
+  - id: a1.m06.l01.ex.05.q1
+    prompt: Am Samstag ist das Wetter sonnig und schön.
+    answer: true
+    explanation_vi: 'Đúng. Leon viết: ''Am Samstag ist das Wetter super sonnig''.'
+  - id: a1.m06.l01.ex.05.q2
+    prompt: David möchte am Samstag zu Hause bleiben.
+    answer: false
+    explanation_vi: 'Sai. David hào hứng tham gia: ''Ich bin auch dabei!''.'
+  - id: a1.m06.l01.ex.05.q3
+    prompt: Die Gruppe trifft sich um zehn Uhr am Grillplatz.
+    answer: true
+    explanation_vi: 'Đúng. Sarah nhắn: ''Um zehn Uhr am Grillplatz''.'
+- id: a1.m06.l01.ex.06
+  type: fill-blank
+  skill: speaking
+  difficulty: 2
+  objective_refs:
+  - a1.m06.l01.obj1
+  - a1.m06.l01.obj3
+  instructions_vi: Điền từ thích hợp để hoàn thiện câu rủ bạn đi chơi.
+  items:
+  - id: a1.m06.l01.ex.06.q1
+    prompt: Hast du Lust ___ einen Ausflug? Wo ist unser ___?
+    answers:
+    - auf
+    - Treffpunkt
+    explanation_vi: 1. auf (Lust haben auf + Akk). 2. Treffpunkt (điểm hẹn).
+- id: a1.m06.l01.ex.07
+  type: word-order
+  skill: writing
+  difficulty: 2
+  objective_refs:
+  - a1.m06.l01.obj2
+  - a1.m06.l01.obj3
+  instructions_vi: Sắp xếp các từ bị xáo trộn thành câu hoàn chỉnh đúng ngữ pháp.
+  items:
+  - id: a1.m06.l01.ex.07.q1
+    tokens:
+    - aus
+    - Freitag
+    - gehen
+    - Am
+    - wir
+    answer: Am Freitag gehen wir aus.
+    prompt_vi: 'Sắp xếp câu với động từ ausgehen:'
+    explanation_vi: Thời gian 'Am Freitag' vị trí 1 + động từ 'gehen' vị trí 2 + chủ ngữ 'wir' + tiền tố 'aus' ở cuối câu.
+  - id: a1.m06.l01.ex.07.q2
+    tokens:
+    - geht
+    - Wann
+    - los
+    - Ausflug
+    - der
+    answer: Wann geht der Ausflug los?
+    prompt_vi: 'Sắp xếp câu hỏi về giờ xuất phát:'
+    explanation_vi: Từ để hỏi 'Wann' + 'geht' + 'der Ausflug' + tiền tố 'los' ở cuối câu.

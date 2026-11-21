@@ -1,0 +1,337 @@
+schema_version: '2.0'
+content_type: exercise-set
+id: a1.m02.l01.ex
+level: A1
+module: a1.m02
+lesson: a1.m02.l01
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+exercises:
+- id: a1.m02.l01.ex.01
+  type: matching
+  skill: vocabulary
+  difficulty: 1
+  objective_refs:
+  - a1.m02.l01.obj1
+  instructions_vi: Nối hoạt động với nghĩa tiếng Việt.
+  items:
+  - id: a1.m02.l01.ex.01.q1
+    pairs:
+    - left: kochen
+      right: nấu ăn
+    - left: schwimmen
+      right: bơi
+    - left: tanzen
+      right: nhảy
+    - left: reisen
+      right: du lịch
+    - left: fotografieren
+      right: chụp ảnh
+    - left: singen
+      right: hát
+    explanation_vi: Sáu hoạt động thời gian rảnh của bài.
+- id: a1.m02.l01.ex.02
+  type: multiple-choice
+  skill: listening
+  difficulty: 1
+  objective_refs:
+  - a1.m02.l01.obj2
+  - a1.m02.l01.obj1
+  instructions_vi: Nghe khảo sát. Mỗi người thích làm gì nhất?
+  stimulus:
+    ref: a1.m02.l01.b6
+  items:
+  - id: a1.m02.l01.ex.02.q1
+    prompt: Minh rất thích …
+    options:
+    - id: a
+      text: kochen
+    - id: b
+      text: fotografieren
+    - id: c
+      text: tanzen
+    answer:
+    - b
+    explanation_vi: 'Minh: “… ich fotografiere sehr gern.” (nấu ăn: gern, chụp ảnh: sehr gern).'
+  - id: a1.m02.l01.ex.02.q2
+    prompt: Ana rất thích …
+    options:
+    - id: a
+      text: tanzen
+    - id: b
+      text: singen
+    - id: c
+      text: schwimmen
+    answer:
+    - a
+    explanation_vi: 'Ana: “Ich tanze sehr gern!”'
+  - id: a1.m02.l01.ex.02.q3
+    prompt: Kenji thích …
+    options:
+    - id: a
+      text: Fußball spielen
+    - id: b
+      text: kochen
+    - id: c
+      text: joggen
+    answer:
+    - c
+    explanation_vi: 'Kenji: “Ich jogge gern!”'
+- id: a1.m02.l01.ex.03
+  type: true-false
+  skill: listening
+  difficulty: 2
+  objective_refs:
+  - a1.m02.l01.obj2
+  instructions_vi: Nghe lại. Đúng hay sai?
+  stimulus:
+    ref: a1.m02.l01.b6
+  items:
+  - id: a1.m02.l01.ex.03.q1
+    prompt: Ana không thích bơi lắm.
+    answer: true
+    explanation_vi: “Ich schwimme nicht so gern.”
+  - id: a1.m02.l01.ex.03.q2
+    prompt: Kenji thích chơi bóng đá.
+    answer: false
+    explanation_vi: “Nein, nicht gern.”
+  - id: a1.m02.l01.ex.03.q3
+    prompt: 'Kenji tự sửa lỗi chia động từ: „ich joggen“ → „ich jogge“.'
+    answer: true
+    explanation_vi: Với ich phải là jogge.
+- id: a1.m02.l01.ex.04
+  type: multiple-choice
+  skill: vocabulary
+  difficulty: 1
+  objective_refs:
+  - a1.m02.l01.obj2
+  instructions_vi: Chọn câu đúng với hình biểu tượng cảm xúc.
+  items:
+  - id: a1.m02.l01.ex.04.q1
+    prompt: 😍 kochen
+    options:
+    - id: a
+      text: Ich koche nicht gern.
+    - id: b
+      text: Ich koche nicht so gern.
+    - id: c
+      text: Ich koche sehr gern.
+    answer:
+    - c
+    explanation_vi: 😍 = sehr gern.
+  - id: a1.m02.l01.ex.04.q2
+    prompt: 🙁 tanzen
+    options:
+    - id: a
+      text: Ich tanze nicht gern.
+    - id: b
+      text: Ich tanze gern.
+    - id: c
+      text: Ich tanze sehr gern.
+    answer:
+    - a
+    explanation_vi: 🙁 = nicht gern.
+  - id: a1.m02.l01.ex.04.q3
+    prompt: 😐 joggen
+    options:
+    - id: a
+      text: Ich jogge gern.
+    - id: b
+      text: Ich jogge nicht so gern.
+    - id: c
+      text: Ich jogge sehr gern.
+    answer:
+    - b
+    explanation_vi: 😐 = nicht so gern.
+- id: a1.m02.l01.ex.05
+  type: fill-blank
+  skill: grammar
+  difficulty: 2
+  objective_refs:
+  - a1.m02.l01.obj4
+  - a1.m02.l01.obj3
+  instructions_vi: Chia động từ trong ngoặc (ôn ngôi số ít từ Kapitel 1).
+  items:
+  - id: a1.m02.l01.ex.05.q1
+    prompt: Was ___ du gern? (machen)
+    answers:
+    - machst
+    explanation_vi: du → -st.
+  - id: a1.m02.l01.ex.05.q2
+    prompt: Meine Kollegin ___ gern. (singen)
+    answers:
+    - singt
+    explanation_vi: sie → -t.
+  - id: a1.m02.l01.ex.05.q3
+    prompt: Mein Freund ___ gern Fußball. (spielen)
+    answers:
+    - spielt
+    explanation_vi: er → -t.
+  - id: a1.m02.l01.ex.05.q4
+    prompt: ___ du gern? (tanzen)
+    answers:
+    - Tanzt
+    explanation_vi: Gốc tận cùng z → du tanzt.
+  - id: a1.m02.l01.ex.05.q5
+    prompt: Er ___ in Hamburg. (arbeiten)
+    answers:
+    - arbeitet
+    explanation_vi: Gốc tận cùng t → arbeitet (thêm e).
+- id: a1.m02.l01.ex.06
+  type: word-order
+  skill: grammar
+  difficulty: 1
+  objective_refs:
+  - a1.m02.l01.obj2
+  - a1.m02.l01.obj3
+  instructions_vi: Sắp xếp thành câu đúng.
+  items:
+  - id: a1.m02.l01.ex.06.q1
+    tokens:
+    - gern
+    - koche
+    - Ich
+    answer: Ich koche gern.
+    explanation_vi: gern đứng sau động từ.
+  - id: a1.m02.l01.ex.06.q2
+    tokens:
+    - Fußball
+    - gern
+    - spielt
+    - Er
+    answer: Er spielt gern Fußball.
+    explanation_vi: Er – spielt – gern – Fußball.
+  - id: a1.m02.l01.ex.06.q3
+    tokens:
+    - gern
+    - du
+    - machst
+    - Was
+    answer: Was machst du gern?
+    explanation_vi: 'W-Frage: Was – machst – du – gern.'
+- id: a1.m02.l01.ex.07
+  type: multiple-choice
+  skill: reading
+  difficulty: 1
+  objective_refs:
+  - a1.m02.l01.obj2
+  - a1.m02.l01.obj4
+  instructions_vi: Đọc ba hồ sơ. Ai …?
+  stimulus:
+    ref: a1.m02.l01.b7
+  items:
+  - id: a1.m02.l01.ex.07.q1
+    prompt: Ai không thích nấu ăn lắm?
+    options:
+    - id: a
+      text: Huy
+    - id: b
+      text: Lena
+    - id: c
+      text: Sara
+    answer:
+    - b
+    explanation_vi: 'Lena: “Ich koche nicht so gern.”'
+  - id: a1.m02.l01.ex.07.q2
+    prompt: Ai thích chơi bóng đá?
+    options:
+    - id: a
+      text: Huy
+    - id: b
+      text: Lena
+    - id: c
+      text: Sara
+    answer:
+    - a
+    explanation_vi: 'Huy: “Ich spiele gern Fußball.”'
+  - id: a1.m02.l01.ex.07.q3
+    prompt: Ai đi xem phim với đồng nghiệp?
+    options:
+    - id: a
+      text: Sara
+    - id: b
+      text: Lena
+    - id: c
+      text: Huy
+    answer:
+    - a
+    explanation_vi: 'Sara: “Meine Kollegin und ich gehen gern ins Kino.”'
+- id: a1.m02.l01.ex.08
+  type: translation
+  skill: grammar
+  difficulty: 2
+  objective_refs:
+  - a1.m02.l01.obj2
+  - a1.m02.l01.obj3
+  instructions_vi: Dịch sang tiếng Đức.
+  items:
+  - id: a1.m02.l01.ex.08.q1
+    direction: vi-de
+    source: Tôi thích du lịch.
+    answers:
+    - Ich reise gern.
+    explanation_vi: Thích = động từ + gern.
+  - id: a1.m02.l01.ex.08.q2
+    direction: vi-de
+    source: Bạn thích làm gì?
+    answers:
+    - Was machst du gern?
+    - Was machen Sie gern?
+    explanation_vi: 'Thân mật: du; trang trọng: Sie.'
+  - id: a1.m02.l01.ex.08.q3
+    direction: vi-de
+    source: Anh ấy không thích bơi.
+    answers:
+    - Er schwimmt nicht gern.
+    explanation_vi: nicht gern.
+- id: a1.m02.l01.ex.09
+  type: speaking-practice
+  skill: speaking
+  difficulty: 1
+  objective_refs:
+  - a1.m02.l01.obj2
+  - a1.m02.l01.obj4
+  instructions_vi: Ghi âm 4–5 câu về sở thích của bạn và của một người bạn (phần Nói).
+  grading: self
+  rubric:
+  - criterion_vi: Có ít nhất 3 hoạt động với 2 mức độ khác nhau
+    points: 2
+  - criterion_vi: gern ở đúng vị trí, động từ chia đúng
+    points: 2
+  - criterion_vi: Có một câu về người khác (er/sie)
+    points: 1
+  items:
+  - id: a1.m02.l01.ex.09.q1
+    prompt_vi: Sở thích của tôi và bạn tôi.
+    model_answer:
+      de: Ich reise sehr gern. Ich koche auch gern. Ich schwimme nicht so gern. Meine Freundin Mai singt gern.
+    explanation_vi: So sánh với mẫu ở phần Nói.
+- id: a1.m02.l01.ex.10
+  type: writing-practice
+  skill: writing
+  difficulty: 1
+  objective_refs:
+  - a1.m02.l01.obj1
+  - a1.m02.l01.obj2
+  instructions_vi: Viết hồ sơ sở thích của bạn (phần Viết).
+  grading: self
+  rubric:
+  - criterion_vi: Có tên, tuổi, thành phố và 3 sở thích
+    points: 2
+  - criterion_vi: Dùng đúng gern / nicht (so) gern
+    points: 2
+  items:
+  - id: a1.m02.l01.ex.10.q1
+    prompt_vi: Hồ sơ sở thích
+    model_answer:
+      de: 'Minh, 25, Hamburg: Ich koche sehr gern. Ich spiele gern Fußball. Ich tanze nicht so gern.'
+    explanation_vi: Tuổi viết bằng số là đủ.

@@ -1,0 +1,172 @@
+schema_version: '2.0'
+content_type: exercise-set
+id: a1.p1.l03.ex
+level: A1
+module: a1.p1
+lesson: a1.p1.l03
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+exercises:
+- id: a1.p1.l03.ex.01
+  type: multiple-choice
+  skill: listening
+  difficulty: 2
+  objective_refs:
+  - a1.p1.l03.obj1
+  - a1.p1.l03.obj2
+  instructions_vi: Hören Teil 1 – Hội thoại 1. Đọc câu hỏi trước, sau đó nghe hai lần.
+  stimulus:
+    ref: a1.p1.l03.b6
+  items:
+  - id: a1.p1.l03.ex.01.q1
+    prompt: Wann ist der neue Termin?
+    options:
+    - id: a
+      text: am Montag
+    - id: b
+      text: am Donnerstag
+    - id: c
+      text: am Mittwoch
+    answer:
+    - b
+    explanation_vi: Cả ba ngày đều được nhắc đến; Montag không được, Mittwoch anh ấy làm việc → Donnerstag.
+- id: a1.p1.l03.ex.02
+  type: multiple-choice
+  skill: listening
+  difficulty: 2
+  objective_refs:
+  - a1.p1.l03.obj1
+  - a1.p1.l03.obj2
+  instructions_vi: Hören Teil 1 – Hội thoại 2.
+  stimulus:
+    ref: a1.p1.l03.b7
+  items:
+  - id: a1.p1.l03.ex.02.q1
+    prompt: Was kostet die Fahrkarte?
+    options:
+    - id: a
+      text: 92 Euro
+    - id: b
+      text: 29 Euro
+    - id: c
+      text: 19 Euro
+    answer:
+    - b
+    explanation_vi: 'neunundzwanzig = 29 (bẫy: neunzehn = 19; 92 là đảo số).'
+- id: a1.p1.l03.ex.03
+  type: multiple-choice
+  skill: listening
+  difficulty: 2
+  objective_refs:
+  - a1.p1.l03.obj1
+  - a1.p1.l03.obj2
+  instructions_vi: Hören Teil 1 – Hội thoại 3.
+  stimulus:
+    ref: a1.p1.l03.b8
+  items:
+  - id: a1.p1.l03.ex.03.q1
+    prompt: Wohin gehen die Kollegen?
+    options:
+    - id: a
+      text: ins Restaurant
+    - id: b
+      text: ins Café am Markt
+    - id: c
+      text: ins Café am Bahnhof
+    answer:
+    - b
+    explanation_vi: Nhà hàng đắt; quán ở nhà ga ồn → quán cà phê ở chợ.
+- id: a1.p1.l03.ex.04
+  type: matching
+  skill: reading
+  difficulty: 1
+  objective_refs:
+  - a1.p1.l03.obj3
+  instructions_vi: Nối từ khóa trên thẻ với câu trả lời phù hợp.
+  stimulus:
+    ref: a1.p1.l03.b9
+  items:
+  - id: a1.p1.l03.ex.04.q1
+    pairs:
+    - left: Name?
+      right: Ich heiße Minh Tran.
+    - left: Alter?
+      right: Ich bin 26 Jahre alt.
+    - left: Land?
+      right: Ich komme aus Vietnam.
+    - left: Wohnort?
+      right: Ich wohne in Hamburg.
+    - left: Beruf?
+      right: Ich bin Informatiker.
+    - left: Hobby?
+      right: Ich spiele gern Fußball.
+    explanation_vi: Mỗi từ khóa → một câu hoàn chỉnh.
+- id: a1.p1.l03.ex.05
+  type: true-false
+  skill: reading
+  difficulty: 1
+  objective_refs:
+  - a1.p1.l03.obj1
+  instructions_vi: 'Chiến lược thi: đúng hay sai?'
+  items:
+  - id: a1.p1.l03.ex.05.q1
+    prompt: Ở Hören Teil 1, nên đọc câu hỏi và các lựa chọn trước khi nghe.
+    answer: true
+    explanation_vi: Giúp biết cần nghe thông tin gì.
+  - id: a1.p1.l03.ex.05.q2
+    prompt: Nếu nghe thấy một lựa chọn trong hội thoại thì đó chắc chắn là đáp án.
+    answer: false
+    explanation_vi: 'Bẫy: hội thoại thường nhắc cả 3 lựa chọn.'
+  - id: a1.p1.l03.ex.05.q3
+    prompt: Trong phần thi nói, được phép nói „Noch einmal, bitte“ khi không hiểu.
+    answer: true
+    explanation_vi: Đây là kỹ năng giao tiếp A1 (A1.SI3).
+- id: a1.p1.l03.ex.06
+  type: speaking-practice
+  skill: speaking
+  difficulty: 2
+  objective_refs:
+  - a1.p1.l03.obj3
+  instructions_vi: Ghi âm phần thi thử Sprechen Teil 1 (phần Nói). Tự chấm theo tiêu chí.
+  grading: self
+  rubric:
+  - criterion_vi: Trả lời đủ 7 từ khóa bằng câu hoàn chỉnh
+    points: 4
+  - criterion_vi: Đánh vần tên đúng
+    points: 1
+  - criterion_vi: Đọc số điện thoại đúng, rõ
+    points: 1
+  items:
+  - id: a1.p1.l03.ex.06.q1
+    prompt_vi: Sprechen Teil 1
+    model_answer:
+      de: 'Ich heiße Lan Nguyen. Ich bin 25 Jahre alt. Ich komme aus Vietnam. Ich wohne in Leipzig. Ich spreche Vietnamesisch, Englisch und ein bisschen Deutsch. Ich bin Studentin. Mein Hobby ist Kochen. – Lan: L – A – N. Nguyen: N – G – U – Y – E – N. – Meine Telefonnummer ist null, eins, sieben, sechs, zwo, vier, acht, fünf, null, drei.'
+    explanation_vi: So sánh với mẫu ở phần Nói.
+- id: a1.p1.l03.ex.07
+  type: writing-practice
+  skill: writing
+  difficulty: 1
+  objective_refs:
+  - a1.p1.l03.obj3
+  instructions_vi: Viết 7 câu trả lời cho thẻ từ khóa (phần Viết).
+  grading: self
+  rubric:
+  - criterion_vi: 7 câu đúng nội dung
+    points: 3
+  - criterion_vi: Ngữ pháp đúng (sein cho tuổi, gern, không mạo từ với nghề)
+    points: 2
+  items:
+  - id: a1.p1.l03.ex.07.q1
+    prompt_vi: 7 từ khóa
+    model_answer:
+      de: Ich heiße Minh Tran. Ich bin 26 Jahre alt. Ich komme aus Vietnam. Ich wohne in Hamburg. Ich spreche Vietnamesisch und Englisch. Ich bin Informatiker. Ich spiele gern Fußball.
+    explanation_vi: So sánh với mẫu.

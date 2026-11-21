@@ -1,0 +1,63 @@
+schema_version: "2.0"
+content_type: lesson
+id: a1.m09.l01
+level: A1
+module: a1.m09
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  references:
+    - { work: "Netzwerk neu A1.2 – Stoffverteilungsplan (Klett)", scope: "Kapitel 9, Mục Meine Wohnung; sein + Adjektiv; Wortschatz Zimmer, Farben", verification: verified }
+  tags: ["wohnen", "adjektiv"]
+order: 1
+title_de: "Meine Wohnung"
+title_vi: "Căn hộ của tôi"
+duration_min: 45
+difficulty: 1
+objectives:
+  - { id: a1.m09.l01.obj1, text_vi: "Bạn có thể gọi tên các phòng và nói căn hộ có những phòng nào.", skill: speaking }
+  - { id: a1.m09.l01.obj2, text_vi: "Bạn có thể mô tả phòng và đồ vật bằng sein + tính từ và màu sắc.", skill: grammar }
+vocabulary_refs: [a1.m09.v.wohnung, a1.m09.v.zimmer, a1.m09.v.wohnzimmer, a1.m09.v.schlafzimmer, a1.m09.v.badezimmer, a1.m09.v.kueche, a1.m09.v.flur, a1.m09.v.balkon, a1.m09.v.wohnen, a1.m09.v.gross, a1.m09.v.klein, a1.m09.v.hell, a1.m09.v.dunkel, a1.m09.v.gemuetlich, a1.m09.v.rot, a1.m09.v.blau, a1.m09.v.gruen, a1.m09.v.gelb, a1.m09.v.weiss, a1.m09.v.schwarz, a1.m09.v.braun]
+grammar_refs: [a1.g.sein-adjektiv]
+expression_refs: [a1.m09.x.wohnung-beschreiben, a1.m09.x.wie-ist, a1.m09.x.wo-wohnst-du]
+exercise_set_ref: a1.m09.l01.ex
+blocks:
+  - id: a1.m09.l01.b1
+    kind: explanation
+    skill: vocabulary
+    title_vi: "Bắt đầu: các phòng trong nhà"
+    body_vi: |
+      Hãy nhớ các phòng đi kèm mạo từ: **das Wohnzimmer, das Schlafzimmer, das Badezimmer, die Küche, der Flur, der Balkon**.
+      Từ ghép lấy mạo từ của **từ cuối**: Wohn+**zimmer** → **das** Wohnzimmer.
+      Hỏi: **Wo wohnst du?** Trả lời: **Ich wohne in einer Wohnung.**
+  - id: a1.m09.l01.b2
+    kind: dialogue
+    skill: speaking
+    title_vi: "Hội thoại: Căn hộ mới của Selin"
+    lines:
+      - { speaker: "Jan", de: "Hallo Selin! Wie ist deine neue Wohnung?", vi: "Chào Selin! Căn hộ mới của bạn thế nào?" }
+      - { speaker: "Selin", de: "Sie ist klein, aber sehr gemütlich. Sie hat zwei Zimmer und einen Balkon.", vi: "Nhỏ nhưng rất ấm cúng. Có hai phòng và một ban công." }
+      - { speaker: "Jan", de: "Und die Küche? Ist sie auch klein?", vi: "Còn nhà bếp? Cũng nhỏ à?" }
+      - { speaker: "Selin", de: "Ja, leider. Aber sie ist hell und gelb. Das Wohnzimmer ist größer.", vi: "Ừ, tiếc là vậy. Nhưng nó sáng và màu vàng. Phòng khách thì rộng hơn." }
+      - { speaker: "Jan", de: "Toll! Welche Farbe hat das Sofa?", vi: "Tuyệt! Ghế sofa màu gì?" }
+      - { speaker: "Selin", de: "Es ist grün. Und der Teppich ist weiß.", vi: "Nó màu xanh lá. Còn tấm thảm màu trắng." }
+  - id: a1.m09.l01.b3
+    kind: reading
+    skill: reading
+    title_vi: "Bài đọc: Eine Wohnung in Köln"
+    paragraphs:
+      - { de: "Familie Aksoy wohnt in Köln in einer Wohnung mit vier Zimmern.", vi: "Gia đình Aksoy sống ở Köln trong một căn hộ có bốn phòng." }
+      - { de: "Das Wohnzimmer ist groß und hell. Das Schlafzimmer ist klein, aber gemütlich.", vi: "Phòng khách rộng và sáng. Phòng ngủ nhỏ nhưng ấm cúng." }
+      - { de: "Die Küche ist rot und das Bad ist weiß. Der Flur ist leider dunkel.", vi: "Nhà bếp màu đỏ và phòng tắm màu trắng. Tiếc là hành lang tối." }
+  - id: a1.m09.l01.b4
+    kind: explanation
+    skill: grammar
+    title_vi: "Ngữ pháp: sein + tính từ"
+    body_vi: |
+      Sau **sein**, tính từ **không đổi đuôi**: *Der Tisch ist groß. Die Lampe ist grün. Das Zimmer ist hell.*
+      Thêm **sehr** (rất), **zu** (quá), **nicht** (không): *Die Küche ist nicht groß.* Xem chủ điểm a1.g.sein-adjektiv.

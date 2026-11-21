@@ -8,7 +8,8 @@ Tài liệu nằm cạnh code và được review cùng PR. Khi một thay đổ
 |---|---|---|
 | [`architecture/`](architecture) | [overview.md](architecture/overview.md): tổng quan, sơ đồ, luồng chính, roadmap. `diagrams/`: sơ đồ bổ sung | Đã có overview |
 | [`adr/`](adr) | Architecture Decision Records. Dùng [0000-template.md](adr/0000-template.md) cho quyết định mới | 0001–0004 |
-| `requirements/` | `srs.md`, `cefr-mapping.md` (can-do statements → tính năng/nội dung), `user-stories/` | Phase 1 |
+| [`curriculum/`](curriculum) | Chương trình học theo cấp độ. [`a1/`](curriculum/a1): tổng quan, mapping Netzwerk neu A1 + CEFR, lộ trình, syllabus ngữ pháp/từ vựng, đặc tả bài học, đánh giá, hướng dẫn tự học, báo cáo Phase 1 | A1: đang triển khai |
+| `requirements/` | `srs.md`, `user-stories/`. (Đối chiếu CEFR theo cấp độ nằm trong `curriculum/<level>/`) | Phase 1 |
 | `database/` | `erd.md`, `data-dictionary.md`, `migration-policy.md` | Phase 1–2 |
 | `api/` | `conventions.md` (đặt tên, versioning, lỗi, phân trang), `authentication.md`, `deprecation-policy.md`. Spec OpenAPI **sinh tự động**, không viết tay ở đây | Phase 1–2 |
 | `ai/` | `overview.md`, `features/` (mỗi tính năng một file: mục tiêu, I/O, prompt, tiêu chí eval), `model-selection.md`, `evaluation.md`, `safety-privacy-cost.md` | Phase 4 |

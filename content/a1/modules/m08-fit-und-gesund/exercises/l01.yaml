@@ -1,0 +1,134 @@
+schema_version: "2.0"
+content_type: exercise-set
+id: a1.m08.l01.ex
+level: A1
+module: a1.m08
+lesson: a1.m08.l01
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  tags: ["sport", "imperativ"]
+exercises:
+  - id: a1.m08.l01.ex.01
+    type: multiple-choice
+    skill: vocabulary
+    difficulty: 1
+    objective_refs: [a1.m08.l01.obj1, a1.m08.obj.sport]
+    instructions_vi: "Chọn đáp án đúng."
+    items:
+      - id: a1.m08.l01.ex.01.q1
+        prompt: "Wie sagt man „bơi“ auf Deutsch?"
+        options: [{ id: a, text: "joggen" }, { id: b, text: "schwimmen" }, { id: c, text: "trainieren" }]
+        answer: [b]
+        explanation_vi: "„schwimmen“ = bơi; „joggen“ = chạy bộ; „trainieren“ = tập luyện nói chung."
+      - id: a1.m08.l01.ex.01.q2
+        prompt: "Welchen Artikel hat „Sport“?"
+        options: [{ id: a, text: "die" }, { id: b, text: "der" }, { id: c, text: "das" }]
+        answer: [b]
+        explanation_vi: "Đúng là „der Sport“ (không có số nhiều)."
+      - id: a1.m08.l01.ex.01.q3
+        prompt: "Sport ist gut für die ___."
+        options: [{ id: a, text: "Gesundheit" }, { id: b, text: "Trainer" }, { id: c, text: "Training" }]
+        answer: [a]
+        explanation_vi: "„für die Gesundheit“ = cho sức khỏe. Đuôi -heit luôn là „die“."
+      - id: a1.m08.l01.ex.01.q4
+        prompt: "Das Gegenteil von „krank“ ist ___."
+        options: [{ id: a, text: "fit" }, { id: b, text: "müde" }, { id: c, text: "gesund" }]
+        answer: [c]
+        explanation_vi: "Trái nghĩa của „krank“ (ốm) là „gesund“ (khỏe mạnh). „fit“ là sung sức, không hẳn là trái nghĩa."
+  - id: a1.m08.l01.ex.02
+    type: matching
+    skill: vocabulary
+    difficulty: 1
+    objective_refs: [a1.m08.l01.obj1]
+    instructions_vi: "Nối từ tiếng Đức với nghĩa tiếng Việt."
+    items:
+      - { id: a1.m08.l01.ex.02.q1, left: "der Sport", right: "thể thao", explanation_vi: "Không đếm được; „Sport machen“ = tập thể thao." }
+      - { id: a1.m08.l01.ex.02.q2, left: "das Training", right: "buổi tập", explanation_vi: "Training = việc tập luyện, một buổi tập." }
+      - { id: a1.m08.l01.ex.02.q3, left: "der Trainer", right: "huấn luyện viên (nam)", explanation_vi: "Nữ: die Trainerin." }
+      - { id: a1.m08.l01.ex.02.q4, left: "joggen", right: "chạy bộ", explanation_vi: "Từ mượn tiếng Anh, j đọc /dʒ/." }
+  - id: a1.m08.l01.ex.03
+    type: fill-blank
+    skill: grammar
+    difficulty: 1
+    objective_refs: [a1.m08.l01.obj2, a1.g.imperativ-du.obj1, a1.m08.obj.imperativ]
+    instructions_vi: "Điền Imperativ du của động từ trong ngoặc (gợi ý)."
+    items:
+      - { id: a1.m08.l01.ex.03.q1, prompt: "___ bitte um acht Uhr!", hint_vi: "kommen", answers: ["Komm"], explanation_vi: "Imperativ du: thân động từ, bỏ -en và bỏ „du“: Komm!" }
+      - { id: a1.m08.l01.ex.03.q2, prompt: "___ mehr Wasser!", hint_vi: "trinken", answers: ["Trink"], explanation_vi: "trinken → Trink!" }
+      - { id: a1.m08.l01.ex.03.q3, prompt: "___ eine Tablette!", hint_vi: "nehmen", answers: ["Nimm"], explanation_vi: "Đổi e→i (du nimmst) nên Imperativ là Nimm!" }
+      - { id: a1.m08.l01.ex.03.q4, prompt: "___ bitte langsam!", hint_vi: "fahren", answers: ["Fahr"], explanation_vi: "Với a→ä (du fährst) Imperativ bỏ Umlaut: Fahr!" }
+  - id: a1.m08.l01.ex.04
+    type: word-order
+    skill: grammar
+    difficulty: 2
+    objective_refs: [a1.m08.l01.obj2, a1.g.imperativ-du.obj1]
+    instructions_vi: "Sắp xếp các từ thành câu mệnh lệnh đúng."
+    items:
+      - id: a1.m08.l01.ex.04.q1
+        tokens: ["Sport!", "jeden", "Mach", "Tag"]
+        answer: "Mach jeden Tag Sport!"
+        translation_vi: "Hãy tập thể thao mỗi ngày!"
+        explanation_vi: "Imperativ: động từ đứng đầu, không có „du“."
+      - id: a1.m08.l01.ex.04.q2
+        tokens: ["auf!", "früh", "Steh"]
+        answer: "Steh früh auf!"
+        translation_vi: "Dậy sớm đi!"
+        explanation_vi: "Động từ tách: „Steh“ ở đầu, tiền tố „auf“ ở cuối câu."
+      - id: a1.m08.l01.ex.04.q3
+        tokens: ["Wasser!", "genug", "Trink"]
+        answer: "Trink genug Wasser!"
+        translation_vi: "Hãy uống đủ nước!"
+        explanation_vi: "Động từ đầu câu + tân ngữ."
+  - id: a1.m08.l01.ex.05
+    type: reading-comprehension
+    skill: reading
+    difficulty: 1
+    objective_refs: [a1.m08.l01.obj1, a1.m08.obj.sport]
+    instructions_vi: "Đọc và trả lời."
+    stimulus:
+      text_de: "Anna trainiert dreimal pro Woche. Am Dienstag joggt sie im Park, am Donnerstag schwimmt sie im Hallenbad und am Samstag trainiert sie im Fitnessstudio."
+      text_vi: "Anna tập ba lần mỗi tuần. Thứ Ba chị chạy bộ trong công viên, thứ Năm chị bơi ở bể bơi trong nhà và thứ Bảy chị tập ở phòng tập thể hình."
+    items:
+      - id: a1.m08.l01.ex.05.q1
+        prompt: "Wie oft trainiert Anna?"
+        options: [{ id: a, text: "Zweimal pro Woche." }, { id: b, text: "Dreimal pro Woche." }, { id: c, text: "Jeden Tag." }]
+        answer: [b]
+        explanation_vi: "„dreimal pro Woche“ = ba lần mỗi tuần."
+      - id: a1.m08.l01.ex.05.q2
+        prompt: "Was macht Anna am Donnerstag?"
+        options: [{ id: a, text: "Sie joggt." }, { id: b, text: "Sie schwimmt." }, { id: c, text: "Sie trainiert im Fitnessstudio." }]
+        answer: [b]
+        explanation_vi: "Thứ Năm (Donnerstag): „schwimmt sie im Hallenbad“."
+      - id: a1.m08.l01.ex.05.q3
+        prompt: "Wo trainiert Anna am Samstag?"
+        options: [{ id: a, text: "Im Park." }, { id: b, text: "Im Hallenbad." }, { id: c, text: "Im Fitnessstudio." }]
+        answer: [c]
+        explanation_vi: "Thứ Bảy: „trainiert sie im Fitnessstudio“."
+  - id: a1.m08.l01.ex.06
+    type: translation
+    skill: writing
+    difficulty: 2
+    objective_refs: [a1.m08.l01.obj1, a1.m08.l01.obj2]
+    instructions_vi: "Dịch sang tiếng Đức."
+    items:
+      - { id: a1.m08.l01.ex.06.q1, direction: vi-de, source: "Hãy uống nhiều nước!", answers: ["Trink viel Wasser!"], explanation_vi: "Imperativ du: Trink + viel Wasser." }
+      - { id: a1.m08.l01.ex.06.q2, direction: vi-de, source: "Tôi tập thể thao hai lần mỗi tuần.", answers: ["Ich mache zweimal pro Woche Sport."], explanation_vi: "„Sport machen“ + „zweimal pro Woche“ (hai lần mỗi tuần)." }
+      - { id: a1.m08.l01.ex.06.q3, direction: vi-de, source: "Nào, chúng mình đi chạy bộ đi!", answers: ["Komm, wir gehen joggen!"], explanation_vi: "„Komm“ là Imperativ du dùng để rủ; „gehen joggen“ = đi chạy bộ." }
+  - id: a1.m08.l01.ex.07
+    type: speaking-practice
+    skill: speaking
+    difficulty: 2
+    objective_refs: [a1.m08.l01.obj1, a1.m08.obj.sport]
+    instructions_vi: "Hãy nói 3 câu về việc tập thể thao của bạn và rủ một người bạn cùng tập."
+    items:
+      - id: a1.m08.l01.ex.07.q1
+        prompt_vi: "Nói bạn tập môn gì, mấy lần mỗi tuần, rồi rủ bạn."
+        model_answer: { de: "Ich schwimme zweimal pro Woche und ich jogge am Sonntag. Komm, wir gehen zusammen joggen!", vi: "Tôi bơi hai lần mỗi tuần và chạy bộ vào Chủ nhật. Nào, chúng mình cùng đi chạy bộ đi!" }
+        rubric_vi: ["Nêu môn thể thao và tần suất (…mal pro Woche).", "Chia đúng động từ ngôi ich.", "Có một Imperativ du để rủ (Komm! / Geh mit!).", "Phát âm rõ sp-/sch-."]
+        explanation_vi: "Bài mẫu kết hợp tần suất và một lời rủ bằng Imperativ du."

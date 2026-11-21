@@ -1,0 +1,237 @@
+schema_version: '2.0'
+content_type: grammar-topic
+id: a1.g.moechten-moegen
+level: A1
+introduced_in: a1.m04
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+  references:
+  - work: Netzwerk neu A1 (Klett)
+    scope: 'Kapitel 4: Die Grillparty; Frühstück, Mittagessen, Abendessen'
+    verification: verified
+  notes_vi: Tương ứng Grammatik „möchten · mögen“ của Kapitel 4.
+introduced_in_lesson: a1.m04.l04
+title_de: Die Verben möchten und mögen
+title_vi: Động từ möchten (muốn) và mögen (thích)
+summary_vi: 'Trong giao tiếp hằng ngày, đặc biệt là khi ăn uống, mua sắm hoặc gọi món tại nhà hàng, hai động từ **möchten** và **mögen** được sử dụng rất thường xuyên:
+
+
+  **1. Động từ möchten (muốn, mong muốn một cách lịch sự):**
+
+  - Về bản chất ngữ pháp, *möchten* là dạng Konjunktiv II lịch sự của động từ *mögen*, nhưng ở trình độ A1 bạn học và dùng nó như một động từ riêng biệt với nghĩa **“tôi muốn / cho tôi xin…”**.
+
+  - Dùng khi gọi món hoặc nêu nguyện vọng: *Ich möchte einen Kaffee, bitte.* (Cho tôi xin một ly cà phê.)
+
+  - Chia động từ: Điểm đặc biệt là ngôi **ich** và ngôi **er/sie/es** có dạng giống hệt nhau: **ich möchte**, **er/sie/es möchte** (không có đuôi -t ở ngôi thứ 3).
+
+
+  **2. Động từ mögen (thích):**
+
+  - Dùng để diễn tả sở thích đối với một món ăn, đồ uống hoặc sự vật nói chung: *Ich mag Schokolade.* (Tôi thích sô-cô-la.)
+
+  - Ở A1, *mögen* thường đi trực tiếp với một **danh từ (ở cách Akkusativ)**.
+
+  - Chia động từ bất quy tắc: ở số ít nguyên âm đổi từ **ö** thành **a**, và ngôi **ich** cũng giống hệt ngôi **er/sie/es**: **ich mag**, **er/sie/es mag** (không có đuôi chia).
+
+
+  **3. Phân biệt mögen, möchten và phó từ gern:**
+
+  - *Ich möchte Kaffee.* = Tôi muốn một ly cà phê (ngay lúc này, ví dụ khi đang gọi đồ uống).
+
+  - *Ich mag Kaffee.* = Tôi thích cà phê (sở thích nói chung đối với cà phê).
+
+  - *Ich trinke gern Kaffee.* = Tôi thích uống cà phê (dùng phó từ *gern* bổ nghĩa cho động từ *trinken*).'
+usage_vi: möchten dùng để gọi món và đưa ra yêu cầu lịch sự; mögen dùng để nói về sở thích đối với đồ ăn, thức uống hoặc sự vật.
+objectives:
+- id: a1.g.moechten-moegen.obj1
+  text_vi: Nói muốn gì và thích gì bằng möchten và mögen.
+  skill: grammar
+rules:
+- id: a1.g.moechten-moegen.r1
+  title_vi: Chia möchten
+  body_vi: Động từ möchten có ngôi ich và er/sie/es giống hệt nhau (ich möchte, er möchte). Ngôi du thêm đuôi -st (du möchtest).
+  examples:
+  - de: Was möchtest du trinken? – Ich möchte einen Tee.
+    vi: Bạn muốn uống gì? – Tôi muốn một tách trà.
+  - de: Er möchte auch ein Stück Kuchen.
+    vi: Anh ấy cũng muốn một miếng bánh ngọt.
+- id: a1.g.moechten-moegen.r2
+  title_vi: Chia mögen
+  body_vi: Động từ mögen đổi nguyên âm ö → a ở số ít, và ngôi ich cùng er/sie/es đều là mag (không thêm đuôi -t).
+  examples:
+  - de: Magst du Gemüse? – Ja, ich mag Karotten und Tomaten.
+    vi: Bạn có thích rau củ không? – Có, tôi thích cà rốt và cà chua.
+  - de: Sie mag keinen Fisch.
+    vi: Cô ấy không thích cá.
+- id: a1.g.moechten-moegen.r3
+  title_vi: Tân ngữ ở Akkusativ
+  body_vi: Sau möchten và mögen, danh từ đóng vai trò tân ngữ trực tiếp và phải ở cách Akkusativ.
+  examples:
+  - de: Ich möchte einen Apfel (m).
+    vi: Tôi muốn một quả táo.
+  - de: Wir mögen den Salat (m) hier sehr.
+    vi: Chúng tôi rất thích món salad ở đây.
+sentence_structures:
+- pattern: Chủ ngữ + möchten + Tân ngữ (Akkusativ) + (bitte).
+  example:
+    de: Ich möchte ein Glas Wasser, bitte.
+    vi: Cho tôi xin một ly nước.
+- pattern: Chủ ngữ + mögen + Tân ngữ (Akkusativ).
+  example:
+    de: Er mag keinen Käse.
+    vi: Anh ấy không thích phô mai.
+tables:
+- title_vi: Bảng chia động từ möchten và mögen ở thì hiện tại
+  header:
+  - Đại từ
+  - möchten (muốn)
+  - mögen (thích)
+  rows:
+  - - ich
+    - möchte
+    - mag
+  - - du
+    - möchtest
+    - magst
+  - - er / sie / es
+    - möchte
+    - mag
+  - - wir
+    - möchten
+    - mögen
+  - - ihr
+    - möchtet
+    - mögt
+  - - sie / Sie
+    - möchten
+    - mögen
+  note_vi: 'Chú ý: Cả hai động từ đều có dạng của ngôi ich và er/sie/es hoàn toàn giống nhau!'
+examples:
+- de: Guten Tag, was möchten Sie bestellen? – Ich möchte ein Hähnchen mit Pommes.
+  vi: Xin chào, quý khách muốn gọi món gì? – Tôi muốn một phần gà với khoai tây chiên.
+- de: Magst du Kaffee? – Nein, ich trinke lieber Tee.
+  vi: Bạn có thích cà phê không? – Không, tôi thích uống trà hơn.
+- de: Möchtet ihr noch etwas essen? – Ja, wir möchten eine Pizza.
+  vi: Các bạn có muốn ăn thêm gì không? – Có, chúng tôi muốn một chiếc pizza.
+- de: Mein Sohn mag keine Suppe.
+  vi: Con trai tôi không thích súp.
+- de: Was möchtest du zum Frühstück? – Ein Brötchen mit Käse, bitte.
+  vi: Bạn muốn dùng gì cho bữa sáng? – Cho tôi một bánh mì nhỏ kẹp phô mai.
+common_mistakes:
+- wrong: Er möchtet einen Tee.
+  right: Er möchte einen Tee.
+  explanation_vi: Ngôi er/sie/es của möchten là möchte (giống hệt ich), không thêm đuôi -t.
+- wrong: Er magt keinen Fisch.
+  right: Er mag keinen Fisch.
+  explanation_vi: Ngôi er/sie/es của mögen là mag (giống hệt ich), không chia magt.
+- wrong: Ich mag trinken Bier.
+  right: Ich trinke gern Bier. / Ich mag Bier.
+  explanation_vi: mögen đi với danh từ (Ich mag Bier); khi có động từ hành động thì dùng động từ đó kết hợp với phó từ gern (Ich trinke gern Bier).
+comparison_vi: Tiếng Anh dùng 'would like' tương đương với möchten và 'like' tương đương với mögen. 'I would like a coffee' = 'Ich möchte einen Kaffee'; 'I like coffee' = 'Ich mag Kaffee'.
+vietnamese_contrast_vi: Tiếng Việt dùng từ 'muốn' và 'thích' không phân biệt danh từ hay động từ đi kèm. Trong tiếng Đức, khi thích làm một việc gì đó (động từ), người Đức ưa chuộng dùng cấu trúc 'động từ + gern' thay vì dùng động từ 'mögen'.
+recap_vi: möchten (muốn lịch sự khi gọi món) và mögen (thích danh từ). Cả hai động từ đều có ngôi ich và er/sie/es giống hệt nhau (ich möchte/er möchte; ich mag/er mag). Sau chúng là tân ngữ Akkusativ.
+next_level_note_vi: Cấu trúc möchten đi kèm động từ nguyên thể ở cuối câu (khung câu với Modalverb) được mở rộng toàn diện ở Kapitel 5 với các động từ khuyết thiếu können, müssen, dürfen.
+prerequisites:
+- g-a1-verben-praesens
+- g-a1-akkusativ
+exercises:
+- id: a1.g.moechten-moegen.ex.01
+  type: multiple-choice
+  skill: grammar
+  difficulty: 1
+  objective_refs:
+  - a1.g.moechten-moegen.r1
+  - a1.g.moechten-moegen.r2
+  - a1.g.moechten-moegen.obj1
+  instructions_vi: Chọn dạng đúng của möchten hoặc mögen điền vào chỗ trống.
+  items:
+  - id: a1.g.moechten-moegen.ex.01.q1
+    prompt: Was ___ du trinken? (möchten)
+    options:
+    - id: a
+      text: möchte
+    - id: b
+      text: möchtet
+    - id: c
+      text: möchtest
+    - id: d
+      text: magst
+    answer:
+    - c
+    explanation_vi: Chủ ngữ du → chia möchten là du möchtest.
+  - id: a1.g.moechten-moegen.ex.01.q2
+    prompt: Er ___ keine Bananen. (mögen)
+    options:
+    - id: a
+      text: mögt
+    - id: b
+      text: magt
+    - id: c
+      text: mag
+    - id: d
+      text: magst
+    answer:
+    - c
+    explanation_vi: Chủ ngữ er → chia mögen là mag (giống ich, không có đuôi -t).
+  - id: a1.g.moechten-moegen.ex.01.q3
+    prompt: Frau Müller, ___ Sie noch Kaffee? (möchten)
+    options:
+    - id: a
+      text: möchten
+    - id: b
+      text: möchte
+    - id: c
+      text: möchtest
+    - id: d
+      text: mögt
+    answer:
+    - a
+    explanation_vi: Chủ ngữ Sie lịch sự → möchten.
+  - id: a1.g.moechten-moegen.ex.01.q4
+    prompt: Wir ___ den Käsekuchen hier sehr. (mögen)
+    options:
+    - id: a
+      text: möchten
+    - id: b
+      text: mag
+    - id: c
+      text: mögt
+    - id: d
+      text: mögen
+    answer:
+    - d
+    explanation_vi: Chủ ngữ wir → mögen.
+- id: a1.g.moechten-moegen.ex.02
+  type: fill-blank
+  skill: grammar
+  difficulty: 2
+  objective_refs:
+  - a1.g.moechten-moegen.r1
+  - a1.g.moechten-moegen.r3
+  - a1.g.moechten-moegen.obj1
+  instructions_vi: Điền dạng chia đúng của möchten hoặc dạng mạo từ thích hợp.
+  items:
+  - id: a1.g.moechten-moegen.ex.02.q1
+    prompt: Ich ___ (möchten) einen Apfelsaft, bitte.
+    answers:
+    - möchte
+    explanation_vi: Ngôi ich chia là möchte.
+  - id: a1.g.moechten-moegen.ex.02.q2
+    prompt: Peter ___ (möchten) einen Salat bestellen.
+    answers:
+    - möchte
+    explanation_vi: Ngôi Peter (er) chia là möchte.
+  - id: a1.g.moechten-moegen.ex.02.q3
+    prompt: Ich möchte ___ (der) Kaffee und ein Wasser.
+    answers:
+    - den
+    explanation_vi: der Kaffee ở Akkusativ đổi thành den Kaffee.

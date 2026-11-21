@@ -1,0 +1,242 @@
+schema_version: '2.0'
+content_type: exercise-set
+id: a1.m03.l05.ex
+level: A1
+module: a1.m03
+lesson: a1.m03.l05
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+exercises:
+- id: a1.m03.l05.ex.01
+  type: matching
+  skill: vocabulary
+  difficulty: 1
+  objective_refs:
+  - a1.m03.l05.obj1
+  instructions_vi: Nối từ quốc tế với nghĩa tiếng Việt.
+  items:
+  - id: a1.m03.l05.ex.01.q1
+    pairs:
+    - left: das Festival
+      right: lễ hội
+    - left: der Film
+      right: bộ phim
+    - left: das Ticket
+      right: vé
+    - left: der Star
+      right: ngôi sao
+    - left: das Event
+      right: sự kiện
+    explanation_vi: Những từ quốc tế này giúp bạn hiểu nhanh một văn bản.
+- id: a1.m03.l05.ex.02
+  type: multiple-choice
+  skill: reading
+  difficulty: 1
+  objective_refs:
+  - a1.m03.l05.obj2
+  - a1.m03.l05.obj1
+  instructions_vi: Đọc thông báo sự kiện. Chọn đáp án đúng.
+  stimulus:
+    ref: a1.m03.l05.b7
+  items:
+  - id: a1.m03.l05.ex.02.q1
+    prompt: Sự kiện nào vào cửa miễn phí?
+    options:
+    - id: a
+      text: Theater-Festival
+    - id: b
+      text: Konzert
+    - id: c
+      text: Filmfestival
+    answer:
+    - a
+    explanation_vi: „Der Eintritt ist frei!“
+  - id: a1.m03.l05.ex.02.q2
+    prompt: Dàn nhạc đến từ đâu?
+    options:
+    - id: a
+      text: aus zehn Ländern
+    - id: b
+      text: aus Hamburg
+    - id: c
+      text: aus Wien
+    answer:
+    - c
+    explanation_vi: „Ein Orchester aus Wien …“
+  - id: a1.m03.l05.ex.02.q3
+    prompt: Vé liên hoan phim giá bao nhiêu?
+    options:
+    - id: a
+      text: 60 Euro
+    - id: b
+      text: 10 Euro
+    - id: c
+      text: 25 Euro
+    answer:
+    - b
+    explanation_vi: '„Tickets: 10 Euro.“'
+- id: a1.m03.l05.ex.03
+  type: true-false
+  skill: reading
+  difficulty: 2
+  objective_refs:
+  - a1.m03.l05.obj1
+  - a1.m03.l05.obj4
+  instructions_vi: Đúng hay sai?
+  stimulus:
+    ref: a1.m03.l05.b7
+  items:
+  - id: a1.m03.l05.ex.03.q1
+    prompt: Liên hoan phim có 100 bộ phim.
+    answer: true
+    explanation_vi: „100 Filme …“
+  - id: a1.m03.l05.ex.03.q2
+    prompt: Lễ hội sân khấu diễn ra trong nhà hòa nhạc.
+    answer: false
+    explanation_vi: „… im Park“.
+  - id: a1.m03.l05.ex.03.q3
+    prompt: „ihre Produktionen“ = các vở diễn của họ (các diễn viên).
+    answer: true
+    explanation_vi: ihre = của họ/của cô ấy.
+- id: a1.m03.l05.ex.04
+  type: multiple-choice
+  skill: listening
+  difficulty: 2
+  objective_refs:
+  - a1.m03.l05.obj3
+  - a1.m03.l05.obj2
+  instructions_vi: Nghe Lisa và Minh. Chọn đáp án đúng.
+  stimulus:
+    ref: a1.m03.l05.b6
+  items:
+  - id: a1.m03.l05.ex.04.q1
+    prompt: Minh thấy hòa nhạc thế nào?
+    options:
+    - id: a
+      text: super
+    - id: b
+      text: toll
+    - id: c
+      text: nicht so interessant
+    answer:
+    - c
+    explanation_vi: „… ich finde Konzerte nicht so interessant.“
+  - id: a1.m03.l05.ex.04.q2
+    prompt: Họ chọn đi đâu?
+    options:
+    - id: a
+      text: zum Filmfestival
+    - id: b
+      text: zum Konzert
+    - id: c
+      text: ins Theater
+    answer:
+    - a
+    explanation_vi: „Okay, gehen wir zum Filmfestival!“
+  - id: a1.m03.l05.ex.04.q3
+    prompt: Một vé liên hoan phim giá bao nhiêu?
+    options:
+    - id: a
+      text: 12 Euro
+    - id: b
+      text: 10 Euro
+    - id: c
+      text: 100 Euro
+    answer:
+    - b
+    explanation_vi: „Zehn Euro.“
+- id: a1.m03.l05.ex.05
+  type: fill-blank
+  skill: grammar
+  difficulty: 2
+  objective_refs:
+  - a1.m03.l05.obj3
+  instructions_vi: Chia động từ finden.
+  items:
+  - id: a1.m03.l05.ex.05.q1
+    prompt: Ich ___ das Festival toll.
+    answers:
+    - finde
+    explanation_vi: ich finde.
+  - id: a1.m03.l05.ex.05.q2
+    prompt: Wie ___ du den Film?
+    answers:
+    - findest
+    explanation_vi: Gốc -d → du findest.
+  - id: a1.m03.l05.ex.05.q3
+    prompt: Er ___ Konzerte interessant.
+    answers:
+    - findet
+    explanation_vi: Gốc -d → er findet.
+- id: a1.m03.l05.ex.06
+  type: translation
+  skill: vocabulary
+  difficulty: 2
+  objective_refs:
+  - a1.m03.l05.obj3
+  - a1.m03.l05.obj2
+  instructions_vi: Dịch sang tiếng Đức.
+  items:
+  - id: a1.m03.l05.ex.06.q1
+    direction: vi-de
+    source: Tôi thấy bộ phim thú vị.
+    answers:
+    - Ich finde den Film interessant.
+    - Ich finde den Film sehr interessant.
+    explanation_vi: finden + den Film (Akkusativ – Kapitel 4) + tính từ.
+  - id: a1.m03.l05.ex.06.q2
+    direction: vi-de
+    source: Vé giá bao nhiêu?
+    answers:
+    - Was kostet das Ticket?
+    - Wie viel kostet das Ticket?
+    explanation_vi: Was kostet …?
+- id: a1.m03.l05.ex.07
+  type: speaking-practice
+  skill: speaking
+  difficulty: 2
+  objective_refs:
+  - a1.m03.l05.obj3
+  - a1.m03.l05.obj2
+  instructions_vi: 'Ghi âm: chọn sự kiện, nói ý kiến và rủ bạn (phần Nói).'
+  grading: self
+  rubric:
+  - criterion_vi: Nói được sự kiện và ít nhất một thông tin (giá, nơi)
+    points: 2
+  - criterion_vi: Bày tỏ ý kiến với finden đúng
+    points: 2
+  items:
+  - id: a1.m03.l05.ex.07.q1
+    prompt_vi: Bạn thích sự kiện nào?
+    model_answer:
+      de: Das Theater-Festival finde ich toll. Der Eintritt ist frei! Schauspieler aus zehn Ländern – das ist interessant. Gehen wir zum Festival?
+    explanation_vi: So sánh với mẫu.
+- id: a1.m03.l05.ex.08
+  type: writing-practice
+  skill: writing
+  difficulty: 1
+  objective_refs:
+  - a1.m03.l05.obj1
+  - a1.m03.l05.obj2
+  instructions_vi: Viết thông báo sự kiện (phần Viết).
+  grading: self
+  rubric:
+  - criterion_vi: Có tên, nội dung, giá vé
+    points: 2
+  - criterion_vi: Dùng ít nhất 3 từ quốc tế, chính tả đúng
+    points: 1
+  items:
+  - id: a1.m03.l05.ex.08.q1
+    prompt_vi: Thông báo sự kiện
+    model_answer:
+      de: 'Food-Festival am See: Essen aus der ganzen Welt. Viele Gäste aus Vietnam, Japan und Italien. Tickets: 5 Euro.'
+    explanation_vi: So sánh với mẫu.

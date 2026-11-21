@@ -1,0 +1,142 @@
+schema_version: "2.0"
+content_type: assessment
+id: a1.m09.test
+level: A1
+module: a1.m09
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  notes_vi: "Ngưỡng đạt 60% là đề xuất, chưa được xác nhận."
+  tags: ["test"]
+title_vi: "Kiểm tra Kapitel 9 – Meine Wohnung"
+duration_min: 35
+pass_percent: 60
+exercises:
+  - id: a1.m09.test.01
+    type: listening-practice
+    skill: listening
+    difficulty: 2
+    objective_refs: [a1.m09.obj.wohnung, a1.m09.obj.einladung]
+    instructions_vi: "Nghe (hoặc đọc transcript) và chọn đáp án."
+    stimulus:
+      text_de: "Hallo Eva, hier ist Tim. Ich habe jetzt eine Wohnung! Sie hat drei Zimmer und einen Balkon. Das Wohnzimmer ist groß und blau. Am Samstag mache ich eine Party. Kommst du?"
+      audio_status: pending-tts
+    items:
+      - id: a1.m09.test.01.q1
+        prompt: "Wie viele Zimmer hat die Wohnung?"
+        options: [{ id: a, text: "Zwei." }, { id: b, text: "Vier." }, { id: c, text: "Drei." }]
+        answer: [c]
+        explanation_vi: "„Sie hat drei Zimmer und einen Balkon.“"
+      - id: a1.m09.test.01.q2
+        prompt: "Welche Farbe hat das Wohnzimmer?"
+        options: [{ id: a, text: "Blau." }, { id: b, text: "Grün." }, { id: c, text: "Gelb." }]
+        answer: [a]
+        explanation_vi: "„Das Wohnzimmer ist groß und blau.“"
+  - id: a1.m09.test.02
+    type: reading-comprehension
+    skill: reading
+    difficulty: 2
+    objective_refs: [a1.m09.obj.anzeige]
+    instructions_vi: "Đọc tin rao và chọn đáp án."
+    stimulus:
+      text_de: "Wohnung in Wien, 45 Quadratmeter, zwei Zimmer. Hell und ruhig. Miete: 590 Euro. Nebenkosten: 80 Euro. Anruf bitte ab 17 Uhr."
+      text_vi: "Căn hộ ở Wien, 45 mét vuông, hai phòng. Sáng và yên tĩnh. Tiền thuê: 590 euro. Chi phí phụ: 80 euro. Xin gọi điện từ 17 giờ."
+    items:
+      - id: a1.m09.test.02.q1
+        prompt: "Wie groß ist die Wohnung?"
+        options: [{ id: a, text: "45 Quadratmeter." }, { id: b, text: "590 Quadratmeter." }, { id: c, text: "80 Quadratmeter." }]
+        answer: [a]
+        explanation_vi: "„45 Quadratmeter“ là diện tích."
+      - id: a1.m09.test.02.q2
+        prompt: "Wann soll man anrufen?"
+        options: [{ id: a, text: "Vor 17 Uhr." }, { id: b, text: "Ab 17 Uhr." }, { id: c, text: "Am Samstag." }]
+        answer: [b]
+        explanation_vi: "„Anruf bitte ab 17 Uhr“ = xin gọi từ 17 giờ."
+  - id: a1.m09.test.03
+    type: fill-blank
+    skill: grammar
+    difficulty: 2
+    objective_refs: [a1.m09.obj.adjektiv, a1.m09.obj.wohin-wo, a1.m09.obj.position]
+    instructions_vi: "Điền từ thích hợp."
+    items:
+      - { id: a1.m09.test.03.q1, prompt: "Das Zimmer ist ___.", hint_vi: "trái nghĩa với klein", answers: ["groß"], explanation_vi: "Sau „sein“ tính từ không đổi đuôi." }
+      - { id: a1.m09.test.03.q2, prompt: "Ich gehe in ___ Küche.", hint_vi: "Wohin?", answers: ["die"], explanation_vi: "Wohin → Akkusativ; „die Küche“." }
+      - { id: a1.m09.test.03.q3, prompt: "Die Lampe steht neben ___ Sofa.", answers: ["dem"], explanation_vi: "neben + Dativ (Wo?); „das Sofa“ → dem." }
+      - { id: a1.m09.test.03.q4, prompt: "Ich bin in ___ Küche.", hint_vi: "Wo?", answers: ["der"], explanation_vi: "Wo → Dativ; giống cái → der." }
+  - id: a1.m09.test.04
+    type: multiple-choice
+    skill: vocabulary
+    difficulty: 1
+    objective_refs: [a1.m09.obj.position, a1.m09.obj.einladung]
+    instructions_vi: "Chọn đáp án đúng."
+    items:
+      - id: a1.m09.test.04.q1
+        prompt: "Wie heißt der Plural von „der Schrank“?"
+        options: [{ id: a, text: "die Schränke" }, { id: b, text: "die Schrank" }, { id: c, text: "die Schränken" }]
+        answer: [a]
+        explanation_vi: "Số nhiều: die Schränke (có Umlaut)."
+      - id: a1.m09.test.04.q2
+        prompt: "Welcher Satz ist richtig?"
+        options: [{ id: a, text: "Das Buch steht auf dem Tisch." }, { id: b, text: "Das Buch liegt auf dem Tisch." }, { id: c, text: "Das Buch liegt auf den Tisch." }]
+        answer: [b]
+        explanation_vi: "Sách nằm phẳng → „liegt“; Wo? → Dativ „dem“."
+      - id: a1.m09.test.04.q3
+        prompt: "Wie sagt man „Tiếc là tôi không thể đến“?"
+        options: [{ id: a, text: "Toll, ich komme!" }, { id: b, text: "Leider kann ich nicht kommen." }, { id: c, text: "Vielen Dank!" }]
+        answer: [b]
+        explanation_vi: "Từ chối lịch sự: „Leider kann ich nicht kommen.“"
+  - id: a1.m09.test.05
+    type: word-order
+    skill: grammar
+    difficulty: 2
+    objective_refs: [a1.m09.obj.position, a1.m09.obj.wohin-wo]
+    instructions_vi: "Sắp xếp thành câu đúng."
+    items:
+      - id: a1.m09.test.05.q1
+        tokens: ["dem", "Teppich", "liegt", "Tisch.", "unter", "Der"]
+        answer: "Der Teppich liegt unter dem Tisch."
+        translation_vi: "Tấm thảm nằm dưới bàn."
+        explanation_vi: "unter + Dativ (dem Tisch)."
+      - id: a1.m09.test.05.q2
+        tokens: ["die", "gehe", "Ich", "in", "Küche."]
+        answer: "Ich gehe in die Küche."
+        translation_vi: "Tôi đi vào bếp."
+        explanation_vi: "Wohin → in + Akkusativ (die Küche)."
+  - id: a1.m09.test.06
+    type: translation
+    skill: writing
+    difficulty: 2
+    objective_refs: [a1.m09.obj.adjektiv, a1.m09.obj.position]
+    instructions_vi: "Dịch sang tiếng Đức."
+    items:
+      - { id: a1.m09.test.06.q1, direction: vi-de, source: "Căn hộ rất sáng.", answers: ["Die Wohnung ist sehr hell."], explanation_vi: "sein + sehr + tính từ." }
+      - { id: a1.m09.test.06.q2, direction: vi-de, source: "Cái ghế đứng cạnh cái bàn.", answers: ["Der Stuhl steht neben dem Tisch."], explanation_vi: "neben + Dativ (dem Tisch); ghế đứng nên „steht“." }
+  - id: a1.m09.test.07
+    type: writing-practice
+    skill: writing
+    difficulty: 3
+    objective_refs: [a1.m09.obj.einladung]
+    instructions_vi: "Viết thư ngắn (3–4 câu) trả lời lời mời đi dự tiệc tân gia: bạn không thể đến vì phải làm việc."
+    items:
+      - id: a1.m09.test.07.q1
+        prompt_vi: "Viết thư từ chối lịch sự có cảm ơn, lý do và lời kết."
+        model_answer: { de: "Liebe Ana, vielen Dank für die Einladung! Leider kann ich nicht kommen. Ich muss am Samstag arbeiten. Viele Grüße, Max", vi: "Ana thân mến, cảm ơn nhiều vì lời mời! Tiếc là mình không thể đến. Thứ Bảy mình phải làm việc. Thân ái, Max" }
+        rubric_vi: ["Có lời chào và lời kết thân mật.", "Cảm ơn lời mời.", "Từ chối bằng „Leider kann ich nicht kommen“ và nêu lý do.", "Động từ chính ở cuối câu với modalverb."]
+        explanation_vi: "Bài mẫu có cảm ơn, từ chối, lý do với „muss“."
+  - id: a1.m09.test.08
+    type: speaking-practice
+    skill: speaking
+    difficulty: 2
+    objective_refs: [a1.m09.obj.wohnung, a1.m09.obj.adjektiv]
+    instructions_vi: "Nói 3–4 câu giới thiệu căn hộ của bạn: phòng, màu sắc, đồ vật."
+    items:
+      - id: a1.m09.test.08.q1
+        prompt_vi: "Mô tả nhà của bạn cho một người bạn mới."
+        model_answer: { de: "Meine Wohnung hat zwei Zimmer und eine Küche. Das Wohnzimmer ist groß und hell. Das Sofa ist grün und steht vor dem Fenster.", vi: "Căn hộ của tôi có hai phòng và một bếp. Phòng khách rộng và sáng. Ghế sofa màu xanh lá và đặt trước cửa sổ." }
+        rubric_vi: ["Nêu số phòng.", "Dùng sein + tính từ đúng.", "Có ít nhất một giới từ vị trí + Dativ.", "Nói trôi chảy."]
+        explanation_vi: "Bài mẫu kết hợp phòng, tính từ, màu và vị trí."

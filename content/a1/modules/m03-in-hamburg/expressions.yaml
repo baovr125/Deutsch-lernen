@@ -1,0 +1,316 @@
+schema_version: '2.0'
+content_type: expression-set
+id: a1.m03.expr
+level: A1
+module: a1.m03
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+  references:
+  - work: Netzwerk neu A1 (Klett)
+    scope: 'Kapitel 3: In Hamburg; Die Taxifahrt; Kein Glück?!; Links, rechts, geradeaus; Landeskunde: Events in Hamburg; Landeskunde: Jahreszeiten in D-A-CH; Film: Die Netzwerk-WG; kurz und klar: Redemittel und Grammatik'
+    verification: verified
+  notes_vi: Trình tự và phạm vi theo Stoffverteilungsplan Netzwerk neu A1.1 (Kapitel 3, 10 UE) và Kapitelwortschatz. Thông tin về Hamburg trong bài đọc là thông tin phổ thông, viết lại hoàn toàn.
+entries:
+- id: a1.m03.x.da-sehen-sie
+  de: Da sehen Sie …
+  vi: Ở đó quý vị thấy …
+  register: formal
+  situation_vi: Hướng dẫn viên giới thiệu địa điểm trong chuyến tham quan.
+  dialogue:
+  - speaker: Stadtführerin
+    de: Und da sehen Sie das Rathaus.
+    vi: Và ở đó quý vị thấy tòa thị chính.
+  - speaker: Tourist
+    de: Oh, das Rathaus ist sehr schön!
+    vi: Ồ, tòa thị chính đẹp quá!
+  lesson_refs:
+  - a1.m03.l01
+- id: a1.m03.x.wie-hoch-lang-ist-ist-circa-meter-hoch-l
+  de: Wie hoch / lang ist …? – … ist circa … Meter hoch / lang.
+  vi: … cao/dài bao nhiêu? – … cao/dài khoảng … mét.
+  register: neutral
+  situation_vi: Hỏi và nói số đo.
+  dialogue:
+  - speaker: Minh
+    de: Wie hoch ist der Turm?
+    vi: Tòa tháp cao bao nhiêu?
+  - speaker: Lisa
+    de: Er ist über 130 Meter hoch.
+    vi: Nó cao hơn 130 mét.
+  lesson_refs:
+  - a1.m03.l01
+- id: a1.m03.x.das-ist-er-sie-es-ist
+  de: Das ist … Er/Sie/Es ist …
+  vi: Đây là … Nó …
+  register: neutral
+  situation_vi: Giới thiệu một địa điểm và mô tả nó (dùng er/sie/es thay cho danh từ).
+  dialogue:
+  - speaker: Lan
+    de: Das ist die Elbphilharmonie. Sie ist ein Konzerthaus.
+    vi: Đây là Elbphilharmonie. Đó là một nhà hòa nhạc.
+  - speaker: Tom
+    de: Toll!
+    vi: Tuyệt!
+  lesson_refs:
+  - a1.m03.l01
+- id: a1.m03.x.zum-hotel-bitte
+  de: Zum Hotel …, bitte.
+  vi: Cho tôi đến khách sạn …
+  register: formal
+  situation_vi: Nói với tài xế taxi điểm đến.
+  dialogue:
+  - speaker: Fahrer
+    de: Moin! Wohin?
+    vi: Chào! Đi đâu ạ?
+  - speaker: Lan
+    de: Zum Hotel Elbblick, bitte.
+    vi: Cho tôi đến khách sạn Elbblick.
+  lesson_refs:
+  - a1.m03.l02
+- id: a1.m03.x.da-ist-ein-der-die-das-ist
+  de: Da ist ein … Der/Die/Das … ist …
+  vi: Kia có một … Cái … đó …
+  register: neutral
+  situation_vi: Chỉ và giới thiệu một địa điểm.
+  dialogue:
+  - speaker: Fahrer
+    de: Da rechts ist ein See. Der See heißt Alster.
+    vi: Kia bên phải có một cái hồ. Hồ đó tên là Alster.
+  - speaker: Lan
+    de: Der See ist sehr schön!
+    vi: Cái hồ đẹp quá!
+  lesson_refs:
+  - a1.m03.l02
+- id: a1.m03.x.moin-gruess-gott-grueezi
+  de: Moin! / Grüß Gott! / Grüezi!
+  vi: Xin chào! (vùng miền)
+  register: neutral
+  situation_vi: Moin – Hamburg, miền Bắc Đức; Grüß Gott – Bayern, Áo; Grüezi – Thụy Sĩ. Guten Tag dùng được ở mọi nơi.
+  dialogue:
+  - speaker: Verkäuferin in Wien
+    de: Grüß Gott!
+    vi: Xin chào!
+  - speaker: Minh
+    de: Grüß Gott! Ein Kaffee, bitte.
+    vi: Xin chào! Cho tôi một ly cà phê.
+  lesson_refs:
+  - a1.m03.l02
+- id: a1.m03.x.das-ist-kein-das-ist-ein-eine
+  de: Das ist kein …, das ist ein/eine …
+  vi: Đó không phải …, đó là …
+  register: neutral
+  situation_vi: Sửa lại khi ai đó nhầm.
+  dialogue:
+  - speaker: Tom
+    de: Ist das ein Bus?
+    vi: Đó là xe buýt à?
+  - speaker: Lan
+    de: Nein, das ist kein Bus. Das ist eine Straßenbahn.
+    vi: Không, đó không phải xe buýt. Đó là tàu điện.
+  lesson_refs:
+  - a1.m03.l03
+- id: a1.m03.x.so-ein-glueck-kein-glueck
+  de: So ein Glück! / Kein Glück!
+  vi: May quá! / Xui quá!
+  register: informal
+  situation_vi: Phản ứng khi gặp may hoặc xui.
+  dialogue:
+  - speaker: Mai
+    de: Der Bus kommt nicht!
+    vi: Xe buýt không đến!
+  - speaker: Minh
+    de: Kein Glück! Aber da ist ein Taxi. – So ein Glück!
+    vi: Xui quá! Nhưng kia có taxi. – May quá!
+  lesson_refs:
+  - a1.m03.l03
+- id: a1.m03.x.jetzt-aber-schnell
+  de: Jetzt aber schnell!
+  vi: Giờ thì nhanh lên!
+  register: informal
+  situation_vi: Giục nhau khi trễ giờ.
+  dialogue:
+  - speaker: Paul
+    de: Die U-Bahn fährt in zwei Minuten!
+    vi: Tàu điện ngầm chạy trong hai phút nữa!
+  - speaker: Lisa
+    de: Jetzt aber schnell!
+    vi: Giờ thì nhanh lên!
+  lesson_refs:
+  - a1.m03.l03
+- id: a1.m03.x.entschuldigung-wo-ist-wie-komme-ich-zum
+  de: Entschuldigung, wo ist …? / Wie komme ich zum/zur …?
+  vi: Xin lỗi, … ở đâu ạ? / Làm sao để tôi đến …?
+  register: formal
+  situation_vi: Hỏi đường một người lạ (trang trọng).
+  dialogue:
+  - speaker: Lan
+    de: Entschuldigung, wo ist der Markt?
+    vi: Xin lỗi, chợ ở đâu ạ?
+  - speaker: Mann
+    de: Gehen Sie geradeaus und dann links.
+    vi: Chị đi thẳng rồi rẽ trái.
+  lesson_refs:
+  - a1.m03.l04
+- id: a1.m03.x.gehen-sie-zuerst-dann
+  de: Gehen Sie zuerst …, dann …
+  vi: Trước tiên … rồi sau đó …
+  register: formal
+  situation_vi: Chỉ đường theo từng bước.
+  dialogue:
+  - speaker: Frau
+    de: Gehen Sie zuerst geradeaus. Dann gehen Sie rechts. Da ist der Park.
+    vi: Trước tiên anh đi thẳng. Sau đó rẽ phải. Công viên ở đó.
+  - speaker: Minh
+    de: Geradeaus, dann rechts. Okay!
+    vi: Đi thẳng, rồi rẽ phải. Được rồi!
+  lesson_refs:
+  - a1.m03.l04
+- id: a1.m03.x.vielen-dank-bitte-gern
+  de: Vielen Dank! – Bitte, gern!
+  vi: Cảm ơn nhiều! – Không có gì!
+  register: neutral
+  situation_vi: Cảm ơn sau khi được chỉ đường và đáp lại.
+  dialogue:
+  - speaker: Lan
+    de: Vielen Dank!
+    vi: Cảm ơn nhiều!
+  - speaker: Mann
+    de: Bitte, gern!
+    vi: Không có gì!
+  lesson_refs:
+  - a1.m03.l04
+- id: a1.m03.x.ja-genau-ist-das-einfach
+  de: Ja, genau. / Ist das einfach?
+  vi: Đúng vậy. / Có dễ không?
+  register: neutral
+  situation_vi: Xác nhận đã hiểu đúng lời chỉ đường.
+  dialogue:
+  - speaker: Minh
+    de: Also zuerst geradeaus und dann links?
+    vi: Vậy là đi thẳng trước rồi rẽ trái ạ?
+  - speaker: Frau
+    de: Ja, genau. Ganz einfach!
+    vi: Đúng vậy. Rất đơn giản!
+  lesson_refs:
+  - a1.m03.l04
+- id: a1.m03.x.wie-findest-du-ich-finde-toll-interessan
+  de: Wie findest du …? – Ich finde … toll / interessant / nicht so interessant.
+  vi: Bạn thấy … thế nào? – Tôi thấy … tuyệt / thú vị / không thú vị lắm.
+  register: informal
+  situation_vi: Hỏi và nêu ý kiến.
+  dialogue:
+  - speaker: Lisa
+    de: Wie findest du das Filmfestival?
+    vi: Bạn thấy liên hoan phim thế nào?
+  - speaker: Minh
+    de: Ich finde es super! Die Filme sind toll.
+    vi: Mình thấy tuyệt! Các bộ phim hay lắm.
+  lesson_refs:
+  - a1.m03.l05
+- id: a1.m03.x.was-kostet-das-ticket-euro
+  de: Was kostet das Ticket? – … Euro.
+  vi: Vé giá bao nhiêu? – … euro.
+  register: neutral
+  situation_vi: Hỏi giá vé.
+  dialogue:
+  - speaker: Mai
+    de: Was kostet das Ticket?
+    vi: Vé giá bao nhiêu ạ?
+  - speaker: Kasse
+    de: Zwölf Euro, bitte.
+    vi: Mười hai euro ạ.
+  lesson_refs:
+  - a1.m03.l05
+- id: a1.m03.x.gehen-wir-zum-festival
+  de: Gehen wir zum Festival?
+  vi: Mình đi lễ hội nhé?
+  register: informal
+  situation_vi: Rủ đi sự kiện (ôn Kapitel 2; zum = zu dem, học như cụm).
+  dialogue:
+  - speaker: Tom
+    de: Am Samstag ist ein Konzert. Gehen wir zum Konzert?
+    vi: Thứ Bảy có buổi hòa nhạc. Mình đi nghe nhé?
+  - speaker: Anna
+    de: Ja, gern!
+    vi: Ừ, thích lắm!
+  lesson_refs:
+  - a1.m03.l05
+- id: a1.m03.x.im-mache-ich-gern
+  de: Im … mache ich gern …
+  vi: Vào tháng/mùa … tôi thích …
+  register: neutral
+  situation_vi: Nói hoạt động theo mùa.
+  dialogue:
+  - speaker: Lukas
+    de: Im Winter fahre ich gern Ski. Und du?
+    vi: Mùa đông mình thích trượt tuyết. Còn bạn?
+  - speaker: Lan
+    de: Im Winter? Ich bleibe zu Hause und lese!
+    vi: Mùa đông à? Mình ở nhà đọc sách!
+  lesson_refs:
+  - a1.m03.l06
+- id: a1.m03.x.welche-jahreszeit-magst-du-ich-mag-den-f
+  de: Welche Jahreszeit magst du? – Ich mag den Frühling.
+  vi: Bạn thích mùa nào? – Tôi thích mùa xuân.
+  register: informal
+  situation_vi: Hỏi và nói mùa yêu thích (mögen học kỹ ở Kapitel 4 – ở đây học như cụm).
+  dialogue:
+  - speaker: Anna
+    de: Welche Jahreszeit magst du?
+    vi: Bạn thích mùa nào?
+  - speaker: Huy
+    de: Ich mag den Herbst. Er ist schön.
+    vi: Mình thích mùa thu. Mùa thu đẹp.
+  lesson_refs:
+  - a1.m03.l06
+- id: a1.m03.x.nach-dem-weg-fragen-und-den-weg-beschrei
+  de: 'Nach dem Weg fragen und den Weg beschreiben: Entschuldigung, wo ist …? – Gehen Sie zuerst …, dann …'
+  vi: Hỏi và chỉ đường
+  register: formal
+  situation_vi: Tổng kết bài 4.
+  dialogue:
+  - speaker: A
+    de: Entschuldigung, wo ist die Kirche?
+    vi: Xin lỗi, nhà thờ ở đâu ạ?
+  - speaker: B
+    de: Gehen Sie zuerst geradeaus und dann links.
+    vi: Đi thẳng trước rồi rẽ trái.
+  lesson_refs:
+  - a1.m03.review
+- id: a1.m03.x.ueber-eine-stadt-sprechen-das-ist-ein-ei
+  de: 'Über eine Stadt sprechen: Das ist ein/eine … Der/Die/Das … ist hoch/lang/alt.'
+  vi: Giới thiệu thành phố
+  register: neutral
+  situation_vi: Tổng kết bài 1–2.
+  dialogue:
+  - speaker: A
+    de: Was ist das?
+    vi: Đó là gì?
+  - speaker: B
+    de: Das ist eine Brücke. Die Brücke ist sehr lang.
+    vi: Đó là một cây cầu. Cây cầu rất dài.
+  lesson_refs:
+  - a1.m03.review
+- id: a1.m03.x.meinung-wie-findest-du-ich-finde-toll
+  de: 'Meinung: Wie findest du …? – Ich finde … toll.'
+  vi: Ý kiến
+  register: informal
+  situation_vi: Tổng kết bài 5.
+  dialogue:
+  - speaker: A
+    de: Wie findest du das Festival?
+    vi: Bạn thấy lễ hội thế nào?
+  - speaker: B
+    de: Ich finde es toll!
+    vi: Mình thấy tuyệt!
+  lesson_refs:
+  - a1.m03.review

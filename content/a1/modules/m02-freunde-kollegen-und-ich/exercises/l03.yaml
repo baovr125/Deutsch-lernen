@@ -1,0 +1,308 @@
+schema_version: '2.0'
+content_type: exercise-set
+id: a1.m02.l03.ex
+level: A1
+module: a1.m02
+lesson: a1.m02.l03
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+exercises:
+- id: a1.m02.l03.ex.01
+  type: word-order
+  skill: vocabulary
+  difficulty: 1
+  objective_refs:
+  - a1.m02.l03.obj1
+  instructions_vi: Sắp xếp các ngày trong tuần theo đúng thứ tự (bắt đầu từ thứ Hai), viết cách nhau bằng dấu cách.
+  items:
+  - id: a1.m02.l03.ex.01.q1
+    tokens:
+    - Mittwoch
+    - Montag
+    - Freitag
+    - Dienstag
+    - Donnerstag
+    answer: Montag Dienstag Mittwoch Donnerstag Freitag
+    explanation_vi: Montag (T2) – Dienstag (T3) – Mittwoch (T4) – Donnerstag (T5) – Freitag (T6).
+- id: a1.m02.l03.ex.02
+  type: fill-blank
+  skill: grammar
+  difficulty: 1
+  objective_refs:
+  - a1.m02.l03.obj1
+  - a1.m02.l03.obj4
+  instructions_vi: Điền am hoặc ins.
+  items:
+  - id: a1.m02.l03.ex.02.q1
+    prompt: Gehen wir ___ Freitag ___ Kino?
+    answers:
+    - am
+    - ins
+    explanation_vi: am + ngày; ins + địa điểm (das Kino).
+  - id: a1.m02.l03.ex.02.q2
+    prompt: ___ Sonntag gehe ich ___ Museum.
+    answers:
+    - Am
+    - ins
+    explanation_vi: 'Đầu câu viết hoa: Am.'
+  - id: a1.m02.l03.ex.02.q3
+    prompt: Gehst du gern ___ Theater?
+    answers:
+    - ins
+    explanation_vi: das Theater → ins Theater.
+- id: a1.m02.l03.ex.03
+  type: word-order
+  skill: grammar
+  difficulty: 1
+  objective_refs:
+  - a1.m02.l03.obj2
+  - a1.m02.l03.obj3
+  instructions_vi: Sắp xếp thành câu hỏi có/không.
+  items:
+  - id: a1.m02.l03.ex.03.q1
+    tokens:
+    - wir
+    - Café
+    - ins
+    - Gehen
+    answer: Gehen wir ins Café?
+    explanation_vi: Gehen (1) – wir (2) – ins Café.
+  - id: a1.m02.l03.ex.03.q2
+    tokens:
+    - oft
+    - du
+    - Schwimmbad
+    - Gehst
+    - ins
+    answer: Gehst du oft ins Schwimmbad?
+    explanation_vi: Gehst – du – oft – ins Schwimmbad.
+- id: a1.m02.l03.ex.04
+  type: multiple-choice
+  skill: listening
+  difficulty: 2
+  objective_refs:
+  - a1.m02.l03.obj1
+  - a1.m02.l03.obj3
+  instructions_vi: Nghe cuộc điện thoại. Chọn đáp án đúng.
+  stimulus:
+    ref: a1.m02.l03.b7
+  items:
+  - id: a1.m02.l03.ex.04.q1
+    prompt: Cuối cùng Lisa và Minh hẹn ngày nào?
+    options:
+    - id: a
+      text: Mittwoch
+    - id: b
+      text: Donnerstag
+    - id: c
+      text: Montag
+    answer:
+    - b
+    explanation_vi: 'Minh: “Aber am Donnerstag geht es!”'
+  - id: a1.m02.l03.ex.04.q2
+    prompt: Thứ Tư Minh làm gì?
+    options:
+    - id: a
+      text: Er spielt Fußball.
+    - id: b
+      text: Er geht ins Café.
+    - id: c
+      text: Er arbeitet.
+    answer:
+    - a
+    explanation_vi: “Am Mittwoch spiele ich Fußball.”
+  - id: a1.m02.l03.ex.04.q3
+    prompt: Họ đi đâu?
+    options:
+    - id: a
+      text: ins Theater
+    - id: b
+      text: ins Kino und ins Café
+    - id: c
+      text: ins Museum
+    answer:
+    - b
+    explanation_vi: Xem phim, rồi “Gehen wir dann auch ins Café?”
+- id: a1.m02.l03.ex.05
+  type: true-false
+  skill: listening
+  difficulty: 1
+  objective_refs:
+  - a1.m02.l03.obj3
+  instructions_vi: Nghe lại. Đúng hay sai?
+  stimulus:
+    ref: a1.m02.l03.b7
+  items:
+  - id: a1.m02.l03.ex.05.q1
+    prompt: Thứ Hai Minh làm việc.
+    answer: true
+    explanation_vi: “Am Montag arbeite ich.”
+  - id: a1.m02.l03.ex.05.q2
+    prompt: Minh từ chối bằng câu „Das geht leider nicht.“
+    answer: true
+    explanation_vi: Câu từ chối lịch sự.
+- id: a1.m02.l03.ex.06
+  type: multiple-choice
+  skill: reading
+  difficulty: 2
+  objective_refs:
+  - a1.m02.l03.obj1
+  - a1.m02.l03.obj3
+  - a1.m02.l03.obj4
+  instructions_vi: Đọc nhóm chat. Chọn đáp án đúng.
+  stimulus:
+    ref: a1.m02.l03.b8
+  items:
+  - id: a1.m02.l03.ex.06.q1
+    prompt: Ai đi bảo tàng vào thứ Bảy?
+    options:
+    - id: a
+      text: Tom und Huy
+    - id: b
+      text: Anna und Tom
+    - id: c
+      text: Anna und Huy
+    answer:
+    - c
+    explanation_vi: “Huy und ich gehen am Samstag ins Museum.”
+  - id: a1.m02.l03.ex.06.q2
+    prompt: Tại sao Tom không đi thứ Bảy?
+    options:
+    - id: a
+      text: Er arbeitet.
+    - id: b
+      text: Er kocht.
+    - id: c
+      text: Er schwimmt.
+    answer:
+    - a
+    explanation_vi: “Ich arbeite.”
+  - id: a1.m02.l03.ex.06.q3
+    prompt: Chủ nhật Tom và Anna đi đâu?
+    options:
+    - id: a
+      text: ins Café
+    - id: b
+      text: ins Kino
+    - id: c
+      text: ins Schwimmbad
+    answer:
+    - a
+    explanation_vi: “… gehen wir am Sonntag ins Café?” – “Ja, gern!”
+- id: a1.m02.l03.ex.07
+  type: multiple-choice
+  skill: pronunciation
+  difficulty: 1
+  objective_refs:
+  - a1.m02.l03.obj2
+  instructions_vi: Câu này lên giọng (↗) hay xuống giọng (↘) ở cuối?
+  items:
+  - id: a1.m02.l03.ex.07.q1
+    prompt: Gehen wir ins Theater?
+    options:
+    - id: a
+      text: ↘
+    - id: b
+      text: ↗
+    answer:
+    - b
+    explanation_vi: Câu hỏi có/không → lên giọng.
+  - id: a1.m02.l03.ex.07.q2
+    prompt: Wann gehen wir ins Theater?
+    options:
+    - id: a
+      text: ↗
+    - id: b
+      text: ↘
+    answer:
+    - b
+    explanation_vi: Câu hỏi W- → xuống giọng.
+  - id: a1.m02.l03.ex.07.q3
+    prompt: Das geht leider nicht.
+    options:
+    - id: a
+      text: ↘
+    - id: b
+      text: ↗
+    answer:
+    - a
+    explanation_vi: Câu kể → xuống giọng.
+- id: a1.m02.l03.ex.08
+  type: translation
+  skill: grammar
+  difficulty: 2
+  objective_refs:
+  - a1.m02.l03.obj2
+  - a1.m02.l03.obj3
+  instructions_vi: Dịch sang tiếng Đức.
+  items:
+  - id: a1.m02.l03.ex.08.q1
+    direction: vi-de
+    source: Thứ Bảy mình đi bơi nhé?
+    answers:
+    - Gehen wir am Samstag ins Schwimmbad?
+    explanation_vi: Gehen wir … ins Schwimmbad (đi bể bơi).
+  - id: a1.m02.l03.ex.08.q2
+    direction: vi-de
+    source: Tiếc là không được.
+    answers:
+    - Das geht leider nicht.
+    explanation_vi: Câu từ chối lịch sự.
+  - id: a1.m02.l03.ex.08.q3
+    direction: vi-de
+    source: Bạn có hay đi xem phim không?
+    answers:
+    - Gehst du oft ins Kino?
+    explanation_vi: 'Câu hỏi có/không: Gehst du …?'
+- id: a1.m02.l03.ex.09
+  type: speaking-practice
+  skill: speaking
+  difficulty: 2
+  objective_refs:
+  - a1.m02.l03.obj2
+  - a1.m02.l03.obj3
+  - a1.m02.l03.obj1
+  instructions_vi: Đóng vai tìm ngày rảnh (phần Nói). Ghi âm cả hai vai nếu học một mình.
+  grading: self
+  rubric:
+  - criterion_vi: Rủ bằng câu hỏi có/không với ngữ điệu lên giọng
+    points: 2
+  - criterion_vi: Từ chối lịch sự và đề nghị ngày khác
+    points: 2
+  - criterion_vi: Dùng đúng am + ngày, ins + địa điểm
+    points: 1
+  items:
+  - id: a1.m02.l03.ex.09.q1
+    prompt_vi: Tìm một ngày cả hai đều rảnh.
+    model_answer:
+      de: Gehen wir am Dienstag ins Theater? – Das geht leider nicht. Am Dienstag habe ich Deutschkurs. Am Mittwoch? – Ja, am Mittwoch geht es. Super!
+    explanation_vi: So sánh với hội thoại mẫu.
+- id: a1.m02.l03.ex.10
+  type: writing-practice
+  skill: writing
+  difficulty: 1
+  objective_refs:
+  - a1.m02.l03.obj3
+  - a1.m02.l03.obj4
+  instructions_vi: Viết tin nhắn rủ bạn đi chơi (phần Viết).
+  grading: self
+  rubric:
+  - criterion_vi: Có lời chào, lời rủ (ngày + địa điểm) và câu hỏi Geht das?
+    points: 3
+  - criterion_vi: Chính tả và dấu câu đúng
+    points: 1
+  items:
+  - id: a1.m02.l03.ex.10.q1
+    prompt_vi: Tin nhắn rủ đi chơi
+    model_answer:
+      de: Hallo Tom! Gehen wir am Freitag ins Restaurant? Geht das?
+    explanation_vi: 'Có thể thêm: Am Samstag arbeite ich. (để nêu lý do chọn ngày).'

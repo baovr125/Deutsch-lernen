@@ -1,0 +1,236 @@
+schema_version: '2.0'
+content_type: lesson
+id: a1.m04.l06
+level: A1
+module: a1.m04
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+  references:
+  - work: Netzwerk neu A1 (Klett)
+    scope: 'Kapitel 4: Wörter lernen: Strategie; Landeskunde: Berufe rund ums Essen'
+    verification: verified
+  notes_vi: 'Sprachhandlungen: Strategien zum Wortschatzlernen anwenden (Wortpaare, Mindmaps), Berufe rund ums Essen kennenlernen, Texte mit W-Fragen verstehen.'
+order: 6
+title_de: Wörter lernen und Berufe rund ums Essen
+title_vi: Chiến lược học từ vựng và các nghề nghiệp ngành ẩm thực
+topic_vi: Chiến lược học từ theo cặp và sơ đồ tư duy, nghề đầu bếp trong nhà hàng, đọc hiểu bằng câu hỏi W-
+duration_min: 75
+difficulty: 2
+cefr:
+- A1.L3
+- A1.L4
+- A1.H4
+- A1.SP1
+prerequisites:
+- a1.m04.l05
+objectives:
+- id: a1.m04.l06.obj1
+  text_vi: 'Áp dụng chiến lược học từ vựng theo cặp (Wortpaare: Brot und Butter, Salz und Pfeffer) và nhóm chủ đề.'
+  skill: vocabulary
+- id: a1.m04.l06.obj2
+  text_vi: Hiểu thông tin về nghề nghiệp ẩm thực (Koch, Küchenhilfe) và các hoạt động trong bếp (schneiden, waschen, probieren).
+  skill: listening
+- id: a1.m04.l06.obj3
+  text_vi: Biết cách dùng câu hỏi W- (Wer? Was? Wann? Wo?) để nắm bắt thông tin chính trong bài đọc.
+  skill: reading
+- id: a1.m04.l06.obj4
+  text_vi: 'Chia đúng các động từ đổi nguyên âm: helfen (e → i: du hilfst, er hilft), waschen (a → ä: du wäschst, er wäscht).'
+  skill: grammar
+vocabulary_refs:
+- a1.m04.v.thema
+- a1.m04.v.paar
+- a1.m04.v.frei
+- a1.m04.v.als
+- a1.m04.v.seit
+- a1.m04.v.uhr
+- a1.m04.v.chef
+- a1.m04.v.chefin
+- a1.m04.v.team
+- a1.m04.v.gericht
+- a1.m04.v.frisch
+- a1.m04.v.klein
+- a1.m04.v.nett
+- a1.m04.v.echt
+- a1.m04.v.stressig
+- a1.m04.v.spass
+- a1.m04.v.natuerlich
+- a1.m04.v.wichtig
+- a1.m04.v.helfen
+- a1.m04.v.probieren
+- a1.m04.v.schneiden
+- a1.m04.v.waschen
+- a1.m04.v.zurueck
+- a1.m04.v.beantworten
+- a1.m04.v.zwiebel
+- a1.m04.v.arbeitszeit
+review_vocabulary_refs:
+- a1.m02.v.stunde
+- a1.m04.v.lebensmittel
+- a1.m04.v.gemuese
+- a1.m04.v.kaufen
+grammar_refs: []
+expression_refs:
+- a1.m04.x.als-was-arbeiten-sie-ich-arbeite-als
+- a1.m04.x.die-arbeit-macht-spass-aber-sie-ist-manc
+exercise_set_ref: a1.m04.l06.ex
+summary_vi: Bài học trang bị cho bạn chiến lược ghi nhớ từ vựng thông minh theo cặp từ và mạng tư duy, phương pháp khai thác bài đọc bằng các câu hỏi W-Fragen, hiểu về nghề đầu bếp trong nhà hàng và chia đúng các động từ đổi nguyên âm helfen (er hilft), waschen (er wäscht).
+self_check:
+- Tôi biết cách ghi nhớ từ vựng theo cặp (Wortpaare) như Brot und Butter, Salz und Pfeffer.
+- 'Tôi nhớ chia động từ: er hilft (helfen), er wäscht (waschen).'
+- Tôi biết dùng cấu trúc arbeiten als + tên nghề để giới thiệu công việc.
+blocks:
+- id: a1.m04.l06.b1
+  kind: explanation
+  title_vi: Giới thiệu bài học
+  body_vi: 'Trong bài học cuối cùng của Kapitel 4, bạn sẽ:
+
+    - Khám phá các **chiến lược ghi nhớ từ vựng thông minh**: học từ theo cặp tự nhiên (*Brot und Butter, Salz und Pfeffer, Messer und Gabel*), gom từ theo mạng lưới chủ đề (Mindmap).
+
+    - Tìm hiểu thế giới nghề nghiệp ẩm thực tại Đức: nghề **đầu bếp (der Koch)**, **phụ bếp (die Küchenhilfe)**, làm việc theo nhóm (*das Team*), thời gian làm việc (*die Arbeitszeit*) và những niềm vui cũng như áp lực trong căn bếp chuyên nghiệp.
+
+    - Rèn luyện kỹ năng đọc hiểu văn bản tiếng Đức thông qua phương pháp đặt câu hỏi **W-Fragen** (*Wer? Was? Wann? Wo?*).
+
+    - Nắm cách chia hai động từ đổi nguyên âm quan trọng: *helfen* (*du hilfst, er hilft*) và *waschen* (*du wäschst, er wäscht*).'
+- id: a1.m04.l06.b2
+  kind: explanation
+  title_vi: 'Động từ đổi nguyên âm: helfen (e → i) và waschen (a → ä)'
+  skill: grammar
+  body_vi: 'Động từ helfen đổi nguyên âm e → i ở ngôi du và er/sie/es: du hilfst, er/sie/es hilft. Động từ waschen đổi a → ä: du wäschst, er/sie/es wäscht.'
+  examples:
+  - de: Er hilft dem Küchenchef.
+    vi: Anh ấy giúp bếp trưởng.
+  - de: Sie wäscht das Gemüse vor dem Kochen.
+    vi: Cô ấy rửa rau củ trước khi nấu.
+- id: a1.m04.l06.b3
+  kind: explanation
+  title_vi: Nói về nghề nghiệp với arbeiten als
+  skill: grammar
+  body_vi: 'Để nói bạn làm việc với tư cách là nghề gì, dùng cấu trúc arbeiten als + tên nghề nghiệp (không dùng mạo từ): Er arbeitet als Koch. Ich arbeite als Beiköchin.'
+  examples:
+  - de: Er arbeitet seit drei Jahren als Koch in Hamburg.
+    vi: Anh ấy làm đầu bếp ở Hamburg đã ba năm rồi.
+  - de: Meine Arbeitszeit ist von 7 bis 16 Uhr.
+    vi: Giờ làm việc của tôi từ 7 giờ đến 16 giờ.
+- id: a1.m04.l06.b4
+  kind: pronunciation
+  title_vi: Phát âm phụ âm st trong stressig và ch trong Chef
+  skill: pronunciation
+  body_vi: 'Phát âm phụ âm st trong stressig và ch trong Chef
+
+
+    Phụ âm st đứng đầu từ phát âm là [ʃt] (ví dụ: stressig [ˈʃtʁɛsɪç], Stück [ʃtʏk]). Từ Chef là từ mượn gốc Pháp nên ch phát âm là [ʃ] (giống âm s trong tiếng Anh): der Chef [ʃɛf].
+
+
+    Luyện tập: Luyện đọc: STRES-sig, der CHEF, das TEAM, das GE-RICHT.'
+  items:
+  - de: stressig
+    vi: căng thẳng, áp lực
+    ipa: '[ˈʃtʁɛsɪç]'
+  - de: der Chef
+    vi: sếp / bếp trưởng
+    ipa: '[ʃɛf]'
+- id: a1.m04.l06.b5
+  kind: examples
+  title_vi: Câu ví dụ
+  examples:
+  - de: Marco arbeitet seit zwei Jahren als Koch in einem italienischen Restaurant.
+    vi: Marco làm đầu bếp tại một nhà hàng Ý đã hai năm.
+  - de: In der Küche schneidet er Zwiebeln und Fleisch.
+    vi: Trong bếp, anh ấy thái hành và cắt thịt.
+  - de: Der Chef probiert die Suppe vor dem Servieren.
+    vi: Bếp trưởng nếm thử súp trước khi phục vụ.
+  - de: Wir arbeiten gut zusammen und haben viel Spaß im Team.
+    vi: Chúng tôi làm việc ăn ý cùng nhau và có nhiều niềm vui trong nhóm.
+  - de: Frische Zutaten sind für jedes Gericht sehr wichtig.
+    vi: Nguyên liệu tươi là điều vô cùng quan trọng đối với mỗi món ăn.
+- id: a1.m04.l06.b6
+  kind: listening
+  title_vi: Phỏng vấn một đầu bếp trẻ ở Berlin
+  lines:
+  - speaker: Interviewer
+    de: Hallo Jan! Du arbeitest als Koch. Wann beginnt deine Arbeitszeit?
+    vi: Chào Jan! Bạn làm đầu bếp. Giờ làm việc của bạn bắt đầu khi nào?
+  - speaker: Jan
+    de: Meine Arbeitszeit beginnt früh, um 8 Uhr morgens. Zuerst wasche und schneide ich das Gemüse und die Zwiebeln.
+    vi: Giờ làm của mình bắt đầu sớm, lúc 8 giờ sáng. Đầu tiên mình rửa và cắt rau củ cùng hành tây.
+  - speaker: Interviewer
+    de: Ist die Arbeit nicht sehr anstrengend?
+    vi: Công việc có vất vả lắm không?
+  - speaker: Jan
+    de: Doch, am Abend ist es echt stressig, wenn viele Gäste kommen. Aber mein Chef ist nett und unser Team ist super. Kochen macht mir einfach großen Spaß!
+    vi: Có chứ, buổi tối thật sự rất áp lực khi có đông khách đến. Nhưng bếp trưởng của mình rất tốt và đội ngũ tụi mình rất tuyệt. Nấu ăn đơn giản là mang lại niềm vui lớn cho mình!
+  audio_status: pending-tts
+  situation_vi: Jan kể về một ngày làm việc của mình tại nhà hàng 'Zum Bären'.
+  skill: listening
+  audio:
+    speed: normal
+- id: a1.m04.l06.b7
+  kind: reading
+  title_vi: 'Chân dung nghề nghiệp: Đầu bếp Marco và đội ngũ nhà hàng'
+  paragraphs:
+  - de: 'Berufe rund ums Essen: Der Koch Marco
+
+      Marco ist 28 Jahre alt und kommt aus Italien. Er lebt in Frankfurt und arbeitet seit drei Jahren als Koch im Restaurant „Alte Oper“.
+
+      Seine Arbeitszeit ist von 10 bis 14 Uhr und von 17 bis 22 Uhr. In der Küche bereitet er viele leckere Gerichte zu. Er wäscht frisches Gemüse, schneidet Fleisch và probiert jede Soße.
+
+      Marco sagt: „Die Arbeit in der Küche ist manchmal echt stressig. Aber wir sind ein junges Team und helfen uns immer. Am Abend, wenn die Gäste glücklich sind, bin ich auch glücklich!“'
+    vi: 'Nghề nghiệp ẩm thực: Đầu bếp Marco
+
+      Marco 28 tuổi và đến từ Ý. Anh ấy sống ở Frankfurt và làm đầu bếp tại nhà hàng ''Alte Oper'' đã ba năm nay.
+
+      Giờ làm việc của anh là từ 10 đến 14 giờ và từ 17 đến 22 giờ. Trong bếp, anh chuẩn bị nhiều món ăn ngon. Anh rửa rau củ tươi, cắt thịt và nếm thử từng loại nước sốt.
+
+      Marco chia sẻ: ''Công việc trong bếp đôi khi thực sự rất áp lực. Nhưng chúng tôi là một nhóm trẻ và luôn giúp đỡ lẫn nhau. Vào buổi tối, khi thực khách hài lòng, tôi cũng cảm thấy vô cùng hạnh phúc!'''
+  text_type_vi: Bài viết giới thiệu chân dung nghề nghiệp
+  skill: reading
+  glossary:
+  - de: zubereiten
+    vi: chuẩn bị, chế biến
+  - de: die Soße
+    vi: nước sốt
+  - de: glücklich
+    vi: hạnh phúc
+- id: a1.m04.l06.b8
+  kind: speaking
+  title_vi: Hỏi và đáp về nghề nghiệp bằng câu hỏi W-
+  skill: speaking
+  task_vi: Sử dụng các câu hỏi W- (Wer? Als was? Wo? Wie?) để phỏng vấn bạn học về một nghề nghiệp trong ngành ẩm thực.
+  steps_vi:
+  - 'Hỏi nghề: Als was arbeitest du?'
+  - 'Hỏi nơi làm: Wo arbeitest du?'
+  - 'Hỏi cảm nhận: Wie ist die Arbeit?'
+  - 'Trả lời: Die Arbeit macht Spaß, aber sie ist stressig.'
+  lines:
+  - speaker: A
+    de: Als was arbeitest du?
+    vi: Bạn làm nghề gì?
+  - speaker: B
+    de: Ich arbeite als Beikoch in einem Hotel.
+    vi: Tôi làm phụ bếp trong một khách sạn.
+  - speaker: A
+    de: Wie findest du die Arbeit?
+    vi: Bạn thấy công việc thế nào?
+  - speaker: B
+    de: Sie macht Spaß, aber die Arbeitszeit ist lang.
+    vi: Công việc rất vui, nhưng giờ làm thì khá dài.
+- id: a1.m04.l06.b9
+  kind: writing
+  title_vi: Viết đoạn giới thiệu ngắn về một người làm nghề ẩm thực
+  skill: writing
+  task_vi: Dựa vào các câu hỏi W-, hãy viết đoạn văn 4–5 câu giới thiệu một người làm nghề ẩm thực (Tên, nghề, nơi làm việc, hoạt động chính, cảm nhận).
+  model:
+    de: Das ist Jan. Er ist 25 Jahre alt und arbeitet als Koch in Berlin. Seine Arbeitszeit beginnt um 8 Uhr. In der Küche wäscht und schneidet er Gemüse. Die Kollegen sind sehr nett und die Arbeit macht ihm großen Spaß.
+    vi: Đây là Jan. Anh ấy 25 tuổi và làm đầu bếp ở Berlin. Giờ làm việc của anh bắt đầu lúc 8 giờ. Trong bếp anh rửa và cắt rau củ. Các đồng nghiệp rất dễ mến và công việc mang lại niềm vui lớn cho anh.
+  checklist_vi:
+  - Sử dụng đúng cấu trúc arbeitet als + tên nghề.
+  - Sử dụng đúng thì hiện tại và chia đúng động từ (wäscht, schneidet...).

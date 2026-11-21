@@ -1,0 +1,252 @@
+schema_version: '2.0'
+content_type: lesson
+id: a1.m05.l05
+level: A1
+module: a1.m05
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+  references:
+  - work: Netzwerk neu A1 (Klett)
+    scope: 'Kapitel 5: Verabredungen und Freizeit'
+    verification: verified
+  notes_vi: 'Sprachhandlungen: sich verabreden, Vorschläge machen und darauf reagieren, Termine absagen oder verschieben, Notwendigkeit und Möglichkeiten ausdrücken. Wortschatz: Verabredung, verabredet, Idee, Lust, passen, leider, klappen, prima, absagen, verschieben... Grammatik: Modalverben können, wollen, müssen (Konjugation und Satzklammer).'
+order: 5
+title_de: Die Verabredung – Modalverben im Satz
+title_vi: Cuộc hẹn và động từ tình thái trong câu
+topic_vi: Hẹn gặp bạn bè, rủ rê, đồng ý, từ chối lịch sự, dời lịch hẹn và cấu trúc câu với động từ tình thái können, wollen, müssen
+duration_min: 85
+difficulty: 2
+cefr:
+- A1.L1
+- A1.H2
+- A1.SP1
+- A1.S2
+prerequisites:
+- a1.m05.l04
+objectives:
+- id: a1.m05.l05.obj1
+  text_vi: Hiểu và chia đúng 3 động từ tình thái können, wollen, müssen ở thì hiện tại.
+  skill: grammar
+- id: a1.m05.l05.obj2
+  text_vi: 'Nắm vững cấu trúc khung câu (Satzklammer): Modalverb ở vị trí 2, động từ chính ở dạng nguyên mẫu (Infinitiv) ở cuối câu.'
+  skill: grammar
+- id: a1.m05.l05.obj3
+  text_vi: Đưa ra lời rủ hẹn, biểu đạt sự đồng tình (Gute Idee!, prima, klappen) hoặc từ chối lịch sự và xin lỗi (leider, tut mir leid, schade).
+  skill: listening
+- id: a1.m05.l05.obj4
+  text_vi: Hỏi và trao đổi về việc đổi lịch hẹn hoặc hủy hẹn (verschieben, absagen).
+  skill: listening
+vocabulary_refs:
+- a1.m05.v.verabredung
+- a1.m05.v.verabredet
+- a1.m05.v.koennen
+- a1.m05.v.wollen
+- a1.m05.v.muessen
+- a1.m05.v.treffen
+- a1.m05.v.idee
+- a1.m05.v.lust
+- a1.m05.v.passen
+- a1.m05.v.vorschlagen
+- a1.m05.v.leid
+- a1.m05.v.schade
+- a1.m05.v.klappen
+- a1.m05.v.prima
+- a1.m05.v.verabreden
+- a1.m05.v.absagen
+- a1.m05.v.verschieben
+- a1.m05.v.samstagnachmittag
+review_vocabulary_refs:
+- a1.m04.v.gerne
+- a1.m05.v.alltag
+- a1.m05.v.spazierengehen
+- a1.m05.v.terminkalender
+grammar_refs:
+- a1.g.modalverben
+grammar_focus:
+- ref: a1.g.modalverben
+  focus_vi: Chia động từ können, wollen, müssen và cấu trúc khung câu (Satzklammer) với Infinitiv ở cuối câu
+expression_refs:
+- a1.m05.x.hast-du-zeit-lust-auf-wollen-wir
+- a1.m05.x.passt-es-dir-am-ja-das-passt-prima-das-k
+- a1.m05.x.tut-mir-leid-da-kann-ich-leider-nicht-ko
+exercise_set_ref: a1.m05.l05.ex
+summary_vi: Bài học giúp bạn làm chủ 3 động từ tình thái quan trọng (können, wollen, müssen), hiểu cấu trúc khung câu Satzklammer với Infinitiv ở cuối câu, đồng thời thành thạo các mẫu câu rủ bạn đi chơi, đồng ý hoặc từ chối và xin dời lịch hẹn.
+self_check:
+- Tôi có thể chia đúng các động từ können, wollen, müssen ở thì hiện tại.
+- Tôi nhớ đặt động từ nguyên mẫu (Infinitiv) ở vị trí cuối cùng của câu khi đi với động từ tình thái.
+- Tôi biết rủ bạn đi chơi, biểu đạt sự tiếc nuối khi bận và đề xuất dời lịch hẹn.
+blocks:
+- id: a1.m05.l05.b1
+  kind: explanation
+  title_vi: Giới thiệu bài học
+  body_vi: 'Trong đời sống xã hội tại Đức, việc hẹn gặp bạn bè (*sich verabreden*) luôn đi kèm những mẫu câu lịch sự và cách phối hợp thời gian khéo léo.
+
+    Trong bài học này, bạn sẽ:
+
+    - Làm quen với bộ 3 động từ tình thái cốt lõi: *können* (có thể), *wollen* (muốn), *müssen* (phải).
+
+    - Khám phá hiện tượng ngữ pháp đặc trưng của tiếng Đức: cấu trúc khung câu (*Satzklammer*) – trợ động từ đứng ở vị trí 2, đẩy động từ nguyên mẫu xuống cuối câu.
+
+    - Học cách rủ rê và hồi đáp: "Có hứng không?" (*Lust haben auf...*), "Ý kiến hay!" (*Gute Idee!*), "Rất tuyệt!" (*prima!*), "Tiện cho bạn không?" (*Passt es dir?*), "Mọi việc ổn thỏa!" (*Das klappt!*).
+
+    - Khéo léo từ chối hoặc dời lịch: *leider, tut mir leid, schade, absagen, verschieben*.'
+- id: a1.m05.l05.b2
+  kind: explanation
+  title_vi: Quy tắc vàng của động từ tình thái (Modalverben)
+  skill: grammar
+  body_vi: '1. Ngôi ''ich'' và ngôi ''er/sie/es'' luôn có hình thức giống hệt nhau và không có đuôi cá nhân: ich kann = er kann, ich will = er will, ich muss = er muss.
+
+    2. Các ngôi số ít (ich, du, er/sie/es) thường đổi nguyên âm gốc: ö → a (können → kann), o → i (wollen → will), ü → u (müssen → muss).
+
+    3. Động từ chính đi cùng luôn ở dạng nguyên mẫu không đổi (Infinitiv) và đứng ở vị trí cuối cùng của câu.'
+  examples:
+  - de: Ich kann morgen nicht kommen.
+    vi: Ngày mai tôi không thể đến được.
+  - de: Wir wollen am Samstagnachmittag Freunde treffen.
+    vi: Chúng tôi muốn gặp bạn bè vào chiều thứ Bảy.
+  - de: Er muss heute lange arbeiten.
+    vi: Hôm nay anh ấy phải làm việc đến muộn.
+- id: a1.m05.l05.b3
+  kind: explanation
+  title_vi: Phân biệt Verabredung (hẹn bạn bè) và Termin (hẹn công việc/bác sĩ)
+  skill: grammar
+  body_vi: 'die Verabredung thường dùng cho các cuộc hẹn riêng tư, hẹn đi chơi, cà phê cùng bạn bè hoặc người yêu: ''Ich habe eine Verabredung mit Anna.'' Còn der Termin dùng cho các cuộc hẹn chính thức với đối tác, bác sĩ, cơ quan hành chính hoặc thợ sửa: ''Ich habe einen Termin beim Arzt''.'
+  examples:
+  - de: Hast du heute Abend eine Verabredung? – Ja, ich treffe Maria.
+    vi: Tối nay bạn có hẹn đi chơi à? – Ừ, mình gặp Maria.
+  - de: Ich muss den Termin beim Zahnarzt verschieben.
+    vi: Tôi phải dời lịch hẹn ở chỗ nha sĩ.
+- id: a1.m05.l05.b4
+  kind: pronunciation
+  title_vi: Nguyên âm ngắn và dài trong động từ tình thái
+  skill: pronunciation
+  body_vi: 'Nguyên âm ngắn và dài trong động từ tình thái
+
+
+    Chú ý phân biệt âm ngắn và âm dài khi chia động từ: ''können'' [ˈkœnən] (ngắn) vs. ''kann'' [kan] (ngắn); ''müssen'' [ˈmʏsn̩] (ngắn) vs. ''muss'' [mʊs] (ngắn); ''wollen'' [ˈvɔlən] (ngắn) vs. ''will'' [vɪl] (ngắn). Ngược lại, ''Idee'' [iˈdeː] có âm [eː] dài và trọng âm rơi vào âm cuối.
+
+
+    Luyện tập: Luyện đọc cặp từ: kann – muss – will; die Idee – die Verabredung.'
+  items:
+  - de: können – ich kann
+    vi: có thể – tôi có thể
+    ipa: '[ˈkœnən] – [kan]'
+  - de: müssen – ich muss
+    vi: phải – tôi phải
+    ipa: '[ˈmʏsn̩] – [mʊs]'
+  - de: die Idee
+    vi: ý tưởng
+    ipa: '[iˈdeː]'
+- id: a1.m05.l05.b5
+  kind: examples
+  title_vi: Câu ví dụ
+  examples:
+  - de: Ich will heute einen Deutschkurs besuchen.
+    vi: Hôm nay tôi muốn tham gia một khóa học tiếng Đức.
+  - de: Kannst du am Samstag mit mir einkaufen gehen?
+    vi: Thứ Bảy bạn có thể đi mua sắm cùng mình không?
+  - de: Wir müssen für den Test viel lernen.
+    vi: Chúng tôi phải học rất nhiều cho bài kiểm tra.
+  - de: Das tut mir wirklich leid, ich muss absagen.
+    vi: Tôi thật sự rất tiếc, tôi phải hủy hẹn rồi.
+  - de: Am Samstagnachmittag treffe ich meine beste Freundin im Café.
+    vi: Vào chiều thứ Bảy tôi gặp cô bạn thân nhất ở quán cà phê.
+- id: a1.m05.l05.b6
+  kind: listening
+  title_vi: 'Hội thoại: Hẹn gặp cuối tuần giữa Mara và Jan'
+  lines:
+  - speaker: Mara
+    de: Hallo Jan! Hast du am Freitagabend schon etwas vor?
+    vi: Chào Jan! Tối thứ Sáu bạn đã có kế hoạch gì chưa?
+  - speaker: Jan
+    de: Freitagabend kann ich leider nicht kommen. Ich muss bis zwanzig Uhr im Büro arbeiten. Es tut mir wirklich leid!
+    vi: Tối thứ Sáu tiếc là mình không đến được. Mình phải làm việc ở văn phòng đến 20 giờ. Mình thật sự rất tiếc!
+  - speaker: Mara
+    de: Schade! Passt es dir vielleicht am Samstagnachmittag?
+    vi: Tiếc quá! Thế chiều thứ Bảy có tiện cho bạn không?
+  - speaker: Jan
+    de: Samstagnachmittag klappt prima! Wollen wir uns um sechzehn Uhr im Café Einstein treffen?
+    vi: Chiều thứ Bảy thì quá ổn! Chúng mình gặp nhau lúc 16 giờ ở quán cà phê Einstein nhé?
+  - speaker: Mara
+    de: Gute Idee! Dann verschieben wir unser Treffen einfach auf Samstag. Bis dann!
+    vi: Ý kiến hay đấy! Vậy chúng ta cứ dời cuộc hẹn sang thứ Bảy thôi. Hẹn gặp lại nhé!
+  audio_status: pending-tts
+  situation_vi: Mara gọi điện rủ Jan đi chơi cuối tuần và Jan đề xuất dời lịch sang thứ Bảy.
+  skill: listening
+  audio:
+    speed: slow
+- id: a1.m05.l05.b7
+  kind: reading
+  title_vi: 'Đọc hiểu: Nhóm chat hẹn hò cuối tuần'
+  paragraphs:
+  - de: 'Chatgruppe „Wochenende in Berlin“:
+
+      Leon: Hallo zusammen! Wollen wir am Samstag ins Museum gehen und danach eine Pizza essen?
+
+      Sarah: Tolle Idee, Leon! Aber Samstagvormittag muss ich meiner Schwester beim Umzug helfen. Können wir uns erst um 15 Uhr treffen?
+
+      Ben: Um 15 Uhr passt es mir auch super. Ich habe am Vormittag einen Arzttermin und kann vorher nicht.
+
+      Leon: Prima, dann verabreden wir uns für Samstag um 15 Uhr vor dem Museum!
+
+      Sarah: Perfekt, das klappt wunderbar. Ich freue mich schon!'
+    vi: 'Nhóm chat „Cuối tuần ở Berlin“:
+
+      Leon: Chào cả nhóm! Thứ Bảy chúng mình cùng đi bảo tàng rồi sau đó đi ăn pizza nhé?
+
+      Sarah: Ý tưởng tuyệt vời đấy Leon! Nhưng sáng thứ Bảy mình phải giúp chị gái dọn nhà rồi. Chúng mình có thể gặp nhau lúc 15 giờ được không?
+
+      Ben: Lúc 15 giờ cũng rất tiện cho mình. Buổi sáng mình có một lịch hẹn với bác sĩ nên trước đó không thể đến được.
+
+      Leon: Tuyệt vời, vậy chúng mình hẹn nhau vào thứ Bảy lúc 15 giờ trước cửa bảo tàng nhé!
+
+      Sarah: Hoàn hảo, mọi chuyện quá thuận lợi. Mình rất mong chờ!'
+  text_type_vi: Đoạn tin nhắn nhóm trao đổi kế hoạch đi chơi
+  skill: reading
+  glossary:
+  - de: der Umzug
+    vi: việc dọn nhà
+  - de: vor dem Museum
+    vi: trước viện bảo tàng
+  - de: sich freuen auf
+    vi: vui mừng mong đợi
+- id: a1.m05.l05.b8
+  kind: speaking
+  title_vi: Rủ bạn đi chơi và thống nhất lịch hẹn
+  skill: speaking
+  task_vi: Thực hành rủ bạn học làm một hoạt động cuối tuần, phản hồi đồng ý hoặc từ chối lịch sự.
+  steps_vi:
+  - 'Rủ rê: Hast du am Samstag Lust auf Kino / Café?'
+  - 'Từ chối lịch sự: Es tut mir leid, da muss ich arbeiten.'
+  - 'Đề xuất dời lịch: Können wir uns am Sonntag treffen? Passt es dir?'
+  - 'Đồng ý: Ja, Sonntag klappt prima!'
+  lines:
+  - speaker: A
+    de: Hast du am Samstag Lust auf ein Picknick?
+    vi: Thứ Bảy bạn có hứng đi dã ngoại không?
+  - speaker: B
+    de: Es tut mir leid, am Samstag kann ich nicht. Ich muss putzen. Geht es am Sonntag?
+    vi: Mình rất tiếc, thứ Bảy mình không đi được. Mình phải dọn nhà. Chủ Nhật có được không?
+  - speaker: A
+    de: Ja, Sonntag passt mir prima! Um wie viel Uhr wollen wir uns treffen?
+    vi: Được chứ, Chủ Nhật rất tiện cho mình! Chúng mình muốn gặp nhau lúc mấy giờ?
+- id: a1.m05.l05.b9
+  kind: writing
+  title_vi: Viết tin nhắn hẹn bạn hoặc xin dời lịch
+  skill: writing
+  task_vi: Viết tin nhắn ngắn (4–5 câu) rủ một người bạn đi chơi cuối tuần hoặc giải thích lý do phải dời lịch hẹn.
+  model:
+    de: Hallo Jonas! Wollen wir uns am Samstagnachmittag treffen? Wir können im Park spazieren gehen oder Kaffee trinken. Passt es dir um fünfzehn Uhr? Schreib mir bitte bald! Liebe Grüße, David
+    vi: Chào Jonas! Chiều thứ Bảy chúng mình gặp nhau nhé? Tụi mình có thể đi dạo trong công viên hoặc uống cà phê. 15 giờ có tiện cho bạn không? Nhắn lại cho mình sớm nhé! Thân ái, David
+  checklist_vi:
+  - Có sử dụng động từ tình thái (wollen, können).
+  - Có câu hỏi về thời gian (Passt es dir...? / Um wie viel Uhr...?).

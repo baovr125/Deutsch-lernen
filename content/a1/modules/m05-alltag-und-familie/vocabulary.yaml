@@ -1,0 +1,1903 @@
+schema_version: '2.0'
+content_type: vocabulary-set
+id: a1.m05.vocab
+level: A1
+module: a1.m05
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+  references:
+  - work: Netzwerk neu A1 (Klett)
+    scope: 'Kapitel 5: Alltag und Familie; Wie spät ist es?; Familie und Termine; www.dobart.de; Die Verabredung; Kann ich einen Termin haben?; Landeskunde: Pünktlichkeit; kurz und klar: Redemittel und Grammatik'
+    verification: verified
+  notes_vi: Trình tự và phạm vi theo Stoffverteilungsplan Netzwerk neu A1.1 (Kapitel 5, 10 UE) và Kapitelwortschatz. Toàn bộ hội thoại, bài tập, bài đọc tự biên soạn mới hoàn toàn.
+entries:
+- id: a1.m05.v.alltag
+  de: Alltag
+  pos: noun
+  article: der
+  no_plural: true
+  vi: cuộc sống thường ngày
+  ipa: /ˈalˌtaːk/
+  example:
+    de: Der Alltag ist oft stressig.
+    vi: Cuộc sống thường ngày thường áp lực.
+  usage_vi: Không dùng ở số nhiều.
+  lesson_refs:
+  - a1.m05.l01
+  tags:
+  - alltag
+  - sg-only
+  source: nwn-lern
+- id: a1.m05.v.tagesablauf
+  de: Tagesablauf
+  pos: noun
+  article: der
+  plural: Tagesabläufe
+  vi: lịch trình trong ngày
+  ipa: /ˈtaːɡəsˌʔaplaʊ̯f/
+  example:
+    de: Wie ist dein Tagesablauf?
+    vi: Lịch trình trong ngày của bạn thế nào?
+  usage_vi: der Tag + der Ablauf.
+  lesson_refs:
+  - a1.m05.l01
+  tags:
+  - alltag
+  source: nwn-lern
+- id: a1.m05.v.aufstehen
+  de: aufstehen
+  pos: verb
+  vi: thức dậy
+  forms:
+    text: du stehst auf, er steht auf
+    er: steht auf
+    separable: true
+  ipa: /ˈaʊ̯fˌʃteːən/
+  example:
+    de: Ich stehe um sechs Uhr auf.
+    vi: Tôi thức dậy lúc sáu giờ.
+  usage_vi: 'Động từ tách: auf ở cuối câu.'
+  lesson_refs:
+  - a1.m05.l01
+  tags:
+  - verb
+  - alltag
+  - trennbar
+  source: nwn-lern
+- id: a1.m05.v.aufwachen
+  de: aufwachen
+  pos: verb
+  vi: tỉnh giấc
+  forms:
+    text: du wachst auf, er wacht auf
+    er: wacht auf
+    separable: true
+  ipa: /ˈaʊ̯fˌvaxn̩/
+  example:
+    de: Ich wache früh auf.
+    vi: Tôi tỉnh giấc sớm.
+  usage_vi: 'Động từ tách: auf ở cuối câu.'
+  lesson_refs:
+  - a1.m05.l01
+  tags:
+  - verb
+  - alltag
+  - trennbar
+  source: nwn
+- id: a1.m05.v.anfangen
+  de: anfangen
+  pos: verb
+  vi: bắt đầu
+  forms:
+    text: du fängst an, er fängt an
+    er: fängt an
+    separable: true
+  ipa: /ˈanˌfaŋən/
+  example:
+    de: Der Deutschkurs fängt um neun Uhr an.
+    vi: Khóa học tiếng Đức bắt đầu lúc chín giờ.
+  usage_vi: Đổi nguyên âm a → ä. Động từ tách.
+  lesson_refs:
+  - a1.m05.l01
+  tags:
+  - verb
+  - alltag
+  - trennbar
+  - unregelmaessig
+  source: nwn-lern
+- id: a1.m05.v.aufhoeren
+  de: aufhören
+  pos: verb
+  vi: kết thúc, ngừng
+  forms:
+    text: du hörst auf, er hört auf
+    er: hört auf
+    separable: true
+  ipa: /ˈaʊ̯fˌhøːʁən/
+  example:
+    de: Der Kurs hört um zwölf Uhr auf.
+    vi: Khóa học kết thúc lúc mười hai giờ.
+  usage_vi: 'Động từ tách: auf ở cuối câu.'
+  lesson_refs:
+  - a1.m05.l01
+  tags:
+  - verb
+  - alltag
+  - trennbar
+  source: nwn-lern
+- id: a1.m05.v.einschlafen
+  de: einschlafen
+  pos: verb
+  vi: chìm vào giấc ngủ
+  forms:
+    text: du schläfst ein, er schläft ein
+    er: schläft ein
+    separable: true
+  ipa: /ˈaɪ̯nˌʃlaːfn̩/
+  example:
+    de: Ich schlafe spät ein.
+    vi: Tôi đi vào giấc ngủ muộn.
+  usage_vi: Đổi nguyên âm a → ä. Động từ tách.
+  lesson_refs:
+  - a1.m05.l01
+  tags:
+  - verb
+  - alltag
+  - trennbar
+  - unregelmaessig
+  source: nwn-lern
+- id: a1.m05.v.fernsehen
+  de: fernsehen
+  pos: verb
+  vi: xem tivi
+  forms:
+    text: du siehst fern, er sieht fern
+    er: sieht fern
+    separable: true
+  ipa: /ˈfɛʁnˌzeːən/
+  example:
+    de: Am Abend sehe ich gern fern.
+    vi: Buổi tối tôi thích xem tivi.
+  usage_vi: Đổi nguyên âm e → ie. Động từ tách.
+  lesson_refs:
+  - a1.m05.l01
+  tags:
+  - verb
+  - alltag
+  - trennbar
+  - unregelmaessig
+  source: nwn-lern
+- id: a1.m05.v.anrufen
+  de: anrufen
+  pos: verb
+  vi: gọi điện thoại
+  forms:
+    text: du rufst an, er ruft an
+    er: ruft an
+    separable: true
+  ipa: /ˈanˌʁuːfn̩/
+  example:
+    de: Ich rufe meine Mutter an.
+    vi: Tôi gọi điện cho mẹ.
+  usage_vi: Động từ tách. Đi với Akkusativ.
+  lesson_refs:
+  - a1.m05.l01
+  tags:
+  - verb
+  - kommunikation
+  - trennbar
+  source: nwn-lern
+- id: a1.m05.v.mitbringen
+  de: mitbringen
+  pos: verb
+  vi: mang theo
+  forms:
+    text: du bringst mit, er bringt mit
+    er: bringt mit
+    separable: true
+  ipa: /ˈmɪtˌbʁɪŋən/
+  example:
+    de: Bring bitte Brot mit!
+    vi: Hãy mang theo bánh mì nhé!
+  usage_vi: 'Động từ tách: mit ở cuối câu.'
+  lesson_refs:
+  - a1.m05.l01
+  tags:
+  - verb
+  - alltag
+  - trennbar
+  source: nwn-lern
+- id: a1.m05.v.mitkommen
+  de: mitkommen
+  pos: verb
+  vi: đi cùng
+  forms:
+    text: du kommst mit, er kommt mit
+    er: kommt mit
+    separable: true
+  ipa: /ˈmɪtˌkɔmən/
+  example:
+    de: Kommst du ins Kino mit?
+    vi: Bạn có đi xem phim cùng không?
+  usage_vi: 'Động từ tách: mit ở cuối câu.'
+  lesson_refs:
+  - a1.m05.l01
+  tags:
+  - verb
+  - alltag
+  - trennbar
+  source: nwn-lern
+- id: a1.m05.v.spazieren-gehen
+  de: spazieren gehen
+  pos: verb
+  vi: đi dạo
+  forms:
+    text: du gehst spazieren, er geht spazieren
+    er: geht spazieren
+  ipa: /ʃpaˈtsiːʁən ˈɡeːən/
+  example:
+    de: Am Sonntag gehe ich im Park spazieren.
+    vi: Chủ nhật tôi đi dạo trong công viên.
+  usage_vi: gehen chia ở vị trí 2, spazieren ở cuối câu.
+  lesson_refs:
+  - a1.m05.l01
+  tags:
+  - verb
+  - freizeit
+  - phrase
+  source: nwn-lern
+- id: a1.m05.v.bett
+  de: Bett
+  pos: noun
+  article: das
+  plural: Betten
+  vi: giường
+  ipa: /bɛt/
+  example:
+    de: Ich gehe um elf Uhr ins Bett.
+    vi: Tôi đi ngủ lúc mười một giờ.
+  usage_vi: ins Bett gehen = đi ngủ.
+  lesson_refs:
+  - a1.m05.l01
+  tags:
+  - alltag
+  - wohnen
+  source: nwn-lern
+- id: a1.m05.v.zaehne-putzen
+  de: Zähne putzen
+  pos: phrase
+  vi: đánh răng
+  ipa: /ˈtsɛːnə ˈpʊtsn̩/
+  example:
+    de: Ich putze morgens die Zähne.
+    vi: Buổi sáng tôi đánh răng.
+  usage_vi: die Zähne (số nhiều của der Zahn).
+  lesson_refs:
+  - a1.m05.l01
+  tags:
+  - alltag
+  - hygiene
+  source: supplement
+- id: a1.m05.v.duschen
+  de: duschen
+  pos: verb
+  vi: tắm vòi sen
+  forms:
+    text: du duschst, er duscht
+    er: duscht
+  ipa: /ˈduːʃn̩/
+  example:
+    de: Morgens dusche ich gern warm.
+    vi: Buổi sáng tôi thích tắm vòi sen nước ấm.
+  usage_vi: 'Chia bình thường: ich dusche. Cũng dùng dạng phản thân: „sich duschen“. Danh từ: die Dusche.'
+  lesson_refs:
+  - a1.m05.l01
+  tags:
+  - verb
+  - alltag
+  - hygiene
+  source: nwn-lern
+- id: a1.m05.v.spazierengehen
+  de: spazierengehen
+  pos: verb
+  vi: đi dạo
+  forms:
+    text: du gehst spazieren, er geht spazieren
+    er: geht spazieren
+    separable: true
+  ipa: /ʃpaˈtsiːʁənˌɡeːən/
+  example:
+    de: Am Abend gehe ich gern im Park spazieren.
+    vi: Buổi tối tôi thích đi dạo ở công viên.
+  usage_vi: 'Động từ ghép: spazieren đứng cuối câu.'
+  lesson_refs:
+  - a1.m05.l01
+  tags:
+  - freizeit
+  - alltag
+  - trennbar
+  source: nwn-lern
+- id: a1.m05.v.aufraeumen
+  de: aufräumen
+  pos: verb
+  vi: dọn dẹp
+  forms:
+    text: du räumst auf, er räumt auf
+    er: räumt auf
+    separable: true
+  ipa: /ˈaʊ̯fˌʁɔɪ̯mən/
+  example:
+    de: Am Samstag räume ich mein Zimmer auf.
+    vi: Thứ Bảy tôi dọn phòng của mình.
+  usage_vi: 'Động từ tách: auf ở cuối câu.'
+  lesson_refs:
+  - a1.m05.l01
+  tags:
+  - verb
+  - alltag
+  - wohnen
+  - trennbar
+  source: nwn-lern
+- id: a1.m05.v.beginnen
+  de: beginnen
+  pos: verb
+  vi: bắt đầu
+  forms:
+    text: es beginnt
+    er: beginnt
+  ipa: /bəˈɡɪnən/
+  example:
+    de: Wann beginnt der Film?
+    vi: Khi nào bộ phim bắt đầu?
+  usage_vi: Không phải động từ tách (tiền tố be- không tách). Đồng nghĩa anfangen.
+  lesson_refs:
+  - a1.m05.l01
+  tags:
+  - verb
+  - zeit
+  source: nwn-lern
+- id: a1.m05.v.uhrzeit
+  de: Uhrzeit
+  pos: noun
+  article: die
+  plural: Uhrzeiten
+  vi: giờ giấc
+  ipa: /ˈuːɐ̯ˌtsaɪ̯t/
+  example:
+    de: Wie spät ist es?
+    vi: Mấy giờ rồi?
+  usage_vi: die Uhr + die Zeit.
+  lesson_refs:
+  - a1.m05.l02
+  tags:
+  - zeit
+  source: nwn-lern
+- id: a1.m05.v.spaet
+  de: spät
+  pos: adjective
+  vi: muộn, trễ
+  ipa: /ʃpɛːt/
+  example:
+    de: Es ist schon sehr spät.
+    vi: Đã rất muộn rồi.
+  usage_vi: Wie spät ist es? = Mấy giờ rồi?
+  lesson_refs:
+  - a1.m05.l02
+  tags:
+  - zeit
+  source: nwn-lern
+- id: a1.m05.v.frueh
+  de: früh
+  pos: adjective
+  vi: sớm
+  ipa: /fʁyː/
+  example:
+    de: Ich stehe jeden Tag früh auf.
+    vi: Mỗi ngày tôi đều thức dậy sớm.
+  usage_vi: 'Trái nghĩa: spät.'
+  lesson_refs:
+  - a1.m05.l02
+  tags:
+  - zeit
+  source: nwn-lern
+- id: a1.m05.v.viertelstunde
+  de: Viertelstunde
+  pos: noun
+  article: die
+  plural: Viertelstunden
+  vi: mười lăm phút, một phần tư giờ
+  ipa: /ˈfɪʁtl̩ˌʃtʊndə/
+  example:
+    de: Wir treffen uns in einer Viertelstunde.
+    vi: Chúng ta gặp nhau sau 15 phút nữa.
+  usage_vi: das Viertel + die Stunde.
+  lesson_refs:
+  - a1.m05.l02
+  tags:
+  - zeit
+  - uhrzeit
+  source: nwn-lern
+- id: a1.m05.v.minute
+  de: Minute
+  pos: noun
+  article: die
+  plural: Minuten
+  vi: phút
+  ipa: /miˈnuːtə/
+  example:
+    de: Der Bus kommt in fünf Minuten.
+    vi: Xe buýt sẽ đến trong năm phút nữa.
+  usage_vi: 'Viết tắt: Min.'
+  lesson_refs:
+  - a1.m05.l02
+  tags:
+  - zeit
+  source: nwn-lern
+- id: a1.m05.v.sekunde
+  de: Sekunde
+  pos: noun
+  article: die
+  plural: Sekunden
+  vi: giây
+  ipa: /zeˈkʊndə/
+  example:
+    de: Einen Moment bitte, nur eine Sekunde!
+    vi: Xin đợi một lát, chỉ một giây thôi!
+  usage_vi: 'Viết tắt: Sek.'
+  lesson_refs:
+  - a1.m05.l02
+  tags:
+  - zeit
+  source: supplement
+- id: a1.m05.v.viertel
+  de: Viertel
+  pos: noun
+  article: das
+  plural: Viertel
+  vi: một phần tư, 15 phút
+  ipa: /ˈfɪʁtl̩/
+  example:
+    de: Es ist Viertel nach acht.
+    vi: Bây giờ là tám giờ mười lăm (8:15).
+  usage_vi: Viertel nach = qua 15 phút; Viertel vor = kém 15 phút.
+  lesson_refs:
+  - a1.m05.l02
+  tags:
+  - zeit
+  source: nwn-lern
+- id: a1.m05.v.vor
+  de: vor
+  pos: preposition
+  vi: trước, kém (giờ)
+  ipa: /foːɐ̯/
+  example:
+    de: Es ist zehn vor neun.
+    vi: Chín giờ kém mười (8:50).
+  usage_vi: Dùng khi nói giờ không chính thức.
+  lesson_refs:
+  - a1.m05.l02
+  tags:
+  - zeit
+  source: nwn-lern
+- id: a1.m05.v.mittagspause
+  de: Mittagspause
+  pos: noun
+  article: die
+  plural: Mittagspausen
+  vi: giờ nghỉ trưa
+  ipa: /ˈmɪtaːksˌpaʊ̯zə/
+  example:
+    de: Um zwölf Uhr machen wir Mittagspause.
+    vi: Lúc 12 giờ chúng tôi nghỉ trưa.
+  usage_vi: der Mittag + die Pause.
+  lesson_refs:
+  - a1.m05.l02
+  tags:
+  - zeit
+  - arbeit
+  source: nwn-lern
+- id: a1.m05.v.puenktlich
+  de: pünktlich
+  pos: adjective
+  vi: đúng giờ
+  ipa: /ˈpʏŋktlɪç/
+  example:
+    de: Die Züge in der Schweiz sind sehr pünktlich.
+    vi: Các chuyến tàu ở Thụy Sĩ rất đúng giờ.
+  usage_vi: Đức tính văn hóa được đánh giá cao ở D-A-CH.
+  lesson_refs:
+  - a1.m05.l02
+  tags:
+  - eigenschaft
+  - kultur
+  source: nwn-lern
+- id: a1.m05.v.unpuenktlich
+  de: unpünktlich
+  pos: adjective
+  vi: không đúng giờ, trễ hẹn
+  ipa: /ˈʊnˌpʏŋktlɪç/
+  example:
+    de: Sei bitte nicht unpünktlich!
+    vi: Xin đừng trễ hẹn nhé!
+  usage_vi: un- phủ định của pünktlich.
+  lesson_refs:
+  - a1.m05.l02
+  tags:
+  - eigenschaft
+  source: nwn
+- id: a1.m05.v.dauern
+  de: dauern
+  pos: verb
+  vi: kéo dài
+  forms:
+    text: es dauert
+    er: dauert
+  ipa: /ˈdaʊ̯ɐn/
+  example:
+    de: Wie lange dauert der Deutschkurs?
+    vi: Khóa tiếng Đức kéo dài bao lâu?
+  usage_vi: Wie lange dauert ...? = Kéo dài bao lâu?
+  lesson_refs:
+  - a1.m05.l02
+  tags:
+  - verb
+  - zeit
+  source: nwn-lern
+- id: a1.m05.v.wie-lange
+  de: wie lange
+  pos: interrogative
+  vi: bao lâu
+  ipa: /viː ˈlaŋə/
+  example:
+    de: Wie lange bleibst du hier?
+    vi: Bạn ở lại đây bao lâu?
+  usage_vi: Từ để hỏi về khoảng thời gian.
+  lesson_refs:
+  - a1.m05.l02
+  tags:
+  - w-frage
+  - zeit
+  source: nwn-lern
+- id: a1.m05.v.zeitplan
+  de: Zeitplan
+  pos: noun
+  article: der
+  plural: Zeitpläne
+  vi: kế hoạch thời gian, thời gian biểu
+  ipa: /ˈtsaɪ̯tˌplaːn/
+  example:
+    de: Unser Zeitplan ist sehr eng.
+    vi: Thời gian biểu của chúng tôi rất sít sao.
+  usage_vi: die Zeit + der Plan.
+  lesson_refs:
+  - a1.m05.l02
+  tags:
+  - zeit
+  - organisation
+  source: nwn
+- id: a1.m05.v.von-bis
+  de: von ... bis ...
+  pos: phrase
+  vi: từ ... đến ...
+  ipa: /fɔn bɪs/
+  example:
+    de: Ich arbeite von acht bis siebzehn Uhr.
+    vi: Tôi làm việc từ 8 đến 17 giờ.
+  usage_vi: Giới từ chỉ khoảng thời gian hoặc địa điểm.
+  lesson_refs:
+  - a1.m05.l02
+  tags:
+  - zeit
+  - phrase
+  source: nwn-lern
+- id: a1.m05.v.mitternacht
+  de: Mitternacht
+  pos: noun
+  article: die
+  no_plural: true
+  vi: nửa đêm (12 giờ đêm)
+  ipa: /ˈmɪtɐˌnaxt/
+  example:
+    de: Um Mitternacht schlafe ich schon.
+    vi: Nửa đêm tôi đã ngủ rồi.
+  usage_vi: um Mitternacht = lúc nửa đêm (24:00).
+  lesson_refs:
+  - a1.m05.l02
+  tags:
+  - zeit
+  - sg-only
+  source: nwn-lern
+- id: a1.m05.v.terminplan
+  de: Terminplan
+  pos: noun
+  article: der
+  plural: Terminpläne
+  vi: lịch hẹn, kế hoạch các cuộc hẹn
+  ipa: /tɛʁˈmiːnˌplaːn/
+  example:
+    de: Ich trage das in meinen Terminplan ein.
+    vi: Tôi ghi việc đó vào lịch hẹn của mình.
+  usage_vi: der Termin + der Plan.
+  lesson_refs:
+  - a1.m05.l02
+  tags:
+  - zeit
+  - termin
+  source: nwn
+- id: a1.m05.v.taeglich
+  de: täglich
+  pos: adjective
+  vi: hằng ngày, mỗi ngày
+  ipa: /ˈtɛːklɪç/
+  example:
+    de: Wir lernen täglich zwei Stunden Deutsch.
+    vi: Chúng tôi học tiếng Đức hai tiếng mỗi ngày.
+  usage_vi: Trạng từ/tính từ chỉ tần suất.
+  lesson_refs:
+  - a1.m05.l02
+  tags:
+  - zeit
+  - alltag
+  source: nwn-lern
+- id: a1.m05.v.familie
+  de: Familie
+  pos: noun
+  article: die
+  plural: Familien
+  vi: gia đình
+  ipa: /faˈmiːli̯ə/
+  example:
+    de: Meine Familie wohnt in Berlin.
+    vi: Gia đình tôi sống ở Berlin.
+  usage_vi: 'Trọng âm: fa-MI-lie.'
+  lesson_refs:
+  - a1.m05.l03
+  tags:
+  - familie
+  source: nwn-lern
+- id: a1.m05.v.vater
+  de: Vater
+  pos: noun
+  article: der
+  plural: Väter
+  vi: người bố, người cha
+  ipa: /ˈfaːtɐ/
+  example:
+    de: Mein Vater ist 55 Jahre alt.
+    vi: Bố tôi 55 tuổi.
+  usage_vi: 'Số nhiều biến âm: die Väter.'
+  lesson_refs:
+  - a1.m05.l03
+  tags:
+  - familie
+  source: nwn-lern
+- id: a1.m05.v.mutter
+  de: Mutter
+  pos: noun
+  article: die
+  plural: Mütter
+  vi: người mẹ
+  ipa: /ˈmʊtɐ/
+  example:
+    de: Meine Mutter kocht sehr gut.
+    vi: Mẹ tôi nấu ăn rất ngon.
+  usage_vi: 'Số nhiều biến âm: die Mütter.'
+  lesson_refs:
+  - a1.m05.l03
+  tags:
+  - familie
+  source: nwn-lern
+- id: a1.m05.v.eltern
+  de: Eltern
+  pos: noun
+  article: die
+  no_plural: true
+  vi: bố mẹ, phụ huynh
+  ipa: /ˈɛltɐn/
+  example:
+    de: Meine Eltern leben in Vietnam.
+    vi: Bố mẹ tôi sống ở Việt Nam.
+  usage_vi: Chỉ dùng ở số nhiều.
+  lesson_refs:
+  - a1.m05.l03
+  tags:
+  - familie
+  - pl-only
+  source: nwn-lern
+- id: a1.m05.v.sohn
+  de: Sohn
+  pos: noun
+  article: der
+  plural: Söhne
+  vi: con trai
+  ipa: /zoːn/
+  example:
+    de: Ihr Sohn heißt Paul.
+    vi: Con trai cô ấy tên là Paul.
+  usage_vi: 'Số nhiều biến âm: die Söhne.'
+  lesson_refs:
+  - a1.m05.l03
+  tags:
+  - familie
+  source: nwn-lern
+- id: a1.m05.v.tochter
+  de: Tochter
+  pos: noun
+  article: die
+  plural: Töchter
+  vi: con gái
+  ipa: /ˈtɔxtɐ/
+  example:
+    de: Seine Tochter lernt fleißig Deutsch.
+    vi: Con gái anh ấy chăm chỉ học tiếng Đức.
+  usage_vi: 'Số nhiều biến âm: die Töchter.'
+  lesson_refs:
+  - a1.m05.l03
+  tags:
+  - familie
+  source: nwn-lern
+- id: a1.m05.v.kind
+  de: Kind
+  pos: noun
+  article: das
+  plural: Kinder
+  vi: đứa trẻ, con
+  ipa: /kɪnt/
+  example:
+    de: Wir haben zwei Kinder.
+    vi: Chúng tôi có hai người con.
+  usage_vi: 'Số nhiều: die Kinder.'
+  lesson_refs:
+  - a1.m05.l03
+  tags:
+  - familie
+  source: nwn-lern
+- id: a1.m05.v.bruder
+  de: Bruder
+  pos: noun
+  article: der
+  plural: Brüder
+  vi: anh/em trai
+  ipa: /ˈbʁuːdɐ/
+  example:
+    de: Mein Bruder arbeitet in München.
+    vi: Anh trai tôi làm việc ở München.
+  usage_vi: 'Số nhiều biến âm: die Brüder.'
+  lesson_refs:
+  - a1.m05.l03
+  tags:
+  - familie
+  source: nwn-lern
+- id: a1.m05.v.schwester
+  de: Schwester
+  pos: noun
+  article: die
+  plural: Schwestern
+  vi: chị/em gái
+  ipa: /ˈʃvɛstɐ/
+  example:
+    de: Meine Schwester studiert Medizin.
+    vi: Em gái tôi học ngành Y.
+  usage_vi: 'Chị hoặc em gái (tiếng Đức không phân biệt). Số nhiều: Schwestern; anh chị em nói chung: die Geschwister.'
+  lesson_refs:
+  - a1.m05.l03
+  tags:
+  - familie
+  source: nwn-lern
+- id: a1.m05.v.geschwister
+  de: Geschwister
+  pos: noun
+  article: die
+  no_plural: true
+  vi: anh chị em ruột
+  ipa: /ɡəˈʃvɪstɐ/
+  example:
+    de: Hast du Geschwister?
+    vi: Bạn có anh chị em không?
+  usage_vi: Chỉ dùng ở số nhiều (anh chị em nói chung).
+  lesson_refs:
+  - a1.m05.l03
+  tags:
+  - familie
+  - pl-only
+  source: nwn-lern
+- id: a1.m05.v.grossvater
+  de: Großvater
+  pos: noun
+  article: der
+  plural: Großväter
+  vi: ông nội/ngoại
+  ipa: /ˈɡʁoːsˌfaːtɐ/
+  example:
+    de: Mein Großvater liest gern Zeitung.
+    vi: Ông tôi thích đọc báo.
+  usage_vi: 'Thân mật: der Opa.'
+  lesson_refs:
+  - a1.m05.l03
+  tags:
+  - familie
+  source: nwn-lern
+- id: a1.m05.v.opa
+  de: Opa
+  pos: noun
+  article: der
+  plural: Opas
+  vi: ông (thân mật)
+  ipa: /ˈoːpa/
+  example:
+    de: Mein Opa ist 80 Jahre alt.
+    vi: Ông tôi 80 tuổi.
+  usage_vi: Cách gọi gần gũi trong gia đình.
+  lesson_refs:
+  - a1.m05.l03
+  tags:
+  - familie
+  source: nwn-lern
+- id: a1.m05.v.grossmutter
+  de: Großmutter
+  pos: noun
+  article: die
+  plural: Großmütter
+  vi: bà nội/ngoại
+  ipa: /ˈɡʁoːsˌmʊtɐ/
+  example:
+    de: Meine Großmutter backt Kuchen.
+    vi: Bà tôi nướng bánh ngọt.
+  usage_vi: 'Thân mật: die Oma.'
+  lesson_refs:
+  - a1.m05.l03
+  tags:
+  - familie
+  source: nwn-lern
+- id: a1.m05.v.oma
+  de: Oma
+  pos: noun
+  article: die
+  plural: Omas
+  vi: bà (thân mật)
+  ipa: /ˈoːma/
+  example:
+    de: Meine Oma wohnt bei uns.
+    vi: Bà tôi sống cùng chúng tôi.
+  usage_vi: Cách gọi thân mật.
+  lesson_refs:
+  - a1.m05.l03
+  tags:
+  - familie
+  source: nwn-lern
+- id: a1.m05.v.grosseltern
+  de: Großeltern
+  pos: noun
+  article: die
+  no_plural: true
+  vi: ông bà
+  ipa: /ˈɡʁoːsˌʔɛltɐn/
+  example:
+    de: Meine Großeltern sind sehr lieb.
+    vi: Ông bà tôi rất hiền từ.
+  usage_vi: Chỉ dùng ở số nhiều.
+  lesson_refs:
+  - a1.m05.l03
+  tags:
+  - familie
+  - pl-only
+  source: nwn-lern
+- id: a1.m05.v.enkel
+  de: Enkel
+  pos: noun
+  article: der
+  plural: Enkel
+  vi: cháu trai (của ông bà)
+  ipa: /ˈɛŋkl̩/
+  example:
+    de: Mein Großvater hat drei Enkel.
+    vi: Ông tôi có ba người cháu trai.
+  usage_vi: 'Nữ: die Enkelin. Số nhiều: Enkel (không đổi). Cả cháu nội lẫn cháu ngoại. Gộp chung: die Enkelkinder.'
+  lesson_refs:
+  - a1.m05.l03
+  tags:
+  - familie
+  source: nwn-lern
+- id: a1.m05.v.enkelin
+  de: Enkelin
+  pos: noun
+  article: die
+  plural: Enkelinnen
+  vi: cháu gái (của ông bà)
+  ipa: /ˈɛŋkəlɪn/
+  example:
+    de: Seine Enkelin heißt Anna.
+    vi: Cháu gái của ông ấy tên là Anna.
+  usage_vi: -in chỉ phái nữ.
+  lesson_refs:
+  - a1.m05.l03
+  tags:
+  - familie
+  source: nwn-lern
+- id: a1.m05.v.baby
+  de: Baby
+  pos: noun
+  article: das
+  plural: Babys
+  vi: em bé sơ sinh
+  ipa: /ˈbeːbi/
+  example:
+    de: Das Baby schläft ruhig im Zimmer.
+    vi: Em bé ngủ ngoan trong phòng.
+  usage_vi: Từ mượn tiếng Anh, số nhiều thêm -s.
+  lesson_refs:
+  - a1.m05.l03
+  tags:
+  - familie
+  source: nwn-lern
+- id: a1.m05.v.hund
+  de: Hund
+  pos: noun
+  article: der
+  plural: Hunde
+  vi: con chó
+  ipa: /hʊnt/
+  example:
+    de: Unser Hund heißt Rex.
+    vi: Chú chó của chúng tôi tên là Rex.
+  usage_vi: Thú cưng phổ biến ở Đức.
+  lesson_refs:
+  - a1.m05.l03
+  tags:
+  - haustier
+  - tier
+  source: nwn-lern
+- id: a1.m05.v.katze
+  de: Katze
+  pos: noun
+  article: die
+  plural: Katzen
+  vi: con mèo
+  ipa: /ˈkatsə/
+  example:
+    de: Ihre Katze ist sehr süß.
+    vi: Con mèo của cô ấy rất dễ thương.
+  usage_vi: 'Số nhiều: Katzen. Mèo đực: der Kater. „eine Katze haben“ = nuôi mèo.'
+  lesson_refs:
+  - a1.m05.l03
+  tags:
+  - haustier
+  - tier
+  source: nwn-lern
+- id: a1.m05.v.haustier
+  de: Haustier
+  pos: noun
+  article: das
+  plural: Haustiere
+  vi: thú nuôi trong nhà
+  ipa: /ˈhaʊ̯sˌtiːɐ̯/
+  example:
+    de: Haben Sie Haustiere?
+    vi: Quý vị có nuôi thú cưng không?
+  usage_vi: das Haus + das Tier.
+  lesson_refs:
+  - a1.m05.l03
+  tags:
+  - haustier
+  - tier
+  source: nwn
+- id: a1.m05.v.verheiratet
+  de: verheiratet
+  pos: adjective
+  vi: đã kết hôn
+  ipa: /fɛɐ̯ˈhaɪ̯ʁaːtət/
+  example:
+    de: Sind Sie verheiratet?
+    vi: Quý vị đã kết hôn chưa?
+  usage_vi: 'Trái nghĩa: ledig (độc thân).'
+  lesson_refs:
+  - a1.m05.l03
+  tags:
+  - familie
+  - status
+  source: nwn-lern
+- id: a1.m05.v.terminkalender
+  de: Terminkalender
+  pos: noun
+  article: der
+  plural: Terminkalender
+  vi: sổ lịch hẹn, lịch công tác
+  ipa: /tɛʁˈmiːnkaˌlɛndɐ/
+  example:
+    de: Mein Terminkalender ist diese Woche voll.
+    vi: Sổ lịch hẹn của tôi tuần này kín mít.
+  usage_vi: der Termin + der Kalender.
+  lesson_refs:
+  - a1.m05.l04
+  tags:
+  - termin
+  - arbeit
+  source: nwn-lern
+- id: a1.m05.v.kalender
+  de: Kalender
+  pos: noun
+  article: der
+  plural: Kalender
+  vi: cuốn lịch, sổ ghi lịch
+  ipa: /kaˈlɛndɐ/
+  example:
+    de: Ich trage den Termin in meinen Kalender ein.
+    vi: Tôi ghi lịch hẹn vào cuốn sổ lịch của mình.
+  usage_vi: 'Số nhiều: Kalender. „in den Kalender eintragen“ = ghi vào lịch; lịch hẹn: der Terminkalender.'
+  lesson_refs:
+  - a1.m05.l04
+  tags:
+  - termin
+  - alltag
+  source: nwn-lern
+- id: a1.m05.v.kalenderwoche
+  de: Kalenderwoche
+  pos: noun
+  article: die
+  plural: Kalenderwochen
+  vi: tuần theo lịch
+  ipa: /kaˈlɛndɐˌvɔxə/
+  example:
+    de: Wir treffen uns in Kalenderwoche 42.
+    vi: Chúng ta gặp nhau vào tuần 42 theo lịch.
+  usage_vi: 'Viết tắt: KW.'
+  lesson_refs:
+  - a1.m05.l04
+  tags:
+  - zeit
+  - arbeit
+  source: nwn
+- id: a1.m05.v.voll
+  de: voll
+  pos: adjective
+  vi: đầy, kín lịch
+  ipa: /fɔl/
+  example:
+    de: Mein Kalender ist diese Woche ganz voll.
+    vi: Lịch của tôi tuần này kín hết rồi.
+  usage_vi: 'Trái nghĩa: frei, leer.'
+  lesson_refs:
+  - a1.m05.l04
+  tags:
+  - termin
+  - alltag
+  source: nwn-lern
+- id: a1.m05.v.arbeitstag
+  de: Arbeitstag
+  pos: noun
+  article: der
+  plural: Arbeitstage
+  vi: ngày làm việc
+  ipa: /ˈaʁbaɪ̯tsˌtaːk/
+  example:
+    de: Mein Arbeitstag beginnt um acht Uhr.
+    vi: Ngày làm việc của tôi bắt đầu lúc 8 giờ.
+  usage_vi: die Arbeit + der Tag.
+  lesson_refs:
+  - a1.m05.l04
+  tags:
+  - arbeit
+  source: nwn-lern
+- id: a1.m05.v.feierabend
+  de: Feierabend
+  pos: noun
+  article: der
+  no_plural: true
+  vi: giờ tan làm, thời gian nghỉ ngơi sau giờ làm
+  ipa: /ˈfaɪ̯ɐˌʔaːbn̩t/
+  example:
+    de: Schönen Feierabend!
+    vi: Chúc buổi tối tan sở vui vẻ!
+  usage_vi: 'Văn hóa Đức: thời gian nghỉ ngơi sau khi hết giờ làm.'
+  lesson_refs:
+  - a1.m05.l04
+  tags:
+  - arbeit
+  - kultur
+  - sg-only
+  source: nwn-lern
+- id: a1.m05.v.bringen
+  de: bringen
+  pos: verb
+  vi: mang, đưa đón
+  forms:
+    text: du bringst, er bringt
+    er: bringt
+  ipa: /ˈbʁɪŋən/
+  example:
+    de: Er bringt die Kinder zur Schule.
+    vi: Anh ấy đưa các con đến trường.
+  usage_vi: 'Nhiều nghĩa: mang đến, đưa ai đó đến nơi nào: „zur Schule bringen“. Quá khứ bất quy tắc: gebracht.'
+  lesson_refs:
+  - a1.m05.l04
+  tags:
+  - verb
+  - alltag
+  source: nwn-lern
+- id: a1.m05.v.abholen
+  de: abholen
+  pos: verb
+  vi: đón (ai/cái gì)
+  forms:
+    text: du holst ab, er holt ab
+    er: holt ab
+    separable: true
+  ipa: /ˈapˌhoːlən/
+  example:
+    de: Wer holt die Kinder ab?
+    vi: Ai đón các con về?
+  usage_vi: 'Động từ tách: ab ở cuối câu.'
+  lesson_refs:
+  - a1.m05.l04
+  tags:
+  - verb
+  - alltag
+  - trennbar
+  source: nwn-lern
+- id: a1.m05.v.grundschule
+  de: Grundschule
+  pos: noun
+  article: die
+  plural: Grundschulen
+  vi: trường tiểu học
+  ipa: /ˈɡʁʊntˌʃuːlə/
+  example:
+    de: Unsere Tochter geht in die Grundschule.
+    vi: Con gái chúng tôi học trường tiểu học.
+  usage_vi: Cấp học từ lớp 1 đến lớp 4 ở Đức.
+  lesson_refs:
+  - a1.m05.l04
+  tags:
+  - bildung
+  - alltag
+  source: nwn-lern
+- id: a1.m05.v.kindergarten
+  de: Kindergarten
+  pos: noun
+  article: der
+  plural: Kindergärten
+  vi: trường mẫu giáo, mầm non
+  ipa: /ˈkɪndɐˌɡaʁtn̩/
+  example:
+    de: Unser Sohn geht in den Kindergarten.
+    vi: Con trai chúng tôi đi học mẫu giáo.
+  usage_vi: das Kind + der Garten.
+  lesson_refs:
+  - a1.m05.l04
+  tags:
+  - bildung
+  - alltag
+  source: nwn-lern
+- id: a1.m05.v.hausaufgabe
+  de: Hausaufgabe
+  pos: noun
+  article: die
+  plural: Hausaufgaben
+  vi: bài tập về nhà
+  ipa: /ˈhaʊ̯sˌʔaʊ̯fɡaːbə/
+  example:
+    de: Die Kinder machen ihre Hausaufgaben.
+    vi: Tụi trẻ đang làm bài tập về nhà.
+  usage_vi: Thường dùng số nhiều.
+  lesson_refs:
+  - a1.m05.l04
+  tags:
+  - bildung
+  - alltag
+  source: nwn-lern
+- id: a1.m05.v.sport
+  de: Sport
+  pos: noun
+  article: der
+  no_plural: true
+  vi: thể thao
+  ipa: /ʃpɔʁt/
+  example:
+    de: Am Nachmittag mache ich Sport.
+    vi: Buổi chiều tôi tập thể thao.
+  usage_vi: Sport machen = tập thể thao.
+  lesson_refs:
+  - a1.m05.l04
+  tags:
+  - freizeit
+  - sport
+  - sg-only
+  source: nwn-lern
+- id: a1.m05.v.putzen
+  de: putzen
+  pos: verb
+  vi: lau chùi, dọn dẹp
+  forms:
+    text: du putzt, er putzt
+    er: putzt
+  ipa: /ˈpʊtsn̩/
+  example:
+    de: Am Samstag putze ich die Wohnung.
+    vi: Thứ Bảy tôi dọn dẹp căn hộ.
+  usage_vi: 'Lau chùi, vệ sinh nói chung. Cụm hay gặp: „die Zähne putzen“ = đánh răng, „das Bad putzen“.'
+  lesson_refs:
+  - a1.m05.l04
+  tags:
+  - verb
+  - alltag
+  - wohnen
+  source: nwn-lern
+- id: a1.m05.v.familienalltag
+  de: Familienalltag
+  pos: noun
+  article: der
+  no_plural: true
+  vi: sinh hoạt gia đình thường nhật
+  ipa: /faˈmiːli̯ənˌʔaltaːk/
+  example:
+    de: Unser Familienalltag ist sehr aktiv.
+    vi: Sinh hoạt gia đình hằng ngày của chúng tôi rất năng động.
+  usage_vi: die Familie + der Alltag.
+  lesson_refs:
+  - a1.m05.l04
+  tags:
+  - familie
+  - alltag
+  - sg-only
+  source: nwn-lern
+- id: a1.m05.v.hausarbeit
+  de: Hausarbeit
+  pos: noun
+  article: die
+  plural: Hausarbeiten
+  vi: việc nhà, công việc gia đình
+  ipa: /ˈhaʊ̯sˌʔaʁbaɪ̯t/
+  example:
+    de: Am Samstag machen wir zusammen die Hausarbeit.
+    vi: Thứ Bảy chúng tôi cùng nhau làm việc nhà.
+  usage_vi: das Haus + die Arbeit.
+  lesson_refs:
+  - a1.m05.l04
+  tags:
+  - wohnen
+  - alltag
+  source: nwn-lern
+- id: a1.m05.v.schulkind
+  de: Schulkind
+  pos: noun
+  article: das
+  plural: Schulkinder
+  vi: học sinh nhỏ tuổi, trẻ em tuổi đi học
+  ipa: /ˈʃuːlˌkɪnt/
+  example:
+    de: Sophie ist schon ein Schulkind.
+    vi: Sophie đã là học sinh tiểu học rồi.
+  usage_vi: die Schule + das Kind.
+  lesson_refs:
+  - a1.m05.l04
+  tags:
+  - bildung
+  - familie
+  source: nwn
+- id: a1.m05.v.verabredung
+  de: Verabredung
+  pos: noun
+  article: die
+  plural: Verabredungen
+  vi: cuộc hẹn (bạn bè, người thân)
+  ipa: /fɛɐ̯ˈʔapʁeːdʊŋ/
+  example:
+    de: Ich habe heute eine Verabredung mit Tim.
+    vi: Hôm nay tôi có hẹn với Tim.
+  usage_vi: -ung → die.
+  lesson_refs:
+  - a1.m05.l05
+  tags:
+  - termin
+  - freizeit
+  source: nwn-lern
+- id: a1.m05.v.verabredet
+  de: verabredet
+  pos: adjective
+  vi: đã có hẹn
+  ipa: /fɛɐ̯ˈʔapʁeːdət/
+  example:
+    de: Bist du heute Abend verabredet?
+    vi: Tối nay bạn có hẹn trước rồi à?
+  usage_vi: verabredet sein = có hẹn trước.
+  lesson_refs:
+  - a1.m05.l05
+  tags:
+  - termin
+  source: nwn-lern
+- id: a1.m05.v.koennen
+  de: können
+  pos: verb
+  vi: có thể (năng lực, khả năng)
+  forms:
+    text: ich kann, du kannst, er kann, wir können, ihr könnt, sie können
+    er: kann
+  ipa: /ˈkœnən/
+  example:
+    de: Kannst du am Samstag kommen?
+    vi: Bạn có thể đến vào thứ Bảy không?
+  usage_vi: 'Modalverb: ich = er/sie/es (kann).'
+  lesson_refs:
+  - a1.m05.l05
+  tags:
+  - modalverb
+  - verb
+  source: nwn-lern
+- id: a1.m05.v.wollen
+  de: wollen
+  pos: verb
+  vi: muốn, dự định
+  forms:
+    text: ich will, du willst, er will, wir wollen, ihr wollt, sie wollen
+    er: will
+  ipa: /ˈvɔlən/
+  example:
+    de: Wir wollen am Abend Pizza essen.
+    vi: Chúng tôi muốn ăn pizza vào buổi tối.
+  usage_vi: 'Modalverb: ich = er/sie/es (will). Đổi o → i ở số ít.'
+  lesson_refs:
+  - a1.m05.l05
+  tags:
+  - modalverb
+  - verb
+  source: nwn-lern
+- id: a1.m05.v.muessen
+  de: müssen
+  pos: verb
+  vi: phải (bắt buộc)
+  forms:
+    text: ich muss, du musst, er muss, wir müssen, ihr müsst, sie müssen
+    er: muss
+  ipa: /ˈmʏsn̩/
+  example:
+    de: Ich muss heute lange arbeiten.
+    vi: Hôm nay tôi phải làm việc đến muộn.
+  usage_vi: 'Modalverb: ich = er/sie/es (muss).'
+  lesson_refs:
+  - a1.m05.l05
+  tags:
+  - modalverb
+  - verb
+  source: nwn-lern
+- id: a1.m05.v.treffen
+  de: treffen
+  pos: verb
+  vi: gặp mặt, gặp gỡ
+  forms:
+    text: du triffst, er trifft
+    er: trifft
+  ipa: /ˈtʁɛfn̩/
+  example:
+    de: Wo treffen wir uns?
+    vi: Chúng ta gặp nhau ở đâu?
+  usage_vi: 'Đổi nguyên âm e → i: du triffst, er trifft.'
+  lesson_refs:
+  - a1.m05.l05
+  tags:
+  - verb
+  - freizeit
+  - unregelmaessig
+  source: nwn-lern
+- id: a1.m05.v.idee
+  de: Idee
+  pos: noun
+  article: die
+  plural: Ideen
+  vi: ý tưởng, ý kiến
+  ipa: /iˈdeː/
+  example:
+    de: Gute Idee! Das machen wir!
+    vi: Ý tưởng hay đấy! Chúng ta làm vậy đi!
+  usage_vi: 'Trọng âm: I-dee.'
+  lesson_refs:
+  - a1.m05.l05
+  tags:
+  - meinung
+  source: nwn-lern
+- id: a1.m05.v.lust
+  de: Lust
+  pos: noun
+  article: die
+  no_plural: true
+  vi: hứng thú, sự thích thú
+  ipa: /lʊst/
+  example:
+    de: Hast du Lust auf Kino?
+    vi: Bạn có hứng đi xem phim không?
+  usage_vi: Lust haben auf + Akk = có hứng làm gì.
+  lesson_refs:
+  - a1.m05.l05
+  tags:
+  - freizeit
+  - sg-only
+  source: nwn-lern
+- id: a1.m05.v.passen
+  de: passen
+  pos: verb
+  vi: phù hợp, tiện (thời gian)
+  forms:
+    text: es passt
+    er: passt
+  ipa: /ˈpasn̩/
+  example:
+    de: Passt es dir am Freitag?
+    vi: Thứ Sáu có tiện cho bạn không?
+  usage_vi: Passt es dir / Ihnen? = Tiện cho bạn/quý vị không?
+  lesson_refs:
+  - a1.m05.l05
+  tags:
+  - verb
+  - termin
+  source: nwn-lern
+- id: a1.m05.v.vorschlagen
+  de: vorschlagen
+  pos: verb
+  vi: đề xuất, gợi ý
+  forms:
+    text: du schlägst vor, er schlägt vor
+    er: schlägt vor
+    separable: true
+  ipa: /ˈfoːɐ̯ˌʃlaːɡn̩/
+  example:
+    de: Ich schlage ein Treffen am Samstag vor.
+    vi: Tôi đề xuất một cuộc gặp vào thứ Bảy.
+  usage_vi: 'Động từ tách: vor ở cuối câu. Đổi a → ä.'
+  lesson_refs:
+  - a1.m05.l05
+  tags:
+  - verb
+  - termin
+  - trennbar
+  source: nwn-lern
+- id: a1.m05.v.leid
+  de: Leid
+  pos: noun
+  article: das
+  no_plural: true
+  vi: sự tiếc nuối, nỗi đau
+  ipa: /laɪ̯t/
+  example:
+    de: Es tut mir leid.
+    vi: Tôi rất tiếc.
+  usage_vi: Es tut mir leid = Tôi xin lỗi / Tôi rất tiếc.
+  lesson_refs:
+  - a1.m05.l05
+  tags:
+  - hoeflichkeit
+  - sg-only
+  source: nwn-lern
+- id: a1.m05.v.schade
+  de: schade
+  pos: interjection
+  vi: tiếc quá!
+  ipa: /ˈʃaːdə/
+  example:
+    de: Du hast keine Zeit? Schade!
+    vi: Bạn không có thời gian à? Tiếc quá!
+  usage_vi: Cảm thán từ quen thuộc.
+  lesson_refs:
+  - a1.m05.l05
+  tags:
+  - gefuehl
+  - interj
+  source: nwn-lern
+- id: a1.m05.v.klappen
+  de: klappen
+  pos: verb
+  vi: thành công, suôn sẻ, ổn thỏa
+  forms:
+    text: es klappt
+    er: klappt
+  ipa: /ˈklapn̩/
+  example:
+    de: Ja, Freitag klappt prima!
+    vi: Vâng, thứ Sáu thì quá ổn luôn!
+  usage_vi: Das klappt! = Ổn đấy, được đấy!
+  lesson_refs:
+  - a1.m05.l05
+  tags:
+  - verb
+  - termin
+  source: nwn-lern
+- id: a1.m05.v.prima
+  de: prima
+  pos: adjective
+  vi: tuyệt vời, rất tốt
+  ipa: /ˈpʁiːma/
+  example:
+    de: Das ist prima!
+    vi: Thế thì tuyệt quá!
+  usage_vi: Từ khẩu ngữ quen thuộc.
+  lesson_refs:
+  - a1.m05.l05
+  tags:
+  - bewertung
+  source: nwn-lern
+- id: a1.m05.v.verabreden
+  de: verabreden
+  pos: verb
+  vi: hẹn gặp nhau
+  forms:
+    text: du verabredest dich, er verabredet sich
+    er: verabredet sich
+  ipa: /fɛɐ̯ˈʔapʁeːdn̩/
+  example:
+    de: Wir verabreden uns für morgen.
+    vi: Chúng tôi hẹn gặp nhau vào ngày mai.
+  usage_vi: Động từ phản thân đi với sich.
+  lesson_refs:
+  - a1.m05.l05
+  tags:
+  - verb
+  - termin
+  source: nwn
+- id: a1.m05.v.absagen
+  de: absagen
+  pos: verb
+  vi: hủy hẹn, từ chối
+  forms:
+    text: du sagst ab, er sagt ab
+    er: sagt ab
+    separable: true
+  ipa: /ˈapˌzaːɡn̩/
+  example:
+    de: Er muss den Termin leider absagen.
+    vi: Anh ấy tiếc là phải hủy lịch hẹn.
+  usage_vi: 'Động từ tách: ab ở cuối câu.'
+  lesson_refs:
+  - a1.m05.l05
+  tags:
+  - verb
+  - termin
+  - trennbar
+  source: nwn-lern
+- id: a1.m05.v.verschieben
+  de: verschieben
+  pos: verb
+  vi: dời lịch, hoãn lại
+  forms:
+    text: du verschiebst, er verschiebt
+    er: verschiebt
+  ipa: /fɛɐ̯ˈʃiːbn̩/
+  example:
+    de: Können wir den Termin verschieben?
+    vi: Chúng ta có thể dời lịch hẹn được không?
+  usage_vi: Tiền tố ver- không tách.
+  lesson_refs:
+  - a1.m05.l05
+  tags:
+  - verb
+  - termin
+  source: nwn-lern
+- id: a1.m05.v.samstagnachmittag
+  de: Samstagnachmittag
+  pos: noun
+  article: der
+  plural: Samstagnachmittage
+  vi: chiều thứ Bảy
+  ipa: /ˈzamstaːkˌnaːxmɪtaːk/
+  example:
+    de: Am Samstagnachmittag gehe ich einkaufen.
+    vi: Chiều thứ Bảy tôi đi mua sắm.
+  usage_vi: der Samstag + der Nachmittag.
+  lesson_refs:
+  - a1.m05.l05
+  tags:
+  - zeit
+  source: nwn
+- id: a1.m05.v.vereinbaren
+  de: vereinbaren
+  pos: verb
+  vi: sắp xếp, đặt (lịch hẹn)
+  forms:
+    text: du vereinbarst, er vereinbart
+    er: vereinbart
+  ipa: /fɛɐ̯ˈʔaɪ̯nbaːʁən/
+  example:
+    de: Ich möchte einen Termin vereinbaren.
+    vi: Tôi muốn đặt một lịch hẹn.
+  usage_vi: Tiền tố ver- không tách.
+  lesson_refs:
+  - a1.m05.l06
+  tags:
+  - verb
+  - termin
+  source: nwn-lern
+- id: a1.m05.v.praxis
+  de: Praxis
+  pos: noun
+  article: die
+  plural: Praxen
+  vi: phòng khám (bác sĩ tư)
+  ipa: /ˈpʁaksɪs/
+  example:
+    de: Praxis Dr. Müller, guten Tag!
+    vi: Phòng khám bác sĩ Müller xin chào!
+  usage_vi: Ở Đức đi khám thường đến Praxis của bác sĩ tư.
+  lesson_refs:
+  - a1.m05.l06
+  tags:
+  - gesundheit
+  - arzt
+  source: nwn-lern
+- id: a1.m05.v.zahnarzt
+  de: Zahnarzt
+  pos: noun
+  article: der
+  plural: Zahnärzte
+  vi: bác sĩ nha khoa, nha sĩ (nam)
+  ipa: /ˈtsaːnˌʔaːɐ̯tst/
+  example:
+    de: Ich muss morgen zum Zahnarzt gehen.
+    vi: Ngày mai tôi phải đi khám nha sĩ.
+  usage_vi: der Zahn + der Arzt.
+  lesson_refs:
+  - a1.m05.l06
+  tags:
+  - gesundheit
+  - beruf
+  source: nwn-lern
+- id: a1.m05.v.zahnaerztin
+  de: Zahnärztin
+  pos: noun
+  article: die
+  plural: Zahnärztinnen
+  vi: nữ bác sĩ nha khoa
+  ipa: /ˈtsaːnˌʔɛːɐ̯tstɪn/
+  example:
+    de: Die Zahnärztin untersucht den Zahn.
+    vi: Bác sĩ nha khoa nữ đang khám răng.
+  usage_vi: -in chỉ phái nữ.
+  lesson_refs:
+  - a1.m05.l06
+  tags:
+  - gesundheit
+  - beruf
+  source: nwn-lern
+- id: a1.m05.v.arzttermin
+  de: Arzttermin
+  pos: noun
+  article: der
+  plural: Arzttermine
+  vi: lịch hẹn khám bệnh
+  ipa: /ˈaːɐ̯tsttɛʁˌmiːn/
+  example:
+    de: Ich habe am Dienstag einen Arzttermin.
+    vi: Tôi có một lịch hẹn khám bác sĩ vào thứ Ba.
+  usage_vi: der Arzt + der Termin.
+  lesson_refs:
+  - a1.m05.l06
+  tags:
+  - gesundheit
+  - termin
+  source: nwn
+- id: a1.m05.v.telefongespraech
+  de: Telefongespräch
+  pos: noun
+  article: das
+  plural: Telefongespräche
+  vi: cuộc gọi điện thoại
+  ipa: /teləˈfoːnɡəˌʃpʁɛːç/
+  example:
+    de: Das Telefongespräch dauert fünf Minuten.
+    vi: Cuộc gọi điện thoại kéo dài 5 phút.
+  usage_vi: das Telefon + das Gespräch.
+  lesson_refs:
+  - a1.m05.l06
+  tags:
+  - kommunikation
+  source: nwn-lern
+- id: a1.m05.v.augenblick
+  de: Augenblick
+  pos: noun
+  article: der
+  plural: Augenblicke
+  vi: giây lát, khoảnh khắc
+  ipa: /ˈaʊ̯ɡn̩ˌblɪk/
+  example:
+    de: Einen Augenblick bitte!
+    vi: Xin đợi một giây lát!
+  usage_vi: 'Đồng nghĩa: einen Moment.'
+  lesson_refs:
+  - a1.m05.l06
+  tags:
+  - zeit
+  - hoeflichkeit
+  source: nwn-lern
+- id: a1.m05.v.nachschauen
+  de: nachschauen
+  pos: verb
+  vi: tra cứu, kiểm tra lại
+  forms:
+    text: du schaust nach, er schaut nach
+    er: schaut nach
+    separable: true
+  ipa: /ˈnaːxˌʃaʊ̯ən/
+  example:
+    de: Ich schaue im Computer nach.
+    vi: Tôi kiểm tra trên máy tính xem sao.
+  usage_vi: 'Động từ tách: nach ở cuối câu.'
+  lesson_refs:
+  - a1.m05.l06
+  tags:
+  - verb
+  - trennbar
+  source: nwn
+- id: a1.m05.v.moeglich
+  de: möglich
+  pos: adjective
+  vi: có thể, khả thi
+  ipa: /ˈmøːklɪç/
+  example:
+    de: Ist ein Termin morgen möglich?
+    vi: Một lịch hẹn vào ngày mai có được không ạ?
+  usage_vi: 'Trái nghĩa: unmöglich.'
+  lesson_refs:
+  - a1.m05.l06
+  tags:
+  - modalitaet
+  source: nwn-lern
+- id: a1.m05.v.dringend
+  de: dringend
+  pos: adjective
+  vi: khẩn cấp, gấp
+  ipa: /ˈdʁɪŋənt/
+  example:
+    de: Ist es dringend?
+    vi: Việc đó có khẩn cấp không ạ?
+  usage_vi: Dùng khi hỏi mức độ gấp.
+  lesson_refs:
+  - a1.m05.l06
+  tags:
+  - eigenschaft
+  source: nwn-lern
+- id: a1.m05.v.puenktlichkeit
+  de: Pünktlichkeit
+  pos: noun
+  article: die
+  no_plural: true
+  vi: tính đúng giờ
+  ipa: /ˈpʏŋktlɪçkaɪ̯t/
+  example:
+    de: Pünktlichkeit ist in Deutschland sehr wichtig.
+    vi: Tính đúng giờ ở Đức rất quan trọng.
+  usage_vi: -heit/-keit luôn là die.
+  lesson_refs:
+  - a1.m05.l06
+  tags:
+  - kultur
+  - eigenschaft
+  - sg-only
+  source: nwn-lern
+- id: a1.m05.v.verspaetung
+  de: Verspätung
+  pos: noun
+  article: die
+  plural: Verspätungen
+  vi: sự muộn, sự trễ
+  ipa: /fɛɐ̯ˈʃpɛːtʊŋ/
+  example:
+    de: Der Zug hat zehn Minuten Verspätung.
+    vi: Chuyến tàu bị trễ mười phút.
+  usage_vi: Rất hay gặp khi đi tàu xe ở Đức.
+  lesson_refs:
+  - a1.m05.l06
+  tags:
+  - verkehr
+  - zeit
+  source: nwn-lern
+- id: a1.m05.v.verpassen
+  de: verpassen
+  pos: verb
+  vi: lỡ, nhỡ (tàu xe, cuộc hẹn)
+  forms:
+    text: du verpasst, er verpasst
+    er: verpasst
+  ipa: /fɛɐ̯ˈpasn̩/
+  example:
+    de: Ich habe den Bus verpasst.
+    vi: Tôi đã bị lỡ chuyến xe buýt.
+  usage_vi: Tiền tố ver- không tách.
+  lesson_refs:
+  - a1.m05.l06
+  tags:
+  - verb
+  - verkehr
+  source: nwn-lern
+- id: a1.m05.v.wartezimmer
+  de: Wartezimmer
+  pos: noun
+  article: das
+  plural: Wartezimmer
+  vi: phòng chờ (ở phòng khám bác sĩ)
+  ipa: /ˈvaʁtəˌtsɪmɐ/
+  example:
+    de: Bitte nehmen Sie im Wartezimmer Platz!
+    vi: Xin mời quý vị ngồi đợi ở phòng chờ!
+  usage_vi: warten + das Zimmer.
+  lesson_refs:
+  - a1.m05.l06
+  tags:
+  - gesundheit
+  - alltag
+  source: nwn-lern
+- id: a1.m05.v.verzeihung
+  de: Verzeihung
+  pos: noun
+  article: die
+  no_plural: true
+  vi: lời xin lỗi, thứ lỗi
+  ipa: /fɛɐ̯ˈtsaɪ̯ʊŋ/
+  example:
+    de: Verzeihung für die Verspätung!
+    vi: Xin thứ lỗi vì sự trễ hẹn của tôi!
+  usage_vi: Mẫu câu trang trọng đồng nghĩa Entschuldigung.
+  lesson_refs:
+  - a1.m05.l06
+  tags:
+  - hoeflichkeit
+  - sg-only
+  source: nwn-lern
+- id: a1.m05.v.entschuldigen
+  de: entschuldigen
+  pos: verb
+  vi: xin lỗi, thứ lỗi
+  forms:
+    text: du entschuldigst, er entschuldigt
+    er: entschuldigt
+  ipa: /ɛntˈʃʊldɪɡn̩/
+  example:
+    de: Entschuldigen Sie bitte!
+    vi: Xin quý vị thứ lỗi!
+  usage_vi: '„Entschuldigen Sie bitte!“ dùng để bắt chuyện hoặc xin lỗi nhẹ. „sich entschuldigen“ = xin lỗi. Danh từ: die Entschuldigung.'
+  lesson_refs:
+  - a1.m05.l06
+  tags:
+  - verb
+  - hoeflichkeit
+  source: nwn-lern
+- id: a1.m05.v.stau
+  de: Stau
+  pos: noun
+  article: der
+  plural: Staus
+  vi: tắc đường, kẹt xe
+  ipa: /ʃtaʊ̯/
+  example:
+    de: Ich stehe im Stau.
+    vi: Tôi đang bị kẹt xe.
+  usage_vi: im Stau stehen = bị kẹt xe.
+  lesson_refs:
+  - a1.m05.l06
+  tags:
+  - verkehr
+  source: nwn-lern
+- id: a1.m05.v.vorbereiten
+  de: vorbereiten
+  pos: verb
+  vi: chuẩn bị
+  forms:
+    text: du bereitest vor, er bereitet vor
+    er: bereitet vor
+    separable: true
+  ipa: /ˈfoːɐ̯bəˌʁaɪ̯tn̩/
+  example:
+    de: Ich bereite ein Telefongespräch vor.
+    vi: Tôi chuẩn bị một cuộc điện thoại.
+  usage_vi: 'Động từ tách: vor ở cuối câu.'
+  lesson_refs:
+  - a1.m05.l06
+  tags:
+  - verb
+  - arbeit
+  - trennbar
+  source: nwn-lern

@@ -1,0 +1,61 @@
+schema_version: "2.0"
+content_type: lesson
+id: a1.m10.l01
+level: A1
+module: a1.m10
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  references:
+    - { work: "Netzwerk neu A1.2 – Stoffverteilungsplan (Klett)", scope: "Kapitel 10, Mục Studium und Beruf; Wortschatz Berufe, Aktivitäten; Landeskunde Jobs rund ums Jahr", verification: verified }
+  tags: ["beruf", "studium"]
+order: 1
+title_de: "Studium und Beruf"
+title_vi: "Học đại học và nghề nghiệp"
+duration_min: 45
+difficulty: 1
+objectives:
+  - { id: a1.m10.l01.obj1, text_vi: "Bạn có thể nói nghề nghiệp, ngành học và nơi làm việc/học của mình.", skill: speaking }
+  - { id: a1.m10.l01.obj2, text_vi: "Bạn có thể đọc một đoạn ngắn về công việc làm thêm theo mùa và hiểu thông tin chính.", skill: reading }
+vocabulary_refs: [a1.m10.v.beruf, a1.m10.v.student, a1.m10.v.studentin, a1.m10.v.studium, a1.m10.v.universitaet, a1.m10.v.lehrer, a1.m10.v.lehrerin, a1.m10.v.ingenieur, a1.m10.v.verkaeufer, a1.m10.v.koch, a1.m10.v.koechin, a1.m10.v.kurs, a1.m10.v.job, a1.m10.v.studieren]
+grammar_refs: []
+expression_refs: [a1.m10.x.beruf-fragen, a1.m10.x.studium, a1.m10.x.arbeitsort]
+exercise_set_ref: a1.m10.l01.ex
+blocks:
+  - id: a1.m10.l01.b1
+    kind: explanation
+    skill: vocabulary
+    title_vi: "Bắt đầu: nghề nghiệp"
+    body_vi: |
+      Hỏi nghề: **Was sind Sie von Beruf?** — Trả lời không dùng mạo từ: **Ich bin Lehrerin. / Ich bin Student.**
+      Nghề nữ thường thêm **-in**: *Lehrer → Lehrerin, Koch → Köchin, Ingenieur → Ingenieurin.*
+      Làm việc ở đâu: **Ich arbeite als Verkäufer in einem Supermarkt.** Học: **Ich studiere Medizin an der Universität.**
+  - id: a1.m10.l01.b2
+    kind: dialogue
+    skill: speaking
+    title_vi: "Hội thoại: Làm quen ở buổi tiệc"
+    lines:
+      - { speaker: "Ida", de: "Hallo, ich bin Ida. Was machst du beruflich?", vi: "Chào, mình là Ida. Bạn làm nghề gì?" }
+      - { speaker: "Cem", de: "Ich bin Koch. Ich arbeite in einem Restaurant. Und du?", vi: "Mình là đầu bếp. Mình làm ở một nhà hàng. Còn bạn?" }
+      - { speaker: "Ida", de: "Ich bin noch Studentin. Ich studiere Medizin an der Universität in Köln.", vi: "Mình vẫn là sinh viên. Mình học ngành y ở trường đại học Köln." }
+      - { speaker: "Cem", de: "Das ist interessant! Wie lange dauert das Studium?", vi: "Hay quá! Chương trình học kéo dài bao lâu?" }
+      - { speaker: "Ida", de: "Sechs Jahre. Zum Glück habe ich auch einen Job im Krankenhaus.", vi: "Sáu năm. May là mình còn có một việc làm thêm ở bệnh viện." }
+  - id: a1.m10.l01.b3
+    kind: reading
+    skill: reading
+    title_vi: "Bài đọc: Jobs rund ums Jahr"
+    paragraphs:
+      - { de: "Im Sommer arbeiten viele Studenten in Hotels und Restaurants.", vi: "Mùa hè nhiều sinh viên làm việc trong khách sạn và nhà hàng." }
+      - { de: "Im Winter braucht man Verkäufer in den Geschäften, denn Weihnachten ist wichtig.", vi: "Mùa đông cần nhân viên bán hàng ở các cửa hàng vì Giáng sinh rất quan trọng." }
+      - { de: "Ein Job ist gut für das Geld, aber auch für die Erfahrung.", vi: "Một việc làm thêm tốt cho thu nhập nhưng cũng tốt cho kinh nghiệm." }
+  - id: a1.m10.l01.b4
+    kind: culture
+    skill: reading
+    title_vi: "Văn hóa: học và làm thêm ở D-A-CH"
+    body_vi: |
+      Nhiều sinh viên ở Đức, Áo và Thụy Sĩ làm **Nebenjob** (việc làm thêm) cùng lúc với **Studium**. Các công việc phổ biến theo mùa: phục vụ nhà hàng, bán hàng dịp Giáng sinh, hướng dẫn viên mùa hè.

@@ -1,0 +1,345 @@
+schema_version: '2.0'
+content_type: exercise-set
+id: a1.m01.l04.ex
+level: A1
+module: a1.m01
+lesson: a1.m01.l04
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+exercises:
+- id: a1.m01.l04.ex.01
+  type: matching
+  skill: vocabulary
+  difficulty: 1
+  objective_refs:
+  - a1.m01.l04.obj1
+  instructions_vi: Nối chữ số với cách viết bằng chữ.
+  items:
+  - id: a1.m01.l04.ex.01.q1
+    pairs:
+    - left: '11'
+      right: elf
+    - left: '12'
+      right: zwölf
+    - left: '16'
+      right: sechzehn
+    - left: '17'
+      right: siebzehn
+    - left: '14'
+      right: vierzehn
+    - left: '20'
+      right: zwanzig
+    explanation_vi: elf, zwölf phải học thuộc; sechzehn và siebzehn có chính tả đặc biệt.
+- id: a1.m01.l04.ex.02
+  type: dictation
+  skill: listening
+  difficulty: 1
+  objective_refs:
+  - a1.m01.l04.obj1
+  instructions_vi: 'Nghe và viết số bằng chữ số (ví dụ: 14).'
+  stimulus:
+    ref: a1.m01.l04.b10
+  items:
+  - id: a1.m01.l04.ex.02.q1
+    tts: vierzehn
+    answers:
+    - '14'
+    explanation_vi: vier + zehn = 14.
+  - id: a1.m01.l04.ex.02.q2
+    tts: zwölf
+    answers:
+    - '12'
+    explanation_vi: zwölf = 12.
+  - id: a1.m01.l04.ex.02.q3
+    tts: sechzehn
+    answers:
+    - '16'
+    explanation_vi: sechzehn = 16.
+  - id: a1.m01.l04.ex.02.q4
+    tts: siebzehn
+    answers:
+    - '17'
+    explanation_vi: siebzehn = 17.
+  - id: a1.m01.l04.ex.02.q5
+    tts: zwanzig
+    answers:
+    - '20'
+    explanation_vi: zwanzig = 20.
+- id: a1.m01.l04.ex.03
+  type: fill-blank
+  skill: listening
+  difficulty: 2
+  objective_refs:
+  - a1.m01.l04.obj2
+  - a1.m01.l04.obj4
+  - a1.m01.l04.obj3
+  instructions_vi: Nghe cuộc gọi đăng ký khóa học. Điền thông tin của Lan.
+  stimulus:
+    ref: a1.m01.l04.b9
+  items:
+  - id: a1.m01.l04.ex.03.q1
+    prompt: 'Nachname: ___'
+    answers:
+    - Nguyen
+    explanation_vi: 'Lan đánh vần: N – G – U – Y – E – N.'
+  - id: a1.m01.l04.ex.03.q2
+    prompt: 'Telefon: 0176 ___'
+    answers:
+    - '248503'
+    accept:
+    - - 248 503
+    explanation_vi: zwo, vier, acht – fünf, null, drei.
+  - id: a1.m01.l04.ex.03.q3
+    prompt: 'E-Mail: ___@web.de'
+    answers:
+    - lan_nguyen
+    explanation_vi: lan Unterstrich nguyen – Unterstrich = _.
+- id: a1.m01.l04.ex.04
+  type: multiple-choice
+  skill: listening
+  difficulty: 1
+  objective_refs:
+  - a1.m01.l04.obj5
+  instructions_vi: Nghe lại cuộc gọi. Chọn đáp án đúng.
+  stimulus:
+    ref: a1.m01.l04.b9
+  items:
+  - id: a1.m01.l04.ex.04.q1
+    prompt: Bà Wolf nói gì khi chưa nghe kịp số điện thoại?
+    options:
+    - id: a
+      text: Ich verstehe das nicht.
+    - id: b
+      text: Buchstabieren Sie, bitte.
+    - id: c
+      text: Wie bitte? Noch einmal, bitte.
+    answer:
+    - c
+    explanation_vi: 'Bà Wolf: “Wie bitte? Noch einmal, bitte. Langsam, bitte.”'
+  - id: a1.m01.l04.ex.04.q2
+    prompt: Lan và bà Wolf xưng hô thế nào?
+    options:
+    - id: a
+      text: Sie
+    - id: b
+      text: du
+    answer:
+    - a
+    explanation_vi: Wie ist Ihr Nachname? → Sie (trang trọng).
+- id: a1.m01.l04.ex.05
+  type: multiple-choice
+  skill: vocabulary
+  difficulty: 1
+  objective_refs:
+  - a1.m01.l04.obj5
+  instructions_vi: Bạn nói gì?
+  items:
+  - id: a1.m01.l04.ex.05.q1
+    prompt: Người kia nói quá nhanh.
+    options:
+    - id: a
+      text: Tschüs!
+    - id: b
+      text: Langsam, bitte!
+    - id: c
+      text: Danke!
+    answer:
+    - b
+    explanation_vi: langsam = chậm.
+  - id: a1.m01.l04.ex.05.q2
+    prompt: Bạn không nghe được câu vừa rồi.
+    options:
+    - id: a
+      text: Noch einmal, bitte!
+    - id: b
+      text: Freut mich!
+    - id: c
+      text: Gute Nacht!
+    answer:
+    - a
+    explanation_vi: noch einmal = một lần nữa.
+  - id: a1.m01.l04.ex.05.q3
+    prompt: Bạn không biết viết tên người kia thế nào.
+    options:
+    - id: a
+      text: Woher kommst du?
+    - id: b
+      text: Wie schreibt man das?
+    - id: c
+      text: Wie geht's?
+    answer:
+    - b
+    explanation_vi: Hỏi cách viết.
+  - id: a1.m01.l04.ex.05.q4
+    prompt: Bạn muốn biết một từ tiếng Đức.
+    options:
+    - id: a
+      text: Wo wohnst du?
+    - id: b
+      text: Wie sagt man das auf Deutsch?
+    - id: c
+      text: Wie heißt du?
+    answer:
+    - b
+    explanation_vi: sagen = nói ra một điều gì; auf Deutsch = bằng tiếng Đức.
+- id: a1.m01.l04.ex.06
+  type: fill-blank
+  skill: vocabulary
+  difficulty: 2
+  objective_refs:
+  - a1.m01.l04.obj4
+  instructions_vi: Viết địa chỉ email từ cách đọc.
+  items:
+  - id: a1.m01.l04.ex.06.q1
+    prompt: „tom Punkt berg at gmx Punkt de“ → ___
+    answers:
+    - tom.berg@gmx.de
+    explanation_vi: Punkt = . ; at = @.
+  - id: a1.m01.l04.ex.06.q2
+    prompt: „mai Unterstrich le at web Punkt de“ → ___
+    answers:
+    - mai_le@web.de
+    explanation_vi: Unterstrich = _.
+  - id: a1.m01.l04.ex.06.q3
+    prompt: „hoa Bindestrich tran at gmail Punkt com“ → ___
+    answers:
+    - hoa-tran@gmail.com
+    explanation_vi: Bindestrich = -.
+- id: a1.m01.l04.ex.07
+  type: true-false
+  skill: reading
+  difficulty: 1
+  objective_refs:
+  - a1.m01.l04.obj2
+  - a1.m01.l04.obj4
+  instructions_vi: Đọc phiếu đăng ký. Đúng hay sai?
+  stimulus:
+    ref: a1.m01.l04.b11
+  items:
+  - id: a1.m01.l04.ex.07.q1
+    prompt: Vorname của Lan là „Thi Lan“.
+    answer: true
+    explanation_vi: 'Vorname: Thi Lan.'
+  - id: a1.m01.l04.ex.07.q2
+    prompt: Lan sống ở Vietnam.
+    answer: false
+    explanation_vi: 'Wohnort: Leipzig. Vietnam là Land (nước xuất xứ).'
+  - id: a1.m01.l04.ex.07.q3
+    prompt: Email của Lan có dấu gạch dưới.
+    answer: true
+    explanation_vi: lan_nguyen@web.de.
+  - id: a1.m01.l04.ex.07.q4
+    prompt: Lan nói tiếng Đức trên phiếu.
+    answer: false
+    explanation_vi: 'Sprachen: Vietnamesisch, Englisch.'
+- id: a1.m01.l04.ex.08
+  type: true-false
+  skill: vocabulary
+  difficulty: 2
+  objective_refs:
+  - a1.m01.l04.obj1
+  - a1.m01.l04.obj3
+  instructions_vi: 'Chính tả và quy tắc: đúng hay sai?'
+  items:
+  - id: a1.m01.l04.ex.08.q1
+    prompt: 16 viết là „sechszehn“.
+    answer: false
+    explanation_vi: Đúng là sechzehn (mất s).
+  - id: a1.m01.l04.ex.08.q2
+    prompt: 17 viết là „siebzehn“.
+    answer: true
+    explanation_vi: siebzehn (mất en).
+  - id: a1.m01.l04.ex.08.q3
+    prompt: Khi đánh vần, chữ W đọc là [veː].
+    answer: true
+    explanation_vi: W = vê, V = phao.
+  - id: a1.m01.l04.ex.08.q4
+    prompt: „die Telefonnummer“ là giống cái vì „die Nummer“ là giống cái.
+    answer: true
+    explanation_vi: Danh từ ghép lấy giống theo từ cuối.
+- id: a1.m01.l04.ex.09
+  type: translation
+  skill: vocabulary
+  difficulty: 2
+  objective_refs:
+  - a1.m01.l04.obj2
+  - a1.m01.l04.obj5
+  instructions_vi: Dịch sang tiếng Đức.
+  items:
+  - id: a1.m01.l04.ex.09.q1
+    direction: vi-de
+    source: Số điện thoại của bạn là gì? (thân mật)
+    answers:
+    - Wie ist deine Telefonnummer?
+    - Wie ist deine Handynummer?
+    explanation_vi: die Telefonnummer → deine.
+  - id: a1.m01.l04.ex.09.q2
+    direction: vi-de
+    source: Xin lỗi, tôi không hiểu cái đó.
+    answers:
+    - Entschuldigung, ich verstehe das nicht.
+    explanation_vi: nicht đứng cuối câu.
+  - id: a1.m01.l04.ex.09.q3
+    direction: vi-de
+    source: Tôi nói được một chút tiếng Đức.
+    answers:
+    - Ich spreche ein bisschen Deutsch.
+    explanation_vi: ein bisschen = một chút.
+- id: a1.m01.l04.ex.10
+  type: speaking-practice
+  skill: speaking
+  difficulty: 2
+  objective_refs:
+  - a1.m01.l04.obj2
+  - a1.m01.l04.obj3
+  - a1.m01.l04.obj4
+  - a1.m01.l04.obj5
+  instructions_vi: Đóng vai trao đổi thông tin liên lạc (phần Nói). Ghi âm phần của bạn.
+  grading: self
+  rubric:
+  - criterion_vi: Đọc đúng số điện thoại của bạn (từng chữ số)
+    points: 2
+  - criterion_vi: Đọc đúng email (at, Punkt, Unterstrich…)
+    points: 2
+  - criterion_vi: Đánh vần đúng họ của bạn
+    points: 1
+  - criterion_vi: Dùng ít nhất một câu đề nghị nhắc lại/nói chậm
+    points: 1
+  items:
+  - id: a1.m01.l04.ex.10.q1
+    prompt_vi: Trao đổi số điện thoại, email và đánh vần họ.
+    model_answer:
+      de: 'Meine Nummer ist null, eins, fünf, zwo, sieben, acht, drei, null, neun. – Meine E-Mail-Adresse ist minh Punkt pham at gmx Punkt de. – Mein Nachname ist Pham: P – H – A – M.'
+    explanation_vi: So sánh với hội thoại mẫu.
+- id: a1.m01.l04.ex.11
+  type: writing-practice
+  skill: writing
+  difficulty: 1
+  objective_refs:
+  - a1.m01.l04.obj2
+  - a1.m01.l04.obj4
+  - a1.m01.l04.obj3
+  instructions_vi: Điền phiếu đăng ký khóa học với thông tin của bạn (phần Viết).
+  grading: self
+  rubric:
+  - criterion_vi: 'Điền đúng vị trí: Nachname/Vorname/Land/Wohnort'
+    points: 2
+  - criterion_vi: Số điện thoại và email viết đúng định dạng
+    points: 1
+  - criterion_vi: Tên nước, ngôn ngữ viết hoa và đúng chính tả
+    points: 1
+  items:
+  - id: a1.m01.l04.ex.11.q1
+    prompt_vi: Anmeldung Deutschkurs A1
+    model_answer:
+      de: 'Nachname: Pham · Vorname: Minh · Land: Vietnam · Wohnort: Hamburg · Telefon: 0152 78309 · E-Mail: minh.pham@gmx.de · Sprachen: Vietnamesisch, Englisch'
+    explanation_vi: So sánh với phiếu mẫu ở phần Đọc.

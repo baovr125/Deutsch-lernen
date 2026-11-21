@@ -1,0 +1,166 @@
+schema_version: "2.0"
+content_type: exercise-set
+id: a1.p4.l01.ex
+level: A1
+module: a1.p4
+lesson: a1.p4.l01
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+exercises:
+  - id: a1.p4.l01.ex.01
+    type: multiple-choice
+    skill: vocabulary
+    difficulty: 1
+    objective_refs: [a1.p4.l01.obj1]
+    instructions_vi: "Chọn đáp án đúng."
+    items:
+      - id: a1.p4.l01.ex.01.q1
+        prompt: "Das Gegenteil von „einsteigen“ ist ___."
+        options: [{ id: a, text: "aussteigen" }, { id: b, text: "ankommen" }, { id: c, text: "abfahren" }]
+        answer: [a]
+        explanation_vi: "einsteigen (lên) – aussteigen (xuống)."
+      - id: a1.p4.l01.ex.01.q2
+        prompt: "Wo kann man eine Jacke kaufen?"
+        options: [{ id: a, text: "Am Strand." }, { id: b, text: "Im Kaufhaus." }, { id: c, text: "In der Kirche." }]
+        answer: [b]
+        explanation_vi: "Áo khoác bán ở trung tâm bách hóa (das Kaufhaus)."
+      - id: a1.p4.l01.ex.01.q3
+        prompt: "Wie ist das Wetter? Die Sonne ___."
+        options: [{ id: a, text: "regnet" }, { id: b, text: "scheint" }, { id: c, text: "schneit" }]
+        answer: [b]
+        explanation_vi: "„Die Sonne scheint.“ = trời nắng."
+      - id: a1.p4.l01.ex.01.q4
+        prompt: "Was packt man für die Reise?"
+        options: [{ id: a, text: "Den Koffer." }, { id: b, text: "Das Meer." }, { id: c, text: "Den Berg." }]
+        answer: [a]
+        explanation_vi: "Sắp xếp va li: den Koffer packen."
+  - id: a1.p4.l01.ex.02
+    type: matching
+    skill: vocabulary
+    difficulty: 1
+    objective_refs: [a1.p4.l01.obj1]
+    instructions_vi: "Wortspiel: nối từ với từ trái nghĩa."
+    items:
+      - id: a1.p4.l01.ex.02.q1
+        pairs:
+          - { left: "heiß", right: "kalt" }
+          - { left: "ankommen", right: "abfahren" }
+          - { left: "früh", right: "spät" }
+          - { left: "groß", right: "klein" }
+          - { left: "teuer", right: "günstig" }
+        explanation_vi: "Năm cặp trái nghĩa: nóng–lạnh, đến–khởi hành, sớm–muộn, to–nhỏ, đắt–rẻ."
+  - id: a1.p4.l01.ex.03
+    type: fill-blank
+    skill: grammar
+    difficulty: 2
+    objective_refs: [a1.p4.l01.obj2]
+    instructions_vi: "Điền từ thích hợp (Partizip II, đại từ Dativ, dieser, denn)."
+    items:
+      - { id: a1.p4.l01.ex.03.q1, prompt: "Gestern habe ich einen Film ___.", hint_vi: "sehen", answers: ["gesehen"], explanation_vi: "sehen → gesehen." }
+      - { id: a1.p4.l01.ex.03.q2, prompt: "Wir sind nach Wien ___.", hint_vi: "fahren", answers: ["gefahren"], explanation_vi: "fahren dùng sein: gefahren." }
+      - { id: a1.p4.l01.ex.03.q3, prompt: "Die Jacke gefällt ___.", hint_vi: "ich", answers: ["mir"], explanation_vi: "gefallen + Dativ: mir." }
+      - { id: a1.p4.l01.ex.03.q4, prompt: "Ich nehme ___ Pullover.", hint_vi: "dieser, tân ngữ giống đực", answers: ["diesen"], explanation_vi: "Akkusativ giống đực: diesen." }
+      - { id: a1.p4.l01.ex.03.q5, prompt: "Ich bleibe zu Hause, ___ es regnet.", answers: ["denn"], explanation_vi: "Nêu lý do → denn." }
+  - id: a1.p4.l01.ex.04
+    type: word-order
+    skill: grammar
+    difficulty: 2
+    objective_refs: [a1.p4.l01.obj2]
+    instructions_vi: "Sắp xếp các từ thành câu đúng."
+    items:
+      - id: a1.p4.l01.ex.04.q1
+        tokens: ["gefahren.", "sind", "mit", "Wir", "dem", "nach", "Zug", "Rom"]
+        answer: "Wir sind mit dem Zug nach Rom gefahren."
+        translation_vi: "Chúng tôi đã đi tàu đến Rome."
+        explanation_vi: "sein ở vị trí 2; Partizip II ở cuối câu."
+      - id: a1.p4.l01.ex.04.q2
+        tokens: ["essen.", "darf", "Hier", "nicht", "man"]
+        answer: "Hier darf man nicht essen."
+        translation_vi: "Ở đây không được ăn."
+        explanation_vi: "man darf nicht = cấm."
+      - id: a1.p4.l01.ex.04.q3
+        tokens: ["ab?", "Wann", "Zug", "fährt", "nach", "der", "Berlin"]
+        answer: "Wann fährt der Zug nach Berlin ab?"
+        translation_vi: "Khi nào tàu đi Berlin khởi hành?"
+        explanation_vi: "W-Frage: Wann ở vị trí 1; động từ tách fährt … ab."
+  - id: a1.p4.l01.ex.05
+    type: true-false
+    skill: reading
+    difficulty: 1
+    objective_refs: [a1.p4.l01.obj3]
+    instructions_vi: "Đọc bưu thiếp của Mia (khối đọc ở trên) và chọn Richtig hoặc Falsch."
+    stimulus: { ref: a1.p4.l01.b4 }
+    items:
+      - { id: a1.p4.l01.ex.05.q1, prompt: "Mia ist mit dem Flugzeug nach Rom gefahren.", answer: false, explanation_vi: "„mit dem Zug nach Rom gefahren“." }
+      - { id: a1.p4.l01.ex.05.q2, prompt: "Das Wetter ist schlecht.", answer: false, explanation_vi: "„Das Wetter ist toll.“" }
+      - { id: a1.p4.l01.ex.05.q3, prompt: "Sie haben das Kolosseum besichtigt.", answer: true, explanation_vi: "„Wir haben schon das Kolosseum besichtigt.“" }
+      - { id: a1.p4.l01.ex.05.q4, prompt: "Morgen fahren sie zum Meer.", answer: true, explanation_vi: "„Morgen fahren wir zum Meer.“" }
+      - { id: a1.p4.l01.ex.05.q5, prompt: "Die Besichtigung war anstrengend.", answer: true, explanation_vi: "„interessant, aber auch anstrengend, denn es war so heiß“." }
+  - id: a1.p4.l01.ex.06
+    type: multiple-choice
+    skill: listening
+    difficulty: 2
+    objective_refs: [a1.p4.l01.obj3]
+    instructions_vi: "Nghe cuộc gọi đặt phòng (khối nghe ở trên) và chọn đáp án."
+    stimulus: { ref: a1.p4.l01.b3 }
+    items:
+      - id: a1.p4.l01.ex.06.q1
+        prompt: "Wie lange möchte Herr Hahn bleiben?"
+        options: [{ id: a, text: "Zwei Nächte." }, { id: b, text: "Drei Nächte." }, { id: c, text: "Eine Woche." }]
+        answer: [b]
+        explanation_vi: "„für drei Nächte“."
+      - id: a1.p4.l01.ex.06.q2
+        prompt: "Wann kommt er an?"
+        options: [{ id: a, text: "Am Freitag um 18 Uhr." }, { id: b, text: "Am Samstag." }, { id: c, text: "Am Montag." }]
+        answer: [a]
+        explanation_vi: "„Am Freitag um achtzehn Uhr.“"
+      - id: a1.p4.l01.ex.06.q3
+        prompt: "Welches Zimmer nimmt er?"
+        options: [{ id: a, text: "Ein Doppelzimmer." }, { id: b, text: "Ein Familienzimmer." }, { id: c, text: "Ein Einzelzimmer." }]
+        answer: [c]
+        explanation_vi: "„Ein Einzelzimmer, bitte.“"
+      - id: a1.p4.l01.ex.06.q4
+        prompt: "Was kostet das Zimmer?"
+        options: [{ id: a, text: "80 Euro." }, { id: b, text: "90 Euro pro Nacht mit Frühstück." }, { id: c, text: "100 Euro." }]
+        answer: [b]
+        explanation_vi: "„Neunzig Euro pro Nacht, mit Frühstück.“"
+  - id: a1.p4.l01.ex.07
+    type: sentence-construction
+    skill: writing
+    difficulty: 2
+    objective_refs: [a1.p4.l01.obj2, a1.p4.l01.obj4]
+    instructions_vi: "Viết câu tiếng Đức với các từ bắt buộc."
+    items:
+      - { id: a1.p4.l01.ex.07.q1, prompt_vi: "Hôm qua tôi đã đi tàu đến Wien.", required_words: ["bin", "Zug", "Wien"], answers: ["Gestern bin ich mit dem Zug nach Wien gefahren.", "Ich bin gestern mit dem Zug nach Wien gefahren."], explanation_vi: "sein + Partizip II ở cuối; mit dem Zug." }
+      - { id: a1.p4.l01.ex.07.q2, prompt_vi: "Tôi ở nhà vì tôi bị ốm.", required_words: ["denn", "krank"], answers: ["Ich bleibe zu Hause, denn ich bin krank."], explanation_vi: "Kết quả + dấu phẩy + denn + lý do." }
+      - { id: a1.p4.l01.ex.07.q3, prompt_vi: "Bạn thích chiếc áo khoác nào?", required_words: ["Welche", "Jacke"], answers: ["Welche Jacke gefällt dir?"], explanation_vi: "Jacke giống cái → welche; gefallen + Dativ dir." }
+  - id: a1.p4.l01.ex.08
+    type: speaking-practice
+    skill: speaking
+    difficulty: 2
+    objective_refs: [a1.p4.l01.obj4]
+    instructions_vi: "Nói 4–5 câu về một chuyến đi bạn đã đi (xem khối nói ở trên)."
+    items:
+      - id: a1.p4.l01.ex.08.q1
+        prompt_vi: "Kể nơi đến, phương tiện, thời tiết, việc đã làm, cảm nhận và lý do."
+        model_answer: { de: "Ich bin mit dem Zug nach Wien gefahren. Das Wetter war schön. Wir haben das Schloss besichtigt. Es war interessant, aber anstrengend, denn es war heiß.", vi: "Tôi đã đi tàu đến Wien. Thời tiết đẹp. Chúng tôi đã tham quan lâu đài. Thú vị nhưng mệt vì trời nóng." }
+        rubric_vi: ["Dùng sein/haben + Partizip II đúng.", "Mô tả thời tiết.", "Có một câu với denn đúng trật tự.", "Nói trôi chảy."]
+        explanation_vi: "Bài mẫu có sein-Perfekt, haben-Perfekt và denn."
+  - id: a1.p4.l01.ex.09
+    type: writing-practice
+    skill: writing
+    difficulty: 3
+    objective_refs: [a1.p4.l01.obj4]
+    instructions_vi: "Viết e-mail 40–50 từ cho một người bạn: bạn đang đi nghỉ ở đâu, thời tiết, việc đã làm, và kế hoạch ngày mai."
+    items:
+      - id: a1.p4.l01.ex.09.q1
+        prompt_vi: "Viết e-mail theo cấu trúc: chào – nơi ở – thời tiết – việc đã làm – kế hoạch – kết."
+        model_answer: { de: "Liebe Anna, viele Grüße aus Hamburg! Wir sind gestern mit dem Zug angekommen. Das Wetter ist kalt, aber es regnet nicht. Wir haben den Hafen besichtigt. Morgen fahren wir zum Strand. Bis bald, Tim", vi: "Anna thân mến, gửi nhiều lời chào từ Hamburg! Hôm qua chúng mình đã đến bằng tàu. Thời tiết lạnh nhưng không mưa. Chúng mình đã tham quan bến cảng. Ngày mai chúng mình đi ra bãi biển. Hẹn sớm gặp lại, Tim" }
+        rubric_vi: ["Có lời chào và lời kết thân mật.", "Dùng Perfekt đúng.", "Có câu về thời tiết.", "Có kế hoạch ngày mai."]
+        explanation_vi: "Bài mẫu đủ chào, Perfekt, thời tiết và kế hoạch."

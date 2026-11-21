@@ -1,0 +1,179 @@
+schema_version: '2.0'
+content_type: grammar-topic
+id: a1.g.satzpositionen
+level: A1
+introduced_in: a1.m04
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+  references:
+  - work: Netzwerk neu A1 (Klett)
+    scope: 'Kapitel 4: Frühstück, Mittagessen, Abendessen'
+    verification: verified
+  notes_vi: Tương ứng Grammatik „Positionen im Satz“ của Kapitel 4.
+introduced_in_lesson: a1.m04.l05
+title_de: Positionen im Satz (Inversion)
+title_vi: Vị trí các thành phần trong câu kể và hiện tượng đảo ngữ
+summary_vi: "Trong câu trần thuật (câu kể) của tiếng Đức, có một nguyên tắc vàng bất di bất dịch:\n**Động từ chia luôn luôn đứng ở VỊ TRÍ SỐ 2 (Position 2)**.\n\nTuy nhiên, **Vị trí số 1 (Position 1)** không bắt buộc lúc nào cũng phải là Chủ ngữ:\n- Nếu câu bắt đầu bằng **Chủ ngữ** (Subjekt), trật tự thông thường là:\n  * `Position 1`: Ich\n  * `Position 2`: trinke\n  * `Phần còn lại`: morgens immer Kaffee.\n\n- Nhưng để nhấn mạnh thời gian, địa điểm hoặc để liên kết câu mượt mà hơn, người Đức rất thường xuyên đưa **Trạng từ chỉ thời gian** (hoặc nơi chốn, tân ngữ) lên đầu câu (Vị trí 1).\n- Khi đó, hiện tượng **đảo ngữ (Inversion)** xảy ra: Động từ vẫn kiên định giữ vững **Vị trí số 2**, còn **Chủ ngữ buộc phải chuyển xuống Vị trí số 3** (ngay sau động từ):\n  * `Position 1`: Morgens (thời gian)\n  * `Position 2`: trinke (động từ)\n  * `Position 3`: ich (chủ ngữ lùi xuống)\n  * `Phần còn lại`: immer Kaffee.\n\n**Lưu ý quan trọng về một 'Vị trí' (Position):**\nMột vị trí có thể là một từ\
+  \ đơn (*Heute*, *Morgens*, *Manchmal*) hoặc một **cụm từ hoàn chỉnh** mang nghĩa thống nhất (*Am Sonntag*, *Um 8 Uhr*, *Im Restaurant*, *Zum Frühstück*). Cả cụm từ đó cùng chiếm trọn Vị trí số 1, và ngay sau cụm từ đó phải là động từ!"
+usage_vi: Sắp xếp trật tự câu kể khi đảo trạng từ chỉ thời gian hoặc nơi chốn lên đầu câu để nhấn mạnh; động từ luôn ở vị trí 2, chủ ngữ đứng ngay vị trí 3.
+objectives:
+- id: a1.g.satzpositionen.obj1
+  text_vi: Đặt đúng chủ ngữ và động từ khi một thành phần khác đứng đầu câu.
+  skill: grammar
+rules:
+- id: a1.g.satzpositionen.r1
+  title_vi: 'Đảo ngữ: chủ ngữ ở vị trí 3'
+  body_vi: Trong câu kể, động từ chia luôn luôn đứng ở vị trí số 2. Nếu một thành phần khác chiếm vị trí 1, chủ ngữ phải đứng ở vị trí 3 (ngay sau động từ).
+  examples:
+  - de: Am Wochenende schlafe ich lange.
+    vi: Vào cuối tuần, tôi ngủ dậy muộn.
+  - de: Heute kocht mein Vater.
+    vi: Hôm nay bố tôi nấu ăn.
+- id: a1.g.satzpositionen.r2
+  title_vi: Một cụm trạng từ là một vị trí
+  body_vi: Một cụm trạng từ hoàn chỉnh (như 'Am Sonntag', 'Um wie viel Uhr', 'Zum Frühstück') tính là MỘT vị trí ngữ pháp.
+  examples:
+  - de: Zum Frühstück esse ich zwei Brötchen.
+    vi: Cho bữa sáng, tôi ăn hai cái bánh mì nhỏ.
+  - de: Im Supermarkt kauft Anna Gemüse.
+    vi: Ở siêu thị, Anna mua rau củ.
+sentence_structures:
+- pattern: Chủ ngữ (Pos 1) + Động từ (Pos 2) + Trạng từ + Tân ngữ.
+  example:
+    de: Wir essen am Abend warm.
+    vi: Chúng tôi ăn đồ ấm vào buổi tối.
+- pattern: Trạng từ thời gian (Pos 1) + Động từ (Pos 2) + Chủ ngữ (Pos 3) + Tân ngữ.
+  example:
+    de: Am Abend essen wir warm.
+    vi: Vào buổi tối, chúng tôi ăn đồ ấm.
+tables:
+- title_vi: Bảng phân tích vị trí các thành phần trong câu kể
+  header:
+  - Position 1
+  - Position 2 (Động từ)
+  - Position 3
+  - Phần còn lại
+  rows:
+  - - Ich (Chủ ngữ)
+    - trinke
+    - morgens
+    - einen Kaffee.
+  - - Morgens (Thời gian)
+    - trinke
+    - ich (Chủ ngữ)
+    - einen Kaffee.
+  - - Wir (Chủ ngữ)
+    - essen
+    - am Sonntag
+    - Kuchen.
+  - - Am Sonntag (Thời gian)
+    - essen
+    - wir (Chủ ngữ)
+    - Kuchen.
+  - - Obst (Tân ngữ)
+    - kaufe
+    - ich
+    - auf dem Markt.
+  note_vi: 'Nhìn vào cột Position 2: Động từ luôn giữ vị trí không đổi; chủ ngữ và trạng từ có thể hoán đổi vị trí 1 và 3 cho nhau.'
+examples:
+- de: Normalerweise frühstücke ich um sieben Uhr.
+  vi: Thông thường tôi ăn sáng lúc bảy giờ.
+- de: Um zwölf Uhr gibt es Mittagessen.
+  vi: Lúc mười hai giờ có bữa trưa.
+- de: Am Samstag grillen wir im Garten.
+  vi: Vào thứ Bảy chúng tôi làm tiệc nướng trong vườn.
+- de: Kaffee mag ich nicht, aber Tee trinke ich sehr gern.
+  vi: Cà phê thì tôi không thích, nhưng trà thì tôi rất thích uống.
+- de: Manchmal esse ich allein in der Kantine.
+  vi: Thỉnh thoảng tôi ăn một mình ở căng-tin.
+common_mistakes:
+- wrong: Morgens ich trinke Kaffee.
+  right: Morgens trinke ich Kaffee.
+  explanation_vi: 'Lỗi phổ biến nhất do ảnh hưởng tiếng Việt/tiếng Anh: Đặt chủ ngữ ngay sau trạng từ khiến động từ bị đẩy xuống vị trí 3. Trong tiếng Đức, động từ bắt buộc phải đứng ở vị trí 2!'
+- wrong: Am Sonntag wir kochen zusammen.
+  right: Am Sonntag kochen wir zusammen.
+  explanation_vi: Am Sonntag đã chiếm vị trí 1, vị trí 2 phải là động từ kochen, sau đó mới tới chủ ngữ wir ở vị trí 3.
+comparison_vi: 'Trong tiếng Anh: ''In the morning, I drink coffee'' (trạng từ đứng đầu không làm đảo chủ ngữ và động từ). Tiếng Đức bắt buộc phải đảo ngữ: ''Morgens trinke ich Kaffee'' (Verb-second V2 word order).'
+vietnamese_contrast_vi: 'Tiếng Việt nói: ''Buổi sáng tôi uống cà phê'' (Trạng từ + Chủ ngữ + Động từ). Người Việt rất quen giữ nguyên cấu trúc này khi nói tiếng Đức, tạo thành câu sai ''Morgens ich trinke...''. Cần rèn thói quen bật động từ lên ngay sau trạng từ: ''Morgens trinke ich...''.'
+recap_vi: 'Nguyên tắc V2: Trong câu kể tiếng Đức, động từ chia luôn ở vị trí 2. Nếu vị trí 1 là từ chỉ thời gian, địa điểm hoặc tân ngữ thì chủ ngữ lùi xuống vị trí 3 ngay sau động từ (đảo ngữ Inversion).'
+next_level_note_vi: Trật tự từ trong câu phụ (Nebensatz với weil, dass, wenn - động từ chuyển xuống cuối câu) và trật tự nhiều tân ngữ (TeKaMoLo) sẽ học ở trình độ A2 và B1.
+prerequisites:
+- g-a1-aussagesatz
+exercises:
+- id: a1.g.satzpositionen.ex.01
+  type: word-order
+  skill: grammar
+  difficulty: 1
+  objective_refs:
+  - a1.g.satzpositionen.r1
+  - a1.g.satzpositionen.r2
+  - a1.g.satzpositionen.obj1
+  instructions_vi: Sắp xếp các từ thành câu hoàn chỉnh bắt đầu bằng từ chỉ thời gian.
+  items:
+  - id: a1.g.satzpositionen.ex.01.q1
+    tokens:
+    - essen
+    - Am
+    - wir
+    - Sonntag
+    - Kuchen
+    answer: Am Sonntag essen wir Kuchen.
+    prompt_vi: 'Sắp xếp câu: Am Sonntag / wir / Kuchen / essen .'
+    explanation_vi: Am Sonntag (vị trí 1) + essen (động từ, vị trí 2) + wir (chủ ngữ, vị trí 3) + Kuchen.
+  - id: a1.g.satzpositionen.ex.01.q2
+    tokens:
+    - Supermarkt
+    - im
+    - ich
+    - ein
+    - kaufe
+    - Heute
+    answer: Heute kaufe ich im Supermarkt ein.
+    prompt_vi: 'Sắp xếp câu: Heute / ich / im / Supermarkt / kaufe / ein .'
+    explanation_vi: Heute (vị trí 1) + kaufe (vị trí 2) + ich (vị trí 3) + im Supermarkt + ein (tiền tố tách ở cuối câu).
+- id: a1.g.satzpositionen.ex.02
+  type: multiple-choice
+  skill: grammar
+  difficulty: 2
+  objective_refs:
+  - a1.g.satzpositionen.r1
+  - a1.g.satzpositionen.obj1
+  instructions_vi: Chọn câu có trật tự từ đúng ngữ pháp tiếng Đức.
+  items:
+  - id: a1.g.satzpositionen.ex.02.q1
+    prompt: Câu nào đúng trật tự từ khi bắt đầu bằng 'Morgens'?
+    options:
+    - id: a
+      text: Morgens ich trinke einen Tee.
+    - id: b
+      text: Morgens einen Tee trinke ich.
+    - id: c
+      text: Morgens trinke einen Tee ich.
+    - id: d
+      text: Morgens trinke ich einen Tee.
+    answer:
+    - d
+    explanation_vi: Động từ trinke ở vị trí 2, chủ ngữ ich ở vị trí 3.
+  - id: a1.g.satzpositionen.ex.02.q2
+    prompt: Câu nào đúng khi đảo 'Zum Frühstück' lên đầu?
+    options:
+    - id: a
+      text: Zum Frühstück esse ich zwei Eier.
+    - id: b
+      text: Zum Frühstück zwei Eier esse ich.
+    - id: c
+      text: Zum esse Frühstück ich zwei Eier.
+    - id: d
+      text: Zum Frühstück ich esse zwei Eier.
+    answer:
+    - a
+    explanation_vi: Cả cụm 'Zum Frühstück' chiếm vị trí 1, tiếp theo là động từ esse (vị trí 2), sau đó đến chủ ngữ ich (vị trí 3).

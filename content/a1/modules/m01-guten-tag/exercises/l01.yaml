@@ -1,0 +1,362 @@
+schema_version: '2.0'
+content_type: exercise-set
+id: a1.m01.l01.ex
+level: A1
+module: a1.m01
+lesson: a1.m01.l01
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+exercises:
+- id: a1.m01.l01.ex.01
+  type: matching
+  skill: vocabulary
+  difficulty: 1
+  objective_refs:
+  - a1.m01.l01.obj1
+  - a1.m01.l01.obj4
+  instructions_vi: Nối câu tiếng Đức với nghĩa tiếng Việt.
+  items:
+  - id: a1.m01.l01.ex.01.q1
+    pairs:
+    - left: Wie geht's?
+      right: Khỏe không?
+    - left: Es geht.
+      right: Tạm được.
+    - left: Nicht so gut.
+      right: Không khỏe lắm.
+    - left: Bis bald!
+      right: Hẹn sớm gặp lại!
+    - left: Freut mich!
+      right: Rất vui được gặp bạn!
+    explanation_vi: Đây là các câu cố định – hãy học nguyên cụm.
+- id: a1.m01.l01.ex.02
+  type: multiple-choice
+  skill: listening
+  difficulty: 1
+  objective_refs:
+  - a1.m01.l01.obj2
+  - a1.m01.l01.obj3
+  instructions_vi: Nghe hội thoại “Buổi gặp mặt lớp tiếng Đức”. Chọn đáp án đúng.
+  stimulus:
+    ref: a1.m01.l01.b8
+  items:
+  - id: a1.m01.l01.ex.02.q1
+    prompt: Ai hỏi tên Minh?
+    options:
+    - id: a
+      text: Lisa
+    - id: b
+      text: Paul
+    - id: c
+      text: Mai
+    answer:
+    - a
+    explanation_vi: 'Lisa: “Ich bin Lisa. Wie heißt du?”'
+  - id: a1.m01.l01.ex.02.q2
+    prompt: Ai giới thiệu Paul với Minh?
+    options:
+    - id: a
+      text: Lisa
+    - id: b
+      text: Paul
+    - id: c
+      text: Minh
+    answer:
+    - a
+    explanation_vi: 'Lisa: “Paul, das ist Minh.”'
+  - id: a1.m01.l01.ex.02.q3
+    prompt: Paul nói gì khi được giới thiệu?
+    options:
+    - id: a
+      text: Wie bitte?
+    - id: b
+      text: Gute Nacht!
+    - id: c
+      text: Freut mich!
+    answer:
+    - c
+    explanation_vi: Freut mich! = Rất vui được gặp bạn.
+- id: a1.m01.l01.ex.03
+  type: true-false
+  skill: listening
+  difficulty: 1
+  objective_refs:
+  - a1.m01.l01.obj4
+  - a1.m01.l01.obj1
+  instructions_vi: Nghe lại. Đúng hay sai?
+  stimulus:
+    ref: a1.m01.l01.b8
+  items:
+  - id: a1.m01.l01.ex.03.q1
+    prompt: Minh khỏe.
+    answer: true
+    explanation_vi: 'Minh: “Gut, danke.”'
+  - id: a1.m01.l01.ex.03.q2
+    prompt: Lisa không khỏe lắm.
+    answer: false
+    explanation_vi: 'Lisa: “Sehr gut!” – rất khỏe.'
+  - id: a1.m01.l01.ex.03.q3
+    prompt: Paul nói “Bis bald!” khi chia tay.
+    answer: true
+    explanation_vi: 'Paul: “Tschüs, Lisa! Tschüs, Minh! Bis bald!”'
+- id: a1.m01.l01.ex.04
+  type: fill-blank
+  skill: grammar
+  difficulty: 1
+  objective_refs:
+  - a1.m01.l01.obj2
+  - a1.m01.l01.obj3
+  instructions_vi: Điền bin, bist, heiße, heißt hoặc ist.
+  items:
+  - id: a1.m01.l01.ex.04.q1
+    prompt: Hallo, ich ___ Lan.
+    answers:
+    - bin
+    accept:
+    - - heiße
+    explanation_vi: Ich bin… hoặc Ich heiße… đều đúng.
+  - id: a1.m01.l01.ex.04.q2
+    prompt: Wie ___ du?
+    answers:
+    - heißt
+    explanation_vi: 'Hỏi tên: Wie heißt du?'
+  - id: a1.m01.l01.ex.04.q3
+    prompt: Wer ___ du?
+    answers:
+    - bist
+    explanation_vi: Wer bist du? – du bist.
+  - id: a1.m01.l01.ex.04.q4
+    prompt: Das ___ Paul.
+    answers:
+    - ist
+    explanation_vi: 'Giới thiệu người khác: Das ist …'
+  - id: a1.m01.l01.ex.04.q5
+    prompt: Ich ___ auch Anna.
+    answers:
+    - heiße
+    accept:
+    - - bin
+    explanation_vi: Ich heiße auch Anna / Ich bin auch Anna.
+- id: a1.m01.l01.ex.05
+  type: word-order
+  skill: grammar
+  difficulty: 1
+  objective_refs:
+  - a1.m01.l01.obj2
+  - a1.m01.l01.obj4
+  instructions_vi: Sắp xếp thành câu đúng.
+  items:
+  - id: a1.m01.l01.ex.05.q1
+    tokens:
+    - du
+    - heißt
+    - Wie
+    answer: Wie heißt du?
+    explanation_vi: Wie (từ để hỏi) – heißt (động từ) – du.
+  - id: a1.m01.l01.ex.05.q2
+    tokens:
+    - Paul
+    - ist
+    - Das
+    answer: Das ist Paul.
+    explanation_vi: Das – ist – Paul.
+  - id: a1.m01.l01.ex.05.q3
+    tokens:
+    - gut
+    - Ganz
+    - danke
+    - ','
+    answer: Ganz gut, danke.
+    explanation_vi: Ganz gut, danke. – khá ổn, cảm ơn.
+- id: a1.m01.l01.ex.06
+  type: multiple-choice
+  skill: vocabulary
+  difficulty: 2
+  objective_refs:
+  - a1.m01.l01.obj4
+  - a1.m01.l01.obj1
+  instructions_vi: Chọn câu trả lời phù hợp nhất.
+  items:
+  - id: a1.m01.l01.ex.06.q1
+    prompt: 'Bạn vừa thi đỗ, rất vui. Bạn của bạn hỏi: „Wie geht''s?“'
+    options:
+    - id: a
+      text: Nicht so gut.
+    - id: b
+      text: Sehr gut!
+    - id: c
+      text: Es geht.
+    answer:
+    - b
+    explanation_vi: Rất vui → Sehr gut!
+  - id: a1.m01.l01.ex.06.q2
+    prompt: 'Bạn bị cảm. Bạn của bạn hỏi: „Wie geht''s?“'
+    options:
+    - id: a
+      text: Freut mich!
+    - id: b
+      text: Super!
+    - id: c
+      text: Nicht so gut.
+    answer:
+    - c
+    explanation_vi: Không khỏe → Nicht so gut.
+  - id: a1.m01.l01.ex.06.q3
+    prompt: 'Một bạn học nói: „Ich bin Paul.“ Bạn đáp:'
+    options:
+    - id: a
+      text: Freut mich! Ich bin Lan.
+    - id: b
+      text: Gute Nacht!
+    - id: c
+      text: Bis bald!
+    answer:
+    - a
+    explanation_vi: 'Khi làm quen: Freut mich + giới thiệu bản thân.'
+  - id: a1.m01.l01.ex.06.q4
+    prompt: Bạn chia tay một người bạn sau giờ học.
+    options:
+    - id: a
+      text: Wie geht's?
+    - id: b
+      text: Hallo!
+    - id: c
+      text: Tschüs!
+    answer:
+    - c
+    explanation_vi: Tschüs = tạm biệt (thân mật).
+- id: a1.m01.l01.ex.07
+  type: true-false
+  skill: reading
+  difficulty: 1
+  objective_refs:
+  - a1.m01.l01.obj2
+  - a1.m01.l01.obj3
+  - a1.m01.l01.obj4
+  instructions_vi: Đọc nhóm chat. Đúng hay sai?
+  stimulus:
+    ref: a1.m01.l01.b9
+  items:
+  - id: a1.m01.l01.ex.07.q1
+    prompt: Minh hỏi thăm Lisa.
+    answer: true
+    explanation_vi: 'Minh: “Wie geht''s?”'
+  - id: a1.m01.l01.ex.07.q2
+    prompt: Minh rất khỏe.
+    answer: false
+    explanation_vi: 'Minh: “Es geht.” – tạm được.'
+  - id: a1.m01.l01.ex.07.q3
+    prompt: Paul là người mới trong nhóm.
+    answer: true
+    explanation_vi: 'Paul: “Ich bin auch neu.”'
+  - id: a1.m01.l01.ex.07.q4
+    prompt: Lisa giới thiệu Minh với Paul.
+    answer: true
+    explanation_vi: 'Lisa: “Hi, Paul! Das ist Minh.”'
+- id: a1.m01.l01.ex.08
+  type: translation
+  skill: vocabulary
+  difficulty: 2
+  objective_refs:
+  - a1.m01.l01.obj2
+  - a1.m01.l01.obj4
+  instructions_vi: Dịch sang tiếng Đức (tình huống thân mật).
+  items:
+  - id: a1.m01.l01.ex.08.q1
+    direction: vi-de
+    source: Chào, mình tên là Hoa.
+    answers:
+    - Hallo, ich heiße Hoa.
+    - Hallo, ich bin Hoa.
+    - Hi, ich heiße Hoa.
+    - Hi, ich bin Hoa.
+    explanation_vi: Ich heiße / Ich bin đều đúng.
+  - id: a1.m01.l01.ex.08.q2
+    direction: vi-de
+    source: Bạn tên là gì?
+    answers:
+    - Wie heißt du?
+    explanation_vi: Dùng wie, không dùng was.
+  - id: a1.m01.l01.ex.08.q3
+    direction: vi-de
+    source: Khỏe không? – Tạm được. Còn bạn?
+    answers:
+    - Wie geht's? – Es geht. Und dir?
+    - Wie geht es dir? – Es geht. Und dir?
+    explanation_vi: Und dir? = còn bạn? (thân mật).
+- id: a1.m01.l01.ex.09
+  type: speaking-practice
+  skill: speaking
+  difficulty: 1
+  objective_refs:
+  - a1.m01.l01.obj1
+  - a1.m01.l01.obj2
+  - a1.m01.l01.obj4
+  instructions_vi: Ghi âm hội thoại làm quen (phần Nói). Nghe lại và tự chấm.
+  grading: self
+  rubric:
+  - criterion_vi: 'Có đủ 4 bước: chào – giới thiệu & hỏi tên – hỏi thăm – tạm biệt'
+    points: 4
+  - criterion_vi: Không trộn hai động từ (bin + heiße) trong một câu
+    points: 1
+  - criterion_vi: 'Phát âm rõ: heiße [ˈhaɪ̯sə], tschüs [tʃyːs]'
+    points: 1
+  items:
+  - id: a1.m01.l01.ex.09.q1
+    prompt_vi: Làm quen với bạn học mới.
+    model_answer:
+      de: Hallo! Ich bin Lan. Wie heißt du? – Ich heiße Tom. – Wie geht's, Tom? – Ganz gut, danke. Und dir? – Sehr gut! Tschüs! – Tschüs! Bis bald!
+    explanation_vi: So sánh với hội thoại mẫu ở phần Nói.
+- id: a1.m01.l01.ex.10
+  type: writing-practice
+  skill: writing
+  difficulty: 1
+  objective_refs:
+  - a1.m01.l01.obj1
+  - a1.m01.l01.obj2
+  instructions_vi: Viết tin nhắn chào nhóm chat (3 câu) theo phần Viết.
+  grading: self
+  rubric:
+  - criterion_vi: Có lời chào, câu giới thiệu tên, câu hỏi thăm
+    points: 3
+  - criterion_vi: Chính tả và dấu câu đúng
+    points: 1
+  items:
+  - id: a1.m01.l01.ex.10.q1
+    prompt_vi: Tin nhắn đầu tiên vào nhóm chat của lớp.
+    model_answer:
+      de: Hallo, Leute! Ich heiße Lan. Wie geht's?
+    explanation_vi: Có thể thêm “Ich bin neu.” (Mình là người mới).
+- id: a1.m01.l01.ex.11
+  type: sentence-construction
+  skill: grammar
+  difficulty: 2
+  objective_refs:
+  - a1.m01.l01.obj2
+  - a1.m01.l01.obj3
+  instructions_vi: Viết câu hoàn chỉnh từ các từ gợi ý.
+  items:
+  - id: a1.m01.l01.ex.11.q1
+    prompt_vi: ich / heißen / Minh
+    answers:
+    - Ich heiße Minh.
+    explanation_vi: ich → heiße.
+  - id: a1.m01.l01.ex.11.q2
+    prompt_vi: das / sein / Lisa
+    answers:
+    - Das ist Lisa.
+    explanation_vi: Das ist …
+  - id: a1.m01.l01.ex.11.q3
+    prompt_vi: wer / sein / du ?
+    answers:
+    - Wer bist du?
+    explanation_vi: 'du → bist; câu hỏi W-: Wer – bist – du.'

@@ -1,0 +1,30 @@
+schema_version: "2.0"
+content_type: expression-set
+id: a1.m11.expr
+level: A1
+module: a1.m11
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  references:
+    - { work: "Netzwerk neu A1.2 – Stoffverteilungsplan (Klett)", scope: "Kapitel 11: Redemittel Kleidung, Reaktionen, Kaufhaus, Höflichkeit, „Ich hab' …“", verification: verified }
+    - { work: "Dự án Deutsch-lernen", scope: "Câu mẫu cụ thể do dự án tự viết", verification: proposed }
+  tags: ["redemittel"]
+entries:
+  - { id: a1.m11.x.gefaellt-fragen, de: "Wie gefällt dir die Jacke?", vi: "Bạn thấy chiếc áo khoác thế nào?", register: informal, function: "Hỏi ý kiến", situation_vi: "Hỏi bạn khi đi mua sắm cùng nhau.", reply: { de: "Sie gefällt mir sehr.", vi: "Mình rất thích nó." }, lesson_refs: [a1.m11.l01] }
+  - { id: a1.m11.x.gefaellt-mir, de: "Die Farbe gefällt mir nicht so gut.", vi: "Mình không thích màu này lắm.", register: neutral, function: "Nêu ý kiến tiêu cực nhẹ nhàng", situation_vi: "Từ chối nhẹ nhàng khi chọn đồ.", lesson_refs: [a1.m11.l01] }
+  - { id: a1.m11.x.ich-trage, de: "Heute trage ich eine Hose und einen Pullover.", vi: "Hôm nay mình mặc quần dài và áo len.", register: neutral, function: "Mô tả trang phục", situation_vi: "Kể bạn đang mặc gì.", lesson_refs: [a1.m11.l01] }
+  - { id: a1.m11.x.oeffnungszeiten, de: "Das Kaufhaus öffnet um neun Uhr und schließt um zwanzig Uhr.", vi: "Trung tâm bách hóa mở cửa lúc chín giờ và đóng cửa lúc hai mươi giờ.", register: neutral, function: "Nói giờ mở cửa", situation_vi: "Hỏi hoặc thông báo giờ mở cửa.", lesson_refs: [a1.m11.l02] }
+  - { id: a1.m11.x.preis-fragen, de: "Was kostet die Jacke?", vi: "Chiếc áo khoác giá bao nhiêu?", register: neutral, function: "Hỏi giá", situation_vi: "Hỏi nhân viên bán hàng.", reply: { de: "Sie kostet neunzig Euro.", vi: "Nó giá chín mươi euro." }, lesson_refs: [a1.m11.l02] }
+  - { id: a1.m11.x.welche-fragen, de: "Welche Jacke gefällt Ihnen?", vi: "Ông/bà thích chiếc áo khoác nào?", register: formal, function: "Hỏi lựa chọn (lịch sự)", situation_vi: "Nhân viên hỏi khách.", reply: { de: "Diese Jacke hier.", vi: "Chiếc áo khoác này đây." }, lesson_refs: [a1.m11.l02] }
+  - { id: a1.m11.x.helfen-verkaeufer, de: "Kann ich Ihnen helfen?", vi: "Tôi có thể giúp gì cho ông/bà ạ?", register: formal, function: "Nhân viên mở lời", situation_vi: "Câu nhân viên bán hàng nói với khách.", reply: { de: "Nein danke, ich schaue nur.", vi: "Không, cảm ơn, tôi chỉ xem thôi." }, lesson_refs: [a1.m11.l03] }
+  - { id: a1.m11.x.passt-mir, de: "Der Pullover passt mir gut.", vi: "Chiếc áo len vừa với tôi.", register: neutral, function: "Nói vừa", situation_vi: "Sau khi thử đồ.", lesson_refs: [a1.m11.l03] }
+  - { id: a1.m11.x.zu-gross, de: "Die Hose ist mir zu groß.", vi: "Cái quần rộng quá với tôi.", register: neutral, function: "Nói không vừa", situation_vi: "Báo với nhân viên khi quần áo không vừa.", reply: { de: "Ich hole Ihnen eine kleinere Größe.", vi: "Tôi sẽ lấy cho ông/bà cỡ nhỏ hơn." }, lesson_refs: [a1.m11.l03] }
+  - { id: a1.m11.x.anprobieren, de: "Kann ich die Hose anprobieren?", vi: "Tôi thử cái quần được không?", register: neutral, function: "Xin phép thử đồ", situation_vi: "Hỏi nhân viên.", reply: { de: "Natürlich, die Umkleidekabine ist dort.", vi: "Tất nhiên, phòng thử đồ ở đằng kia." }, lesson_refs: [a1.m11.l04] }
+  - { id: a1.m11.x.bezahlen, de: "Ich bezahle mit Karte.", vi: "Tôi thanh toán bằng thẻ.", register: neutral, function: "Chọn cách trả tiền", situation_vi: "Tại quầy thu ngân.", lesson_refs: [a1.m11.l04] }
+  - { id: a1.m11.x.umtausch, de: "Kann ich die Hose umtauschen?", vi: "Tôi đổi cái quần này được không?", register: neutral, function: "Hỏi đổi hàng", situation_vi: "Khi hàng không vừa hoặc không ưng ý.", lesson_refs: [a1.m11.l04] }

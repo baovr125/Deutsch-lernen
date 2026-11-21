@@ -1,0 +1,2971 @@
+schema_version: '2.0'
+content_type: vocabulary-set
+id: a1.m02.vocab
+level: A1
+module: a1.m02
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+  references:
+  - work: Netzwerk neu A1 (Klett)
+    scope: 'Kapitel 2: Freunde, Kollegen und ich; Meine Hobbys, meine Freunde; Gehen wir ins Kino?; Mein Beruf; Strategie: Artikel lernen; Landeskunde: Neu im Club; Film: Die Netzwerk-WG; kurz und klar: Redemittel und Grammatik'
+    verification: verified
+  notes_vi: 'Trình tự và phạm vi theo Stoffverteilungsplan Netzwerk neu A1.1 (Kapitel 2, 10 UE) và Kapitelwortschatz. Mục „Mein Beruf“ (3 UE) được chia thành 2 bài; „Strategie: Artikel lernen“ được gộp vào bài „Mein Beruf“. Mọi nội dung là tự biên soạn.'
+entries:
+- id: a1.m02.v.gern
+  de: gern
+  pos: adverb
+  vi: thích (làm gì); sẵn lòng
+  ipa: /ɡɛʁn/
+  example:
+    de: Ich koche gern.
+    vi: Tôi thích nấu ăn.
+  usage_vi: 'Tiếng Đức nói “thích” bằng ĐỘNG TỪ + gern: Ich tanze gern. Phủ định: nicht gern. Mức độ: sehr gern > gern > nicht so gern > nicht gern.'
+  lesson_refs:
+  - a1.m02.l01
+  tags:
+  - hobby
+  - grammatik-hinweis
+  source: nwn-lern
+- id: a1.m02.v.leute
+  de: Leute
+  pos: noun
+  article: die
+  no_plural: true
+  vi: mọi người, người ta
+  ipa: /ˈlɔʏ̯tə/
+  example:
+    de: Hallo, Leute!
+    vi: Chào mọi người!
+  usage_vi: 'Chỉ có dạng số nhiều. Không dùng cho một người (một người: die Person).'
+  lesson_refs:
+  - a1.m02.l01
+  tags:
+  - person
+  - pl-only
+  source: nwn-lern
+- id: a1.m02.v.fotografieren
+  de: fotografieren
+  pos: verb
+  vi: chụp ảnh
+  forms:
+    text: du fotografierst, er fotografiert
+    er: fotografiert
+  ipa: /fotoɡʁaˈfiːʁən/
+  example:
+    de: Ich fotografiere gern.
+    vi: Tôi thích chụp ảnh.
+  usage_vi: 'Động từ -ieren: nhấn vào “ie”.'
+  lesson_refs:
+  - a1.m02.l01
+  tags:
+  - hobby
+  - verb
+  source: nwn-lern
+- id: a1.m02.v.freund
+  de: Freund
+  pos: noun
+  article: der
+  plural: Freunde
+  vi: người bạn (nam); bạn trai
+  ipa: /fʁɔʏ̯nt/
+  example:
+    de: Das ist mein Freund Paul.
+    vi: Đây là bạn tôi, Paul.
+  usage_vi: 'Từ nhiều nghĩa: “mein Freund” có thể là bạn trai. Muốn nói rõ “một người bạn” có thể dùng: ein Freund von mir.'
+  lesson_refs:
+  - a1.m02.l01
+  tags:
+  - person
+  - mehrdeutig
+  source: nwn-lern
+- id: a1.m02.v.freundin
+  de: Freundin
+  pos: noun
+  article: die
+  plural: Freundinnen
+  vi: người bạn (nữ); bạn gái
+  ipa: /ˈfʁɔʏ̯ndɪn/
+  example:
+    de: Meine Freundin heißt Lisa.
+    vi: Bạn gái tôi / bạn tôi tên là Lisa.
+  usage_vi: Từ nhiều nghĩa giống Freund. Số nhiều -innen.
+  lesson_refs:
+  - a1.m02.l01
+  tags:
+  - person
+  - mehrdeutig
+  source: nwn-lern
+- id: a1.m02.v.joggen
+  de: joggen
+  pos: verb
+  vi: chạy bộ
+  forms:
+    text: du joggst, er joggt
+    er: joggt
+  ipa: /ˈdʒɔɡn̩/
+  example:
+    de: Wir joggen am Sonntag.
+    vi: Chúng tôi chạy bộ vào Chủ nhật.
+  usage_vi: Mượn từ tiếng Anh, j đọc [dʒ] như tiếng Anh.
+  lesson_refs:
+  - a1.m02.l01
+  tags:
+  - hobby
+  - sport
+  - verb
+  source: nwn-lern
+- id: a1.m02.v.kollege
+  de: Kollege
+  pos: noun
+  article: der
+  plural: Kollegen
+  vi: đồng nghiệp (nam)
+  ipa: /kɔˈleːɡə/
+  example:
+    de: Das ist mein Kollege Tom.
+    vi: Đây là đồng nghiệp của tôi, Tom.
+  usage_vi: 'Số nhiều -n: die Kollegen. Trọng âm: kol-LE-ge.'
+  lesson_refs:
+  - a1.m02.l01
+  tags:
+  - person
+  - arbeit
+  source: nwn-lern
+- id: a1.m02.v.kollegin
+  de: Kollegin
+  pos: noun
+  article: die
+  plural: Kolleginnen
+  vi: đồng nghiệp (nữ)
+  ipa: /kɔˈleːɡɪn/
+  example:
+    de: Meine Kollegin kommt aus Polen.
+    vi: Đồng nghiệp của tôi đến từ Ba Lan.
+  usage_vi: 'Dạng nữ của der Kollege: thêm -in, số nhiều -innen. Dùng cho đồng nghiệp cùng nơi làm việc.'
+  lesson_refs:
+  - a1.m02.l01
+  tags:
+  - person
+  - arbeit
+  source: nwn-lern
+- id: a1.m02.v.singen
+  de: singen
+  pos: verb
+  vi: hát
+  forms:
+    text: du singst, er singt
+    er: singt
+  ipa: /ˈzɪŋən/
+  example:
+    de: Sie singt sehr gern.
+    vi: Cô ấy rất thích hát.
+  usage_vi: ng đọc [ŋ], không có âm g phía sau.
+  lesson_refs:
+  - a1.m02.l01
+  tags:
+  - hobby
+  - musik
+  - verb
+  source: nwn-lern
+- id: a1.m02.v.tanzen
+  de: tanzen
+  pos: verb
+  vi: nhảy, khiêu vũ
+  forms:
+    text: du tanzt, er tanzt
+    er: tanzt
+  ipa: /ˈtantsn̩/
+  example:
+    de: Tanzt du gern?
+    vi: Bạn có thích nhảy không?
+  usage_vi: Gốc tận cùng bằng z → du tanzt (chỉ thêm -t).
+  lesson_refs:
+  - a1.m02.l01
+  tags:
+  - hobby
+  - verb
+  source: nwn-lern
+- id: a1.m02.v.gehen
+  de: gehen
+  pos: verb
+  vi: đi (bộ); đi (đến đâu)
+  forms:
+    text: du gehst, er geht
+    er: geht
+  ipa: /ˈɡeːən/
+  example:
+    de: Ich gehe gern ins Kino.
+    vi: Tôi thích đi xem phim.
+  usage_vi: Đã gặp trong “Wie geht's?”. gehen + ins Kino/ins Café = đi xem phim/đi cà phê. Đi bằng xe dùng fahren (bài 2).
+  lesson_refs:
+  - a1.m02.l01
+  tags:
+  - verb
+  - freizeit
+  - mehrdeutig
+  source: nwn-lern
+- id: a1.m02.v.kino
+  de: Kino
+  pos: noun
+  article: das
+  plural: Kinos
+  vi: rạp chiếu phim
+  ipa: /ˈkiːno/
+  example:
+    de: Gehen wir ins Kino?
+    vi: Chúng ta đi xem phim nhé?
+  usage_vi: 'ins = in das: ins Kino.'
+  lesson_refs:
+  - a1.m02.l01
+  tags:
+  - ort
+  - freizeit
+  source: nwn-lern
+- id: a1.m02.v.kochen
+  de: kochen
+  pos: verb
+  vi: nấu ăn
+  forms:
+    text: du kochst, er kocht
+    er: kocht
+  ipa: /ˈkɔxn̩/
+  example:
+    de: Er kocht gern Spaghetti.
+    vi: Anh ấy thích nấu mì Ý.
+  usage_vi: ch sau o đọc [x] như “kh”.
+  lesson_refs:
+  - a1.m02.l01
+  tags:
+  - hobby
+  - essen
+  - verb
+  source: nwn-lern
+- id: a1.m02.v.reisen
+  de: reisen
+  pos: verb
+  vi: du lịch, đi xa
+  forms:
+    text: du reist, er reist
+    er: reist
+  ipa: /ˈʁaɪ̯zn̩/
+  example:
+    de: Wir reisen gern.
+    vi: Chúng tôi thích du lịch.
+  usage_vi: Gốc tận cùng bằng s → du reist (chỉ thêm -t).
+  lesson_refs:
+  - a1.m02.l01
+  tags:
+  - hobby
+  - reise
+  - verb
+  source: nwn-lern
+- id: a1.m02.v.schwimmen
+  de: schwimmen
+  pos: verb
+  vi: bơi
+  forms:
+    text: du schwimmst, er schwimmt
+    er: schwimmt
+  ipa: /ˈʃvɪmən/
+  example:
+    de: Schwimmst du gern?
+    vi: Bạn có thích bơi không?
+  usage_vi: sch đọc [ʃ]; w đọc [v].
+  lesson_refs:
+  - a1.m02.l01
+  tags:
+  - hobby
+  - sport
+  - verb
+  source: nwn-lern
+- id: a1.m02.v.antworten
+  de: antworten
+  pos: verb
+  vi: trả lời
+  forms:
+    text: du antwortest, er antwortet
+    er: antwortet
+  ipa: /ˈantvɔʁtn̩/
+  example:
+    de: Antworten Sie, bitte.
+    vi: Xin hãy trả lời.
+  usage_vi: 'Gốc tận cùng bằng t → thêm e: du antwortest, er antwortet (để dễ phát âm).'
+  lesson_refs:
+  - a1.m02.l01
+  tags:
+  - verb
+  - kommunikation
+  source: nwn-lern
+- id: a1.m02.v.arbeiten
+  de: arbeiten
+  pos: verb
+  vi: làm việc
+  forms:
+    text: du arbeitest, er arbeitet
+    er: arbeitet
+  ipa: /ˈaʁbaɪ̯tn̩/
+  example:
+    de: Ich arbeite in Hamburg.
+    vi: Tôi làm việc ở Hamburg.
+  usage_vi: 'Gốc tận cùng bằng t → du arbeitest, er arbeitet. Hỏi nghề: Was arbeitest du?'
+  lesson_refs:
+  - a1.m02.l01
+  tags:
+  - verb
+  - arbeit
+  source: nwn-lern
+- id: a1.m02.v.so
+  de: so
+  pos: adverb
+  vi: như thế; lắm (trong “nicht so”)
+  ipa: /zoː/
+  example:
+    de: Ich tanze nicht so gern. – Es geht so.
+    vi: Tôi không thích nhảy lắm. – Tàm tạm.
+  usage_vi: “nicht so gern” = không thích lắm; “Es geht so.” = tàm tạm. Từ nhiều nghĩa, học theo cụm.
+  lesson_refs:
+  - a1.m02.l01
+  tags:
+  - mehrdeutig
+  source: nwn-lern
+- id: a1.m02.v.spielen
+  de: spielen
+  pos: verb
+  vi: chơi (thể thao, nhạc cụ, trò chơi); đóng (vai)
+  forms:
+    text: du spielst, er spielt
+    er: spielt
+  ipa: /ˈʃpiːlən/
+  example:
+    de: Er spielt gern Fußball.
+    vi: Anh ấy thích chơi bóng đá.
+  usage_vi: 'sp đầu từ đọc [ʃp]. Môn thể thao sau spielen không có mạo từ: Fußball spielen, Tennis spielen.'
+  lesson_refs:
+  - a1.m02.l01
+  tags:
+  - hobby
+  - verb
+  source: nwn-lern
+- id: a1.m02.v.machen
+  de: machen
+  pos: verb
+  vi: làm
+  forms:
+    text: du machst, er macht
+    er: macht
+  ipa: /ˈmaxn̩/
+  example:
+    de: Was machst du gern?
+    vi: Bạn thích làm gì?
+  usage_vi: 'Động từ rất hay dùng: Sport machen (chơi thể thao), Yoga machen.'
+  lesson_refs:
+  - a1.m02.l01
+  tags:
+  - verb
+  source: nwn-lern
+- id: a1.m02.v.kennen
+  de: kennen
+  pos: verb
+  vi: biết, quen (người, nơi chốn)
+  forms:
+    text: du kennst, er kennt
+    er: kennt
+  ipa: /ˈkɛnən/
+  example:
+    de: Kennst du Paul?
+    vi: Bạn có quen Paul không?
+  usage_vi: kennen = biết NGƯỜI/NƠI (đã gặp, đã đến). Biết MỘT ĐIỀU (thông tin) là wissen – học sau.
+  lesson_refs:
+  - a1.m02.l01
+  tags:
+  - verb
+  source: nwn-lern
+- id: a1.m02.v.wir
+  de: wir
+  pos: pronoun
+  vi: chúng tôi, chúng ta
+  ipa: /viːɐ̯/
+  example:
+    de: Wir lernen Deutsch.
+    vi: Chúng tôi học tiếng Đức.
+  usage_vi: 'Động từ đi với wir giống dạng nguyên mẫu: wir kommen, wir spielen (riêng sein: wir sind).'
+  lesson_refs:
+  - a1.m02.l02
+  tags:
+  - personalpronomen
+  source: nwn-lern
+- id: a1.m02.v.ihr
+  de: ihr
+  pos: pronoun
+  vi: các bạn, mấy cậu (thân mật, số nhiều)
+  ipa: /iːɐ̯/
+  example:
+    de: Joggt ihr morgen auch?
+    vi: Ngày mai các bạn cũng chạy bộ chứ?
+  usage_vi: 'Số nhiều của du. Động từ thêm -t: ihr kommt, ihr spielt (sein: ihr seid). Không nhầm với Ihr (của ông/bà).'
+  lesson_refs:
+  - a1.m02.l02
+  tags:
+  - personalpronomen
+  - informell
+  source: nwn-lern
+- id: a1.m02.v.buch
+  de: Buch
+  pos: noun
+  article: das
+  plural: Bücher
+  vi: quyển sách
+  ipa: /buːx/
+  example:
+    de: Ich lese ein Buch.
+    vi: Tôi đọc một quyển sách.
+  usage_vi: 'Số nhiều có biến âm: die Bücher. ch sau u đọc [x].'
+  lesson_refs:
+  - a1.m02.l02
+  tags:
+  - freizeit
+  - lernen
+  source: nwn-lern
+- id: a1.m02.v.fussball
+  de: Fußball
+  pos: noun
+  article: der
+  no_plural: true
+  vi: bóng đá
+  ipa: /ˈfuːsbal/
+  example:
+    de: Er spielt gern Fußball.
+    vi: Anh ấy thích chơi bóng đá.
+  usage_vi: 'Khi là môn thể thao: KHÔNG dùng mạo từ (Fußball spielen). der Fußball (quả bóng) có số nhiều die Fußbälle – ít dùng ở A1.'
+  lesson_refs:
+  - a1.m02.l02
+  tags:
+  - sport
+  - sg-only
+  source: nwn-lern
+- id: a1.m02.v.lieben
+  de: lieben
+  pos: verb
+  vi: yêu, rất thích
+  forms:
+    text: du liebst, er liebt
+    er: liebt
+  ipa: /ˈliːbn̩/
+  example:
+    de: Ich liebe Musik.
+    vi: Tôi rất mê âm nhạc.
+  usage_vi: 'Mạnh hơn “gern”: Ich liebe Pizza! = Tôi mê pizza!'
+  lesson_refs:
+  - a1.m02.l02
+  tags:
+  - verb
+  - gefuehl
+  source: nwn-lern
+- id: a1.m02.v.super
+  de: super
+  pos: adjective
+  vi: tuyệt vời
+  ipa: /ˈzuːpɐ/
+  example:
+    de: Das ist super!
+    vi: Thật tuyệt!
+  usage_vi: Văn nói, rất phổ biến. s đầu từ đọc [z].
+  lesson_refs:
+  - a1.m02.l02
+  tags:
+  - bewertung
+  source: nwn-lern
+- id: a1.m02.v.toll
+  de: toll
+  pos: adjective
+  vi: hay, tuyệt
+  ipa: /tɔl/
+  example:
+    de: Der Film ist toll.
+    vi: Bộ phim hay lắm.
+  usage_vi: Gần nghĩa với super.
+  lesson_refs:
+  - a1.m02.l02
+  tags:
+  - bewertung
+  source: nwn-lern
+- id: a1.m02.v.am
+  de: am
+  pos: preposition
+  vi: vào (ngày …)
+  ipa: /am/
+  example:
+    de: Am Wochenende koche ich.
+    vi: Vào cuối tuần tôi nấu ăn.
+  usage_vi: 'am = an + dem. Dùng với ngày và cuối tuần: am Montag, am Wochenende. (Câu bắt đầu bằng “Am Wochenende” thì động từ vẫn ở vị trí 2, chủ ngữ ra sau – học kỹ ở Kapitel 4.)'
+  lesson_refs:
+  - a1.m02.l02
+  tags:
+  - zeit
+  source: nwn-lern
+- id: a1.m02.v.foto
+  de: Foto
+  pos: noun
+  article: das
+  plural: Fotos
+  vi: bức ảnh
+  ipa: /ˈfoːto/
+  example:
+    de: Das Foto ist schön.
+    vi: Bức ảnh đẹp.
+  usage_vi: Số nhiều -s.
+  lesson_refs:
+  - a1.m02.l02
+  tags:
+  - medien
+  source: nwn-lern
+- id: a1.m02.v.lustig
+  de: lustig
+  pos: adjective
+  vi: vui, hài hước
+  ipa: /ˈlʊstɪç/
+  example:
+    de: Paul ist lustig.
+    vi: Paul vui tính.
+  usage_vi: Đuôi -ig đọc [ɪç].
+  lesson_refs:
+  - a1.m02.l02
+  tags:
+  - person
+  - bewertung
+  source: nwn-lern
+- id: a1.m02.v.moment
+  de: Moment
+  pos: noun
+  article: der
+  plural: Momente
+  vi: lúc, khoảnh khắc
+  ipa: /moˈmɛnt/
+  example:
+    de: Im Moment lese ich viel.
+    vi: Dạo này tôi đọc nhiều.
+  usage_vi: “im Moment” = hiện tại, dạo này. “Moment, bitte!” = Xin chờ một chút!
+  lesson_refs:
+  - a1.m02.l02
+  tags:
+  - zeit
+  source: nwn-lern
+- id: a1.m02.v.morgen
+  de: morgen
+  pos: adverb
+  vi: ngày mai
+  ipa: /ˈmɔʁɡn̩/
+  example:
+    de: Morgen spiele ich Tennis.
+    vi: Ngày mai tôi chơi tennis.
+  usage_vi: Viết thường = ngày mai. Viết hoa der Morgen = buổi sáng (Kapitel 1).
+  lesson_refs:
+  - a1.m02.l02
+  tags:
+  - zeit
+  - mehrdeutig
+  source: nwn-lern
+- id: a1.m02.v.spaghetti
+  de: Spaghetti
+  pos: noun
+  article: die
+  no_plural: true
+  vi: mì Ý (spaghetti)
+  ipa: /ʃpaˈɡɛti/
+  example:
+    de: Wir kochen Spaghetti.
+    vi: Chúng tôi nấu mì Ý.
+  usage_vi: 'Chỉ có dạng số nhiều trong tiếng Đức: die Spaghetti.'
+  lesson_refs:
+  - a1.m02.l02
+  tags:
+  - essen
+  - pl-only
+  source: nwn
+- id: a1.m02.v.von
+  de: von
+  pos: preposition
+  vi: của; từ
+  ipa: /fɔn/
+  example:
+    de: Ich lese ein Buch von Daniel Kehlmann.
+    vi: Tôi đọc một cuốn sách của Daniel Kehlmann.
+  usage_vi: 'Từ nhiều nghĩa: “của (tác giả)”, “từ … đến” (von … bis), “Was sind Sie von Beruf?” (nghề gì).'
+  lesson_refs:
+  - a1.m02.l02
+  tags:
+  - praeposition
+  - mehrdeutig
+  source: nwn-lern
+- id: a1.m02.v.wirklich
+  de: wirklich
+  pos: adverb
+  vi: thật sự, thật à
+  ipa: /ˈvɪʁklɪç/
+  example:
+    de: Spielst du wirklich Fußball?
+    vi: Bạn chơi bóng đá thật à?
+  usage_vi: 'Dùng để tỏ ra ngạc nhiên: Wirklich? = Thật hả?'
+  lesson_refs:
+  - a1.m02.l02
+  source: nwn-lern
+- id: a1.m02.v.wochenende
+  de: Wochenende
+  pos: noun
+  article: das
+  plural: Wochenenden
+  vi: cuối tuần
+  ipa: /ˈvɔxn̩ˌʔɛndə/
+  example:
+    de: Am Wochenende schwimme ich.
+    vi: Cuối tuần tôi đi bơi.
+  usage_vi: 'Danh từ ghép: die Woche + das Ende → das Wochenende.'
+  lesson_refs:
+  - a1.m02.l02
+  tags:
+  - zeit
+  source: nwn-lern
+- id: a1.m02.v.nennen
+  de: nennen
+  pos: verb
+  vi: nêu, kể tên
+  forms:
+    text: du nennst, er nennt
+    er: nennt
+  ipa: /ˈnɛnən/
+  example:
+    de: Nennen Sie drei Hobbys.
+    vi: Hãy kể tên ba sở thích.
+  usage_vi: Hay gặp trong đề bài.
+  lesson_refs:
+  - a1.m02.l02
+  tags:
+  - arbeitsanweisung
+  - verb
+  source: nwn-lern
+- id: a1.m02.v.hobby
+  de: Hobby
+  pos: noun
+  article: das
+  plural: Hobbys
+  vi: sở thích
+  ipa: /ˈhɔbi/
+  example:
+    de: Mein Hobby ist Kochen.
+    vi: Sở thích của tôi là nấu ăn.
+  usage_vi: 'Số nhiều -s (không phải -ies như tiếng Anh). Động từ dùng như danh từ thì viết hoa: das Kochen.'
+  lesson_refs:
+  - a1.m02.l02
+  tags:
+  - freizeit
+  source: nwn-lern
+- id: a1.m02.v.mit
+  de: mit
+  pos: preposition
+  vi: với, cùng với
+  ipa: /mɪt/
+  example:
+    de: Ich koche mit Paul.
+    vi: Tôi nấu ăn cùng Paul.
+  usage_vi: Sau mit dùng cách Dativ – học ở Kapitel 7. Ở đây dùng với tên riêng.
+  lesson_refs:
+  - a1.m02.l02
+  tags:
+  - praeposition
+  source: nwn-lern
+- id: a1.m02.v.fahren
+  de: fahren
+  pos: verb
+  vi: đi (bằng xe), lái xe
+  forms:
+    text: du fährst, er fährt
+    er: fährt
+  ipa: /ˈfaːʁən/
+  example:
+    de: Er fährt nach Berlin.
+    vi: Anh ấy đi Berlin.
+  usage_vi: 'Đổi nguyên âm a → ä ở du/er: du fährst, er fährt. Đi bộ là gehen.'
+  lesson_refs:
+  - a1.m02.l02
+  tags:
+  - verb
+  - unregelmaessig
+  - verkehr
+  source: nwn-lern
+- id: a1.m02.v.montag
+  de: Montag
+  pos: noun
+  article: der
+  plural: Montage
+  vi: thứ Hai
+  ipa: /ˈmoːnˌtaːk/
+  example:
+    de: Am Montag arbeite ich.
+    vi: Thứ Hai tôi làm việc.
+  usage_vi: Mọi ngày trong tuần là giống đực (der). “vào thứ Hai” = am Montag.
+  lesson_refs:
+  - a1.m02.l03
+  tags:
+  - wochentag
+  source: nwn-lern
+- id: a1.m02.v.dienstag
+  de: Dienstag
+  pos: noun
+  article: der
+  plural: Dienstage
+  vi: thứ Ba
+  ipa: /ˈdiːnsˌtaːk/
+  example:
+    de: Am Dienstag gehe ich ins Kino.
+    vi: Thứ Ba tôi đi xem phim.
+  usage_vi: Mọi thứ trong tuần đều giống đực (der). „am Dienstag“ = vào thứ Ba; „dienstags“ = mỗi thứ Ba (trạng từ, viết thường).
+  lesson_refs:
+  - a1.m02.l03
+  tags:
+  - wochentag
+  source: nwn-lern
+- id: a1.m02.v.mittwoch
+  de: Mittwoch
+  pos: noun
+  article: der
+  plural: Mittwoche
+  vi: thứ Tư
+  ipa: /ˈmɪtvɔx/
+  example:
+    de: Am Mittwoch schwimme ich.
+    vi: Thứ Tư tôi đi bơi.
+  usage_vi: 'Nghĩa đen: giữa tuần (Mitte + Woche).'
+  lesson_refs:
+  - a1.m02.l03
+  tags:
+  - wochentag
+  source: nwn-lern
+- id: a1.m02.v.donnerstag
+  de: Donnerstag
+  pos: noun
+  article: der
+  plural: Donnerstage
+  vi: thứ Năm
+  ipa: /ˈdɔnɐsˌtaːk/
+  example:
+    de: Am Donnerstag habe ich Deutschkurs.
+    vi: Thứ Năm tôi có lớp tiếng Đức.
+  usage_vi: Giống đực như mọi thứ trong tuần. „am Donnerstag“ = vào thứ Năm; „donnerstags“ = mỗi thứ Năm.
+  lesson_refs:
+  - a1.m02.l03
+  tags:
+  - wochentag
+  source: nwn-lern
+- id: a1.m02.v.freitag
+  de: Freitag
+  pos: noun
+  article: der
+  plural: Freitage
+  vi: thứ Sáu
+  ipa: /ˈfʁaɪ̯ˌtaːk/
+  example:
+    de: Am Freitag tanzen wir.
+    vi: Thứ Sáu chúng tôi đi nhảy.
+  usage_vi: 'Giống đực. „am Freitag“ = vào thứ Sáu; „freitags“ = mỗi thứ Sáu. Lời chúc cuối tuần: „Schönes Wochenende!“'
+  lesson_refs:
+  - a1.m02.l03
+  tags:
+  - wochentag
+  source: nwn-lern
+- id: a1.m02.v.samstag
+  de: Samstag
+  pos: noun
+  article: der
+  plural: Samstage
+  vi: thứ Bảy
+  ipa: /ˈzamsˌtaːk/
+  example:
+    de: Am Samstag koche ich.
+    vi: Thứ Bảy tôi nấu ăn.
+  usage_vi: Ở miền Bắc Đức còn gọi là Sonnabend.
+  lesson_refs:
+  - a1.m02.l03
+  tags:
+  - wochentag
+  source: nwn-lern
+- id: a1.m02.v.sonntag
+  de: Sonntag
+  pos: noun
+  article: der
+  plural: Sonntage
+  vi: Chủ nhật
+  ipa: /ˈzɔnˌtaːk/
+  example:
+    de: Am Sonntag joggen wir.
+    vi: Chủ nhật chúng tôi chạy bộ.
+  usage_vi: Ở Đức, Chủ nhật phần lớn cửa hàng đóng cửa.
+  lesson_refs:
+  - a1.m02.l03
+  tags:
+  - wochentag
+  source: nwn-lern
+- id: a1.m02.v.wochentag
+  de: Wochentag
+  pos: noun
+  article: der
+  plural: Wochentage
+  vi: ngày trong tuần
+  ipa: /ˈvɔxn̩ˌtaːk/
+  example:
+    de: Welcher Wochentag ist heute?
+    vi: Hôm nay là thứ mấy?
+  usage_vi: die Woche + der Tag → der Wochentag.
+  lesson_refs:
+  - a1.m02.l03
+  tags:
+  - zeit
+  source: nwn-lern
+- id: a1.m02.v.wann
+  de: wann
+  pos: interrogative
+  vi: khi nào
+  ipa: /van/
+  example:
+    de: Wann gehen wir ins Kino?
+    vi: Khi nào chúng ta đi xem phim?
+  usage_vi: 'Trả lời: am Montag / morgen / am Wochenende.'
+  lesson_refs:
+  - a1.m02.l03
+  tags:
+  - w-frage
+  - zeit
+  source: nwn-lern
+- id: a1.m02.v.leider
+  de: leider
+  pos: adverb
+  vi: tiếc là, rất tiếc
+  ipa: /ˈlaɪ̯dɐ/
+  example:
+    de: Das geht leider nicht.
+    vi: Tiếc là không được.
+  usage_vi: Dùng để từ chối lịch sự.
+  lesson_refs:
+  - a1.m02.l03
+  tags:
+  - hoeflichkeit
+  source: nwn-lern
+- id: a1.m02.v.oft
+  de: oft
+  pos: adverb
+  vi: thường, hay
+  ipa: /ɔft/
+  example:
+    de: Ich gehe oft ins Café.
+    vi: Tôi hay đi cà phê.
+  usage_vi: 'Tần suất: immer > meistens > oft > nicht oft.'
+  lesson_refs:
+  - a1.m02.l03
+  tags:
+  - haeufigkeit
+  source: nwn-lern
+- id: a1.m02.v.caf
+  de: Café
+  pos: noun
+  article: das
+  plural: Cafés
+  vi: quán cà phê
+  ipa: /kaˈfeː/
+  example:
+    de: Gehen wir ins Café?
+    vi: Mình đi cà phê nhé?
+  usage_vi: 'Phân biệt: das Café (quán) – der Kaffee (đồ uống).'
+  lesson_refs:
+  - a1.m02.l03
+  tags:
+  - ort
+  - freizeit
+  source: nwn-lern
+- id: a1.m02.v.museum
+  de: Museum
+  pos: noun
+  article: das
+  plural: Museen
+  vi: viện bảo tàng
+  ipa: /muˈzeːʊm/
+  example:
+    de: Am Sonntag gehen wir ins Museum.
+    vi: Chủ nhật chúng tôi đi bảo tàng.
+  usage_vi: 'Số nhiều bất quy tắc: die Museen.'
+  lesson_refs:
+  - a1.m02.l03
+  tags:
+  - ort
+  - freizeit
+  source: nwn-lern
+- id: a1.m02.v.restaurant
+  de: Restaurant
+  pos: noun
+  article: das
+  plural: Restaurants
+  vi: nhà hàng
+  ipa: /ʁɛstoˈʁãː/
+  example:
+    de: Das Restaurant ist gut.
+    vi: Nhà hàng này ngon.
+  usage_vi: Đọc theo tiếng Pháp, âm cuối gần như “răng” (mũi), không đọc t.
+  lesson_refs:
+  - a1.m02.l03
+  tags:
+  - ort
+  - essen
+  source: nwn-lern
+- id: a1.m02.v.schwimmbad
+  de: Schwimmbad
+  pos: noun
+  article: das
+  plural: Schwimmbäder
+  vi: bể bơi
+  ipa: /ˈʃvɪmˌbaːt/
+  example:
+    de: Ich gehe ins Schwimmbad.
+    vi: Tôi đi bể bơi.
+  usage_vi: schwimmen + das Bad → das Schwimmbad.
+  lesson_refs:
+  - a1.m02.l03
+  tags:
+  - ort
+  - sport
+  source: nwn-lern
+- id: a1.m02.v.theater
+  de: Theater
+  pos: noun
+  article: das
+  plural: Theater
+  vi: nhà hát
+  ipa: /teˈaːtɐ/
+  example:
+    de: Gehen wir ins Theater?
+    vi: Mình đi nhà hát nhé?
+  usage_vi: th đọc [t] (không đọc như tiếng Anh). Số nhiều giống số ít.
+  lesson_refs:
+  - a1.m02.l03
+  tags:
+  - ort
+  - freizeit
+  source: nwn-lern
+- id: a1.m02.v.termin
+  de: Termin
+  pos: noun
+  article: der
+  plural: Termine
+  vi: cuộc hẹn, lịch hẹn
+  ipa: /tɛʁˈmiːn/
+  example:
+    de: Am Montag habe ich einen Termin.
+    vi: Thứ Hai tôi có một cuộc hẹn.
+  usage_vi: 'Thường là hẹn chính thức (bác sĩ, công việc). Hẹn đi chơi với bạn: die Verabredung.'
+  lesson_refs:
+  - a1.m02.l03
+  tags:
+  - zeit
+  - termin
+  source: nwn-lern
+- id: a1.m02.v.fuer
+  de: für
+  pos: preposition
+  vi: cho, dành cho
+  ipa: /fyːɐ̯/
+  example:
+    de: Ein Tee für Anna, bitte.
+    vi: Một tách trà cho Anna.
+  usage_vi: Sau für dùng cách Akkusativ – học ở Kapitel 6.
+  lesson_refs:
+  - a1.m02.l03
+  tags:
+  - praeposition
+  source: nwn-lern
+- id: a1.m02.v.jede
+  de: jede
+  pos: pronoun
+  vi: mỗi, mọi
+  ipa: /ˈjeːdə/
+  example:
+    de: Jede Woche gehe ich ins Kino.
+    vi: Tuần nào tôi cũng đi xem phim.
+  usage_vi: 'Đuôi theo giống của danh từ: jeder Tag, jede Woche, jedes Wochenende.'
+  lesson_refs:
+  - a1.m02.l03
+  tags:
+  - haeufigkeit
+  source: nwn-lern
+- id: a1.m02.v.das-geht-nicht
+  de: Das geht (nicht).
+  pos: phrase
+  vi: Được. / Không được.
+  ipa: /das ˈɡeːt (nɪçt)/
+  example:
+    de: Am Montag? – Ja, das geht.
+    vi: Thứ Hai à? – Ừ, được.
+  usage_vi: 'Câu trả lời khi hẹn giờ: Das geht. / Das geht leider nicht.'
+  lesson_refs:
+  - a1.m02.l03
+  tags:
+  - verabredung
+  source: nwn
+- id: a1.m02.v.beruf
+  de: Beruf
+  pos: noun
+  article: der
+  plural: Berufe
+  vi: nghề nghiệp
+  ipa: /bəˈʁuːf/
+  example:
+    de: Was sind Sie von Beruf?
+    vi: Ông/Bà làm nghề gì?
+  usage_vi: 'Nói nghề KHÔNG dùng mạo từ: Ich bin Lehrerin.'
+  lesson_refs:
+  - a1.m02.l04
+  tags:
+  - beruf
+  source: nwn-lern
+- id: a1.m02.v.arzt
+  de: Arzt
+  pos: noun
+  article: der
+  plural: Ärzte
+  vi: bác sĩ (nam)
+  ipa: /aːɐ̯tst/
+  example:
+    de: Er ist Arzt.
+    vi: Anh ấy là bác sĩ.
+  usage_vi: 'Số nhiều có biến âm: die Ärzte.'
+  lesson_refs:
+  - a1.m02.l04
+  tags:
+  - beruf
+  - gesundheit
+  source: nwn-lern
+- id: a1.m02.v.aerztin
+  de: Ärztin
+  pos: noun
+  article: die
+  plural: Ärztinnen
+  vi: bác sĩ (nữ)
+  ipa: /ˈɛːɐ̯tstɪn/
+  example:
+    de: Meine Mutter ist Ärztin.
+    vi: Mẹ tôi là bác sĩ.
+  usage_vi: 'Dạng nữ có biến âm: Arzt → Ärztin.'
+  lesson_refs:
+  - a1.m02.l04
+  tags:
+  - beruf
+  - gesundheit
+  source: nwn-lern
+- id: a1.m02.v.kellner
+  de: Kellner
+  pos: noun
+  article: der
+  plural: Kellner
+  vi: bồi bàn (nam)
+  ipa: /ˈkɛlnɐ/
+  example:
+    de: Der Kellner bringt den Kaffee.
+    vi: Người bồi bàn mang cà phê đến.
+  usage_vi: 'Nghề phục vụ bàn; nữ: die Kellnerin. Để gọi phục vụ nên nói „Entschuldigung!“ (lịch sự và thông dụng).'
+  lesson_refs:
+  - a1.m02.l04
+  tags:
+  - beruf
+  - essen
+  source: nwn-lern
+- id: a1.m02.v.kellnerin
+  de: Kellnerin
+  pos: noun
+  article: die
+  plural: Kellnerinnen
+  vi: bồi bàn (nữ)
+  ipa: /ˈkɛlnəʁɪn/
+  example:
+    de: Sie ist Kellnerin im Café.
+    vi: Cô ấy là phục vụ ở quán cà phê.
+  usage_vi: 'Dạng nữ của der Kellner (thêm -in, số nhiều -innen). Sau sein, nghề không dùng mạo từ: „Sie ist Kellnerin.“'
+  lesson_refs:
+  - a1.m02.l04
+  tags:
+  - beruf
+  - essen
+  source: nwn-lern
+- id: a1.m02.v.student
+  de: Student
+  pos: noun
+  article: der
+  plural: Studenten
+  vi: sinh viên (nam)
+  ipa: /ʃtuˈdɛnt/
+  example:
+    de: Minh ist Student.
+    vi: Minh là sinh viên.
+  usage_vi: 'Số nhiều -en: die Studenten. st đầu từ đọc [ʃt].'
+  lesson_refs:
+  - a1.m02.l04
+  tags:
+  - beruf
+  - studium
+  source: nwn-lern
+- id: a1.m02.v.studentin
+  de: Studentin
+  pos: noun
+  article: die
+  plural: Studentinnen
+  vi: sinh viên (nữ)
+  ipa: /ʃtuˈdɛntɪn/
+  example:
+    de: Lan ist Studentin.
+    vi: Lan là sinh viên.
+  usage_vi: 'Dạng nữ của der Student (thêm -in, số nhiều -innen). Sau sein không dùng mạo từ: „Ich bin Studentin.“'
+  lesson_refs:
+  - a1.m02.l04
+  tags:
+  - beruf
+  - studium
+  source: nwn-lern
+- id: a1.m02.v.taxifahrer
+  de: Taxifahrer
+  pos: noun
+  article: der
+  plural: Taxifahrer
+  vi: tài xế taxi (nam)
+  ipa: /ˈtaksiˌfaːʁɐ/
+  example:
+    de: Herr Klein ist Taxifahrer.
+    vi: Ông Klein là tài xế taxi.
+  usage_vi: das Taxi + der Fahrer → der Taxifahrer.
+  lesson_refs:
+  - a1.m02.l04
+  tags:
+  - beruf
+  - verkehr
+  source: nwn-lern
+- id: a1.m02.v.taxifahrerin
+  de: Taxifahrerin
+  pos: noun
+  article: die
+  plural: Taxifahrerinnen
+  vi: tài xế taxi (nữ)
+  ipa: /ˈtaksiˌfaːʁəʁɪn/
+  example:
+    de: Sie ist Taxifahrerin in Wien.
+    vi: Cô ấy là tài xế taxi ở Viên.
+  usage_vi: Dạng nữ của der Taxifahrer (thêm -in). Từ ghép Taxi + Fahrer(in); sau sein không dùng mạo từ.
+  lesson_refs:
+  - a1.m02.l04
+  tags:
+  - beruf
+  - verkehr
+  source: nwn-lern
+- id: a1.m02.v.lehrer
+  de: Lehrer
+  pos: noun
+  article: der
+  plural: Lehrer
+  vi: giáo viên (nam)
+  ipa: /ˈleːʁɐ/
+  example:
+    de: Mein Lehrer heißt Herr Wolf.
+    vi: Thầy giáo tôi tên là Wolf.
+  usage_vi: eh đọc [eː] dài.
+  lesson_refs:
+  - a1.m02.l04
+  tags:
+  - beruf
+  - schule
+  source: nwn-lern
+- id: a1.m02.v.lehrerin
+  de: Lehrerin
+  pos: noun
+  article: die
+  plural: Lehrerinnen
+  vi: giáo viên (nữ)
+  ipa: /ˈleːʁəʁɪn/
+  example:
+    de: Die Lehrerin kommt aus Österreich.
+    vi: Cô giáo đến từ Áo.
+  usage_vi: 'Dạng nữ của der Lehrer (thêm -in, số nhiều -innen). Sau sein không dùng mạo từ: „Sie ist Lehrerin.“'
+  lesson_refs:
+  - a1.m02.l04
+  tags:
+  - beruf
+  - schule
+  source: nwn-lern
+- id: a1.m02.v.verkaeufer
+  de: Verkäufer
+  pos: noun
+  article: der
+  plural: Verkäufer
+  vi: nhân viên bán hàng (nam)
+  ipa: /fɛɐ̯ˈkɔʏ̯fɐ/
+  example:
+    de: Er ist Verkäufer.
+    vi: Anh ấy là nhân viên bán hàng.
+  usage_vi: äu đọc [ɔʏ̯] như eu.
+  lesson_refs:
+  - a1.m02.l04
+  tags:
+  - beruf
+  - einkaufen
+  source: nwn-lern
+- id: a1.m02.v.verkaeuferin
+  de: Verkäuferin
+  pos: noun
+  article: die
+  plural: Verkäuferinnen
+  vi: nhân viên bán hàng (nữ)
+  ipa: /fɛɐ̯ˈkɔʏ̯fəʁɪn/
+  example:
+    de: Die Verkäuferin ist nett.
+    vi: Cô bán hàng rất dễ mến.
+  usage_vi: Dạng nữ của der Verkäufer (thêm -in, số nhiều -innen). Verkäufer(in) bán hàng trong cửa hàng; sau sein không dùng mạo từ.
+  lesson_refs:
+  - a1.m02.l04
+  tags:
+  - beruf
+  - einkaufen
+  source: nwn-lern
+- id: a1.m02.v.friseur
+  de: Friseur
+  pos: noun
+  article: der
+  plural: Friseure
+  vi: thợ cắt tóc (nam)
+  ipa: /fʁiˈzøːɐ̯/
+  example:
+    de: Mein Friseur ist sehr gut.
+    vi: Thợ cắt tóc của tôi rất giỏi.
+  usage_vi: Từ gốc Pháp, eu đọc [øː] (như ö dài).
+  lesson_refs:
+  - a1.m02.l04
+  tags:
+  - beruf
+  source: nwn-lern
+- id: a1.m02.v.friseurin
+  de: Friseurin
+  pos: noun
+  article: die
+  plural: Friseurinnen
+  vi: thợ cắt tóc (nữ)
+  ipa: /fʁiˈzøːʁɪn/
+  example:
+    de: Lan ist Friseurin.
+    vi: Lan là thợ cắt tóc.
+  usage_vi: 'Dạng nữ của der Friseur, nghề thợ cắt tóc. „eu“ đọc /øː/ và „s“ đọc /z/: Friseur /fʁiˈzøːɐ̯/ (từ gốc Pháp).'
+  lesson_refs:
+  - a1.m02.l04
+  tags:
+  - beruf
+  source: nwn-lern
+- id: a1.m02.v.informatiker
+  de: Informatiker
+  pos: noun
+  article: der
+  plural: Informatiker
+  vi: kỹ sư tin học, chuyên viên CNTT (nam)
+  ipa: /ɪnfɔʁˈmaːtɪkɐ/
+  example:
+    de: Minh ist Informatiker.
+    vi: Minh là chuyên viên tin học.
+  usage_vi: 'Người làm nghề về Informatik (tin học); nữ: die Informatikerin. Sau sein không dùng mạo từ: „Ich bin Informatiker.“'
+  lesson_refs:
+  - a1.m02.l04
+  tags:
+  - beruf
+  - computer
+  source: nwn-lern
+- id: a1.m02.v.informatikerin
+  de: Informatikerin
+  pos: noun
+  article: die
+  plural: Informatikerinnen
+  vi: kỹ sư tin học (nữ)
+  ipa: /ɪnfɔʁˈmaːtɪkəʁɪn/
+  example:
+    de: Sie ist Informatikerin bei Siemens.
+    vi: Cô ấy là kỹ sư tin học ở Siemens.
+  usage_vi: bei + tên công ty = làm ở công ty nào.
+  lesson_refs:
+  - a1.m02.l04
+  tags:
+  - beruf
+  - computer
+  source: nwn-lern
+- id: a1.m02.v.ingenieur
+  de: Ingenieur
+  pos: noun
+  article: der
+  plural: Ingenieure
+  vi: kỹ sư (nam)
+  ipa: /ɪnʒeˈni̯øːɐ̯/
+  example:
+    de: Er ist Ingenieur.
+    vi: Anh ấy là kỹ sư.
+  usage_vi: 'Từ gốc Pháp: g đọc [ʒ], eu đọc [øː].'
+  lesson_refs:
+  - a1.m02.l04
+  tags:
+  - beruf
+  source: nwn-lern
+- id: a1.m02.v.ingenieurin
+  de: Ingenieurin
+  pos: noun
+  article: die
+  plural: Ingenieurinnen
+  vi: kỹ sư (nữ)
+  ipa: /ɪnʒeˈni̯øːʁɪn/
+  example:
+    de: Meine Freundin ist Ingenieurin.
+    vi: Bạn tôi là kỹ sư.
+  usage_vi: 'Dạng nữ của der Ingenieur (thêm -in). „g“ trong Ingenieur đọc /ʒ/ như tiếng Pháp: /ɪnʒeˈni̯øːɐ̯/.'
+  lesson_refs:
+  - a1.m02.l04
+  tags:
+  - beruf
+  source: nwn-lern
+- id: a1.m02.v.krankenpfleger
+  de: Krankenpfleger
+  pos: noun
+  article: der
+  plural: Krankenpfleger
+  vi: điều dưỡng, y tá (nam)
+  ipa: /ˈkʁaŋkn̩ˌpfleːɡɐ/
+  example:
+    de: Er ist Krankenpfleger.
+    vi: Anh ấy là điều dưỡng.
+  usage_vi: pf đọc liền [pf].
+  lesson_refs:
+  - a1.m02.l04
+  tags:
+  - beruf
+  - gesundheit
+  source: nwn-lern
+- id: a1.m02.v.krankenpflegerin
+  de: Krankenpflegerin
+  pos: noun
+  article: die
+  plural: Krankenpflegerinnen
+  vi: điều dưỡng, y tá (nữ)
+  ipa: /ˈkʁaŋkn̩ˌpfleːɡəʁɪn/
+  example:
+    de: Hoa ist Krankenpflegerin in Berlin.
+    vi: Hoa là điều dưỡng ở Berlin.
+  usage_vi: Nhiều người Việt ở Đức làm nghề điều dưỡng.
+  lesson_refs:
+  - a1.m02.l04
+  tags:
+  - beruf
+  - gesundheit
+  source: nwn-lern
+- id: a1.m02.v.koch
+  de: Koch
+  pos: noun
+  article: der
+  plural: Köche
+  vi: đầu bếp (nam)
+  ipa: /kɔx/
+  example:
+    de: Er ist Koch im Restaurant.
+    vi: Anh ấy là đầu bếp ở nhà hàng.
+  usage_vi: 'Số nhiều có biến âm: die Köche.'
+  lesson_refs:
+  - a1.m02.l04
+  tags:
+  - beruf
+  - essen
+  source: nwn-lern
+- id: a1.m02.v.koechin
+  de: Köchin
+  pos: noun
+  article: die
+  plural: Köchinnen
+  vi: đầu bếp (nữ)
+  ipa: /ˈkœçɪn/
+  example:
+    de: Sie ist Köchin.
+    vi: Cô ấy là đầu bếp.
+  usage_vi: ch sau ö đọc [ç].
+  lesson_refs:
+  - a1.m02.l04
+  tags:
+  - beruf
+  - essen
+  source: nwn-lern
+- id: a1.m02.v.polizist
+  de: Polizist
+  pos: noun
+  article: der
+  plural: Polizisten
+  vi: cảnh sát (nam)
+  ipa: /poliˈtsɪst/
+  example:
+    de: Er ist Polizist.
+    vi: Anh ấy là cảnh sát.
+  usage_vi: Số nhiều -en.
+  lesson_refs:
+  - a1.m02.l04
+  tags:
+  - beruf
+  source: nwn-lern
+- id: a1.m02.v.polizistin
+  de: Polizistin
+  pos: noun
+  article: die
+  plural: Polizistinnen
+  vi: cảnh sát (nữ)
+  ipa: /poliˈtsɪstɪn/
+  example:
+    de: Sie ist Polizistin.
+    vi: Cô ấy là cảnh sát.
+  usage_vi: 'Dạng nữ của der Polizist (thêm -in, số nhiều -innen). Sau sein không dùng mạo từ: „Sie ist Polizistin.“'
+  lesson_refs:
+  - a1.m02.l04
+  tags:
+  - beruf
+  source: nwn-lern
+- id: a1.m02.v.handwerker
+  de: Handwerker
+  pos: noun
+  article: der
+  plural: Handwerker
+  vi: thợ (thủ công, sửa chữa) (nam)
+  ipa: /ˈhantˌvɛʁkɐ/
+  example:
+    de: Der Handwerker kommt am Montag.
+    vi: Thợ sửa chữa đến vào thứ Hai.
+  usage_vi: 'Thợ làm nghề thủ công hoặc sửa chữa (thợ mộc, thợ điện, thợ nước…). Gắn với das Handwerk (nghề thủ công) + -er; nữ: die Handwerkerin.'
+  lesson_refs:
+  - a1.m02.l04
+  tags:
+  - beruf
+  source: nwn-lern
+- id: a1.m02.v.handwerkerin
+  de: Handwerkerin
+  pos: noun
+  article: die
+  plural: Handwerkerinnen
+  vi: thợ (nữ)
+  ipa: /ˈhantˌvɛʁkəʁɪn/
+  example:
+    de: Sie ist Handwerkerin.
+    vi: Cô ấy là thợ.
+  usage_vi: Dạng nữ của der Handwerker (thêm -in, số nhiều -innen). Sau sein không dùng mạo từ.
+  lesson_refs:
+  - a1.m02.l04
+  tags:
+  - beruf
+  source: nwn-lern
+- id: a1.m02.v.journalist
+  de: Journalist
+  pos: noun
+  article: der
+  plural: Journalisten
+  vi: nhà báo (nam)
+  ipa: /ʒʊʁnaˈlɪst/
+  example:
+    de: Er ist Journalist.
+    vi: Anh ấy là nhà báo.
+  usage_vi: j đọc [ʒ] theo tiếng Pháp.
+  lesson_refs:
+  - a1.m02.l04
+  tags:
+  - beruf
+  - medien
+  source: nwn-lern
+- id: a1.m02.v.journalistin
+  de: Journalistin
+  pos: noun
+  article: die
+  plural: Journalistinnen
+  vi: nhà báo (nữ)
+  ipa: /ʒʊʁnaˈlɪstɪn/
+  example:
+    de: Sie ist Journalistin in Wien.
+    vi: Cô ấy là nhà báo ở Viên.
+  usage_vi: 'Dạng nữ của der Journalist (thêm -in). „j“ đọc /ʒ/ như tiếng Pháp: Journalistin /ʒʊʁnaˈlɪstɪn/.'
+  lesson_refs:
+  - a1.m02.l04
+  tags:
+  - beruf
+  - medien
+  source: nwn-lern
+- id: a1.m02.v.mechaniker
+  de: Mechaniker
+  pos: noun
+  article: der
+  plural: Mechaniker
+  vi: thợ máy (nam)
+  ipa: /meˈçaːnɪkɐ/
+  example:
+    de: Der Mechaniker arbeitet bei VW.
+    vi: Người thợ máy làm ở hãng VW.
+  usage_vi: ch ở đầu âm tiết sau e đọc [ç].
+  lesson_refs:
+  - a1.m02.l04
+  tags:
+  - beruf
+  - auto
+  source: nwn-lern
+- id: a1.m02.v.mechanikerin
+  de: Mechanikerin
+  pos: noun
+  article: die
+  plural: Mechanikerinnen
+  vi: thợ máy (nữ)
+  ipa: /meˈçaːnɪkəʁɪn/
+  example:
+    de: Sie ist Mechanikerin.
+    vi: Cô ấy là thợ máy.
+  usage_vi: 'Dạng nữ của der Mechaniker (thêm -in). Nghề thợ máy, hay gặp: Automechanikerin (thợ sửa ô tô).'
+  lesson_refs:
+  - a1.m02.l04
+  tags:
+  - beruf
+  - auto
+  source: nwn-lern
+- id: a1.m02.v.auto
+  de: Auto
+  pos: noun
+  article: das
+  plural: Autos
+  vi: ô tô
+  ipa: /ˈaʊ̯to/
+  example:
+    de: Das Auto ist neu.
+    vi: Chiếc ô tô mới.
+  usage_vi: 'au đọc gần “ao”: AO-to.'
+  lesson_refs:
+  - a1.m02.l04
+  tags:
+  - verkehr
+  source: nwn-lern
+- id: a1.m02.v.computer
+  de: Computer
+  pos: noun
+  article: der
+  plural: Computer
+  vi: máy tính
+  ipa: /kɔmˈpjuːtɐ/
+  example:
+    de: Der Computer ist alt.
+    vi: Cái máy tính cũ rồi.
+  usage_vi: Đọc gần như tiếng Anh. Số nhiều giống số ít.
+  lesson_refs:
+  - a1.m02.l04
+  tags:
+  - computer
+  source: nwn-lern
+- id: a1.m02.v.geld
+  de: Geld
+  pos: noun
+  article: das
+  no_plural: true
+  vi: tiền
+  ipa: /ɡɛlt/
+  example:
+    de: Das Geld ist auf dem Tisch.
+    vi: Tiền ở trên bàn.
+  usage_vi: Ở A1 dùng ở số ít. (die Gelder = các khoản tiền/quỹ – ít dùng.)
+  lesson_refs:
+  - a1.m02.l04
+  tags:
+  - geld
+  - sg-only
+  source: nwn-lern
+- id: a1.m02.v.glas
+  de: Glas
+  pos: noun
+  article: das
+  plural: Gläser
+  vi: cái ly (thủy tinh); thủy tinh
+  ipa: /ɡlaːs/
+  example:
+    de: Ein Glas Wasser, bitte.
+    vi: Cho tôi một ly nước.
+  usage_vi: 'Từ nhiều nghĩa: cái ly / chất liệu thủy tinh. Số nhiều có biến âm: die Gläser.'
+  lesson_refs:
+  - a1.m02.l04
+  tags:
+  - essen
+  - mehrdeutig
+  source: nwn-lern
+- id: a1.m02.v.medikament
+  de: Medikament
+  pos: noun
+  article: das
+  plural: Medikamente
+  vi: thuốc (chữa bệnh)
+  ipa: /medikaˈmɛnt/
+  example:
+    de: Das Medikament ist für Herrn Klein.
+    vi: Thuốc này dành cho ông Klein.
+  usage_vi: 'Trọng âm ở cuối: me-di-ka-MENT.'
+  lesson_refs:
+  - a1.m02.l04
+  tags:
+  - gesundheit
+  source: nwn-lern
+- id: a1.m02.v.rechnung
+  de: Rechnung
+  pos: noun
+  article: die
+  plural: Rechnungen
+  vi: hóa đơn
+  ipa: /ˈʁɛçnʊŋ/
+  example:
+    de: Die Rechnung, bitte!
+    vi: Cho tôi xin hóa đơn!
+  usage_vi: Danh từ đuôi -ung luôn là giống cái (die).
+  lesson_refs:
+  - a1.m02.l04
+  tags:
+  - geld
+  - restaurant
+  source: nwn-lern
+- id: a1.m02.v.schluessel
+  de: Schlüssel
+  pos: noun
+  article: der
+  plural: Schlüssel
+  vi: chìa khóa
+  ipa: /ˈʃlʏsl̩/
+  example:
+    de: Wo ist der Schlüssel?
+    vi: Chìa khóa ở đâu?
+  usage_vi: 'Số nhiều giống số ít: die Schlüssel.'
+  lesson_refs:
+  - a1.m02.l04
+  tags:
+  - wohnen
+  source: nwn-lern
+- id: a1.m02.v.stift
+  de: Stift
+  pos: noun
+  article: der
+  plural: Stifte
+  vi: cây bút
+  ipa: /ʃtɪft/
+  example:
+    de: Hast du einen Stift?
+    vi: Bạn có cây bút không?
+  usage_vi: 'Bút nói chung. Bút bi: der Kuli; bút chì: der Bleistift.'
+  lesson_refs:
+  - a1.m02.l04
+  tags:
+  - schule
+  - buero
+  source: nwn-lern
+- id: a1.m02.v.tablette
+  de: Tablette
+  pos: noun
+  article: die
+  plural: Tabletten
+  vi: viên thuốc
+  ipa: /taˈblɛtə/
+  example:
+    de: Die Tablette ist klein.
+    vi: Viên thuốc nhỏ.
+  usage_vi: 'Viên thuốc: „eine Tablette nehmen“ = uống một viên. Số nhiều: Tabletten. Máy tính bảng thường gọi là das Tablet.'
+  lesson_refs:
+  - a1.m02.l04
+  tags:
+  - gesundheit
+  source: nwn-lern
+- id: a1.m02.v.strasse
+  de: Straße
+  pos: noun
+  article: die
+  plural: Straßen
+  vi: đường phố
+  ipa: /ˈʃtʁaːsə/
+  example:
+    de: Die Straße ist lang.
+    vi: Con đường dài.
+  usage_vi: 'ß sau nguyên âm dài a. Trong địa chỉ hay viết tắt: Str.'
+  lesson_refs:
+  - a1.m02.l04
+  tags:
+  - ort
+  - adresse
+  source: nwn-lern
+- id: a1.m02.v.artikel
+  de: Artikel
+  pos: noun
+  article: der
+  plural: Artikel
+  vi: mạo từ; bài báo
+  ipa: /aʁˈtɪkl̩/
+  example:
+    de: „Der“ ist ein Artikel.
+    vi: “Der” là một mạo từ.
+  usage_vi: 'Từ nhiều nghĩa: mạo từ (ngữ pháp) / bài báo.'
+  lesson_refs:
+  - a1.m02.l04
+  tags:
+  - grammatik
+  - mehrdeutig
+  source: nwn-lern
+- id: a1.m02.v.geben
+  de: geben
+  pos: verb
+  vi: cho, đưa; (es gibt) có
+  forms:
+    text: du gibst, er gibt
+    er: gibt
+  ipa: /ˈɡeːbn̩/
+  example:
+    de: 'Es gibt drei Artikel: der, die, das.'
+    vi: 'Có ba mạo từ: der, die, das.'
+  usage_vi: '“es gibt” = có (tồn tại) – cụm rất hay dùng. Đổi nguyên âm e → i: du gibst, er gibt.'
+  lesson_refs:
+  - a1.m02.l04
+  tags:
+  - verb
+  - unregelmaessig
+  source: nwn-lern
+- id: a1.m02.v.markieren
+  de: markieren
+  pos: verb
+  vi: đánh dấu
+  forms:
+    text: du markierst, er markiert
+    er: markiert
+  ipa: /maʁˈkiːʁən/
+  example:
+    de: Markieren Sie die Artikel.
+    vi: Hãy đánh dấu các mạo từ.
+  usage_vi: Hay gặp trong đề bài.
+  lesson_refs:
+  - a1.m02.l04
+  tags:
+  - arbeitsanweisung
+  - verb
+  source: nwn-lern
+- id: a1.m02.v.kurs
+  de: Kurs
+  pos: noun
+  article: der
+  plural: Kurse
+  vi: khóa học, lớp học
+  ipa: /kʊʁs/
+  example:
+    de: Der Deutschkurs ist am Montag.
+    vi: Lớp tiếng Đức vào thứ Hai.
+  usage_vi: der Deutschkurs = lớp tiếng Đức.
+  lesson_refs:
+  - a1.m02.l04
+  tags:
+  - lernen
+  source: nwn-lern
+- id: a1.m02.v.seite
+  de: Seite
+  pos: noun
+  article: die
+  plural: Seiten
+  vi: trang (sách); phía, bên
+  ipa: /ˈzaɪ̯tə/
+  example:
+    de: Lesen Sie Seite zwanzig.
+    vi: Hãy đọc trang 20.
+  usage_vi: 'Từ nhiều nghĩa: trang / phía.'
+  lesson_refs:
+  - a1.m02.l04
+  tags:
+  - lernen
+  - mehrdeutig
+  source: nwn-lern
+- id: a1.m02.v.suchen
+  de: suchen
+  pos: verb
+  vi: tìm
+  forms:
+    text: du suchst, er sucht
+    er: sucht
+  ipa: /ˈzuːxn̩/
+  example:
+    de: Ich suche den Schlüssel.
+    vi: Tôi đang tìm chìa khóa.
+  usage_vi: 'Đi với Akkusativ: „Ich suche den Schlüssel.“ Khác với finden (tìm thấy): suchen là đang tìm, finden là kết quả.'
+  lesson_refs:
+  - a1.m02.l04
+  tags:
+  - verb
+  source: nwn-lern
+- id: a1.m02.v.vergleichen
+  de: vergleichen
+  pos: verb
+  vi: so sánh
+  forms:
+    text: du vergleichst, er vergleicht
+    er: vergleicht
+  ipa: /fɛɐ̯ˈɡlaɪ̯çn̩/
+  example:
+    de: Vergleichen Sie mit Ihrer Sprache.
+    vi: Hãy so sánh với ngôn ngữ của bạn.
+  usage_vi: Hay gặp trong đề bài.
+  lesson_refs:
+  - a1.m02.l04
+  tags:
+  - arbeitsanweisung
+  - verb
+  source: nwn-lern
+- id: a1.m02.v.beispiel
+  de: Beispiel
+  pos: noun
+  article: das
+  plural: Beispiele
+  vi: ví dụ
+  ipa: /ˈbaɪ̯ʃpiːl/
+  example:
+    de: 'zum Beispiel: der Tisch'
+    vi: 'ví dụ: der Tisch'
+  usage_vi: zum Beispiel (viết tắt z. B.) = ví dụ.
+  lesson_refs:
+  - a1.m02.l04
+  tags:
+  - lernen
+  source: nwn-lern
+- id: a1.m02.v.farbe
+  de: Farbe
+  pos: noun
+  article: die
+  plural: Farben
+  vi: màu sắc
+  ipa: /ˈfaʁbə/
+  example:
+    de: Welche Farbe hat „der“?
+    vi: “der” có màu gì?
+  usage_vi: 'Hỏi màu: „Welche Farbe hat …?“ Số nhiều: Farben. „Lieblingsfarbe“ = màu yêu thích.'
+  lesson_refs:
+  - a1.m02.l04
+  tags:
+  - farbe
+  source: nwn-lern
+- id: a1.m02.v.woerterbuch
+  de: Wörterbuch
+  pos: noun
+  article: das
+  plural: Wörterbücher
+  vi: từ điển
+  ipa: /ˈvœʁtɐˌbuːx/
+  example:
+    de: Im Wörterbuch steht der Artikel.
+    vi: Trong từ điển có ghi mạo từ.
+  usage_vi: die Wörter (các từ) + das Buch → das Wörterbuch.
+  lesson_refs:
+  - a1.m02.l04
+  tags:
+  - lernen
+  source: nwn-lern
+- id: a1.m02.v.blau
+  de: blau
+  pos: adjective
+  vi: màu xanh dương
+  ipa: /blaʊ̯/
+  example:
+    de: Der Computer ist blau.
+    vi: Máy tính màu xanh dương.
+  usage_vi: 'Mẹo học mạo từ: der = xanh dương.'
+  lesson_refs:
+  - a1.m02.l04
+  tags:
+  - farbe
+  source: nwn-lern
+- id: a1.m02.v.gruen
+  de: grün
+  pos: adjective
+  vi: màu xanh lá
+  ipa: /ɡʁyːn/
+  example:
+    de: Das Auto ist grün.
+    vi: Ô tô màu xanh lá.
+  usage_vi: 'Mẹo học mạo từ: das = xanh lá.'
+  lesson_refs:
+  - a1.m02.l04
+  tags:
+  - farbe
+  source: nwn-lern
+- id: a1.m02.v.rot
+  de: rot
+  pos: adjective
+  vi: màu đỏ
+  ipa: /ʁoːt/
+  example:
+    de: Die Tablette ist rot.
+    vi: Viên thuốc màu đỏ.
+  usage_vi: 'Mẹo học mạo từ: die = đỏ.'
+  lesson_refs:
+  - a1.m02.l04
+  tags:
+  - farbe
+  source: nwn-lern
+- id: a1.m02.v.merken
+  de: merken
+  pos: verb
+  vi: ghi nhớ
+  forms:
+    text: du merkst, er merkt
+    er: merkt
+  ipa: /ˈmɛʁkn̩/
+  example:
+    de: Ich merke mir den Artikel.
+    vi: Tôi ghi nhớ mạo từ.
+  usage_vi: 'Thường dùng sich merken (động từ phản thân – học sau): Ich merke mir … = Tôi ghi nhớ …'
+  lesson_refs:
+  - a1.m02.l04
+  tags:
+  - lernen
+  - verb
+  source: nwn-lern
+- id: a1.m02.v.an-sehen
+  de: an|sehen
+  pos: verb
+  vi: nhìn, xem
+  forms:
+    text: du siehst an, er sieht an
+    er: sieht an
+    separable: true
+  ipa: /ˈanˌzeːən/
+  example:
+    de: Sehen Sie das Bild an.
+    vi: Hãy xem bức tranh.
+  usage_vi: Động từ tách (Kapitel 6) và đổi nguyên âm e → ie. Ở đây chỉ cần hiểu đề bài.
+  lesson_refs:
+  - a1.m02.l04
+  tags:
+  - arbeitsanweisung
+  - verb
+  - trennbar
+  source: nwn-lern
+- id: a1.m02.v.stehen
+  de: stehen
+  pos: verb
+  vi: đứng; được ghi (ở đâu)
+  forms:
+    text: du stehst, er steht
+    er: steht
+  ipa: /ˈʃteːən/
+  example:
+    de: Wo steht der Artikel?
+    vi: Mạo từ được ghi ở đâu?
+  usage_vi: 'Từ nhiều nghĩa: đứng / được ghi, nằm (trong văn bản).'
+  lesson_refs:
+  - a1.m02.l04
+  tags:
+  - verb
+  - mehrdeutig
+  source: nwn-lern
+- id: a1.m02.v.wort
+  de: Wort
+  pos: noun
+  article: das
+  plural: Wörter
+  vi: từ
+  ipa: /vɔʁt/
+  example:
+    de: Das Wort ist neu.
+    vi: Từ này mới.
+  usage_vi: 'Số nhiều có biến âm: die Wörter. (Thuộc Lernwortschatz Kapitel 1, được dạy ở đây.)'
+  lesson_refs:
+  - a1.m02.l04
+  tags:
+  - lernen
+  source: nwn-lern
+- id: a1.m02.v.haben
+  de: haben
+  pos: verb
+  vi: có
+  forms:
+    text: ich habe, du hast, er hat, wir haben, ihr habt, sie/Sie haben
+    er: hat
+  ipa: /ˈhaːbn̩/
+  example:
+    de: Ich habe zwei Kinder.
+    vi: Tôi có hai đứa con.
+  usage_vi: 'Bất quy tắc ở du và er: du hast, er hat (mất b).'
+  lesson_refs:
+  - a1.m02.l05
+  tags:
+  - verb
+  - unregelmaessig
+  source: nwn-lern
+- id: a1.m02.v.alt
+  de: alt
+  pos: adjective
+  vi: già; cũ; (… tuổi)
+  ipa: /alt/
+  example:
+    de: Ich bin 22 Jahre alt.
+    vi: Tôi 22 tuổi.
+  usage_vi: 'Nói tuổi dùng SEIN (không dùng haben): Ich bin 22 (Jahre alt). Hỏi: Wie alt bist du?'
+  lesson_refs:
+  - a1.m02.l05
+  tags:
+  - person
+  - zahl
+  - mehrdeutig
+  source: nwn-lern
+- id: a1.m02.v.jahr
+  de: Jahr
+  pos: noun
+  article: das
+  plural: Jahre
+  vi: năm
+  ipa: /jaːɐ̯/
+  example:
+    de: Er ist 30 Jahre alt.
+    vi: Anh ấy 30 tuổi.
+  usage_vi: 'Số nhiều: Jahre (không đổi sau số đếm: drei Jahre). Nói tuổi: „Ich bin 30 Jahre alt.“'
+  lesson_refs:
+  - a1.m02.l05
+  tags:
+  - zeit
+  source: nwn-lern
+- id: a1.m02.v.bei
+  de: bei
+  pos: preposition
+  vi: ở (nơi làm việc); ở nhà (ai)
+  ipa: /baɪ̯/
+  example:
+    de: Ich arbeite bei Siemens.
+    vi: Tôi làm việc ở Siemens.
+  usage_vi: 'bei + tên công ty/cơ quan. Làm nghề gì: als + nghề (Ich arbeite als Koch).'
+  lesson_refs:
+  - a1.m02.l05
+  tags:
+  - arbeit
+  - praeposition
+  source: nwn-lern
+- id: a1.m02.v.frei-haben
+  de: frei|haben
+  pos: verb
+  vi: được nghỉ (không phải làm)
+  forms:
+    text: du hast frei, er hat frei
+    er: hat frei
+    separable: true
+  ipa: /ˈfʁaɪ̯ˌhaːbn̩/
+  example:
+    de: Am Montag habe ich frei.
+    vi: Thứ Hai tôi được nghỉ.
+  usage_vi: 'Động từ tách: frei đứng cuối câu.'
+  lesson_refs:
+  - a1.m02.l05
+  tags:
+  - arbeit
+  - verb
+  - trennbar
+  source: nwn-lern
+- id: a1.m02.v.gross
+  de: groß
+  pos: adjective
+  vi: lớn, to; cao (người)
+  ipa: /ɡʁoːs/
+  example:
+    de: Das Krankenhaus ist groß.
+    vi: Bệnh viện rất lớn.
+  usage_vi: 'Trái nghĩa: klein.'
+  lesson_refs:
+  - a1.m02.l05
+  tags:
+  - beschreibung
+  source: nwn-lern
+- id: a1.m02.v.hier
+  de: hier
+  pos: adverb
+  vi: ở đây
+  ipa: /hiːɐ̯/
+  example:
+    de: Ich wohne hier.
+    vi: Tôi sống ở đây.
+  usage_vi: 'Trạng từ chỉ nơi đang ở (trả lời Wo?): „Ich wohne hier.“ Đi đến đây dùng „hierher“. Trái nghĩa: dort.'
+  lesson_refs:
+  - a1.m02.l05
+  tags:
+  - ort
+  source: nwn-lern
+- id: a1.m02.v.kilometer
+  de: Kilometer
+  pos: noun
+  article: der
+  plural: Kilometer
+  vi: ki-lô-mét
+  ipa: /kiloˈmeːtɐ/
+  example:
+    de: Ich fahre 50 Kilometer pro Tag.
+    vi: Mỗi ngày tôi lái xe 50 km.
+  usage_vi: 'Viết tắt: km.'
+  lesson_refs:
+  - a1.m02.l05
+  tags:
+  - zahl
+  - mass
+  source: nwn-lern
+- id: a1.m02.v.krankenhaus
+  de: Krankenhaus
+  pos: noun
+  article: das
+  plural: Krankenhäuser
+  vi: bệnh viện
+  ipa: /ˈkʁaŋkn̩ˌhaʊ̯s/
+  example:
+    de: Sie arbeitet im Krankenhaus.
+    vi: Cô ấy làm việc ở bệnh viện.
+  usage_vi: 'krank (ốm) + das Haus (nhà). Số nhiều: die Krankenhäuser.'
+  lesson_refs:
+  - a1.m02.l05
+  tags:
+  - ort
+  - gesundheit
+  source: nwn-lern
+- id: a1.m02.v.meistens
+  de: meistens
+  pos: adverb
+  vi: thường thì, phần lớn
+  ipa: /ˈmaɪ̯stn̩s/
+  example:
+    de: Ich arbeite meistens am Abend.
+    vi: Tôi thường làm việc vào buổi tối.
+  usage_vi: 'Tần suất: immer > meistens > oft.'
+  lesson_refs:
+  - a1.m02.l05
+  tags:
+  - haeufigkeit
+  source: nwn-lern
+- id: a1.m02.v.nachmittag
+  de: Nachmittag
+  pos: noun
+  article: der
+  plural: Nachmittage
+  vi: buổi chiều
+  ipa: /ˈnaːxmɪˌtaːk/
+  example:
+    de: Am Nachmittag habe ich frei.
+    vi: Buổi chiều tôi được nghỉ.
+  usage_vi: am Nachmittag = vào buổi chiều.
+  lesson_refs:
+  - a1.m02.l05
+  tags:
+  - tageszeit
+  source: nwn-lern
+- id: a1.m02.v.nachts
+  de: nachts
+  pos: adverb
+  vi: vào ban đêm
+  ipa: /naxts/
+  example:
+    de: Er arbeitet nachts.
+    vi: Anh ấy làm ca đêm.
+  usage_vi: Trạng từ (viết thường) từ die Nacht.
+  lesson_refs:
+  - a1.m02.l05
+  tags:
+  - tageszeit
+  source: nwn-lern
+- id: a1.m02.v.platz
+  de: Platz
+  pos: noun
+  article: der
+  no_plural: true
+  vi: chỗ (trống)
+  ipa: /plats/
+  example:
+    de: Das Krankenhaus hat Platz für 800 Patienten.
+    vi: Bệnh viện có chỗ cho 800 bệnh nhân.
+  usage_vi: Nghĩa “chỗ” dùng số ít. der Platz còn nghĩa là quảng trường (số nhiều die Plätze) – học sau.
+  lesson_refs:
+  - a1.m02.l05
+  tags:
+  - ort
+  - sg-only
+  - mehrdeutig
+  source: nwn-lern
+- id: a1.m02.v.pro
+  de: pro
+  pos: preposition
+  vi: mỗi, trên (mỗi)
+  ipa: /pʁoː/
+  example:
+    de: Ich arbeite 40 Stunden pro Woche.
+    vi: Tôi làm 40 giờ mỗi tuần.
+  usage_vi: pro Tag, pro Woche, pro Jahr.
+  lesson_refs:
+  - a1.m02.l05
+  tags:
+  - zahl
+  source: nwn-lern
+- id: a1.m02.v.stunde
+  de: Stunde
+  pos: noun
+  article: die
+  plural: Stunden
+  vi: giờ (khoảng thời gian); tiết học
+  ipa: /ˈʃtʊndə/
+  example:
+    de: Der Kurs hat zwei Stunden.
+    vi: Lớp học kéo dài hai tiếng.
+  usage_vi: 'Phân biệt: die Stunde (một tiếng đồng hồ, độ dài) – die Uhr (giờ trên đồng hồ, Kapitel 5).'
+  lesson_refs:
+  - a1.m02.l05
+  tags:
+  - zeit
+  - mehrdeutig
+  source: nwn-lern
+- id: a1.m02.v.universitaet
+  de: Universität
+  pos: noun
+  article: die
+  plural: Universitäten
+  vi: trường đại học
+  ipa: /univɛʁziˈtɛːt/
+  example:
+    de: Sie studiert an der Universität Wien.
+    vi: Cô ấy học ở Đại học Viên.
+  usage_vi: 'Văn nói: die Uni. Danh từ đuôi -tät luôn là giống cái.'
+  lesson_refs:
+  - a1.m02.l05
+  tags:
+  - studium
+  source: nwn-lern
+- id: a1.m02.v.viel
+  de: viel
+  pos: adjective
+  vi: nhiều
+  ipa: /fiːl/
+  example:
+    de: Ich arbeite viel.
+    vi: Tôi làm việc nhiều.
+  usage_vi: viel + không đếm được/động từ (viel Geld, viel arbeiten); viele + số nhiều (viele Patienten).
+  lesson_refs:
+  - a1.m02.l05
+  tags:
+  - menge
+  source: nwn-lern
+- id: a1.m02.v.von-bis
+  de: von … bis
+  pos: phrase
+  vi: từ … đến …
+  ipa: /fɔn … bɪs/
+  example:
+    de: Ich arbeite von Montag bis Freitag.
+    vi: Tôi làm việc từ thứ Hai đến thứ Sáu.
+  usage_vi: 'Cụm chỉ khoảng thời gian: „von Montag bis Freitag“, „von 9 bis 17 Uhr“. Không thêm mạo từ trước tên thứ hay giờ.'
+  lesson_refs:
+  - a1.m02.l05
+  tags:
+  - zeit
+  source: nwn-lern
+- id: a1.m02.v.warten
+  de: warten
+  pos: verb
+  vi: chờ, đợi
+  forms:
+    text: du wartest, er wartet
+    er: wartet
+  ipa: /ˈvaʁtn̩/
+  example:
+    de: Die Patienten warten.
+    vi: Bệnh nhân đang chờ.
+  usage_vi: 'Gốc tận cùng bằng t: du wartest, er wartet.'
+  lesson_refs:
+  - a1.m02.l05
+  tags:
+  - verb
+  source: nwn-lern
+- id: a1.m02.v.woche
+  de: Woche
+  pos: noun
+  article: die
+  plural: Wochen
+  vi: tuần
+  ipa: /ˈvɔxə/
+  example:
+    de: Ich habe drei Kurse pro Woche.
+    vi: Mỗi tuần tôi có ba khóa học.
+  usage_vi: 'Số nhiều: Wochen. „pro Woche“ = mỗi tuần; „am Wochenende“ = vào cuối tuần.'
+  lesson_refs:
+  - a1.m02.l05
+  tags:
+  - zeit
+  source: nwn-lern
+- id: a1.m02.v.zimmer
+  de: Zimmer
+  pos: noun
+  article: das
+  plural: Zimmer
+  vi: phòng
+  ipa: /ˈtsɪmɐ/
+  example:
+    de: Das Zimmer ist groß.
+    vi: Căn phòng rộng.
+  usage_vi: Số nhiều giống số ít.
+  lesson_refs:
+  - a1.m02.l05
+  tags:
+  - wohnen
+  source: nwn-lern
+- id: a1.m02.v.ab
+  de: ab
+  pos: preposition
+  vi: từ (… trở đi)
+  ipa: /ap/
+  example:
+    de: Zahlen ab 20
+    vi: Các số từ 20 trở lên
+  usage_vi: 'ab = bắt đầu từ: ab Montag (từ thứ Hai).'
+  lesson_refs:
+  - a1.m02.l05
+  tags:
+  - zeit
+  - zahl
+  source: nwn-lern
+- id: a1.m02.v.alle
+  de: alle
+  pos: pronoun
+  vi: tất cả
+  ipa: /ˈalə/
+  example:
+    de: Alle Studenten lernen Deutsch.
+    vi: Tất cả sinh viên đều học tiếng Đức.
+  usage_vi: 'Đại từ số nhiều: động từ chia số nhiều (Alle lernen Deutsch). Đừng nhầm với „alles“ (mọi thứ, số ít).'
+  lesson_refs:
+  - a1.m02.l05
+  tags:
+  - menge
+  source: nwn-lern
+- id: a1.m02.v.information
+  de: Information
+  pos: noun
+  article: die
+  plural: Informationen
+  vi: thông tin
+  ipa: /ɪnfɔʁmaˈtsi̯oːn/
+  example:
+    de: Notieren Sie die Informationen.
+    vi: Hãy ghi lại các thông tin.
+  usage_vi: Danh từ đuôi -tion luôn là giống cái; -tion đọc [tsi̯oːn].
+  lesson_refs:
+  - a1.m02.l05
+  tags:
+  - kommunikation
+  source: nwn-lern
+- id: a1.m02.v.immer
+  de: immer
+  pos: adverb
+  vi: luôn luôn
+  ipa: /ˈɪmɐ/
+  example:
+    de: Ich trinke immer Kaffee.
+    vi: Tôi lúc nào cũng uống cà phê.
+  usage_vi: Tần suất cao nhất.
+  lesson_refs:
+  - a1.m02.l05
+  tags:
+  - haeufigkeit
+  source: nwn-lern
+- id: a1.m02.v.tauschen
+  de: tauschen
+  pos: verb
+  vi: trao đổi, đổi
+  forms:
+    text: du tauschst, er tauscht
+    er: tauscht
+  ipa: /ˈtaʊ̯ʃn̩/
+  example:
+    de: Tauschen Sie die Lernkarten.
+    vi: Hãy đổi thẻ học cho nhau.
+  usage_vi: 'Đổi cho nhau: „Wir tauschen Handynummern.“ Đi với Akkusativ. Khác với wechseln (đổi tiền, thay đổi).'
+  lesson_refs:
+  - a1.m02.l05
+  tags:
+  - verb
+  source: nwn-lern
+- id: a1.m02.v.studieren
+  de: studieren
+  pos: verb
+  vi: học đại học
+  forms:
+    text: du studierst, er studiert
+    er: studiert
+  ipa: /ʃtuˈdiːʁən/
+  example:
+    de: Ich studiere Informatik.
+    vi: Tôi học ngành tin học.
+  usage_vi: studieren = học ở đại học; lernen = học (nói chung).
+  lesson_refs:
+  - a1.m02.l05
+  tags:
+  - studium
+  - verb
+  source: nwn-lern
+- id: a1.m02.v.berichten
+  de: berichten
+  pos: verb
+  vi: kể lại, thuật lại
+  forms:
+    text: du berichtest, er berichtet
+    er: berichtet
+  ipa: /bəˈʁɪçtn̩/
+  example:
+    de: Berichten Sie im Kurs.
+    vi: Hãy kể lại trong lớp.
+  usage_vi: Hay gặp trong đề bài.
+  lesson_refs:
+  - a1.m02.l05
+  tags:
+  - arbeitsanweisung
+  - verb
+  source: nwn-lern
+- id: a1.m02.v.patient
+  de: Patient
+  pos: noun
+  article: der
+  plural: Patienten
+  vi: bệnh nhân (nam)
+  ipa: /paˈtsi̯ɛnt/
+  example:
+    de: Der Patient wartet.
+    vi: Bệnh nhân đang chờ.
+  usage_vi: ti đọc [tsi̯].
+  lesson_refs:
+  - a1.m02.l05
+  tags:
+  - gesundheit
+  source: nwn-lern
+- id: a1.m02.v.patientin
+  de: Patientin
+  pos: noun
+  article: die
+  plural: Patientinnen
+  vi: bệnh nhân (nữ)
+  ipa: /paˈtsi̯ɛntɪn/
+  example:
+    de: Die Patientin ist alt.
+    vi: Bà bệnh nhân lớn tuổi.
+  usage_vi: Dạng nữ của der Patient (thêm -in, số nhiều -innen). Sau sein không dùng mạo từ.
+  lesson_refs:
+  - a1.m02.l05
+  tags:
+  - gesundheit
+  source: nwn-lern
+- id: a1.m02.v.aber
+  de: aber
+  pos: conjunction
+  vi: nhưng
+  ipa: /ˈaːbɐ/
+  example:
+    de: Ich arbeite viel, aber ich habe am Montag frei.
+    vi: Tôi làm việc nhiều, nhưng thứ Hai tôi được nghỉ.
+  usage_vi: Cách nối câu với aber được học kỹ ở Kapitel 7.
+  lesson_refs:
+  - a1.m02.l05
+  tags:
+  - konnektor
+  source: nwn-lern
+- id: a1.m02.v.noch
+  de: noch
+  pos: adverb
+  vi: còn, nữa; vẫn
+  ipa: /nɔx/
+  example:
+    de: Kennen Sie noch andere Berufe?
+    vi: Bạn còn biết nghề nào khác không?
+  usage_vi: Đã gặp trong “noch einmal”.
+  lesson_refs:
+  - a1.m02.l05
+  source: nwn-lern
+- id: a1.m02.v.dreissig
+  de: dreißig
+  pos: numeral
+  vi: '30'
+  ipa: /ˈdʁaɪ̯sɪç/
+  example:
+    de: Sie ist dreißig.
+    vi: Cô ấy 30 tuổi.
+  usage_vi: 'Ngoại lệ chính tả: dreißig viết với ß (không phải -zig).'
+  lesson_refs:
+  - a1.m02.l05
+  tags:
+  - zahl
+  - rechtschreibung
+  source: nwn-lern
+- id: a1.m02.v.vierzig
+  de: vierzig
+  pos: numeral
+  vi: '40'
+  ipa: /ˈfɪʁtsɪç/
+  example:
+    de: Ich arbeite vierzig Stunden pro Woche.
+    vi: Tôi làm 40 tiếng mỗi tuần.
+  usage_vi: ie đọc ngắn như trong vierzehn.
+  lesson_refs:
+  - a1.m02.l05
+  tags:
+  - zahl
+  source: nwn-lern
+- id: a1.m02.v.fuenfzig
+  de: fünfzig
+  pos: numeral
+  vi: '50'
+  ipa: /ˈfʏnftsɪç/
+  example:
+    de: Er ist fünfzig Jahre alt.
+    vi: Ông ấy 50 tuổi.
+  usage_vi: 'Số chục tạo bằng số + -zig: fünf + zig = fünfzig. Riêng 30 là dreißig (đặc biệt). Phát âm: /ˈfʏnftsɪç/.'
+  lesson_refs:
+  - a1.m02.l05
+  tags:
+  - zahl
+  source: nwn-lern
+- id: a1.m02.v.sechzig
+  de: sechzig
+  pos: numeral
+  vi: '60'
+  ipa: /ˈzɛçtsɪç/
+  example:
+    de: Sechzig Minuten sind eine Stunde.
+    vi: 60 phút là một giờ.
+  usage_vi: Mất s như sechzehn.
+  lesson_refs:
+  - a1.m02.l05
+  tags:
+  - zahl
+  - rechtschreibung
+  source: nwn-lern
+- id: a1.m02.v.siebzig
+  de: siebzig
+  pos: numeral
+  vi: '70'
+  ipa: /ˈziːptsɪç/
+  example:
+    de: Mein Opa ist siebzig.
+    vi: Ông tôi 70 tuổi.
+  usage_vi: Mất en như siebzehn.
+  lesson_refs:
+  - a1.m02.l05
+  tags:
+  - zahl
+  - rechtschreibung
+  source: nwn-lern
+- id: a1.m02.v.achtzig
+  de: achtzig
+  pos: numeral
+  vi: '80'
+  ipa: /ˈaxtsɪç/
+  example:
+    de: Das Museum hat achtzig Zimmer.
+    vi: Bảo tàng có 80 phòng.
+  usage_vi: 'Số chục: acht + zig = achtzig. Đọc /ˈaxtsɪç/. Cũng có: sechzig, siebzig (bỏ -s và -en ở gốc).'
+  lesson_refs:
+  - a1.m02.l05
+  tags:
+  - zahl
+  source: nwn-lern
+- id: a1.m02.v.neunzig
+  de: neunzig
+  pos: numeral
+  vi: '90'
+  ipa: /ˈnɔʏ̯ntsɪç/
+  example:
+    de: Neunzig plus zehn ist hundert.
+    vi: 90 cộng 10 là 100.
+  usage_vi: 'Số chục: neun + zig = neunzig. Đọc /ˈnɔɪntsɪç/. Đừng nhầm neunzehn (19) với neunzig (90).'
+  lesson_refs:
+  - a1.m02.l05
+  tags:
+  - zahl
+  source: nwn-lern
+- id: a1.m02.v.hundert
+  de: hundert
+  pos: numeral
+  vi: '100'
+  ipa: /ˈhʊndɐt/
+  example:
+    de: Das Krankenhaus hat hundert Zimmer.
+    vi: Bệnh viện có 100 phòng.
+  usage_vi: Cũng nói einhundert (khi cần rõ ràng, ví dụ khi đọc số tiền).
+  lesson_refs:
+  - a1.m02.l05
+  tags:
+  - zahl
+  source: nwn-lern
+- id: a1.m02.v.tausend
+  de: tausend
+  pos: numeral
+  vi: '1000'
+  ipa: /ˈtaʊ̯zn̩t/
+  example:
+    de: Das Auto fährt tausend Kilometer.
+    vi: Chiếc xe chạy 1000 km.
+  usage_vi: Cũng nói eintausend.
+  lesson_refs:
+  - a1.m02.l05
+  tags:
+  - zahl
+  source: nwn-lern
+- id: a1.m02.v.million
+  de: Million
+  pos: noun
+  article: die
+  plural: Millionen
+  vi: một triệu
+  ipa: /mɪˈli̯oːn/
+  example:
+    de: Hamburg hat fast zwei Millionen Einwohner.
+    vi: Hamburg có gần hai triệu dân.
+  usage_vi: 'Là danh từ (viết hoa, có mạo từ): eine Million, zwei Millionen.'
+  lesson_refs:
+  - a1.m02.l05
+  tags:
+  - zahl
+  source: nwn-lern
+- id: a1.m02.v.milliarde
+  de: Milliarde
+  pos: noun
+  article: die
+  plural: Milliarden
+  vi: một tỷ
+  ipa: /mɪˈli̯aʁdə/
+  example:
+    de: eine Milliarde Euro
+    vi: một tỷ euro
+  usage_vi: 'Cẩn thận: tiếng Anh “billion” = tiếng Đức Milliarde; tiếng Đức Billion = nghìn tỷ.'
+  lesson_refs:
+  - a1.m02.l05
+  tags:
+  - zahl
+  - falscher-freund
+  source: nwn-lern
+- id: a1.m02.v.was-sind-sie-von-beruf
+  de: Was sind Sie von Beruf?
+  pos: phrase
+  vi: Ông/Bà làm nghề gì?
+  ipa: /vas zɪnt ziː fɔn bəˈʁuːf/
+  example:
+    de: Was sind Sie von Beruf? – Ich bin Krankenpfleger.
+    vi: Ông làm nghề gì? – Tôi là điều dưỡng.
+  usage_vi: 'Thân mật: Was bist du von Beruf? / Was machst du beruflich?'
+  lesson_refs:
+  - a1.m02.l05
+  tags:
+  - beruf
+  source: nwn
+- id: a1.m02.v.adresse
+  de: Adresse
+  pos: noun
+  article: die
+  plural: Adressen
+  vi: địa chỉ
+  ipa: /aˈdʁɛsə/
+  example:
+    de: Wie ist Ihre Adresse?
+    vi: Địa chỉ của ông/bà là gì?
+  usage_vi: 'Chính tả: một d, hai s (khác tiếng Anh “address”).'
+  lesson_refs:
+  - a1.m02.l06
+  tags:
+  - adresse
+  - formular
+  source: nwn-lern
+- id: a1.m02.v.club
+  de: Club
+  pos: noun
+  article: der
+  plural: Clubs
+  vi: câu lạc bộ
+  ipa: /klʊp/
+  example:
+    de: Ich bin neu im Club.
+    vi: Tôi mới vào câu lạc bộ.
+  usage_vi: Cũng viết Klub. b cuối đọc [p].
+  lesson_refs:
+  - a1.m02.l06
+  tags:
+  - freizeit
+  source: nwn-lern
+- id: a1.m02.v.familienname
+  de: Familienname
+  pos: noun
+  article: der
+  plural: Familiennamen
+  vi: họ
+  ipa: /faˈmiːli̯ənˌnaːmə/
+  example:
+    de: 'Familienname: Nguyen'
+    vi: 'Họ: Nguyễn'
+  usage_vi: Đồng nghĩa với der Nachname; hay dùng trong biểu mẫu.
+  lesson_refs:
+  - a1.m02.l06
+  tags:
+  - formular
+  - person
+  source: nwn-lern
+- id: a1.m02.v.geburtsdatum
+  de: Geburtsdatum
+  pos: noun
+  article: das
+  plural: Geburtsdaten
+  vi: ngày sinh
+  ipa: /ɡəˈbuːɐ̯tsˌdaːtʊm/
+  example:
+    de: 'Geburtsdatum: 12.05.2001'
+    vi: 'Ngày sinh: 12/05/2001'
+  usage_vi: Người Đức viết ngày.tháng.năm, giống Việt Nam.
+  lesson_refs:
+  - a1.m02.l06
+  tags:
+  - formular
+  source: nwn
+- id: a1.m02.v.geburtsort
+  de: Geburtsort
+  pos: noun
+  article: der
+  plural: Geburtsorte
+  vi: nơi sinh
+  ipa: /ɡəˈbuːɐ̯tsˌʔɔʁt/
+  example:
+    de: 'Geburtsort: Hanoi'
+    vi: 'Nơi sinh: Hà Nội'
+  usage_vi: 'Dùng trong biểu mẫu: Geburtsort = nơi sinh; Wohnort = nơi cư trú. Từ ghép Geburt + s + Ort. Số nhiều: Geburtsorte.'
+  lesson_refs:
+  - a1.m02.l06
+  tags:
+  - formular
+  source: nwn-lern
+- id: a1.m02.v.neu
+  de: neu
+  pos: adjective
+  vi: mới
+  ipa: /nɔʏ̯/
+  example:
+    de: Ich bin neu hier.
+    vi: Tôi mới đến đây.
+  usage_vi: 'Trái nghĩa: alt.'
+  lesson_refs:
+  - a1.m02.l06
+  tags:
+  - beschreibung
+  source: nwn-lern
+- id: a1.m02.v.basketball
+  de: Basketball
+  pos: noun
+  article: der
+  no_plural: true
+  vi: bóng rổ
+  ipa: /ˈbaːskətbal/
+  example:
+    de: Wir spielen Basketball.
+    vi: Chúng tôi chơi bóng rổ.
+  usage_vi: 'Môn thể thao: không dùng mạo từ sau spielen.'
+  lesson_refs:
+  - a1.m02.l06
+  tags:
+  - sport
+  - sg-only
+  source: nwn-lern
+- id: a1.m02.v.e-mail
+  de: E-Mail
+  pos: noun
+  article: die
+  plural: E-Mails
+  vi: email, thư điện tử
+  ipa: /ˈiːmeɪ̯l/
+  example:
+    de: Ich schreibe eine E-Mail.
+    vi: Tôi viết một email.
+  usage_vi: 'Giống cái: die E-Mail (ở Áo/miền Nam cũng có das E-Mail).'
+  lesson_refs:
+  - a1.m02.l06
+  tags:
+  - medien
+  - kommunikation
+  source: nwn-lern
+- id: a1.m02.v.firma
+  de: Firma
+  pos: noun
+  article: die
+  plural: Firmen
+  vi: công ty
+  ipa: /ˈfɪʁma/
+  example:
+    de: Er arbeitet bei einer Firma in Köln.
+    vi: Anh ấy làm ở một công ty tại Köln.
+  usage_vi: 'Số nhiều bất quy tắc: die Firmen.'
+  lesson_refs:
+  - a1.m02.l06
+  tags:
+  - arbeit
+  source: nwn-lern
+- id: a1.m02.v.formular
+  de: Formular
+  pos: noun
+  article: das
+  plural: Formulare
+  vi: biểu mẫu, đơn
+  ipa: /fɔʁmuˈlaːɐ̯/
+  example:
+    de: Füllen Sie das Formular aus.
+    vi: Hãy điền vào biểu mẫu.
+  usage_vi: ausfüllen = điền (động từ tách).
+  lesson_refs:
+  - a1.m02.l06
+  tags:
+  - formular
+  source: nwn-lern
+- id: a1.m02.v.hausnummer
+  de: Hausnummer
+  pos: noun
+  article: die
+  plural: Hausnummern
+  vi: số nhà
+  ipa: /ˈhaʊ̯sˌnʊmɐ/
+  example:
+    de: 'Straße und Hausnummer: Lindenstraße 12'
+    vi: 'Đường và số nhà: Lindenstraße 12'
+  usage_vi: Ở Đức số nhà viết SAU tên đường (khác Việt Nam).
+  lesson_refs:
+  - a1.m02.l06
+  tags:
+  - adresse
+  - formular
+  source: nwn
+- id: a1.m02.v.maennlich
+  de: männlich
+  pos: adjective
+  vi: nam (giới tính)
+  ipa: /ˈmɛnlɪç/
+  example:
+    de: 'Geschlecht: männlich'
+    vi: 'Giới tính: nam'
+  usage_vi: Trong biểu mẫu.
+  lesson_refs:
+  - a1.m02.l06
+  tags:
+  - formular
+  source: nwn-lern
+- id: a1.m02.v.weiblich
+  de: weiblich
+  pos: adjective
+  vi: nữ (giới tính)
+  ipa: /ˈvaɪ̯plɪç/
+  example:
+    de: 'Geschlecht: weiblich'
+    vi: 'Giới tính: nữ'
+  usage_vi: b trước l đọc [p].
+  lesson_refs:
+  - a1.m02.l06
+  tags:
+  - formular
+  source: nwn-lern
+- id: a1.m02.v.postleitzahl
+  de: Postleitzahl
+  pos: noun
+  article: die
+  plural: Postleitzahlen
+  vi: mã bưu chính
+  ipa: /ˈpɔstlaɪ̯tˌtsaːl/
+  example:
+    de: Die Postleitzahl ist 10115.
+    vi: Mã bưu chính là 10115.
+  usage_vi: 'Viết tắt PLZ. Ở Đức có 5 chữ số, đứng TRƯỚC tên thành phố: 10115 Berlin.'
+  lesson_refs:
+  - a1.m02.l06
+  tags:
+  - adresse
+  - formular
+  source: nwn-lern
+- id: a1.m02.v.schule
+  de: Schule
+  pos: noun
+  article: die
+  plural: Schulen
+  vi: trường học (phổ thông)
+  ipa: /ˈʃuːlə/
+  example:
+    de: Die Schule ist hier.
+    vi: Trường học ở đây.
+  usage_vi: Đại học là die Universität, không phải die Schule.
+  lesson_refs:
+  - a1.m02.l06
+  tags:
+  - schule
+  source: nwn-lern
+- id: a1.m02.v.tennis
+  de: Tennis
+  pos: noun
+  article: das
+  no_plural: true
+  vi: quần vợt
+  ipa: /ˈtɛnɪs/
+  example:
+    de: Spielst du Tennis?
+    vi: Bạn có chơi quần vợt không?
+  usage_vi: 'Môn thể thao: không dùng mạo từ sau spielen.'
+  lesson_refs:
+  - a1.m02.l06
+  tags:
+  - sport
+  - sg-only
+  source: nwn-lern
+- id: a1.m02.v.waehlen
+  de: wählen
+  pos: verb
+  vi: chọn; bầu cử
+  forms:
+    text: du wählst, er wählt
+    er: wählt
+  ipa: /ˈvɛːlən/
+  example:
+    de: Wählen Sie einen Kurs.
+    vi: Hãy chọn một khóa học.
+  usage_vi: 'Từ nhiều nghĩa: chọn / bầu cử / quay số điện thoại.'
+  lesson_refs:
+  - a1.m02.l06
+  tags:
+  - verb
+  - mehrdeutig
+  source: nwn-lern
+- id: a1.m02.v.wohnort
+  de: Wohnort
+  pos: noun
+  article: der
+  plural: Wohnorte
+  vi: nơi ở
+  ipa: /ˈvoːnˌʔɔʁt/
+  example:
+    de: 'Wohnort: Leipzig'
+    vi: 'Nơi ở: Leipzig'
+  usage_vi: wohnen + der Ort → der Wohnort.
+  lesson_refs:
+  - a1.m02.l06
+  tags:
+  - formular
+  source: nwn
+- id: a1.m02.v.yoga
+  de: Yoga
+  pos: noun
+  article: das
+  no_plural: true
+  vi: yoga
+  ipa: /ˈjoːɡa/
+  example:
+    de: Ich mache Yoga.
+    vi: Tôi tập yoga.
+  usage_vi: 'Đi với machen: Yoga machen.'
+  lesson_refs:
+  - a1.m02.l06
+  tags:
+  - sport
+  - sg-only
+  source: nwn

@@ -1,0 +1,191 @@
+schema_version: '2.0'
+content_type: exercise-set
+id: a1.p2.l02.ex
+level: A1
+module: a1.p2
+lesson: a1.p2.l02
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+exercises:
+- id: a1.p2.l02.ex.01
+  type: matching
+  skill: vocabulary
+  difficulty: 1
+  objective_refs:
+  - a1.p2.l02.obj1
+  instructions_vi: Nối món ăn đặc sản với quốc gia tương ứng.
+  items:
+  - id: a1.p2.l02.ex.01.q1
+    pairs:
+    - left: Weißwurst mit Brezel und süßem Senf
+      right: Deutschland
+    - left: Wiener Schnitzel und Sachertorte
+      right: Österreich
+    - left: Käsefondue und Rösti
+      right: die Schweiz
+    - left: Pho Bo und Banh Chung
+      right: Vietnam
+    explanation_vi: Weißwurst (Đức), Wiener Schnitzel (Áo), Käsefondue (Thụy Sĩ), Phở bò (Việt Nam).
+- id: a1.p2.l02.ex.02
+  type: fill-blank
+  skill: vocabulary
+  difficulty: 2
+  objective_refs:
+  - a1.p2.l02.obj3
+  instructions_vi: 'Điền các từ vựng mới: Spezialität, Tradition, traditionell, Festessen, Brauch, Feiertag.'
+  items:
+  - id: a1.p2.l02.ex.02.q1
+    prompt: Das Käsefondue ist eine bekannte ___ aus der Schweiz.
+    answers:
+    - Spezialität
+    explanation_vi: die Spezialität = món ăn đặc sản.
+  - id: a1.p2.l02.ex.02.q2
+    prompt: Das Oktoberfest in München hat eine lange ___.
+    answers:
+    - Tradition
+    explanation_vi: die Tradition = truyền thống.
+  - id: a1.p2.l02.ex.02.q3
+    prompt: Zu Weihnachten kocht meine Mutter ein großes ___.
+    answers:
+    - Festessen
+    explanation_vi: das Festessen = bữa tiệc thịnh soạn.
+  - id: a1.p2.l02.ex.02.q4
+    prompt: Der 1. Mai ist in Deutschland ein gesetzlicher ___.
+    answers:
+    - Feiertag
+    explanation_vi: der Feiertag = ngày nghỉ lễ.
+  - id: a1.p2.l02.ex.02.q5
+    prompt: Weißwurst vor 12 Uhr zu essen, ist ein alter ___ in Bayern.
+    answers:
+    - Brauch
+    explanation_vi: der Brauch = phong tục, tập quán.
+- id: a1.p2.l02.ex.03
+  type: multiple-choice
+  skill: reading
+  difficulty: 1
+  objective_refs:
+  - a1.p2.l02.obj1
+  - a1.p2.l02.obj2
+  instructions_vi: Đọc bài viết về ẩm thực D-A-CH và chọn câu trả lời đúng.
+  stimulus:
+    ref: a1.p2.l02.b6
+  items:
+  - id: a1.p2.l02.ex.03.q1
+    prompt: Wann isst man die Weißwurst in München nach alter Tradition?
+    options:
+    - id: a
+      text: Nur am Abend nach 18 Uhr.
+    - id: b
+      text: Nur zum Abendessen.
+    - id: c
+      text: Nur vor 12 Uhr mittags.
+    answer:
+    - c
+    explanation_vi: 'Bài đọc nêu: ''Nach alter Tradition isst man die Weißwurst nur vor 12 Uhr mittags!''.'
+  - id: a1.p2.l02.ex.03.q2
+    prompt: Was ist eine Sachertorte?
+    options:
+    - id: a
+      text: Ein Käsekuchen aus der Schweiz.
+    - id: b
+      text: Ein Schokoladenkuchen mit Marillenmarmelade.
+    - id: c
+      text: Ein Brot mit süßem Senf.
+    answer:
+    - b
+    explanation_vi: Sachertorte là bánh sô-cô-la kèm mứt quả mơ của Áo.
+  - id: a1.p2.l02.ex.03.q3
+    prompt: Was essen die Schweizer gern im kalten Winter?
+    options:
+    - id: a
+      text: Nudelsuppe mit Fisch.
+    - id: b
+      text: Käsefondue oder Rösti.
+    - id: c
+      text: Currywurst mit Pommes.
+    answer:
+    - b
+    explanation_vi: Người Thụy Sĩ thích ăn lẩu phô mai hoặc bánh khoai tây Rösti vào mùa đông.
+- id: a1.p2.l02.ex.04
+  type: true-false
+  skill: listening
+  difficulty: 1
+  objective_refs:
+  - a1.p2.l02.obj1
+  instructions_vi: Nghe đoạn giới thiệu của hướng dẫn viên và xác định Đúng (true) hay Sai (false).
+  stimulus:
+    ref: a1.p2.l02.b5
+  items:
+  - id: a1.p2.l02.ex.04.q1
+    prompt: Die Touristen probieren heute Abend das Käsefondue aus der Schweiz.
+    answer: true
+    explanation_vi: 'Đúng, hướng dẫn viên nói: ''Heute Abend probieren wir eine echte Schweizer Spezialität: das Käsefondue''.'
+  - id: a1.p2.l02.ex.04.q2
+    prompt: Beim Fondue taucht man Brot in heißen Käse.
+    answer: true
+    explanation_vi: 'Đúng: ''Man nimmt ein Stück Brot auf eine lange Gabel und taucht es in den heißen Käse''.'
+- id: a1.p2.l02.ex.05
+  type: sentence-construction
+  skill: grammar
+  difficulty: 2
+  objective_refs:
+  - a1.p2.l02.obj3
+  instructions_vi: Viết câu hoàn chỉnh về văn hóa ẩm thực.
+  items:
+  - id: a1.p2.l02.ex.05.q1
+    prompt_vi: Käsefondue / sein / eine Spezialität / aus der Schweiz .
+    answers:
+    - Käsefondue ist eine Spezialität aus der Schweiz.
+    explanation_vi: Käsefondue ist eine Spezialität aus der Schweiz.
+  - id: a1.p2.l02.ex.05.q2
+    prompt_vi: Am Feiertag / kochen / wir / ein Festessen .
+    answers:
+    - Am Feiertag kochen wir ein Festessen.
+    explanation_vi: Am Feiertag kochen wir ein Festessen. (động từ kochen ở vị trí 2).
+- id: a1.p2.l02.ex.06
+  type: speaking-practice
+  skill: speaking
+  difficulty: 2
+  objective_refs:
+  - a1.p2.l02.obj3
+  instructions_vi: Nói 4–5 câu giới thiệu một món ăn đặc sản hoặc một ngày lễ truyền thống ở Việt Nam.
+  grading: self
+  rubric:
+  - criterion_vi: Dùng từ Spezialität và Tradition hoặc traditionell
+    points: 2
+  - criterion_vi: Nói rõ tên món ăn/lễ hội và mô tả ngắn gọn
+    points: 1
+  items:
+  - id: a1.p2.l02.ex.06.q1
+    prompt_vi: Stellen Sie eine Spezialität oder ein Fest aus Vietnam vor.
+    model_answer:
+      de: In Vietnam gibt es Pho Bo. Das ist eine traditionelle Spezialität mit Rindfleisch. Das Gericht hat eine lange Tradition und schmeckt herrlich.
+    explanation_vi: Giới thiệu rõ tên món ăn, tính chất truyền thống và cảm nhận.
+- id: a1.p2.l02.ex.07
+  type: writing-practice
+  skill: writing
+  difficulty: 2
+  objective_refs:
+  - a1.p2.l02.obj3
+  instructions_vi: Viết đoạn văn ngắn (35–45 từ) giới thiệu một món đặc sản Việt Nam cho bạn bè.
+  grading: self
+  rubric:
+  - criterion_vi: Đủ thông tin giới thiệu món ăn, từ vựng chuẩn xác
+    points: 2
+  - criterion_vi: Viết hoa danh từ và dấu câu đúng quy tắc
+    points: 1
+  items:
+  - id: a1.p2.l02.ex.07.q1
+    prompt_vi: Schreiben Sie einen kurzen Text über eine vietnamesische Spezialität.
+    model_answer:
+      de: Hallo Lukas, ich möchte dir Pho Bo vorstellen. Das ist eine Spezialität aus Vietnam mit Rindfleisch. Es schmeckt sehr lecker! Viele Grüße, Minh.
+    explanation_vi: Đoạn văn ngắn đạt chuẩn từ vựng và cấu trúc.

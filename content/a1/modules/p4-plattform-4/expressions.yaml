@@ -1,0 +1,22 @@
+schema_version: "2.0"
+content_type: expression-set
+id: a1.p4.expr
+level: A1
+module: a1.p4
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  references:
+    - { work: "Netzwerk neu A1.2 – Stoffverteilungsplan (Klett)", scope: "Plattform 4: Redemittel ôn tập Kapitel 10–12; Training: eine Mail schreiben", verification: verified }
+    - { work: "Dự án Deutsch-lernen", scope: "Câu mẫu do dự án tự viết", verification: proposed }
+  tags: ["redemittel", "mail"]
+entries:
+  - { id: a1.p4.x.mail-gruss, de: "Liebe Grüße aus dem Urlaub!", vi: "Gửi những lời thân ái từ kỳ nghỉ!", register: informal, function: "Mở đầu hoặc kết thư thân mật", situation_vi: "Viết bưu thiếp, e-mail cho người thân.", lesson_refs: [a1.p4.l01] }
+  - { id: a1.p4.x.hotel-buchen, de: "Ich möchte ein Zimmer für zwei Nächte buchen.", vi: "Tôi muốn đặt một phòng cho hai đêm.", register: formal, function: "Đặt phòng khách sạn", situation_vi: "Gọi điện hoặc nói với lễ tân.", reply: { de: "Wann kommen Sie an?", vi: "Khi nào ông/bà đến ạ?" }, lesson_refs: [a1.p4.l01] }
+  - { id: a1.p4.x.durchsage, de: "Achtung, eine Durchsage!", vi: "Xin chú ý, có thông báo!", register: neutral, function: "Mở đầu thông báo", situation_vi: "Nghe thông báo ở nhà ga, cửa hàng.", lesson_refs: [a1.p4.l03] }
+  - { id: a1.p4.x.nachricht-urlaub, de: "Ich bin in Wien. Das Wetter ist schön und ich habe das Schloss besichtigt.", vi: "Tôi đang ở Wien. Thời tiết đẹp và tôi đã tham quan lâu đài.", register: neutral, function: "Viết tin nhắn ngắn từ chuyến đi", situation_vi: "Schreiben Teil 2: ba ý – ở đâu, thời tiết, đã làm gì.", lesson_refs: [a1.p4.l03] }

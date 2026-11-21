@@ -1,0 +1,224 @@
+schema_version: '2.0'
+content_type: lesson
+id: a1.m04.l04
+level: A1
+module: a1.m04
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+  references:
+  - work: Netzwerk neu A1 (Klett)
+    scope: 'Kapitel 4: Die Grillparty'
+    verification: verified
+  notes_vi: 'Sprachhandlungen: Essen und Trinken anbieten, Wünsche äußern (möchten), am Tisch reagieren („Gut gesagt: Beim Essen“). Wortschatz: Essen und Trinken. Grammatik: möchten.'
+order: 4
+title_de: Die Grillparty – Beim Essen und Trinken
+title_vi: Tiệc nướng – Giao tiếp tại bàn ăn và động từ möchten
+topic_vi: Giao tiếp lịch sự tại bàn ăn, chúc mừng nâng ly, khen ngợi món ăn, động từ möchten
+duration_min: 75
+difficulty: 2
+cefr:
+- A1.SI2
+- A1.H3
+- A1.SP1
+- A1.S2
+prerequisites:
+- a1.m04.l03
+objectives:
+- id: a1.m04.l04.obj1
+  text_vi: Sử dụng thành thạo động từ möchten để diễn đạt mong muốn hoặc mời đồ ăn uống lịch sự.
+  skill: grammar
+- id: a1.m04.l04.obj2
+  text_vi: 'Nắm vững các câu giao tiếp chuẩn tại bàn ăn: Guten Appetit!, Danke gleichfalls!, Prost!, Zum Wohl!, Mahlzeit!'
+  skill: vocabulary
+- id: a1.m04.l04.obj3
+  text_vi: Biết cách khen món ăn ngon (Das Essen ist lecker!) và từ chối khéo léo khi đã no (Nein danke, ich bin satt).
+  skill: reading
+- id: a1.m04.l04.obj4
+  text_vi: Hiểu nội dung cuộc trò chuyện vui vẻ tại bàn tiệc qua bài nghe và đọc.
+  skill: listening
+vocabulary_refs:
+- a1.m04.v.gerne
+- a1.m04.v.mann
+- a1.m04.v.trinken
+- a1.m04.v.lecker
+- a1.m04.v.satt
+- a1.m04.v.prost
+- a1.m04.v.zum-wohl
+- a1.m04.v.mahlzeit
+- a1.m04.v.gleichfalls
+review_vocabulary_refs:
+- a1.m04.v.kuchen
+- a1.m04.v.wasser
+- a1.m04.v.grillen
+- a1.m04.v.getraenk
+- a1.m04.v.haehnchen
+grammar_refs:
+- a1.g.moechten-moegen
+grammar_focus:
+- ref: a1.g.moechten-moegen
+  focus_vi: 'Động từ möchten: chia động từ (ich möchte, er möchte) và cách dùng khi mời hoặc gọi đồ ăn thức uống'
+expression_refs:
+- a1.m04.x.moechtest-du-ja-gerne-bitte-nein-danke-i
+- a1.m04.x.prost-zum-wohl-auf-uns
+exercise_set_ref: a1.m04.l04.ex
+summary_vi: 'Bài học cung cấp cho bạn những quy tắc vàng trong văn hóa bàn tiệc của người Đức: cách nâng ly chúc mừng (Prost/Zum Wohl), chào giờ ăn trưa (Mahlzeit), khen món ăn (lecker), từ chối khi đã no (satt) và dùng động từ möchten để diễn đạt nguyện vọng lịch sự.'
+self_check:
+- 'Tôi nhớ chia động từ möchten: ich möchte, du möchtest, er möchte.'
+- Tôi biết phân biệt hoàn cảnh dùng Prost! và Zum Wohl!.
+- 'Tôi biết lịch sự từ chối khi đã ăn no bằng câu: Ich bin satt.'
+blocks:
+- id: a1.m04.l04.b1
+  kind: explanation
+  title_vi: Giới thiệu bài học
+  body_vi: 'Bữa tiệc nướng đã bắt đầu, đồ ăn nóng hổi thơm phức vừa được dọn lên bàn!
+
+    Đây là lúc bạn học văn hóa giao tiếp và cách ứng xử chuẩn mực của người Đức trên bàn tiệc:
+
+    - Chúc nhau ngon miệng: *Guten Appetit! – Danke, gleichfalls!*
+
+    - Nâng ly chúc mừng: *Prost!* (thân mật) hoặc *Zum Wohl!* (trang trọng).
+
+    - Lời chào quen thuộc vào giờ ăn trưa ở công sở: *Mahlzeit!*
+
+    - Cách dùng động từ *möchten* để mời và gọi đồ: *Was möchtest du trinken? – Ich möchte einen Apfelsaft, bitte.*
+
+    - Khen ngợi tài nấu nướng: *Das Fleisch ist super lecker!*
+
+    - Lịch sự từ chối khi bụng đã no căng: *Danke, ich bin wirklich satt!*'
+- id: a1.m04.l04.b2
+  kind: explanation
+  title_vi: 'Giao tiếp tự nhiên tại bàn ăn (Gut gesagt: Beim Essen)'
+  skill: grammar
+  body_vi: 'Người Đức rất coi trọng văn hóa bàn ăn. Khi nâng cốc có cồn (bia, rượu), mọi người nhìn vào mắt nhau và nói ''Prost!'' hoặc ''Zum Wohl!''. Khi được tiếp thêm đồ ăn mà không muốn ăn nữa, câu nói chuẩn và lịch sự nhất là: ''Danke, ich bin satt'' (Cảm ơn, tôi no rồi).'
+  examples:
+  - de: Möchtest du noch ein Würstchen? – Nein danke, ich bin wirklich satt.
+    vi: Bạn có muốn ăn thêm cái xúc xích nữa không? – Thôi cảm ơn bạn, mình thực sự no rồi.
+  - de: Auf einen schönen Abend! Prost!
+    vi: Vì một buổi tối tuyệt vời! Nâng ly nào!
+- id: a1.m04.l04.b3
+  kind: pronunciation
+  title_vi: Ngữ điệu vui vẻ, hào hứng khi chúc tụng và cảm ơn
+  skill: pronunciation
+  body_vi: 'Ngữ điệu vui vẻ, hào hứng khi chúc tụng và cảm ơn
+
+
+    Khi nói các từ cảm thán như ''Prost!'', ''Guten Appetit!'', ''Danke gleichfalls!'', giọng nói lên cao và ngắt dứt khoát, thể hiện sự thân thiện, ấm áp.
+
+
+    Luyện tập: Luyện phát âm to rõ ràng: Gu-ten Ap-pe-tit! – Dan-ke, gleich-falls! – Prost!'
+  items:
+  - de: Guten Appetit!
+    vi: Chúc ngon miệng!
+  - de: Prost!
+    vi: Nâng ly!
+  - de: Danke, gleichfalls!
+    vi: Cảm ơn, bạn cũng vậy nhé!
+- id: a1.m04.l04.b4
+  kind: examples
+  title_vi: Câu ví dụ
+  examples:
+  - de: Was möchten Sie trinken? – Ein Mineralwasser mit Zitrone, bitte.
+    vi: Quý khách muốn uống gì ạ? – Cho tôi một ly nước khoáng với chanh.
+  - de: Das Hähnchen schmeckt wirklich sehr lecker.
+    vi: Món thịt gà có vị thực sự rất ngon.
+  - de: Ich trinke heute keinen Alkohol, ich nehme lieber Orangensaft.
+    vi: Hôm nay tôi không uống rượu bia, tôi muốn lấy nước cam hơn.
+  - de: Nein danke, ich kann nicht mehr essen, ich bin ganz satt.
+    vi: Dạ thôi cảm ơn, tôi không thể ăn thêm được nữa, tôi no lắm rồi.
+  - de: In der Mittagspause sagen die Kollegen in Deutschland oft „Mahlzeit!“ zueinander.
+    vi: Vào giờ nghỉ trưa, các đồng nghiệp ở Đức thường chào nhau bằng câu 'Mahlzeit!'.
+- id: a1.m04.l04.b5
+  kind: listening
+  title_vi: Không khí trò chuyện rôm rả tại bàn tiệc nướng
+  lines:
+  - speaker: Ben
+    de: So Leute, das Fleisch und die Würstchen sind fertig! Guten Appetit!
+    vi: Nào các bạn ơi, thịt và xúc xích nướng chín rồi! Chúc mọi người ngon miệng!
+  - speaker: Sarah
+    de: Danke Ben, gleichfalls! Wow, das Hähnchen sieht super aus!
+    vi: Cảm ơn Ben, chúc cậu cũng ngon miệng! Oa, món gà nướng trông tuyệt quá!
+  - speaker: Felix
+    de: Möchtest du etwas trinken, Sarah? Wir haben Bier, Saft und Wasser.
+    vi: Bạn muốn uống gì không Sarah? Tụi mình có bia, nước ép và nước lọc.
+  - speaker: Sarah
+    de: Ich möchte einen Apfelsaft, bitte. Gerne mit Eis!
+    vi: Cho mình một ly nước ép táo nhé. Có thêm đá thì tuyệt!
+  - speaker: Felix
+    de: 'Hier bitte! Und jetzt alle: Auf Ben und die Grillparty! Prost!'
+    vi: 'Của bạn đây! Và bây giờ tất cả cùng: Nâng ly vì Ben và bữa tiệc nướng nào! Dzô!'
+  - speaker: Alle
+    de: Prost!
+    vi: Dzô!
+  audio_status: pending-tts
+  situation_vi: Ben, Sarah và các bạn cùng ngồi ăn thịt nướng ngoài trời.
+  skill: listening
+  audio:
+    speed: normal
+- id: a1.m04.l04.b6
+  kind: reading
+  title_vi: Những quy tắc ứng xử thú vị trên bàn ăn tại Đức
+  paragraphs:
+  - de: 'Tischkultur in Deutschland:
+
+      1. Vor dem Essen: Man wartet, bis alle Essen haben. Dann sagt man freundlich: „Guten Appetit!“ – und man antwortet: „Danke, gleichfalls!“
+
+      2. Beim Anstoßen: Man hebt das Glas, schaut der anderen Person direkt in die Augen und sagt „Prost!“ (mit Freunden) oder „Zum Wohl!“ (bei der Arbeit oder im feinen Restaurant).
+
+      3. Beim Essen: Wenn das Essen gut schmeckt, sagt man: „Das schmeckt sehr lecker!“
+
+      4. Nach dem Essen: Wenn man keinen Hunger mehr hat, sagt man höflich: „Danke, ich bin satt.“'
+    vi: 'Văn hóa bàn ăn tại Đức:
+
+      1. Trước khi ăn: Mọi người chờ cho đến khi tất cả đều có đồ ăn. Sau đó mọi người thân mật chúc: ''Guten Appetit!'' – và người nghe đáp lại: ''Danke, gleichfalls!''
+
+      2. Khi cụng ly: Người ta nâng ly, nhìn thẳng vào mắt đối phương và nói ''Prost!'' (với bạn bè) hoặc ''Zum Wohl!'' (tại nơi làm việc hoặc nhà hàng sang trọng).
+
+      3. Trong khi ăn: Khi món ăn ngon miệng, người ta khen: ''Das schmeckt sehr lecker!''
+
+      4. Sau khi ăn: Khi không còn đói nữa, người ta lịch sự nói: ''Danke, ich bin satt.'''
+  text_type_vi: Bài viết giới thiệu văn hóa (Landeskunde-Text)
+  skill: reading
+  glossary:
+  - de: beim Anstoßen
+    vi: khi cụng ly
+  - de: direkt in die Augen
+    vi: nhìn thẳng vào mắt
+- id: a1.m04.l04.b7
+  kind: speaking
+  title_vi: Mời đồ ăn và đáp lại tại bàn ăn
+  skill: speaking
+  task_vi: Thực hành đóng vai mời bạn cùng bàn dùng thêm món và nâng ly chúc mừng.
+  steps_vi:
+  - 'Mời món: Möchtest du noch etwas ...?'
+  - 'Phản hồi: Ja gerne, das schmeckt lecker! / Nein danke, ich bin satt.'
+  - 'Nâng ly: Auf uns! Prost!'
+  lines:
+  - speaker: A
+    de: Möchtest du noch ein Glas Wein trinken?
+    vi: Bạn có muốn uống thêm một ly rượu vang không?
+  - speaker: B
+    de: Nein danke, ich trinke lieber ein Glas Wasser. Ich bin schon satt.
+    vi: Thôi cảm ơn bạn, mình thích uống một ly nước lọc hơn. Mình no rồi.
+  - speaker: A
+    de: Alles klar! Zum Wohl!
+    vi: Được rồi! Chúc sức khỏe nhé!
+- id: a1.m04.l04.b8
+  kind: writing
+  title_vi: Viết đoạn hội thoại ngắn tại bàn tiệc
+  skill: writing
+  task_vi: Viết đoạn hội thoại 4 câu diễn ra tại bàn ăn có sử dụng động từ möchten và câu chúc ngon miệng hoặc nâng ly.
+  model:
+    de: – Das Essen ist fertig. Guten Appetit! – Danke, gleichfalls! Was möchtest du trinken? – Ich möchte ein Glas Orangensaft, bitte. – Gerne! Auf einen schönen Abend! Prost!
+    vi: – Đồ ăn xong rồi. Chúc ngon miệng! – Cảm ơn bạn, bạn cũng vậy nhé! Bạn muốn uống gì? – Cho mình xin một ly nước cam. – Rất sẵn lòng! Vì một buổi tối vui vẻ! Dzô!
+  checklist_vi:
+  - Có câu chúc Guten Appetit! hoặc Prost!
+  - Có câu hỏi hoặc trả lời dùng möchten.

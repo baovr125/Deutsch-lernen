@@ -1,0 +1,142 @@
+schema_version: "2.0"
+content_type: assessment
+id: a1.m10.test
+level: A1
+module: a1.m10
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  notes_vi: "Ngưỡng đạt 60% là đề xuất, chưa được xác nhận."
+  tags: ["test"]
+title_vi: "Kiểm tra Kapitel 10 – Studium und Beruf"
+duration_min: 40
+pass_percent: 60
+exercises:
+  - id: a1.m10.test.01
+    type: listening-practice
+    skill: listening
+    difficulty: 2
+    objective_refs: [a1.m10.obj.erzaehlen, a1.m10.obj.telefon]
+    instructions_vi: "Nghe (hoặc đọc transcript) và chọn đáp án."
+    stimulus:
+      text_de: "Hallo Karin, hier ist Max. Ich habe gestern lange gearbeitet und Pizza gegessen. Heute habe ich um zehn Uhr einen Termin. Kannst du mich bitte zurückrufen?"
+      audio_status: pending-tts
+    items:
+      - id: a1.m10.test.01.q1
+        prompt: "Was hat Max gestern gegessen?"
+        options: [{ id: a, text: "Pizza." }, { id: b, text: "Kuchen." }, { id: c, text: "Brot." }]
+        answer: [a]
+        explanation_vi: "„Pizza gegessen“."
+      - id: a1.m10.test.01.q2
+        prompt: "Was möchte Max von Karin?"
+        options: [{ id: a, text: "Einen Termin." }, { id: b, text: "Einen Rückruf." }, { id: c, text: "Eine Pizza." }]
+        answer: [b]
+        explanation_vi: "„Kannst du mich bitte zurückrufen?“"
+  - id: a1.m10.test.02
+    type: reading-comprehension
+    skill: reading
+    difficulty: 2
+    objective_refs: [a1.m10.obj.beruf, a1.m10.obj.perfekt]
+    instructions_vi: "Đọc và chọn đáp án đúng."
+    stimulus:
+      text_de: "Frau Demir ist Köchin. Sie arbeitet in einem Restaurant. Gestern hat sie um acht Uhr gefrühstückt und danach acht Stunden gearbeitet. Abends hat sie eine Freundin getroffen."
+      text_vi: "Bà Demir là đầu bếp. Bà làm việc ở một nhà hàng. Hôm qua bà đã ăn sáng lúc tám giờ và sau đó làm việc tám tiếng. Buổi tối bà đã gặp một người bạn."
+    items:
+      - id: a1.m10.test.02.q1
+        prompt: "Was ist Frau Demir von Beruf?"
+        options: [{ id: a, text: "Lehrerin." }, { id: b, text: "Köchin." }, { id: c, text: "Studentin." }]
+        answer: [b]
+        explanation_vi: "„Frau Demir ist Köchin.“"
+      - id: a1.m10.test.02.q2
+        prompt: "Was hat sie abends gemacht?"
+        options: [{ id: a, text: "Eine Freundin getroffen." }, { id: b, text: "Gekocht." }, { id: c, text: "Geschlafen." }]
+        answer: [a]
+        explanation_vi: "„Abends hat sie eine Freundin getroffen.“"
+  - id: a1.m10.test.03
+    type: fill-blank
+    skill: grammar
+    difficulty: 2
+    objective_refs: [a1.m10.obj.partizip, a1.m10.obj.perfekt]
+    instructions_vi: "Điền Partizip II hoặc trợ động từ đúng."
+    items:
+      - { id: a1.m10.test.03.q1, prompt: "Gestern habe ich Deutsch ___.", hint_vi: "lernen", answers: ["gelernt"], explanation_vi: "Động từ có quy tắc: ge + lern + t." }
+      - { id: a1.m10.test.03.q2, prompt: "Er hat lange ___.", hint_vi: "telefonieren", answers: ["telefoniert"], explanation_vi: "-ieren: không có ge-." }
+      - { id: a1.m10.test.03.q3, prompt: "Wir haben einen Film ___.", hint_vi: "sehen", answers: ["gesehen"], explanation_vi: "Bất quy tắc: gesehen." }
+      - { id: a1.m10.test.03.q4, prompt: "Ich ___ gestern nach Hause gegangen.", answers: ["bin"], explanation_vi: "„gehen“ dùng „sein“: ich bin gegangen." }
+  - id: a1.m10.test.04
+    type: multiple-choice
+    skill: vocabulary
+    difficulty: 1
+    objective_refs: [a1.m10.obj.beruf, a1.m10.obj.telefon]
+    instructions_vi: "Chọn đáp án đúng."
+    items:
+      - id: a1.m10.test.04.q1
+        prompt: "Was sind Sie von Beruf? – Ich bin ___."
+        options: [{ id: a, text: "ein Lehrer" }, { id: b, text: "Lehrer" }, { id: c, text: "der Lehrer" }]
+        answer: [b]
+        explanation_vi: "Sau „sein“ nghề nghiệp không có mạo từ."
+      - id: a1.m10.test.04.q2
+        prompt: "Wie heißt Partizip II von „trinken“?"
+        options: [{ id: a, text: "getrunken" }, { id: b, text: "getrinkt" }, { id: c, text: "trinkt" }]
+        answer: [a]
+        explanation_vi: "trinken → getrunken."
+      - id: a1.m10.test.04.q3
+        prompt: "Am Telefon: „Kann ich bitte Herrn Berger sprechen?“ – Antwort:"
+        options: [{ id: a, text: "Einen Moment, bitte." }, { id: b, text: "Danke, gleichfalls!" }, { id: c, text: "Gute Nacht!" }]
+        answer: [a]
+        explanation_vi: "Người nghe máy thường trả lời: „Einen Moment, bitte.“"
+  - id: a1.m10.test.05
+    type: word-order
+    skill: grammar
+    difficulty: 2
+    objective_refs: [a1.m10.obj.perfekt]
+    instructions_vi: "Sắp xếp thành câu Perfekt đúng."
+    items:
+      - id: a1.m10.test.05.q1
+        tokens: ["gelernt.", "gestern", "Ich", "Deutsch", "habe"]
+        answer: "Ich habe gestern Deutsch gelernt."
+        translation_vi: "Hôm qua tôi đã học tiếng Đức."
+        explanation_vi: "habe ở vị trí 2; Partizip II ở cuối."
+      - id: a1.m10.test.05.q2
+        tokens: ["getroffen.", "Wir", "haben", "Freunde"]
+        answer: "Wir haben Freunde getroffen."
+        translation_vi: "Chúng tôi đã gặp bạn bè."
+        explanation_vi: "treffen → getroffen."
+  - id: a1.m10.test.06
+    type: translation
+    skill: writing
+    difficulty: 2
+    objective_refs: [a1.m10.obj.erzaehlen, a1.m10.obj.beruf]
+    instructions_vi: "Dịch sang tiếng Đức."
+    items:
+      - { id: a1.m10.test.06.q1, direction: vi-de, source: "Hôm qua tôi đã đọc một quyển sách.", answers: ["Gestern habe ich ein Buch gelesen.", "Ich habe gestern ein Buch gelesen."], explanation_vi: "habe … gelesen." }
+      - { id: a1.m10.test.06.q2, direction: vi-de, source: "Chị gái tôi là sinh viên.", answers: ["Meine Schwester ist Studentin."], explanation_vi: "Nghề sau „sein“ không mạo từ; nữ: Studentin." }
+  - id: a1.m10.test.07
+    type: writing-practice
+    skill: writing
+    difficulty: 3
+    objective_refs: [a1.m10.obj.erzaehlen, a1.m10.obj.perfekt]
+    instructions_vi: "Viết 3–4 câu về cuối tuần vừa rồi (dùng Perfekt)."
+    items:
+      - id: a1.m10.test.07.q1
+        prompt_vi: "Kể bạn đã làm gì vào thứ Bảy và Chủ nhật."
+        model_answer: { de: "Am Samstag habe ich lange geschlafen. Dann habe ich die Wohnung aufgeräumt. Am Sonntag habe ich Freunde getroffen und wir haben Pizza gegessen.", vi: "Thứ Bảy tôi đã ngủ rất lâu. Sau đó tôi đã dọn dẹp căn hộ. Chủ nhật tôi đã gặp bạn bè và chúng tôi đã ăn pizza." }
+        rubric_vi: ["Dùng haben/sein + Partizip II đúng.", "Partizip II ở cuối câu.", "Có ít nhất một động từ bất quy tắc.", "Chính tả đúng."]
+        explanation_vi: "Bài mẫu dùng bốn Partizip II: geschlafen, aufgeräumt, getroffen, gegessen."
+  - id: a1.m10.test.08
+    type: speaking-practice
+    skill: speaking
+    difficulty: 2
+    objective_refs: [a1.m10.obj.telefon, a1.m10.obj.beruf]
+    instructions_vi: "Đóng vai: gọi đến phòng khám để hẹn lịch và tự giới thiệu nghề của bạn."
+    items:
+      - id: a1.m10.test.08.q1
+        prompt_vi: "Tự giới thiệu, nêu nghề và xin một lịch hẹn."
+        model_answer: { de: "Guten Tag, hier ist Lena Roth. Ich bin Lehrerin. Kann ich bitte einen Termin haben? Danke, auf Wiederhören!", vi: "Chào ông/bà, tôi là Lena Roth. Tôi là giáo viên. Tôi có thể đặt một lịch hẹn không ạ? Cảm ơn, xin chào tạm biệt!" }
+        rubric_vi: ["Tự giới thiệu đúng.", "Nêu nghề không dùng mạo từ sai.", "Xin lịch hẹn lịch sự.", "Kết thúc bằng „Auf Wiederhören!“."]
+        explanation_vi: "Bài mẫu kết hợp nghề nghiệp và cuộc gọi."

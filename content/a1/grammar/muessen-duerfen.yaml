@@ -1,0 +1,68 @@
+schema_version: "2.0"
+content_type: grammar-topic
+id: a1.g.muessen-duerfen
+level: A1
+introduced_in: a1.m08
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  references:
+    - { work: "Netzwerk neu A1.2 – Stoffverteilungsplan (Klett)", scope: "Kapitel 8, Grammatik: Modalverben müssen – nicht dürfen – dürfen", verification: verified }
+  tags: ["modalverb", "verbot", "erlaubnis"]
+title_de: "müssen – dürfen – nicht dürfen"
+title_vi: "Phải, được phép, bị cấm"
+summary_vi: "„müssen“ = bắt buộc; „dürfen“ = được phép; „nicht dürfen“ = bị cấm. Động từ chính ở cuối câu, dạng nguyên mẫu. Cẩn thận: „nicht müssen“ chỉ là ‘không cần’, không phải ‘cấm’."
+usage_vi: "Dùng khi nói về nội quy, quy định (ở phòng tập, bệnh viện, trường học), lời khuyên bắt buộc từ bác sĩ, và việc được/không được làm."
+objectives:
+  - { id: a1.g.muessen-duerfen.obj1, text_vi: "Chia müssen/dürfen và diễn đạt nghĩa vụ, sự cho phép, sự cấm đoán.", skill: grammar }
+rules:
+  - id: a1.g.muessen-duerfen.r1
+    title_vi: "Chia động từ"
+    body_vi: "Cả hai bất quy tắc ở ich/er (không có đuôi -e/-t) và đổi nguyên âm ở số ít. Dạng ich = dạng er/sie/es."
+    table:
+      header: ["", "müssen", "dürfen"]
+      rows:
+        - ["ich", "muss", "darf"]
+        - ["du", "musst", "darfst"]
+        - ["er/sie/es/man", "muss", "darf"]
+        - ["wir / sie / Sie", "müssen", "dürfen"]
+        - ["ihr", "müsst", "dürft"]
+    examples:
+      - { de: "Ich muss heute früh aufstehen.", vi: "Hôm nay tôi phải dậy sớm." }
+      - { de: "Hier darf man nicht rauchen.", vi: "Ở đây không được hút thuốc." }
+  - id: a1.g.muessen-duerfen.r2
+    title_vi: "Vị trí trong câu"
+    body_vi: "Modalverb ở vị trí 2 (đã chia), động từ chính ở cuối ở dạng nguyên mẫu (Satzklammer)."
+    examples:
+      - { de: "Du musst viel Wasser trinken.", vi: "Bạn phải uống nhiều nước." }
+      - { de: "Die Kinder dürfen nicht allein schwimmen.", vi: "Trẻ em không được bơi một mình." }
+  - id: a1.g.muessen-duerfen.r3
+    title_vi: "nicht dürfen ≠ nicht müssen"
+    body_vi: "„nicht dürfen“ = cấm; „nicht müssen“ = không bắt buộc, không cần. Đây là điểm người học hay nhầm."
+    table:
+      header: ["Câu", "Ý nghĩa"]
+      rows:
+        - ["Du darfst nicht essen.", "Bạn không được ăn (cấm)."]
+        - ["Du musst nicht essen.", "Bạn không cần ăn (tùy bạn)."]
+    examples:
+      - { de: "Im Training darfst du kein Handy benutzen.", vi: "Trong buổi tập bạn không được dùng điện thoại." }
+      - { de: "Du musst heute nicht kommen.", vi: "Hôm nay bạn không cần đến." }
+sentence_structures:
+  - { pattern: "Subjekt + müssen/dürfen + (Ergänzung) + Infinitiv", example: { de: "Man muss die Schuhe wechseln.", vi: "Người ta phải thay giày." } }
+  - { pattern: "Subjekt + darf nicht + Infinitiv", example: { de: "Hier darf man nicht laufen.", vi: "Ở đây không được chạy." } }
+  - { pattern: "Darf/Muss + Subjekt + … + Infinitiv?", example: { de: "Darf ich hier trainieren?", vi: "Tôi tập ở đây được không?" } }
+examples:
+  - { de: "Ich muss zum Arzt gehen.", vi: "Tôi phải đi khám bác sĩ." }
+  - { de: "Darf ich Wasser mitnehmen?", vi: "Tôi mang nước theo được không?" }
+  - { de: "Im Krankenhaus darf man nicht laut sprechen.", vi: "Ở bệnh viện không được nói to." }
+  - { de: "Wir müssen zehn Minuten warten.", vi: "Chúng ta phải đợi mười phút." }
+common_mistakes:
+  - { wrong: "Ich muss zum Arzt gehe.", right: "Ich muss zum Arzt gehen.", explanation_vi: "Sau modalverb, động từ chính luôn ở dạng nguyên mẫu (-en)." }
+  - { wrong: "Du musst nicht rauchen. (ý: cấm hút thuốc)", right: "Du darfst nicht rauchen.", explanation_vi: "Muốn nói ‘cấm’ phải dùng „nicht dürfen“. „nicht müssen“ chỉ là không cần." }
+  - { wrong: "Er darfen schwimmen.", right: "Er darf schwimmen.", explanation_vi: "Ngôi er/sie/es dùng dạng „darf“ (không có đuôi)." }
+exercise_refs: [a1.m08.l02.ex.03, a1.m08.l02.ex.06]

@@ -1,0 +1,70 @@
+schema_version: "2.0"
+content_type: grammar-topic
+id: a1.g.perfekt-satzklammer
+level: A1
+introduced_in: a1.m10
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  references:
+    - { work: "Netzwerk neu A1.2 – Stoffverteilungsplan (Klett)", scope: "Kapitel 10, Grammatik: Perfekt – Satzklammer", verification: verified }
+    - { work: "Dự án Deutsch-lernen", scope: "Quy tắc Perfekt với sein (gehen, fahren, kommen, sein) là bổ sung của dự án, vì Kapitel 12 (Wie war's?) cần dùng; chưa xác minh nó thuộc K10 của sách", verification: proposed }
+  tags: ["perfekt", "satzklammer", "vergangenheit"]
+title_de: "Das Perfekt – Satzklammer"
+title_vi: "Thì Perfekt (quá khứ hoàn thành, dùng khi nói) – khung câu"
+summary_vi: "Trong khẩu ngữ, quá khứ được nói bằng Perfekt: haben (hoặc sein) chia ở vị trí 2 + Partizip II ở CUỐI câu. Hai phần này ‘kẹp’ cả câu lại như một cái khung (Satzklammer)."
+usage_vi: "Dùng để kể việc đã xảy ra: hôm qua, cuối tuần trước, buổi sáng nay. Dấu hiệu: gestern, am Wochenende, schon, vorhin."
+objectives:
+  - { id: a1.g.perfekt-satzklammer.obj1, text_vi: "Tạo câu Perfekt với haben và đặt Partizip II ở cuối câu.", skill: grammar }
+rules:
+  - id: a1.g.perfekt-satzklammer.r1
+    title_vi: "Công thức: haben + … + Partizip II"
+    body_vi: "Chia „haben“ theo chủ ngữ ở vị trí 2. Partizip II (dạng quá khứ phân từ) đứng cuối câu. Giữa chúng là mọi thông tin khác (thời gian, tân ngữ…)."
+    table:
+      header: ["Chủ ngữ", "haben", "…", "Partizip II"]
+      rows:
+        - ["Ich", "habe", "gestern Deutsch", "gelernt."]
+        - ["Du", "hast", "das Bad", "geputzt."]
+        - ["Er/Sie", "hat", "eine Stunde", "gekocht."]
+        - ["Wir/Sie", "haben", "um acht Uhr", "gefrühstückt."]
+    examples:
+      - { de: "Ich habe gestern Deutsch gelernt.", vi: "Hôm qua tôi đã học tiếng Đức." }
+      - { de: "Er hat das Bad geputzt.", vi: "Anh ấy đã lau phòng tắm." }
+  - id: a1.g.perfekt-satzklammer.r2
+    title_vi: "Vị trí trong câu hỏi và khi có từ đứng đầu"
+    body_vi: "Câu hỏi Ja/Nein: haben đứng đầu, Partizip II vẫn cuối câu. Khi một cụm thời gian đứng đầu (Gestern …), haben vẫn ở vị trí 2, chủ ngữ đi sau."
+    examples:
+      - { de: "Hast du schon gefrühstückt?", vi: "Bạn đã ăn sáng chưa?" }
+      - { de: "Gestern haben wir lange gearbeitet.", vi: "Hôm qua chúng tôi đã làm việc rất lâu." }
+  - id: a1.g.perfekt-satzklammer.r3
+    title_vi: "Perfekt với sein: gehen, fahren, kommen, sein"
+    body_vi: "Động từ chỉ sự di chuyển hoặc thay đổi trạng thái (gehen, fahren, kommen, sein, bleiben) dùng „sein“ thay cho „haben“: ich bin gegangen, wir sind gefahren, er ist gekommen, sie ist zu Hause geblieben."
+    table:
+      header: ["Nguyên mẫu", "Perfekt (er/sie)"]
+      rows:
+        - ["gehen", "ist gegangen"]
+        - ["fahren", "ist gefahren"]
+        - ["kommen", "ist gekommen"]
+        - ["bleiben", "ist geblieben"]
+    examples:
+      - { de: "Ich bin gestern nach Hause gegangen.", vi: "Hôm qua tôi đã về nhà." }
+      - { de: "Wir sind mit dem Zug gefahren.", vi: "Chúng tôi đã đi bằng tàu." }
+sentence_structures:
+  - { pattern: "Subjekt + haben + (Angaben) + Partizip II", example: { de: "Ich habe Kaffee getrunken.", vi: "Tôi đã uống cà phê." } }
+  - { pattern: "Zeitangabe + haben + Subjekt + (Angaben) + Partizip II", example: { de: "Heute Morgen habe ich Tee getrunken.", vi: "Sáng nay tôi đã uống trà." } }
+  - { pattern: "Haben + Subjekt + (Angaben) + Partizip II?", example: { de: "Hast du schon gegessen?", vi: "Bạn ăn chưa?" } }
+examples:
+  - { de: "Am Wochenende habe ich lange geschlafen.", vi: "Cuối tuần tôi đã ngủ rất lâu." }
+  - { de: "Wir haben im Café Kuchen gegessen.", vi: "Chúng tôi đã ăn bánh ở quán cà phê." }
+  - { de: "Hast du gestern Abend gekocht?", vi: "Tối qua bạn có nấu ăn không?" }
+  - { de: "Sie ist früh aufgestanden.", vi: "Cô ấy đã dậy sớm." }
+common_mistakes:
+  - { wrong: "Ich habe gelernt gestern Deutsch.", right: "Ich habe gestern Deutsch gelernt.", explanation_vi: "Partizip II luôn ở CUỐI câu, không đứng ngay sau „habe“." }
+  - { wrong: "Ich habe gegangen.", right: "Ich bin gegangen.", explanation_vi: "„gehen“ chỉ di chuyển nên dùng „sein“, không dùng „haben“." }
+  - { wrong: "Gestern ich habe gekocht.", right: "Gestern habe ich gekocht.", explanation_vi: "Cụm thời gian ở vị trí 1 thì „habe“ ở vị trí 2 và chủ ngữ đi sau." }
+exercise_refs: [a1.m10.l02.ex.03, a1.m10.l02.ex.04]

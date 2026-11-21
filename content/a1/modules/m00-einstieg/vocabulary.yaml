@@ -1,0 +1,437 @@
+schema_version: '2.0'
+content_type: vocabulary-set
+id: a1.m00.vocab
+level: A1
+module: a1.m00
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+  references:
+  - work: Dự án Deutsch-lernen
+    scope: nội dung bổ sung ngoài giáo trình
+    verification: proposed
+  notes_vi: Phần nhập môn bổ sung dành cho người bắt đầu từ con số 0. Không thuộc Kapitel nào của Netzwerk neu A1. Một số từ của Kapitel 1 (hallo, tschüs, danke, bitte…) được giới thiệu sớm ở đây như từ giao tiếp sống còn; Kapitel 1 sẽ ôn lại và mở rộng.
+entries:
+- id: a1.m00.v.alphabet
+  de: Alphabet
+  pos: noun
+  article: das
+  plural: Alphabete
+  vi: bảng chữ cái
+  ipa: /alfaˈbeːt/
+  example:
+    de: A, B, C … – das ist das Alphabet.
+    vi: A, B, C … – đó là bảng chữ cái.
+  usage_vi: 'Trọng âm ở âm tiết cuối: al-pha-BET.'
+  lesson_refs:
+  - a1.m00.l01
+  tags:
+  - sprache-lernen
+  source: nwn
+- id: a1.m00.v.buchstabe
+  de: Buchstabe
+  pos: noun
+  article: der
+  plural: Buchstaben
+  vi: chữ cái
+  ipa: /ˈbuːxˌʃtaːbə/
+  example:
+    de: Das ist der Buchstabe A.
+    vi: Đây là chữ cái A.
+  usage_vi: Chỉ chữ viết (A, B, C). Âm thanh thì gọi là der Laut – học sau.
+  lesson_refs:
+  - a1.m00.l01
+  tags:
+  - sprache-lernen
+  source: nwn-lern
+- id: a1.m00.v.umlaut
+  de: Umlaut
+  pos: noun
+  article: der
+  plural: Umlaute
+  vi: nguyên âm biến âm (ä, ö, ü)
+  ipa: /ˈʊmlaʊ̯t/
+  example:
+    de: Ä, Ö und Ü sind Umlaute.
+    vi: Ä, Ö và Ü là các nguyên âm biến âm.
+  usage_vi: 'Hai dấu chấm trên chữ làm thay đổi âm và có thể thay đổi nghĩa: schon (đã) ≠ schön (đẹp).'
+  lesson_refs:
+  - a1.m00.l01
+  tags:
+  - sprache-lernen
+  - aussprache
+  source: supplement
+- id: a1.m00.v.eszett
+  de: Eszett
+  pos: noun
+  article: das
+  plural: Eszett
+  vi: chữ ß (s kép)
+  ipa: /ɛsˈtsɛt/
+  example:
+    de: ß ist das Eszett.
+    vi: ß là chữ Eszett.
+  usage_vi: 'ß đọc như s (không rung) và chỉ đứng sau nguyên âm dài hoặc nguyên âm đôi: die Straße, heißen. Không bao giờ đứng đầu từ.'
+  lesson_refs:
+  - a1.m00.l01
+  tags:
+  - sprache-lernen
+  - aussprache
+  source: supplement
+- id: a1.m00.v.hotel
+  de: Hotel
+  pos: noun
+  article: das
+  plural: Hotels
+  vi: khách sạn
+  ipa: /hoˈtɛl/
+  example:
+    de: Das Hotel ist in Berlin.
+    vi: Khách sạn ở Berlin.
+  usage_vi: 'Từ quốc tế – nhưng trọng âm ở âm tiết sau: ho-TEL.'
+  lesson_refs:
+  - a1.m00.l02
+  tags:
+  - international
+  - aussprache
+  source: supplement
+- id: a1.m00.v.taxi
+  de: Taxi
+  pos: noun
+  article: das
+  plural: Taxis
+  vi: xe taxi
+  ipa: /ˈtaksi/
+  example:
+    de: Ein Taxi, bitte!
+    vi: Cho tôi một chiếc taxi!
+  usage_vi: Từ quốc tế; số nhiều thêm -s như tiếng Anh.
+  lesson_refs:
+  - a1.m00.l02
+  tags:
+  - international
+  - aussprache
+  source: supplement
+- id: a1.m00.v.kaffee
+  de: Kaffee
+  pos: noun
+  article: der
+  plural: Kaffees
+  vi: cà phê
+  ipa: /ˈkafe/
+  example:
+    de: Ein Kaffee, bitte!
+    vi: Cho tôi một ly cà phê!
+  usage_vi: 'Tiếng Việt "cà phê" và tiếng Đức "Kaffee" đều có gốc từ tiếng Pháp café. Ở Đức trọng âm thường ở đầu: KAF-fe.'
+  lesson_refs:
+  - a1.m00.l02
+  tags:
+  - international
+  - essen-trinken
+  source: supplement
+- id: a1.m00.v.tee
+  de: Tee
+  pos: noun
+  article: der
+  plural: Tees
+  vi: trà
+  ipa: /teː/
+  example:
+    de: Ein Tee, bitte!
+    vi: Cho tôi một tách trà!
+  usage_vi: ee đọc là [eː] dài – giống "ê" kéo dài, không đọc "i" như tiếng Anh.
+  lesson_refs:
+  - a1.m00.l02
+  tags:
+  - international
+  - essen-trinken
+  - aussprache
+  source: supplement
+- id: a1.m00.v.musik
+  de: Musik
+  pos: noun
+  article: die
+  no_plural: true
+  vi: âm nhạc
+  ipa: /muˈziːk/
+  example:
+    de: Die Musik ist gut.
+    vi: Âm nhạc hay.
+  usage_vi: 'Thường không dùng số nhiều. s trước nguyên âm đọc là [z]: mu-ZIK.'
+  lesson_refs:
+  - a1.m00.l02
+  tags:
+  - international
+  - freizeit
+  - sg-only
+  source: supplement
+- id: a1.m00.v.internet
+  de: Internet
+  pos: noun
+  article: das
+  no_plural: true
+  vi: internet
+  ipa: /ˈɪntɐnɛt/
+  example:
+    de: Das Internet ist super.
+    vi: Internet rất tuyệt.
+  usage_vi: Không dùng số nhiều. Đuôi -er đọc là [ɐ] (gần "a" nhẹ), không đọc "ơ" có r.
+  lesson_refs:
+  - a1.m00.l02
+  tags:
+  - international
+  - medien
+  - sg-only
+  source: supplement
+- id: a1.m00.v.pizza
+  de: Pizza
+  pos: noun
+  article: die
+  plural: Pizzas
+  vi: bánh pizza
+  ipa: /ˈpɪtsa/
+  example:
+    de: Eine Pizza, bitte!
+    vi: Cho tôi một cái pizza!
+  usage_vi: 'zz/z đọc là [ts]. Số nhiều có hai dạng đều đúng: die Pizzas / die Pizzen.'
+  lesson_refs:
+  - a1.m00.l02
+  tags:
+  - international
+  - essen-trinken
+  - aussprache
+  source: supplement
+- id: a1.m00.v.hoeren
+  de: hören
+  pos: verb
+  vi: nghe
+  forms:
+    text: du hörst, er hört
+    er: hört
+  ipa: /ˈhøːʁən/
+  example:
+    de: Hören Sie, bitte.
+    vi: Xin hãy nghe.
+  usage_vi: 'Trong đề bài: "Hören Sie." = Hãy nghe. ö đọc như "ê" nhưng tròn môi.'
+  lesson_refs:
+  - a1.m00.l03
+  tags:
+  - arbeitsanweisung
+  source: nwn-lern
+- id: a1.m00.v.lesen
+  de: lesen
+  pos: verb
+  vi: đọc
+  forms:
+    text: du liest, er liest
+    er: liest
+  ipa: /ˈleːzn̩/
+  example:
+    de: Lesen Sie, bitte.
+    vi: Xin hãy đọc.
+  usage_vi: 'Động từ đổi nguyên âm: ich lese, du liest, er liest.'
+  lesson_refs:
+  - a1.m00.l03
+  tags:
+  - arbeitsanweisung
+  source: nwn-lern
+- id: a1.m00.v.schreiben
+  de: schreiben
+  pos: verb
+  vi: viết
+  forms:
+    text: du schreibst, er schreibt
+    er: schreibt
+  ipa: /ˈʃʁaɪ̯bn̩/
+  example:
+    de: Ich schreibe.
+    vi: Tôi viết.
+  usage_vi: sch đọc là [ʃ], ei đọc là [aɪ̯] (gần "ai").
+  lesson_refs:
+  - a1.m00.l03
+  tags:
+  - arbeitsanweisung
+  source: nwn-lern
+- id: a1.m00.v.nach-sprechen
+  de: nach|sprechen
+  pos: verb
+  vi: nói theo, nhắc lại
+  forms:
+    text: du sprichst nach, er spricht nach
+    er: spricht nach
+  ipa: /ˈnaːxˌʃpʁɛçn̩/
+  example:
+    de: Hören Sie und sprechen Sie nach.
+    vi: Hãy nghe và nhắc lại.
+  usage_vi: 'Động từ tách: phần "nach" đứng cuối câu. Bạn chỉ cần hiểu câu đề bài; quy tắc động từ tách học ở Kapitel 6.'
+  lesson_refs:
+  - a1.m00.l03
+  tags:
+  - arbeitsanweisung
+  source: supplement
+- id: a1.m00.v.richtig
+  de: richtig
+  pos: adjective
+  vi: đúng
+  ipa: /ˈʁɪçtɪç/
+  example:
+    de: Richtig oder falsch?
+    vi: Đúng hay sai?
+  usage_vi: Đuôi -ig đọc là [ɪç] (như trong "ich").
+  lesson_refs:
+  - a1.m00.l03
+  tags:
+  - arbeitsanweisung
+  source: supplement
+- id: a1.m00.v.falsch
+  de: falsch
+  pos: adjective
+  vi: sai
+  ipa: /falʃ/
+  example:
+    de: Das ist falsch.
+    vi: Cái đó sai.
+  usage_vi: Phải đọc rõ phụ âm cuối sch [ʃ] – người Việt hay bỏ âm cuối.
+  lesson_refs:
+  - a1.m00.l03
+  tags:
+  - arbeitsanweisung
+  source: supplement
+- id: a1.m00.v.hallo
+  de: hallo
+  pos: interjection
+  vi: xin chào (thân mật)
+  ipa: /ˈhalo/
+  example:
+    de: Hallo, Anna!
+    vi: Chào Anna!
+  usage_vi: Dùng với bạn bè, người quen, người trẻ. Trong công việc có thể dùng nhưng "Guten Tag" an toàn hơn.
+  lesson_refs:
+  - a1.m00.l04
+  tags:
+  - begruessung
+  source: nwn-lern
+- id: a1.m00.v.tschues
+  de: tschüs
+  pos: interjection
+  vi: tạm biệt (thân mật)
+  ipa: /tʃyːs/
+  example:
+    de: Tschüs, Paul!
+    vi: Tạm biệt Paul!
+  usage_vi: 'Cũng viết "tschüss" (đọc ngắn). Trang trọng hơn: "Auf Wiedersehen!" (Kapitel 1).'
+  lesson_refs:
+  - a1.m00.l04
+  tags:
+  - verabschiedung
+  source: nwn-lern
+- id: a1.m00.v.danke
+  de: danke
+  pos: interjection
+  vi: cảm ơn
+  ipa: /ˈdaŋkə/
+  example:
+    de: Danke, Anna!
+    vi: Cảm ơn Anna!
+  usage_vi: 'Mạnh hơn: "Danke schön!" / "Vielen Dank!". Đuôi -e đọc nhẹ [ə], không bỏ.'
+  lesson_refs:
+  - a1.m00.l04
+  tags:
+  - hoeflichkeit
+  source: nwn-lern
+- id: a1.m00.v.bitte
+  de: bitte
+  pos: particle
+  vi: làm ơn; xin mời; không có gì
+  ipa: /ˈbɪtə/
+  example:
+    de: Ein Kaffee, bitte.
+    vi: Cho tôi một ly cà phê.
+  usage_vi: 'Từ nhiều nghĩa: (1) làm ơn khi yêu cầu; (2) "Bitte!" = không có gì (đáp lại Danke); (3) "Wie bitte?" = xin lỗi, gì cơ?'
+  lesson_refs:
+  - a1.m00.l04
+  tags:
+  - hoeflichkeit
+  - mehrdeutig
+  source: nwn-lern
+- id: a1.m00.v.ja
+  de: ja
+  pos: particle
+  vi: vâng, có, phải
+  ipa: /jaː/
+  example:
+    de: Ja, richtig!
+    vi: Vâng, đúng rồi!
+  usage_vi: j đọc là [j] như "d" giọng miền Nam ("dạ") – không đọc "gi" như tiếng Anh.
+  lesson_refs:
+  - a1.m00.l04
+  tags:
+  - antwort
+  source: nwn-lern
+- id: a1.m00.v.nein
+  de: nein
+  pos: particle
+  vi: không
+  ipa: /naɪ̯n/
+  example:
+    de: Nein, das ist falsch.
+    vi: Không, cái đó sai.
+  usage_vi: ei đọc là [aɪ̯] – gần "nai" trong tiếng Việt.
+  lesson_refs:
+  - a1.m00.l04
+  tags:
+  - antwort
+  source: nwn-lern
+- id: a1.m00.v.entschuldigung
+  de: Entschuldigung
+  pos: noun
+  article: die
+  plural: Entschuldigungen
+  vi: sự xin lỗi; xin lỗi!
+  ipa: /ɛntˈʃʊldɪɡʊŋ/
+  example:
+    de: Entschuldigung, wo ist das Hotel?
+    vi: Xin lỗi, khách sạn ở đâu ạ?
+  usage_vi: 'Dùng một mình như câu nói: "Entschuldigung!" = xin lỗi (khi làm phiền) / làm ơn cho hỏi (gọi sự chú ý). Trọng âm: ent-SCHUL-di-gung.'
+  lesson_refs:
+  - a1.m00.l04
+  tags:
+  - hoeflichkeit
+  - mehrdeutig
+  source: nwn-lern
+- id: a1.m00.v.wie-bitte
+  de: Wie bitte?
+  pos: phrase
+  vi: Xin lỗi, gì cơ? (đề nghị nhắc lại)
+  ipa: /viː ˈbɪtə/
+  example:
+    de: – Ich heiße Anke. – Wie bitte?
+    vi: – Tôi tên là Anke. – Xin lỗi, gì cơ ạ?
+  usage_vi: Lịch sự hơn "Was?" (Cái gì?). Dùng khi không nghe rõ.
+  lesson_refs:
+  - a1.m00.l04
+  tags:
+  - verstaendigung
+  source: supplement
+- id: a1.m00.v.ich-verstehe-nicht
+  de: Ich verstehe nicht.
+  pos: phrase
+  vi: Tôi không hiểu.
+  ipa: /ɪç fɛɐ̯ˈʃteːə nɪçt/
+  example:
+    de: Entschuldigung, ich verstehe nicht.
+    vi: Xin lỗi, tôi không hiểu.
+  usage_vi: Học nguyên câu. Động từ verstehen và phủ định nicht được học kỹ ở Kapitel 1, bài 4.
+  lesson_refs:
+  - a1.m00.l04
+  tags:
+  - verstaendigung
+  source: supplement

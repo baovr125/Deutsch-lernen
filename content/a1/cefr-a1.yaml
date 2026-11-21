@@ -1,0 +1,118 @@
+# Chuẩn đầu ra CEFR A1 — diễn giải tiếng Việt.
+# Mỗi lesson/unit tham chiếu các mã dưới đây (trường `cefr`).
+# Nội dung được diễn giải (không dịch nguyên văn) từ các thang mô tả của CEFR.
+level: A1
+sources:
+  - "Council of Europe (2001): Common European Framework of Reference for Languages — Table 1 (Global scale), Table 2 (Self-assessment grid)"
+  - "Council of Europe (2020): CEFR Companion Volume — các thang mô tả hoạt động giao tiếp (https://rm.coe.int/16809ea0d4)"
+descriptors:
+  # ---------------- Hören (Nghe) ----------------
+  - id: A1.H1
+    skill: listening
+    cefr_scale: "Overall oral comprehension / Self-assessment grid: Listening"
+    can_do_vi: "Nhận ra các từ quen thuộc và cụm từ rất cơ bản về bản thân, gia đình và môi trường cụ thể xung quanh, khi người nói nói chậm và rõ ràng."
+    evidence_vi: "Nghe hội thoại chào hỏi, giới thiệu ngắn và chọn đúng tên, quê quán, thông tin cá nhân."
+  - id: A1.H2
+    skill: listening
+    cefr_scale: "Understanding instructions addressed carefully and slowly"
+    can_do_vi: "Hiểu câu hỏi và chỉ dẫn ngắn, đơn giản được nói chậm, cẩn thận và làm theo được."
+    evidence_vi: "Làm đúng theo các chỉ dẫn quen thuộc trên lớp/trong ứng dụng: nghe và nhắc lại, đánh vần, trả lời câu hỏi."
+  - id: A1.H3
+    skill: listening
+    cefr_scale: "Overall oral comprehension (CV 2020): numbers, prices, dates, days"
+    can_do_vi: "Nhận ra số, số điện thoại, giá tiền, giờ giấc, ngày trong tuần khi được nói chậm và rõ trong ngữ cảnh quen thuộc."
+    evidence_vi: "Nghe và ghi lại chính xác số điện thoại, chữ cái được đánh vần, giờ hẹn."
+  - id: A1.H4
+    skill: listening
+    cefr_scale: "Understanding conversation / Listening to announcements (mức A1)"
+    can_do_vi: "Nắm được thông tin cụ thể (ai, ở đâu, khi nào, cái gì) trong đoạn hội thoại hoặc thông báo rất ngắn về chủ đề hằng ngày, nói chậm và rõ."
+    evidence_vi: "Trả lời câu hỏi đúng/sai hoặc trắc nghiệm về một đoạn hội thoại ngắn."
+    out_of_scope_vi: "Không yêu cầu hiểu hội thoại tốc độ tự nhiên, nhiều người nói chồng lời (thuộc A2 trở lên)."
+
+  # ---------------- Lesen (Đọc) ----------------
+  - id: A1.L1
+    skill: reading
+    cefr_scale: "Overall reading comprehension / Self-assessment grid: Reading"
+    can_do_vi: "Hiểu tên riêng, từ quen thuộc và câu rất đơn giản, ví dụ trên biển báo, áp phích, danh thiếp hoặc catalogue."
+    evidence_vi: "Đọc danh thiếp, hồ sơ cá nhân ngắn và trả lời ai, ở đâu, làm gì."
+  - id: A1.L2
+    skill: reading
+    cefr_scale: "Reading correspondence"
+    can_do_vi: "Hiểu tin nhắn, thiệp hoặc email ngắn, đơn giản (lời chào, lời mời, hẹn gặp)."
+    evidence_vi: "Đọc tin nhắn ngắn và xác định người gửi muốn gì."
+  - id: A1.L3
+    skill: reading
+    cefr_scale: "Reading for orientation / Reading for information"
+    can_do_vi: "Tìm thông tin cụ thể trong văn bản thông tin đơn giản quen thuộc: biểu mẫu, thông báo, quảng cáo, lịch, thực đơn."
+    evidence_vi: "Tìm số điện thoại, email, giờ mở cửa, giá tiền trong một văn bản ngắn."
+  - id: A1.L4
+    skill: reading
+    cefr_scale: "Reading instructions"
+    can_do_vi: "Làm theo chỉ dẫn viết ngắn, đơn giản (ví dụ chỉ đường, yêu cầu bài tập)."
+    evidence_vi: "Đọc đề bài tiếng Đức đơn giản và làm đúng yêu cầu."
+
+  # ---------------- Sprechen – Interaktion (Nói tương tác) ----------------
+  - id: A1.SI1
+    skill: spoken-interaction
+    cefr_scale: "Sociolinguistic appropriateness / Conversation"
+    can_do_vi: "Thiết lập giao tiếp xã hội cơ bản bằng các hình thức lịch sự đơn giản nhất: chào hỏi, tạm biệt, giới thiệu, nói cảm ơn, xin lỗi, làm ơn; phân biệt xưng hô thân mật và trang trọng."
+    evidence_vi: "Đóng vai chào hỏi ở tình huống thân mật (bạn bè) và trang trọng (công việc) với lời chào, xưng hô đúng."
+  - id: A1.SI2
+    skill: spoken-interaction
+    cefr_scale: "Information exchange"
+    can_do_vi: "Hỏi và trả lời câu hỏi đơn giản về thông tin cá nhân: tên, quê quán, nơi ở, ngôn ngữ, nghề nghiệp, người quen, đồ vật mình có."
+    evidence_vi: "Phỏng vấn bạn học với các câu hỏi W- và trả lời bằng câu hoàn chỉnh."
+  - id: A1.SI3
+    skill: spoken-interaction
+    cefr_scale: "Overall spoken interaction / Asking for clarification"
+    can_do_vi: "Giao tiếp đơn giản khi người đối diện nói chậm, sẵn sàng nhắc lại; biết nói rằng mình không hiểu, đề nghị nhắc lại, nói chậm hơn hoặc đánh vần."
+    evidence_vi: "Dùng đúng lúc: Wie bitte? / Noch einmal, bitte. / Langsam, bitte. / Können Sie das buchstabieren?"
+  - id: A1.SI4
+    skill: spoken-interaction
+    cefr_scale: "Obtaining goods and services"
+    can_do_vi: "Yêu cầu và đưa đồ vật; xử lý con số, số lượng, giá tiền và thời gian trong tình huống đơn giản."
+    evidence_vi: "Đọc và hỏi lại số điện thoại; mua bán, gọi món đơn giản (từ Kapitel 4)."
+  - id: A1.SI5
+    skill: spoken-interaction
+    cefr_scale: "Overall spoken interaction"
+    can_do_vi: "Hỏi và trả lời câu hỏi đơn giản trong tình huống nhu cầu tức thời hoặc chủ đề rất quen thuộc (giờ, hẹn, đường đi, sức khỏe, mua sắm)."
+    evidence_vi: "Đóng vai hẹn gặp, hỏi đường, đặt lịch khám theo khung hội thoại."
+
+  # ---------------- Sprechen – Produktion (Nói độc thoại) ----------------
+  - id: A1.SP1
+    skill: spoken-production
+    cefr_scale: "Overall oral production / Sustained monologue: describing experience"
+    can_do_vi: "Dùng cụm từ và câu đơn giản để giới thiệu bản thân, mô tả nơi mình sống và những người mình quen."
+    evidence_vi: "Nói 4–6 câu giới thiệu bản thân hoặc giới thiệu một người khác."
+  - id: A1.SP2
+    skill: spoken-production
+    cefr_scale: "Sustained monologue (A1)"
+    can_do_vi: "Nói về bản thân bằng các câu đơn giản, rời rạc: công việc, sở thích, thói quen hằng ngày, gia đình."
+    evidence_vi: "Kể ngắn về một ngày của mình hoặc sở thích của mình."
+  - id: A1.SP3
+    skill: spoken-production
+    cefr_scale: "Phonological control (A1)"
+    can_do_vi: "Phát âm một vốn từ và cụm từ đã học đủ rõ để người quen nghe người học ngoại ngữ có thể hiểu được (dù còn cố gắng)."
+    evidence_vi: "Đọc to, nhắc lại câu mẫu với trọng âm và ngữ điệu câu cơ bản đúng."
+
+  # ---------------- Schreiben (Viết) ----------------
+  - id: A1.S1
+    skill: writing
+    cefr_scale: "Filling in forms / Self-assessment grid: Writing"
+    can_do_vi: "Điền thông tin cá nhân vào biểu mẫu: tên, họ, quốc tịch, địa chỉ, số điện thoại, email, ngày sinh."
+    evidence_vi: "Điền đúng một phiếu đăng ký đơn giản."
+  - id: A1.S2
+    skill: writing
+    cefr_scale: "Overall written production / Creative writing (A1)"
+    can_do_vi: "Viết các cụm từ và câu đơn giản về bản thân và người khác: sống ở đâu, làm gì, thích gì."
+    evidence_vi: "Viết đoạn 4–6 câu giới thiệu bản thân."
+  - id: A1.S3
+    skill: writing
+    cefr_scale: "Correspondence (A1)"
+    can_do_vi: "Viết tin nhắn, bưu thiếp hoặc email ngắn, đơn giản: chào hỏi, cảm ơn, mời, hẹn, trả lời lời mời."
+    evidence_vi: "Viết email/tin nhắn ngắn 3–5 câu theo yêu cầu có các ý cho sẵn."
+  - id: A1.S4
+    skill: writing
+    cefr_scale: "Orthographic control (A1)"
+    can_do_vi: "Chép chính xác các từ và cụm từ quen thuộc; đánh vần và viết đúng thông tin cá nhân (tên, địa chỉ, email); viết hoa danh từ."
+    evidence_vi: "Nghe đánh vần và viết lại chính xác tên, email; viết đúng chính tả các từ đã học."

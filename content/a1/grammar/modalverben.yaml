@@ -1,0 +1,195 @@
+schema_version: '2.0'
+content_type: grammar-topic
+id: a1.g.modalverben
+level: A1
+introduced_in: a1.m05
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+  references:
+  - work: Netzwerk neu A1 (Klett)
+    scope: 'Kapitel 5: Die Verabredung'
+    verification: verified
+  notes_vi: Tương ứng Grammatik „Modalverb im Satz · Modalverben“ của Kapitel 5.
+introduced_in_lesson: a1.m05.l05
+title_de: 'Modalverben im Satz: können und wollen'
+title_vi: Động từ khuyết thiếu và cấu trúc khung câu (können, wollen)
+summary_vi: "Động từ khuyết thiếu (Modalverben) là nhóm động từ đặc biệt dùng để bổ sung ý nghĩa về khả năng, nguyện vọng, ý muốn hoặc sự bắt buộc cho một hành động khác.\n\n**1. Hai động từ khuyết thiếu trọng tâm ở Kapitel 5:**\n- **können (có thể):** diễn đạt khả năng, năng lực hoặc cơ hội làm được việc gì:\n  * *Ich **kann** gut schwimmen.* (Tôi có thể bơi giỏi.)\n  * *Am Samstag **kann** ich leider nicht kommen.* (Thứ Bảy tiếc là tôi không thể đến được.)\n- **wollen (muốn, dự định):** diễn đạt ý muốn chủ quan mạnh mẽ hoặc kế hoạch chắc chắn:\n  * *Wir **wollen** heute Abend Pizza essen.* (Tối nay chúng tôi muốn/dự định ăn pizza.)\n*(Lưu ý: muốn lịch sự nhẹ nhàng khi gọi món dùng möchten: Ich möchte einen Kaffee; muốn quyết tâm có kế hoạch dùng wollen: Ich will Deutsch lernen).*\n\n**2. Quy tắc chia động từ khuyết thiếu:**\n- Đổi nguyên âm ở các ngôi số ít (*ich, du, er/sie/es*):\n  * *können* $\\rightarrow$ nguyên âm đổi thành **a** (*kann*)\n  * *wollen* $\\rightarrow$ nguyên âm đổi\
+  \ thành **i** (*will*)\n- **Quy tắc vàng:** Ngôi **ich** và ngôi **er/sie/es** luôn có dạng **hoàn toàn giống nhau** và **KHÔNG THÊM ĐUÔI**:\n  * *ich kann = er kann* (không chia kannt!)\n  * *ich will = er will* (không chia willt!)\n\n**3. Cấu trúc khung câu (Satzklammer):**\nKhi câu có động từ khuyết thiếu:\n- **Động từ khuyết thiếu (đã chia)** đứng ở **VỊ TRÍ SỐ 2 (Position 2)**.\n- **Động từ chính (chỉ hành động)** giữ nguyên dạng **nguyên thể (Infinitiv)** và bị đẩy về **ĐỨNG Ở CUỐI CÙNG CỦA CÂU**:\n  * `Pos 1`: Ich\n  * `Pos 2`: **kann** (Modalverb)\n  * `Thành phần giữa`: morgen um 18 Uhr\n  * `Cuối câu`: **kommen** (Infinitiv)."
+usage_vi: Dùng können để nói về khả năng/năng lực; dùng wollen để nói về ý muốn/kế hoạch. Modalverb chia ở vị trí 2, động từ chính nguyên thể ở cuối câu.
+objectives:
+- id: a1.g.modalverben.obj1
+  text_vi: Dùng können và wollen với động từ nguyên mẫu ở cuối câu.
+  skill: grammar
+rules:
+- id: a1.g.modalverben.r1
+  title_vi: Ngôi ich và er/sie/es giống nhau
+  body_vi: Động từ khuyết thiếu có dạng ngôi ich và er/sie/es giống hệt nhau, không có đuôi chia (ich kann/er kann; ich will/er will).
+  examples:
+  - de: Er kann gut Deutsch sprechen.
+    vi: Anh ấy có thể nói tiếng Đức giỏi.
+  - de: Sie will heute ins Kino gehen.
+    vi: Cô ấy muốn đi xem phim hôm nay.
+- id: a1.g.modalverben.r2
+  title_vi: Khung câu (Satzklammer)
+  body_vi: 'Cấu trúc khung câu (Satzklammer): Động từ khuyết thiếu chia ở vị trí 2, động từ chính để nguyên thể (Infinitiv) và đứng ở cuối câu.'
+  examples:
+  - de: Wir wollen am Wochenende Freunde treffen.
+    vi: Cuối tuần chúng tôi muốn gặp gỡ bạn bè.
+  - de: Kannst du bitte das Fenster aufmachen?
+    vi: Bạn có thể mở cửa sổ ra được không?
+sentence_structures:
+- pattern: Chủ ngữ (Pos 1) + Modalverb (Pos 2) + ... + Động từ nguyên thể (Cuối câu).
+  example:
+    de: Ich kann sehr gut kochen.
+    vi: Tôi có thể nấu ăn rất giỏi.
+- pattern: Trạng từ (Pos 1) + Modalverb (Pos 2) + Chủ ngữ (Pos 3) + ... + Động từ nguyên thể (Cuối câu).
+  example:
+    de: Am Samstag will ich lange schlafen.
+    vi: Thứ Bảy tôi muốn ngủ nướng.
+- pattern: Modalverb (Pos 1) + Chủ ngữ + ... + Động từ nguyên thể (Cuối câu)?
+  example:
+    de: Kannst du mich morgen anrufen?
+    vi: Ngày mai bạn có thể gọi điện cho tôi được không?
+tables:
+- title_vi: Bảng chia động từ können và wollen ở thì hiện tại
+  header:
+  - Đại từ
+  - können (có thể)
+  - wollen (muốn)
+  rows:
+  - - ich
+    - kann
+    - will
+  - - du
+    - kannst
+    - willst
+  - - er / sie / es
+    - kann
+    - will
+  - - wir
+    - können
+    - wollen
+  - - ihr
+    - könnt
+    - wollt
+  - - sie / Sie
+    - können
+    - wollen
+  note_vi: 'Lưu ý: Cả hai động từ đều đổi nguyên âm ở số ít (können → kann, wollen → will) và ngôi ich = ngôi er/sie/es.'
+examples:
+- de: Kannst du am Freitag zum Fest mitkommen? – Ja, ich kann kommen.
+  vi: Thứ Sáu bạn có thể đi cùng đến bữa tiệc không? – Có, mình có thể đến.
+- de: Lukas will am Nachmittag Fußball spielen.
+  vi: Lukas muốn chơi bóng đá vào buổi chiều.
+- de: Wir können leider nicht bis Mitternacht bleiben.
+  vi: Tiếc là chúng tôi không thể ở lại đến nửa đêm.
+- de: Meine Tochter kann schon sehr schön malen.
+  vi: Con gái tôi đã có thể vẽ rất đẹp rồi.
+- de: Wann wollen wir uns treffen? – Um halb acht.
+  vi: Khi nào chúng mình muốn gặp nhau? – Lúc bảy giờ rưỡi.
+common_mistakes:
+- wrong: Er kannt schwimmen.
+  right: Er kann schwimmen.
+  explanation_vi: 'Ngôi er/sie/es của động từ khuyết thiếu không thêm đuôi -t: er kann (giống hệt ich kann).'
+- wrong: Ich kann sprechen gut Deutsch.
+  right: Ich kann gut Deutsch sprechen.
+  explanation_vi: 'Nguyên tắc khung câu: động từ chính sprechen phải đứng ở CUỐI CÙNG của câu.'
+- wrong: Wir wollen Pizza essen gehen heute.
+  right: Wir wollen heute Pizza essen gehen.
+  explanation_vi: Cụm động từ chính luôn bị đẩy về cuối câu, trạng từ thời gian (heute) phải đứng ở phần giữa câu.
+comparison_vi: 'Trong tiếng Anh: ''I can speak German'' (hai động từ đứng cạnh nhau: can speak). Trong tiếng Đức: ''Ich kann Deutsch sprechen'' (động từ sprechen bị đẩy về cuối câu tạo thành khung câu Satzklammer).'
+vietnamese_contrast_vi: Tiếng Việt đặt hai động từ liền kề nhau ('Tôi có thể nói tiếng Đức'). Người Việt thường có thói quen dịch từng chữ 'Ich kann sprechen Deutsch' - đây là lỗi sai trật tự từ cơ bản. Trong tiếng Đức, động từ hành động chính luôn chạy về vị trí cuối câu.
+recap_vi: 'Động từ khuyết thiếu (können, wollen): chia ở vị trí 2, ngôi ich = er/sie/es (không có đuôi). Động từ chính chỉ hành động giữ nguyên dạng nguyên thể và đứng ở cuối cùng của câu (cấu trúc khung câu Satzklammer).'
+next_level_note_vi: 'Các động từ khuyết thiếu còn lại: müssen, sollen, dürfen sẽ được học toàn diện ở Kapitel 8 (Fit und gesund).'
+prerequisites:
+- g-a1-verben-praesens
+- g-a1-satzbau-grundlagen
+exercises:
+- id: a1.g.modalverben.ex.01
+  type: multiple-choice
+  skill: grammar
+  difficulty: 1
+  objective_refs:
+  - a1.g.modalverben.r1
+  - a1.g.modalverben.obj1
+  instructions_vi: Chọn dạng chia đúng của động từ können hoặc wollen.
+  items:
+  - id: a1.g.modalverben.ex.01.q1
+    prompt: ___ du am Samstag mitkommen? (können)
+    options:
+    - id: a
+      text: Kannst
+    - id: b
+      text: Können
+    - id: c
+      text: Kann
+    - id: d
+      text: Könnt
+    answer:
+    - a
+    explanation_vi: Chủ ngữ du → chia können là Kannst.
+  - id: a1.g.modalverben.ex.01.q2
+    prompt: Mein Sohn ___ Arzt werden. (wollen)
+    options:
+    - id: a
+      text: willst
+    - id: b
+      text: will
+    - id: c
+      text: wollt
+    - id: d
+      text: wollte
+    answer:
+    - b
+    explanation_vi: Chủ ngữ er (mein Sohn) → chia wollen là will (không đuôi).
+  - id: a1.g.modalverben.ex.01.q3
+    prompt: Wir ___ heute Abend zusammen kochen. (wollen)
+    options:
+    - id: a
+      text: willt
+    - id: b
+      text: will
+    - id: c
+      text: wollt
+    - id: d
+      text: wollen
+    answer:
+    - d
+    explanation_vi: Chủ ngữ wir → wollen.
+- id: a1.g.modalverben.ex.02
+  type: word-order
+  skill: grammar
+  difficulty: 2
+  objective_refs:
+  - a1.g.modalverben.r2
+  - a1.g.modalverben.obj1
+  instructions_vi: Sắp xếp các từ thành câu hoàn chỉnh tuân thủ cấu trúc khung câu (động từ nguyên thể ở cuối).
+  items:
+  - id: a1.g.modalverben.ex.02.q1
+    tokens:
+    - gut
+    - kann
+    - kochen
+    - Ich
+    answer: Ich kann gut kochen.
+    prompt_vi: 'Sắp xếp: Ich / gut / kann / kochen .'
+    explanation_vi: Ich (chủ ngữ) + kann (vị trí 2) + gut + kochen (nguyên thể ở cuối câu).
+  - id: a1.g.modalverben.ex.02.q2
+    tokens:
+    - heute
+    - nicht
+    - kann
+    - kommen
+    - Er
+    answer: Er kann heute nicht kommen.
+    prompt_vi: 'Sắp xếp: Er / heute / kommen / nicht / kann .'
+    explanation_vi: Er (chủ ngữ) + kann (vị trí 2) + heute nicht + kommen (nguyên thể ở cuối câu).

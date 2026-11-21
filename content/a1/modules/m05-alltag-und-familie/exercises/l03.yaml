@@ -1,0 +1,203 @@
+schema_version: '2.0'
+content_type: exercise-set
+id: a1.m05.l03.ex
+level: A1
+module: a1.m05
+lesson: a1.m05.l03
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+exercises:
+- id: a1.m05.l03.ex.01
+  type: matching
+  skill: vocabulary
+  difficulty: 1
+  objective_refs:
+  - a1.m05.l03.obj1
+  instructions_vi: Nối cặp từ tương ứng trong gia đình.
+  items:
+  - id: a1.m05.l03.ex.01.q1
+    pairs:
+    - left: der Vater
+      right: die Mutter
+    - left: der Sohn
+      right: die Tochter
+    - left: der Bruder
+      right: die Schwester
+    - left: der Großvater
+      right: die Großmutter
+    - left: der Opa
+      right: die Oma
+    - left: der Enkel
+      right: die Enkelin
+    explanation_vi: Các cặp danh từ nam - nữ đối ứng trong gia đình.
+- id: a1.m05.l03.ex.02
+  type: multiple-choice
+  skill: grammar
+  difficulty: 1
+  objective_refs:
+  - a1.m05.l03.obj2
+  - a1.m05.l03.obj3
+  instructions_vi: Chọn mạo từ sở hữu đúng điền vào chỗ trống.
+  items:
+  - id: a1.m05.l03.ex.02.q1
+    prompt: Das ist ___ (ich) Schwester Anna.
+    options:
+    - id: a
+      text: meiner
+    - id: b
+      text: meine
+    - id: c
+      text: meinen
+    - id: d
+      text: mein
+    answer:
+    - b
+    explanation_vi: die Schwester (giống cái) → meine.
+  - id: a1.m05.l03.ex.02.q2
+    prompt: Ich besuche am Wochenende ___ (mein) Bruder in München.
+    options:
+    - id: a
+      text: mein
+    - id: b
+      text: meine
+    - id: c
+      text: meinen
+    - id: d
+      text: meines
+    answer:
+    - c
+    explanation_vi: der Bruder ở Akkusativ sau besuchen → meinen.
+  - id: a1.m05.l03.ex.02.q3
+    prompt: Thomas, wie heißt ___ (du) Hund?
+    options:
+    - id: a
+      text: dein
+    - id: b
+      text: deiner
+    - id: c
+      text: deine
+    - id: d
+      text: deinen
+    answer:
+    - a
+    explanation_vi: der Hund ở Nominativ (chủ ngữ sau heißt) → dein.
+- id: a1.m05.l03.ex.03
+  type: multiple-choice
+  skill: listening
+  difficulty: 2
+  objective_refs:
+  - a1.m05.l03.obj4
+  instructions_vi: Nghe hội thoại về bức ảnh gia đình và chọn câu trả lời đúng.
+  stimulus:
+    ref: a1.m05.l03.b5
+  items:
+  - id: a1.m05.l03.ex.03.q1
+    prompt: Wie alt ist Lauras Schwester Emma?
+    options:
+    - id: a
+      text: zwei Jahre alt
+    - id: b
+      text: sechs Jahre alt
+    - id: c
+      text: zehn Jahre alt
+    - id: d
+      text: zwanzig Jahre alt
+    answer:
+    - c
+    explanation_vi: 'Laura nói: ''Sie ist erst zehn Jahre alt''.'
+  - id: a1.m05.l03.ex.03.q2
+    prompt: Was studiert Lauras Bruder Felix in München?
+    options:
+    - id: a
+      text: Informatik
+    - id: b
+      text: Mathematik
+    - id: c
+      text: Medizin
+    - id: d
+      text: Wirtschaft
+    answer:
+    - a
+    explanation_vi: 'Laura nói: ''Er studiert Informatik in München''.'
+- id: a1.m05.l03.ex.04
+  type: true-false
+  skill: listening
+  difficulty: 2
+  objective_refs:
+  - a1.m05.l03.obj4
+  instructions_vi: Nghe lại và xác định câu sau là Đúng hay Sai.
+  stimulus:
+    ref: a1.m05.l03.b5
+  items:
+  - id: a1.m05.l03.ex.04.q1
+    prompt: Lauras Eltern heißen Michael und Sabine.
+    answer: true
+    explanation_vi: 'Đúng, Laura giới thiệu: ''mein Vater Michael und meine Mutter Sabine''.'
+  - id: a1.m05.l03.ex.04.q2
+    prompt: Der Hund Bruno gehört den Nachbarn.
+    answer: false
+    explanation_vi: Sai, Bruno là chó của gia đình Laura ('unser Hund Bruno').
+- id: a1.m05.l03.ex.05
+  type: true-false
+  skill: reading
+  difficulty: 2
+  objective_refs:
+  - a1.m05.l03.obj4
+  instructions_vi: Đọc bức thư của David và trả lời Đúng hoặc Sai.
+  stimulus:
+    ref: a1.m05.l03.b6
+  items:
+  - id: a1.m05.l03.ex.05.q1
+    prompt: David hat einen Sohn và eine Tochter.
+    answer: true
+    explanation_vi: 'Đúng, bài viết ghi: ''Unser Sohn Leo ... Unsere Tochter Sophie''.'
+  - id: a1.m05.l03.ex.05.q2
+    prompt: Davids Eltern wohnen in Berlin.
+    answer: false
+    explanation_vi: Sai, bố mẹ David sống ở Frankfurt gần nhà anh ấy ('Meine Eltern wohnen auch in Frankfurt').
+- id: a1.m05.l03.ex.06
+  type: fill-blank
+  skill: speaking
+  difficulty: 2
+  objective_refs:
+  - a1.m05.l03.obj2
+  instructions_vi: Điền mạo từ sở hữu thích hợp (mein / meine).
+  items:
+  - id: a1.m05.l03.ex.06.q1
+    prompt: Das sind ___ Eltern. (của tôi)
+    answers:
+    - meine
+    explanation_vi: die Eltern (số nhiều) → meine.
+  - id: a1.m05.l03.ex.06.q2
+    prompt: Das ist ___ Kind. (của tôi)
+    answers:
+    - mein
+    explanation_vi: das Kind (giống trung) → mein.
+- id: a1.m05.l03.ex.07
+  type: word-order
+  skill: writing
+  difficulty: 2
+  objective_refs:
+  - a1.m05.l03.obj2
+  - a1.m05.l03.obj3
+  instructions_vi: Sắp xếp các từ thành câu hoàn chỉnh đúng mạo từ sở hữu.
+  items:
+  - id: a1.m05.l03.ex.07.q1
+    tokens:
+    - an
+    - meinen
+    - Ich
+    - rufe
+    - Bruder
+    answer: Ich rufe meinen Bruder an.
+    prompt_vi: 'Sắp xếp: Ich / Bruder / meinen / an / rufe .'
+    explanation_vi: Ich (chủ ngữ) + rufe (vị trí 2) + meinen Bruder (tân ngữ Akkusativ) + an (tiền tố ở cuối).

@@ -1,0 +1,234 @@
+schema_version: '2.0'
+content_type: lesson
+id: a1.m02.l01
+level: A1
+module: a1.m02
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+  references:
+  - work: Netzwerk neu A1 (Klett)
+    scope: 'Kapitel 2: Freunde, Kollegen und ich'
+    verification: verified
+  notes_vi: 'Sprachhandlungen: Freizeitaktivitäten von Personen notieren; eigene Freizeitaktivitäten; Fragen und Antworten. Wortschatz: Hobbys und Aktivitäten.'
+order: 1
+title_de: Freunde, Kollegen und ich
+title_vi: 'Sở thích: Tôi thích làm gì?'
+topic_vi: Hoạt động thời gian rảnh; nói thích/không thích với gern
+duration_min: 70
+difficulty: 1
+cefr:
+- A1.SP2
+- A1.SI2
+- A1.H1
+- A1.L1
+prerequisites:
+- a1.m01.review
+objectives:
+- id: a1.m02.l01.obj1
+  text_vi: Gọi tên các hoạt động thời gian rảnh (kochen, tanzen, schwimmen, Fußball spielen…).
+  skill: vocabulary
+- id: a1.m02.l01.obj2
+  text_vi: Nói mình thích/không thích làm gì với gern, sehr gern, nicht so gern, nicht gern.
+  skill: listening
+- id: a1.m02.l01.obj3
+  text_vi: 'Hỏi người khác thích làm gì: Was machst du gern? / Tanzt du gern?'
+  skill: grammar
+- id: a1.m02.l01.obj4
+  text_vi: 'Nói về bạn bè và đồng nghiệp: Mein Freund/Meine Kollegin … gern.'
+  skill: grammar
+vocabulary_refs:
+- a1.m02.v.gern
+- a1.m02.v.leute
+- a1.m02.v.fotografieren
+- a1.m02.v.freund
+- a1.m02.v.freundin
+- a1.m02.v.joggen
+- a1.m02.v.kollege
+- a1.m02.v.kollegin
+- a1.m02.v.singen
+- a1.m02.v.tanzen
+- a1.m02.v.gehen
+- a1.m02.v.kino
+- a1.m02.v.kochen
+- a1.m02.v.reisen
+- a1.m02.v.schwimmen
+- a1.m02.v.antworten
+- a1.m02.v.arbeiten
+- a1.m02.v.so
+- a1.m02.v.spielen
+- a1.m02.v.machen
+- a1.m02.v.kennen
+review_vocabulary_refs:
+- a1.m00.v.musik
+- a1.m00.v.hoeren
+- a1.m00.v.lesen
+- a1.m00.v.ja
+- a1.m00.v.nein
+- a1.m01.v.auch
+- a1.m01.v.sehr
+grammar_refs: []
+expression_refs:
+- a1.m02.x.was-machst-du-gern-ich-gern
+- a1.m02.x.ja-sehr-gern-nein-nicht-so-gern
+- a1.m02.x.ich-auch-ich-nicht
+- a1.m02.x.es-geht-so
+exercise_set_ref: a1.m02.l01.ex
+summary_vi: 'Nói sở thích: ĐỘNG TỪ + gern (Ich koche gern). Mức độ: sehr gern, gern, nicht so gern, nicht gern. Hỏi: Was machst du gern? / Tanzt du gern? Môn thể thao không dùng mạo từ: Fußball spielen. Phản ứng: Ich auch! / Ich nicht.'
+self_check:
+- Tôi gọi tên được ít nhất 10 hoạt động thời gian rảnh.
+- Tôi nói được điều tôi thích và không thích với gern.
+- Tôi hỏi được người khác thích làm gì.
+- Tôi kể được sở thích của một người bạn.
+blocks:
+- id: a1.m02.l01.b1
+  kind: explanation
+  title_vi: Giới thiệu bài học
+  body_vi: '**Kapitel 2** bắt đầu với chủ đề ai cũng thích: **sở thích và thời gian rảnh**.
+
+
+    Trong tiếng Việt, ta nói “tôi **thích** nấu ăn” – “thích” là một động từ. Tiếng Đức thường nói khác:
+
+    **Ich koche gern.** – nghĩa đen “tôi nấu ăn **một cách vui vẻ**”. Từ **gern** đứng **sau động từ**.
+
+
+    Bài này dạy bạn khoảng 20 động từ hoạt động và cách nói mức độ thích:
+
+
+    **sehr gern** 😍 → **gern** 🙂 → **nicht so gern** 😐 → **nicht gern** 🙁
+
+
+    Bạn cũng sẽ dùng lại các ngôi **ich, du, er/sie** đã học ở Kapitel 1 để nói về bạn bè và đồng nghiệp.'
+- id: a1.m02.l01.b2
+  kind: explanation
+  title_vi: gern đứng sau động từ
+  skill: grammar
+  body_vi: 'Cấu trúc: Chủ ngữ + ĐỘNG TỪ + (tân ngữ) + gern. Phủ định: nicht gern (nicht đứng trước gern). Hỏi: Was machst du gern? hoặc đưa động từ lên đầu: Tanzt du gern? (câu hỏi có/không – học kỹ ở bài 3).'
+  examples:
+  - de: Ich koche gern.
+    vi: Tôi thích nấu ăn.
+  - de: Er spielt gern Fußball.
+    vi: Anh ấy thích chơi bóng đá.
+  - de: Ich tanze nicht gern.
+    vi: Tôi không thích nhảy.
+- id: a1.m02.l01.b3
+  kind: explanation
+  title_vi: Môn thể thao không có mạo từ
+  skill: grammar
+  body_vi: 'Sau spielen, tên môn thể thao không dùng mạo từ: Fußball spielen, Tennis spielen. Một số môn đi với machen: Yoga machen, Sport machen.'
+  examples:
+  - de: Wir spielen Fußball.
+    vi: Chúng tôi chơi bóng đá.
+- id: a1.m02.l01.b4
+  kind: pronunciation
+  title_vi: ng [ŋ], sch [ʃ] và j [dʒ] trong từ mượn
+  skill: pronunciation
+  body_vi: 'ng [ŋ], sch [ʃ] và j [dʒ] trong từ mượn
+
+
+    singen [ˈzɪŋən]: ng như “ng” tiếng Việt, KHÔNG có âm g sau. schwimmen [ˈʃvɪmən]: sch + w [v]. joggen [ˈdʒɔɡn̩]: từ mượn tiếng Anh nên j đọc [dʒ], khác với ja [jaː].
+
+
+    Luyện tập: Đọc liền: Ich singe gern, ich schwimme gern, ich jogge nicht so gern.'
+  items:
+  - de: singen
+    vi: hát
+    ipa: '[ˈzɪŋən]'
+  - de: schwimmen
+    vi: bơi
+    ipa: '[ˈʃvɪmən]'
+  - de: joggen
+    vi: chạy bộ
+    ipa: '[ˈdʒɔɡn̩]'
+- id: a1.m02.l01.b5
+  kind: examples
+  title_vi: Câu ví dụ
+  examples:
+  - de: Ich koche gern.
+    vi: Tôi thích nấu ăn.
+  - de: Meine Freundin tanzt sehr gern.
+    vi: Bạn tôi rất thích nhảy.
+  - de: Mein Kollege spielt gern Fußball.
+    vi: Đồng nghiệp tôi thích chơi bóng đá.
+  - de: Ich reise gern, aber ich fotografiere nicht gern.
+    vi: Tôi thích du lịch nhưng không thích chụp ảnh.
+  - de: Was machst du gern? – Ich gehe gern ins Kino.
+    vi: Bạn thích làm gì? – Mình thích đi xem phim.
+  - de: Kennst du Lisa? – Ja! Sie singt sehr gern.
+    vi: Bạn có quen Lisa không? – Có! Cô ấy rất thích hát.
+- id: a1.m02.l01.b6
+  kind: listening
+  title_vi: 'Khảo sát trong lớp: Bạn thích làm gì?'
+  lines:
+  - speaker: Lehrerin
+    de: Minh, was machst du gern?
+    vi: Minh, em thích làm gì?
+  - speaker: Minh
+    de: Ich koche gern und ich fotografiere sehr gern.
+    vi: Em thích nấu ăn và rất thích chụp ảnh.
+  - speaker: Lehrerin
+    de: Und du, Ana?
+    vi: Còn em, Ana?
+  - speaker: Ana
+    de: Ich tanze sehr gern! Aber ich schwimme nicht so gern.
+    vi: Em rất thích nhảy! Nhưng em không thích bơi lắm.
+  - speaker: Lehrerin
+    de: Kenji, spielst du gern Fußball?
+    vi: Kenji, em có thích chơi bóng đá không?
+  - speaker: Kenji
+    de: 'Nein, nicht gern. Ich joggen gern … Entschuldigung: Ich jogge gern!'
+    vi: 'Không ạ. Em thích chạy bộ … Xin lỗi: Em thích chạy bộ!'
+  audio_status: pending-tts
+  situation_vi: Giáo viên hỏi ba học viên về sở thích.
+  skill: listening
+  audio:
+    speed: slow
+- id: a1.m02.l01.b7
+  kind: reading
+  title_vi: Hồ sơ trên ứng dụng tìm bạn tập thể thao
+  paragraphs:
+  - de: 'Lena, 24, Leipzig: Ich schwimme gern und ich jogge sehr gern. Ich koche nicht so gern. 😄
+
+      Huy, 31, Berlin: Ich spiele gern Fußball. Ich reise auch gern. Ich tanze nicht gern!
+
+      Sara, 27, Wien: Ich singe sehr gern. Meine Kollegin und ich gehen gern ins Kino.'
+    vi: 'Lena, 24 tuổi, Leipzig: Mình thích bơi và rất thích chạy bộ. Mình không thích nấu ăn lắm. 😄
+
+      Huy, 31 tuổi, Berlin: Mình thích chơi bóng đá. Mình cũng thích du lịch. Mình không thích nhảy!
+
+      Sara, 27 tuổi, Viên: Mình rất thích hát. Mình và đồng nghiệp thích đi xem phim.'
+  text_type_vi: Hồ sơ cá nhân ngắn
+  skill: reading
+- id: a1.m02.l01.b8
+  kind: speaking
+  title_vi: Bạn và bạn bè thích làm gì?
+  skill: speaking
+  task_vi: 'Nói 4–5 câu: hai điều bạn thích, một điều bạn không thích, và sở thích của một người bạn hoặc đồng nghiệp.'
+  steps_vi:
+  - Chọn 3–4 động từ trong bài.
+  - Nói với mức độ khác nhau (sehr gern, gern, nicht so gern, nicht gern).
+  - 'Nói về một người: Mein Freund … / Meine Kollegin …'
+  lines:
+  - speaker: Lan
+    de: Ich reise sehr gern. Ich koche auch gern. Ich schwimme nicht so gern. Meine Freundin Mai singt gern.
+    vi: Tôi rất thích du lịch. Tôi cũng thích nấu ăn. Tôi không thích bơi lắm. Bạn tôi, Mai, thích hát.
+- id: a1.m02.l01.b9
+  kind: writing
+  title_vi: Hồ sơ sở thích của bạn
+  skill: writing
+  task_vi: 'Viết hồ sơ ngắn cho ứng dụng tìm bạn (giống phần Đọc): tên, tuổi, thành phố, 3 sở thích với mức độ khác nhau.'
+  model:
+    de: 'Minh, 25, Hamburg: Ich koche sehr gern. Ich spiele gern Fußball. Ich tanze nicht so gern.'
+    vi: 'Minh, 25 tuổi, Hamburg: Tôi rất thích nấu ăn. Tôi thích chơi bóng đá. Tôi không thích nhảy lắm.'
+  checklist_vi:
+  - Động từ chia đúng với ich (-e).
+  - 'gern đứng sau động từ (và sau tân ngữ nếu có: Fußball spielen → Ich spiele gern Fußball).'
+  - Có ít nhất một câu với nicht (so) gern.

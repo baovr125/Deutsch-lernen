@@ -1,0 +1,62 @@
+schema_version: "2.0"
+content_type: lesson
+id: a1.m11.l01
+level: A1
+module: a1.m11
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  references:
+    - { work: "Netzwerk neu A1.2 – Stoffverteilungsplan (Klett)", scope: "Kapitel 11, Mục Die Jacke gefällt mir!; Wortschatz Kleidung, gut – besser; Personalpronomen im Dativ", verification: verified }
+  tags: ["kleidung", "dativ"]
+order: 1
+title_de: "Die Jacke gefällt mir!"
+title_vi: "Tôi thích chiếc áo khoác này!"
+duration_min: 45
+difficulty: 1
+objectives:
+  - { id: a1.m11.l01.obj1, text_vi: "Bạn có thể gọi tên quần áo và nói bạn đang mặc gì.", skill: vocabulary }
+  - { id: a1.m11.l01.obj2, text_vi: "Bạn có thể nói bạn thích hay không thích món đồ bằng gefallen + đại từ Dativ (mir, dir, ihm, ihr…).", skill: grammar }
+vocabulary_refs: [a1.m11.v.jacke, a1.m11.v.pullover, a1.m11.v.tshirt, a1.m11.v.hose, a1.m11.v.kleid, a1.m11.v.rock, a1.m11.v.hemd, a1.m11.v.schuh, a1.m11.v.mantel, a1.m11.v.muetze, a1.m11.v.kleidung, a1.m11.v.gefallen, a1.m11.v.tragen, a1.m11.v.anziehen, a1.m11.v.besser]
+grammar_refs: [a1.g.personalpronomen-dativ]
+expression_refs: [a1.m11.x.gefaellt-fragen, a1.m11.x.gefaellt-mir, a1.m11.x.ich-trage]
+exercise_set_ref: a1.m11.l01.ex
+blocks:
+  - id: a1.m11.l01.b1
+    kind: explanation
+    skill: vocabulary
+    title_vi: "Bắt đầu: quần áo và ‘gefallen’"
+    body_vi: |
+      Học quần áo kèm mạo từ: **die Jacke, der Pullover, das T-Shirt, die Hose, das Kleid, der Rock, das Hemd, der Schuh/die Schuhe, der Mantel, die Mütze**.
+      **gefallen** đảo vai trò so với tiếng Việt: thứ được thích là **chủ ngữ**, người thích ở **Dativ**: *Die Jacke gefällt **mir**.* (= Tôi thích chiếc áo khoác.)
+      So sánh: **gut – besser** (tốt – tốt hơn): *Die Jacke ist gut, aber der Mantel ist besser.*
+  - id: a1.m11.l01.b2
+    kind: dialogue
+    skill: speaking
+    title_vi: "Hội thoại: Đi mua sắm cùng bạn"
+    lines:
+      - { speaker: "Yara", de: "Schau mal! Die Jacke ist toll. Wie gefällt sie dir?", vi: "Nhìn này! Chiếc áo khoác đẹp quá. Bạn thấy nó thế nào?" }
+      - { speaker: "Ben", de: "Sie gefällt mir gut. Aber die Farbe gefällt mir nicht so sehr.", vi: "Mình thấy được. Nhưng màu thì mình không thích lắm." }
+      - { speaker: "Yara", de: "Und der Mantel hier? Er ist besser, oder?", vi: "Còn cái áo măng tô này? Nó tốt hơn đúng không?" }
+      - { speaker: "Ben", de: "Ja, der Mantel gefällt mir sehr. Aber er ist teuer.", vi: "Ừ, mình rất thích cái áo măng tô. Nhưng nó đắt." }
+      - { speaker: "Yara", de: "Dann nehmen wir die Jacke. Sie ist günstig.", vi: "Vậy chúng ta lấy cái áo khoác. Nó rẻ." }
+  - id: a1.m11.l01.b3
+    kind: reading
+    skill: reading
+    title_vi: "Bài đọc: Pias Garderobe"
+    paragraphs:
+      - { de: "Pia geht heute einkaufen. Sie braucht eine Jacke und einen Pullover.", vi: "Hôm nay Pia đi mua sắm. Cô ấy cần một chiếc áo khoác và một chiếc áo len." }
+      - { de: "Die Jacke ist rot und gefällt ihr sehr. Der Pullover ist blau, aber er ist zu groß.", vi: "Chiếc áo khoác màu đỏ và cô ấy rất thích. Chiếc áo len màu xanh dương nhưng nó quá rộng." }
+      - { de: "Pia kauft die Jacke. Den Pullover kauft sie nicht.", vi: "Pia mua chiếc áo khoác. Chiếc áo len thì cô ấy không mua." }
+  - id: a1.m11.l01.b4
+    kind: explanation
+    skill: grammar
+    title_vi: "Ngữ pháp: đại từ Dativ"
+    body_vi: |
+      **ich → mir, du → dir, er/es → ihm, sie → ihr, wir → uns, ihr → euch, sie (nhiều) → ihnen, Sie → Ihnen.**
+      *Die Jacke gefällt mir. Gefällt dir der Pullover? Der Rock gefällt ihr.* Xem chủ điểm a1.g.personalpronomen-dativ.

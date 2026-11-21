@@ -1,0 +1,260 @@
+schema_version: '2.0'
+content_type: lesson
+id: a1.m00.l01
+level: A1
+module: a1.m00
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+  references:
+  - work: Dự án Deutsch-lernen
+    scope: nội dung bổ sung ngoài giáo trình
+    verification: proposed
+  notes_vi: Nhập môn bổ sung. Kapitel 1 (bài 4 – Zahlen und Buchstaben) sẽ dùng bảng chữ cái để đánh vần tên và email.
+order: 1
+title_de: Das Alphabet
+title_vi: Bảng chữ cái tiếng Đức, Umlaut và ß
+topic_vi: Chữ cái và cách gọi tên chữ cái
+duration_min: 50
+difficulty: 1
+cefr:
+- A1.H2
+- A1.S4
+- A1.L1
+objectives:
+- id: a1.m00.l01.obj1
+  text_vi: Gọi tên được 26 chữ cái tiếng Đức và các chữ đặc biệt ä, ö, ü, ß.
+  skill: pronunciation
+- id: a1.m00.l01.obj2
+  text_vi: Hiểu rằng ä, ö, ü, ß là chữ riêng, có âm riêng và có thể làm thay đổi nghĩa của từ.
+  skill: vocabulary
+- id: a1.m00.l01.obj3
+  text_vi: 'Nghe và nhận ra các chữ cái dễ nhầm với người Việt: E/I, G/J, V/W, Y, Z.'
+  skill: listening
+- id: a1.m00.l01.obj4
+  text_vi: Viết được từ có ä, ö, ü, ß khi bàn phím không có các chữ này (ae, oe, ue, ss).
+  skill: writing
+vocabulary_refs:
+- a1.m00.v.alphabet
+- a1.m00.v.buchstabe
+- a1.m00.v.umlaut
+- a1.m00.v.eszett
+grammar_refs: []
+expression_refs:
+- a1.m00.x.wie-schreibt-man-das
+- a1.m00.x.gross-oder-klein
+exercise_set_ref: a1.m00.l01.ex
+summary_vi: 'Tiếng Đức có 26 chữ cái Latinh cộng với ä, ö, ü và ß. Chú ý tên các chữ dễ nhầm: E [eː], I [iː], J [jɔt], V [faʊ̯], W [veː], Z [tsɛt]. Umlaut có thể làm đổi nghĩa (schon ≠ schön). Khi không có bàn phím Đức: ae, oe, ue, ss.'
+self_check:
+- Tôi đọc được cả bảng chữ cái tiếng Đức.
+- Tôi phân biệt được V và W, E và I khi nghe.
+- Tôi đọc được ä, ö, ü và biết ß đọc như s.
+- Tôi viết được Müller thành Mueller khi cần.
+blocks:
+- id: a1.m00.l01.b1
+  kind: explanation
+  title_vi: Giới thiệu bài học
+  body_vi: '**Chào mừng bạn đến với tiếng Đức!**
+
+
+    Tin vui đầu tiên: tiếng Đức dùng **bảng chữ cái Latinh** giống tiếng Việt và tiếng Anh, nên bạn đã biết viết gần hết các chữ.
+
+    Khác biệt nằm ở **cách gọi tên chữ cái** và **bốn chữ đặc biệt**: **ä, ö, ü** (gọi là *Umlaut*) và **ß** (gọi là *Eszett*).
+
+
+    **Cách học bài này:**
+
+    1. Nghe và nhắc lại tên từng chữ cái (phần Phát âm).
+
+    2. Chú ý những chữ người Việt hay đọc nhầm – được đánh dấu trong bài.
+
+    3. Làm bài tập nghe và đánh vần.
+
+
+    Trong mọi bài học, bạn sẽ thấy **phiên âm IPA** trong ngoặc vuông, ví dụ *[aː]*. Dấu **ː** nghĩa là nguyên âm **dài**.
+
+    Bạn sẽ học cách đọc IPA kỹ hơn ở bài 2.'
+- id: a1.m00.l01.b2
+  kind: explanation
+  title_vi: Khi không có bàn phím tiếng Đức
+  skill: grammar
+  body_vi: 'Nếu không gõ được ä, ö, ü, ß, hãy viết ae, oe, ue, ss. Cách viết này được chấp nhận rộng rãi (ví dụ trong địa chỉ email, tên đăng nhập). Lưu ý: ở Thụy Sĩ người ta không dùng ß mà luôn viết ss.'
+  examples:
+  - de: Müller → Mueller
+    vi: họ Müller
+  - de: Österreich → Oesterreich
+    vi: nước Áo
+  - de: Straße → Strasse
+    vi: đường phố
+- id: a1.m00.l01.b3
+  kind: pronunciation
+  title_vi: Tên 26 chữ cái
+  skill: pronunciation
+  body_vi: 'Tên 26 chữ cái
+
+
+    Nghe và nhắc lại theo nhóm. Những chữ có dấu ⚠ là chữ người Việt hay đọc nhầm (do quen đọc theo tiếng Anh hoặc tiếng Việt):
+
+    A [aː] · B [beː] · C [tseː] ⚠ · D [deː] · E [eː] ⚠ · F [ɛf] · G [ɡeː] ⚠ · H [haː] · I [iː] ⚠ · J [jɔt] ⚠ · K [kaː] · L [ɛl] · M [ɛm]
+
+    N [ɛn] · O [oː] · P [peː] · Q [kuː] · R [ɛʁ] ⚠ · S [ɛs] · T [teː] · U [uː] · V [faʊ̯] ⚠ · W [veː] ⚠ · X [ɪks] · Y [ˈʏpsilɔn] ⚠ · Z [tsɛt] ⚠
+
+
+    - **E** đọc là "ê" [eː] – không đọc "i" như tiếng Anh.
+
+    - **I** đọc là "i" [iː] – không đọc "ai".
+
+    - **G** đọc "ghê" [ɡeː]; **J** đọc "giót" [jɔt] (âm đầu như "d" giọng miền Nam).
+
+    - **V** đọc "phao" [faʊ̯]; **W** đọc "vê" [veː]. Đây là cặp dễ nhầm nhất!
+
+    - **Z** đọc "tset" [tsɛt]; **C** đọc "tsê" [tseː].
+
+    - **R** đọc "e" + âm r phát ra ở cuống họng [ɛʁ].
+
+
+
+    Luyện tập: Đọc to cả bảng chữ cái 3 lần. Lần 3, tự ghi âm và so sánh với audio mẫu.'
+  items:
+  - de: A, B, C
+    vi: a, bê, tsê
+    ipa: '[aː] [beː] [tseː]'
+  - de: V, W
+    vi: phao, vê
+    ipa: '[faʊ̯] [veː]'
+  - de: J, Y, Z
+    vi: giót, uýp-xi-lon, tset
+    ipa: '[jɔt] [ˈʏpsilɔn] [tsɛt]'
+- id: a1.m00.l01.b4
+  kind: pronunciation
+  title_vi: Ä, Ö, Ü và ß
+  skill: pronunciation
+  body_vi: 'Ä, Ö, Ü và ß
+
+
+    - **ä** [ɛ] hoặc [ɛː]: gần giống **"e"** tiếng Việt (như trong "em").
+
+    - **ö** [ø] hoặc [œ]: miệng đặt như đọc **"ê"**, rồi **tròn môi** như đọc "ô". Không có trong tiếng Việt.
+
+    - **ü** [y] hoặc [ʏ]: miệng đặt như đọc **"i"**, rồi **tròn môi** như đọc "u". Không có trong tiếng Việt.
+
+    - **ß** [s]: đọc như **s** (không rung). Tên chữ: *Eszett* [ɛsˈtsɛt].
+
+    Mẹo tập ö/ü: nói "iiii" kéo dài, giữ nguyên lưỡi, từ từ chu môi tròn lại → bạn sẽ nghe ra "üüüü".
+
+
+
+    Luyện tập: Tập trước gương: đọc i → ü, ê → ö. Môi phải tròn rõ ràng.'
+  items:
+  - de: schon – schön
+    vi: đã, rồi – đẹp
+    ipa: '[ʃoːn] – [ʃøːn]'
+    note_vi: Chỉ khác Umlaut nhưng khác nghĩa.
+  - de: Tür
+    vi: cửa
+    ipa: '[tyːɐ̯]'
+  - de: Käse
+    vi: phô mai
+    ipa: '[ˈkɛːzə]'
+  - de: heißen
+    vi: tên là
+    ipa: '[ˈhaɪ̯sn̩]'
+- id: a1.m00.l01.b5
+  kind: examples
+  title_vi: Câu ví dụ
+  examples:
+  - de: Das ist das Alphabet.
+    vi: Đây là bảng chữ cái.
+  - de: Ä, Ö und Ü sind Umlaute.
+    vi: Ä, Ö và Ü là các nguyên âm biến âm.
+  - de: ß ist das Eszett.
+    vi: ß là chữ Eszett.
+  - de: Das ist der Buchstabe W.
+    vi: Đây là chữ cái W.
+  - de: Müller – M, Ü, L, L, E, R.
+    vi: 'Müller – đánh vần: M, Ü, L, L, E, R.'
+- id: a1.m00.l01.b6
+  kind: listening
+  title_vi: Nghe đánh vần
+  lines:
+  - speaker: Lehrerin
+    de: T – A – X – I. Taxi.
+    vi: T – A – X – I. Taxi.
+  - speaker: Lehrerin
+    de: H – O – T – E – L. Hotel.
+    vi: H – O – T – E – L. Hotel.
+  - speaker: Lehrerin
+    de: W – E – B – E – R. Weber.
+    vi: W – E – B – E – R. Weber.
+  - speaker: Lehrerin
+    de: J – U – L – I – A. Julia.
+    vi: J – U – L – I – A. Julia.
+  audio_status: pending-tts
+  situation_vi: Một giáo viên đánh vần một số từ quốc tế và tên người.
+  skill: listening
+  audio:
+    speed: slow
+- id: a1.m00.l01.b7
+  kind: reading
+  title_vi: Biển hiệu trên phố
+  paragraphs:
+  - de: 'Hauptstraße 5
+
+      Bäckerei Müller
+
+      Café Schön
+
+      Hotel Österreich
+
+      Fußball heute!'
+    vi: 'Phố Chính số 5
+
+      Tiệm bánh Müller
+
+      Quán cà phê Schön
+
+      Khách sạn Österreich (Áo)
+
+      Hôm nay có bóng đá!'
+  text_type_vi: Biển hiệu, bảng tên cửa hàng
+  skill: reading
+  glossary:
+  - de: die Straße
+    vi: đường phố
+  - de: die Bäckerei
+    vi: tiệm bánh
+  - de: der Fußball
+    vi: bóng đá
+- id: a1.m00.l01.b8
+  kind: speaking
+  title_vi: Đánh vần tên của bạn
+  skill: speaking
+  task_vi: Đọc to từng chữ cái trong tên và họ của bạn theo cách đọc tiếng Đức.
+  steps_vi:
+  - 'Viết tên bạn ra giấy (không dấu tiếng Việt), ví dụ: NGUYEN THI LAN.'
+  - Gạch chân các chữ dễ nhầm (E, I, G, J, V, W, Y, Z).
+  - Đọc to từng chữ, chậm và rõ. Ghi âm lại và nghe.
+  lines:
+  - speaker: Lan
+    de: 'Lan: L – A – N. Nguyen: N – G – U – Y – E – N.'
+    vi: 'Lan: L – A – N. Nguyễn: N – G – U – Y – E – N.'
+- id: a1.m00.l01.b9
+  kind: writing
+  title_vi: Viết không có Umlaut
+  skill: writing
+  task_vi: Bàn phím của bạn không có ä, ö, ü, ß. Hãy viết lại các tên và từ theo quy tắc ae, oe, ue, ss.
+  model:
+    de: Müller → Mueller · Schön → Schoen · Straße → Strasse
+    vi: Ví dụ mẫu chuyển đổi.
+  checklist_vi:
+  - ä → ae, ö → oe, ü → ue
+  - ß → ss
+  - 'Giữ chữ hoa ở đầu: Ö → Oe'

@@ -1,0 +1,304 @@
+schema_version: '2.0'
+content_type: exercise-set
+id: a1.m02.l04.ex
+level: A1
+module: a1.m02
+lesson: a1.m02.l04
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+exercises:
+- id: a1.m02.l04.ex.01
+  type: matching
+  skill: vocabulary
+  difficulty: 1
+  objective_refs:
+  - a1.m02.l04.obj2
+  instructions_vi: Nối dạng nam với dạng nữ.
+  items:
+  - id: a1.m02.l04.ex.01.q1
+    pairs:
+    - left: der Arzt
+      right: die Ärztin
+    - left: der Koch
+      right: die Köchin
+    - left: der Lehrer
+      right: die Lehrerin
+    - left: der Student
+      right: die Studentin
+    - left: der Verkäufer
+      right: die Verkäuferin
+    explanation_vi: 'Dạng nữ: thêm -in; Arzt và Koch còn có biến âm (Ärztin, Köchin).'
+- id: a1.m02.l04.ex.02
+  type: fill-blank
+  skill: grammar
+  difficulty: 2
+  objective_refs:
+  - a1.m02.l04.obj3
+  - a1.m02.l04.obj4
+  instructions_vi: Điền der, die hoặc das.
+  items:
+  - id: a1.m02.l04.ex.02.q1
+    prompt: ___ Rechnung
+    answers:
+    - die
+    explanation_vi: -ung → die.
+  - id: a1.m02.l04.ex.02.q2
+    prompt: ___ Kellnerin
+    answers:
+    - die
+    explanation_vi: -in → die.
+  - id: a1.m02.l04.ex.02.q3
+    prompt: ___ Medikament
+    answers:
+    - das
+    explanation_vi: das Medikament – học thuộc.
+  - id: a1.m02.l04.ex.02.q4
+    prompt: ___ Schlüssel
+    answers:
+    - der
+    explanation_vi: der Schlüssel.
+  - id: a1.m02.l04.ex.02.q5
+    prompt: ___ Wörterbuch (die Wörter + das Buch)
+    answers:
+    - das
+    explanation_vi: 'Theo từ cuối: das Buch.'
+  - id: a1.m02.l04.ex.02.q6
+    prompt: ___ Taxifahrer
+    answers:
+    - der
+    explanation_vi: Người nam / từ cuối der Fahrer.
+- id: a1.m02.l04.ex.03
+  type: multiple-choice
+  skill: vocabulary
+  difficulty: 1
+  objective_refs:
+  - a1.m02.l04.obj1
+  - a1.m02.l04.obj3
+  instructions_vi: Đồ vật này thuộc về nghề nào?
+  items:
+  - id: a1.m02.l04.ex.03.q1
+    prompt: das Medikament, die Tablette
+    options:
+    - id: a
+      text: Taxifahrer
+    - id: b
+      text: Kellner
+    - id: c
+      text: Ärztin
+    answer:
+    - c
+    explanation_vi: Thuốc → bác sĩ.
+  - id: a1.m02.l04.ex.03.q2
+    prompt: das Glas, die Rechnung
+    options:
+    - id: a
+      text: Lehrer
+    - id: b
+      text: Kellnerin
+    - id: c
+      text: Mechaniker
+    answer:
+    - b
+    explanation_vi: Ly, hóa đơn → bồi bàn.
+  - id: a1.m02.l04.ex.03.q3
+    prompt: der Computer
+    options:
+    - id: a
+      text: Koch
+    - id: b
+      text: Polizist
+    - id: c
+      text: Informatiker
+    answer:
+    - c
+    explanation_vi: Máy tính → kỹ sư tin học.
+- id: a1.m02.l04.ex.04
+  type: true-false
+  skill: grammar
+  difficulty: 2
+  objective_refs:
+  - a1.m02.l04.obj1
+  - a1.m02.l04.obj4
+  instructions_vi: Đúng hay sai?
+  items:
+  - id: a1.m02.l04.ex.04.q1
+    prompt: „Ich bin Lehrerin.“ đúng (không cần mạo từ).
+    answer: true
+    explanation_vi: Nói nghề không dùng mạo từ.
+  - id: a1.m02.l04.ex.04.q2
+    prompt: Trong từ điển, „f.“ nghĩa là giống đực.
+    answer: false
+    explanation_vi: f. = feminin = giống cái (die).
+  - id: a1.m02.l04.ex.04.q3
+    prompt: Danh từ đuôi -ung luôn là „die“.
+    answer: true
+    explanation_vi: die Rechnung, die Wohnung…
+- id: a1.m02.l04.ex.05
+  type: multiple-choice
+  skill: listening
+  difficulty: 1
+  objective_refs:
+  - a1.m02.l04.obj1
+  - a1.m02.l04.obj3
+  instructions_vi: Nghe trò chơi đoán nghề. Mỗi người làm nghề gì?
+  stimulus:
+    ref: a1.m02.l04.b7
+  items:
+  - id: a1.m02.l04.ex.05.q1
+    prompt: Person 1
+    options:
+    - id: a
+      text: Lehrer/in
+    - id: b
+      text: Arzt/Ärztin
+    - id: c
+      text: Kellner/in
+    answer:
+    - c
+    explanation_vi: Ly, hóa đơn, làm ở nhà hàng.
+  - id: a1.m02.l04.ex.05.q2
+    prompt: Person 2
+    options:
+    - id: a
+      text: Student/in
+    - id: b
+      text: Koch/Köchin
+    - id: c
+      text: Taxifahrer/in
+    answer:
+    - c
+    explanation_vi: Ô tô, chìa khóa, tiền, lái xe nhiều.
+  - id: a1.m02.l04.ex.05.q3
+    prompt: Person 3
+    options:
+    - id: a
+      text: Verkäufer/in
+    - id: b
+      text: Arzt
+    - id: c
+      text: Krankenpfleger/in
+    answer:
+    - c
+    explanation_vi: Thuốc, làm ở bệnh viện, và bác sĩ là đồng nghiệp → điều dưỡng.
+- id: a1.m02.l04.ex.06
+  type: true-false
+  skill: reading
+  difficulty: 1
+  objective_refs:
+  - a1.m02.l04.obj4
+  instructions_vi: Đọc blog của Lan. Đúng hay sai?
+  stimulus:
+    ref: a1.m02.l04.b8
+  items:
+  - id: a1.m02.l04.ex.06.q1
+    prompt: Theo mẹo của Lan, „die“ có màu đỏ.
+    answer: true
+    explanation_vi: „die“ ist rot.
+  - id: a1.m02.l04.ex.06.q2
+    prompt: „das Auto“ có màu xanh dương.
+    answer: false
+    explanation_vi: das = xanh lá (grün).
+  - id: a1.m02.l04.ex.06.q3
+    prompt: Lan học từ không kèm mạo từ.
+    answer: false
+    explanation_vi: „Ich lerne jedes Wort mit Artikel und Farbe.“
+- id: a1.m02.l04.ex.07
+  type: sentence-construction
+  skill: grammar
+  difficulty: 2
+  objective_refs:
+  - a1.m02.l04.obj1
+  - a1.m02.l04.obj2
+  instructions_vi: Viết câu nói nghề (chú ý dạng nam/nữ, không mạo từ).
+  items:
+  - id: a1.m02.l04.ex.07.q1
+    prompt_vi: Mai / sein / Ärztin
+    answers:
+    - Mai ist Ärztin.
+    explanation_vi: Không mạo từ.
+  - id: a1.m02.l04.ex.07.q2
+    prompt_vi: Herr Kaya / sein / Taxifahrer
+    answers:
+    - Herr Kaya ist Taxifahrer.
+    explanation_vi: Herr → dạng nam.
+  - id: a1.m02.l04.ex.07.q3
+    prompt_vi: ich / arbeiten / bei Siemens
+    answers:
+    - Ich arbeite bei Siemens.
+    explanation_vi: arbeiten bei + tên công ty.
+- id: a1.m02.l04.ex.08
+  type: translation
+  skill: vocabulary
+  difficulty: 2
+  objective_refs:
+  - a1.m02.l04.obj1
+  - a1.m02.l04.obj3
+  instructions_vi: Dịch sang tiếng Đức.
+  items:
+  - id: a1.m02.l04.ex.08.q1
+    direction: vi-de
+    source: Ông làm nghề gì?
+    answers:
+    - Was sind Sie von Beruf?
+    explanation_vi: Câu hỏi nghề trang trọng.
+  - id: a1.m02.l04.ex.08.q2
+    direction: vi-de
+    source: Cô ấy là y tá.
+    answers:
+    - Sie ist Krankenpflegerin.
+    explanation_vi: Dạng nữ, không mạo từ.
+  - id: a1.m02.l04.ex.08.q3
+    direction: vi-de
+    source: Hóa đơn ở đây.
+    answers:
+    - Die Rechnung ist hier.
+    explanation_vi: die Rechnung.
+- id: a1.m02.l04.ex.09
+  type: speaking-practice
+  skill: speaking
+  difficulty: 1
+  objective_refs:
+  - a1.m02.l04.obj1
+  - a1.m02.l04.obj3
+  instructions_vi: Ghi âm phần giới thiệu nghề (phần Nói).
+  grading: self
+  rubric:
+  - criterion_vi: Nói đúng nghề (dạng nam/nữ, không mạo từ) và nơi làm việc
+    points: 2
+  - criterion_vi: Nói 2 đồ vật với mạo từ đúng
+    points: 2
+  items:
+  - id: a1.m02.l04.ex.09.q1
+    prompt_vi: Nghề của bạn và đồ vật bạn dùng.
+    model_answer:
+      de: 'Ich bin Koch. Ich arbeite im Restaurant. Meine Dinge: das Glas und der Stift.'
+    explanation_vi: 'Sinh viên có thể nói: Ich bin Student. Meine Dinge: der Computer und das Buch.'
+- id: a1.m02.l04.ex.10
+  type: writing-practice
+  skill: writing
+  difficulty: 1
+  objective_refs:
+  - a1.m02.l04.obj3
+  - a1.m02.l04.obj4
+  instructions_vi: Viết 6 thẻ học mạo từ có màu (phần Viết).
+  grading: self
+  rubric:
+  - criterion_vi: 6 danh từ với mạo từ đúng
+    points: 3
+  - criterion_vi: Màu đúng theo giống
+    points: 1
+  items:
+  - id: a1.m02.l04.ex.10.q1
+    prompt_vi: 6 thẻ học
+    model_answer:
+      de: der Schlüssel · die Rechnung · das Medikament · der Computer · die Straße · das Glas
+    explanation_vi: Kiểm tra lại mạo từ trong sổ từ của bài.

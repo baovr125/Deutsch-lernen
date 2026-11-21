@@ -1,0 +1,236 @@
+schema_version: '2.0'
+content_type: lesson
+id: a1.m03.l02
+level: A1
+module: a1.m03
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+  references:
+  - work: Netzwerk neu A1 (Klett)
+    scope: 'Kapitel 3: Die Taxifahrt'
+    verification: verified
+  notes_vi: 'Sprachhandlungen: Orte aus einem Hörtext heraushören; einen Dialog lesen und mit dem Stadtplan vergleichen; Artikel ergänzen; Artikelspiel; Wörter mit langen/kurzen Vokalen aussprechen. Grammatik: unbestimmter + bestimmter Artikel. Wortschatz: Richtungen, Orte in der Stadt. Aussprache: lange/kurze Vokale.'
+order: 2
+title_de: Die Taxifahrt
+title_vi: Đi taxi – ein/eine và der/die/das
+topic_vi: Mạo từ không xác định và xác định; lời chào vùng miền; nguyên âm dài – ngắn
+duration_min: 75
+difficulty: 1
+cefr:
+- A1.H4
+- A1.L1
+- A1.SP3
+- A1.SI1
+prerequisites:
+- a1.m03.l01
+objectives:
+- id: a1.m03.l02.obj1
+  text_vi: Dùng ein/eine khi nhắc đến lần đầu và der/die/das khi đã biết.
+  skill: grammar
+- id: a1.m03.l02.obj2
+  text_vi: Hiểu một đoạn hội thoại trên taxi và nhận ra các địa điểm được nhắc đến.
+  skill: listening
+- id: a1.m03.l02.obj3
+  text_vi: Phân biệt và đọc đúng nguyên âm dài – ngắn (schon/schön, Plan/Stadt).
+  skill: pronunciation
+- id: a1.m03.l02.obj4
+  text_vi: 'Nhận biết lời chào vùng miền: Moin (miền Bắc Đức), Grüß Gott (miền Nam Đức, Áo), Grüezi (Thụy Sĩ).'
+  skill: listening
+vocabulary_refs:
+- a1.m03.v.ein
+- a1.m03.v.weg
+- a1.m03.v.interessant
+- a1.m03.v.loesung
+- a1.m03.v.plan
+- a1.m03.v.rechts
+- a1.m03.v.schon
+- a1.m03.v.schoen
+- a1.m03.v.see
+- a1.m03.v.zeichnen
+- a1.m03.v.auf-stehen
+- a1.m03.v.gruppe
+- a1.m03.v.haus
+- a1.m03.v.satz
+- a1.m03.v.arm
+- a1.m03.v.tisch
+- a1.m03.v.taxifahrt
+- a1.m03.v.moin
+- a1.m03.v.gruess-gott
+- a1.m03.v.grueezi
+- a1.m03.v.okay
+review_vocabulary_refs:
+- a1.m00.v.hotel
+- a1.m00.v.richtig
+- a1.m03.v.kirche
+- a1.m03.v.rathaus
+- a1.m03.v.bruecke
+- a1.m03.v.fluss
+grammar_refs:
+- a1.g.unbestimmter-artikel
+grammar_focus:
+- ref: a1.g.unbestimmter-artikel
+  focus_vi: ein/eine – der/die/das; mẫu câu “Da ist ein … Der … ist …”.
+expression_refs:
+- a1.m03.x.zum-hotel-bitte
+- a1.m03.x.da-ist-ein-der-die-das-ist
+- a1.m03.x.moin-gruess-gott-grueezi
+exercise_set_ref: a1.m03.l02.ex
+summary_vi: 'ein (der/das), eine (die), số nhiều không có ein. Lần đầu nhắc: ein/eine; đã biết: der/die/das. Nguyên âm dài (See, Weg, Plan) – ngắn (Stadt, Fluss). Lời chào vùng miền: Moin (Bắc Đức), Grüß Gott (Nam Đức, Áo), Grüezi (Thụy Sĩ).'
+self_check:
+- Tôi biết khi nào dùng ein/eine và khi nào dùng der/die/das.
+- Tôi phân biệt được schon và schön khi nghe và khi nói.
+- Tôi biết ba lời chào vùng miền ở D-A-CH.
+blocks:
+- id: a1.m03.l02.b1
+  kind: explanation
+  title_vi: Giới thiệu bài học
+  body_vi: 'Bạn vừa đến Hamburg và đi **taxi** về khách sạn. Người lái xe vừa chạy vừa giới thiệu: *„Da ist **ein** See. **Der** See heißt Alster.“*
+
+
+    Đó chính là ngữ pháp của bài: **ein/eine** khi nói đến một thứ **lần đầu**, **der/die/das** khi đã **biết** là thứ nào
+
+    (xem chủ điểm *Mạo từ không xác định ein/eine và mạo từ xác định der/die/das*).
+
+
+    Bạn cũng sẽ nghe người Hamburg chào **„Moin!“** – và biết thêm hai lời chào vùng miền khác của D-A-CH.'
+- id: a1.m03.l02.b2
+  kind: explanation
+  title_vi: schon hay schön?
+  skill: grammar
+  body_vi: schon [ʃoːn] = đã, rồi; schön [ʃøːn] = đẹp. Chỉ khác Umlaut – tròn môi khi đọc ö.
+  examples:
+  - de: Da ist schon das Hotel.
+    vi: Khách sạn kia rồi.
+  - de: Das Hotel ist schön.
+    vi: Khách sạn đẹp.
+- id: a1.m03.l02.b3
+  kind: pronunciation
+  title_vi: Nguyên âm dài và ngắn
+  skill: pronunciation
+  body_vi: 'Nguyên âm dài và ngắn
+
+
+    Ôn lại quy tắc ở phần nhập môn:
+
+    - **Dài**: nguyên âm đôi chữ (See, Meer), nguyên âm + h (Zahl), ie, nguyên âm + MỘT phụ âm (Plan, Weg, schon).
+
+    - **Ngắn**: nguyên âm + HAI phụ âm trở lên (Stadt, Fluss, Brücke, rechts).
+
+    Nguyên âm dài kéo dài như đếm “một-hai”; nguyên âm ngắn đọc gọn và căng.
+
+
+
+    Luyện tập: Đọc các cặp, vỗ tay hai lần cho nguyên âm dài và một lần cho nguyên âm ngắn.'
+  items:
+  - de: der Plan – die Stadt
+    vi: bản đồ – thành phố
+    ipa: '[plaːn] – [ʃtat]'
+  - de: der Weg – rechts
+    vi: con đường – bên phải
+    ipa: '[veːk] – [ʁɛçts]'
+  - de: schon – schön
+    vi: đã – đẹp
+    ipa: '[ʃoːn] – [ʃøːn]'
+- id: a1.m03.l02.b4
+  kind: examples
+  title_vi: Câu ví dụ
+  examples:
+  - de: Da ist ein Hotel. Das Hotel heißt „Elbblick“.
+    vi: Kia có một khách sạn. Khách sạn đó tên là “Elbblick”.
+  - de: Das ist eine Kirche. Die Kirche ist alt.
+    vi: Đó là một nhà thờ. Nhà thờ đó cổ.
+  - de: Hamburg ist interessant!
+    vi: Hamburg thú vị thật!
+  - de: Da rechts ist schon das Hotel.
+    vi: Khách sạn ở bên phải kia rồi.
+  - de: Wir arbeiten in Gruppen.
+    vi: Chúng ta làm việc theo nhóm.
+- id: a1.m03.l02.b5
+  kind: listening
+  title_vi: Trên taxi đến khách sạn
+  lines:
+  - speaker: Fahrer
+    de: Moin! Wohin?
+    vi: Chào! Đi đâu ạ?
+  - speaker: Lan
+    de: Moin! Zum Hotel Elbblick, bitte.
+    vi: Chào! Cho tôi đến khách sạn Elbblick.
+  - speaker: Fahrer
+    de: Okay. Sind Sie neu in Hamburg?
+    vi: Ok. Chị mới đến Hamburg à?
+  - speaker: Lan
+    de: Ja. Hamburg ist sehr interessant!
+    vi: Vâng. Hamburg thú vị quá!
+  - speaker: Fahrer
+    de: Da rechts ist ein See. Der See heißt Alster.
+    vi: Kia bên phải có một cái hồ. Hồ đó tên là Alster.
+  - speaker: Lan
+    de: Oh, der See ist schön! Und das? Ist das eine Kirche?
+    vi: Ồ, cái hồ đẹp quá! Còn kia? Đó có phải nhà thờ không?
+  - speaker: Fahrer
+    de: Nein, das ist das Rathaus. – So, da ist schon das Hotel!
+    vi: Không, đó là tòa thị chính. – Nào, khách sạn đây rồi!
+  audio_status: pending-tts
+  situation_vi: Lan đi taxi từ nhà ga đến khách sạn. Tài xế giới thiệu các địa điểm.
+  skill: listening
+  audio:
+    speed: slow
+- id: a1.m03.l02.b6
+  kind: reading
+  title_vi: Lời chào ở D-A-CH
+  paragraphs:
+  - de: 'In Deutschland, Österreich und der Schweiz sagt man „Guten Tag“. Aber es gibt auch andere Wörter:
+
+      In Hamburg und im Norden sagt man „Moin!“ – auch am Abend.
+
+      In Bayern und in Österreich sagt man „Grüß Gott!“.
+
+      In der Schweiz sagt man „Grüezi!“.'
+    vi: 'Ở Đức, Áo và Thụy Sĩ người ta nói “Guten Tag”. Nhưng cũng có những từ khác:
+
+      Ở Hamburg và miền Bắc người ta nói “Moin!” – kể cả buổi tối.
+
+      Ở Bayern và ở Áo người ta nói “Grüß Gott!”.
+
+      Ở Thụy Sĩ người ta nói “Grüezi!”.'
+  text_type_vi: Đoạn thông tin ngắn
+  skill: reading
+  glossary:
+  - de: man sagt
+    vi: người ta nói
+  - de: der Norden
+    vi: miền Bắc
+  - de: Bayern
+    vi: bang Bayern (Bavaria, miền Nam nước Đức)
+- id: a1.m03.l02.b7
+  kind: speaking
+  title_vi: 'Đóng vai: hướng dẫn viên trên xe'
+  skill: speaking
+  task_vi: 'Bạn là tài xế/hướng dẫn viên. Giới thiệu 3 địa điểm theo mẫu: Da ist ein/eine … Der/Die/Das … ist …'
+  steps_vi:
+  - Chọn 3 địa điểm (một der, một die, một das).
+  - Câu 1 với ein/eine, câu 2 với der/die/das + mô tả.
+  lines:
+  - speaker: Fahrer
+    de: Da links ist eine Brücke. Die Brücke ist sehr lang. Da ist ein Turm. Der Turm ist alt. Und da ist ein Museum. Das Museum ist interessant.
+    vi: Kia bên trái có một cây cầu. Cây cầu rất dài. Kia có một tòa tháp. Tòa tháp cổ. Và kia có một bảo tàng. Bảo tàng thú vị.
+- id: a1.m03.l02.b8
+  kind: writing
+  title_vi: Tin nhắn từ Hamburg
+  skill: writing
+  task_vi: 'Viết tin nhắn ngắn (4 câu) cho bạn: bạn đang ở thành phố mới, có gì (ein/eine), mô tả (der/die/das).'
+  model:
+    de: Hallo Mai! Ich bin in Hamburg. Hier ist ein See. Der See ist sehr schön!
+    vi: Chào Mai! Mình đang ở Hamburg. Ở đây có một cái hồ. Hồ đẹp lắm!
+  checklist_vi:
+  - 'Lần đầu: ein/eine; lần hai: der/die/das.'
+  - Mạo từ hợp với giống của danh từ.

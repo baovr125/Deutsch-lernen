@@ -1,0 +1,77 @@
+schema_version: "2.0"
+content_type: lesson
+id: a1.m07.l04
+level: A1
+module: a1.m07
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  references:
+    - { work: "Netzwerk neu A1.2 – Stoffverteilungsplan (Klett)", scope: "Kapitel 7, Mục Club Español (Strategie: Briefe schreiben); Landeskunde Smalltalk im Büro; Aussprache s und sch, st/scht", verification: verified }
+  tags: ["schreiben", "aussprache", "smalltalk"]
+order: 4
+title_de: "E-Mails schreiben und Smalltalk"
+title_vi: "Viết e-mail ngắn và trò chuyện xã giao"
+duration_min: 45
+difficulty: 2
+objectives:
+  - { id: a1.m07.l04.obj1, text_vi: "Bạn có thể viết một e-mail ngắn (lời chào, 2–3 câu nội dung, lời kết) cho đồng nghiệp hoặc người chưa quen.", skill: writing }
+  - { id: a1.m07.l04.obj2, text_vi: "Bạn có thể phát âm đúng s, sch, st- và sp- ở đầu từ.", skill: pronunciation }
+vocabulary_refs: [a1.m07.v.brief, a1.m07.v.email, a1.m07.v.frage, a1.m07.v.schreiben, a1.m07.v.drucken, a1.m07.v.wichtig]
+grammar_refs: []
+expression_refs: [a1.m07.x.brief-anrede, a1.m07.x.brief-gruss, a1.m07.x.brief-informell, a1.m07.x.smalltalk]
+exercise_set_ref: a1.m07.l04.ex
+blocks:
+  - id: a1.m07.l04.b1
+    kind: explanation
+    skill: writing
+    title_vi: "Chiến lược: dựng e-mail từ các khối câu"
+    body_vi: |
+      Một e-mail ngắn gồm **4 khối**: (1) lời chào – (2) lý do viết – (3) câu hỏi hoặc yêu cầu – (4) lời kết và tên.
+      Trang trọng: *Sehr geehrte Frau Berger, … Mit freundlichen Grüßen.* Thân mật: *Liebe Anna, … Viele Grüße.*
+  - id: a1.m07.l04.b2
+    kind: reading
+    skill: reading
+    title_vi: "Mẫu: e-mail gửi đồng nghiệp"
+    paragraphs:
+      - { de: "Liebe Katrin,", vi: "Katrin thân mến," }
+      - { de: "ich habe morgen um zehn Uhr einen Termin mit dem Kunden.", vi: "ngày mai lúc mười giờ mình có cuộc hẹn với khách hàng." }
+      - { de: "Kannst du bitte den Brief drucken?", vi: "Bạn in giúp mình bức thư này được không?" }
+      - { de: "Viele Grüße, Paul", vi: "Thân ái, Paul" }
+  - id: a1.m07.l04.b3
+    kind: pronunciation
+    skill: pronunciation
+    title_vi: "Phát âm: s, sch, st, sp"
+    body_vi: |
+      • **s** trước nguyên âm đọc nhẹ /z/ (như „z“ tiếng Anh *zoo*): *Sie, sagen*.
+      • **s** cuối từ hoặc **ss/ß** đọc /s/: *Haus, Fuß*.
+      • **sch** đọc /ʃ/ (giống „s“ nặng tiếng Việt, môi tròn): *Schreibtisch, Schule*.
+      • **st-** và **sp-** ở **đầu từ** đọc /ʃt/, /ʃp/: *Stunde, sprechen*. Ở giữa hoặc cuối từ đọc /st/, /sp/: *ist, Wespe*.
+      Lắng nghe nhiều lần rồi nhại lại (shadowing).
+    items:
+      - { de: "Sie sagen Sachen", ipa: "/ziː ˈzaːɡn̩ ˈzaxn̩/", note_vi: "s đầu âm tiết trước nguyên âm → /z/" }
+      - { de: "Schreibtisch", ipa: "/ˈʃʁaɪptɪʃ/", note_vi: "sch → /ʃ/; „-isch“ cuối cũng /ɪʃ/" }
+      - { de: "Stunde", ipa: "/ˈʃtʊndə/", note_vi: "st- đầu từ → /ʃt/" }
+      - { de: "sprechen", ipa: "/ˈʃpʁɛçn̩/", note_vi: "sp- đầu từ → /ʃp/" }
+      - { de: "ist", ipa: "/ɪst/", note_vi: "st ở cuối từ → /st/" }
+  - id: a1.m07.l04.b4
+    kind: dialogue
+    skill: speaking
+    title_vi: "Smalltalk ở căng-tin"
+    lines:
+      - { speaker: "Elif", de: "Hallo Tom! Wie war dein Tag?", vi: "Chào Tom! Ngày hôm nay của bạn thế nào?" }
+      - { speaker: "Tom", de: "Ganz gut, aber ein bisschen anstrengend. Und deiner?", vi: "Khá ổn nhưng hơi mệt. Còn của bạn?" }
+      - { speaker: "Elif", de: "Auch gut. Ich schreibe viele E-Mails und habe heute einen wichtigen Termin.", vi: "Cũng tốt. Tôi viết nhiều e-mail và hôm nay có một cuộc hẹn quan trọng." }
+      - { speaker: "Tom", de: "Schönen Feierabend!", vi: "Chúc buổi tối vui vẻ nhé!" }
+      - { speaker: "Elif", de: "Danke, dir auch!", vi: "Cảm ơn, bạn cũng vậy!" }
+  - id: a1.m07.l04.b5
+    kind: culture
+    skill: speaking
+    title_vi: "Văn hóa: smalltalk ở nơi làm việc"
+    body_vi: |
+      Smalltalk ngắn rất phổ biến: hỏi *Wie geht's?* hoặc *Wie war dein Tag?* ở căng-tin, thang máy, quầy cà phê. Chủ đề an toàn: thời tiết, cuối tuần, công việc nhẹ nhàng. Tránh hỏi chuyện riêng tư (lương, gia đình sâu) khi chưa thân.

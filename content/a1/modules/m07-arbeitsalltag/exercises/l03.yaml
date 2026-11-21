@@ -1,0 +1,136 @@
+schema_version: "2.0"
+content_type: exercise-set
+id: a1.m07.l03.ex
+level: A1
+module: a1.m07
+lesson: a1.m07.l03
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  tags: ["ort", "dativ"]
+exercises:
+  - id: a1.m07.l03.ex.01
+    type: multiple-choice
+    skill: grammar
+    difficulty: 1
+    objective_refs: [a1.m07.l03.obj1, a1.g.ortspraepositionen.obj1, a1.m07.obj.orte]
+    instructions_vi: "Chọn giới từ/dạng đúng (nhớ hỏi Wo? Wohin? Woher? trước)."
+    items:
+      - id: a1.m07.l03.ex.01.q1
+        prompt: "Wo ist der Kollege? – Er ist ___ Büro."
+        options: [{ id: a, text: "zum" }, { id: b, text: "im" }, { id: c, text: "nach" }]
+        answer: [b]
+        explanation_vi: "„Wo?“ (đang ở) → in + dem = im Büro."
+      - id: a1.m07.l03.ex.01.q2
+        prompt: "Wohin gehst du? – Ich gehe ___ Bank."
+        options: [{ id: a, text: "zur" }, { id: b, text: "von der" }, { id: c, text: "im" }]
+        answer: [a]
+        explanation_vi: "„Wohin?“ (đi đến) → zu + der = zur (Bank giống cái)."
+      - id: a1.m07.l03.ex.01.q3
+        prompt: "Woher kommst du? – Ich komme ___ Bahnhof."
+        options: [{ id: a, text: "zum" }, { id: b, text: "nach" }, { id: c, text: "vom" }]
+        answer: [c]
+        explanation_vi: "„Woher?“ (từ đâu) → von + dem = vom."
+      - id: a1.m07.l03.ex.01.q4
+        prompt: "Um sechs Uhr bin ich ___ Hause."
+        options: [{ id: a, text: "nach" }, { id: b, text: "zu" }, { id: c, text: "bei" }]
+        answer: [b]
+        explanation_vi: "‘Đang ở nhà’ (Wo?) là cụm cố định „zu Hause“; „nach Hause“ chỉ dùng khi đi/về."
+  - id: a1.m07.l03.ex.02
+    type: fill-blank
+    skill: grammar
+    difficulty: 1
+    objective_refs: [a1.m07.l03.obj1, a1.g.ortspraepositionen.obj1]
+    instructions_vi: "Điền dạng rút gọn: im, am, beim, zum, zur, vom."
+    word_bank: ["im", "am", "beim", "zum", "zur", "vom"]
+    items:
+      - { id: a1.m07.l03.ex.02.q1, prompt: "Wir gehen ___ Supermarkt.", answers: ["zum"], explanation_vi: "zu + dem = zum (Supermarkt giống đực)." }
+      - { id: a1.m07.l03.ex.02.q2, prompt: "Ich arbeite ___ Computer.", answers: ["am"], explanation_vi: "an + dem = am (làm việc ở máy tính)." }
+      - { id: a1.m07.l03.ex.02.q3, prompt: "Er ist gerade ___ Chef.", answers: ["beim"], explanation_vi: "bei + dem = beim: đang ở chỗ sếp." }
+      - { id: a1.m07.l03.ex.02.q4, prompt: "Ich fahre ___ Apotheke.", answers: ["zur"], explanation_vi: "zu + der = zur (Apotheke giống cái)." }
+      - { id: a1.m07.l03.ex.02.q5, prompt: "Die E-Mail kommt ___ Chef.", hint_vi: "von dem", answers: ["vom"], explanation_vi: "von + dem = vom." }
+  - id: a1.m07.l03.ex.03
+    type: matching
+    skill: vocabulary
+    difficulty: 1
+    objective_refs: [a1.m07.l03.obj2]
+    instructions_vi: "Nối địa điểm với việc bạn làm ở đó."
+    items:
+      - { id: a1.m07.l03.ex.03.q1, left: "die Post", right: "Briefe schicken", explanation_vi: "Ở bưu điện (die Post) bạn gửi thư." }
+      - { id: a1.m07.l03.ex.03.q2, left: "die Apotheke", right: "Medikamente kaufen", explanation_vi: "Medikamente = thuốc. Hiệu thuốc = die Apotheke." }
+      - { id: a1.m07.l03.ex.03.q3, left: "der Supermarkt", right: "Brot und Kaffee kaufen", explanation_vi: "Siêu thị là nơi mua đồ ăn, đồ uống." }
+      - { id: a1.m07.l03.ex.03.q4, left: "der Bahnhof", right: "mit dem Zug fahren", explanation_vi: "Nhà ga (der Bahnhof) – đi tàu." }
+  - id: a1.m07.l03.ex.04
+    type: word-order
+    skill: grammar
+    difficulty: 2
+    objective_refs: [a1.m07.l03.obj1, a1.g.ortspraepositionen.obj1]
+    instructions_vi: "Sắp xếp các từ thành câu đúng."
+    items:
+      - id: a1.m07.l03.ex.04.q1
+        tokens: ["zum", "der", "gehe", "Nach", "ich", "Arbeit", "Supermarkt."]
+        answer: "Nach der Arbeit gehe ich zum Supermarkt."
+        translation_vi: "Sau giờ làm tôi đi siêu thị."
+        explanation_vi: "„Nach der Arbeit“ đứng đầu (vị trí 1) nên động từ „gehe“ ở vị trí 2, rồi đến chủ ngữ „ich“. Ngoài ra „der“ là Dativ giống cái của „Arbeit“."
+      - id: a1.m07.l03.ex.04.q2
+        tokens: ["kommt", "Mein", "Termin.", "gerade", "vom", "Chef"]
+        answer: "Mein Chef kommt gerade vom Termin."
+        translation_vi: "Sếp tôi vừa từ cuộc hẹn về."
+        explanation_vi: "„Woher?“ → vom (von + dem Termin)."
+      - id: a1.m07.l03.ex.04.q3
+        tokens: ["Hause.", "bin", "sechs", "Um", "zu", "ich", "Uhr"]
+        answer: "Um sechs Uhr bin ich zu Hause."
+        translation_vi: "Lúc sáu giờ tôi ở nhà."
+        explanation_vi: "„zu Hause“ (đang ở nhà). Động từ „bin“ ở vị trí 2 sau cụm thời gian đứng đầu."
+  - id: a1.m07.l03.ex.05
+    type: translation
+    skill: writing
+    difficulty: 2
+    objective_refs: [a1.m07.l03.obj1, a1.g.ortspraepositionen.obj1]
+    instructions_vi: "Dịch sang tiếng Đức."
+    items:
+      - { id: a1.m07.l03.ex.05.q1, direction: vi-de, source: "Tôi đi đến ngân hàng.", answers: ["Ich gehe zur Bank."], explanation_vi: "Wohin? → zur Bank (zu + der)." }
+      - { id: a1.m07.l03.ex.05.q2, direction: vi-de, source: "Tôi ở văn phòng.", answers: ["Ich bin im Büro."], explanation_vi: "Wo? → in + dem = im Büro." }
+      - { id: a1.m07.l03.ex.05.q3, direction: vi-de, source: "Sau giờ làm tôi về nhà.", answers: ["Nach der Arbeit gehe ich nach Hause.", "Nach der Arbeit fahre ich nach Hause.", "Ich gehe nach der Arbeit nach Hause.", "Ich fahre nach der Arbeit nach Hause."], explanation_vi: "„nach der Arbeit“ = sau giờ làm (nach + Dativ); „nach Hause“ = về nhà." }
+  - id: a1.m07.l03.ex.06
+    type: speaking-practice
+    skill: speaking
+    difficulty: 2
+    objective_refs: [a1.m07.l03.obj2, a1.m07.obj.orte]
+    instructions_vi: "Hãy nói 3 câu: bạn đang ở đâu, sau giờ làm đi đâu và đến đó bằng gì."
+    items:
+      - id: a1.m07.l03.ex.06.q1
+        prompt_vi: "Nói về buổi chiều của bạn."
+        model_answer: { de: "Ich bin jetzt im Büro. Nach der Arbeit gehe ich zur Apotheke. Dann fahre ich mit dem Bus nach Hause.", vi: "Bây giờ tôi ở văn phòng. Sau giờ làm tôi đi hiệu thuốc. Rồi tôi đi xe buýt về nhà." }
+        rubric_vi: ["Có ít nhất một câu Wo? (im/am/bei …).", "Có ít nhất một câu Wohin? (zum/zur/nach Hause).", "Dùng mit dem + phương tiện đúng.", "Mạo từ/dạng rút gọn đúng."]
+        explanation_vi: "Bài mẫu có đủ ba loại thông tin: nơi ở (Wo), nơi đến (Wohin) và phương tiện (mit dem Bus)."
+  - id: a1.m07.l03.ex.07
+    type: reading-comprehension
+    skill: reading
+    difficulty: 2
+    objective_refs: [a1.m07.l03.obj2]
+    instructions_vi: "Đọc đoạn văn và trả lời."
+    stimulus:
+      text_de: "Frau Öztürk arbeitet bei einer Firma in der Stadt. Mittags geht sie zur Post. Dann kauft sie im Supermarkt Brot und fährt mit dem Bus zurück. Nach der Arbeit trifft sie eine Freundin im Café."
+      text_vi: "Chị Öztürk làm việc ở một công ty trong thành phố. Buổi trưa chị đi bưu điện. Sau đó chị mua bánh mì ở siêu thị rồi đi xe buýt quay lại. Sau giờ làm chị gặp một người bạn ở quán cà phê."
+    items:
+      - id: a1.m07.l03.ex.07.q1
+        prompt: "Wohin geht Frau Öztürk mittags zuerst?"
+        options: [{ id: a, text: "Zum Supermarkt." }, { id: b, text: "Zur Post." }, { id: c, text: "Zur Bank." }]
+        answer: [b]
+        explanation_vi: "„Mittags geht sie zur Post.“ — trước tiên đến bưu điện."
+      - id: a1.m07.l03.ex.07.q2
+        prompt: "Womit fährt sie zurück?"
+        options: [{ id: a, text: "Mit dem Bus." }, { id: b, text: "Mit dem Zug." }, { id: c, text: "Zu Fuß." }]
+        answer: [a]
+        explanation_vi: "„fährt mit dem Bus zurück“ — chị đi xe buýt."
+      - id: a1.m07.l03.ex.07.q3
+        prompt: "Wo trifft sie ihre Freundin?"
+        options: [{ id: a, text: "Im Büro." }, { id: b, text: "Bei der Bank." }, { id: c, text: "Im Café." }]
+        answer: [c]
+        explanation_vi: "Câu cuối: „trifft sie eine Freundin im Café“. Chú ý: im Café = in + dem Café (Wo?)."

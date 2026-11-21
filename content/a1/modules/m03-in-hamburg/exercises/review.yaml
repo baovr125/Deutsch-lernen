@@ -1,0 +1,293 @@
+schema_version: '2.0'
+content_type: exercise-set
+id: a1.m03.review.ex
+level: A1
+module: a1.m03
+lesson: a1.m03.review
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+exercises:
+- id: a1.m03.review.ex.01
+  type: multiple-choice
+  skill: vocabulary
+  difficulty: 1
+  objective_refs:
+  - a1.m03.review.obj1
+  instructions_vi: Phần B1 – Từ vựng. Chọn đáp án đúng.
+  items:
+  - id: a1.m03.review.ex.01.q1
+    prompt: Ở đâu có nhiều tàu thủy?
+    options:
+    - id: a
+      text: im Hafen
+    - id: b
+      text: im Rathaus
+    - id: c
+      text: im Museum
+    answer:
+    - a
+    explanation_vi: der Hafen = bến cảng.
+  - id: a1.m03.review.ex.01.q2
+    prompt: Phương tiện nào chạy dưới mặt đất?
+    options:
+    - id: a
+      text: die Straßenbahn
+    - id: b
+      text: die U-Bahn
+    - id: c
+      text: das Flugzeug
+    answer:
+    - b
+    explanation_vi: U = Untergrund.
+  - id: a1.m03.review.ex.01.q3
+    prompt: 'Tháng sau Juli là:'
+    options:
+    - id: a
+      text: Juni
+    - id: b
+      text: August
+    - id: c
+      text: September
+    answer:
+    - b
+    explanation_vi: Juli (7) → August (8).
+  - id: a1.m03.review.ex.01.q4
+    prompt: '„geradeaus“ nghĩa là:'
+    options:
+    - id: a
+      text: đi thẳng
+    - id: b
+      text: rẽ trái
+    - id: c
+      text: rẽ phải
+    answer:
+    - a
+    explanation_vi: geradeaus = thẳng.
+- id: a1.m03.review.ex.02
+  type: fill-blank
+  skill: grammar
+  difficulty: 2
+  objective_refs:
+  - a1.m03.review.obj2
+  instructions_vi: Phần B2 – Điền ein/eine hoặc der/die/das.
+  items:
+  - id: a1.m03.review.ex.02.q1
+    prompt: Da ist ___ Turm. ___ Turm ist 100 Meter hoch.
+    answers:
+    - ein
+    - Der
+    explanation_vi: ein → Der.
+  - id: a1.m03.review.ex.02.q2
+    prompt: Das ist ___ Kirche. ___ Kirche ist alt.
+    answers:
+    - eine
+    - Die
+    explanation_vi: eine → Die.
+- id: a1.m03.review.ex.03
+  type: multiple-choice
+  skill: grammar
+  difficulty: 2
+  objective_refs:
+  - a1.m03.review.obj2
+  instructions_vi: Phần B2 – kein/keine hay nicht?
+  items:
+  - id: a1.m03.review.ex.03.q1
+    prompt: Heute fährt ___ Straßenbahn.
+    options:
+    - id: a
+      text: keine
+    - id: b
+      text: kein
+    - id: c
+      text: nicht
+    answer:
+    - a
+    explanation_vi: die Straßenbahn → keine.
+  - id: a1.m03.review.ex.03.q2
+    prompt: Der Zug ist ___ schnell.
+    options:
+    - id: a
+      text: keine
+    - id: b
+      text: kein
+    - id: c
+      text: nicht
+    answer:
+    - c
+    explanation_vi: Tính từ → nicht.
+  - id: a1.m03.review.ex.03.q3
+    prompt: Ich habe ___ Ticket.
+    options:
+    - id: a
+      text: keine
+    - id: b
+      text: kein
+    - id: c
+      text: nicht
+    answer:
+    - b
+    explanation_vi: das Ticket → kein.
+- id: a1.m03.review.ex.04
+  type: sentence-construction
+  skill: grammar
+  difficulty: 2
+  objective_refs:
+  - a1.m03.review.obj2
+  instructions_vi: Phần B2 – Viết câu mệnh lệnh với Sie.
+  items:
+  - id: a1.m03.review.ex.04.q1
+    prompt_vi: zuerst links gehen
+    answers:
+    - Gehen Sie zuerst links.
+    - Gehen Sie zuerst links!
+    explanation_vi: Gehen Sie …
+  - id: a1.m03.review.ex.04.q2
+    prompt_vi: bitte hier warten
+    answers:
+    - Warten Sie bitte hier.
+    - Warten Sie bitte hier!
+    - Bitte warten Sie hier.
+    explanation_vi: Warten Sie bitte hier.
+- id: a1.m03.review.ex.05
+  type: multiple-choice
+  skill: listening
+  difficulty: 2
+  objective_refs:
+  - a1.m03.review.obj3
+  instructions_vi: Phần B3 – Nghe (tốc độ bình thường). Chọn đáp án đúng.
+  stimulus:
+    ref: a1.m03.review.b5
+  items:
+  - id: a1.m03.review.ex.05.q1
+    prompt: Bước đầu tiên là gì?
+    options:
+    - id: a
+      text: geradeaus
+    - id: b
+      text: rechts
+    - id: c
+      text: links
+    answer:
+    - b
+    explanation_vi: „Gehen Sie zuerst rechts.“
+  - id: a1.m03.review.ex.05.q2
+    prompt: Bảo tàng ở đâu sau khi qua cầu?
+    options:
+    - id: a
+      text: rechts
+    - id: b
+      text: geradeaus
+    - id: c
+      text: links
+    answer:
+    - c
+    explanation_vi: „Das Museum ist dann links.“
+  - id: a1.m03.review.ex.05.q3
+    prompt: Ở đó có xe buýt không?
+    options:
+    - id: a
+      text: Ja
+    - id: b
+      text: Nein
+    answer:
+    - b
+    explanation_vi: „Nein, hier fährt kein Bus.“
+- id: a1.m03.review.ex.06
+  type: true-false
+  skill: reading
+  difficulty: 2
+  objective_refs:
+  - a1.m03.review.obj4
+  instructions_vi: Phần B4 – Đọc thông tin về Lübeck. Đúng hay sai?
+  stimulus:
+    ref: a1.m03.review.b6
+  items:
+  - id: a1.m03.review.ex.06.q1
+    prompt: Lübeck ở miền Nam nước Đức.
+    answer: false
+    explanation_vi: „… im Norden von Deutschland.“
+  - id: a1.m03.review.ex.06.q2
+    prompt: Nhà thờ Marienkirche có hai tòa tháp.
+    answer: true
+    explanation_vi: „… hat zwei Türme …“
+  - id: a1.m03.review.ex.06.q3
+    prompt: Từ nhà ga đi bộ đến phố cổ mất khoảng 10 phút.
+    answer: true
+    explanation_vi: „zu Fuß circa 10 Minuten“.
+  - id: a1.m03.review.ex.06.q4
+    prompt: Chợ Giáng sinh diễn ra vào mùa hè.
+    answer: false
+    explanation_vi: „Im Dezember …“ – mùa đông.
+- id: a1.m03.review.ex.07
+  type: translation
+  skill: grammar
+  difficulty: 2
+  objective_refs:
+  - a1.m03.review.obj2
+  - a1.m03.review.obj1
+  instructions_vi: Phần B2 – Dịch sang tiếng Đức.
+  items:
+  - id: a1.m03.review.ex.07.q1
+    direction: vi-de
+    source: Đó không phải là tàu hỏa.
+    answers:
+    - Das ist kein Zug.
+    explanation_vi: der Zug → kein.
+  - id: a1.m03.review.ex.07.q2
+    direction: vi-de
+    source: Mùa đông tôi thích nấu ăn.
+    answers:
+    - Im Winter koche ich gern.
+    - Ich koche im Winter gern.
+    explanation_vi: Im Winter (1) – koche (2) – ich – gern.
+- id: a1.m03.review.ex.08
+  type: writing-practice
+  skill: writing
+  difficulty: 2
+  objective_refs:
+  - a1.m03.review.obj5
+  instructions_vi: Phần B5 – Viết email cho bạn (phần Viết). Tối đa 8 điểm.
+  grading: self
+  rubric:
+  - criterion_vi: 'Nội dung: thành phố, chỉ đường, hoạt động theo mùa'
+    points: 4
+  - criterion_vi: 'Ngữ pháp: mạo từ, Imperativ/câu kể, im + mùa'
+    points: 2
+  - criterion_vi: Chính tả và dấu câu
+    points: 2
+  items:
+  - id: a1.m03.review.ex.08.q1
+    prompt_vi: Email cho bạn sắp đến thăm
+    model_answer:
+      de: 'Hallo Tom! Leipzig ist toll. Hier ist ein Zoo. Der Zoo ist sehr groß. Vom Bahnhof: Gehen Sie zuerst links, dann geradeaus. Im Sommer schwimmen wir im See!'
+    explanation_vi: 'Với bạn bè có thể chỉ đường bằng câu kể: Du gehst zuerst links… (Imperativ với du – Kapitel 8).'
+- id: a1.m03.review.ex.09
+  type: speaking-practice
+  skill: speaking
+  difficulty: 2
+  objective_refs:
+  - a1.m03.review.obj5
+  instructions_vi: Phần B6 – Kiểm tra nói (phần Nói). Tối đa 8 điểm.
+  grading: self
+  rubric:
+  - criterion_vi: 'Phần 1: giới thiệu thành phố với mạo từ đúng'
+    points: 3
+  - criterion_vi: 'Phần 2: chỉ đường đúng cấu trúc Imperativ mit Sie'
+    points: 3
+  - criterion_vi: 'Phát âm: links, rechts, geradeaus; nguyên âm dài/ngắn'
+    points: 2
+  items:
+  - id: a1.m03.review.ex.09.q1
+    prompt_vi: Giới thiệu thành phố và chỉ đường
+    model_answer:
+      de: Das ist Hanoi. Da ist ein See. Der See ist sehr schön. Die Long-Bien-Brücke ist lang. – Gehen Sie zuerst rechts. Dann gehen Sie geradeaus. Da ist ein Park. Gehen Sie links. Da ist das Rathaus.
+    explanation_vi: So sánh với mẫu.

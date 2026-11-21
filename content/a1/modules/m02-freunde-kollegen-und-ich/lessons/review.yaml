@@ -1,0 +1,239 @@
+schema_version: '2.0'
+content_type: lesson
+id: a1.m02.review
+level: A1
+module: a1.m02
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+  references:
+  - work: Netzwerk neu A1 (Klett)
+    scope: 'Kapitel 2: kurz und klar: Redemittel und Grammatik'
+    verification: verified
+  notes_vi: Bảng tổng kết, đề kiểm tra và đáp án tự biên soạn.
+order: 7
+title_de: Kurz und klar – Test Kapitel 2
+title_vi: Tổng kết và kiểm tra Kapitel 2
+topic_vi: Ôn Redemittel và ngữ pháp Kapitel 2; kiểm tra 4 kỹ năng
+duration_min: 60
+difficulty: 2
+kind: review
+cefr:
+- A1.SP2
+- A1.SI2
+- A1.SI5
+- A1.H3
+- A1.H4
+- A1.L2
+- A1.L3
+- A1.S1
+- A1.S2
+prerequisites:
+- a1.m02.l06
+objectives:
+- id: a1.m02.review.obj1
+  text_vi: 'Kiểm tra từ vựng: sở thích, ngày trong tuần, địa điểm, nghề nghiệp, đồ vật, số đếm, biểu mẫu.'
+  skill: vocabulary
+- id: a1.m02.review.obj2
+  text_vi: 'Kiểm tra ngữ pháp: chia động từ đầy đủ, câu hỏi có/không, mạo từ der/die/das, số nhiều, haben/sein.'
+  skill: grammar
+- id: a1.m02.review.obj3
+  text_vi: 'Kiểm tra nghe hiểu: hẹn gặp, số liệu.'
+  skill: listening
+- id: a1.m02.review.obj4
+  text_vi: 'Kiểm tra đọc hiểu: văn bản ngắn về nghề nghiệp và sở thích.'
+  skill: reading
+- id: a1.m02.review.obj5
+  text_vi: 'Kiểm tra viết và nói: giới thiệu sở thích, nghề, hẹn đi chơi.'
+  skill: writing
+vocabulary_refs: []
+review_vocabulary_refs:
+- a1.m02.v.gern
+- a1.m02.v.gehen
+- a1.m02.v.arbeiten
+- a1.m02.v.wir
+- a1.m02.v.ihr
+- a1.m02.v.fahren
+- a1.m02.v.montag
+- a1.m02.v.sonntag
+- a1.m02.v.wann
+- a1.m02.v.leider
+- a1.m02.v.caf
+- a1.m02.v.beruf
+- a1.m02.v.arzt
+- a1.m02.v.rechnung
+- a1.m02.v.schluessel
+- a1.m02.v.haben
+- a1.m02.v.alt
+- a1.m02.v.stunde
+- a1.m02.v.dreissig
+- a1.m02.v.adresse
+- a1.m02.v.postleitzahl
+grammar_refs:
+- a1.g.verben-praesens
+- a1.g.ja-nein-frage
+- a1.g.bestimmter-artikel
+- a1.g.plural
+- a1.g.haben-sein
+grammar_focus:
+- ref: a1.g.verben-praesens
+  focus_vi: 'Ôn: đuôi đầy đủ, -t/-d, -s/-z, đổi nguyên âm.'
+- ref: a1.g.ja-nein-frage
+  focus_vi: 'Ôn: động từ ở vị trí 1, lên giọng.'
+- ref: a1.g.bestimmter-artikel
+  focus_vi: 'Ôn: der/die/das, dấu hiệu, danh từ ghép.'
+- ref: a1.g.plural
+  focus_vi: 'Ôn: các dạng số nhiều.'
+- ref: a1.g.haben-sein
+  focus_vi: 'Ôn: haben/sein, tuổi.'
+expression_refs:
+- a1.m02.x.ueber-hobbys-sprechen-was-machst-du-gern
+- a1.m02.x.sich-verabreden-gehen-wir-am-ins-ja-gern
+- a1.m02.x.ueber-den-beruf-sprechen-was-sind-sie-vo
+- a1.m02.x.formulare-wie-ist-ihre-adresse-lindenstr
+exercise_set_ref: a1.m02.review.ex
+summary_vi: 'Kapitel 2 – bạn có thể: nói sở thích với gern; chia động từ ở mọi ngôi (kể cả bất quy tắc); đặt câu hỏi có/không; hẹn đi chơi theo ngày; nói nghề nghiệp, nơi làm việc, tuổi, giờ làm, ngày nghỉ; dùng der/die/das và số nhiều; đọc số đến 1 triệu; điền biểu mẫu đăng ký.'
+self_check:
+- Tôi nói được sở thích của mình và hỏi sở thích người khác.
+- Tôi chia được động từ với cả 6 ngôi, kể cả haben, sein, lesen, fahren.
+- Tôi rủ được bạn đi chơi và tìm được ngày rảnh.
+- Tôi giới thiệu được nghề nghiệp, tuổi và thời gian làm việc.
+- Tôi biết mạo từ và số nhiều của các từ quan trọng trong Kapitel 2.
+- Tôi điền được biểu mẫu đăng ký.
+blocks:
+- id: a1.m02.review.b1
+  kind: explanation
+  title_vi: Giới thiệu bài học
+  body_vi: '**Hoàn thành 6 bài của Kapitel 2!** Bài này gồm phần **tổng kết** (đọc lại Redemittel và bảng ngữ pháp) và phần **kiểm tra** 4 kỹ năng.
+
+    Tiêu chí như Kapitel 1: **mỗi kỹ năng ≥ 60%**, tổng ≥ 70%. Hãy làm bài không xem lại bài học.'
+- id: a1.m02.review.b2
+  kind: explanation
+  title_vi: Bảng tổng kết ngữ pháp Kapitel 2
+  skill: grammar
+  body_vi: '| | spielen | arbeiten | lesen | fahren | haben | sein |
+
+    |---|---|---|---|---|---|---|
+
+    | ich | spiele | arbeite | lese | fahre | habe | bin |
+
+    | du | spielst | arbeitest | liest | fährst | hast | bist |
+
+    | er/sie/es | spielt | arbeitet | liest | fährt | hat | ist |
+
+    | wir | spielen | arbeiten | lesen | fahren | haben | sind |
+
+    | ihr | spielt | arbeitet | lest | fahrt | habt | seid |
+
+    | sie/Sie | spielen | arbeiten | lesen | fahren | haben | sind |
+
+
+    **Câu hỏi có/không:** Spielst du Tennis? ↗ · **Mạo từ:** der (xanh dương) / die (đỏ) / das (xanh lá), số nhiều die · **Số:** 21 = einundzwanzig.
+
+    '
+  examples:
+  - de: Spielt ihr am Wochenende Fußball? – Ja, wir spielen am Samstag.
+    vi: Cuối tuần các bạn có chơi bóng không? – Có, bọn mình chơi thứ Bảy.
+- id: a1.m02.review.b3
+  kind: pronunciation
+  title_vi: 'Ôn: ngữ điệu câu hỏi và số từ 20'
+  skill: pronunciation
+  body_vi: 'Ôn: ngữ điệu câu hỏi và số từ 20
+
+
+    Câu hỏi có/không ↗, câu hỏi W- ↘. Số: đơn vị + und + chục, nhấn phần đơn vị (FÜNF-und-zwan-zig).
+
+
+    Luyện tập: Đọc to và ghi âm hai ví dụ.'
+  items:
+  - de: Hast du am Montag frei? ↗
+    vi: Thứ Hai bạn có được nghỉ không?
+  - de: fünfundzwanzig
+    vi: '25'
+    ipa: '[ˈfʏnfʊntˌtsvantsɪç]'
+- id: a1.m02.review.b4
+  kind: examples
+  title_vi: Câu ví dụ
+  examples:
+  - de: Wir spielen am Wochenende Tennis.
+    vi: Cuối tuần chúng tôi chơi tennis.
+  - de: Lest ihr gern?
+    vi: Các bạn có thích đọc sách không?
+  - de: Sie ist Ärztin und hat am Mittwoch frei.
+    vi: Cô ấy là bác sĩ và thứ Tư được nghỉ.
+  - de: Die Rechnung, bitte!
+    vi: Cho tôi xin hóa đơn!
+- id: a1.m02.review.b5
+  kind: listening
+  title_vi: Hẹn chơi tennis
+  lines:
+  - speaker: Jonas
+    de: Hallo Mai! Spielst du gern Tennis?
+    vi: Chào Mai! Bạn có thích chơi tennis không?
+  - speaker: Mai
+    de: Ja, sehr gern! Aber ich spiele nicht oft.
+    vi: Có, rất thích! Nhưng mình không hay chơi.
+  - speaker: Jonas
+    de: Spielen wir am Dienstag?
+    vi: Thứ Ba mình chơi nhé?
+  - speaker: Mai
+    de: Dienstag geht leider nicht. Am Dienstag arbeite ich im Café. Am Donnerstag habe ich frei.
+    vi: Thứ Ba tiếc là không được. Thứ Ba mình làm ở quán cà phê. Thứ Năm mình được nghỉ.
+  - speaker: Jonas
+    de: Donnerstag ist super! Der Tennisplatz ist in der Goethestraße 45.
+    vi: Thứ Năm tuyệt! Sân tennis ở phố Goethe số 45.
+  audio_status: pending-tts
+  situation_vi: Jonas và Mai hẹn nhau chơi tennis (tốc độ bình thường).
+  skill: listening
+  audio:
+    speed: normal
+- id: a1.m02.review.b6
+  kind: reading
+  title_vi: Giới thiệu thành viên mới
+  paragraphs:
+  - de: 'Neu im Club: Ana und Kenji!
+
+      Ana ist 27 und kommt aus Spanien. Sie ist Ingenieurin und arbeitet bei einer Firma in Köln. Sie spielt sehr gern Basketball. Am Wochenende reist sie gern.
+
+      Kenji ist 34. Er ist Koch und hat am Montag und am Dienstag frei. Er spielt Tennis, aber nicht so gern. Er liebt Yoga!'
+    vi: 'Thành viên mới: Ana và Kenji!
+
+      Ana 27 tuổi, đến từ Tây Ban Nha. Cô là kỹ sư, làm ở một công ty tại Köln. Cô rất thích chơi bóng rổ. Cuối tuần cô thích đi du lịch.
+
+      Kenji 34 tuổi. Anh là đầu bếp, được nghỉ thứ Hai và thứ Ba. Anh chơi tennis nhưng không thích lắm. Anh mê yoga!'
+  text_type_vi: Thông báo trên trang web câu lạc bộ
+  skill: reading
+- id: a1.m02.review.b7
+  kind: speaking
+  title_vi: Kiểm tra nói
+  skill: speaking
+  task_vi: 'Phần 1: Nói về bạn (tuổi, nghề/việc học, sở thích, ngày nghỉ) – 5 câu. Phần 2: Rủ bạn đi chơi và tìm ngày rảnh.'
+  steps_vi:
+  - Phần 1 khoảng 1 phút.
+  - 'Phần 2: đóng vai với một lịch bận cho sẵn (Mo, Mi bận).'
+  lines:
+  - speaker: Lernende
+    de: Ich bin 24 Jahre alt. Ich bin Studentin. Ich koche gern und spiele gern Tennis. Am Wochenende habe ich frei.
+    vi: Tôi 24 tuổi. Tôi là sinh viên. Tôi thích nấu ăn và chơi tennis. Cuối tuần tôi được nghỉ.
+  - speaker: Lernende
+    de: Gehen wir am Dienstag ins Kino? – Am Montag und Mittwoch arbeite ich.
+    vi: Thứ Ba mình đi xem phim nhé? – Thứ Hai và thứ Tư mình làm việc.
+- id: a1.m02.review.b8
+  kind: writing
+  title_vi: Kiểm tra viết
+  skill: writing
+  task_vi: 'Viết tin nhắn cho câu lạc bộ (5–6 câu): giới thiệu bản thân (tên, tuổi, nghề), sở thích, môn muốn chơi và ngày bạn rảnh.'
+  model:
+    de: Hallo! Ich heiße Lan und bin 25 Jahre alt. Ich bin Krankenpflegerin. Ich spiele gern Basketball. Ich habe am Mittwoch und am Freitag frei. Wann ist der Basketball-Kurs?
+    vi: Xin chào! Tôi tên là Lan, 25 tuổi. Tôi là điều dưỡng. Tôi thích chơi bóng rổ. Thứ Tư và thứ Sáu tôi được nghỉ. Lớp bóng rổ vào khi nào ạ?
+  checklist_vi:
+  - 'Đủ ý: tên, tuổi, nghề, sở thích, ngày rảnh, câu hỏi.'
+  - haben/sein đúng; nghề không mạo từ; gern đúng vị trí.

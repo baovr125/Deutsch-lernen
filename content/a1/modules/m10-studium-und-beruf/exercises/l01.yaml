@@ -1,0 +1,135 @@
+schema_version: "2.0"
+content_type: exercise-set
+id: a1.m10.l01.ex
+level: A1
+module: a1.m10
+lesson: a1.m10.l01
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  tags: ["beruf"]
+exercises:
+  - id: a1.m10.l01.ex.01
+    type: multiple-choice
+    skill: vocabulary
+    difficulty: 1
+    objective_refs: [a1.m10.l01.obj1, a1.m10.obj.beruf]
+    instructions_vi: "Chọn đáp án đúng."
+    items:
+      - id: a1.m10.l01.ex.01.q1
+        prompt: "Wie heißt die weibliche Form von „Lehrer“?"
+        options: [{ id: a, text: "Lehrerin" }, { id: b, text: "Lehrer" }, { id: c, text: "Lehrerinnen" }]
+        answer: [a]
+        explanation_vi: "Thêm -in để chỉ nữ: Lehrerin. „Lehrerinnen“ là số nhiều của dạng nữ."
+      - id: a1.m10.l01.ex.01.q2
+        prompt: "Was sind Sie von Beruf? – Ich bin ___."
+        options: [{ id: a, text: "ein Koch" }, { id: b, text: "Koch" }, { id: c, text: "der Koch" }]
+        answer: [b]
+        explanation_vi: "Khi nói nghề nghiệp sau „sein“, không dùng mạo từ: Ich bin Koch."
+      - id: a1.m10.l01.ex.01.q3
+        prompt: "Welchen Artikel hat „Universität“?"
+        options: [{ id: a, text: "der" }, { id: b, text: "die" }, { id: c, text: "das" }]
+        answer: [b]
+        explanation_vi: "Đuôi -tät luôn là „die“: die Universität."
+      - id: a1.m10.l01.ex.01.q4
+        prompt: "Wo arbeitet ein Koch normalerweise?"
+        options: [{ id: a, text: "Im Restaurant." }, { id: b, text: "In der Schule." }, { id: c, text: "Im Krankenhaus." }]
+        answer: [a]
+        explanation_vi: "Đầu bếp (Koch) làm việc ở nhà hàng (Restaurant)."
+  - id: a1.m10.l01.ex.02
+    type: matching
+    skill: vocabulary
+    difficulty: 1
+    objective_refs: [a1.m10.l01.obj1]
+    instructions_vi: "Nối nghề nghiệp với nơi làm việc/học."
+    items:
+      - { id: a1.m10.l01.ex.02.q1, left: "der Lehrer", right: "die Schule", explanation_vi: "Giáo viên làm việc ở trường (die Schule)." }
+      - { id: a1.m10.l01.ex.02.q2, left: "der Koch", right: "das Restaurant", explanation_vi: "Đầu bếp làm ở nhà hàng." }
+      - { id: a1.m10.l01.ex.02.q3, left: "der Verkäufer", right: "der Supermarkt", explanation_vi: "Nhân viên bán hàng làm ở siêu thị." }
+      - { id: a1.m10.l01.ex.02.q4, left: "der Student", right: "die Universität", explanation_vi: "Sinh viên học ở trường đại học." }
+  - id: a1.m10.l01.ex.03
+    type: fill-blank
+    skill: vocabulary
+    difficulty: 1
+    objective_refs: [a1.m10.l01.obj1, a1.m10.obj.beruf]
+    instructions_vi: "Điền tên nghề đúng (gợi ý nghĩa)."
+    word_bank: ["Koch", "Lehrerin", "Student", "Ingenieurin"]
+    items:
+      - { id: a1.m10.l01.ex.03.q1, prompt: "Mein Vater ist ___.", hint_vi: "đầu bếp", answers: ["Koch"], explanation_vi: "Nam: der Koch." }
+      - { id: a1.m10.l01.ex.03.q2, prompt: "Meine Mutter ist ___.", hint_vi: "giáo viên nữ", answers: ["Lehrerin"], explanation_vi: "Nữ: Lehrer + -in = Lehrerin." }
+      - { id: a1.m10.l01.ex.03.q3, prompt: "Mein Bruder ist ___ an der Universität.", hint_vi: "sinh viên", answers: ["Student"], explanation_vi: "Nam: der Student (không có mạo từ sau „sein“)." }
+      - { id: a1.m10.l01.ex.03.q4, prompt: "Sie ist ___.", hint_vi: "kỹ sư nữ", answers: ["Ingenieurin"], explanation_vi: "Ingenieur + -in = Ingenieurin." }
+  - id: a1.m10.l01.ex.04
+    type: word-order
+    skill: grammar
+    difficulty: 2
+    objective_refs: [a1.m10.l01.obj1, a1.m10.obj.beruf]
+    instructions_vi: "Sắp xếp các từ thành câu đúng."
+    items:
+      - id: a1.m10.l01.ex.04.q1
+        tokens: ["im", "Ich", "Supermarkt.", "als", "arbeite", "Verkäufer"]
+        answer: "Ich arbeite als Verkäufer im Supermarkt."
+        translation_vi: "Tôi làm nhân viên bán hàng ở siêu thị."
+        explanation_vi: "Cấu trúc „arbeiten als + nghề“ rồi nơi làm việc „im Supermarkt“."
+      - id: a1.m10.l01.ex.04.q2
+        tokens: ["an", "Medizin", "studiert", "Universität.", "Sie", "der"]
+        answer: "Sie studiert Medizin an der Universität."
+        translation_vi: "Cô ấy học ngành y ở trường đại học."
+        explanation_vi: "studieren + ngành học; „an der Universität“ (an + Dativ)."
+      - id: a1.m10.l01.ex.04.q3
+        tokens: ["Lehrer.", "ist", "Mein", "Beruf"]
+        answer: "Mein Beruf ist Lehrer."
+        translation_vi: "Nghề của tôi là giáo viên."
+        explanation_vi: "„Beruf“ giống đực nên dùng „Mein“."
+  - id: a1.m10.l01.ex.05
+    type: reading-comprehension
+    skill: reading
+    difficulty: 2
+    objective_refs: [a1.m10.l01.obj2, a1.m10.obj.beruf]
+    instructions_vi: "Đọc và trả lời."
+    stimulus:
+      text_de: "Tim studiert Informatik an der Universität. Im Sommer arbeitet er als Koch in einem Hotel. Im Winter arbeitet er als Verkäufer in einem Geschäft."
+      text_vi: "Tim học ngành tin học ở trường đại học. Mùa hè anh làm đầu bếp ở một khách sạn. Mùa đông anh làm nhân viên bán hàng ở một cửa hàng."
+    items:
+      - id: a1.m10.l01.ex.05.q1
+        prompt: "Was ist Tim?"
+        options: [{ id: a, text: "Lehrer." }, { id: b, text: "Student." }, { id: c, text: "Koch von Beruf." }]
+        answer: [b]
+        explanation_vi: "„Tim studiert Informatik“ nên anh là sinh viên."
+      - id: a1.m10.l01.ex.05.q2
+        prompt: "Wo arbeitet Tim im Sommer?"
+        options: [{ id: a, text: "In einem Hotel." }, { id: b, text: "In einer Schule." }, { id: c, text: "In einem Krankenhaus." }]
+        answer: [a]
+        explanation_vi: "„Im Sommer arbeitet er als Koch in einem Hotel.“"
+      - id: a1.m10.l01.ex.05.q3
+        prompt: "Was macht Tim im Winter?"
+        options: [{ id: a, text: "Er kocht in einem Hotel." }, { id: b, text: "Er schläft." }, { id: c, text: "Er arbeitet als Verkäufer." }]
+        answer: [c]
+        explanation_vi: "„Im Winter arbeitet er als Verkäufer in einem Geschäft.“"
+  - id: a1.m10.l01.ex.06
+    type: translation
+    skill: writing
+    difficulty: 2
+    objective_refs: [a1.m10.l01.obj1, a1.m10.obj.beruf]
+    instructions_vi: "Dịch sang tiếng Đức."
+    items:
+      - { id: a1.m10.l01.ex.06.q1, direction: vi-de, source: "Tôi là giáo viên.", answers: ["Ich bin Lehrer.", "Ich bin Lehrerin."], explanation_vi: "Nghề sau „sein“ không có mạo từ; nữ thêm -in." }
+      - { id: a1.m10.l01.ex.06.q2, direction: vi-de, source: "Cô ấy học ngành y.", answers: ["Sie studiert Medizin."], explanation_vi: "„studieren“ + ngành học." }
+      - { id: a1.m10.l01.ex.06.q3, direction: vi-de, source: "Bố tôi làm đầu bếp ở một nhà hàng.", answers: ["Mein Vater arbeitet als Koch in einem Restaurant."], explanation_vi: "„arbeiten als + nghề“; „in einem Restaurant“." }
+  - id: a1.m10.l01.ex.07
+    type: speaking-practice
+    skill: speaking
+    difficulty: 2
+    objective_refs: [a1.m10.l01.obj1, a1.m10.obj.beruf]
+    instructions_vi: "Hãy nói 3–4 câu giới thiệu nghề nghiệp hoặc việc học của bạn."
+    items:
+      - id: a1.m10.l01.ex.07.q1
+        prompt_vi: "Giới thiệu nghề/ngành học và nơi làm việc/học."
+        model_answer: { de: "Ich bin Student. Ich studiere Informatik an der Universität. Am Wochenende arbeite ich als Verkäufer in einem Supermarkt.", vi: "Tôi là sinh viên. Tôi học ngành tin học ở trường đại học. Cuối tuần tôi làm nhân viên bán hàng ở một siêu thị." }
+        rubric_vi: ["Nêu nghề hoặc việc học không dùng mạo từ sai.", "Dùng „studieren“ hoặc „arbeiten als“ đúng.", "Nêu nơi làm việc/học (an der Universität, in einem …).", "Phát âm rõ „Student“, „studieren“."]
+        explanation_vi: "Bài mẫu có nghề, ngành học, nơi học và việc làm thêm."

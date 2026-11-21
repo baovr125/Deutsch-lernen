@@ -1,0 +1,260 @@
+schema_version: '2.0'
+content_type: lesson
+id: a1.m04.review
+level: A1
+module: a1.m04
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+  references:
+  - work: Netzwerk neu A1 (Klett)
+    scope: 'Kapitel 4: kurz und klar: Redemittel und Grammatik'
+    verification: verified
+  notes_vi: Bảng tổng kết, đề kiểm tra và đáp án tự biên soạn.
+order: 7
+title_de: Kurz und klar – Test Kapitel 4
+title_vi: Tổng kết và kiểm tra Kapitel 4
+topic_vi: Ôn Redemittel và ngữ pháp Kapitel 4 (Akkusativ, möchten, mögen, Inversion); kiểm tra 4 kỹ năng
+duration_min: 60
+difficulty: 2
+kind: review
+cefr:
+- A1.SI2
+- A1.H3
+- A1.L3
+- A1.SP1
+- A1.S2
+prerequisites:
+- a1.m04.l06
+objectives:
+- id: a1.m04.review.obj1
+  text_vi: 'Kiểm tra từ vựng: tên thực phẩm, đơn vị đo lường, cửa hàng thực phẩm, các bữa ăn.'
+  skill: vocabulary
+- id: a1.m04.review.obj2
+  text_vi: 'Kiểm tra ngữ pháp: Akkusativ (den, einen, keinen), möchten vs mögen, đảo ngữ Inversion.'
+  skill: grammar
+- id: a1.m04.review.obj3
+  text_vi: 'Kiểm tra nghe hiểu: hội thoại mua sắm và giao tiếp bàn ăn.'
+  skill: listening
+- id: a1.m04.review.obj4
+  text_vi: 'Kiểm tra đọc hiểu: hóa đơn mua hàng và bài viết thói quen ăn uống.'
+  skill: reading
+- id: a1.m04.review.obj5
+  text_vi: 'Kiểm tra viết và nói: thực hành mua bán và chia sẻ thói quen ẩm thực.'
+  skill: speaking
+vocabulary_refs: []
+review_vocabulary_refs:
+- a1.m04.v.lebensmittel
+- a1.m04.v.brot
+- a1.m04.v.kaese
+- a1.m04.v.tomate
+- a1.m04.v.baeckerei
+- a1.m04.v.supermarkt
+- a1.m04.v.essen-verb
+- a1.m04.v.grillen
+- a1.m04.v.brauchen
+- a1.m04.v.kosten
+- a1.m04.v.kilo
+- a1.m04.v.moechten
+- a1.m04.v.nehmen
+- a1.m04.v.lecker
+- a1.m04.v.prost
+- a1.m04.v.moegen
+- a1.m04.v.morgens
+- a1.m04.v.chef
+- a1.m04.v.spass
+grammar_refs:
+- a1.g.akkusativ
+- a1.g.moechten-moegen
+- a1.g.satzpositionen
+grammar_focus:
+- ref: a1.g.akkusativ
+  focus_vi: 'Ôn: cách Akkusativ (der/ein/kein → den/einen/keinen).'
+- ref: a1.g.moechten-moegen
+  focus_vi: 'Ôn: chia và dùng möchten (gọi món, mong muốn) và mögen (sở thích danh từ).'
+- ref: a1.g.satzpositionen
+  focus_vi: 'Ôn: Inversion (trạng từ thời gian ở vị trí 1, động từ vị trí 2, chủ ngữ vị trí 3).'
+expression_refs:
+- a1.m04.x.beim-einkaufen-was-moechten-sie-ich-nehm
+- a1.m04.x.beim-essen-guten-appetit-danke-gleichfal
+- a1.m04.x.essgewohnheiten-was-isst-du-morgens-morg
+exercise_set_ref: a1.m04.review.ex
+summary_vi: 'Bài tổng kết giúp bạn củng cố toàn bộ kiến thức của Kapitel 4: từ vựng mua sắm, ẩm thực và bàn ăn, ngữ pháp Akkusativ, möchten/mögen và đảo ngữ V2. Bạn đã sẵn sàng tự tin bước tiếp sang Kapitel 5!'
+self_check:
+- Tôi đã nắm vững cách Akkusativ (der/ein/kein → den/einen/keinen).
+- Tôi phân biệt và dùng thành thạo möchten và mögen.
+- 'Tôi nhớ nguyên tắc V2: động từ luôn ở vị trí 2 trong câu kể.'
+blocks:
+- id: a1.m04.review.b1
+  kind: explanation
+  title_vi: Giới thiệu bài học
+  body_vi: '**Chúc mừng bạn đã hoàn thành trọn vẹn 6 bài học của Kapitel 4: Guten Appetit!**
+
+    Bài học tổng kết này được thiết kế để:
+
+    - Hệ thống hóa toàn bộ các mẫu câu giao tiếp quan trọng nhất (Redemittel) về mua bán và ăn uống.
+
+    - Tóm tắt cô đọng 3 trụ cột ngữ pháp của chương: Cách Akkusativ, cặp động từ *möchten / mögen*, và quy tắc đảo ngữ V2 (*Inversion*).
+
+    - Đánh giá năng lực toàn diện của bạn qua bài kiểm tra 4 kỹ năng (Nghe, Đọc, Viết, Nói) theo chuẩn CEFR A1.'
+- id: a1.m04.review.b2
+  kind: explanation
+  title_vi: Bảng tổng hợp ngữ pháp Kapitel 4
+  skill: grammar
+  body_vi: '**1. Akkusativ (chỉ giống đực biến đổi):**
+
+    - der Apfel → Ich brauche **den** Apfel.
+
+    - ein Apfel → Ich esse **einen** Apfel.
+
+    - kein Apfel → Ich habe **keinen** Apfel.
+
+    - Giống trung (das/ein), cái (die/eine), số nhiều (die/–) giữ nguyên như Nominativ.
+
+
+    **2. möchten và mögen:**
+
+    - *möchten*: ich möchte, du möchtest, er möchte, wir möchten, ihr möchtet, sie möchten.
+
+    - *mögen*: ich mag, du magst, er mag, wir mögen, ihr mögt, sie mögen.
+
+
+    **3. Inversion (Trật tự từ):**
+
+    - *Normal:* Ich frühstücke morgens um sieben Uhr.
+
+    - *Inversion:* **Morgens** (1) **frühstücke** (2) **ich** (3) um sieben Uhr.
+
+    '
+  examples:
+  - de: Morgens esse ich einen Apfel und trinke einen Kaffee.
+    vi: Buổi sáng tôi ăn một quả táo và uống một ly cà phê.
+  - de: Er mag keinen Fisch, aber er möchte einen Salat probieren.
+    vi: Anh ấy không thích cá, nhưng anh ấy muốn nếm thử món salad.
+- id: a1.m04.review.b3
+  kind: pronunciation
+  title_vi: 'Tổng ôn phát âm: Nguyên âm Umlaut và ngữ điệu giá tiền'
+  skill: pronunciation
+  body_vi: 'Tổng ôn phát âm: Nguyên âm Umlaut và ngữ điệu giá tiền
+
+
+    Phát âm chuẩn xác ä, ö, ü trong các từ vựng ẩm thực quen thuộc và đọc lưu loát giá tiền bằng Euro và Cent.
+
+
+    Luyện tập: Luyện đọc: ein Hähnchen, zwei Brötchen, süßes Obst, 3 Euro 40.'
+  items:
+  - de: das Hähnchen, das Öl, das Gemüse
+    vi: con gà, dầu ăn, rau củ
+  - de: 2,50 € = zwei Euro fünfzig
+    vi: 2 euro 50 xu
+- id: a1.m04.review.b4
+  kind: examples
+  title_vi: Câu ví dụ
+  examples:
+  - de: Wir kaufen das Gemüse im Supermarkt und das Brot in der Bäckerei.
+    vi: Chúng tôi mua rau củ ở siêu thị và bánh mì ở tiệm bánh.
+  - de: Ich brauche einen Kuchen und eine Flasche Orangensaft für die Party.
+    vi: Tôi cần một cái bánh ngọt và một chai nước cam cho bữa tiệc.
+  - de: Zum Frühstück esse ich immer ein Ei und trinke Tee.
+    vi: Cho bữa sáng, tôi luôn ăn một quả trứng và uống trà.
+  - de: Möchten Sie noch etwas probieren? – Nein danke, ich bin wirklich satt.
+    vi: Quý khách có muốn thử thêm món gì không? – Dạ thôi cảm ơn, tôi thực sự no rồi.
+- id: a1.m04.review.b5
+  kind: listening
+  title_vi: 'Kiểm tra nghe hiểu: Đi siêu thị và ăn tối'
+  lines:
+  - speaker: David
+    de: Hallo Sandra! Was brauchen wir noch für das Abendessen?
+    vi: Chào Sandra! Chúng ta còn cần gì cho bữa tối nữa?
+  - speaker: Sandra
+    de: Wir haben schon Fleisch und Reis. Aber wir brauchen noch einen Salat, zwei Tomaten und eine Flasche Mineralwasser.
+    vi: Chúng ta có thịt và cơm rồi. Nhưng chúng ta vẫn cần thêm một món salad, hai quả cà chua và một chai nước khoáng.
+  - speaker: David
+    de: Alles klar, das kaufe ich schnell im Supermarkt. Was möchtest du später trinken?
+    vi: Rõ rồi, anh sẽ mua nhanh ở siêu thị. Tí nữa em muốn uống gì?
+  - speaker: Sandra
+    de: Ich möchte einen Apfelsaft, bitte! Und bring bitte auch einen Schokoladenkuchen mit!
+    vi: Em muốn một ly nước ép táo nhé! Và anh mang thêm một cái bánh sô-cô-la về nữa nhé!
+  audio_status: pending-tts
+  situation_vi: Hai người bạn cùng nhau lên danh sách mua đồ và chuẩn bị bữa tối.
+  skill: listening
+  audio:
+    speed: normal
+- id: a1.m04.review.b6
+  kind: reading
+  title_vi: 'Kiểm tra đọc hiểu: Thực đơn và văn hóa ẩm thực'
+  paragraphs:
+  - de: 'Tagesmenü im Restaurant „Zum Goldenen Apfel“:
+
+      - Vorspeise: Frische Tomatensuppe mit Brötchen (3,50 EUR)
+
+      - Hauptgericht 1: Gegrilltes Hähnchen mit Pommes frites und Salat (8,90 EUR)
+
+      - Hauptgericht 2: Frischer Fisch mit Reis und Gemüse (9,50 EUR)
+
+      - Nachspeise: Apfelkuchen mit Sahne (2,80 EUR)
+
+      - Getränke: Mineralwasser 0,5L (2,00 EUR), Apfelsaft (2,50 EUR), Kaffee (2,20 EUR)
+
+      Hinweis: Alle Gerichte kocht unser Küchenchef frisch für Sie. Guten Appetit!'
+    vi: 'Thực đơn trong ngày tại nhà hàng ''Quả Táo Vàng'':
+
+      - Khai vị: Súp cà chua tươi kèm bánh mì nhỏ (3,50 EUR)
+
+      - Món chính 1: Gà nướng kèm khoai tây chiên và salad (8,90 EUR)
+
+      - Món chính 2: Cá tươi kèm cơm và rau củ (9,50 EUR)
+
+      - Tráng miệng: Bánh táo kèm kem tươi (2,80 EUR)
+
+      - Đồ uống: Nước khoáng 0,5L (2,00 EUR), Nước táo (2,50 EUR), Cà phê (2,20 EUR)
+
+      Ghi chú: Mọi món ăn đều do bếp trưởng của chúng tôi nấu tươi phục vụ quý khách. Chúc ngon miệng!'
+  text_type_vi: Thực đơn và bài viết văn hóa (Menükarte)
+  skill: reading
+  glossary:
+  - de: die Vorspeise
+    vi: món khai vị
+  - de: das Hauptgericht
+    vi: món chính
+  - de: die Nachspeise
+    vi: món tráng miệng
+- id: a1.m04.review.b7
+  kind: speaking
+  title_vi: 'Kiểm tra nói: Gọi món và giao tiếp tại nhà hàng'
+  skill: speaking
+  task_vi: 'Thực hành gọi món tại nhà hàng: chào hỏi, gọi món chính và đồ uống với möchten, chúc ngon miệng.'
+  steps_vi:
+  - 'Gọi món: Ich möchte bitte ... und ...'
+  - 'Hỏi giá: Was kostet das zusammen?'
+  - 'Chúc ngon miệng: Guten Appetit!'
+  lines:
+  - speaker: Kellner
+    de: Guten Tag! Was möchten Sie bestellen?
+    vi: Xin chào! Quý khách muốn gọi món gì ạ?
+  - speaker: Gast
+    de: Ich möchte ein Hähnchen mit Pommes frites und einen Apfelsaft, bitte.
+    vi: Cho tôi một phần gà với khoai tây chiên và một ly nước ép táo.
+  - speaker: Kellner
+    de: Sehr gerne! Guten Appetit!
+    vi: Rất sẵn lòng ạ! Chúc quý khách ngon miệng!
+- id: a1.m04.review.b8
+  kind: writing
+  title_vi: 'Kiểm tra viết: Kể về thói quen ăn uống của bản thân'
+  skill: writing
+  task_vi: Viết đoạn văn ngắn 5–6 câu mô tả thói quen ăn uống một ngày của bạn, sử dụng các cấu trúc Akkusativ, Inversion và động từ möchten/mögen.
+  model:
+    de: Morgens trinke ich einen Kaffee und esse ein Brötchen mit Butter. Mittags esse ich mit Kollegen in der Kantine. Ich mag Fisch und Salat sehr. Abends koche ich oft Gemüsesuppe. Zum Trinken möchte ich am Abend nur Wasser. Kochen macht mir großen Spaß!
+    vi: Buổi sáng tôi uống cà phê và ăn một cái bánh mì nhỏ với bơ. Buổi trưa tôi ăn cùng đồng nghiệp ở căng-tin. Tôi rất thích cá và salad. Buổi tối tôi thường nấu súp rau củ. Để uống vào buổi tối tôi chỉ muốn uống nước lọc. Nấu ăn mang lại niềm vui lớn cho tôi!
+  checklist_vi:
+  - Dùng đúng mạo từ Akkusativ (einen Kaffee, einen Salat...).
+  - Có câu đảo ngữ (Morgens trinke ich..., Mittags esse ich...).
+  - Sử dụng đúng möchten và mögen.

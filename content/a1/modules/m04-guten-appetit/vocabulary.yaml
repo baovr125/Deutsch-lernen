@@ -1,0 +1,2241 @@
+schema_version: '2.0'
+content_type: vocabulary-set
+id: a1.m04.vocab
+level: A1
+module: a1.m04
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+  references:
+  - work: Netzwerk neu A1 (Klett)
+    scope: 'Kapitel 4: Guten Appetit!; Kommt ihr?; Einkaufen im Supermarkt; Die Grillparty; Frühstück, Mittagessen, Abendessen; Wörter lernen: Strategie; Landeskunde: Berufe rund ums Essen; kurz und klar: Redemittel und Grammatik'
+    verification: verified
+  notes_vi: Trình tự và phạm vi theo Stoffverteilungsplan Netzwerk neu A1.1 (Kapitel 4, 10 UE) và Kapitelwortschatz. Toàn bộ hội thoại, bài đọc, bài tập biên soạn mới hoàn toàn.
+entries:
+- id: a1.m04.v.lebensmittel
+  de: Lebensmittel
+  pos: noun
+  article: das
+  plural: Lebensmittel
+  vi: thực phẩm
+  ipa: /ˈleːbn̩sˌmɪtl̩/
+  example:
+    de: Lebensmittel kaufe ich im Supermarkt.
+    vi: Thực phẩm tôi mua ở siêu thị.
+  usage_vi: Thường dùng ở số nhiều. das Leben (cuộc sống) + das Mittel (phương tiện).
+  lesson_refs:
+  - a1.m04.l01
+  tags:
+  - essen
+  source: nwn-lern
+- id: a1.m04.v.brot
+  de: Brot
+  pos: noun
+  article: das
+  plural: Brote
+  vi: bánh mì (ổ lớn)
+  ipa: /bʁoːt/
+  example:
+    de: Das Brot ist frisch.
+    vi: Bánh mì còn tươi.
+  usage_vi: Người Đức có hàng trăm loại bánh mì; bánh mì nhỏ là das Brötchen.
+  lesson_refs:
+  - a1.m04.l01
+  tags:
+  - essen
+  source: nwn-lern
+- id: a1.m04.v.broetchen
+  de: Brötchen
+  pos: noun
+  article: das
+  plural: Brötchen
+  vi: bánh mì nhỏ
+  ipa: /ˈbʁøːtçən/
+  example:
+    de: Zum Frühstück esse ich zwei Brötchen.
+    vi: Bữa sáng tôi ăn hai cái bánh mì nhỏ.
+  usage_vi: 'Đuôi -chen → luôn das, số nhiều không đổi. Ở Áo: die Semmel.'
+  lesson_refs:
+  - a1.m04.l01
+  tags:
+  - essen
+  - dach
+  source: nwn-lern
+- id: a1.m04.v.butter
+  de: Butter
+  pos: noun
+  article: die
+  no_plural: true
+  vi: bơ
+  ipa: /ˈbʊtɐ/
+  example:
+    de: Ich esse Brot mit Butter.
+    vi: Tôi ăn bánh mì với bơ.
+  usage_vi: Không đếm được, không có số nhiều.
+  lesson_refs:
+  - a1.m04.l01
+  tags:
+  - essen
+  - sg-only
+  source: nwn-lern
+- id: a1.m04.v.ei
+  de: Ei
+  pos: noun
+  article: das
+  plural: Eier
+  vi: quả trứng
+  ipa: /aɪ̯/
+  example:
+    de: Ich esse ein Ei.
+    vi: Tôi ăn một quả trứng.
+  usage_vi: 'Số nhiều: die Eier [ˈaɪ̯ɐ].'
+  lesson_refs:
+  - a1.m04.l01
+  tags:
+  - essen
+  source: nwn-lern
+- id: a1.m04.v.fleisch
+  de: Fleisch
+  pos: noun
+  article: das
+  no_plural: true
+  vi: thịt
+  ipa: /flaɪ̯ʃ/
+  example:
+    de: Ich esse kein Fleisch.
+    vi: Tôi không ăn thịt.
+  usage_vi: 'Không đếm được. Người ăn chay: der Vegetarier / die Vegetarierin.'
+  lesson_refs:
+  - a1.m04.l01
+  tags:
+  - essen
+  - sg-only
+  source: nwn-lern
+- id: a1.m04.v.fruehstueck
+  de: Frühstück
+  pos: noun
+  article: das
+  plural: Frühstücke
+  vi: bữa sáng
+  ipa: /ˈfʁyːˌʃtʏk/
+  example:
+    de: Das Frühstück ist um sieben Uhr.
+    vi: Bữa sáng lúc bảy giờ.
+  usage_vi: 'Động từ: frühstücken (bài 5).'
+  lesson_refs:
+  - a1.m04.l01
+  tags:
+  - essen
+  - mahlzeit
+  source: nwn-lern
+- id: a1.m04.v.gemuese
+  de: Gemüse
+  pos: noun
+  article: das
+  no_plural: true
+  vi: rau củ
+  ipa: /ɡəˈmyːzə/
+  example:
+    de: Gemüse ist gesund.
+    vi: Rau củ tốt cho sức khỏe.
+  usage_vi: Dùng như danh từ không đếm được (số ít).
+  lesson_refs:
+  - a1.m04.l01
+  tags:
+  - essen
+  - sg-only
+  source: nwn-lern
+- id: a1.m04.v.kaese
+  de: Käse
+  pos: noun
+  article: der
+  no_plural: true
+  vi: phô mai
+  ipa: /ˈkɛːzə/
+  example:
+    de: Der Käse kommt aus der Schweiz.
+    vi: Phô mai đến từ Thụy Sĩ.
+  usage_vi: Thường dùng số ít. Đuôi -e nhưng là der (ngoại lệ).
+  lesson_refs:
+  - a1.m04.l01
+  tags:
+  - essen
+  - sg-only
+  source: nwn-lern
+- id: a1.m04.v.kuchen
+  de: Kuchen
+  pos: noun
+  article: der
+  plural: Kuchen
+  vi: bánh ngọt
+  ipa: /ˈkuːxn̩/
+  example:
+    de: Am Sonntag gibt es Kuchen.
+    vi: Chủ nhật có bánh ngọt.
+  usage_vi: 'Văn hóa Đức: „Kaffee und Kuchen“ vào chiều Chủ nhật.'
+  lesson_refs:
+  - a1.m04.l01
+  tags:
+  - essen
+  source: nwn-lern
+- id: a1.m04.v.milch
+  de: Milch
+  pos: noun
+  article: die
+  no_plural: true
+  vi: sữa
+  ipa: /mɪlç/
+  example:
+    de: Ich trinke Kaffee mit Milch.
+    vi: Tôi uống cà phê sữa.
+  usage_vi: 'lch: ch đọc [ç].'
+  lesson_refs:
+  - a1.m04.l01
+  tags:
+  - essen
+  - sg-only
+  source: nwn-lern
+- id: a1.m04.v.mittagessen
+  de: Mittagessen
+  pos: noun
+  article: das
+  plural: Mittagessen
+  vi: bữa trưa
+  ipa: /ˈmɪtaːkˌʔɛsn̩/
+  example:
+    de: Das Mittagessen ist um zwölf.
+    vi: Bữa trưa lúc mười hai giờ.
+  usage_vi: der Mittag + das Essen.
+  lesson_refs:
+  - a1.m04.l01
+  tags:
+  - essen
+  - mahlzeit
+  source: nwn-lern
+- id: a1.m04.v.abendessen
+  de: Abendessen
+  pos: noun
+  article: das
+  plural: Abendessen
+  vi: bữa tối
+  ipa: /ˈaːbn̩tˌʔɛsn̩/
+  example:
+    de: Zum Abendessen gibt es Suppe.
+    vi: Bữa tối có súp.
+  usage_vi: der Abend + das Essen.
+  lesson_refs:
+  - a1.m04.l01
+  tags:
+  - essen
+  - mahlzeit
+  source: nwn
+- id: a1.m04.v.oel
+  de: Öl
+  pos: noun
+  article: das
+  plural: Öle
+  vi: dầu ăn
+  ipa: /øːl/
+  example:
+    de: Wir brauchen Öl für den Salat.
+    vi: Chúng ta cần dầu cho món salad.
+  usage_vi: ö dài.
+  lesson_refs:
+  - a1.m04.l01
+  tags:
+  - essen
+  source: nwn-lern
+- id: a1.m04.v.salat
+  de: Salat
+  pos: noun
+  article: der
+  plural: Salate
+  vi: món salad; rau xà lách
+  ipa: /zaˈlaːt/
+  example:
+    de: Ich esse gern Salat.
+    vi: Tôi thích ăn salad.
+  usage_vi: 'Từ nhiều nghĩa: món salad / cây xà lách.'
+  lesson_refs:
+  - a1.m04.l01
+  tags:
+  - essen
+  - mehrdeutig
+  source: nwn-lern
+- id: a1.m04.v.salz
+  de: Salz
+  pos: noun
+  article: das
+  plural: Salze
+  vi: muối
+  ipa: /zalts/
+  example:
+    de: Die Suppe braucht Salz.
+    vi: Món súp cần thêm muối.
+  usage_vi: z cuối đọc [ts].
+  lesson_refs:
+  - a1.m04.l01
+  tags:
+  - essen
+  source: nwn-lern
+- id: a1.m04.v.schinken
+  de: Schinken
+  pos: noun
+  article: der
+  plural: Schinken
+  vi: giăm bông
+  ipa: /ˈʃɪŋkn̩/
+  example:
+    de: Ein Brötchen mit Schinken, bitte.
+    vi: Cho tôi một bánh mì kẹp giăm bông.
+  usage_vi: Thường dùng số ít. „Schinkenbrot“ = bánh mì kẹp giăm bông. „sch“ đọc /ʃ/.
+  lesson_refs:
+  - a1.m04.l01
+  tags:
+  - essen
+  source: nwn-lern
+- id: a1.m04.v.schokolade
+  de: Schokolade
+  pos: noun
+  article: die
+  plural: Schokoladen
+  vi: sô-cô-la
+  ipa: /ʃokoˈlaːdə/
+  example:
+    de: Schokolade schmeckt süß.
+    vi: Sô-cô-la có vị ngọt.
+  usage_vi: 'Trọng âm: scho-ko-LA-de.'
+  lesson_refs:
+  - a1.m04.l01
+  tags:
+  - essen
+  source: nwn-lern
+- id: a1.m04.v.suppe
+  de: Suppe
+  pos: noun
+  article: die
+  plural: Suppen
+  vi: món súp, canh
+  ipa: /ˈzʊpə/
+  example:
+    de: Die Suppe ist heiß.
+    vi: Món súp nóng.
+  usage_vi: 'Số nhiều: Suppen. Ăn súp nói „Suppe essen“ (không dùng trinken).'
+  lesson_refs:
+  - a1.m04.l01
+  tags:
+  - essen
+  source: nwn-lern
+- id: a1.m04.v.tomate
+  de: Tomate
+  pos: noun
+  article: die
+  plural: Tomaten
+  vi: cà chua
+  ipa: /toˈmaːtə/
+  example:
+    de: Die Tomaten sind rot.
+    vi: Những quả cà chua màu đỏ.
+  usage_vi: 'Ở Áo: der Paradeiser.'
+  lesson_refs:
+  - a1.m04.l01
+  tags:
+  - essen
+  - dach
+  source: nwn-lern
+- id: a1.m04.v.wasser
+  de: Wasser
+  pos: noun
+  article: das
+  no_plural: true
+  vi: nước
+  ipa: /ˈvasɐ/
+  example:
+    de: Ein Glas Wasser, bitte.
+    vi: Cho tôi một ly nước.
+  usage_vi: 'Thường dùng số ít. Nước khoáng: das Mineralwasser.'
+  lesson_refs:
+  - a1.m04.l01
+  tags:
+  - essen
+  - sg-only
+  source: nwn-lern
+- id: a1.m04.v.wurst
+  de: Wurst
+  pos: noun
+  article: die
+  plural: Würste
+  vi: xúc xích
+  ipa: /vʊʁst/
+  example:
+    de: Die Wurst ist aus Thüringen.
+    vi: Xúc xích này từ vùng Thüringen.
+  usage_vi: 'Số nhiều có biến âm: die Würste.'
+  lesson_refs:
+  - a1.m04.l01
+  tags:
+  - essen
+  source: nwn-lern
+- id: a1.m04.v.zucker
+  de: Zucker
+  pos: noun
+  article: der
+  no_plural: true
+  vi: đường
+  ipa: /ˈtsʊkɐ/
+  example:
+    de: Kaffee ohne Zucker, bitte.
+    vi: Cà phê không đường.
+  usage_vi: ohne = không có (Kapitel 6).
+  lesson_refs:
+  - a1.m04.l01
+  tags:
+  - essen
+  - sg-only
+  source: nwn-lern
+- id: a1.m04.v.banane
+  de: Banane
+  pos: noun
+  article: die
+  plural: Bananen
+  vi: quả chuối
+  ipa: /baˈnaːnə/
+  example:
+    de: Die Banane ist gelb.
+    vi: Quả chuối màu vàng.
+  usage_vi: 'Số nhiều: Bananen. Trọng âm ở âm tiết thứ hai: baNAne.'
+  lesson_refs:
+  - a1.m04.l01
+  tags:
+  - essen
+  - obst
+  source: nwn-lern
+- id: a1.m04.v.apfel
+  de: Apfel
+  pos: noun
+  article: der
+  plural: Äpfel
+  vi: quả táo
+  ipa: /ˈapfl̩/
+  example:
+    de: Ich esse jeden Tag einen Apfel.
+    vi: Mỗi ngày tôi ăn một quả táo.
+  usage_vi: 'pf đọc liền. Số nhiều chỉ biến âm: die Äpfel.'
+  lesson_refs:
+  - a1.m04.l01
+  tags:
+  - essen
+  - obst
+  source: nwn-lern
+- id: a1.m04.v.kartoffel
+  de: Kartoffel
+  pos: noun
+  article: die
+  plural: Kartoffeln
+  vi: khoai tây
+  ipa: /kaʁˈtɔfl̩/
+  example:
+    de: Kartoffeln sind typisch deutsch.
+    vi: Khoai tây là món đặc trưng của Đức.
+  usage_vi: 'Số nhiều: Kartoffeln. Món điển hình: Bratkartoffeln (khoai tây chiên), Kartoffelsalat.'
+  lesson_refs:
+  - a1.m04.l01
+  tags:
+  - essen
+  source: nwn
+- id: a1.m04.v.joghurt
+  de: Joghurt
+  pos: noun
+  article: der
+  plural: Joghurts
+  vi: sữa chua
+  ipa: /ˈjoːɡʊʁt/
+  example:
+    de: Ich esse Joghurt mit Obst.
+    vi: Tôi ăn sữa chua với trái cây.
+  usage_vi: Cũng có das Joghurt (Áo, Thụy Sĩ). h không đọc.
+  lesson_refs:
+  - a1.m04.l01
+  tags:
+  - essen
+  source: nwn
+- id: a1.m04.v.baeckerei
+  de: Bäckerei
+  pos: noun
+  article: die
+  plural: Bäckereien
+  vi: tiệm bánh
+  ipa: /bɛkəˈʁaɪ̯/
+  example:
+    de: Ich kaufe Brot in der Bäckerei.
+    vi: Tôi mua bánh mì ở tiệm bánh.
+  usage_vi: 'Đuôi -ei: luôn die và nhấn vào -ei.'
+  lesson_refs:
+  - a1.m04.l01
+  tags:
+  - geschaeft
+  source: nwn-lern
+- id: a1.m04.v.metzgerei
+  de: Metzgerei
+  pos: noun
+  article: die
+  plural: Metzgereien
+  vi: cửa hàng thịt
+  ipa: /mɛtsɡəˈʁaɪ̯/
+  example:
+    de: Wurst kaufe ich in der Metzgerei.
+    vi: Xúc xích tôi mua ở cửa hàng thịt.
+  usage_vi: 'Ở miền Bắc Đức: die Fleischerei.'
+  lesson_refs:
+  - a1.m04.l01
+  tags:
+  - geschaeft
+  - dach
+  source: nwn
+- id: a1.m04.v.supermarkt
+  de: Supermarkt
+  pos: noun
+  article: der
+  plural: Supermärkte
+  vi: siêu thị
+  ipa: /ˈzuːpɐˌmaʁkt/
+  example:
+    de: Der Supermarkt ist am Sonntag zu.
+    vi: Siêu thị đóng cửa vào Chủ nhật.
+  usage_vi: zu = đóng cửa (văn nói).
+  lesson_refs:
+  - a1.m04.l01
+  tags:
+  - geschaeft
+  source: nwn-lern
+- id: a1.m04.v.geschaeft
+  de: Geschäft
+  pos: noun
+  article: das
+  plural: Geschäfte
+  vi: cửa hàng; công việc kinh doanh
+  ipa: /ɡəˈʃɛft/
+  example:
+    de: Das Geschäft ist klein.
+    vi: Cửa hàng nhỏ.
+  usage_vi: 'Từ nhiều nghĩa: cửa hàng / việc kinh doanh.'
+  lesson_refs:
+  - a1.m04.l01
+  tags:
+  - geschaeft
+  - mehrdeutig
+  source: nwn-lern
+- id: a1.m04.v.kaufen
+  de: kaufen
+  pos: verb
+  vi: mua
+  forms:
+    text: du kaufst, er kauft
+    er: kauft
+  ipa: /ˈkaʊ̯fn̩/
+  example:
+    de: Ich kaufe Brot.
+    vi: Tôi mua bánh mì.
+  usage_vi: kaufen + Akkusativ (bài 2).
+  lesson_refs:
+  - a1.m04.l01
+  tags:
+  - verb
+  - einkaufen
+  source: nwn-lern
+- id: a1.m04.v.ein-kaufen
+  de: ein|kaufen
+  pos: verb
+  vi: đi mua sắm (đồ dùng hằng ngày)
+  forms:
+    text: du kaufst ein, er kauft ein
+    er: kauft ein
+    separable: true
+  ipa: /ˈaɪ̯nˌkaʊ̯fn̩/
+  example:
+    de: Am Samstag kaufe ich ein.
+    vi: Thứ Bảy tôi đi chợ/mua sắm.
+  usage_vi: 'Động từ tách: ein ở cuối câu. So sánh: kaufen + vật cụ thể; einkaufen = đi mua sắm nói chung.'
+  lesson_refs:
+  - a1.m04.l01
+  tags:
+  - verb
+  - einkaufen
+  - trennbar
+  source: nwn-lern
+- id: a1.m04.v.guten-appetit
+  de: Guten Appetit!
+  pos: phrase
+  vi: Chúc ngon miệng!
+  ipa: /ˈɡuːtn̩ apeˈtiːt/
+  example:
+    de: Das Essen ist fertig. Guten Appetit!
+    vi: Đồ ăn xong rồi. Chúc ngon miệng!
+  usage_vi: 'Trả lời: Danke, gleichfalls! (Cảm ơn, bạn cũng vậy!)'
+  lesson_refs:
+  - a1.m04.l01
+  tags:
+  - essen
+  - hoeflichkeit
+  source: nwn
+- id: a1.m04.v.muttersprache
+  de: Muttersprache
+  pos: noun
+  article: die
+  plural: Muttersprachen
+  vi: tiếng mẹ đẻ
+  ipa: /ˈmʊtɐˌʃpʁaːxə/
+  example:
+    de: Meine Muttersprache ist Vietnamesisch.
+    vi: Tiếng mẹ đẻ của tôi là tiếng Việt.
+  usage_vi: die Mutter (mẹ) + die Sprache.
+  lesson_refs:
+  - a1.m04.l01
+  tags:
+  - sprache
+  source: nwn
+- id: a1.m04.v.einladung
+  de: Einladung
+  pos: noun
+  article: die
+  plural: Einladungen
+  vi: lời mời
+  ipa: /ˈaɪ̯nˌlaːdʊŋ/
+  example:
+    de: Danke für die Einladung!
+    vi: Cảm ơn vì lời mời!
+  usage_vi: -ung → die.
+  lesson_refs:
+  - a1.m04.l02
+  tags:
+  - einladung
+  source: nwn-lern
+- id: a1.m04.v.essen
+  de: Essen
+  pos: noun
+  article: das
+  plural: Essen
+  vi: đồ ăn, bữa ăn
+  ipa: /ˈɛsn̩/
+  example:
+    de: Das Essen ist gleich fertig.
+    vi: Đồ ăn sắp xong rồi.
+  usage_vi: Động từ essen viết hoa thành danh từ das Essen.
+  lesson_refs:
+  - a1.m04.l02
+  tags:
+  - essen
+  source: nwn-lern
+- id: a1.m04.v.essen-verb
+  de: essen
+  pos: verb
+  vi: ăn
+  forms:
+    text: du isst, er isst
+    er: isst
+  ipa: /ˈɛsn̩/
+  example:
+    de: Was isst du gern?
+    vi: Bạn thích ăn gì?
+  usage_vi: 'Đổi nguyên âm e → i: du isst, er isst (du và er giống nhau).'
+  lesson_refs:
+  - a1.m04.l02
+  tags:
+  - verb
+  - essen
+  - unregelmaessig
+  source: nwn-lern
+- id: a1.m04.v.fertig
+  de: fertig
+  pos: adjective
+  vi: xong, sẵn sàng
+  ipa: /ˈfɛʁtɪç/
+  example:
+    de: Das Essen ist fertig.
+    vi: Đồ ăn xong rồi.
+  usage_vi: '„Ich bin fertig“ = tôi xong rồi (cũng có nghĩa: tôi kiệt sức – văn nói).'
+  lesson_refs:
+  - a1.m04.l02
+  source: nwn-lern
+- id: a1.m04.v.gleich
+  de: gleich
+  pos: adverb
+  vi: ngay, sắp; giống nhau
+  ipa: /ɡlaɪ̯ç/
+  example:
+    de: Ich komme gleich.
+    vi: Tôi đến ngay.
+  usage_vi: 'Từ nhiều nghĩa: ngay lập tức / giống nhau (gleich groß).'
+  lesson_refs:
+  - a1.m04.l02
+  tags:
+  - zeit
+  - mehrdeutig
+  source: nwn-lern
+- id: a1.m04.v.grillen
+  de: grillen
+  pos: verb
+  vi: nướng (bằng vỉ nướng)
+  forms:
+    text: du grillst, er grillt
+    er: grillt
+  ipa: /ˈɡʁɪlən/
+  example:
+    de: Wir grillen am Samstag.
+    vi: Thứ Bảy chúng tôi nướng thịt.
+  usage_vi: Người Đức rất thích grillen vào mùa hè.
+  lesson_refs:
+  - a1.m04.l02
+  tags:
+  - verb
+  - essen
+  source: nwn-lern
+- id: a1.m04.v.grillparty
+  de: Grillparty
+  pos: noun
+  article: die
+  plural: Grillpartys
+  vi: tiệc nướng
+  ipa: /ˈɡʁɪlˌpaːɐ̯ti/
+  example:
+    de: Kommst du zur Grillparty?
+    vi: Bạn đến tiệc nướng không?
+  usage_vi: Từ ghép Grill + Party; mạo từ theo từ cuối (die Party). Mùa hè rất phổ biến ở Đức; mỗi người thường mang một món (Salat, Getränke).
+  lesson_refs:
+  - a1.m04.l02
+  tags:
+  - einladung
+  - essen
+  source: nwn
+- id: a1.m04.v.nachricht
+  de: Nachricht
+  pos: noun
+  article: die
+  plural: Nachrichten
+  vi: tin nhắn; tin tức
+  ipa: /ˈnaːxˌʁɪçt/
+  example:
+    de: Ich schreibe eine Nachricht.
+    vi: Tôi viết một tin nhắn.
+  usage_vi: 'Từ nhiều nghĩa: tin nhắn / (số nhiều) bản tin thời sự.'
+  lesson_refs:
+  - a1.m04.l02
+  tags:
+  - kommunikation
+  - mehrdeutig
+  source: nwn-lern
+- id: a1.m04.v.vielleicht
+  de: vielleicht
+  pos: adverb
+  vi: có lẽ
+  ipa: /fiˈlaɪ̯çt/
+  example:
+    de: Vielleicht komme ich.
+    vi: Có lẽ tôi sẽ đến.
+  usage_vi: 'Trọng âm ở âm tiết sau: viel-LEICHT.'
+  lesson_refs:
+  - a1.m04.l02
+  source: nwn-lern
+- id: a1.m04.v.zeit
+  de: Zeit
+  pos: noun
+  article: die
+  plural: Zeiten
+  vi: thời gian
+  ipa: /tsaɪ̯t/
+  example:
+    de: Hast du Zeit?
+    vi: Bạn có thời gian không?
+  usage_vi: „Ich habe keine Zeit.“ = Tôi không có thời gian.
+  lesson_refs:
+  - a1.m04.l02
+  tags:
+  - zeit
+  source: nwn-lern
+- id: a1.m04.v.alles
+  de: alles
+  pos: pronoun
+  vi: tất cả mọi thứ
+  ipa: /ˈaləs/
+  example:
+    de: Wir haben alles.
+    vi: Chúng ta có đủ mọi thứ.
+  usage_vi: alle (Kapitel 2) = tất cả (người/vật đếm được); alles = mọi thứ.
+  lesson_refs:
+  - a1.m04.l02
+  tags:
+  - menge
+  source: nwn-lern
+- id: a1.m04.v.brauchen
+  de: brauchen
+  pos: verb
+  vi: cần
+  forms:
+    text: du brauchst, er braucht
+    er: braucht
+  ipa: /ˈbʁaʊ̯xn̩/
+  example:
+    de: Wir brauchen Brot und Käse.
+    vi: Chúng ta cần bánh mì và phô mai.
+  usage_vi: 'brauchen + Akkusativ: Ich brauche einen Stift.'
+  lesson_refs:
+  - a1.m04.l02
+  tags:
+  - verb
+  source: nwn-lern
+- id: a1.m04.v.einkaufszettel
+  de: Einkaufszettel
+  pos: noun
+  article: der
+  plural: Einkaufszettel
+  vi: danh sách đi chợ
+  ipa: /ˈaɪ̯nkaʊ̯fsˌtsɛtl̩/
+  example:
+    de: Ich schreibe einen Einkaufszettel.
+    vi: Tôi viết danh sách đi chợ.
+  usage_vi: der Einkauf + der Zettel (mẩu giấy).
+  lesson_refs:
+  - a1.m04.l02
+  tags:
+  - einkaufen
+  source: nwn
+- id: a1.m04.v.getraenk
+  de: Getränk
+  pos: noun
+  article: das
+  plural: Getränke
+  vi: đồ uống
+  ipa: /ɡəˈtʁɛŋk/
+  example:
+    de: Wir brauchen Getränke für die Party.
+    vi: Chúng ta cần đồ uống cho bữa tiệc.
+  usage_vi: 'Số nhiều: Getränke. Từ chung cho mọi đồ uống; trên thực đơn có mục „Getränke“.'
+  lesson_refs:
+  - a1.m04.l02
+  tags:
+  - essen
+  source: nwn-lern
+- id: a1.m04.v.mehr
+  de: mehr
+  pos: adverb
+  vi: nhiều hơn; (kein … mehr) không còn
+  ipa: /meːɐ̯/
+  example:
+    de: Wir haben keinen Käse mehr.
+    vi: Chúng ta không còn phô mai nữa.
+  usage_vi: kein … mehr = không còn … nữa.
+  lesson_refs:
+  - a1.m04.l02
+  tags:
+  - menge
+  source: nwn-lern
+- id: a1.m04.v.planen
+  de: planen
+  pos: verb
+  vi: lên kế hoạch
+  forms:
+    text: du planst, er plant
+    er: plant
+  ipa: /ˈplaːnən/
+  example:
+    de: Wir planen eine Party.
+    vi: Chúng tôi lên kế hoạch cho một bữa tiệc.
+  usage_vi: 'Đi với Akkusativ: „eine Party planen“. Danh từ liên quan: der Plan (kế hoạch).'
+  lesson_refs:
+  - a1.m04.l02
+  tags:
+  - verb
+  source: nwn-lern
+- id: a1.m04.v.teuer
+  de: teuer
+  pos: adjective
+  vi: đắt
+  ipa: /ˈtɔʏ̯ɐ/
+  example:
+    de: Oliven sind oft teuer.
+    vi: Ô liu thường đắt.
+  usage_vi: 'Trái nghĩa: billig (rẻ) – học sau.'
+  lesson_refs:
+  - a1.m04.l02
+  tags:
+  - einkaufen
+  - preis
+  source: nwn-lern
+- id: a1.m04.v.stimmen
+  de: stimmen
+  pos: verb
+  vi: đúng (thông tin)
+  forms:
+    text: es stimmt
+    er: stimmt
+  ipa: /ˈʃtɪmən/
+  example:
+    de: Das stimmt!
+    vi: Đúng vậy!
+  usage_vi: 'Hay dùng: Das stimmt. / Stimmt! = Đúng thế.'
+  lesson_refs:
+  - a1.m04.l02
+  tags:
+  - verb
+  - meinung
+  source: nwn
+- id: a1.m04.v.fisch
+  de: Fisch
+  pos: noun
+  article: der
+  plural: Fische
+  vi: cá
+  ipa: /fɪʃ/
+  example:
+    de: Ich esse gern Fisch.
+    vi: Tôi thích ăn cá.
+  usage_vi: 'Số nhiều: Fische. „Fisch essen“ = ăn cá. „sch“ đọc /ʃ/.'
+  lesson_refs:
+  - a1.m04.l02
+  tags:
+  - essen
+  source: nwn-lern
+- id: a1.m04.v.haehnchen
+  de: Hähnchen
+  pos: noun
+  article: das
+  plural: Hähnchen
+  vi: gà (món ăn)
+  ipa: /ˈhɛːnçən/
+  example:
+    de: Wir grillen Hähnchen.
+    vi: Chúng tôi nướng gà.
+  usage_vi: -chen → das.
+  lesson_refs:
+  - a1.m04.l02
+  tags:
+  - essen
+  source: nwn-lern
+- id: a1.m04.v.pommes-frites
+  de: Pommes frites
+  pos: noun
+  article: die
+  no_plural: true
+  vi: khoai tây chiên
+  ipa: /pɔmˈfʁɪt/
+  example:
+    de: Kinder essen gern Pommes frites.
+    vi: Trẻ con thích ăn khoai tây chiên.
+  usage_vi: 'Chỉ có số nhiều. Văn nói: die Pommes [ˈpɔməs].'
+  lesson_refs:
+  - a1.m04.l02
+  tags:
+  - essen
+  - pl-only
+  source: nwn-lern
+- id: a1.m04.v.reis
+  de: Reis
+  pos: noun
+  article: der
+  no_plural: true
+  vi: gạo, cơm
+  ipa: /ʁaɪ̯s/
+  example:
+    de: In Vietnam essen wir viel Reis.
+    vi: Ở Việt Nam chúng tôi ăn nhiều cơm.
+  usage_vi: Không đếm được. Đừng nhầm với reisen (du lịch).
+  lesson_refs:
+  - a1.m04.l02
+  tags:
+  - essen
+  - sg-only
+  source: nwn-lern
+- id: a1.m04.v.schmecken
+  de: schmecken
+  pos: verb
+  vi: có vị; ngon
+  forms:
+    text: es schmeckt
+    er: schmeckt
+  ipa: /ˈʃmɛkn̩/
+  example:
+    de: Die Suppe schmeckt gut.
+    vi: Món súp ngon.
+  usage_vi: „Schmeckt's?“ = Ngon không? – „Ja, sehr lecker!“
+  lesson_refs:
+  - a1.m04.l02
+  tags:
+  - verb
+  - essen
+  source: nwn-lern
+- id: a1.m04.v.suess
+  de: süß
+  pos: adjective
+  vi: ngọt; dễ thương
+  ipa: /zyːs/
+  example:
+    de: Schokolade schmeckt süß.
+    vi: Sô-cô-la có vị ngọt.
+  usage_vi: 'Từ nhiều nghĩa: ngọt / dễ thương (ein süßes Baby).'
+  lesson_refs:
+  - a1.m04.l02
+  tags:
+  - essen
+  - mehrdeutig
+  source: nwn-lern
+- id: a1.m04.v.zusammen
+  de: zusammen
+  pos: adverb
+  vi: cùng nhau
+  ipa: /tsuˈzamən/
+  example:
+    de: Wir essen zusammen.
+    vi: Chúng tôi ăn cùng nhau.
+  usage_vi: 'Khi trả tiền ở nhà hàng: „Zusammen oder getrennt?“ (Trả chung hay riêng?)'
+  lesson_refs:
+  - a1.m04.l02
+  source: nwn-lern
+- id: a1.m04.v.saft
+  de: Saft
+  pos: noun
+  article: der
+  plural: Säfte
+  vi: nước ép
+  ipa: /zaft/
+  example:
+    de: Ich trinke gern Saft.
+    vi: Tôi thích uống nước ép.
+  usage_vi: der Apfelsaft (nước táo), der Orangensaft (nước cam).
+  lesson_refs:
+  - a1.m04.l02
+  tags:
+  - essen
+  source: nwn-lern
+- id: a1.m04.v.bis-spaeter
+  de: bis später
+  pos: phrase
+  vi: hẹn gặp lại sau
+  ipa: /bɪs ˈʃpɛːtɐ/
+  example:
+    de: Tschüs, bis später!
+    vi: Tạm biệt, gặp lại sau nhé!
+  usage_vi: 'Lời chào khi sẽ gặp lại trong ngày, thân mật. Tương tự: „bis bald“, „bis morgen“.'
+  lesson_refs:
+  - a1.m04.l02
+  tags:
+  - verabschiedung
+  source: nwn
+- id: a1.m04.v.kosten
+  de: kosten
+  pos: verb
+  vi: có giá
+  forms:
+    text: es kostet
+    er: kostet
+  ipa: /ˈkɔstn̩/
+  example:
+    de: Was kostet das?
+    vi: Cái này giá bao nhiêu?
+  usage_vi: Gốc -t → es kostet.
+  lesson_refs:
+  - a1.m04.l03
+  tags:
+  - verb
+  - preis
+  source: nwn-lern
+- id: a1.m04.v.preis
+  de: Preis
+  pos: noun
+  article: der
+  plural: Preise
+  vi: giá cả; giải thưởng
+  ipa: /pʁaɪ̯s/
+  example:
+    de: Der Preis ist gut.
+    vi: Giá tốt.
+  usage_vi: 'Từ nhiều nghĩa: giá / giải thưởng.'
+  lesson_refs:
+  - a1.m04.l03
+  tags:
+  - preis
+  - mehrdeutig
+  source: nwn-lern
+- id: a1.m04.v.cent
+  de: Cent
+  pos: noun
+  article: der
+  plural: Cents
+  vi: xu (1/100 euro)
+  ipa: /sɛnt/
+  example:
+    de: Das kostet 99 Cent.
+    vi: Cái này giá 99 xu.
+  usage_vi: 'Sau số đếm giữ nguyên: 50 Cent.'
+  lesson_refs:
+  - a1.m04.l03
+  tags:
+  - geld
+  source: nwn-lern
+- id: a1.m04.v.gramm
+  de: Gramm
+  pos: noun
+  article: das
+  plural: Gramm
+  vi: gam
+  ipa: /ɡʁam/
+  example:
+    de: 200 Gramm Käse, bitte.
+    vi: Cho tôi 200 gam phô mai.
+  usage_vi: 'Viết tắt: g. Sau số đếm không đổi.'
+  lesson_refs:
+  - a1.m04.l03
+  tags:
+  - mass
+  source: nwn-lern
+- id: a1.m04.v.kilo
+  de: Kilo
+  pos: noun
+  article: das
+  plural: Kilos
+  vi: ký, ki-lô-gam
+  ipa: /ˈkiːlo/
+  example:
+    de: Ein Kilo Äpfel kostet zwei Euro.
+    vi: Một ký táo giá hai euro.
+  usage_vi: '= das Kilogramm (kg). Sau số đếm: zwei Kilo.'
+  lesson_refs:
+  - a1.m04.l03
+  tags:
+  - mass
+  source: nwn-lern
+- id: a1.m04.v.liter
+  de: Liter
+  pos: noun
+  article: der
+  plural: Liter
+  vi: lít
+  ipa: /ˈliːtɐ/
+  example:
+    de: Ein Liter Milch, bitte.
+    vi: Cho tôi một lít sữa.
+  usage_vi: 'Viết tắt: l.'
+  lesson_refs:
+  - a1.m04.l03
+  tags:
+  - mass
+  source: nwn-lern
+- id: a1.m04.v.stueck
+  de: Stück
+  pos: noun
+  article: das
+  plural: Stücke
+  vi: miếng, cái (đơn vị)
+  ipa: /ʃtʏk/
+  example:
+    de: Ein Stück Kuchen, bitte.
+    vi: Cho tôi một miếng bánh.
+  usage_vi: 'Sau số đếm thường không đổi: drei Stück.'
+  lesson_refs:
+  - a1.m04.l03
+  tags:
+  - mass
+  source: nwn-lern
+- id: a1.m04.v.packung
+  de: Packung
+  pos: noun
+  article: die
+  plural: Packungen
+  vi: gói, hộp
+  ipa: /ˈpakʊŋ/
+  example:
+    de: Eine Packung Reis, bitte.
+    vi: Cho tôi một gói gạo.
+  usage_vi: 'Đơn vị đóng gói: „eine Packung Reis“ (không thêm „von“). Số nhiều: Packungen.'
+  lesson_refs:
+  - a1.m04.l03
+  tags:
+  - mass
+  - einkaufen
+  source: nwn-lern
+- id: a1.m04.v.flasche
+  de: Flasche
+  pos: noun
+  article: die
+  plural: Flaschen
+  vi: chai
+  ipa: /ˈflaʃə/
+  example:
+    de: Eine Flasche Wasser, bitte.
+    vi: Cho tôi một chai nước.
+  usage_vi: Lernwortschatz Kapitel 1 (trang mở đầu), dạy ở đây. Ở Đức nhiều chai có tiền cọc (Pfand).
+  lesson_refs:
+  - a1.m04.l03
+  tags:
+  - mass
+  - einkaufen
+  source: nwn-lern
+- id: a1.m04.v.dose
+  de: Dose
+  pos: noun
+  article: die
+  plural: Dosen
+  vi: lon, hộp thiếc
+  ipa: /ˈdoːzə/
+  example:
+    de: Eine Dose Cola, bitte.
+    vi: Cho tôi một lon cola.
+  usage_vi: '„eine Dose Cola“ = một lon cola. Số nhiều: Dosen. Ở Đức lon đồ uống có tiền cọc (Pfand).'
+  lesson_refs:
+  - a1.m04.l03
+  tags:
+  - mass
+  source: nwn
+- id: a1.m04.v.tuete
+  de: Tüte
+  pos: noun
+  article: die
+  plural: Tüten
+  vi: túi (nilon, giấy)
+  ipa: /ˈtyːtə/
+  example:
+    de: Brauchen Sie eine Tüte?
+    vi: Anh/chị có cần túi không?
+  usage_vi: Ở Đức túi thường phải trả tiền – nên mang túi riêng.
+  lesson_refs:
+  - a1.m04.l03
+  tags:
+  - einkaufen
+  source: nwn
+- id: a1.m04.v.moechten
+  de: möchten
+  pos: verb
+  vi: muốn (lịch sự)
+  forms:
+    text: ich möchte, du möchtest, er möchte, wir möchten, ihr möchtet, sie möchten
+    er: möchte
+  ipa: /ˈmœçtn̩/
+  example:
+    de: Ich möchte ein Brötchen.
+    vi: Tôi muốn một cái bánh mì.
+  usage_vi: 'ich và er/sie/es giống nhau: möchte (không có -t). Chi tiết ở chủ điểm ngữ pháp bài 4.'
+  lesson_refs:
+  - a1.m04.l03
+  tags:
+  - verb
+  - wunsch
+  source: nwn-lern
+- id: a1.m04.v.nehmen
+  de: nehmen
+  pos: verb
+  vi: lấy; chọn (mua)
+  forms:
+    text: du nimmst, er nimmt
+    er: nimmt
+  ipa: /ˈneːmən/
+  example:
+    de: Ich nehme ein Brötchen.
+    vi: Tôi lấy một cái bánh mì.
+  usage_vi: 'Bất quy tắc: du nimmst, er nimmt (e → i, h mất, thêm m).'
+  lesson_refs:
+  - a1.m04.l03
+  tags:
+  - verb
+  - unregelmaessig
+  source: nwn-lern
+- id: a1.m04.v.sonst
+  de: sonst
+  pos: adverb
+  vi: ngoài ra
+  ipa: /zɔnst/
+  example:
+    de: Sonst noch etwas?
+    vi: Còn gì nữa không ạ?
+  usage_vi: 'Câu người bán hay hỏi. Trả lời: Nein, danke. Das ist alles.'
+  lesson_refs:
+  - a1.m04.l03
+  tags:
+  - einkaufen
+  source: nwn-lern
+- id: a1.m04.v.etwas
+  de: etwas
+  pos: pronoun
+  vi: cái gì đó, một chút
+  ipa: /ˈɛtvas/
+  example:
+    de: Möchten Sie etwas trinken?
+    vi: Anh/chị muốn uống gì không?
+  usage_vi: 'Không biến đổi. Dùng với danh từ không đếm được: „etwas Wasser“; hoặc đứng một mình: „Möchten Sie etwas trinken?“'
+  lesson_refs:
+  - a1.m04.l03
+  source: nwn-lern
+- id: a1.m04.v.dort
+  de: dort
+  pos: adverb
+  vi: ở đó
+  ipa: /dɔʁt/
+  example:
+    de: Der Reis ist dort.
+    vi: Gạo ở đằng kia.
+  usage_vi: Gần nghĩa với da.
+  lesson_refs:
+  - a1.m04.l03
+  tags:
+  - ort
+  source: nwn-lern
+- id: a1.m04.v.wechseln
+  de: wechseln
+  pos: verb
+  vi: đổi (tiền)
+  forms:
+    text: du wechselst, er wechselt
+    er: wechselt
+  ipa: /ˈvɛksl̩n/
+  example:
+    de: Können Sie 50 Euro wechseln?
+    vi: Anh/chị đổi được tờ 50 euro không?
+  usage_vi: 'Ở đây là đổi tiền: „Geld wechseln“. Còn nghĩa thay đổi: „die Schuhe wechseln“. Đi với Akkusativ.'
+  lesson_refs:
+  - a1.m04.l03
+  tags:
+  - verb
+  - geld
+  source: nwn-lern
+- id: a1.m04.v.wie-viel
+  de: wie viel
+  pos: interrogative
+  vi: bao nhiêu
+  ipa: /viː ˈfiːl/
+  example:
+    de: Wie viel kostet das?
+    vi: Cái này giá bao nhiêu?
+  usage_vi: 'wie viele + số nhiều: Wie viele Äpfel?'
+  lesson_refs:
+  - a1.m04.l03
+  tags:
+  - w-frage
+  - menge
+  source: nwn-lern
+- id: a1.m04.v.kassenzettel
+  de: Kassenzettel
+  pos: noun
+  article: der
+  plural: Kassenzettel
+  vi: hóa đơn (siêu thị)
+  ipa: /ˈkasn̩ˌtsɛtl̩/
+  example:
+    de: Brauchen Sie den Kassenzettel?
+    vi: Anh/chị có cần hóa đơn không?
+  usage_vi: 'Đồng nghĩa: der Bon, der Beleg.'
+  lesson_refs:
+  - a1.m04.l03
+  tags:
+  - einkaufen
+  source: nwn
+- id: a1.m04.v.gerne
+  de: gerne
+  pos: adverb
+  vi: rất sẵn lòng; thích
+  ipa: /ˈɡɛʁnə/
+  example:
+    de: – Ein Wasser, bitte. – Gerne!
+    vi: – Cho tôi một ly nước. – Vâng ạ!
+  usage_vi: Biến thể của gern. „Gern(e)!“ = rất sẵn lòng (khi phục vụ).
+  lesson_refs:
+  - a1.m04.l04
+  tags:
+  - hoeflichkeit
+  source: nwn-lern
+- id: a1.m04.v.mann
+  de: Mann
+  pos: noun
+  article: der
+  plural: Männer
+  vi: người đàn ông; chồng
+  ipa: /man/
+  example:
+    de: Der Mann möchte ein Brötchen.
+    vi: Người đàn ông muốn một cái bánh mì.
+  usage_vi: 'Từ nhiều nghĩa: mein Mann = chồng tôi. Số nhiều: die Männer.'
+  lesson_refs:
+  - a1.m04.l04
+  tags:
+  - person
+  - familie
+  - mehrdeutig
+  source: nwn-lern
+- id: a1.m04.v.trinken
+  de: trinken
+  pos: verb
+  vi: uống
+  forms:
+    text: du trinkst, er trinkt
+    er: trinkt
+  ipa: /ˈtʁɪŋkn̩/
+  example:
+    de: Was trinkst du?
+    vi: Bạn uống gì?
+  usage_vi: 'Đi với Akkusativ: „Kaffee trinken“. Chia hiện tại bình thường (du trinkst); Partizip II bất quy tắc: getrunken.'
+  lesson_refs:
+  - a1.m04.l04
+  tags:
+  - verb
+  - essen
+  source: nwn-lern
+- id: a1.m04.v.lecker
+  de: lecker
+  pos: adjective
+  vi: ngon
+  ipa: /ˈlɛkɐ/
+  example:
+    de: Der Kuchen ist lecker!
+    vi: Bánh ngon quá!
+  usage_vi: Rất hay dùng khi khen đồ ăn.
+  lesson_refs:
+  - a1.m04.l04
+  tags:
+  - essen
+  - bewertung
+  source: nwn
+- id: a1.m04.v.satt
+  de: satt
+  pos: adjective
+  vi: 'no'
+  ipa: /zat/
+  example:
+    de: Danke, ich bin satt.
+    vi: Cảm ơn, tôi no rồi.
+  usage_vi: 'Lịch sự từ chối ăn thêm: Nein, danke, ich bin satt.'
+  lesson_refs:
+  - a1.m04.l04
+  tags:
+  - essen
+  source: nwn
+- id: a1.m04.v.prost
+  de: Prost!
+  pos: interjection
+  vi: Nâng ly! Dzô!
+  ipa: /pʁoːst/
+  example:
+    de: Prost! Auf uns!
+    vi: Nâng ly! Vì chúng ta!
+  usage_vi: 'Nâng ly thân mật. Trang trọng: Zum Wohl!'
+  lesson_refs:
+  - a1.m04.l04
+  tags:
+  - essen
+  - hoeflichkeit
+  source: nwn
+- id: a1.m04.v.zum-wohl
+  de: Zum Wohl!
+  pos: phrase
+  vi: Chúc sức khỏe! (khi nâng ly)
+  ipa: /tsʊm ˈvoːl/
+  example:
+    de: Zum Wohl, Frau Weber!
+    vi: Chúc sức khỏe, bà Weber!
+  usage_vi: Trang trọng hơn Prost.
+  lesson_refs:
+  - a1.m04.l04
+  tags:
+  - essen
+  - hoeflichkeit
+  source: nwn
+- id: a1.m04.v.mahlzeit
+  de: Mahlzeit!
+  pos: interjection
+  vi: Chúc ngon miệng! (giữa đồng nghiệp, buổi trưa)
+  ipa: /ˈmaːlˌtsaɪ̯t/
+  example:
+    de: Mahlzeit, Herr Klein!
+    vi: Ăn trưa ngon miệng nhé, ông Klein!
+  usage_vi: Lời chào giữa đồng nghiệp vào giờ ăn trưa. die Mahlzeit = bữa ăn.
+  lesson_refs:
+  - a1.m04.l04
+  tags:
+  - essen
+  - arbeit
+  source: nwn
+- id: a1.m04.v.gleichfalls
+  de: gleichfalls
+  pos: adverb
+  vi: bạn cũng vậy
+  ipa: /ˈɡlaɪ̯çfals/
+  example:
+    de: – Guten Appetit! – Danke, gleichfalls!
+    vi: – Chúc ngon miệng! – Cảm ơn, bạn cũng vậy!
+  usage_vi: 'Đáp lại lời chúc: „Guten Appetit!“ – „Danke, gleichfalls!“ = Cảm ơn, bạn cũng vậy. Đồng nghĩa: „ebenfalls“.'
+  lesson_refs:
+  - a1.m04.l04
+  tags:
+  - hoeflichkeit
+  source: nwn
+- id: a1.m04.v.moegen
+  de: mögen
+  pos: verb
+  vi: thích (người, vật, món ăn)
+  forms:
+    text: ich mag, du magst, er mag, wir mögen, ihr mögt, sie mögen
+    er: mag
+  ipa: /ˈmøːɡn̩/
+  example:
+    de: Ich mag Käse.
+    vi: Tôi thích phô mai.
+  usage_vi: mögen + danh từ (Ich mag Pizza); gern + động từ (Ich esse gern Pizza).
+  lesson_refs:
+  - a1.m04.l05
+  tags:
+  - verb
+  - meinung
+  source: nwn-lern
+- id: a1.m04.v.fruehstuecken
+  de: frühstücken
+  pos: verb
+  vi: ăn sáng
+  forms:
+    text: du frühstückst, er frühstückt
+    er: frühstückt
+  ipa: /ˈfʁyːˌʃtʏkn̩/
+  example:
+    de: Ich frühstücke um sieben.
+    vi: Tôi ăn sáng lúc bảy giờ.
+  usage_vi: Không phải động từ tách.
+  lesson_refs:
+  - a1.m04.l05
+  tags:
+  - verb
+  - mahlzeit
+  source: nwn-lern
+- id: a1.m04.v.obst
+  de: Obst
+  pos: noun
+  article: das
+  no_plural: true
+  vi: trái cây
+  ipa: /oːpst/
+  example:
+    de: Obst ist gesund.
+    vi: Trái cây tốt cho sức khỏe.
+  usage_vi: Không đếm được. b đọc [p].
+  lesson_refs:
+  - a1.m04.l05
+  tags:
+  - essen
+  - sg-only
+  source: nwn-lern
+- id: a1.m04.v.gesund
+  de: gesund
+  pos: adjective
+  vi: khỏe mạnh; tốt cho sức khỏe
+  ipa: /ɡəˈzʊnt/
+  example:
+    de: Gemüse ist gesund.
+    vi: Rau tốt cho sức khỏe.
+  usage_vi: 'Trái nghĩa: ungesund, krank.'
+  lesson_refs:
+  - a1.m04.l05
+  tags:
+  - gesundheit
+  source: nwn-lern
+- id: a1.m04.v.morgens
+  de: morgens
+  pos: adverb
+  vi: vào buổi sáng (thường lệ)
+  ipa: /ˈmɔʁɡn̩s/
+  example:
+    de: Morgens trinke ich Kaffee.
+    vi: Buổi sáng tôi uống cà phê.
+  usage_vi: 'Trạng từ -s = thường xuyên vào lúc đó: morgens, mittags, abends.'
+  lesson_refs:
+  - a1.m04.l05
+  tags:
+  - tageszeit
+  source: nwn-lern
+- id: a1.m04.v.vormittags
+  de: vormittags
+  pos: adverb
+  vi: vào buổi sáng (khoảng 9–12 giờ)
+  ipa: /ˈfoːɐ̯mɪˌtaːks/
+  example:
+    de: Vormittags arbeite ich.
+    vi: Buổi sáng tôi làm việc.
+  usage_vi: der Vormittag = khoảng từ 9 đến 12 giờ.
+  lesson_refs:
+  - a1.m04.l05
+  tags:
+  - tageszeit
+  source: nwn-lern
+- id: a1.m04.v.vormittag
+  de: Vormittag
+  pos: noun
+  article: der
+  plural: Vormittage
+  vi: buổi sáng (9–12 giờ)
+  ipa: /ˈfoːɐ̯mɪˌtaːk/
+  example:
+    de: Am Vormittag habe ich Zeit.
+    vi: Buổi sáng tôi rảnh.
+  usage_vi: 'Số nhiều: Vormittage. „am Vormittag“ = vào buổi sáng; „vormittags“ = thường vào buổi sáng.'
+  lesson_refs:
+  - a1.m04.l05
+  tags:
+  - tageszeit
+  source: nwn-lern
+- id: a1.m04.v.mittag
+  de: Mittag
+  pos: noun
+  article: der
+  plural: Mittage
+  vi: buổi trưa
+  ipa: /ˈmɪtaːk/
+  example:
+    de: Am Mittag esse ich in der Kantine.
+    vi: Buổi trưa tôi ăn ở căng-tin.
+  usage_vi: Khoảng 12 giờ. „am Mittag“ = vào buổi trưa; „heute Mittag“ (Mittag viết hoa); „die Mittagspause“.
+  lesson_refs:
+  - a1.m04.l05
+  tags:
+  - tageszeit
+  source: nwn-lern
+- id: a1.m04.v.mittags
+  de: mittags
+  pos: adverb
+  vi: vào buổi trưa
+  ipa: /ˈmɪtaːks/
+  example:
+    de: Mittags esse ich Salat.
+    vi: Buổi trưa tôi ăn salad.
+  usage_vi: 'Trạng từ chỉ thói quen lặp lại, viết thường: „Mittags esse ich Salat.“ Khác „am Mittag“ (một lần cụ thể).'
+  lesson_refs:
+  - a1.m04.l05
+  tags:
+  - tageszeit
+  source: nwn-lern
+- id: a1.m04.v.nachmittags
+  de: nachmittags
+  pos: adverb
+  vi: vào buổi chiều
+  ipa: /ˈnaːxmɪˌtaːks/
+  example:
+    de: Nachmittags trinke ich Tee.
+    vi: Buổi chiều tôi uống trà.
+  usage_vi: Trạng từ chỉ thói quen lặp lại, viết thường. Khác „am Nachmittag“ (một buổi chiều cụ thể).
+  lesson_refs:
+  - a1.m04.l05
+  tags:
+  - tageszeit
+  source: nwn-lern
+- id: a1.m04.v.abends
+  de: abends
+  pos: adverb
+  vi: vào buổi tối
+  ipa: /ˈaːbn̩ts/
+  example:
+    de: Abends essen wir zusammen.
+    vi: Buổi tối chúng tôi ăn cùng nhau.
+  usage_vi: Trạng từ chỉ thói quen lặp lại, viết thường. Khác „heute Abend“ (tối nay, Abend viết hoa).
+  lesson_refs:
+  - a1.m04.l05
+  tags:
+  - tageszeit
+  source: nwn-lern
+- id: a1.m04.v.um
+  de: um
+  pos: preposition
+  vi: lúc (giờ)
+  ipa: /ʊm/
+  example:
+    de: Um sieben Uhr frühstücke ich.
+    vi: Lúc bảy giờ tôi ăn sáng.
+  usage_vi: um + giờ. Giờ giấc học kỹ ở Kapitel 5.
+  lesson_refs:
+  - a1.m04.l05
+  tags:
+  - zeit
+  source: nwn-lern
+- id: a1.m04.v.halb
+  de: halb
+  pos: adjective
+  vi: rưỡi; một nửa
+  ipa: /halp/
+  example:
+    de: Ich frühstücke um halb acht.
+    vi: Tôi ăn sáng lúc bảy giờ rưỡi.
+  usage_vi: 'Chú ý: halb acht = 7:30 (nửa giờ TRƯỚC 8), không phải 8:30!'
+  lesson_refs:
+  - a1.m04.l05
+  tags:
+  - zeit
+  - falscher-freund
+  source: nwn-lern
+- id: a1.m04.v.manchmal
+  de: manchmal
+  pos: adverb
+  vi: thỉnh thoảng
+  ipa: /ˈmançmaːl/
+  example:
+    de: Manchmal esse ich Döner.
+    vi: Thỉnh thoảng tôi ăn bánh kebab.
+  usage_vi: 'Tần suất: immer > oft > manchmal > nie.'
+  lesson_refs:
+  - a1.m04.l05
+  tags:
+  - haeufigkeit
+  source: nwn-lern
+- id: a1.m04.v.nur
+  de: nur
+  pos: adverb
+  vi: chỉ
+  ipa: /nuːɐ̯/
+  example:
+    de: Ich trinke nur Kaffee.
+    vi: Tôi chỉ uống cà phê.
+  usage_vi: 'Đứng ngay trước thành phần được nhấn mạnh: „nur Kaffee“ = chỉ cà phê. Đồng nghĩa khẩu ngữ: „bloß“.'
+  lesson_refs:
+  - a1.m04.l05
+  tags:
+  - menge
+  source: nwn-lern
+- id: a1.m04.v.nichts
+  de: nichts
+  pos: pronoun
+  vi: không gì cả
+  ipa: /nɪçts/
+  example:
+    de: Morgens esse ich nichts.
+    vi: Buổi sáng tôi không ăn gì.
+  usage_vi: Đọc rõ -chts [çts].
+  lesson_refs:
+  - a1.m04.l05
+  tags:
+  - negation
+  source: nwn-lern
+- id: a1.m04.v.wenig
+  de: wenig
+  pos: adjective
+  vi: ít
+  ipa: /ˈveːnɪç/
+  example:
+    de: Ich esse wenig Fleisch.
+    vi: Tôi ăn ít thịt.
+  usage_vi: 'Trái nghĩa: viel.'
+  lesson_refs:
+  - a1.m04.l05
+  tags:
+  - menge
+  source: nwn-lern
+- id: a1.m04.v.allein
+  de: allein
+  pos: adverb
+  vi: một mình
+  ipa: /aˈlaɪ̯n/
+  example:
+    de: Mittags esse ich allein.
+    vi: Buổi trưa tôi ăn một mình.
+  usage_vi: 'Trạng từ, không biến cách: „allein wohnen“ = sống một mình. Khác „einsam“ (cô đơn).'
+  lesson_refs:
+  - a1.m04.l05
+  source: nwn-lern
+- id: a1.m04.v.arbeit
+  de: Arbeit
+  pos: noun
+  article: die
+  plural: Arbeiten
+  vi: công việc; nơi làm việc
+  ipa: /ˈaʁbaɪ̯t/
+  example:
+    de: Ich fahre zur Arbeit.
+    vi: Tôi đi làm.
+  usage_vi: zur Arbeit = đến chỗ làm (cụm cố định).
+  lesson_refs:
+  - a1.m04.l05
+  tags:
+  - arbeit
+  source: nwn-lern
+- id: a1.m04.v.schlafen
+  de: schlafen
+  pos: verb
+  vi: ngủ
+  forms:
+    text: du schläfst, er schläft
+    er: schläft
+  ipa: /ˈʃlaːfn̩/
+  example:
+    de: Am Sonntag schlafe ich lange.
+    vi: Chủ nhật tôi ngủ dậy muộn.
+  usage_vi: 'Đổi nguyên âm a → ä: du schläfst, er schläft.'
+  lesson_refs:
+  - a1.m04.l05
+  tags:
+  - verb
+  - unregelmaessig
+  source: nwn-lern
+- id: a1.m04.v.wach
+  de: wach
+  pos: adjective
+  vi: tỉnh, thức
+  ipa: /vax/
+  example:
+    de: Um sechs bin ich wach.
+    vi: Sáu giờ tôi đã thức.
+  usage_vi: 'Chỉ trạng thái đã tỉnh, không ngủ: „wach sein“. „aufwachen“ = tỉnh giấc; „aufstehen“ = ngồi dậy khỏi giường.'
+  lesson_refs:
+  - a1.m04.l05
+  source: nwn-lern
+- id: a1.m04.v.erzaehlen
+  de: erzählen
+  pos: verb
+  vi: kể
+  forms:
+    text: du erzählst, er erzählt
+    er: erzählt
+  ipa: /ɛɐ̯ˈtsɛːlən/
+  example:
+    de: Erzählen Sie im Kurs.
+    vi: Hãy kể trong lớp.
+  usage_vi: 'Đi với Akkusativ: „eine Geschichte erzählen“; „von etwas erzählen“ = kể về điều gì. Tiền tố er- không tách.'
+  lesson_refs:
+  - a1.m04.l05
+  tags:
+  - verb
+  - kommunikation
+  source: nwn-lern
+- id: a1.m04.v.kantine
+  de: Kantine
+  pos: noun
+  article: die
+  plural: Kantinen
+  vi: căng-tin
+  ipa: /kanˈtiːnə/
+  example:
+    de: Wir essen in der Kantine.
+    vi: Chúng tôi ăn ở căng-tin.
+  usage_vi: 'Căng-tin của công ty hoặc trường học. „in der Kantine essen“ = ăn ở căng-tin. Số nhiều: Kantinen.'
+  lesson_refs:
+  - a1.m04.l05
+  tags:
+  - arbeit
+  - essen
+  source: nwn
+- id: a1.m04.v.doener
+  de: Döner
+  pos: noun
+  article: der
+  plural: Döner
+  vi: bánh mì kebab (Döner)
+  ipa: /ˈdøːnɐ/
+  example:
+    de: Ein Döner, bitte!
+    vi: Cho tôi một cái Döner!
+  usage_vi: Món ăn nhanh rất phổ biến ở Đức.
+  lesson_refs:
+  - a1.m04.l05
+  tags:
+  - essen
+  source: nwn
+- id: a1.m04.v.thema
+  de: Thema
+  pos: noun
+  article: das
+  plural: Themen
+  vi: chủ đề
+  ipa: /ˈteːma/
+  example:
+    de: Das Thema ist „Essen und Trinken“.
+    vi: Chủ đề là “Ăn và uống”.
+  usage_vi: 'Số nhiều bất quy tắc: die Themen. th đọc [t].'
+  lesson_refs:
+  - a1.m04.l06
+  tags:
+  - lernen
+  source: nwn-lern
+- id: a1.m04.v.paar
+  de: Paar
+  pos: noun
+  article: das
+  plural: Paare
+  vi: cặp, đôi
+  ipa: /paːɐ̯/
+  example:
+    de: Brot und Butter sind ein Paar.
+    vi: Bánh mì và bơ là một cặp.
+  usage_vi: 'Phân biệt: ein Paar (một đôi) – ein paar (vài, viết thường).'
+  lesson_refs:
+  - a1.m04.l06
+  tags:
+  - lernen
+  - mehrdeutig
+  source: nwn-lern
+- id: a1.m04.v.frei
+  de: frei
+  pos: adjective
+  vi: tự do; trống; miễn phí
+  ipa: /fʁaɪ̯/
+  example:
+    de: Ist der Platz frei?
+    vi: Chỗ này còn trống không?
+  usage_vi: 'Từ nhiều nghĩa: rảnh (frei haben), trống (chỗ), miễn phí (Eintritt frei).'
+  lesson_refs:
+  - a1.m04.l06
+  tags:
+  - mehrdeutig
+  source: nwn-lern
+- id: a1.m04.v.als
+  de: als
+  pos: preposition
+  vi: với tư cách là, làm (nghề)
+  ipa: /als/
+  example:
+    de: Er arbeitet als Koch.
+    vi: Anh ấy làm đầu bếp.
+  usage_vi: arbeiten als + nghề (không mạo từ).
+  lesson_refs:
+  - a1.m04.l06
+  tags:
+  - arbeit
+  source: nwn-lern
+- id: a1.m04.v.seit
+  de: seit
+  pos: preposition
+  vi: từ (một thời điểm), đã được
+  ipa: /zaɪ̯t/
+  example:
+    de: Er arbeitet seit zwei Jahren hier.
+    vi: Anh ấy làm ở đây đã hai năm.
+  usage_vi: 'Tiếng Đức dùng thì hiện tại với seit (tiếng Việt: “đã … rồi”). seit + Dativ (Jahren) – Kapitel 7.'
+  lesson_refs:
+  - a1.m04.l06
+  tags:
+  - zeit
+  source: nwn-lern
+- id: a1.m04.v.uhr
+  de: Uhr
+  pos: noun
+  article: die
+  plural: Uhren
+  vi: giờ; đồng hồ
+  ipa: /uːɐ̯/
+  example:
+    de: Ich arbeite von 6 bis 15 Uhr.
+    vi: Tôi làm từ 6 giờ đến 15 giờ.
+  usage_vi: 'Từ nhiều nghĩa: … Uhr (giờ) / die Uhr (đồng hồ). Kapitel 5 học kỹ.'
+  lesson_refs:
+  - a1.m04.l06
+  tags:
+  - zeit
+  - mehrdeutig
+  source: nwn-lern
+- id: a1.m04.v.chef
+  de: Chef
+  pos: noun
+  article: der
+  plural: Chefs
+  vi: sếp, người quản lý; bếp trưởng
+  ipa: /ʃɛf/
+  example:
+    de: Mein Chef ist nett.
+    vi: Sếp tôi dễ mến.
+  usage_vi: 'ch đọc [ʃ] (gốc Pháp). Trong bếp: der Küchenchef.'
+  lesson_refs:
+  - a1.m04.l06
+  tags:
+  - arbeit
+  - beruf
+  source: nwn-lern
+- id: a1.m04.v.chefin
+  de: Chefin
+  pos: noun
+  article: die
+  plural: Chefinnen
+  vi: sếp (nữ)
+  ipa: /ˈʃɛfɪn/
+  example:
+    de: Die Chefin heißt Frau Wolf.
+    vi: Sếp tên là bà Wolf.
+  usage_vi: 'Dạng nữ của der Chef (thêm -in). „ch“ đọc /ʃ/. Gọi trực tiếp: „Frau Wolf“ hơn là „Chefin“.'
+  lesson_refs:
+  - a1.m04.l06
+  tags:
+  - arbeit
+  - beruf
+  source: nwn-lern
+- id: a1.m04.v.team
+  de: Team
+  pos: noun
+  article: das
+  plural: Teams
+  vi: nhóm, đội
+  ipa: /tiːm/
+  example:
+    de: Wir sind ein gutes Team.
+    vi: Chúng tôi là một nhóm tốt.
+  usage_vi: Đọc như tiếng Anh.
+  lesson_refs:
+  - a1.m04.l06
+  tags:
+  - arbeit
+  source: nwn-lern
+- id: a1.m04.v.gericht
+  de: Gericht
+  pos: noun
+  article: das
+  plural: Gerichte
+  vi: món ăn; tòa án
+  ipa: /ɡəˈʁɪçt/
+  example:
+    de: Das Gericht ist lecker.
+    vi: Món ăn ngon.
+  usage_vi: 'Từ nhiều nghĩa: món ăn / tòa án (học sau).'
+  lesson_refs:
+  - a1.m04.l06
+  tags:
+  - essen
+  - mehrdeutig
+  source: nwn-lern
+- id: a1.m04.v.frisch
+  de: frisch
+  pos: adjective
+  vi: tươi
+  ipa: /fʁɪʃ/
+  example:
+    de: Das Gemüse ist frisch.
+    vi: Rau tươi.
+  usage_vi: 'Dùng cho thực phẩm tươi, không đông lạnh hoặc để lâu. Trái nghĩa: alt (cũ).'
+  lesson_refs:
+  - a1.m04.l06
+  tags:
+  - essen
+  source: nwn-lern
+- id: a1.m04.v.klein
+  de: klein
+  pos: adjective
+  vi: nhỏ
+  ipa: /klaɪ̯n/
+  example:
+    de: Das Restaurant ist klein.
+    vi: Nhà hàng nhỏ.
+  usage_vi: 'Trái nghĩa: groß.'
+  lesson_refs:
+  - a1.m04.l06
+  tags:
+  - beschreibung
+  source: nwn-lern
+- id: a1.m04.v.nett
+  de: nett
+  pos: adjective
+  vi: dễ mến, tử tế
+  ipa: /nɛt/
+  example:
+    de: Die Kollegen sind nett.
+    vi: Các đồng nghiệp dễ mến.
+  usage_vi: 'Thường dùng cho người: dễ mến, tử tế. Cũng dùng như lời khen lịch sự: „Das ist nett von dir.“'
+  lesson_refs:
+  - a1.m04.l06
+  tags:
+  - person
+  source: nwn-lern
+- id: a1.m04.v.echt
+  de: echt
+  pos: adverb
+  vi: thật sự, thật là
+  ipa: /ɛçt/
+  example:
+    de: Das ist echt stressig!
+    vi: Thật là căng thẳng!
+  usage_vi: Văn nói, nhấn mạnh.
+  lesson_refs:
+  - a1.m04.l06
+  source: nwn-lern
+- id: a1.m04.v.stressig
+  de: stressig
+  pos: adjective
+  vi: căng thẳng, áp lực
+  ipa: /ˈʃtʁɛsɪç/
+  example:
+    de: Die Arbeit ist stressig.
+    vi: Công việc căng thẳng.
+  usage_vi: st đầu từ [ʃt].
+  lesson_refs:
+  - a1.m04.l06
+  tags:
+  - arbeit
+  source: nwn-lern
+- id: a1.m04.v.spass
+  de: Spaß
+  pos: noun
+  article: der
+  no_plural: true
+  vi: niềm vui
+  ipa: /ʃpaːs/
+  example:
+    de: Kochen macht Spaß.
+    vi: Nấu ăn rất vui.
+  usage_vi: 'Cụm cố định: … macht (mir) Spaß = … làm tôi thấy vui.'
+  lesson_refs:
+  - a1.m04.l06
+  tags:
+  - gefuehl
+  - sg-only
+  source: nwn-lern
+- id: a1.m04.v.natuerlich
+  de: natürlich
+  pos: adverb
+  vi: tất nhiên; tự nhiên
+  ipa: /naˈtyːɐ̯lɪç/
+  example:
+    de: Natürlich helfe ich!
+    vi: Tất nhiên tôi giúp!
+  usage_vi: 'Hai nghĩa: ‘tất nhiên’ (câu đáp khẳng định mạnh: „Natürlich!“) và ‘tự nhiên’ (từ die Natur).'
+  lesson_refs:
+  - a1.m04.l06
+  source: nwn-lern
+- id: a1.m04.v.wichtig
+  de: wichtig
+  pos: adjective
+  vi: quan trọng
+  ipa: /ˈvɪçtɪç/
+  example:
+    de: Frisches Gemüse ist wichtig.
+    vi: Rau tươi rất quan trọng.
+  usage_vi: 'Trái nghĩa: unwichtig. Đuôi -ig đọc /ɪç/. Sau sein tính từ không đổi đuôi: „Das ist wichtig.“'
+  lesson_refs:
+  - a1.m04.l06
+  source: nwn-lern
+- id: a1.m04.v.helfen
+  de: helfen
+  pos: verb
+  vi: giúp đỡ
+  forms:
+    text: du hilfst, er hilft
+    er: hilft
+  ipa: /ˈhɛlfn̩/
+  example:
+    de: Ich helfe in der Küche.
+    vi: Tôi giúp việc trong bếp.
+  usage_vi: 'Đổi nguyên âm e → i. helfen + Dativ (Kapitel 11): Ich helfe dir.'
+  lesson_refs:
+  - a1.m04.l06
+  tags:
+  - verb
+  - unregelmaessig
+  source: nwn-lern
+- id: a1.m04.v.probieren
+  de: probieren
+  pos: verb
+  vi: nếm thử, thử
+  forms:
+    text: du probierst, er probiert
+    er: probiert
+  ipa: /pʁoˈbiːʁən/
+  example:
+    de: Probieren Sie den Kuchen!
+    vi: Hãy nếm thử bánh!
+  usage_vi: 'Nếm thử đồ ăn hoặc thử làm gì. Đuôi -ieren nên Partizip II không có ge-: probiert.'
+  lesson_refs:
+  - a1.m04.l06
+  tags:
+  - verb
+  - essen
+  source: nwn-lern
+- id: a1.m04.v.schneiden
+  de: schneiden
+  pos: verb
+  vi: cắt
+  forms:
+    text: du schneidest, er schneidet
+    er: schneidet
+  ipa: /ˈʃnaɪ̯dn̩/
+  example:
+    de: Er schneidet das Gemüse.
+    vi: Anh ấy cắt rau.
+  usage_vi: Gốc -d → er schneidet.
+  lesson_refs:
+  - a1.m04.l06
+  tags:
+  - verb
+  - essen
+  source: nwn-lern
+- id: a1.m04.v.waschen
+  de: waschen
+  pos: verb
+  vi: rửa, giặt
+  forms:
+    text: du wäschst, er wäscht
+    er: wäscht
+  ipa: /ˈvaʃn̩/
+  example:
+    de: Ich wasche das Obst.
+    vi: Tôi rửa trái cây.
+  usage_vi: 'Đổi nguyên âm a → ä: du wäschst, er wäscht.'
+  lesson_refs:
+  - a1.m04.l06
+  tags:
+  - verb
+  - unregelmaessig
+  source: nwn-lern
+- id: a1.m04.v.zurueck
+  de: zurück
+  pos: adverb
+  vi: trở lại
+  ipa: /tsuˈʁʏk/
+  example:
+    de: Ich bin um drei zurück.
+    vi: Ba giờ tôi quay lại.
+  usage_vi: 'Trạng từ chỉ quay lại nơi xuất phát: „Ich bin um drei zurück.“ Cũng là tiền tố tách: zurückkommen, zurückrufen.'
+  lesson_refs:
+  - a1.m04.l06
+  tags:
+  - richtung
+  source: nwn-lern
+- id: a1.m04.v.beantworten
+  de: beantworten
+  pos: verb
+  vi: trả lời (câu hỏi)
+  forms:
+    text: du beantwortest, er beantwortet
+    er: beantwortet
+  ipa: /bəˈʔantvɔʁtn̩/
+  example:
+    de: Beantworten Sie die Fragen.
+    vi: Hãy trả lời các câu hỏi.
+  usage_vi: beantworten + Akkusativ (die Fragen); antworten + auf (học sau).
+  lesson_refs:
+  - a1.m04.l06
+  tags:
+  - verb
+  - arbeitsanweisung
+  source: nwn-lern
+- id: a1.m04.v.zwiebel
+  de: Zwiebel
+  pos: noun
+  article: die
+  plural: Zwiebeln
+  vi: củ hành
+  ipa: /ˈtsviːbl̩/
+  example:
+    de: Er schneidet die Zwiebeln.
+    vi: Anh ấy cắt hành.
+  usage_vi: 'Số nhiều: Zwiebeln. „Zwiebeln schneiden“ = thái hành.'
+  lesson_refs:
+  - a1.m04.l06
+  tags:
+  - essen
+  source: nwn
+- id: a1.m04.v.arbeitszeit
+  de: Arbeitszeit
+  pos: noun
+  article: die
+  plural: Arbeitszeiten
+  vi: thời gian làm việc
+  ipa: /ˈaʁbaɪ̯tsˌtsaɪ̯t/
+  example:
+    de: Meine Arbeitszeit ist von 6 bis 15 Uhr.
+    vi: Giờ làm của tôi từ 6 đến 15 giờ.
+  usage_vi: 'Từ ghép Arbeit + s + Zeit; số nhiều: Arbeitszeiten. Giờ làm việc được ghi trong hợp đồng lao động.'
+  lesson_refs:
+  - a1.m04.l06
+  tags:
+  - arbeit
+  source: nwn

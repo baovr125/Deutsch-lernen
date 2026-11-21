@@ -1,0 +1,69 @@
+schema_version: "2.0"
+content_type: lesson
+id: a1.m11.l02
+level: A1
+module: a1.m11
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  references:
+    - { work: "Netzwerk neu A1.2 – Stoffverteilungsplan (Klett)", scope: "Kapitel 11, Mục Ich brauche neue Kleidung!; Welcher? – dieser; Strategie Informationen auf Tafeln verstehen; Wortschatz Geschäfte, Zeitangaben", verification: verified }
+  tags: ["geschaefte", "artikel"]
+order: 2
+title_de: "Ich brauche neue Kleidung!"
+title_vi: "Tôi cần quần áo mới!"
+duration_min: 50
+difficulty: 2
+objectives:
+  - { id: a1.m11.l02.obj1, text_vi: "Bạn có thể dùng welcher/welche/welches và dieser/diese/dieses để hỏi và chọn đồ.", skill: grammar }
+  - { id: a1.m11.l02.obj2, text_vi: "Bạn có thể hiểu thông tin trên biển hướng dẫn và thông báo ở cửa hàng (tầng, giờ mở cửa, khuyến mãi).", skill: reading }
+vocabulary_refs: [a1.m11.v.geschaeft, a1.m11.v.kaufhaus, a1.m11.v.laden, a1.m11.v.preis, a1.m11.v.angebot, a1.m11.v.kasse, a1.m11.v.etage, a1.m11.v.eingang, a1.m11.v.oeffnen, a1.m11.v.schliessen]
+grammar_refs: [a1.g.welcher-dieser]
+expression_refs: [a1.m11.x.oeffnungszeiten, a1.m11.x.preis-fragen, a1.m11.x.welche-fragen]
+exercise_set_ref: a1.m11.l02.ex
+blocks:
+  - id: a1.m11.l02.b1
+    kind: explanation
+    skill: grammar
+    title_vi: "Bắt đầu: chọn đồ khi mua sắm"
+    body_vi: |
+      Khi có nhiều món để chọn, hỏi bằng **welch-**: *Welcher Pullover? Welche Jacke? Welches Kleid? Welche Schuhe?* Trả lời bằng **dies-**: *Dieser Pullover. Diese Jacke. Dieses Kleid. Diese Schuhe.*
+      Với tân ngữ giống đực, đuôi đổi: **welchen / diesen** (*Ich nehme diesen Pullover.*).
+  - id: a1.m11.l02.b2
+    kind: dialogue
+    skill: speaking
+    title_vi: "Hội thoại: Ở trung tâm bách hóa"
+    lines:
+      - { speaker: "Verkäuferin", de: "Guten Tag! Wir haben heute viele Angebote.", vi: "Xin chào! Hôm nay chúng tôi có nhiều ưu đãi." }
+      - { speaker: "Kunde", de: "Gut. Ich brauche eine Hose. Welche Hose ist im Angebot?", vi: "Tốt. Tôi cần một cái quần. Quần nào đang khuyến mãi?" }
+      - { speaker: "Verkäuferin", de: "Diese Hose kostet nur fünfzig Euro.", vi: "Cái quần này chỉ năm mươi euro." }
+      - { speaker: "Kunde", de: "Und welches Hemd passt dazu?", vi: "Và áo sơ mi nào hợp với nó?" }
+      - { speaker: "Verkäuferin", de: "Dieses Hemd hier. Die Kasse ist im Erdgeschoss.", vi: "Chiếc áo sơ mi này đây. Quầy thu ngân ở tầng trệt." }
+  - id: a1.m11.l02.b3
+    kind: reading
+    skill: reading
+    title_vi: "Biển hướng dẫn: Kaufhaus Merkur"
+    paragraphs:
+      - { de: "Erdgeschoss: Eingang, Kasse, Taschen.", vi: "Tầng trệt: lối vào, quầy thu ngân, túi xách." }
+      - { de: "Erste Etage: Damenkleidung und Schuhe.", vi: "Tầng 1: quần áo nữ và giày." }
+      - { de: "Zweite Etage: Herrenkleidung und Angebote.", vi: "Tầng 2: quần áo nam và hàng khuyến mãi." }
+      - { de: "Öffnungszeiten: Montag bis Samstag, 9 bis 20 Uhr.", vi: "Giờ mở cửa: thứ Hai đến thứ Bảy, 9 đến 20 giờ." }
+  - id: a1.m11.l02.b4
+    kind: listening
+    skill: listening
+    title_vi: "Nghe: Thông báo ở trung tâm bách hóa"
+    audio_status: pending-tts
+    lines:
+      - { speaker: "Durchsage", de: "Liebe Kunden, heute gibt es im Erdgeschoss Angebote für Jacken und Mäntel.", vi: "Kính gửi quý khách, hôm nay ở tầng trệt có ưu đãi cho áo khoác và áo măng tô." }
+      - { speaker: "Durchsage", de: "Das Kaufhaus schließt heute um zwanzig Uhr.", vi: "Trung tâm bách hóa hôm nay đóng cửa lúc 20 giờ." }
+  - id: a1.m11.l02.b5
+    kind: culture
+    skill: reading
+    title_vi: "Chiến lược: đọc biển báo"
+    body_vi: |
+      Biển hướng dẫn thường chỉ có từ khóa, không có câu đầy đủ. Hãy tìm **tầng** (Etage/Erdgeschoss), **loại hàng** (Damen = nữ, Herren = nam, Kinder = trẻ em) và **giờ mở cửa** (Öffnungszeiten).

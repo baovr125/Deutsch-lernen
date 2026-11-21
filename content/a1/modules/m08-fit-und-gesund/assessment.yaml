@@ -1,0 +1,142 @@
+schema_version: "2.0"
+content_type: assessment
+id: a1.m08.test
+level: A1
+module: a1.m08
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  notes_vi: "Ngưỡng đạt 60% là đề xuất, chưa được xác nhận."
+  tags: ["test"]
+title_vi: "Kiểm tra Kapitel 8 – Fit und gesund"
+duration_min: 35
+pass_percent: 60
+exercises:
+  - id: a1.m08.test.01
+    type: listening-practice
+    skill: listening
+    difficulty: 2
+    objective_refs: [a1.m08.obj.arzt, a1.m08.obj.koerper]
+    instructions_vi: "Nghe (hoặc đọc transcript) và chọn đáp án."
+    stimulus:
+      text_de: "Guten Tag, hier ist Tom Weber. Ich habe starke Rückenschmerzen und Fieber. Ich möchte heute einen Termin, bitte. Meine Nummer ist null drei sieben."
+      audio_status: pending-tts
+    items:
+      - id: a1.m08.test.01.q1
+        prompt: "Was tut Tom Weber weh?"
+        options: [{ id: a, text: "Der Kopf." }, { id: b, text: "Der Rücken." }, { id: c, text: "Der Fuß." }]
+        answer: [b]
+        explanation_vi: "„Rückenschmerzen“ = đau lưng."
+      - id: a1.m08.test.01.q2
+        prompt: "Was möchte Tom?"
+        options: [{ id: a, text: "Ein Rezept." }, { id: b, text: "Einen Termin." }, { id: c, text: "Ein Medikament." }]
+        answer: [b]
+        explanation_vi: "„Ich möchte heute einen Termin.“"
+  - id: a1.m08.test.02
+    type: reading-comprehension
+    skill: reading
+    difficulty: 2
+    objective_refs: [a1.m08.obj.sport, a1.m08.obj.regeln]
+    instructions_vi: "Đọc và chọn đáp án đúng."
+    stimulus:
+      text_de: "Im Schwimmbad „Blau“ müssen Sie vor dem Schwimmen duschen. Man darf nicht rennen und nicht essen. Kinder unter zehn Jahren dürfen nicht allein schwimmen. Seid bitte leise!"
+      text_vi: "Ở bể bơi ‘Blau’ quý khách phải tắm trước khi bơi. Không được chạy và không được ăn. Trẻ em dưới mười tuổi không được bơi một mình. Xin hãy yên lặng!"
+    items:
+      - id: a1.m08.test.02.q1
+        prompt: "Was muss man vor dem Schwimmen tun?"
+        options: [{ id: a, text: "Duschen." }, { id: b, text: "Essen." }, { id: c, text: "Rennen." }]
+        answer: [a]
+        explanation_vi: "„müssen Sie vor dem Schwimmen duschen“."
+      - id: a1.m08.test.02.q2
+        prompt: "Wer darf nicht allein schwimmen?"
+        options: [{ id: a, text: "Alle Gäste." }, { id: b, text: "Kinder unter zehn Jahren." }, { id: c, text: "Die Trainer." }]
+        answer: [b]
+        explanation_vi: "„Kinder unter zehn Jahren dürfen nicht allein schwimmen.“"
+  - id: a1.m08.test.03
+    type: fill-blank
+    skill: grammar
+    difficulty: 2
+    objective_refs: [a1.m08.obj.imperativ, a1.m08.obj.regeln, a1.m08.obj.arzt]
+    instructions_vi: "Điền từ thích hợp."
+    items:
+      - { id: a1.m08.test.03.q1, prompt: "___ bitte langsam! (du, fahren)", answers: ["Fahr"], explanation_vi: "Imperativ du của „fahren“ bỏ Umlaut: Fahr!" }
+      - { id: a1.m08.test.03.q2, prompt: "___ Sie bitte herein! (kommen)", answers: ["Kommen"], explanation_vi: "Imperativ Sie: nguyên mẫu + Sie." }
+      - { id: a1.m08.test.03.q3, prompt: "Hier ___ man nicht rauchen. (dürfen)", answers: ["darf"], explanation_vi: "man darf; „nicht dürfen“ = cấm." }
+      - { id: a1.m08.test.03.q4, prompt: "Der Arzt sagt, ich ___ viel schlafen. (sollen)", answers: ["soll"], explanation_vi: "ich soll." }
+  - id: a1.m08.test.04
+    type: multiple-choice
+    skill: vocabulary
+    difficulty: 1
+    objective_refs: [a1.m08.obj.koerper, a1.m08.obj.arzt]
+    instructions_vi: "Chọn đáp án đúng."
+    items:
+      - id: a1.m08.test.04.q1
+        prompt: "Meine Füße ___ weh."
+        options: [{ id: a, text: "tut" }, { id: b, text: "tun" }, { id: c, text: "tue" }]
+        answer: [b]
+        explanation_vi: "Số nhiều → tun."
+      - id: a1.m08.test.04.q2
+        prompt: "Wie heißt der Plural von „der Arzt“?"
+        options: [{ id: a, text: "die Ärzte" }, { id: b, text: "die Arzte" }, { id: c, text: "die Ärzten" }]
+        answer: [a]
+        explanation_vi: "Số nhiều: die Ärzte (có Umlaut)."
+      - id: a1.m08.test.04.q3
+        prompt: "„Du musst heute nicht kommen.“ Was bedeutet das?"
+        options: [{ id: a, text: "Bạn bị cấm đến." }, { id: b, text: "Bạn không cần đến." }, { id: c, text: "Bạn nên đến." }]
+        answer: [b]
+        explanation_vi: "„nicht müssen“ = không cần. Không phải bị cấm."
+  - id: a1.m08.test.05
+    type: word-order
+    skill: grammar
+    difficulty: 2
+    objective_refs: [a1.m08.obj.regeln, a1.m08.obj.arzt]
+    instructions_vi: "Sắp xếp thành câu đúng."
+    items:
+      - id: a1.m08.test.05.q1
+        tokens: ["trainieren?", "hier", "Darf", "ich"]
+        answer: "Darf ich hier trainieren?"
+        translation_vi: "Tôi tập ở đây được không?"
+        explanation_vi: "Câu hỏi Ja/Nein: modalverb đứng đầu."
+      - id: a1.m08.test.05.q2
+        tokens: ["Tee", "soll", "viel", "Er", "trinken."]
+        answer: "Er soll viel Tee trinken."
+        translation_vi: "Anh ấy nên uống nhiều trà."
+        explanation_vi: "er soll + tân ngữ + nguyên mẫu ở cuối."
+  - id: a1.m08.test.06
+    type: translation
+    skill: writing
+    difficulty: 2
+    objective_refs: [a1.m08.obj.imperativ, a1.m08.obj.koerper]
+    instructions_vi: "Dịch sang tiếng Đức."
+    items:
+      - { id: a1.m08.test.06.q1, direction: vi-de, source: "Đầu tôi đau.", answers: ["Mein Kopf tut weh."], explanation_vi: "„Kopf“ số ít → tut." }
+      - { id: a1.m08.test.06.q2, direction: vi-de, source: "Hãy uống một viên thuốc!", answers: ["Nimm eine Tablette!", "Nehmen Sie eine Tablette!", "Nehmt eine Tablette!"], explanation_vi: "Imperativ của „nehmen“: du Nimm!, ihr Nehmt!, Sie Nehmen Sie!" }
+  - id: a1.m08.test.07
+    type: writing-practice
+    skill: writing
+    difficulty: 3
+    objective_refs: [a1.m08.obj.arzt, a1.m08.obj.sport]
+    instructions_vi: "Viết tin nhắn ngắn (3–4 câu) cho bạn: bạn bị ho và sốt nên hôm nay không thể đi chạy bộ."
+    items:
+      - id: a1.m08.test.07.q1
+        prompt_vi: "Viết tin nhắn thân mật gồm lời chào, tình trạng, việc không thể làm và lời kết."
+        model_answer: { de: "Liebe Lena, ich habe Husten und Fieber. Heute darf ich nicht joggen. Der Arzt sagt, ich soll im Bett bleiben. Viele Grüße, Tim", vi: "Lena thân mến, mình bị ho và sốt. Hôm nay mình không được chạy bộ. Bác sĩ bảo mình nên nằm nghỉ. Thân ái, Tim" }
+        rubric_vi: ["Chào và kết thư thân mật đúng.", "Nêu triệu chứng.", "Dùng „nicht dürfen“ hoặc „sollen“ đúng.", "Động từ chính ở cuối câu với modalverb."]
+        explanation_vi: "Bài mẫu kết hợp triệu chứng, một lệnh cấm (darf nicht) và lời dặn (soll)."
+  - id: a1.m08.test.08
+    type: speaking-practice
+    skill: speaking
+    difficulty: 2
+    objective_refs: [a1.m08.obj.sport, a1.m08.obj.imperativ]
+    instructions_vi: "Nói 3–4 câu: bạn tập thể thao thế nào và khuyên một người bạn bị mệt."
+    items:
+      - id: a1.m08.test.08.q1
+        prompt_vi: "Kể về việc tập luyện rồi khuyên bạn bằng Imperativ."
+        model_answer: { de: "Ich schwimme zweimal pro Woche. Du bist müde? Mach Pause und trink viel Wasser!", vi: "Tôi bơi hai lần mỗi tuần. Bạn mệt à? Nghỉ một lát và uống nhiều nước nhé!" }
+        rubric_vi: ["Nêu môn thể thao và tần suất.", "Dùng ít nhất một Imperativ du đúng.", "Câu hoàn chỉnh, đúng ngữ pháp.", "Phát âm rõ."]
+        explanation_vi: "Bài mẫu có tần suất và hai Imperativ du (Mach, trink)."

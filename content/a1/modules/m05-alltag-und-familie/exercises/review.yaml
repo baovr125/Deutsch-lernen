@@ -1,0 +1,246 @@
+schema_version: '2.0'
+content_type: exercise-set
+id: a1.m05.review.ex
+level: A1
+module: a1.m05
+lesson: a1.m05.review
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+exercises:
+- id: a1.m05.review.ex.01
+  type: matching
+  skill: vocabulary
+  difficulty: 1
+  objective_refs:
+  - a1.m05.review.obj1
+  instructions_vi: Nối câu hỏi hoặc tình huống ở cột trái với câu trả lời chuẩn xác ở cột phải.
+  items:
+  - id: a1.m05.review.ex.01.q1
+    pairs:
+    - left: Wie viel Uhr ist es jetzt?
+      right: Es ist Viertel vor fünf.
+    - left: Wann hast du Feierabend?
+      right: Um 17:30 Uhr.
+    - left: Hast du am Freitag Zeit für einen Kaffee?
+      right: Nein, mein Kalender ist ganz voll.
+    - left: Entschuldigung für die Verspätung!
+      right: Kein Problem, wir haben erst angefangen.
+    - left: Praxis Dr. Braun, was kann ich für Sie tun?
+      right: Ich möchte einen Termin bei der Ärztin vereinbaren.
+    explanation_vi: Các mẫu câu giao tiếp then chốt trong đời sống hằng ngày của Kapitel 5.
+- id: a1.m05.review.ex.02
+  type: multiple-choice
+  skill: grammar
+  difficulty: 1
+  objective_refs:
+  - a1.m05.review.obj2
+  instructions_vi: Chọn đáp án đúng nhất để hoàn thành mỗi câu.
+  items:
+  - id: a1.m05.review.ex.02.q1
+    prompt: Mein Unterricht beginnt ___ acht Uhr morgens.
+    options:
+    - id: a
+      text: von
+    - id: b
+      text: um
+    - id: c
+      text: im
+    - id: d
+      text: am
+    answer:
+    - b
+    explanation_vi: Giờ giấc chính xác đi với giới từ 'um'.
+  - id: a1.m05.review.ex.02.q2
+    prompt: Wir fahren ___ Wochenende oft zu den Großeltern.
+    options:
+    - id: a
+      text: am
+    - id: b
+      text: um
+    - id: c
+      text: an
+    - id: d
+      text: im
+    answer:
+    - a
+    explanation_vi: '''am Wochenende'' (vào cuối tuần).'
+  - id: a1.m05.review.ex.02.q3
+    prompt: Ich besuche am Samstag ___ Bruder in Berlin.
+    options:
+    - id: a
+      text: meinen
+    - id: b
+      text: mein
+    - id: c
+      text: meine
+    - id: d
+      text: meiner
+    answer:
+    - a
+    explanation_vi: der Bruder là danh từ giống đực, làm tân ngữ Akkusativ sau besuchen → 'meinen Bruder'.
+  - id: a1.m05.review.ex.02.q4
+    prompt: Peter und Lisa, wo ist ___ Katze?
+    options:
+    - id: a
+      text: ihr
+    - id: b
+      text: ihre
+    - id: c
+      text: eure
+    - id: d
+      text: euer
+    answer:
+    - c
+    explanation_vi: Hỏi Peter và Lisa (ngôi 'ihr' các bạn), die Katze là giống cái → 'eure'.
+  - id: a1.m05.review.ex.02.q5
+    prompt: Wir ___ heute leider nicht lange bleiben, wir haben noch einen Termin.
+    options:
+    - id: a
+      text: kann
+    - id: b
+      text: könnt
+    - id: c
+      text: kannst
+    - id: d
+      text: können
+    answer:
+    - d
+    explanation_vi: Ngôi 'wir' đi với dạng nguyên mẫu 'können'.
+- id: a1.m05.review.ex.03
+  type: multiple-choice
+  skill: listening
+  difficulty: 2
+  objective_refs:
+  - a1.m05.review.obj3
+  instructions_vi: Nghe đoạn hội thoại và chọn câu trả lời đúng.
+  stimulus:
+    ref: a1.m05.review.b5
+  items:
+  - id: a1.m05.review.ex.03.q1
+    prompt: Warum ruft Herr Berg in der Praxis an?
+    options:
+    - id: a
+      text: Er sagt den Termin komplett ab.
+    - id: b
+      text: Er ist krank.
+    - id: c
+      text: Er möchte seinen Termin verschieben.
+    - id: d
+      text: Er sucht einen Arzt.
+    answer:
+    - c
+    explanation_vi: 'Anh Berg hỏi: ''Kann ich den Termin auf nächste Woche verschieben?''.'
+  - id: a1.m05.review.ex.03.q2
+    prompt: Wann hat Herr Berg nun den neuen Termin?
+    options:
+    - id: a
+      text: am Dienstag um 11:30 Uhr
+    - id: b
+      text: am Mittwoch um 14:00 Uhr
+    - id: c
+      text: am Montag um 10:00 Uhr
+    - id: d
+      text: am Freitag um 10:00 Uhr
+    answer:
+    - a
+    explanation_vi: 'Trợ lý thông báo: ''am Dienstag um elf Uhr dreißig haben wir noch einen Termin frei''.'
+- id: a1.m05.review.ex.04
+  type: true-false
+  skill: listening
+  difficulty: 2
+  objective_refs:
+  - a1.m05.review.obj3
+  instructions_vi: Nghe lại và xác định các nhận định sau là Đúng (true) hay Sai (false).
+  stimulus:
+    ref: a1.m05.review.b5
+  items:
+  - id: a1.m05.review.ex.04.q1
+    prompt: Herr Berg hatte ursprünglich einen Termin am Freitag um 10 Uhr.
+    answer: true
+    explanation_vi: Đúng. 'Ich habe am Freitag um 10 Uhr einen Termin bei Dr. Neumann'.
+  - id: a1.m05.review.ex.04.q2
+    prompt: Herr Berg kann am Freitag nicht kommen, weil er Urlaub hat.
+    answer: false
+    explanation_vi: Sai. Anh ấy phải làm việc gấp ('Leider muss ich am Freitag dringend arbeiten').
+- id: a1.m05.review.ex.05
+  type: true-false
+  skill: reading
+  difficulty: 2
+  objective_refs:
+  - a1.m05.review.obj4
+  instructions_vi: Đọc bài viết về Sophie và xác định các câu sau là Đúng (true) hay Sai (false).
+  stimulus:
+    ref: a1.m05.review.b6
+  items:
+  - id: a1.m05.review.ex.05.q1
+    prompt: Sophie arbeitet am Freitag bis 17:00 Uhr.
+    answer: false
+    explanation_vi: Sai. Vào thứ Sáu cô ấy tan sở sớm lúc 14:00 ('Freitags hat sie schon um 14:00 Uhr Feierabend').
+  - id: a1.m05.review.ex.05.q2
+    prompt: Sophie treibt zweimal pro Woche Sport nach Feierabend.
+    answer: true
+    explanation_vi: Đúng. 'dienstags und donnerstags Sport im Verein' = hai lần một tuần.
+  - id: a1.m05.review.ex.05.q3
+    prompt: Sophie muss am Samstag zum Zahnarzt gehen, weil sie Zahnschmerzen hat.
+    answer: true
+    explanation_vi: Đúng. 'Sie hat Zahnschmerzen und vereinbart dringend einen Termin für Samstagnachmittag'.
+  - id: a1.m05.review.ex.05.q4
+    prompt: Sophie sagt die Verabredung mit Lea komplett ab và không gặp Lea nữa.
+    answer: false
+    explanation_vi: Sai. Cô chỉ dời lịch sang Chủ Nhật ('verschiebt sie das Treffen mit Lea auf Sonntag').
+- id: a1.m05.review.ex.06
+  type: fill-blank
+  skill: speaking
+  difficulty: 2
+  objective_refs:
+  - a1.m05.review.obj2
+  - a1.m05.review.obj5
+  instructions_vi: Điền mạo từ sở hữu thích hợp vào chỗ trống.
+  items:
+  - id: a1.m05.review.ex.06.q1
+    prompt: Ich liebe ___ Familie. Das ist ___ Vater und das ist ___ Mutter.
+    answers:
+    - meine
+    - mein
+    - meine
+    explanation_vi: die Familie (meine), der Vater (mein), die Mutter (meine).
+- id: a1.m05.review.ex.07
+  type: word-order
+  skill: writing
+  difficulty: 2
+  objective_refs:
+  - a1.m05.review.obj2
+  - a1.m05.review.obj5
+  instructions_vi: Sắp xếp các từ bị xáo trộn thành câu hoàn chỉnh tuân thủ cấu trúc khung câu với động từ tình thái.
+  items:
+  - id: a1.m05.review.ex.07.q1
+    tokens:
+    - Arzt
+    - zum
+    - Er
+    - muss
+    - heute
+    - gehen
+    answer: Er muss heute zum Arzt gehen.
+    prompt_vi: 'Sắp xếp câu với Modalverb müssen:'
+    explanation_vi: Chủ ngữ 'Er' + 'muss' ở vị trí 2 + 'heute' + 'zum Arzt' + Infinitiv 'gehen' ở cuối câu.
+  - id: a1.m05.review.ex.07.q2
+    tokens:
+    - am
+    - treffen
+    - Wollen
+    - wir
+    - Samstag
+    - uns
+    answer: Wollen wir uns am Samstag treffen?
+    prompt_vi: 'Sắp xếp câu hỏi với Modalverb wollen:'
+    explanation_vi: Động từ 'Wollen' ở đầu câu hỏi + 'wir' + 'uns' + 'am Samstag' + Infinitiv 'treffen' ở cuối câu.

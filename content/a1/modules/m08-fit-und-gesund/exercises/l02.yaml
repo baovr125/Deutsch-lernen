@@ -1,0 +1,133 @@
+schema_version: "2.0"
+content_type: exercise-set
+id: a1.m08.l02.ex
+level: A1
+module: a1.m08
+lesson: a1.m08.l02
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  tags: ["imperativ", "modalverb"]
+exercises:
+  - id: a1.m08.l02.ex.01
+    type: fill-blank
+    skill: grammar
+    difficulty: 1
+    objective_refs: [a1.m08.l02.obj1, a1.g.imperativ-ihr-sie.obj1, a1.m08.obj.imperativ]
+    instructions_vi: "Điền Imperativ ihr hoặc Sie (theo gợi ý)."
+    items:
+      - { id: a1.m08.l02.ex.01.q1, prompt: "___ bitte pünktlich!", hint_vi: "ihr, kommen", answers: ["Kommt"], explanation_vi: "Imperativ ihr: dạng ihr (ihr kommt) bỏ „ihr“ → Kommt!" }
+      - { id: a1.m08.l02.ex.01.q2, prompt: "___ Sie bitte herein!", hint_vi: "kommen", answers: ["Kommen"], explanation_vi: "Imperativ Sie: nguyên mẫu + Sie → Kommen Sie!" }
+      - { id: a1.m08.l02.ex.01.q3, prompt: "___ Sie die Tablette nach dem Essen!", hint_vi: "nehmen", answers: ["Nehmen"], explanation_vi: "Imperativ Sie: Nehmen Sie! (không đổi nguyên âm)." }
+      - { id: a1.m08.l02.ex.01.q4, prompt: "___ bitte leise!", hint_vi: "ihr, sein", answers: ["Seid"], explanation_vi: "„sein“ ở ihr: Seid! (Sie: Seien Sie!)" }
+  - id: a1.m08.l02.ex.02
+    type: multiple-choice
+    skill: grammar
+    difficulty: 2
+    objective_refs: [a1.m08.l02.obj1, a1.g.imperativ-ihr-sie.obj1]
+    instructions_vi: "Chọn dạng đúng cho từng tình huống."
+    items:
+      - id: a1.m08.l02.ex.02.q1
+        prompt: "Welcher Satz ist ein Imperativ für „ihr“?"
+        options: [{ id: a, text: "Ihr kommt." }, { id: b, text: "Kommt!" }, { id: c, text: "Komm!" }]
+        answer: [b]
+        explanation_vi: "Imperativ ihr bỏ „ihr“: Kommt! „Komm!“ là cho du."
+      - id: a1.m08.l02.ex.02.q2
+        prompt: "Welcher Satz ist ein Imperativ für „Sie“?"
+        options: [{ id: a, text: "Kommen Sie!" }, { id: b, text: "Kommst du!" }, { id: c, text: "Kommt!" }]
+        answer: [a]
+        explanation_vi: "Imperativ Sie: nguyên mẫu + Sie."
+      - id: a1.m08.l02.ex.02.q3
+        prompt: "Du sprichst mit deinem Chef. Was sagst du?"
+        options: [{ id: a, text: "Sei leise!" }, { id: b, text: "Seien Sie leise!" }, { id: c, text: "Seid leise!" }]
+        answer: [b]
+        explanation_vi: "Với cấp trên dùng Sie: Seien Sie leise!"
+      - id: a1.m08.l02.ex.02.q4
+        prompt: "Du sprichst mit drei Freunden: „___ euch aus!“"
+        options: [{ id: a, text: "Ruh" }, { id: b, text: "Ruhen Sie" }, { id: c, text: "Ruht" }]
+        answer: [c]
+        explanation_vi: "Nhiều bạn thân → ihr: Ruht euch aus! (sich ausruhen, động từ tách)."
+  - id: a1.m08.l02.ex.03
+    type: fill-blank
+    skill: grammar
+    difficulty: 2
+    objective_refs: [a1.m08.l02.obj2, a1.g.muessen-duerfen.obj1, a1.m08.obj.regeln]
+    instructions_vi: "Điền dạng đúng của müssen hoặc dürfen."
+    items:
+      - { id: a1.m08.l02.ex.03.q1, prompt: "Hier ___ man nicht essen.", hint_vi: "dürfen", answers: ["darf"], explanation_vi: "man + darf (ngôi er). „nicht dürfen“ = cấm." }
+      - { id: a1.m08.l02.ex.03.q2, prompt: "Ich ___ heute früh aufstehen.", hint_vi: "müssen", answers: ["muss"], explanation_vi: "ich muss (không có đuôi -e)." }
+      - { id: a1.m08.l02.ex.03.q3, prompt: "Du ___ heute nicht kommen.", hint_vi: "müssen – không cần", answers: ["musst"], explanation_vi: "du musst. „nicht müssen“ = không cần, khác với „nicht dürfen“ (cấm)." }
+      - { id: a1.m08.l02.ex.03.q4, prompt: "Die Kinder ___ nicht allein schwimmen.", hint_vi: "dürfen – cấm", answers: ["dürfen"], explanation_vi: "Chủ ngữ số nhiều: dürfen. Câu nói trẻ em bị cấm bơi một mình." }
+  - id: a1.m08.l02.ex.04
+    type: matching
+    skill: reading
+    difficulty: 2
+    objective_refs: [a1.m08.l02.obj2, a1.m08.obj.regeln]
+    instructions_vi: "Nối câu tiếng Đức với nghĩa tiếng Việt."
+    items:
+      - { id: a1.m08.l02.ex.04.q1, left: "Man muss die Schuhe wechseln.", right: "Phải thay giày.", explanation_vi: "„muss“ = bắt buộc." }
+      - { id: a1.m08.l02.ex.04.q2, left: "Hier darf man nicht rauchen.", right: "Ở đây cấm hút thuốc.", explanation_vi: "„darf nicht“ = cấm." }
+      - { id: a1.m08.l02.ex.04.q3, left: "Du musst nicht kommen.", right: "Bạn không cần đến.", explanation_vi: "„nicht müssen“ = không bắt buộc, không phải cấm." }
+      - { id: a1.m08.l02.ex.04.q4, left: "Darf ich Wasser mitnehmen?", right: "Tôi mang nước theo được không?", explanation_vi: "„Darf ich …?“ = xin phép." }
+  - id: a1.m08.l02.ex.05
+    type: listening-practice
+    skill: listening
+    difficulty: 2
+    objective_refs: [a1.m08.l02.obj2, a1.m08.obj.regeln]
+    instructions_vi: "Nghe thông báo (hoặc đọc transcript) rồi chọn đáp án."
+    stimulus:
+      text_de: "Achtung, liebe Mitglieder! Das Studio schließt heute um zwanzig Uhr. Nach zwanzig Uhr dürfen Sie nicht mehr trainieren. Bitte räumen Sie die Geräte auf."
+      audio_status: pending-tts
+    items:
+      - id: a1.m08.l02.ex.05.q1
+        prompt: "Wann schließt das Studio?"
+        options: [{ id: a, text: "Um achtzehn Uhr." }, { id: b, text: "Um zwanzig Uhr." }, { id: c, text: "Um zweiundzwanzig Uhr." }]
+        answer: [b]
+        explanation_vi: "„um zwanzig Uhr“ = 20 giờ."
+      - id: a1.m08.l02.ex.05.q2
+        prompt: "Was dürfen die Mitglieder nach zwanzig Uhr nicht?"
+        options: [{ id: a, text: "Essen." }, { id: b, text: "Trainieren." }, { id: c, text: "Telefonieren." }]
+        answer: [b]
+        explanation_vi: "„dürfen Sie nicht mehr trainieren“ = không được tập nữa."
+      - id: a1.m08.l02.ex.05.q3
+        prompt: "Worum bittet die Durchsage?"
+        options: [{ id: a, text: "Die Geräte aufräumen." }, { id: b, text: "Die Schuhe wechseln." }, { id: c, text: "Wasser kaufen." }]
+        answer: [a]
+        explanation_vi: "„Bitte räumen Sie die Geräte auf.“ — dọn các thiết bị."
+  - id: a1.m08.l02.ex.06
+    type: sentence-construction
+    skill: writing
+    difficulty: 2
+    objective_refs: [a1.m08.l02.obj1, a1.m08.l02.obj2, a1.g.muessen-duerfen.obj1, a1.g.imperativ-ihr-sie.obj1]
+    instructions_vi: "Viết một câu tiếng Đức đúng với các từ bắt buộc."
+    items:
+      - { id: a1.m08.l02.ex.06.q1, prompt_vi: "Nói: Ở đây không được ăn.", required_words: ["darf", "nicht", "essen"], answers: ["Hier darf man nicht essen."], explanation_vi: "„Hier darf man nicht essen.“ — modalverb ở vị trí 2, động từ chính cuối câu." }
+      - { id: a1.m08.l02.ex.06.q2, prompt_vi: "Nói: Tôi phải mang khăn theo.", required_words: ["muss", "Handtuch"], answers: ["Ich muss ein Handtuch mitbringen."], explanation_vi: "„mitbringen“ là động từ tách nhưng khi đi với modalverb thì ở cuối câu dạng nguyên mẫu." }
+      - { id: a1.m08.l02.ex.06.q3, prompt_vi: "Mời một vị khách vào (trang trọng).", required_words: ["Kommen", "Sie"], answers: ["Kommen Sie bitte herein.", "Kommen Sie herein."], explanation_vi: "Imperativ Sie: Kommen Sie (bitte) herein." }
+  - id: a1.m08.l02.ex.07
+    type: word-order
+    skill: grammar
+    difficulty: 2
+    objective_refs: [a1.m08.l02.obj2, a1.g.muessen-duerfen.obj1]
+    instructions_vi: "Sắp xếp các từ thành câu đúng."
+    items:
+      - id: a1.m08.l02.ex.07.q1
+        tokens: ["essen.", "Hier", "nicht", "man", "darf"]
+        answer: "Hier darf man nicht essen."
+        translation_vi: "Ở đây không được ăn."
+        explanation_vi: "Modalverb ở vị trí 2; „nicht“ trước động từ chính ở cuối."
+      - id: a1.m08.l02.ex.07.q2
+        tokens: ["tragen.", "muss", "Sportschuhe", "Ich"]
+        answer: "Ich muss Sportschuhe tragen."
+        translation_vi: "Tôi phải đi giày thể thao."
+        explanation_vi: "Chủ ngữ + muss + tân ngữ + động từ nguyên mẫu."
+      - id: a1.m08.l02.ex.07.q3
+        tokens: ["hier", "trainieren?", "Darf", "ich"]
+        answer: "Darf ich hier trainieren?"
+        translation_vi: "Tôi tập ở đây được không?"
+        explanation_vi: "Câu hỏi Ja/Nein: modalverb đứng đầu."

@@ -1,0 +1,65 @@
+schema_version: "2.0"
+content_type: lesson
+id: a1.m08.l02
+level: A1
+module: a1.m08
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  references:
+    - { work: "Netzwerk neu A1.2 – Stoffverteilungsplan (Klett)", scope: "Kapitel 8, Mục Im Fitness-Studio; Imperativ ihr/Sie; müssen – nicht dürfen – dürfen; Größe", verification: verified }
+  tags: ["imperativ", "modalverb", "regeln"]
+order: 2
+title_de: "Im Fitnessstudio"
+title_vi: "Ở phòng tập thể hình"
+duration_min: 50
+difficulty: 2
+objectives:
+  - { id: a1.m08.l02.obj1, text_vi: "Bạn có thể đưa ra chỉ dẫn lịch sự cho một nhóm (ihr) hoặc một khách (Sie) bằng Imperativ.", skill: grammar }
+  - { id: a1.m08.l02.obj2, text_vi: "Bạn có thể hiểu và nói nội quy đơn giản bằng müssen, dürfen, nicht dürfen.", skill: reading }
+vocabulary_refs: [a1.m08.v.muessen, a1.m08.v.duerfen, a1.m08.v.bleiben, a1.m08.v.ausruhen, a1.m08.v.groesse]
+grammar_refs: [a1.g.imperativ-ihr-sie, a1.g.muessen-duerfen]
+expression_refs: [a1.m08.x.erlaubnis-fragen, a1.m08.x.verbot, a1.m08.x.pflicht, a1.m08.x.bitte-ruhe]
+exercise_set_ref: a1.m08.l02.ex
+blocks:
+  - id: a1.m08.l02.b1
+    kind: explanation
+    skill: grammar
+    title_vi: "Bắt đầu: chỉ dẫn và nội quy"
+    body_vi: |
+      Ở phòng tập, huấn luyện viên nói với cả nhóm (**ihr**) hoặc với một khách (**Sie**): *Kommt bitte pünktlich! / Kommen Sie bitte herein.*
+      Nội quy thường dùng **müssen** (phải) và **dürfen** (được phép): *Hier darf man nicht essen. Man muss die Schuhe wechseln.*
+  - id: a1.m08.l02.b2
+    kind: dialogue
+    skill: speaking
+    title_vi: "Hội thoại: Buổi tập đầu tiên"
+    lines:
+      - { speaker: "Trainerin", de: "Guten Tag! Kommen Sie bitte herein. Sind Sie neu hier?", vi: "Xin chào! Mời ông/bà vào. Ông/bà mới đến à?" }
+      - { speaker: "Herr Koch", de: "Ja, heute ist mein erstes Training. Darf ich Wasser mitnehmen?", vi: "Vâng, hôm nay là buổi tập đầu tiên của tôi. Tôi mang nước theo được không?" }
+      - { speaker: "Trainerin", de: "Natürlich. Aber Sie dürfen nicht im Raum essen.", vi: "Tất nhiên. Nhưng ông không được ăn trong phòng." }
+      - { speaker: "Herr Koch", de: "Muss ich die Schuhe wechseln?", vi: "Tôi có phải thay giày không?" }
+      - { speaker: "Trainerin", de: "Ja, Sie müssen Sportschuhe tragen. Welche Größe haben Sie?", vi: "Có, ông phải đi giày thể thao. Ông cỡ giày bao nhiêu?" }
+      - { speaker: "Herr Koch", de: "Größe 43. Danke!", vi: "Cỡ 43. Cảm ơn!" }
+  - id: a1.m08.l02.b3
+    kind: reading
+    skill: reading
+    title_vi: "Nội quy: Hausordnung im Fitnessstudio"
+    paragraphs:
+      - { de: "Willkommen im Fitnessstudio „Aktiv“!", vi: "Chào mừng đến phòng tập ‘Aktiv’!" }
+      - { de: "Sie müssen Sportschuhe tragen und ein Handtuch mitbringen.", vi: "Quý khách phải đi giày thể thao và mang theo khăn." }
+      - { de: "Im Trainingsraum darf man nicht essen und nicht laut telefonieren.", vi: "Trong phòng tập không được ăn và không được nói điện thoại to." }
+      - { de: "Ruht euch nach dem Training aus und trinkt viel Wasser!", vi: "Hãy nghỉ ngơi sau buổi tập và uống nhiều nước nhé!" }
+  - id: a1.m08.l02.b4
+    kind: explanation
+    skill: grammar
+    title_vi: "Ngữ pháp: ihr/Sie và müssen – dürfen"
+    body_vi: |
+      **ihr:** dạng chia của ihr, bỏ „ihr“ → *Kommt! Nehmt! Seid leise!*
+      **Sie:** nguyên mẫu + Sie → *Kommen Sie! Nehmen Sie! Seien Sie pünktlich!*
+      **müssen** = bắt buộc, **dürfen** = được phép, **nicht dürfen** = bị cấm; **nicht müssen** = không cần.
+      Xem chủ điểm a1.g.imperativ-ihr-sie và a1.g.muessen-duerfen.

@@ -1,0 +1,276 @@
+schema_version: '2.0'
+content_type: lesson
+id: a1.m01.l02
+level: A1
+module: a1.m01
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+  references:
+  - work: Netzwerk neu A1 (Klett)
+    scope: 'Kapitel 1: Guten Tag! Auf Wiedersehen!'
+    verification: verified
+  notes_vi: 'Sprachhandlungen: Begrüßung und Verabschiedung (+ Tageszeiten), nach dem Befinden fragen, Unterschiede systematisieren: formell und informell. Grammatik: Verben und Personalpronomen (ich, du, Sie).'
+order: 2
+title_de: Guten Tag! Auf Wiedersehen!
+title_vi: Chào hỏi trang trọng – du hay Sie?
+topic_vi: Lời chào theo thời điểm trong ngày; xưng hô trang trọng; chia động từ với ich, du, Sie
+duration_min: 70
+difficulty: 1
+cefr:
+- A1.SI1
+- A1.H1
+- A1.L1
+prerequisites:
+- a1.m01.l01
+objectives:
+- id: a1.m01.l02.obj1
+  text_vi: Chào khi gặp và khi chia tay theo thời điểm trong ngày (Guten Morgen/Tag/Abend, Gute Nacht, Auf Wiedersehen).
+  skill: vocabulary
+- id: a1.m01.l02.obj2
+  text_vi: Chọn đúng cách xưng hô du hoặc Sie theo tình huống và gọi Herr/Frau + họ.
+  skill: grammar
+- id: a1.m01.l02.obj3
+  text_vi: Chia động từ heißen, sein (và các động từ quy tắc đã biết) với ich, du, Sie.
+  skill: grammar
+- id: a1.m01.l02.obj4
+  text_vi: 'Hỏi thăm và trả lời trang trọng: Wie geht es Ihnen? – Danke, gut. Und Ihnen?'
+  skill: listening
+vocabulary_refs:
+- a1.m01.v.guten-morgen
+- a1.m01.v.guten-tag
+- a1.m01.v.guten-abend
+- a1.m01.v.gute-nacht
+- a1.m01.v.auf-wiedersehen
+- a1.m01.v.sie
+- a1.m01.v.wie-geht-es-ihnen
+- a1.m01.v.frau
+- a1.m01.v.herr
+- a1.m01.v.vorname
+- a1.m01.v.nachname
+- a1.m01.v.mein
+- a1.m01.v.formell
+- a1.m01.v.informell
+- a1.m01.v.morgen
+- a1.m01.v.tag
+- a1.m01.v.abend
+- a1.m01.v.nacht
+review_vocabulary_refs:
+- a1.m01.v.sein
+- a1.m01.v.heissen
+- a1.m01.v.wie
+- a1.m01.v.name
+- a1.m01.v.wie-geht-s
+- a1.m01.v.und-dir
+- a1.m00.v.hoeren
+- a1.m00.v.schreiben
+grammar_refs:
+- a1.g.du-und-sie
+- a1.g.verben-ich-du-sie
+grammar_focus:
+- ref: a1.g.du-und-sie
+  focus_vi: Phân biệt và chọn du/Sie; Herr/Frau + họ; cặp câu thân mật ↔ trang trọng.
+- ref: a1.g.verben-ich-du-sie
+  focus_vi: Gốc động từ; đuôi -e, -st, -en; heißen (du heißt) và sein (bin, bist, sind).
+expression_refs:
+- a1.m01.x.guten-morgen-guten-tag-guten-abend
+- a1.m01.x.wie-heissen-sie-mein-name-ist
+- a1.m01.x.wie-geht-es-ihnen-danke-gut-und-ihnen
+- a1.m01.x.auf-wiedersehen
+- a1.m01.x.gute-nacht
+exercise_set_ref: a1.m01.l02.ex
+summary_vi: 'Chào theo thời điểm: Guten Morgen/Tag/Abend (khi gặp), Gute Nacht (chia tay đêm muộn), Auf Wiedersehen (tạm biệt trang trọng). Sie: luôn viết hoa, gọi Herr/Frau + họ, hỏi thăm “Wie geht es Ihnen? – Und Ihnen?”. Chia động từ: ich -e, du -st, Sie -en; sein: bin, bist, sind.'
+self_check:
+- Tôi chào đúng theo thời điểm trong ngày.
+- Tôi biết khi nào dùng du và khi nào dùng Sie.
+- Tôi chia được heißen và sein với ich, du, Sie.
+- Tôi hỏi thăm được một người lớn tuổi một cách lịch sự.
+blocks:
+- id: a1.m01.l02.b1
+  kind: explanation
+  title_vi: Giới thiệu bài học
+  body_vi: 'Ở bài 1, mọi người đều trẻ và thân mật. Nhưng khi bạn đến **văn phòng, khách sạn, trường đại học** hay nói chuyện với
+
+    **người lớn tuổi, người lạ**, người Đức dùng cách nói **trang trọng**: xưng **Sie** và gọi **Herr/Frau + họ**.
+
+
+    Bài này có ba phần:
+
+    1. **Lời chào theo thời điểm trong ngày** – sáng, trưa/chiều, tối, đêm.
+
+    2. **du hay Sie?** – khi nào dùng cách nào (xem chủ điểm ngữ pháp *Xưng hô thân mật và trang trọng*).
+
+    3. **Chia động từ với ich, du, Sie** – quy tắc đầu tiên về động từ (xem chủ điểm *Chia động từ với ich, du và Sie*).
+
+
+    **Mẹo:** nếu không chắc nên dùng *du* hay *Sie*, hãy dùng **Sie** – không ai phật lòng vì bạn lịch sự.'
+- id: a1.m01.l02.b2
+  kind: explanation
+  title_vi: Guten Morgen – nhưng Gute Nacht
+  skill: grammar
+  body_vi: Guten Morgen/Tag/Abend có đuôi -en vì Morgen, Tag, Abend là giống đực (der). Nacht là giống cái (die), nên nói Gute Nacht. Bạn chưa cần hiểu quy tắc đuôi tính từ (học ở A2) – chỉ cần học thuộc bốn cụm.
+  examples:
+  - de: der Morgen → Guten Morgen!
+    vi: Chào buổi sáng!
+  - de: die Nacht → Gute Nacht!
+    vi: Chúc ngủ ngon!
+- id: a1.m01.l02.b3
+  kind: pronunciation
+  title_vi: Guten [ˈɡuːtn̩] – âm tiết -en đọc lướt
+  skill: pronunciation
+  body_vi: 'Guten [ˈɡuːtn̩] – âm tiết -en đọc lướt
+
+
+    Trong Guten, đuôi -en gần như mất nguyên âm: “GU-tn”. Đừng đọc rõ ba âm “gu-ten-ơ”. Tương tự: Morgen [ˈmɔʁɡn̩], Abend [ˈaːbn̩t].
+
+
+    Luyện tập: Đọc chậm rồi nhanh dần: Gu-tn Tag → Gutn Tag → (văn nói) Tag!'
+  items:
+  - de: Guten Morgen!
+    vi: Chào buổi sáng!
+    ipa: '[ˈɡuːtn̩ ˈmɔʁɡn̩]'
+  - de: Guten Abend!
+    vi: Chào buổi tối!
+    ipa: '[ˈɡuːtn̩ ˈaːbn̩t]'
+- id: a1.m01.l02.b4
+  kind: pronunciation
+  title_vi: Auf Wiedersehen – trọng âm ở WIE
+  skill: pronunciation
+  body_vi: 'Auf Wiedersehen – trọng âm ở WIE
+
+
+    Auf Wiedersehen [aʊ̯f ˈviːdɐˌzeːən]: nhấn mạnh WIE, w đọc [v], ie đọc [iː] dài, -der đọc [dɐ].
+
+
+    Luyện tập: Vỗ tay: auf WIE-der-se-hen.'
+  items:
+  - de: Auf Wiedersehen!
+    vi: Tạm biệt!
+    ipa: '[aʊ̯f ˈviːdɐˌzeːən]'
+- id: a1.m01.l02.b5
+  kind: examples
+  title_vi: Câu ví dụ
+  examples:
+  - de: Guten Tag, Frau Weber! Wie geht es Ihnen?
+    vi: Xin chào bà Weber! Bà có khỏe không ạ?
+  - de: Danke, gut. Und Ihnen?
+    vi: Cảm ơn, tôi khỏe. Còn ông/bà?
+  - de: Mein Vorname ist Linh, mein Nachname ist Nguyen.
+    vi: Tên tôi là Linh, họ tôi là Nguyễn.
+  - de: Sind Sie Herr Klein? – Ja, das bin ich.
+    vi: Ông có phải ông Klein không ạ? – Vâng, chính tôi.
+  - de: Hörst du? – Ja, ich höre.
+    vi: Bạn có nghe không? – Có, mình nghe.
+  - de: Auf Wiedersehen, Herr Schmidt!
+    vi: Tạm biệt ông Schmidt!
+- id: a1.m01.l02.b6
+  kind: listening
+  title_vi: Một ngày ở khách sạn
+  lines:
+  - speaker: Rezeptionistin
+    de: Guten Morgen, Herr Tran! Wie geht es Ihnen?
+    vi: Chào buổi sáng ông Trần! Ông có khỏe không ạ?
+  - speaker: Herr Tran
+    de: Guten Morgen! Danke, gut. Und Ihnen?
+    vi: Chào buổi sáng! Cảm ơn, tôi khỏe. Còn cô?
+  - speaker: Rezeptionistin
+    de: Auch gut, danke.
+    vi: Tôi cũng khỏe, cảm ơn.
+  - speaker: Rezeptionistin
+    de: Guten Tag! Wie heißen Sie, bitte?
+    vi: Xin chào! Xin hỏi bà tên là gì ạ?
+  - speaker: Frau Becker
+    de: Becker. Mein Name ist Becker.
+    vi: Becker. Tên tôi là Becker.
+  - speaker: Rezeptionistin
+    de: Guten Abend, Frau Becker!
+    vi: Chào buổi tối bà Becker!
+  - speaker: Frau Becker
+    de: Guten Abend! Ich gehe jetzt. Gute Nacht!
+    vi: Chào buổi tối! Giờ tôi đi (về phòng) đây. Chúc ngủ ngon!
+  audio_status: pending-tts
+  situation_vi: Nhân viên lễ tân khách sạn chào khách vào buổi sáng, buổi chiều và buổi tối.
+  skill: listening
+  audio:
+    speed: slow
+- id: a1.m01.l02.b7
+  kind: reading
+  title_vi: Bốn bức tranh, bốn lời chào
+  paragraphs:
+  - de: 'Bild A – 7:30 Uhr, im Büro: „Guten Morgen, Frau Klein!“
+
+      Bild B – 14:00 Uhr, an der Uni: „Hallo, Tom! Wie geht''s?“
+
+      Bild C – 19:00 Uhr, im Restaurant: „Guten Abend, Herr Bauer!“
+
+      Bild D – 23:00 Uhr, zu Hause: „Gute Nacht, Mama!“'
+    vi: 'Tranh A – 7 giờ 30, ở văn phòng: “Chào buổi sáng, bà Klein!”
+
+      Tranh B – 14 giờ, ở trường đại học: “Chào Tom! Khỏe không?”
+
+      Tranh C – 19 giờ, ở nhà hàng: “Chào buổi tối, ông Bauer!”
+
+      Tranh D – 23 giờ, ở nhà: “Chúc mẹ ngủ ngon!”'
+  text_type_vi: Lời thoại trong tranh
+  skill: reading
+  glossary:
+  - de: das Bild
+    vi: bức tranh
+  - de: … Uhr
+    vi: … giờ
+  - de: das Büro
+    vi: văn phòng
+  - de: die Uni
+    vi: trường đại học (văn nói)
+  - de: zu Hause
+    vi: ở nhà
+- id: a1.m01.l02.b8
+  kind: speaking
+  title_vi: Ở quầy lễ tân
+  skill: speaking
+  task_vi: 'Đóng vai: bạn là khách đến khách sạn lúc 9 giờ sáng. Nhân viên lễ tân chào và hỏi tên bạn. Bạn trả lời, hỏi thăm lại và cuối cùng chào tạm biệt.'
+  steps_vi:
+  - Chào đúng thời điểm (9 giờ sáng).
+  - Nói họ tên với “Mein Name ist …”.
+  - Đáp lời hỏi thăm và hỏi lại “Und Ihnen?”.
+  - Tạm biệt trang trọng.
+  lines:
+  - speaker: Rezeption
+    de: Guten Morgen! Wie heißen Sie, bitte?
+    vi: Chào buổi sáng! Xin hỏi anh/chị tên gì ạ?
+  - speaker: Gast
+    de: Guten Morgen! Mein Name ist Lan Pham.
+    vi: Chào buổi sáng! Tên tôi là Lan Phạm.
+  - speaker: Rezeption
+    de: Willkommen, Frau Pham! Wie geht es Ihnen?
+    vi: Chào mừng chị Phạm! Chị có khỏe không ạ?
+  - speaker: Gast
+    de: Danke, gut. Und Ihnen?
+    vi: Cảm ơn, tôi khỏe. Còn anh?
+  - speaker: Rezeption
+    de: Sehr gut, danke.
+    vi: Rất khỏe, cảm ơn.
+  - speaker: Gast
+    de: Auf Wiedersehen!
+    vi: Tạm biệt!
+- id: a1.m01.l02.b9
+  kind: writing
+  title_vi: Từ thân mật sang trang trọng
+  skill: writing
+  task_vi: 'Viết lại đoạn hội thoại thân mật dưới đây thành hội thoại trang trọng giữa bạn và bà Weber: „Hallo! Wie heißt du? – Ich heiße Lan. – Wie geht''s? – Gut, und dir? – Tschüs!“'
+  model:
+    de: Guten Tag! Wie heißen Sie? – Mein Name ist Lan Pham. – Wie geht es Ihnen? – Danke, gut. Und Ihnen? – Auf Wiedersehen!
+    vi: Xin chào! Bà tên là gì ạ? – Tên tôi là Lan Phạm. – Bà khỏe không ạ? – Cảm ơn, tôi khỏe. Còn bà? – Tạm biệt!
+  checklist_vi:
+  - Lời chào trang trọng (Guten Tag / Auf Wiedersehen).
+  - Sie viết hoa; động từ chia với Sie (heißen).
+  - Ihnen thay cho dir.
+  - Nói cả họ, hoặc dùng Herr/Frau + họ.

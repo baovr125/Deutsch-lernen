@@ -1,0 +1,135 @@
+schema_version: "2.0"
+content_type: exercise-set
+id: a1.m07.l01.ex
+level: A1
+module: a1.m07
+lesson: a1.m07.l01
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  tags: ["arbeit"]
+exercises:
+  - id: a1.m07.l01.ex.01
+    type: multiple-choice
+    skill: vocabulary
+    difficulty: 1
+    objective_refs: [a1.m07.l01.obj1, a1.m07.obj.tagesablauf]
+    instructions_vi: "Chọn đáp án đúng."
+    items:
+      - id: a1.m07.l01.ex.01.q1
+        prompt: "Wie sagt man „giờ nghỉ trưa“ auf Deutsch?"
+        options: [{ id: a, text: "der Feierabend" }, { id: b, text: "die Mittagspause" }, { id: c, text: "die Besprechung" }]
+        answer: [b]
+        explanation_vi: "„Mittagspause“ = giờ nghỉ trưa (Mittag = buổi trưa + Pause). „Feierabend“ là lúc tan làm, „Besprechung“ là cuộc họp."
+      - id: a1.m07.l01.ex.01.q2
+        prompt: "Die Kollegin trinkt Kaffee in der ___."
+        options: [{ id: a, text: "Kantine" }, { id: b, text: "Pause" }, { id: c, text: "Firma" }]
+        answer: [a]
+        explanation_vi: "„in der Kantine“ = ở căng-tin, một địa điểm. „Pause“ là khoảng thời gian, còn „in der Firma“ không hợp nghĩa với việc uống cà phê ở một chỗ cụ thể trong câu này."
+      - id: a1.m07.l01.ex.01.q3
+        prompt: "Welchen Artikel hat „Büro“?"
+        options: [{ id: a, text: "der" }, { id: b, text: "die" }, { id: c, text: "das" }]
+        answer: [c]
+        explanation_vi: "Đúng là „das Büro“ (số nhiều die Büros)."
+      - id: a1.m07.l01.ex.01.q4
+        prompt: "Um fünf Uhr ist ___."
+        options: [{ id: a, text: "Termin" }, { id: b, text: "Feierabend" }, { id: c, text: "Kantine" }]
+        answer: [b]
+        explanation_vi: "„Feierabend“ là thời điểm hết giờ làm. Cấu trúc „Um … Uhr ist Feierabend.“ rất thông dụng."
+  - id: a1.m07.l01.ex.02
+    type: matching
+    skill: vocabulary
+    difficulty: 1
+    objective_refs: [a1.m07.l01.obj1]
+    instructions_vi: "Nối từ tiếng Đức với nghĩa tiếng Việt."
+    items:
+      - { id: a1.m07.l01.ex.02.q1, left: "der Chef", right: "sếp (nam)", explanation_vi: "der Chef = sếp nam; nữ là die Chefin." }
+      - { id: a1.m07.l01.ex.02.q2, left: "die Kollegin", right: "đồng nghiệp nữ", explanation_vi: "Thêm -in vào Kollege để chỉ nữ." }
+      - { id: a1.m07.l01.ex.02.q3, left: "der Termin", right: "cuộc hẹn", explanation_vi: "Termin là cuộc hẹn chính thức." }
+      - { id: a1.m07.l01.ex.02.q4, left: "die Besprechung", right: "cuộc họp", explanation_vi: "Đuôi -ung chỉ danh từ giống cái." }
+  - id: a1.m07.l01.ex.03
+    type: fill-blank
+    skill: grammar
+    difficulty: 1
+    objective_refs: [a1.m07.l01.obj2, a1.g.konjunktionen.obj1, a1.m07.obj.verbinden]
+    instructions_vi: "Điền und, oder hoặc aber."
+    word_bank: ["und", "oder", "aber"]
+    items:
+      - { id: a1.m07.l01.ex.03.q1, prompt: "Ich arbeite bei einer Bank ___ lerne abends Deutsch.", answers: ["und"], explanation_vi: "Hai việc cùng chiều (làm việc và học) nên dùng „und“." }
+      - { id: a1.m07.l01.ex.03.q2, prompt: "Trinkst du Kaffee ___ Tee?", answers: ["oder"], explanation_vi: "Đưa ra hai lựa chọn nên dùng „oder“." }
+      - { id: a1.m07.l01.ex.03.q3, prompt: "Die Arbeit ist anstrengend, ___ sie macht Spaß.", answers: ["aber"], explanation_vi: "Hai ý đối lập (vất vả >< vui) nên dùng „aber“." }
+      - { id: a1.m07.l01.ex.03.q4, prompt: "Wir essen in der Kantine ___ im Café.", answers: ["oder"], explanation_vi: "Chọn một trong hai địa điểm nên dùng „oder“." }
+  - id: a1.m07.l01.ex.04
+    type: word-order
+    skill: grammar
+    difficulty: 2
+    objective_refs: [a1.m07.l01.obj2, a1.g.konjunktionen.obj1]
+    instructions_vi: "Sắp xếp các từ thành câu đúng."
+    items:
+      - id: a1.m07.l01.ex.04.q1
+        tokens: ["ich", "arbeite", "Ich", "noch.", "aber", "müde,", "bin"]
+        answer: "Ich bin müde, aber ich arbeite noch."
+        translation_vi: "Tôi mệt nhưng vẫn làm việc."
+        explanation_vi: "Sau „aber“ vẫn là chủ ngữ rồi động từ: „ich arbeite“. Có dấu phẩy trước „aber“."
+      - id: a1.m07.l01.ex.04.q2
+        tokens: ["um", "an.", "Die", "fängt", "Uhr", "Besprechung", "zehn"]
+        answer: "Die Besprechung fängt um zehn Uhr an."
+        translation_vi: "Cuộc họp bắt đầu lúc mười giờ."
+        explanation_vi: "Động từ tách: „fängt“ ở vị trí 2, tiền tố „an“ ở cuối câu."
+      - id: a1.m07.l01.ex.04.q3
+        tokens: ["danach", "Wir", "arbeiten", "und", "jetzt", "essen", "wir", "weiter."]
+        answer: "Wir essen jetzt und danach arbeiten wir weiter."
+        translation_vi: "Bây giờ chúng ta ăn và sau đó làm việc tiếp."
+        explanation_vi: "Sau „und“ câu mới bắt đầu bằng „danach“ (vị trí 1) nên động từ „arbeiten“ ở vị trí 2 và chủ ngữ „wir“ ở vị trí 3."
+  - id: a1.m07.l01.ex.05
+    type: reading-comprehension
+    skill: reading
+    difficulty: 1
+    objective_refs: [a1.m07.l01.obj1, a1.m07.obj.tagesablauf]
+    instructions_vi: "Đọc đoạn văn và chọn đáp án đúng."
+    stimulus:
+      text_de: "Herr Demir arbeitet bei einer Bank. Er fängt um acht Uhr an. Mittags isst er mit den Kollegen in der Kantine. Um halb fünf hört er auf, aber heute hat er danach noch einen Termin."
+      text_vi: "Anh Demir làm việc ở một ngân hàng. Anh bắt đầu lúc tám giờ. Buổi trưa anh ăn cùng các đồng nghiệp ở căng-tin. Bốn rưỡi anh tan làm, nhưng hôm nay sau đó anh còn một cuộc hẹn."
+    items:
+      - id: a1.m07.l01.ex.05.q1
+        prompt: "Wo arbeitet Herr Demir?"
+        options: [{ id: a, text: "Bei einer Bank." }, { id: b, text: "In einer Kantine." }, { id: c, text: "In einer Apotheke." }]
+        answer: [a]
+        explanation_vi: "Câu đầu: „arbeitet bei einer Bank“ — làm việc ở một ngân hàng."
+      - id: a1.m07.l01.ex.05.q2
+        prompt: "Wann fängt er an?"
+        options: [{ id: a, text: "Um sieben Uhr." }, { id: b, text: "Um acht Uhr." }, { id: c, text: "Um halb fünf." }]
+        answer: [b]
+        explanation_vi: "„Er fängt um acht Uhr an.“ Bốn rưỡi là giờ anh tan làm."
+      - id: a1.m07.l01.ex.05.q3
+        prompt: "Was ist heute anders?"
+        options: [{ id: a, text: "Er isst nicht in der Kantine." }, { id: b, text: "Er arbeitet zu Hause." }, { id: c, text: "Er hat nach der Arbeit noch einen Termin." }]
+        answer: [c]
+        explanation_vi: "Từ „aber“ chỉ sự khác thường: „heute hat er danach noch einen Termin“."
+  - id: a1.m07.l01.ex.06
+    type: translation
+    skill: writing
+    difficulty: 2
+    objective_refs: [a1.m07.l01.obj2, a1.g.konjunktionen.obj1]
+    instructions_vi: "Dịch sang tiếng Đức."
+    items:
+      - { id: a1.m07.l01.ex.06.q1, direction: vi-de, source: "Tôi làm việc ở văn phòng và học tiếng Đức.", answers: ["Ich arbeite im Büro und lerne Deutsch.", "Ich arbeite im Büro und ich lerne Deutsch."], explanation_vi: "„im Büro“ = ở văn phòng; hai việc nối bằng „und“. Có thể bỏ chủ ngữ „ich“ lần hai." }
+      - { id: a1.m07.l01.ex.06.q2, direction: vi-de, source: "Bạn uống cà phê hay trà?", answers: ["Trinkst du Kaffee oder Tee?", "Trinken Sie Kaffee oder Tee?"], explanation_vi: "Câu hỏi Ja/Nein: động từ đứng đầu. „oder“ nối hai lựa chọn; dùng „du“ (thân) hoặc „Sie“ (trang trọng)." }
+      - { id: a1.m07.l01.ex.06.q3, direction: vi-de, source: "Công việc vất vả nhưng vui.", answers: ["Die Arbeit ist anstrengend, aber sie macht Spaß.", "Die Arbeit ist anstrengend, aber sie ist schön."], explanation_vi: "Hai câu đối lập nối bằng „, aber“; sau aber vẫn là chủ ngữ + động từ." }
+  - id: a1.m07.l01.ex.07
+    type: speaking-practice
+    skill: speaking
+    difficulty: 2
+    objective_refs: [a1.m07.l01.obj1, a1.m07.obj.tagesablauf]
+    instructions_vi: "Hãy nói (hoặc tự ghi âm) 3–4 câu về ngày làm việc/học tập của bạn."
+    items:
+      - id: a1.m07.l01.ex.07.q1
+        prompt_vi: "Kể: giờ bạn bắt đầu, nghỉ trưa ở đâu, và giờ tan làm."
+        model_answer: { de: "Mein Arbeitstag fängt um acht Uhr an. In der Mittagspause esse ich in der Kantine oder ich gehe in ein Café. Um fünf Uhr ist Feierabend.", vi: "Ngày làm việc của tôi bắt đầu lúc tám giờ. Giờ nghỉ trưa tôi ăn ở căng-tin hoặc đến quán cà phê. Năm giờ là tan làm." }
+        rubric_vi: ["Có giờ bắt đầu và giờ kết thúc (um … Uhr).", "Dùng ít nhất một liên từ (und/oder/aber).", "Động từ tách anfangen/aufhören có tiền tố ở cuối câu.", "Phát âm rõ, đủ 3 câu."]
+        explanation_vi: "Bài nói mẫu dùng „fängt … an“ và „oder“; bạn có thể thay giờ giấc và địa điểm cho đúng với mình."

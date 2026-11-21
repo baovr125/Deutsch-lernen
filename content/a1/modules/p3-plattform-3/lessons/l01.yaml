@@ -1,0 +1,98 @@
+schema_version: "2.0"
+content_type: lesson
+id: a1.p3.l01
+level: A1
+module: a1.p3
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  references:
+    - { work: "Netzwerk neu A1.2 – Stoffverteilungsplan (Klett)", scope: "Plattform 3: Wiederholungsspiel Kapitel 7–9 (Aktivitäten, Zimmer einrichten)", verification: verified }
+  tags: ["wiederholung"]
+order: 1
+title_de: "Wiederholen und trainieren: Kapitel 7–9"
+title_vi: "Ôn tập và luyện tập: Kapitel 7–9"
+topic_vi: "Ôn tập tổng hợp ngày làm việc, sức khỏe, căn hộ và đồ đạc"
+duration_min: 90
+difficulty: 2
+objectives:
+  - { id: a1.p3.l01.obj1, text_vi: "Hệ thống hóa từ vựng Kapitel 7–9: công việc, văn phòng, sức khỏe, cơ thể, phòng và đồ đạc.", skill: vocabulary }
+  - { id: a1.p3.l01.obj2, text_vi: "Vận dụng các chủ điểm ngữ pháp K7–9: mit + Dativ, Imperativ, müssen/dürfen/sollen, in + Akkusativ/Dativ, giới từ chỉ vị trí.", skill: grammar }
+  - { id: a1.p3.l01.obj3, text_vi: "Hiểu một e-mail ngắn và một đoạn hội thoại về việc chuyển nhà.", skill: reading }
+  - { id: a1.p3.l01.obj4, text_vi: "Nói và viết về ngày làm việc và căn hộ của mình bằng các cấu trúc đã học.", skill: speaking }
+vocabulary_refs: []
+review_vocabulary_refs: [a1.m07.v.termin, a1.m07.v.drucker, a1.m07.v.email, a1.m08.v.arzt, a1.m08.v.tablette, a1.m08.v.gesund, a1.m09.v.wohnung, a1.m09.v.sofa, a1.m09.v.schrank, a1.m09.v.lampe, a1.m09.v.kueche]
+grammar_refs: [a1.g.konjunktionen, a1.g.mit-dativ, a1.g.ortspraepositionen, a1.g.imperativ-du, a1.g.muessen-duerfen, a1.g.sollen, a1.g.sein-adjektiv, a1.g.in-wohin-wo, a1.g.wechselpraepositionen]
+expression_refs: [a1.p3.x.zimmer-einrichten]
+exercise_set_ref: a1.p3.l01.ex
+blocks:
+  - id: a1.p3.l01.b1
+    kind: explanation
+    title_vi: "Giới thiệu bài học"
+    body_vi: |
+      Bài này gom ba Kapitel vừa học (7 Arbeitsalltag, 8 Fit und gesund, 9 Meine Wohnung) thành một bài ôn. **Không có kiến thức mới**; mục tiêu là dùng cùng lúc từ vựng và ngữ pháp trong tình huống thực: chuyển nhà, hẹn bác sĩ, báo sự cố ở văn phòng.
+      Hãy làm theo thứ tự: đọc bảng tổng hợp → nghe → đọc → làm bài tập → nói và viết.
+  - id: a1.p3.l01.b2
+    kind: explanation
+    skill: grammar
+    title_vi: "Bảng tổng hợp ngữ pháp Kapitel 7–9"
+    body_vi: |
+      | Chủ điểm | Cấu trúc | Ví dụ |
+      |---|---|---|
+      | und / oder / aber | liên từ vị trí 0 | *Ich bin müde, aber ich arbeite noch.* |
+      | mit + Dativ | dem / der / den | *Ich spreche mit dem Chef.* |
+      | Wo / Wohin / Woher | im, am, beim · zum, zur · aus, von | *Ich gehe zur Bank.* |
+      | Imperativ | du: Komm! · ihr: Kommt! · Sie: Kommen Sie! | *Nimm eine Tablette!* |
+      | müssen / dürfen / sollen | modalverb ở vị trí 2, nguyên mẫu ở cuối | *Hier darf man nicht essen.* |
+      | sein + Adjektiv | tính từ không đổi đuôi | *Das Zimmer ist hell.* |
+      | in + Akkusativ / Dativ | Wohin? → die Küche · Wo? → in der Küche | *Ich gehe in die Küche.* |
+      | an, auf, neben, vor, unter… + Dativ | Wo? → vị trí | *Die Lampe steht neben dem Sofa.* |
+  - id: a1.p3.l01.b3
+    kind: listening
+    skill: listening
+    title_vi: "Nghe: Chuyển nhà"
+    audio_status: pending-tts
+    situation_vi: "Hai người bạn dỡ đồ đạc khi chuyển vào căn hộ mới."
+    lines:
+      - { speaker: "Mina", de: "Jonas, der Umzugswagen ist da! Wo soll das Sofa stehen?", vi: "Jonas, xe chuyển nhà đến rồi! Ghế sofa nên đặt ở đâu?" }
+      - { speaker: "Jonas", de: "Das Sofa kommt ins Wohnzimmer. Dort steht es vor dem Fenster.", vi: "Ghế sofa vào phòng khách. Ở đó nó đặt trước cửa sổ." }
+      - { speaker: "Mina", de: "Und der Tisch? Er ist sehr schwer.", vi: "Còn cái bàn? Nó rất nặng." }
+      - { speaker: "Jonas", de: "Der Tisch steht in der Küche, neben dem Kühlschrank.", vi: "Cái bàn đặt trong bếp, cạnh tủ lạnh." }
+      - { speaker: "Mina", de: "Das Bett muss ins Schlafzimmer. Wir bringen es zusammen.", vi: "Cái giường phải vào phòng ngủ. Chúng ta cùng mang nó." }
+      - { speaker: "Jonas", de: "Okay. Ich bin müde, aber wir haben noch viel Arbeit.", vi: "Được. Tôi mệt nhưng chúng ta còn nhiều việc." }
+      - { speaker: "Mina", de: "Mach doch eine Pause und trink einen Tee!", vi: "Nghỉ một chút và uống trà đi!" }
+      - { speaker: "Jonas", de: "Gute Idee. Danach räumen wir das Regal ein.", vi: "Ý hay. Sau đó chúng ta xếp đồ vào kệ." }
+  - id: a1.p3.l01.b4
+    kind: reading
+    skill: reading
+    title_vi: "Đọc: E-mail về căn hộ mới"
+    text_type_vi: "E-mail thân mật"
+    paragraphs:
+      - { de: "Liebe Tante Elke, ich habe jetzt eine neue Wohnung! Sie hat zwei Zimmer und einen Balkon. Das Wohnzimmer ist groß und hell. Mein Arbeitsweg ist kurz: Ich gehe zu Fuß zur Firma. Am Samstag mache ich eine Einweihungsparty. Kommst du? Viele Grüße, Lara", vi: "Dì Elke thân mến, bây giờ cháu có một căn hộ mới! Nó có hai phòng và một ban công. Phòng khách rộng và sáng. Đường đi làm của cháu ngắn: cháu đi bộ đến công ty. Thứ Bảy cháu tổ chức tiệc tân gia. Dì đến chứ? Thân ái, Lara" }
+    glossary:
+      - { de: "die Einweihungsparty", vi: "tiệc tân gia" }
+  - id: a1.p3.l01.b5
+    kind: speaking
+    skill: speaking
+    title_vi: "Nói: Một ngày và căn hộ của tôi"
+    task_vi: "Nói 4–5 câu: bạn bắt đầu làm việc lúc mấy giờ, đi làm bằng gì, căn hộ của bạn có những phòng nào và đồ đạc ở đâu."
+    steps_vi: ["Nêu giờ làm và cách đi làm (mit dem Bus, zu Fuß).", "Kể căn hộ có mấy phòng và mô tả bằng sein + tính từ.", "Nói một món đồ đứng ở đâu (neben, vor, an + Dativ).", "Nối ý bằng und/aber."]
+    lines:
+      - { speaker: "Beispiel", de: "Mein Arbeitstag fängt um acht Uhr an. Ich fahre mit dem Bus zur Firma. Meine Wohnung hat zwei Zimmer, aber sie ist hell und gemütlich. Das Sofa steht vor dem Fenster.", vi: "Ngày làm việc của tôi bắt đầu lúc tám giờ. Tôi đi xe buýt đến công ty. Căn hộ của tôi có hai phòng nhưng sáng và ấm cúng. Ghế sofa đặt trước cửa sổ." }
+  - id: a1.p3.l01.b6
+    kind: writing
+    skill: writing
+    title_vi: "Viết: E-mail cho bạn"
+    task_vi: "Viết e-mail 40–50 từ cho một người bạn: bạn vừa chuyển nhà, căn hộ thế nào, và mời bạn ấy đến vào thứ Bảy."
+    model: { de: "Lieber Max, ich wohne jetzt in einer neuen Wohnung. Sie hat drei Zimmer, aber die Küche ist klein. Das Bett steht neben dem Schrank. Am Samstag um sieben Uhr mache ich eine Party. Kommst du? Viele Grüße, Tom", vi: "Max thân mến, bây giờ mình sống trong một căn hộ mới. Nó có ba phòng nhưng nhà bếp nhỏ. Cái giường đặt cạnh tủ. Thứ Bảy lúc bảy giờ mình tổ chức tiệc. Bạn đến chứ? Thân ái, Tom" }
+    checklist_vi: ["Có lời chào và lời kết thân mật.", "Nêu số phòng và một tính từ mô tả.", "Có một câu về vị trí đồ vật (Wechselpräposition + Dativ).", "Có lời mời với ngày giờ (am Samstag, um … Uhr)."]
+summary_vi: "Bạn đã ôn tổng hợp Kapitel 7–9 qua tình huống chuyển nhà, sức khỏe và công việc."
+self_check:
+  - "Tôi nhớ Dativ sau mit (dem/der/den)."
+  - "Tôi biết phân biệt in + Akkusativ (Wohin?) và in + Dativ (Wo?)."
+  - "Tôi mô tả được vị trí đồ vật bằng neben, vor, an, auf, unter."

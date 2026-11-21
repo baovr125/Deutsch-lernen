@@ -1,0 +1,220 @@
+schema_version: '2.0'
+content_type: lesson
+id: a1.m03.l05
+level: A1
+module: a1.m03
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+  references:
+  - work: Netzwerk neu A1 (Klett)
+    scope: 'Kapitel 3: Landeskunde: Events in Hamburg'
+    verification: verified
+  notes_vi: 'Sprachhandlungen: Veranstaltungstexte verstehen und Fotos zuordnen; über Wörter in der eigenen Sprache sprechen; über interessante Events sprechen. Strategie: Texte mit internationalen Wörtern verstehen. Wortschatz: Events. Văn bản về sự kiện là tự viết.'
+order: 5
+title_de: Events in Hamburg
+title_vi: Sự kiện ở Hamburg – đọc hiểu nhờ từ quốc tế
+topic_vi: Sự kiện văn hóa; chiến lược hiểu văn bản bằng từ quốc tế; bày tỏ ý kiến với finden
+duration_min: 70
+difficulty: 2
+cefr:
+- A1.L1
+- A1.L3
+- A1.SP2
+- A1.H4
+prerequisites:
+- a1.m03.l04
+objectives:
+- id: a1.m03.l05.obj1
+  text_vi: Hiểu nội dung chính của thông báo sự kiện ngắn nhờ từ quốc tế (Festival, Film, Ticket, Event…).
+  skill: reading
+- id: a1.m03.l05.obj2
+  text_vi: 'Tìm thông tin cụ thể trong thông báo: tên, ngày, giá vé, địa điểm.'
+  skill: reading
+- id: a1.m03.l05.obj3
+  text_vi: 'Bày tỏ ý kiến đơn giản: Ich finde … interessant / toll / nicht so interessant.'
+  skill: listening
+- id: a1.m03.l05.obj4
+  text_vi: Nhận biết mạo từ sở hữu sein/seine, ihr/ihre (của anh ấy, của cô ấy) khi đọc.
+  skill: reading
+vocabulary_refs:
+- a1.m03.v.event
+- a1.m03.v.festival
+- a1.m03.v.film
+- a1.m03.v.gast
+- a1.m03.v.schauspieler
+- a1.m03.v.schauspielerin
+- a1.m03.v.sein
+- a1.m03.v.ihr
+- a1.m03.v.ticket
+- a1.m03.v.welt
+- a1.m03.v.diese
+- a1.m03.v.finden
+- a1.m03.v.an
+review_vocabulary_refs:
+- a1.m03.v.konzert
+- a1.m03.v.euro
+- a1.m03.v.ausstellung
+- a1.m03.v.interessant
+- a1.m02.v.toll
+- a1.m02.v.theater
+grammar_refs: []
+expression_refs:
+- a1.m03.x.wie-findest-du-ich-finde-toll-interessan
+- a1.m03.x.was-kostet-das-ticket-euro
+- a1.m03.x.gehen-wir-zum-festival
+exercise_set_ref: a1.m03.l05.ex
+summary_vi: 'Chiến lược: tìm từ quốc tế trước (Festival, Film, Ticket, Event, Konzert, Star) để hiểu ý chính. Ý kiến: Ich finde … toll/interessant/nicht so interessant; Wie findest du …? Giá: Was kostet das Ticket? Mạo từ sở hữu: sein/seine (của anh ấy), ihr/ihre (của cô ấy/họ).'
+self_check:
+- Tôi hiểu ý chính của một thông báo sự kiện nhờ từ quốc tế.
+- Tôi tìm được giá vé, địa điểm trong thông báo.
+- Tôi nói được ý kiến với finden.
+blocks:
+- id: a1.m03.l05.b1
+  kind: explanation
+  title_vi: Giới thiệu bài học
+  body_vi: '**Chiến lược đọc quan trọng:** khi gặp một văn bản tiếng Đức khó, đừng hoảng! Hãy tìm **từ quốc tế** trước –
+
+    những từ giống tiếng Anh hoặc tiếng Việt: *das Festival, der Film, das Ticket, das Event, das Konzert, der Star…*
+
+    Chỉ với những từ này, bạn đã đoán được văn bản nói về chuyện gì.
+
+
+    Bài này dùng các **thông báo sự kiện** (phim, nhạc, kịch) để luyện chiến lược đó.
+
+    Bạn cũng học cách nói **ý kiến**: *Ich **finde** das Festival interessant.* (Tôi thấy lễ hội thú vị.)'
+- id: a1.m03.l05.b2
+  kind: explanation
+  title_vi: Ý kiến với finden
+  skill: grammar
+  body_vi: 'finden + vật/người + tính từ = thấy (đánh giá): Ich finde den Film toll. (den = der ở Akkusativ – Kapitel 4). Hỏi ý kiến: Wie findest du …? Đơn giản hơn ở A1: Ich finde das interessant. / Das finde ich toll.'
+  examples:
+  - de: Wie findest du das Festival? – Ich finde es super!
+    vi: Bạn thấy lễ hội thế nào? – Mình thấy tuyệt lắm!
+  - de: Ich finde Theater nicht so interessant.
+    vi: Tôi thấy kịch không thú vị lắm.
+- id: a1.m03.l05.b3
+  kind: explanation
+  title_vi: 'sein/seine – ihr/ihre: của anh ấy – của cô ấy'
+  skill: grammar
+  body_vi: 'Mạo từ sở hữu ngôi thứ ba: sein (của anh ấy), ihr (của cô ấy/của họ); thêm -e trước danh từ giống cái/số nhiều: seine Filme, ihre Musik. Bây giờ chỉ cần NHẬN RA khi đọc; quy tắc đầy đủ học ở Kapitel 5.'
+  examples:
+  - de: Der Regisseur zeigt seinen neuen Film.
+    vi: Đạo diễn giới thiệu bộ phim mới của ông ấy.
+  - de: Die Sängerin singt ihre Lieder.
+    vi: Nữ ca sĩ hát những bài hát của cô ấy.
+- id: a1.m03.l05.b4
+  kind: pronunciation
+  title_vi: Từ quốc tế – đọc kiểu Đức
+  skill: pronunciation
+  body_vi: 'Từ quốc tế – đọc kiểu Đức
+
+
+    Nhiều từ quốc tế giữ cách đọc tiếng Anh (Event, Ticket, Festival gần với tiếng Anh) nhưng thường nhấn âm tiết khác hoặc đọc r, a theo kiểu Đức: Festival [ˈfɛstival], Film [fɪlm] (không đọc “phim” có thanh), Konzert [kɔnˈtsɛʁt].
+
+
+    Luyện tập: Đọc to thông báo sự kiện ở phần Đọc, chú ý không thêm thanh điệu tiếng Việt.'
+  items:
+  - de: das Festival
+    vi: lễ hội
+    ipa: '[ˈfɛstival]'
+  - de: das Ticket
+    vi: vé
+    ipa: '[ˈtɪkət]'
+- id: a1.m03.l05.b5
+  kind: examples
+  title_vi: Câu ví dụ
+  examples:
+  - de: Das Festival ist im Sommer.
+    vi: Lễ hội diễn ra vào mùa hè.
+  - de: Das Ticket kostet 15 Euro.
+    vi: Vé giá 15 euro.
+  - de: Viele Gäste kommen aus der ganzen Welt.
+    vi: Nhiều khách đến từ khắp thế giới.
+  - de: Ich finde den Film sehr interessant.
+    vi: Tôi thấy bộ phim rất thú vị.
+  - de: Die Schauspielerin zeigt ihren Film.
+    vi: Nữ diễn viên giới thiệu bộ phim của cô ấy.
+- id: a1.m03.l05.b6
+  kind: listening
+  title_vi: Nói chuyện về sự kiện
+  lines:
+  - speaker: Lisa
+    de: 'Schau mal: ein Filmfestival! An zehn Tagen gibt es über 100 Filme.'
+    vi: 'Xem này: một liên hoan phim! Trong mười ngày có hơn 100 bộ phim.'
+  - speaker: Minh
+    de: Wie viel kostet ein Ticket?
+    vi: Một vé bao nhiêu tiền?
+  - speaker: Lisa
+    de: Zehn Euro. Und da ist ein Konzert mit einem Orchester aus Wien.
+    vi: Mười euro. Và kia có một buổi hòa nhạc với một dàn nhạc từ Viên.
+  - speaker: Minh
+    de: Hm, ich finde Konzerte nicht so interessant. Aber Filme finde ich toll!
+    vi: Hừm, mình thấy hòa nhạc không thú vị lắm. Nhưng phim thì mình thấy tuyệt!
+  - speaker: Lisa
+    de: Okay, gehen wir zum Filmfestival!
+    vi: Ok, mình đi liên hoan phim nhé!
+  audio_status: pending-tts
+  situation_vi: Lisa và Minh xem thông báo sự kiện và chọn đi đâu.
+  skill: listening
+  audio:
+    speed: slow
+- id: a1.m03.l05.b7
+  kind: reading
+  title_vi: Thông báo sự kiện cuối tuần
+  paragraphs:
+  - de: 'EVENTS AM WOCHENENDE
+
+      ① Filmfestival: 100 Filme aus der ganzen Welt. Viele Stars sind Gäste. Tickets: 10 Euro.
+
+      ② Konzert im Konzerthaus: Ein Orchester aus Wien spielt Mozart. Tickets: 25–60 Euro.
+
+      ③ Theater-Festival im Park: Schauspieler aus zehn Ländern zeigen ihre Produktionen. Der Eintritt ist frei!'
+    vi: 'SỰ KIỆN CUỐI TUẦN
+
+      ① Liên hoan phim: 100 bộ phim từ khắp thế giới. Nhiều ngôi sao là khách mời. Vé: 10 euro.
+
+      ② Hòa nhạc ở nhà hòa nhạc: Một dàn nhạc từ Viên chơi nhạc Mozart. Vé: 25–60 euro.
+
+      ③ Lễ hội sân khấu trong công viên: Diễn viên từ mười quốc gia trình diễn các vở của họ. Vào cửa miễn phí!'
+  text_type_vi: Thông báo sự kiện (Veranstaltungstipps)
+  skill: reading
+  glossary:
+  - de: das Orchester
+    vi: dàn nhạc
+  - de: die Produktion
+    vi: vở diễn, sản phẩm
+  - de: der Eintritt ist frei
+    vi: vào cửa miễn phí
+- id: a1.m03.l05.b8
+  kind: speaking
+  title_vi: Bạn thích sự kiện nào?
+  skill: speaking
+  task_vi: Chọn một sự kiện trong thông báo, nói vì sao bạn thích (Ich finde …), và rủ một người bạn đi cùng.
+  steps_vi:
+  - Nói sự kiện bạn chọn và giá vé.
+  - Nói ý kiến với finden.
+  - 'Rủ: Gehen wir zum …?'
+  lines:
+  - speaker: Lan
+    de: Das Theater-Festival finde ich toll. Der Eintritt ist frei! Schauspieler aus zehn Ländern – das ist interessant. Gehen wir zum Festival?
+    vi: Mình thấy lễ hội sân khấu tuyệt. Vào cửa miễn phí! Diễn viên từ mười nước – thú vị thật. Mình đi lễ hội nhé?
+- id: a1.m03.l05.b9
+  kind: writing
+  title_vi: Viết thông báo sự kiện
+  skill: writing
+  task_vi: 'Viết thông báo ngắn (3 dòng) cho một sự kiện ở thành phố của bạn: tên sự kiện, nội dung (dùng từ quốc tế), giá vé.'
+  model:
+    de: 'Food-Festival am See: Essen aus der ganzen Welt. Viele Gäste aus Vietnam, Japan und Italien. Tickets: 5 Euro.'
+    vi: 'Lễ hội ẩm thực bên hồ: Món ăn từ khắp thế giới. Nhiều khách từ Việt Nam, Nhật Bản và Ý. Vé: 5 euro.'
+  checklist_vi:
+  - Có ít nhất 3 từ quốc tế.
+  - Danh từ viết hoa, có giá vé bằng Euro.

@@ -1,0 +1,235 @@
+schema_version: '2.0'
+content_type: lesson
+id: a1.m06.l02
+level: A1
+module: a1.m06
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+  references:
+  - work: Netzwerk neu A1 (Klett)
+    scope: 'Kapitel 6: Eine Überraschung für Sofia'
+    verification: verified
+  notes_vi: 'Sprachhandlungen: über Geburtstage sprechen, das Datum nennen, Glückwünsche formulieren. Wortschatz: Geburtstag, Geburtstagskind, feiern, gratulieren, Glückwunsch, Ordinalzahlen. Grammatik: Ordinalzahlen (Datum).'
+order: 2
+title_de: Eine Geburtstagsparty – Datum und Ordinalzahlen
+title_vi: Tiệc sinh nhật, ngày tháng và số thứ tự
+topic_vi: Nói về ngày sinh nhật, lời chúc mừng sinh nhật, số thứ tự (Ordinalzahlen) và diễn đạt ngày tháng
+duration_min: 85
+difficulty: 2
+cefr:
+- A1.L1
+- A1.H2
+- A1.SP1
+- A1.S2
+prerequisites:
+- a1.m06.l01
+objectives:
+- id: a1.m06.l02.obj1
+  text_vi: Hỏi và nói về ngày sinh nhật của bản thân và người thân (Wann hast du Geburtstag? – Am ...).
+  skill: listening
+- id: a1.m06.l02.obj2
+  text_vi: Thành lập và sử dụng chính xác các số thứ tự (Ordinalzahlen) từ 1 đến 31 (der erste / am ersten, der zwanzigste / am zwanzigsten).
+  skill: vocabulary
+- id: a1.m06.l02.obj3
+  text_vi: Gửi lời chúc mừng sinh nhật chân thành bằng tiếng Đức (Herzlichen Glückwunsch zum Geburtstag!).
+  skill: reading
+- id: a1.m06.l02.obj4
+  text_vi: Hiểu thông tin ngày tháng trong bài nghe và bài đọc thiệp mừng sinh nhật.
+  skill: listening
+vocabulary_refs:
+- a1.m06.v.geburtstag
+- a1.m06.v.geburtstagsparty
+- a1.m06.v.geburtstagskind
+- a1.m06.v.datum
+- a1.m06.v.feiern
+- a1.m06.v.gratulieren
+- a1.m06.v.lebensjahr
+- a1.m06.v.glueckwunsch
+- a1.m06.v.herzlich
+- a1.m06.v.geburtstagskarte
+- a1.m06.v.geburtstagsdatum
+- a1.m06.v.zweite
+- a1.m06.v.dritte
+- a1.m06.v.vierte
+- a1.m06.v.fuenfte
+- a1.m06.v.siebte
+- a1.m06.v.achte
+- a1.m06.v.zwanzigste
+- a1.m06.v.einunddreissigste
+review_vocabulary_refs:
+- a1.m05.v.uhrzeit
+- a1.m05.v.hausarbeit
+- a1.m06.v.vorbeikommen
+- a1.m06.v.gemeinsam
+grammar_refs:
+- a1.g.ordinalzahlen
+grammar_focus:
+- ref: a1.g.ordinalzahlen
+  focus_vi: 'Số thứ tự trong diễn đạt ngày tháng: am ersten, am dritten, am zwanzigsten...'
+expression_refs:
+- a1.m06.x.wann-hast-du-geburtstag-ich-habe-am-gebu
+- a1.m06.x.herzlichen-glueckwunsch-zum-geburtstag-a
+exercise_set_ref: a1.m06.l02.ex
+summary_vi: Bài học giúp bạn thành thạo cách nói ngày tháng và số thứ tự (Ordinalzahlen) với quy tắc thêm đuôi -te / -ste và biến đổi -ten / -sten sau am, cùng cách gửi lời chúc mừng sinh nhật đầy ý nghĩa.
+self_check:
+- Tôi có thể nói chính xác ngày sinh nhật của mình bằng tiếng Đức.
+- 'Tôi nhớ các số thứ tự bất quy tắc: am ersten, am dritten, am siebten, am achten.'
+- 'Tôi biết viết và nói lời chúc mừng sinh nhật: Herzlichen Glückwunsch zum Geburtstag!'
+blocks:
+- id: a1.m06.l02.b1
+  kind: explanation
+  title_vi: Giới thiệu bài học
+  body_vi: 'Sinh nhật là dịp đặc biệt để bạn bè sum vầy và trao nhau những lời chúc ấm áp.
+
+    Trong bài học này, bạn sẽ:
+
+    - Học từ vựng về sinh nhật: ngày sinh nhật (*der Geburtstag*), chủ nhân tiệc sinh nhật (*das Geburtstagskind*), ăn mừng (*feiern*), chúc mừng (*gratulieren*), thiệp sinh nhật (*die Geburtstagskarte*).
+
+    - Làm chủ hệ thống số thứ tự (*Ordinalzahlen*): từ 1 đến 19 thêm đuôi *-te* (sau am thêm *-ten*), từ 20 trở lên thêm *-ste* (sau am thêm *-sten*).
+
+    - Nắm vững các trường hợp bất quy tắc quan trọng: ngày 1 (*am ersten*), ngày 3 (*am dritten*), ngày 7 (*am siebten*), ngày 8 (*am achten*).
+
+    - Tự tay viết lời chúc mừng sinh nhật chuẩn mực: "Herzlichen Glückwunsch zum Geburtstag! Alles Gute zum neuen Lebensjahr!".'
+- id: a1.m06.l02.b2
+  kind: explanation
+  title_vi: 'Cấu trúc chúc mừng: gratulieren + Dativ + zu'
+  skill: grammar
+  body_vi: 'Động từ ''gratulieren'' đi với đại từ nhân xưng Dativ và giới từ ''zu'' (zum Geburtstag): ''Ich gratuliere dir herzlich zum Geburtstag!'' hoặc dùng danh từ ngắn gọn: ''Herzlichen Glückwunsch zum Geburtstag!''.'
+  examples:
+  - de: Ich gratuliere dir zum Geburtstag!
+    vi: Mình chúc mừng sinh nhật bạn!
+  - de: Herzlichen Glückwunsch zum Geburtstag!
+    vi: Nhiệt liệt chúc mừng sinh nhật bạn!
+- id: a1.m06.l02.b3
+  kind: pronunciation
+  title_vi: 'Phát âm đuôi số thứ tự: -te vs. -ten'
+  skill: pronunciation
+  body_vi: 'Phát âm đuôi số thứ tự: -te vs. -ten
+
+
+    Chú ý đuôi [-tə] khi đứng sau der (''der erste'' [ˈeːɐ̯stə]) và đuôi [-tn̩] khi đứng sau am (''am ersten'' [am ˈeːɐ̯stn̩], ''am achten'' [am ˈaxtn̩]).
+
+
+    Luyện tập: Luyện đọc theo cặp: der erste – am ersten, der dritte – am dritten, der siebte – am siebten.'
+  items:
+  - de: der dritte – am dritten
+    vi: ngày 3 – vào ngày 3
+    ipa: '[deːɐ̯ ˈdʁɪtə] – [am ˈdʁɪtn̩]'
+  - de: der zwanzigste – am zwanzigsten
+    vi: ngày 20 – vào ngày 20
+    ipa: '[deːɐ̯ ˈtsvant͡sɪçstə] – [am ˈtsvant͡sɪçstn̩]'
+- id: a1.m06.l02.b4
+  kind: examples
+  title_vi: Câu ví dụ
+  examples:
+  - de: Heute ist der dritte Oktober, der Tag der Deutschen Einheit.
+    vi: Hôm nay là ngày mùng 3 tháng 10, ngày Thống nhất nước Đức.
+  - de: Wir feiern am Samstag eine große Geburtstagsparty.
+    vi: Thứ Bảy chúng tôi tổ chức một bữa tiệc sinh nhật lớn.
+  - de: Das Geburtstagskind bläst die Kerzen auf der Torte aus.
+    vi: Chủ nhân bữa tiệc thổi nến trên chiếc bánh kem.
+  - de: Ich habe am achten März Geburtstag.
+    vi: Tôi sinh nhật vào ngày mùng 8 tháng 3.
+- id: a1.m06.l02.b5
+  kind: listening
+  title_vi: 'Hội thoại: Hỏi ngày sinh nhật và lên kế hoạch tiệc'
+  lines:
+  - speaker: Ben
+    de: Mia, weißt du, wann Sofia Geburtstag hat?
+    vi: Mia, bạn có biết khi nào Sofia sinh nhật không?
+  - speaker: Mia
+    de: Ja, sie hat am zwanzigsten Mai Geburtstag. Das ist ein Samstag!
+    vi: Có chứ, bạn ấy sinh nhật vào ngày 20 tháng 5. Hôm đó là thứ Bảy!
+  - speaker: Ben
+    de: Super! Dann können wir am zwanzigsten Mai eine tolle Geburtstagsparty für sie feiern.
+    vi: Tuyệt quá! Vậy thì chúng mình có thể tổ chức một bữa tiệc sinh nhật tuyệt vời cho bạn ấy vào ngày 20 tháng 5.
+  - speaker: Mia
+    de: Gute Idee! Wir schreiben allen Freunden eine Einladung.
+    vi: Ý hay đấy! Chúng mình sẽ viết thiệp mời gửi cho tất cả bạn bè.
+  audio_status: pending-tts
+  situation_vi: Ben và Mia nói chuyện về ngày sinh nhật của Sofia và chuẩn bị bữa tiệc.
+  skill: listening
+  audio:
+    speed: slow
+- id: a1.m06.l02.b6
+  kind: reading
+  title_vi: 'Đọc hiểu: Tấm thiệp sinh nhật của bạn bè gửi tặng David'
+  paragraphs:
+  - de: 'Lieber David,
+
+      wir gratulieren dir von ganzem Herzen zum Geburtstag!
+
+      Heute ist der 15. September, dein großer Ehrentag!
+
+      Du bist unser bester Freund und wir wünschen dir für dein neues Lebensjahr nur das Beste:
+
+      viel Glück, Gesundheit, Erfolg und ganz viel Spaß im Leben!
+
+      Wir freuen uns schon sehr auf deine Geburtstagsparty heute Abend!
+
+      Deine Freunde aus Frankfurt:
+
+      Sarah, Lukas, Mia und Ben.'
+    vi: 'David thân mến,
+
+      Tụi mình chúc mừng sinh nhật bạn từ tận đáy lòng!
+
+      Hôm nay là ngày 15 tháng 9, ngày vui trọng đại của bạn!
+
+      Bạn là người bạn thân nhất của tụi mình và tụi mình chúc bạn trong tuổi mới mọi điều tốt lành nhất:
+
+      nhiều may mắn, sức khỏe, thành công và thật nhiều niềm vui trong cuộc sống!
+
+      Tụi mình rất mong chờ bữa tiệc sinh nhật tối nay của bạn!
+
+      Những người bạn từ Frankfurt của bạn:
+
+      Sarah, Lukas, Mia và Ben.'
+  text_type_vi: Nội dung thiệp chúc mừng sinh nhật
+  skill: reading
+  glossary:
+  - de: von ganzem Herzen
+    vi: từ tận đáy lòng
+  - de: der Ehrentag
+    vi: ngày vui đặc biệt, ngày danh dự
+  - de: der Erfolg
+    vi: sự thành công
+- id: a1.m06.l02.b7
+  kind: speaking
+  title_vi: Thực hành hỏi ngày sinh nhật và chúc mừng
+  skill: speaking
+  task_vi: Đóng vai hỏi ngày sinh nhật của bạn học và nói câu chúc mừng sinh nhật chuẩn mực.
+  steps_vi:
+  - 'Hỏi ngày sinh: Wann hast du Geburtstag?'
+  - 'Trả lời: Ich habe am ... Geburtstag.'
+  - 'Chúc mừng: Herzlichen Glückwunsch zum Geburtstag! Alles Gute!'
+  lines:
+  - speaker: A
+    de: Wann hast du Geburtstag?
+    vi: Khi nào là sinh nhật bạn?
+  - speaker: B
+    de: Ich habe am achten März Geburtstag. Und du?
+    vi: Mình sinh nhật vào ngày 8 tháng 3. Còn bạn?
+  - speaker: A
+    de: Ich habe am dritten August Geburtstag. Alles Gute nachträglich zum Geburtstag!
+    vi: Mình sinh nhật vào ngày 3 tháng 8. Chúc mừng sinh nhật muộn nhé!
+- id: a1.m06.l02.b8
+  kind: writing
+  title_vi: Viết thiệp chúc mừng sinh nhật bạn học
+  skill: writing
+  task_vi: Viết tấm thiệp ngắn (3–4 câu) chúc mừng sinh nhật một người bạn thân.
+  model:
+    de: Liebe Julia, herzlichen Glückwunsch zum Geburtstag! Ich wünsche dir alles Gute, viel Glück und Gesundheit im neuen Lebensjahr. Feiere heute schön! Liebe Grüße, Anna
+    vi: Julia thân mến, nhiệt liệt chúc mừng sinh nhật bạn! Mình chúc bạn mọi điều tốt lành, nhiều may mắn và sức khỏe trong tuổi mới. Hôm nay ăn mừng thật vui nhé! Thân ái, Anna
+  checklist_vi:
+  - 'Có lời chúc chuẩn: Herzlichen Glückwunsch zum Geburtstag!'
+  - 'Có lời chúc tuổi mới: Alles Gute im neuen Lebensjahr.'

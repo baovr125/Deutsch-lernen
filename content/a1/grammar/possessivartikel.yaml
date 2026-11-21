@@ -1,0 +1,189 @@
+schema_version: '2.0'
+content_type: grammar-topic
+id: a1.g.possessivartikel
+level: A1
+introduced_in: a1.m05
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+  references:
+  - work: Netzwerk neu A1 (Klett)
+    scope: 'Kapitel 5: Familie und Termine'
+    verification: verified
+  notes_vi: Tương ứng Grammatik „Possessivartikel mein/meine im Nominativ und Akkusativ · alle Possessivartikel im Nominativ“ của Kapitel 5.
+introduced_in_lesson: a1.m05.l03
+title_de: Possessivartikel im Nominativ und Akkusativ
+title_vi: Mạo từ sở hữu trong Nominativ và Akkusativ
+summary_vi: "Mạo từ sở hữu (Possessivartikel) đứng trước danh từ để chỉ quan hệ sở hữu (“của tôi”, “của bạn”, “của anh ấy”...).\nCách chia đuôi của mạo từ sở hữu **hoàn toàn giống như mạo từ không xác định ein / eine** và mạo từ phủ định **kein / keine**:\n\n**1. Hệ thống mạo từ sở hữu tương ứng theo đại từ nhân xưng:**\n- `ich` (tôi) $\\rightarrow$ **mein** (của tôi)\n- `du` (bạn) $\\rightarrow$ **dein** (của bạn)\n- `er` (anh ấy) / `es` (nó) $\\rightarrow$ **sein** (của anh ấy / nó)\n- `sie` (cô ấy) $\\rightarrow$ **ihr** (của cô ấy)\n- `wir` (chúng tôi) $\\rightarrow$ **unser** (của chúng tôi)\n- `ihr` (các bạn) $\\rightarrow$ **euer** (của các bạn) – *chú ý: khi thêm đuôi -e thành **eure***\n- `sie` (họ) $\\rightarrow$ **ihr** (của họ)\n- `Sie` (ngài / quý vị) $\\rightarrow$ **Ihr** (viết hoa chữ I)\n\n**2. Quy tắc chia đuôi ở cách Nominativ (chủ ngữ):**\n- Giống đực (maskulin): **không thêm đuôi** $\\rightarrow$ *mein Vater, dein Bruder, sein Sohn*\n- Giống trung (neutral): **không\
+  \ thêm đuôi** $\\rightarrow$ *mein Kind, dein Baby*\n- Giống cái (feminin): **thêm đuôi -e** $\\rightarrow$ *meine Mutter, deine Schwester*\n- Số nhiều (Plural): **thêm đuôi -e** $\\rightarrow$ *meine Eltern, deine Kinder*\n\n**3. Mạo từ sở hữu ở cách Akkusativ (tân ngữ trực tiếp):**\n- Tương tự như *den, einen, keinen*, khi sang cách Akkusativ, **chỉ có giống đực biến đổi bằng cách thêm đuôi -en**:\n  * *Ich rufe **meinen** Vater (m) an.*\n  * *Kennst du **deinen** neuen Nachbarn?*\n- Giống trung, giống cái và số nhiều ở Akkusativ **giữ nguyên hình thức y hệt như Nominativ**:\n  * *Ich liebe **mein** Kind (n).*\n  * *Ich besuche **meine** Tante (f) und **meine** Großeltern (pl).*"
+usage_vi: 'Dùng để biểu thị quan hệ sở hữu trước danh từ gia đình, đồ vật; chia đuôi theo giống và cách (Akkusativ giống đực thêm đuôi -en: meinen, deinen...).'
+objectives:
+- id: a1.g.possessivartikel.obj1
+  text_vi: Dùng mạo từ sở hữu (mein, dein, sein, ihr…) ở Nominativ và Akkusativ.
+  skill: grammar
+rules:
+- id: a1.g.possessivartikel.r1
+  title_vi: 'Nominativ: mein/meine'
+  body_vi: Ở Nominativ, giống đực và trung không thêm đuôi (mein, dein); giống cái và số nhiều thêm đuôi -e (meine, deine).
+  examples:
+  - de: Das ist mein Bruder (m) und das ist meine Schwester (f).
+    vi: Đây là anh trai tôi và đây là em gái tôi.
+  - de: Das ist sein Kind (n) und das sind seine Eltern (pl).
+    vi: Đó là con của anh ấy và đó là bố mẹ anh ấy.
+- id: a1.g.possessivartikel.r2
+  title_vi: 'Akkusativ: chỉ giống đực thêm -en'
+  body_vi: Ở Akkusativ, chỉ có danh từ giống đực mới thêm đuôi -en (meinen, deinen, seinen, ihren...); các giống khác giữ nguyên như Nominativ.
+  examples:
+  - de: Ich liebe meinen Mann (m).
+    vi: Tôi yêu chồng tôi.
+  - de: Er ruft seine Mutter (f) an.
+    vi: Anh ấy gọi điện cho mẹ mình.
+- id: a1.g.possessivartikel.r3
+  title_vi: euer → eure
+  body_vi: 'Đại từ euer (của các bạn) khi thêm đuôi -e sẽ bị lược bỏ chữ e ở giữa: euer Vater → eure Mutter, eure Kinder.'
+  examples:
+  - de: Ist das euer Hund? – Ja, und das ist eure Katze.
+    vi: Kia là chó của các bạn à? – Ừ, và kia là mèo của các bạn.
+sentence_structures:
+- pattern: Mạo từ sở hữu (Nom) + Danh từ + Động từ + Vị ngữ.
+  example:
+    de: Mein Vater ist Lehrer.
+    vi: Bố tôi là giáo viên.
+- pattern: Chủ ngữ + Động từ + Mạo từ sở hữu (Akk) + Danh từ.
+  example:
+    de: Ich besuche meinen Bruder.
+    vi: Tôi đến thăm anh trai tôi.
+tables:
+- title_vi: Bảng chia mạo từ sở hữu mein (ở Nominativ và Akkusativ)
+  header:
+  - Cách
+  - Giống đực (m)
+  - Giống trung (n)
+  - Giống cái (f)
+  - Số nhiều (pl)
+  rows:
+  - - Nominativ (Chủ ngữ)
+    - mein Vater
+    - mein Kind
+    - meine Mutter
+    - meine Eltern
+  - - Akkusativ (Tân ngữ)
+    - meinen Vater
+    - mein Kind
+    - meine Mutter
+    - meine Eltern
+  note_vi: 'Nhìn vào hàng Akkusativ: Chỉ có cột giống đực đổi thành ''meinen'', ba cột còn lại y hệt hàng Nominativ.'
+examples:
+- de: Mein Name ist Lan und das ist meine Familie.
+  vi: Tên tôi là Lan và đây là gia đình tôi.
+- de: Wie heißt dein Bruder? – Mein Bruder heißt Nam.
+  vi: Anh trai bạn tên là gì? – Anh trai tôi tên là Nam.
+- de: Peter sucht seinen Schlüssel.
+  vi: Peter đang tìm chìa khóa của anh ấy.
+- de: Wir lieben unsere Großeltern sehr.
+  vi: Chúng tôi rất yêu quý ông bà của mình.
+- de: Frau Müller, ist das Ihr Sohn? – Ja, das ist mein Sohn Lukas.
+  vi: Bà Müller, kia là con trai bà phải không? – Vâng, đó là con trai Lukas của tôi.
+common_mistakes:
+- wrong: Ich besuche mein Bruder.
+  right: Ich besuche meinen Bruder.
+  explanation_vi: der Bruder là giống đực, đứng sau besuchen làm tân ngữ Akkusativ nên mein phải thêm đuôi -en thành meinen.
+- wrong: Das ist euere Mutter.
+  right: Das ist eure Mutter.
+  explanation_vi: 'euer khi thêm đuôi -e bỏ chữ e ở thân từ: euer + e = eure.'
+- wrong: Mein Mutter ist Ärztin.
+  right: Meine Mutter ist Ärztin.
+  explanation_vi: die Mutter là giống cái nên mạo từ sở hữu bắt buộc phải có đuôi -e (meine).
+comparison_vi: Tiếng Anh không biến đổi đuôi của tính từ sở hữu theo giống hay cách (my father, my mother, I see my father). Tiếng Đức biến đổi đuôi theo giống và cách (mein Vater, meine Mutter, ich sehe meinen Vater).
+vietnamese_contrast_vi: Tiếng Việt đặt từ 'của tôi/của bạn' đứng SAU danh từ ('bố của tôi', 'mẹ của bạn'). Tiếng Đức đặt mạo từ sở hữu đứng TRƯỚC danh từ ('mein Vater', 'deine Mutter') và phải chia đuôi phù hợp với giống của danh từ đi sau.
+recap_vi: 'Mạo từ sở hữu (mein, dein, sein, ihr, unser, euer, ihr, Ihr). Ở Nominativ: đực/trung không đuôi, cái/số nhiều thêm -e. Ở Akkusativ: chỉ giống đực thêm -en (meinen, deinen...), các giống khác giữ nguyên.'
+next_level_note_vi: Mạo từ sở hữu ở cách Dativ (meinem, meiner, meinen...n) và Genitiv (meines, meiner) sẽ được học ở Kapitel 7, 9 và trình độ A2.
+prerequisites:
+- g-a1-akkusativ
+- g-a1-unbestimmter-artikel
+exercises:
+- id: a1.g.possessivartikel.ex.01
+  type: multiple-choice
+  skill: grammar
+  difficulty: 1
+  objective_refs:
+  - a1.g.possessivartikel.r1
+  - a1.g.possessivartikel.r3
+  - a1.g.possessivartikel.obj1
+  instructions_vi: Chọn mạo từ sở hữu đúng điền vào chỗ trống ở cách Nominativ.
+  items:
+  - id: a1.g.possessivartikel.ex.01.q1
+    prompt: Das ist ___ (ich) Schwester.
+    options:
+    - id: a
+      text: meine
+    - id: b
+      text: meinen
+    - id: c
+      text: meiner
+    - id: d
+      text: mein
+    answer:
+    - a
+    explanation_vi: die Schwester (giống cái) → meine.
+  - id: a1.g.possessivartikel.ex.01.q2
+    prompt: Ist das ___ (du) Vater?
+    options:
+    - id: a
+      text: dein
+    - id: b
+      text: deinem
+    - id: c
+      text: deine
+    - id: d
+      text: deinen
+    answer:
+    - a
+    explanation_vi: der Vater (giống đực, Nominativ) → dein.
+  - id: a1.g.possessivartikel.ex.01.q3
+    prompt: Kinder, wo ist ___ (ihr) Mutter?
+    options:
+    - id: a
+      text: euren
+    - id: b
+      text: euer
+    - id: c
+      text: euere
+    - id: d
+      text: eure
+    answer:
+    - d
+    explanation_vi: ihr (các bạn) đi với giống cái die Mutter → eure (mất chữ e ở giữa).
+- id: a1.g.possessivartikel.ex.02
+  type: fill-blank
+  skill: grammar
+  difficulty: 2
+  objective_refs:
+  - a1.g.possessivartikel.r1
+  - a1.g.possessivartikel.r2
+  - a1.g.possessivartikel.obj1
+  instructions_vi: Điền mein, meine hoặc meinen vào chỗ trống.
+  items:
+  - id: a1.g.possessivartikel.ex.02.q1
+    prompt: Ich rufe morgen ___ Bruder (der Bruder) an.
+    answers:
+    - meinen
+    explanation_vi: der Bruder ở Akkusativ sau anrufen → meinen.
+  - id: a1.g.possessivartikel.ex.02.q2
+    prompt: Das ist ___ Kind (das Kind).
+    answers:
+    - mein
+    explanation_vi: das Kind (giống trung, Nominativ) → mein.
+  - id: a1.g.possessivartikel.ex.02.q3
+    prompt: Ich besuche am Sonntag ___ Großeltern (die Großeltern, Plural).
+    answers:
+    - meine
+    explanation_vi: 'Số nhiều ở Akkusativ giữ nguyên đuôi -e: meine.'

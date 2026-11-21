@@ -1,0 +1,231 @@
+schema_version: '2.0'
+content_type: lesson
+id: a1.m04.l02
+level: A1
+module: a1.m04
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+  references:
+  - work: Netzwerk neu A1 (Klett)
+    scope: 'Kapitel 4: Kommt ihr?'
+    verification: verified
+  notes_vi: 'Sprachhandlungen: Einladungen und Zusagen/Absagen verstehen, über Vorlieben beim Essen sprechen. Grammatik: Akkusativ, Verben mit Akkusativ. Aussprache: Umlaute ä–ö–ü.'
+order: 2
+title_de: Kommt ihr? – Akkusativ und Einladungen
+title_vi: Các bạn đến chứ? – Lời mời và cách Akkusativ
+topic_vi: Mời bạn bè đến tiệc nướng, đồ uống, động từ bất quy tắc essen, ngữ pháp Akkusativ
+duration_min: 80
+difficulty: 2
+cefr:
+- A1.SI2
+- A1.H2
+- A1.L1
+- A1.SP1
+prerequisites:
+- a1.m04.l01
+objectives:
+- id: a1.m04.l02.obj1
+  text_vi: Hiểu lời mời dự tiệc nướng và biết cách trả lời đồng ý hoặc từ chối lịch sự.
+  skill: listening
+- id: a1.m04.l02.obj2
+  text_vi: 'Vận dụng đúng mạo từ ở cách Akkusativ (chỉ giống đực đổi: der → den, ein → einen, kein → keinen).'
+  skill: grammar
+- id: a1.m04.l02.obj3
+  text_vi: 'Chia đúng động từ đổi nguyên âm e → i: essen (du isst, er isst).'
+  skill: grammar
+- id: a1.m04.l02.obj4
+  text_vi: Phát âm chính xác các nguyên âm biến âm Umlaut ä, ö, ü trong từ vựng đồ ăn.
+  skill: writing
+vocabulary_refs:
+- a1.m04.v.einladung
+- a1.m04.v.essen
+- a1.m04.v.essen-verb
+- a1.m04.v.fertig
+- a1.m04.v.gleich
+- a1.m04.v.grillen
+- a1.m04.v.grillparty
+- a1.m04.v.nachricht
+- a1.m04.v.vielleicht
+- a1.m04.v.zeit
+- a1.m04.v.alles
+- a1.m04.v.brauchen
+- a1.m04.v.einkaufszettel
+- a1.m04.v.getraenk
+- a1.m04.v.mehr
+- a1.m04.v.planen
+- a1.m04.v.teuer
+- a1.m04.v.stimmen
+- a1.m04.v.fisch
+- a1.m04.v.haehnchen
+- a1.m04.v.pommes-frites
+- a1.m04.v.reis
+- a1.m04.v.schmecken
+- a1.m04.v.suess
+- a1.m04.v.zusammen
+- a1.m04.v.saft
+- a1.m04.v.bis-spaeter
+review_vocabulary_refs:
+- a1.m04.v.brot
+- a1.m04.v.fleisch
+- a1.m04.v.kaese
+- a1.m04.v.wurst
+- a1.m04.v.supermarkt
+grammar_refs:
+- a1.g.akkusativ
+grammar_focus:
+- ref: a1.g.akkusativ
+  focus_vi: 'Cách Akkusativ cho tân ngữ trực tiếp: der → den, ein → einen, kein → keinen (chỉ giống đực biến đổi)'
+expression_refs:
+- a1.m04.x.kommst-du-zur-ja-gern-tut-mir-leid-ich-h
+- a1.m04.x.wir-brauchen-noch-ich-bringe-mit
+exercise_set_ref: a1.m04.l02.ex
+summary_vi: Bài học giúp bạn thành thạo cách viết và đáp lại lời mời dự tiệc, làm chủ cách Akkusativ (der → den, ein → einen, kein → keinen), chia động từ bất quy tắc essen (du isst, er isst) và phát âm chuẩn các nguyên âm biến âm ä, ö, ü.
+self_check:
+- Tôi biết cách trả lời lời mời dự tiệc bằng tiếng Đức (đồng ý hoặc từ chối khéo léo).
+- Tôi luôn đổi mạo từ của danh từ giống đực sang Akkusativ khi làm tân ngữ (den, einen, keinen).
+- 'Tôi nhớ chia động từ essen đổi nguyên âm: du isst, er isst.'
+blocks:
+- id: a1.m04.l02.b1
+  kind: explanation
+  title_vi: Giới thiệu bài học
+  body_vi: 'Trong bài học thứ hai của Kapitel 4, bạn sẽ cùng nhóm bạn lên kế hoạch cho một bữa **tiệc nướng (Grillparty)**:
+
+    - Bạn sẽ học cách viết và đọc các tin nhắn mời ăn uống: rủ bạn bè, đồng ý (*Ja, gern!*), từ chối khéo léo (*Tut mir leid, ich habe keine Zeit*), và hẹn mang món gì đến góp vui (*Ich bringe einen Salat mit*).
+
+    - Khám phá chủ điểm ngữ pháp nền tảng cực kỳ quan trọng của tiếng Đức: **Cách Akkusativ (đối cách)** với các động từ thường gặp như *brauchen, haben, essen, kaufen*.
+
+    - Nắm cách chia động từ bất quy tắc đổi nguyên âm rất hay gặp: *essen* (*du isst, er isst*).
+
+    - Rèn luyện cách phát âm chuẩn bộ ba nguyên âm biến âm đặc trưng: **ä, ö, ü**.'
+- id: a1.m04.l02.b2
+  kind: explanation
+  title_vi: Chia động từ đổi nguyên âm essen (e → i)
+  skill: grammar
+  body_vi: 'Động từ essen (ăn) là động từ bất quy tắc đổi nguyên âm e → i ở số ít ngôi du và ngôi er/sie/es. Đặc biệt, vì gốc kết thúc bằng -ss nên ngôi du và ngôi er chia giống hệt nhau: du isst, er/sie/es isst.'
+  examples:
+  - de: Was isst du gern? – Ich esse gern Fisch und Salat.
+    vi: Bạn thích ăn gì? – Tôi thích ăn cá và salad.
+  - de: Er isst kein Fleisch.
+    vi: Anh ấy không ăn thịt.
+- id: a1.m04.l02.b3
+  kind: pronunciation
+  title_vi: Phát âm các nguyên âm Umlaut ä, ö, ü
+  skill: pronunciation
+  body_vi: 'Phát âm các nguyên âm Umlaut ä, ö, ü
+
+
+    ä đọc giống [ɛ] (e mở, ví dụ das Hähnchen, die Säfte); ö giữ khẩu hình tròn môi tròn của o nhưng phát âm âm e (das Öl, die Brötchen); ü tròn môi như huýt sáo nhưng phát âm âm i (süß, das Gemüse).
+
+
+    Luyện tập: Đọc to từng cặp từ: e – ä (essen – Hähnchen), o – ö (Schokolade – Öl), u – ü (Suppe – süß).'
+  items:
+  - de: das Hähnchen
+    vi: con gà / thịt gà
+    ipa: '[ˈhɛːnçən]'
+  - de: das Öl
+    vi: dầu ăn
+    ipa: '[øːl]'
+  - de: süß
+    vi: ngọt
+    ipa: '[zyːs]'
+- id: a1.m04.l02.b4
+  kind: examples
+  title_vi: Câu ví dụ
+  examples:
+  - de: Wir brauchen einen Salat und ein Hähnchen.
+    vi: Chúng tôi cần một món salad và một con gà.
+  - de: Hast du den Apfelsaft gekauft?
+    vi: Bạn đã mua chai nước ép táo đó chưa?
+  - de: Ich esse keinen Schinken.
+    vi: Tôi không ăn giăm bông.
+  - de: Schmeckt das Essen gut? – Ja, es ist sehr lecker!
+    vi: Đồ ăn có ngon không? – Có, ngon lắm!
+  - de: Wir planen eine Grillparty für Samstagabend.
+    vi: Chúng tôi lên kế hoạch cho một bữa tiệc nướng vào tối thứ Bảy.
+- id: a1.m04.l02.b5
+  kind: listening
+  title_vi: Lên danh sách chuẩn bị cho bữa tiệc nướng
+  lines:
+  - speaker: Ben
+    de: Hallo Laura! Am Samstag kommen acht Leute zur Grillparty. Was haben wir schon?
+    vi: Chào Laura! Thứ Bảy có tám người đến tiệc nướng. Chúng ta đã có những gì rồi?
+  - speaker: Laura
+    de: Wir haben schon Fleisch und Würste. Aber wir brauchen noch einen Salat und Getränke.
+    vi: Chúng ta có thịt và xúc xích rồi. Nhưng chúng ta vẫn cần thêm một món salad và đồ uống.
+  - speaker: Ben
+    de: Gut, ich kaufe den Salat und Wasser im Supermarkt. Bringst du den Saft mit?
+    vi: Được, anh sẽ mua món salad và nước ở siêu thị. Em mang nước ép đến nhé?
+  - speaker: Laura
+    de: Klar, ich bringe Apfelsaft und ein Brot mit. Bis später!
+    vi: Rõ rồi, em sẽ mang nước táo và một ổ bánh mì đến. Hẹn gặp lại sau!
+  audio_status: pending-tts
+  situation_vi: Ben và Laura gọi điện thoại thảo luận về đồ ăn thức uống cho tiệc nướng.
+  skill: listening
+  audio:
+    speed: slow
+- id: a1.m04.l02.b6
+  kind: reading
+  title_vi: Tin nhắn trong nhóm chat bạn bè
+  paragraphs:
+  - de: 'Ben: Hallo zusammen! Am Samstag grillen wir ab 18 Uhr im Garten. Kommt ihr?
+
+      Sarah: Hallo Ben! Danke für die Einladung! Ich komme sehr gern. Ich bringe einen Kartoffelsalat mit.
+
+      Felix: Super Idee! Ich habe Zeit und komme auch. Ich bringe Getränke mit: Wasser und Saft.
+
+      Tim: Hallo ihr Lieben, tut mir sehr leid. Am Samstag muss ich arbeiten und habe keine Zeit. Viel Spaß euch!'
+    vi: 'Ben: Chào cả nhóm! Thứ Bảy tụi mình nướng thịt từ 18 giờ trong vườn. Các bạn đến chứ?
+
+      Sarah: Chào Ben! Cảm ơn vì lời mời nhé! Mình rất sẵn lòng đến. Mình sẽ mang món salad khoai tây đến.
+
+      Felix: Ý kiến tuyệt vời! Mình có thời gian và cũng sẽ đến. Mình mang đồ uống đến: nước lọc và nước ép.
+
+      Tim: Chào mọi người thân mến, mình rất tiếc. Thứ Bảy mình phải đi làm nên không có thời gian. Chúc các bạn vui vẻ nhé!'
+  text_type_vi: Tin nhắn nhóm (Gruppenchat)
+  skill: reading
+  glossary:
+  - de: ab 18 Uhr
+    vi: từ 18 giờ
+  - de: der Kartoffelsalat
+    vi: salad khoai tây
+- id: a1.m04.l02.b7
+  kind: speaking
+  title_vi: Mời bạn bè và tiếp nhận phản hồi
+  skill: speaking
+  task_vi: Thực hành mời một người bạn đến tiệc ăn uống cuối tuần và trao đổi về món họ sẽ mang theo.
+  steps_vi:
+  - 'Mời: Kommst du am Wochenende zur Party / zum Essen?'
+  - 'Đồng ý: Ja, gern! / Tiếc quá: Tut mir leid, ich habe keine Zeit.'
+  - 'Hỏi đồ cần mang: Was kann ich mitbringen?'
+  - 'Đáp: Bring bitte einen Salat / Saft mit!'
+  lines:
+  - speaker: A
+    de: Kommst du am Sonntag zu mir? Wir kochen zusammen.
+    vi: Chủ nhật bạn qua chỗ mình nhé? Tụi mình nấu ăn cùng nhau.
+  - speaker: B
+    de: Ja, gern! Soll ich einen Nachtisch mitbringen?
+    vi: Được chứ, rất sẵn lòng! Mình có nên mang món tráng miệng đến không?
+  - speaker: A
+    de: Oh ja, bring bitte einen Kuchen mit!
+    vi: Ồ hay quá, bạn mang một cái bánh ngọt đến nhé!
+- id: a1.m04.l02.b8
+  kind: writing
+  title_vi: Viết tin nhắn phản hồi lời mời dự tiệc
+  skill: writing
+  task_vi: 'Viết một tin nhắn ngắn (3–4 câu) trả lời lời mời tiệc nướng của bạn bạn: cảm ơn, xác nhận bạn có đến hay không, và nêu bạn sẽ mang món gì đến.'
+  model:
+    de: Hallo Ben, danke für die Einladung! Ich komme sehr gern zur Grillparty. Ich habe Zeit. Ich bringe einen Kuchen und Apfelsaft mit. Bis Samstag!
+    vi: Chào Ben, cảm ơn vì lời mời nhé! Mình rất thích đến tiệc nướng. Mình có thời gian. Mình sẽ mang một cái bánh ngọt và nước ép táo đến. Hẹn gặp thứ Bảy!
+  checklist_vi:
+  - 'Có lời cảm ơn: Danke für die Einladung.'
+  - Xác nhận đồng ý hoặc từ chối lịch sự.
+  - Sử dụng đúng mạo từ Akkusativ cho món đồ mang theo (einen Kuchen, einen Salat...).

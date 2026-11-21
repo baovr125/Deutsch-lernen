@@ -1,0 +1,171 @@
+schema_version: '2.0'
+content_type: expression-set
+id: a1.m00.expr
+level: A1
+module: a1.m00
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+  references:
+  - work: Dự án Deutsch-lernen
+    scope: nội dung bổ sung ngoài giáo trình
+    verification: proposed
+  notes_vi: Phần nhập môn bổ sung dành cho người bắt đầu từ con số 0. Không thuộc Kapitel nào của Netzwerk neu A1. Một số từ của Kapitel 1 (hallo, tschüs, danke, bitte…) được giới thiệu sớm ở đây như từ giao tiếp sống còn; Kapitel 1 sẽ ôn lại và mở rộng.
+entries:
+- id: a1.m00.x.wie-schreibt-man-das
+  de: Wie schreibt man das?
+  vi: Cái đó viết thế nào?
+  register: neutral
+  situation_vi: Hỏi cách viết một từ hoặc tên.
+  dialogue:
+  - speaker: Lan
+    de: Wie schreibt man das?
+    vi: Cái đó viết thế nào ạ?
+  - speaker: Lehrerin
+    de: M – Ü – L – L – E – R.
+    vi: M – Ü – L – L – E – R.
+  lesson_refs:
+  - a1.m00.l01
+- id: a1.m00.x.gross-oder-klein
+  de: Groß oder klein?
+  vi: Viết hoa hay viết thường?
+  register: neutral
+  situation_vi: Hỏi lại khi người khác đánh vần cho bạn.
+  dialogue:
+  - speaker: Minh
+    de: Groß oder klein?
+    vi: Viết hoa hay viết thường ạ?
+  - speaker: Lehrer
+    de: 'Groß: M.'
+    vi: 'Viết hoa: M.'
+  lesson_refs:
+  - a1.m00.l01
+- id: a1.m00.x.ein-bitte
+  de: Ein …, bitte!
+  vi: Cho tôi một …!
+  register: neutral
+  situation_vi: Gọi đồ uống, đồ ăn hoặc taxi một cách đơn giản và lịch sự.
+  dialogue:
+  - speaker: Gast
+    de: Ein Kaffee, bitte!
+    vi: Cho tôi một ly cà phê!
+  - speaker: Kellnerin
+    de: Gern!
+    vi: Vâng ạ!
+  lesson_refs:
+  - a1.m00.l02
+- id: a1.m00.x.hoeren-sie-und-sprechen-sie-nach
+  de: Hören Sie und sprechen Sie nach.
+  vi: Hãy nghe và nhắc lại.
+  register: formal
+  situation_vi: Yêu cầu thường gặp nhất trong bài luyện phát âm.
+  dialogue:
+  - speaker: Lehrerin
+    de: 'Hören Sie und sprechen Sie nach: Hotel.'
+    vi: 'Hãy nghe và nhắc lại: Hotel.'
+  - speaker: Lan
+    de: Hotel.
+    vi: Hotel.
+  lesson_refs:
+  - a1.m00.l03
+- id: a1.m00.x.richtig-oder-falsch
+  de: Richtig oder falsch?
+  vi: Đúng hay sai?
+  register: neutral
+  situation_vi: Câu hỏi trong bài tập đúng/sai; cũng dùng khi hỏi lại giáo viên câu trả lời của mình.
+  dialogue:
+  - speaker: Minh
+    de: „Taxi“ – richtig oder falsch?
+    vi: “Taxi” – đúng hay sai ạ?
+  - speaker: Lehrer
+    de: Richtig!
+    vi: Đúng!
+  lesson_refs:
+  - a1.m00.l03
+- id: a1.m00.x.danke-bitte
+  de: Danke! – Bitte!
+  vi: Cảm ơn! – Không có gì!
+  register: neutral
+  situation_vi: Đáp lại lời cảm ơn bằng “Bitte!” (không phải “Danke” lần nữa).
+  dialogue:
+  - speaker: Anna
+    de: Ein Kaffee, bitte!
+    vi: Cho tôi một ly cà phê!
+  - speaker: Kellner
+    de: Bitte!
+    vi: Của chị đây!
+  - speaker: Anna
+    de: Danke!
+    vi: Cảm ơn!
+  - speaker: Kellner
+    de: Bitte!
+    vi: Không có gì!
+  lesson_refs:
+  - a1.m00.l04
+- id: a1.m00.x.entschuldigung
+  de: Entschuldigung!
+  vi: Xin lỗi! / Làm ơn cho hỏi!
+  register: neutral
+  situation_vi: Xin lỗi khi va phải ai đó, hoặc gọi sự chú ý trước khi hỏi.
+  dialogue:
+  - speaker: Minh
+    de: Oh, Entschuldigung!
+    vi: Ôi, xin lỗi!
+  - speaker: Frau
+    de: Kein Problem.
+    vi: Không sao.
+  lesson_refs:
+  - a1.m00.l04
+- id: a1.m00.x.wie-bitte
+  de: Wie bitte?
+  vi: Xin lỗi, gì cơ ạ?
+  register: neutral
+  situation_vi: Khi không nghe rõ và muốn người kia nói lại.
+  dialogue:
+  - speaker: Paul
+    de: Ich heiße Paul Schwarzenberger.
+    vi: Tôi tên là Paul Schwarzenberger.
+  - speaker: Lan
+    de: Wie bitte?
+    vi: Xin lỗi, gì cơ ạ?
+  - speaker: Paul
+    de: Paul. Paul Schwarzenberger.
+    vi: Paul. Paul Schwarzenberger.
+  lesson_refs:
+  - a1.m00.l04
+- id: a1.m00.x.ich-verstehe-nicht
+  de: Ich verstehe nicht.
+  vi: Tôi không hiểu.
+  register: neutral
+  situation_vi: Khi đã nghe nhưng không hiểu nghĩa.
+  dialogue:
+  - speaker: Mann
+    de: Entschuldigung, wo ist der Bahnhof?
+    vi: Xin lỗi, nhà ga ở đâu ạ?
+  - speaker: Lan
+    de: Entschuldigung, ich verstehe nicht.
+    vi: Xin lỗi, tôi không hiểu.
+  lesson_refs:
+  - a1.m00.l04
+- id: a1.m00.x.ja-nein
+  de: Ja. / Nein.
+  vi: Vâng/Có. / Không.
+  register: neutral
+  situation_vi: Trả lời câu hỏi có/không.
+  dialogue:
+  - speaker: Kellnerin
+    de: Ein Tee?
+    vi: Một tách trà ạ?
+  - speaker: Gast
+    de: Nein, ein Kaffee, bitte.
+    vi: Không, cho tôi một ly cà phê.
+  lesson_refs:
+  - a1.m00.l04

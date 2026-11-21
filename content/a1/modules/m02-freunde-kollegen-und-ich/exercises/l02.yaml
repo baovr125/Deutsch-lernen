@@ -1,0 +1,321 @@
+schema_version: '2.0'
+content_type: exercise-set
+id: a1.m02.l02.ex
+level: A1
+module: a1.m02
+lesson: a1.m02.l02
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+exercises:
+- id: a1.m02.l02.ex.01
+  type: fill-blank
+  skill: grammar
+  difficulty: 1
+  objective_refs:
+  - a1.m02.l02.obj1
+  instructions_vi: Chia động từ trong ngoặc.
+  items:
+  - id: a1.m02.l02.ex.01.q1
+    prompt: Wir ___ gern. (kochen)
+    answers:
+    - kochen
+    explanation_vi: wir → -en.
+  - id: a1.m02.l02.ex.01.q2
+    prompt: ___ ihr Fußball? (spielen)
+    answers:
+    - Spielt
+    explanation_vi: ihr → -t.
+  - id: a1.m02.l02.ex.01.q3
+    prompt: Lisa und Paul ___ gern. (tanzen)
+    answers:
+    - tanzen
+    explanation_vi: sie (họ) → -en.
+  - id: a1.m02.l02.ex.01.q4
+    prompt: Was ___ ihr am Wochenende? (machen)
+    answers:
+    - macht
+    explanation_vi: ihr → -t.
+  - id: a1.m02.l02.ex.01.q5
+    prompt: Wir ___ Studenten. (sein)
+    answers:
+    - sind
+    explanation_vi: wir sind.
+- id: a1.m02.l02.ex.02
+  type: multiple-choice
+  skill: grammar
+  difficulty: 2
+  objective_refs:
+  - a1.m02.l02.obj2
+  instructions_vi: Chọn dạng đúng.
+  items:
+  - id: a1.m02.l02.ex.02.q1
+    prompt: Du ___ viel. (lesen)
+    options:
+    - id: a
+      text: liest
+    - id: b
+      text: lest
+    - id: c
+      text: lesst
+    answer:
+    - a
+    explanation_vi: 'du: e → ie.'
+  - id: a1.m02.l02.ex.02.q2
+    prompt: Er ___ nach Wien. (fahren)
+    options:
+    - id: a
+      text: fahren
+    - id: b
+      text: fahrt
+    - id: c
+      text: fährt
+    answer:
+    - c
+    explanation_vi: 'er: a → ä.'
+  - id: a1.m02.l02.ex.02.q3
+    prompt: Du ___ in Köln. (arbeiten)
+    options:
+    - id: a
+      text: arbeitst
+    - id: b
+      text: arbeitest
+    - id: c
+      text: arbeitet
+    answer:
+    - b
+    explanation_vi: Gốc -t → thêm e.
+  - id: a1.m02.l02.ex.02.q4
+    prompt: Du ___ gern. (reisen)
+    options:
+    - id: a
+      text: reist
+    - id: b
+      text: reisest
+    - id: c
+      text: reisst
+    answer:
+    - a
+    explanation_vi: Gốc -s → du chỉ thêm -t.
+  - id: a1.m02.l02.ex.02.q5
+    prompt: Ihr ___ Deutsch. (sprechen)
+    options:
+    - id: a
+      text: sprichst
+    - id: b
+      text: spricht
+    - id: c
+      text: sprecht
+    answer:
+    - c
+    explanation_vi: ihr không đổi nguyên âm.
+- id: a1.m02.l02.ex.03
+  type: matching
+  skill: grammar
+  difficulty: 1
+  objective_refs:
+  - a1.m02.l02.obj1
+  - a1.m02.l02.obj2
+  instructions_vi: Nối đại từ với dạng đúng của „fahren“.
+  items:
+  - id: a1.m02.l02.ex.03.q1
+    pairs:
+    - left: ich
+      right: fahre
+    - left: du
+      right: fährst
+    - left: er/sie/es
+      right: fährt
+    - left: ihr
+      right: fahrt
+    - left: wir / sie / Sie
+      right: fahren
+    explanation_vi: Chỉ du và er/sie/es đổi a → ä.
+- id: a1.m02.l02.ex.04
+  type: sentence-construction
+  skill: grammar
+  difficulty: 2
+  objective_refs:
+  - a1.m02.l02.obj1
+  - a1.m02.l02.obj3
+  instructions_vi: Viết câu hoàn chỉnh.
+  items:
+  - id: a1.m02.l02.ex.04.q1
+    prompt_vi: wir / am Wochenende / Tennis / spielen
+    answers:
+    - Wir spielen am Wochenende Tennis.
+    - Am Wochenende spielen wir Tennis.
+    explanation_vi: wir spielen; thời gian thường đứng sau động từ.
+  - id: a1.m02.l02.ex.04.q2
+    prompt_vi: ihr / gern / lesen ?
+    answers:
+    - Lest ihr gern?
+    explanation_vi: 'ihr lest (không đổi nguyên âm); câu hỏi có/không: động từ đầu câu.'
+  - id: a1.m02.l02.ex.04.q3
+    prompt_vi: Paul und Lisa / nach Wien / fahren
+    answers:
+    - Paul und Lisa fahren nach Wien.
+    explanation_vi: Hai người = sie (họ) → fahren.
+- id: a1.m02.l02.ex.05
+  type: true-false
+  skill: listening
+  difficulty: 2
+  objective_refs:
+  - a1.m02.l02.obj3
+  instructions_vi: Nghe tin nhắn của Paul. Đúng hay sai?
+  stimulus:
+    ref: a1.m02.l02.b6
+  items:
+  - id: a1.m02.l02.ex.05.q1
+    prompt: Paul và Lisa chơi bóng đá vào thứ Bảy.
+    answer: true
+    explanation_vi: “Lisa und ich spielen am Samstag Fußball.”
+  - id: a1.m02.l02.ex.05.q2
+    prompt: Chủ nhật họ nấu phở.
+    answer: false
+    explanation_vi: “Am Sonntag kochen wir Spaghetti.”
+  - id: a1.m02.l02.ex.05.q3
+    prompt: Dạo này Mai đọc sách nhiều.
+    answer: true
+    explanation_vi: “Mai, du liest im Moment viel, oder?”
+- id: a1.m02.l02.ex.06
+  type: multiple-choice
+  skill: reading
+  difficulty: 1
+  objective_refs:
+  - a1.m02.l02.obj4
+  - a1.m02.l02.obj3
+  instructions_vi: Đọc bài đăng và bình luận. Chọn đáp án đúng.
+  stimulus:
+    ref: a1.m02.l02.b7
+  items:
+  - id: a1.m02.l02.ex.06.q1
+    prompt: Nhóm của Mai nấu ăn cùng nhau khi nào?
+    options:
+    - id: a
+      text: jeden Montag
+    - id: b
+      text: jedes Wochenende
+    - id: c
+      text: heute nicht
+    answer:
+    - b
+    explanation_vi: 'Mai: “Ja, jedes Wochenende.”'
+  - id: a1.m02.l02.ex.06.q2
+    prompt: Tom thích gì?
+    options:
+    - id: a
+      text: essen
+    - id: b
+      text: tanzen
+    - id: c
+      text: kochen
+    answer:
+    - a
+    explanation_vi: 'Tom: “… ich esse sehr gern!”'
+  - id: a1.m02.l02.ex.06.q3
+    prompt: „Kocht ihr oft zusammen?“ – Tom hỏi ai?
+    options:
+    - id: a
+      text: Mai và nhóm bạn
+    - id: b
+      text: chính mình
+    - id: c
+      text: chỉ Mai
+    answer:
+    - a
+    explanation_vi: ihr = các bạn (số nhiều).
+- id: a1.m02.l02.ex.07
+  type: word-order
+  skill: grammar
+  difficulty: 1
+  objective_refs:
+  - a1.m02.l02.obj3
+  instructions_vi: Sắp xếp thành câu hỏi.
+  items:
+  - id: a1.m02.l02.ex.07.q1
+    tokens:
+    - am
+    - macht
+    - Was
+    - Wochenende
+    - ihr
+    answer: Was macht ihr am Wochenende?
+    explanation_vi: Was – macht – ihr – am Wochenende.
+- id: a1.m02.l02.ex.08
+  type: translation
+  skill: grammar
+  difficulty: 2
+  objective_refs:
+  - a1.m02.l02.obj1
+  - a1.m02.l02.obj2
+  instructions_vi: Dịch sang tiếng Đức.
+  items:
+  - id: a1.m02.l02.ex.08.q1
+    direction: vi-de
+    source: Chúng tôi thích đọc sách.
+    answers:
+    - Wir lesen gern.
+    explanation_vi: wir lesen.
+  - id: a1.m02.l02.ex.08.q2
+    direction: vi-de
+    source: Các bạn có nói tiếng Anh không? (thân mật)
+    answers:
+    - Sprecht ihr Englisch?
+    explanation_vi: ihr sprecht.
+  - id: a1.m02.l02.ex.08.q3
+    direction: vi-de
+    source: Cô ấy đi Berlin (bằng xe).
+    answers:
+    - Sie fährt nach Berlin.
+    explanation_vi: sie fährt (a → ä).
+- id: a1.m02.l02.ex.09
+  type: speaking-practice
+  skill: speaking
+  difficulty: 2
+  objective_refs:
+  - a1.m02.l02.obj1
+  - a1.m02.l02.obj3
+  instructions_vi: 'Ghi âm phần Nói: 3 câu với wir và 2 câu hỏi với ihr.'
+  grading: self
+  rubric:
+  - criterion_vi: wir + -en đúng ở 3 câu
+    points: 2
+  - criterion_vi: Câu hỏi với ihr + -t đúng
+    points: 2
+  - criterion_vi: Phát âm rõ ihr [iːɐ̯] (không đọc thành er)
+    points: 1
+  items:
+  - id: a1.m02.l02.ex.09.q1
+    prompt_vi: Nhóm của chúng tôi
+    model_answer:
+      de: Meine Freunde und ich kochen oft. Am Wochenende spielen wir Tennis. Wir lesen auch gern. Was macht ihr am Wochenende? Spielt ihr auch Tennis?
+    explanation_vi: So sánh với mẫu ở phần Nói.
+- id: a1.m02.l02.ex.10
+  type: writing-practice
+  skill: writing
+  difficulty: 1
+  objective_refs:
+  - a1.m02.l02.obj4
+  - a1.m02.l02.obj1
+  instructions_vi: Viết bình luận 3–4 câu dưới bài đăng của Mai (phần Viết).
+  grading: self
+  rubric:
+  - criterion_vi: Có từ cảm xúc và câu hỏi với ihr
+    points: 2
+  - criterion_vi: Chia động từ đúng (wir/ihr)
+    points: 2
+  items:
+  - id: a1.m02.l02.ex.10.q1
+    prompt_vi: Bình luận dưới ảnh „Kochabend mit Freunden“
+    model_answer:
+      de: Super! Meine Freunde und ich kochen auch gern. Wir kochen oft Spaghetti. Was kocht ihr morgen?
+    explanation_vi: So sánh với mẫu.

@@ -1,0 +1,260 @@
+schema_version: '2.0'
+content_type: lesson
+id: a1.m02.l06
+level: A1
+module: a1.m02
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+  references:
+  - work: Netzwerk neu A1 (Klett)
+    scope: 'Kapitel 2: Landeskunde: Neu im Club'
+    verification: verified
+  notes_vi: 'Sprachhandlungen: Angaben zuordnen; ein Formular ergänzen. Wortschatz: Wortschatz zum Formular. Textsorten: Visitenkarten, Sportclub: Kurse, Anmeldeformular.'
+order: 6
+title_de: Neu im Club
+title_vi: Đăng ký câu lạc bộ thể thao – điền biểu mẫu
+topic_vi: Biểu mẫu đăng ký; địa chỉ kiểu Đức; môn thể thao
+duration_min: 60
+difficulty: 1
+cefr:
+- A1.S1
+- A1.L3
+- A1.SI2
+- A1.H3
+prerequisites:
+- a1.m02.l05
+objectives:
+- id: a1.m02.l06.obj1
+  text_vi: Hiểu các mục trong biểu mẫu (Familienname, Vorname, Geburtsdatum, Geburtsort, Adresse, PLZ, Wohnort, männlich/weiblich…) và điền đúng.
+  skill: vocabulary
+- id: a1.m02.l06.obj2
+  text_vi: 'Đọc và viết địa chỉ theo kiểu Đức: Straße + Hausnummer, Postleitzahl + Ort.'
+  skill: writing
+- id: a1.m02.l06.obj3
+  text_vi: Đọc thông tin khóa học ở câu lạc bộ thể thao và chọn khóa phù hợp.
+  skill: reading
+vocabulary_refs:
+- a1.m02.v.adresse
+- a1.m02.v.club
+- a1.m02.v.familienname
+- a1.m02.v.geburtsdatum
+- a1.m02.v.geburtsort
+- a1.m02.v.neu
+- a1.m02.v.basketball
+- a1.m02.v.e-mail
+- a1.m02.v.firma
+- a1.m02.v.formular
+- a1.m02.v.hausnummer
+- a1.m02.v.maennlich
+- a1.m02.v.weiblich
+- a1.m02.v.postleitzahl
+- a1.m02.v.schule
+- a1.m02.v.tennis
+- a1.m02.v.waehlen
+- a1.m02.v.wohnort
+- a1.m02.v.yoga
+review_vocabulary_refs:
+- a1.m01.v.vorname
+- a1.m01.v.nachname
+- a1.m01.v.telefonnummer
+- a1.m01.v.e-mail-adresse
+- a1.m02.v.fussball
+- a1.m02.v.strasse
+- a1.m02.v.alt
+grammar_refs: []
+expression_refs:
+- a1.m02.x.wie-ist-ihre-adresse-meine-adresse-ist
+- a1.m02.x.ich-bin-neu-hier-neu-im-club
+- a1.m02.x.wann-ist-der-kurs-am
+exercise_set_ref: a1.m02.l06.ex
+summary_vi: 'Biểu mẫu: Familienname/Nachname, Vorname, Geburtsdatum, Geburtsort, Straße + Hausnummer, Postleitzahl + Wohnort, männlich/weiblich, E-Mail. Địa chỉ Đức: Lindenstraße 12, 04109 Leipzig. Môn thể thao: Fußball/Tennis/Basketball spielen, Yoga machen.'
+self_check:
+- Tôi hiểu các mục trong một biểu mẫu đăng ký.
+- Tôi viết được địa chỉ theo kiểu Đức.
+- Tôi điền được phiếu đăng ký với thông tin của mình.
+blocks:
+- id: a1.m02.l06.b1
+  kind: explanation
+  title_vi: Giới thiệu bài học
+  body_vi: 'Ở Đức, Áo, Thụy Sĩ có rất nhiều **câu lạc bộ (Verein/Club)**: thể thao, âm nhạc, nấu ăn…
+
+    Khi tham gia, bạn phải **điền biểu mẫu (Formular)**. Biểu mẫu cũng xuất hiện khi bạn đăng ký cư trú, mở tài khoản ngân hàng,
+
+    đăng ký khóa học – và trong **đề thi A1** (phần Viết, Teil 1).
+
+
+    **Hai điểm khác Việt Nam khi viết địa chỉ:**
+
+    1. **Số nhà đứng SAU tên đường:** *Lindenstraße 12* (không phải “12 Lindenstraße”).
+
+    2. **Mã bưu chính (5 số) đứng TRƯỚC tên thành phố:** *04109 Leipzig*.'
+- id: a1.m02.l06.b2
+  kind: explanation
+  title_vi: Viết địa chỉ và ngày sinh
+  skill: grammar
+  body_vi: 'Địa chỉ: [Tên đường][Số nhà], [Mã bưu chính] [Thành phố] → Lindenstraße 12, 04109 Leipzig.
+
+    Ngày sinh: ngày.tháng.năm → 12.05.2001 (giống Việt Nam, dùng dấu chấm).
+
+    Trong biểu mẫu, Vorname = tên (có thể ghi cả tên đệm), Familienname/Nachname = họ.
+
+    '
+  examples:
+  - de: 'Adresse: Goethestraße 7, 10115 Berlin'
+    vi: 'Địa chỉ: số 7 phố Goethe, 10115 Berlin'
+  - de: 'Geburtsdatum: 03.09.1999'
+    vi: 'Ngày sinh: 03/09/1999'
+- id: a1.m02.l06.b3
+  kind: pronunciation
+  title_vi: Từ ghép dài trong biểu mẫu
+  skill: pronunciation
+  body_vi: 'Từ ghép dài trong biểu mẫu
+
+
+    Đọc từ ghép theo từng phần, nhấn phần ĐẦU: POST-leit-zahl, ge-BURTS-da-tum, FA-mi-li-en-na-me (Familie nhấn mi: fa-MI-li-e).
+
+
+    Luyện tập: Đọc to các mục của biểu mẫu ở phần Đọc.'
+  items:
+  - de: die Postleitzahl
+    vi: mã bưu chính
+    ipa: '[ˈpɔstlaɪ̯tˌtsaːl]'
+  - de: das Geburtsdatum
+    vi: ngày sinh
+    ipa: '[ɡəˈbuːɐ̯tsˌdaːtʊm]'
+- id: a1.m02.l06.b4
+  kind: examples
+  title_vi: Câu ví dụ
+  examples:
+  - de: Ich bin neu im Club.
+    vi: Tôi mới vào câu lạc bộ.
+  - de: Wir spielen Basketball und Tennis.
+    vi: Chúng tôi chơi bóng rổ và quần vợt.
+  - de: Meine Postleitzahl ist 20095.
+    vi: Mã bưu chính của tôi là 20095.
+  - de: Wählen Sie einen Kurs.
+    vi: Hãy chọn một khóa học.
+  - de: Ich mache gern Yoga.
+    vi: Tôi thích tập yoga.
+- id: a1.m02.l06.b5
+  kind: listening
+  title_vi: Đăng ký qua điện thoại
+  lines:
+  - speaker: Mitarbeiterin
+    de: Sportclub Lindenau, guten Tag!
+    vi: Câu lạc bộ thể thao Lindenau, xin chào!
+  - speaker: Huy
+    de: Guten Tag! Mein Name ist Huy Le. Ich bin neu in Leipzig und spiele gern Basketball.
+    vi: Xin chào! Tôi tên là Huy Lê. Tôi mới đến Leipzig và thích chơi bóng rổ.
+  - speaker: Mitarbeiterin
+    de: Super! Der Basketball-Kurs ist am Mittwoch. Wie ist Ihre Adresse?
+    vi: Tuyệt! Lớp bóng rổ vào thứ Tư. Địa chỉ của anh là gì?
+  - speaker: Huy
+    de: Karl-Heine-Straße 28, 04229 Leipzig.
+    vi: Số 28 phố Karl-Heine, 04229 Leipzig.
+  - speaker: Mitarbeiterin
+    de: Und Ihr Geburtsdatum?
+    vi: Còn ngày sinh của anh?
+  - speaker: Huy
+    de: Der 14.07.1998.
+    vi: Ngày 14/07/1998.
+  - speaker: Mitarbeiterin
+    de: Danke, Herr Le. Bis Mittwoch!
+    vi: Cảm ơn anh Lê. Hẹn thứ Tư!
+  audio_status: pending-tts
+  situation_vi: Huy gọi đến câu lạc bộ thể thao để đăng ký.
+  skill: listening
+  audio:
+    speed: slow
+- id: a1.m02.l06.b6
+  kind: reading
+  title_vi: Khóa học và phiếu đăng ký
+  paragraphs:
+  - de: 'SPORTCLUB LINDENAU – Kurse
+
+      Montag: Yoga · Mittwoch: Basketball · Freitag: Tennis · Samstag: Fußball
+
+
+      ANMELDUNG
+
+      Familienname: Pham          Vorname: Mai
+
+      ☐ männlich   ☒ weiblich
+
+      Geburtsdatum: 03.09.1999    Geburtsort: Da Nang
+
+      Straße, Hausnummer: Goethestraße 7
+
+      Postleitzahl, Wohnort: 04109 Leipzig
+
+      E-Mail: mai.pham@web.de
+
+      Kurs: Yoga'
+    vi: 'CÂU LẠC BỘ THỂ THAO LINDENAU – Các khóa
+
+      Thứ Hai: Yoga · Thứ Tư: Bóng rổ · Thứ Sáu: Quần vợt · Thứ Bảy: Bóng đá
+
+
+      PHIẾU ĐĂNG KÝ
+
+      Họ: Phạm          Tên: Mai
+
+      ☐ nam   ☒ nữ
+
+      Ngày sinh: 03/09/1999    Nơi sinh: Đà Nẵng
+
+      Đường, số nhà: số 7 phố Goethe
+
+      Mã bưu chính, nơi ở: 04109 Leipzig
+
+      Email: mai.pham@web.de
+
+      Khóa: Yoga'
+  text_type_vi: Bảng khóa học và biểu mẫu
+  skill: reading
+  glossary:
+  - de: die Anmeldung
+    vi: đăng ký, phiếu đăng ký
+- id: a1.m02.l06.b7
+  kind: speaking
+  title_vi: 'Đóng vai: đăng ký ở câu lạc bộ'
+  skill: speaking
+  task_vi: Bạn đến quầy câu lạc bộ. Nhân viên hỏi họ tên, địa chỉ, ngày sinh, email và khóa học bạn chọn. Trả lời bằng thông tin của bạn.
+  steps_vi:
+  - Chào và nói bạn là người mới.
+  - Trả lời các câu hỏi; đánh vần họ nếu cần.
+  - Chọn một khóa học và hỏi lịch.
+  lines:
+  - speaker: Lan
+    de: Guten Tag! Ich bin neu hier. Mein Name ist Lan Nguyen.
+    vi: Xin chào! Tôi là người mới. Tôi tên là Lan Nguyễn.
+  - speaker: Mitarbeiter
+    de: Wie ist Ihre Adresse?
+    vi: Địa chỉ của chị là gì?
+  - speaker: Lan
+    de: Lindenstraße 12, 04109 Leipzig.
+    vi: Số 12 phố Linden, 04109 Leipzig.
+  - speaker: Lan
+    de: Ich mache gern Yoga. Wann ist der Kurs?
+    vi: Tôi thích tập yoga. Lớp học vào khi nào ạ?
+- id: a1.m02.l06.b8
+  kind: writing
+  title_vi: Điền phiếu đăng ký
+  skill: writing
+  task_vi: Điền phiếu đăng ký câu lạc bộ với thông tin của bạn (có thể dùng địa chỉ tưởng tượng ở Đức).
+  model:
+    de: 'Familienname: Nguyen · Vorname: Lan · weiblich · Geburtsdatum: 21.02.2000 · Geburtsort: Hanoi · Straße, Hausnummer: Lindenstraße 12 · PLZ, Wohnort: 04109 Leipzig · E-Mail: lan.nguyen@web.de · Kurs: Tennis'
+    vi: Phiếu mẫu đã điền.
+  checklist_vi:
+  - Họ và tên đúng ô.
+  - Số nhà sau tên đường; mã bưu chính trước thành phố.
+  - Ngày sinh dạng ngày.tháng.năm.

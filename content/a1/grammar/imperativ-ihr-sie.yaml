@@ -1,0 +1,65 @@
+schema_version: "2.0"
+content_type: grammar-topic
+id: a1.g.imperativ-ihr-sie
+level: A1
+introduced_in: a1.m08
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  references:
+    - { work: "Netzwerk neu A1.2 – Stoffverteilungsplan (Klett)", scope: "Kapitel 8, Grammatik: Imperativ mit ihr/Sie", verification: verified }
+  tags: ["imperativ", "verb", "sie"]
+title_de: "Imperativ mit ihr und Sie"
+title_vi: "Câu mệnh lệnh với ihr và Sie"
+summary_vi: "„ihr“: dùng dạng chia của ihr, bỏ „ihr“ (Kommt!). „Sie“: động từ nguyên mẫu + Sie (Kommen Sie!). Cả hai đều giữ chủ ngữ ở dạng Sie, còn ihr thì bỏ chủ ngữ."
+usage_vi: "„ihr“ cho nhiều người thân quen (bạn bè, trẻ em, lớp học); „Sie“ cho một hoặc nhiều người cần lịch sự (khách, người lạ, cấp trên)."
+objectives:
+  - { id: a1.g.imperativ-ihr-sie.obj1, text_vi: "Tạo Imperativ ihr và Sie, và chọn đúng cách xưng hô.", skill: grammar }
+rules:
+  - id: a1.g.imperativ-ihr-sie.r1
+    title_vi: "ihr: dạng chia của ihr, bỏ đại từ"
+    body_vi: "Lấy dạng chia của „ihr“ (ihr kommt, ihr trinkt, ihr nehmt) rồi bỏ „ihr“. Không có Umlaut/nguyên âm đổi riêng như du."
+    table:
+      header: ["Nguyên mẫu", "ihr-Form", "Imperativ ihr"]
+      rows:
+        - ["kommen", "ihr kommt", "Kommt!"]
+        - ["nehmen", "ihr nehmt", "Nehmt!"]
+        - ["fahren", "ihr fahrt", "Fahrt!"]
+        - ["aufstehen", "ihr steht auf", "Steht auf!"]
+    examples:
+      - { de: "Kommt bitte pünktlich zum Training!", vi: "Các bạn làm ơn đến đúng giờ buổi tập nhé!" }
+      - { de: "Trinkt genug Wasser!", vi: "Các bạn hãy uống đủ nước nhé!" }
+  - id: a1.g.imperativ-ihr-sie.r2
+    title_vi: "Sie: nguyên mẫu + Sie"
+    body_vi: "Đặt động từ ở dạng nguyên mẫu (giống dạng chia của „Sie“) lên đầu câu, rồi đến „Sie“. Lịch sự hơn với „bitte“."
+    examples:
+      - { de: "Kommen Sie bitte herein.", vi: "Mời ông/bà vào ạ." }
+      - { de: "Nehmen Sie die Tablette nach dem Essen.", vi: "Hãy uống thuốc sau bữa ăn." }
+  - id: a1.g.imperativ-ihr-sie.r3
+    title_vi: "„sein“ và động từ tách"
+    body_vi: "„sein“: Seid (ihr) / Seien Sie (Sie). Động từ tách: Steht früh auf! / Stehen Sie früh auf!"
+    table:
+      header: ["", "du", "ihr", "Sie"]
+      rows:
+        - ["sein", "Sei!", "Seid!", "Seien Sie!"]
+        - ["aufstehen", "Steh auf!", "Steht auf!", "Stehen Sie auf!"]
+    examples:
+      - { de: "Seid bitte leise!", vi: "Các bạn làm ơn giữ yên lặng!" }
+      - { de: "Seien Sie bitte pünktlich.", vi: "Xin ông/bà vui lòng đến đúng giờ." }
+sentence_structures:
+  - { pattern: "Verb (ihr-Form) + (Ergänzung)!", example: { de: "Macht zehn Minuten Pause!", vi: "Các bạn nghỉ mười phút nhé!" } }
+  - { pattern: "Verb (Infinitiv) + Sie + (Ergänzung)!", example: { de: "Machen Sie bitte den Mund auf.", vi: "Xin hãy há miệng ra ạ." } }
+examples:
+  - { de: "Ruht euch nach dem Lauf aus!", vi: "Các bạn nghỉ ngơi sau khi chạy nhé!" }
+  - { de: "Warten Sie bitte im Wartezimmer.", vi: "Xin hãy đợi ở phòng chờ." }
+  - { de: "Bleibt heute zu Hause!", vi: "Hôm nay các bạn ở nhà nhé!" }
+  - { de: "Nehmen Sie dreimal am Tag eine Tablette.", vi: "Hãy uống mỗi ngày ba lần, mỗi lần một viên." }
+common_mistakes:
+  - { wrong: "Kommen bitte!", right: "Kommen Sie bitte!", explanation_vi: "Imperativ Sie luôn giữ „Sie“ sau động từ." }
+  - { wrong: "Ihr kommt!", right: "Kommt!", explanation_vi: "Imperativ ihr bỏ „ihr“. Có „ihr“ thì thành câu kể/câu hỏi." }
+exercise_refs: [a1.m08.l02.ex.01, a1.m08.l02.ex.02]

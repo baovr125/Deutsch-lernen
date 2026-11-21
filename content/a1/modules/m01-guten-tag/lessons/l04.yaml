@@ -1,0 +1,390 @@
+schema_version: '2.0'
+content_type: lesson
+id: a1.m01.l04
+level: A1
+module: a1.m01
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+  references:
+  - work: Netzwerk neu A1 (Klett)
+    scope: 'Kapitel 1: Zahlen und Buchstaben'
+    verification: verified
+  notes_vi: 'Sprachhandlungen: Zahlen hören und nachsprechen; Handynummern verstehen und notieren; die Telefonnummer erfragen; das Alphabet verstehen; die E-Mail-Adresse notieren; nachfragen und buchstabieren. Wortschatz: Zahlen 1–20, Alphabet, E-Mail-Adresse, Unverständnis ausdrücken. Strategie: E-Mail-Adressen schreiben und sagen.'
+order: 4
+title_de: Zahlen und Buchstaben
+title_vi: Số 0–20, số điện thoại, đánh vần và email
+topic_vi: Trao đổi thông tin liên lạc; báo rằng mình chưa hiểu
+duration_min: 90
+difficulty: 1
+cefr:
+- A1.H3
+- A1.SI3
+- A1.SI4
+- A1.L3
+- A1.S1
+- A1.S4
+prerequisites:
+- a1.m01.l03
+- a1.m00.l01
+objectives:
+- id: a1.m01.l04.obj1
+  text_vi: Đếm, nghe và đọc các số từ 0 đến 20.
+  skill: vocabulary
+- id: a1.m01.l04.obj2
+  text_vi: Hỏi, nói và ghi lại số điện thoại.
+  skill: listening
+- id: a1.m01.l04.obj3
+  text_vi: Đánh vần tên của mình và ghi lại tên khi người khác đánh vần.
+  skill: listening
+- id: a1.m01.l04.obj4
+  text_vi: Đọc và ghi lại địa chỉ email (Punkt, at, Unterstrich, Bindestrich).
+  skill: listening
+- id: a1.m01.l04.obj5
+  text_vi: Báo rằng mình chưa hiểu và đề nghị nhắc lại, nói chậm hoặc đánh vần.
+  skill: vocabulary
+vocabulary_refs:
+- a1.m01.v.null
+- a1.m01.v.eins
+- a1.m01.v.zwei
+- a1.m01.v.drei
+- a1.m01.v.vier
+- a1.m01.v.fuenf
+- a1.m01.v.sechs
+- a1.m01.v.sieben
+- a1.m01.v.acht
+- a1.m01.v.neun
+- a1.m01.v.zehn
+- a1.m01.v.elf
+- a1.m01.v.zwoelf
+- a1.m01.v.dreizehn
+- a1.m01.v.vierzehn
+- a1.m01.v.fuenfzehn
+- a1.m01.v.sechzehn
+- a1.m01.v.siebzehn
+- a1.m01.v.achtzehn
+- a1.m01.v.neunzehn
+- a1.m01.v.zwanzig
+- a1.m01.v.zahl
+- a1.m01.v.telefon
+- a1.m01.v.telefonnummer
+- a1.m01.v.handynummer
+- a1.m01.v.handy
+- a1.m01.v.e-mail-adresse
+- a1.m01.v.punkt
+- a1.m01.v.unterstrich
+- a1.m01.v.bindestrich
+- a1.m01.v.at
+- a1.m01.v.buchstabieren
+- a1.m01.v.verstehen
+- a1.m01.v.langsam
+- a1.m01.v.noch-einmal
+- a1.m01.v.ein-bisschen
+- a1.m01.v.nicht
+- a1.m01.v.fragen
+- a1.m01.v.sagen
+- a1.m01.v.dein
+- a1.m01.v.ihr
+review_vocabulary_refs:
+- a1.m00.v.alphabet
+- a1.m00.v.buchstabe
+- a1.m00.v.bitte
+- a1.m00.v.wie-bitte
+- a1.m00.v.ich-verstehe-nicht
+- a1.m00.v.schreiben
+- a1.m01.v.mein
+- a1.m01.v.vorname
+- a1.m01.v.nachname
+- a1.m01.v.name
+grammar_refs: []
+expression_refs:
+- a1.m01.x.wie-ist-deine-ihre-telefonnummer-meine-n
+- a1.m01.x.wie-ist-ihre-e-mail-adresse
+- a1.m01.x.wie-schreibt-man-das-buchstabieren-sie-b
+- a1.m01.x.wie-bitte-noch-einmal-bitte-langsam-bitt
+- a1.m01.x.ich-spreche-ein-bisschen-deutsch-ich-ver
+exercise_set_ref: a1.m01.l04.ex
+summary_vi: 'Số 0–20 (13–19 = đơn vị + zehn; sechzehn, siebzehn). Số điện thoại đọc từng chữ số, dùng zwo cho 2. Email: at = @, Punkt = ., Unterstrich = _, Bindestrich = -. Đánh vần: Wie schreibt man das? / Buchstabieren Sie, bitte. Khi chưa hiểu: Wie bitte? / Noch einmal, bitte. / Langsam, bitte. / Ich verstehe das nicht.'
+self_check:
+- Tôi đếm được từ 0 đến 20 và ngược lại.
+- Tôi đọc được số điện thoại của mình và ghi lại số khi nghe.
+- Tôi đánh vần được họ tên của mình.
+- Tôi đọc và ghi lại được một địa chỉ email.
+- Khi chưa hiểu, tôi biết đề nghị nhắc lại hoặc nói chậm.
+blocks:
+- id: a1.m01.l04.b1
+  kind: explanation
+  title_vi: Giới thiệu bài học
+  body_vi: 'Khi đăng ký khóa học, mở tài khoản hay hẹn gặp ai đó, bạn luôn phải trao đổi **số điện thoại**, **email**
+
+    và **đánh vần tên** – nhất là tên tiếng Việt, người Đức thường không biết viết thế nào!
+
+
+    Bài này gồm bốn phần:
+
+    1. **Số 0–20** – cách đếm và mẹo nhớ.
+
+    2. **Số điện thoại** – người Đức đọc từng chữ số, đôi khi theo cặp.
+
+    3. **Đánh vần** – dùng bảng chữ cái bạn đã học ở phần nhập môn.
+
+    4. **Email** – cách đọc các ký hiệu @ . _ -
+
+
+    Và quan trọng nhất: **khi không hiểu, đừng im lặng!** Hãy nói *Wie bitte? Noch einmal, bitte. Langsam, bitte.*'
+- id: a1.m01.l04.b2
+  kind: explanation
+  title_vi: 'Số 13–19: đơn vị + zehn (và hai ngoại lệ chính tả)'
+  skill: grammar
+  body_vi: 'Từ 13 đến 19: số hàng đơn vị đứng TRƯỚC, zehn đứng SAU – ngược với tiếng Việt (mười ba). Hai ngoại lệ chính tả: sechzehn (mất s), siebzehn (mất en). 11 (elf) và 12 (zwölf) phải học thuộc.'
+  examples:
+  - de: drei + zehn = dreizehn
+    vi: '13 (nghĩa đen: ba-mười)'
+  - de: sechs → sechzehn, sieben → siebzehn
+    vi: 16, 17 – chú ý chính tả
+- id: a1.m01.l04.b3
+  kind: explanation
+  title_vi: mein/dein/Ihr + danh từ giống cái thêm -e
+  skill: grammar
+  body_vi: 'Trước danh từ giống cái (die Nummer, die E-Mail-Adresse), thêm -e: meine, deine, Ihre. Trước danh từ giống đực/trung (der Name, das Handy) giữ nguyên: mein, dein, Ihr. Quy tắc đầy đủ học ở Kapitel 5.'
+  examples:
+  - de: Wie ist deine Handynummer?
+    vi: Số di động của bạn là gì?
+    note_vi: die Handynummer → deine
+  - de: Wie ist Ihr Name?
+    vi: Tên của ông/bà là gì?
+    note_vi: der Name → Ihr
+- id: a1.m01.l04.b4
+  kind: explanation
+  title_vi: Phủ định đơn giản với nicht
+  skill: grammar
+  body_vi: nicht phủ định động từ hoặc tính từ. Trong câu ngắn, nicht thường đứng ở CUỐI câu – khác tiếng Việt (“không” đứng trước động từ). Phủ định danh từ bằng kein/keine học ở Kapitel 3.
+  examples:
+  - de: Ich verstehe das nicht.
+    vi: Tôi không hiểu cái đó.
+  - de: Das ist nicht richtig.
+    vi: Cái đó không đúng.
+- id: a1.m01.l04.b5
+  kind: explanation
+  title_vi: 'Danh từ ghép: giống theo từ cuối'
+  skill: grammar
+  body_vi: 'Khi ghép hai danh từ, mạo từ (và số nhiều) theo từ CUỐI: das Telefon + die Nummer → die Telefonnummer. Đây là mẹo rất hữu ích để đoán giống.'
+  examples:
+  - de: das Handy + die Nummer → die Handynummer
+    vi: số điện thoại di động
+  - de: die E-Mail + die Adresse → die E-Mail-Adresse
+    vi: địa chỉ email
+- id: a1.m01.l04.b6
+  kind: pronunciation
+  title_vi: Các số dễ nhầm
+  skill: pronunciation
+  body_vi: 'Các số dễ nhầm
+
+
+    - **vier [fiːɐ̯] – vierzehn [ˈfɪʁtseːn]**: ie dài trong vier nhưng NGẮN trong vierzehn.
+
+    - **zwei – drei**: dễ nghe nhầm qua điện thoại → người Đức nói **zwo** cho số 2.
+
+    - **sechs [zɛks]**: chs = [ks]. **sechzehn [ˈzɛçtseːn]**: ch = [ç].
+
+    - **13–19 và 20**: nhấn âm tiết đầu: DREI-zehn, ZWAN-zig.
+
+    - Đuôi **-zig [tsɪç]** trong zwanzig.
+
+
+
+    Luyện tập: Đếm 0 → 20 rồi 20 → 0. Sau đó đọc số điện thoại của chính bạn 3 lần.'
+  items:
+  - de: vier – vierzehn
+    vi: 4 – 14
+    ipa: '[fiːɐ̯] – [ˈfɪʁtseːn]'
+  - de: zwei / zwo
+    vi: '2'
+    ipa: '[tsvaɪ̯] / [tsvoː]'
+  - de: sechs – sechzehn
+    vi: 6 – 16
+    ipa: '[zɛks] – [ˈzɛçtseːn]'
+- id: a1.m01.l04.b7
+  kind: pronunciation
+  title_vi: Ký hiệu trong email
+  skill: pronunciation
+  body_vi: 'Ký hiệu trong email
+
+
+    @ đọc là “at” [ɛt] (như tiếng Anh), dấu chấm là Punkt [pʊŋkt], _ là Unterstrich, - là Bindestrich (nhiều người nói Minus). Tên miền .de đọc là “de” [deː]: Punkt de.
+
+
+    Luyện tập: Đọc to địa chỉ email thật của bạn theo cách tiếng Đức.'
+  items:
+  - de: lan.pham@gmx.de
+    vi: lan Punkt pham at g-m-x Punkt de
+    ipa: '[… ɛt ɡeː ɛm ɪks pʊŋkt deː]'
+- id: a1.m01.l04.b8
+  kind: examples
+  title_vi: Câu ví dụ
+  examples:
+  - de: Wie ist deine Handynummer? – 0176 348902.
+    vi: Số di động của bạn là gì? – 0176 348902.
+  - de: 'Mein Nachname ist Nguyen: N – G – U – Y – E – N.'
+    vi: 'Họ của tôi là Nguyễn: N – G – U – Y – E – N.'
+  - de: Wie schreibt man das?
+    vi: Cái đó viết thế nào?
+  - de: Noch einmal, bitte. Langsam, bitte!
+    vi: Làm ơn nói lại. Làm ơn nói chậm thôi!
+  - de: Wie sagt man „cảm ơn“ auf Deutsch? – Danke.
+    vi: “Cảm ơn” tiếng Đức nói thế nào? – Danke.
+  - de: Ich verstehe das nicht.
+    vi: Tôi không hiểu cái đó.
+  - de: Zehn plus fünf ist fünfzehn.
+    vi: Mười cộng năm là mười lăm.
+- id: a1.m01.l04.b9
+  kind: listening
+  title_vi: Đăng ký khóa học qua điện thoại
+  lines:
+  - speaker: Frau Wolf
+    de: Sprachschule Linden, Wolf, guten Tag!
+    vi: Trường ngôn ngữ Linden, Wolf nghe, xin chào!
+  - speaker: Lan
+    de: Guten Tag! Mein Name ist Lan Nguyen. Ich spreche ein bisschen Deutsch.
+    vi: Xin chào! Tôi tên là Lan Nguyễn. Tôi nói được một chút tiếng Đức.
+  - speaker: Frau Wolf
+    de: Kein Problem. Wie ist Ihr Nachname? Buchstabieren Sie, bitte.
+    vi: Không sao. Họ của chị là gì? Chị đánh vần giúp tôi.
+  - speaker: Lan
+    de: N – G – U – Y – E – N.
+    vi: N – G – U – Y – E – N.
+  - speaker: Frau Wolf
+    de: Danke. Und wie ist Ihre Telefonnummer?
+    vi: Cảm ơn. Còn số điện thoại của chị là gì?
+  - speaker: Lan
+    de: Null, eins, sieben, sechs – zwo, vier, acht – fünf, null, drei.
+    vi: 0176 – 248 – 503.
+  - speaker: Frau Wolf
+    de: Wie bitte? Noch einmal, bitte. Langsam, bitte.
+    vi: Xin lỗi? Chị nói lại giúp. Chậm thôi ạ.
+  - speaker: Lan
+    de: Null – eins – sieben – sechs – zwo – vier – acht – fünf – null – drei.
+    vi: 0 – 1 – 7 – 6 – 2 – 4 – 8 – 5 – 0 – 3.
+  - speaker: Frau Wolf
+    de: Danke. Und Ihre E-Mail-Adresse?
+    vi: Cảm ơn. Còn địa chỉ email của chị?
+  - speaker: Lan
+    de: lan Unterstrich nguyen at web Punkt de.
+    vi: lan_nguyen@web.de
+  - speaker: Frau Wolf
+    de: Super, danke, Frau Nguyen. Auf Wiedersehen!
+    vi: Tuyệt, cảm ơn chị Nguyễn. Tạm biệt!
+  - speaker: Lan
+    de: Auf Wiedersehen!
+    vi: Tạm biệt!
+  audio_status: pending-tts
+  situation_vi: Lan gọi điện cho trường ngôn ngữ để đăng ký khóa học tiếng Đức. Nhân viên hỏi tên, số điện thoại và email.
+  skill: listening
+  audio:
+    speed: slow
+- id: a1.m01.l04.b10
+  kind: listening
+  title_vi: Nghe số
+  lines:
+  - speaker: Sprecher
+    de: vierzehn – zwölf – sechzehn – siebzehn – zwanzig
+    vi: 14 – 12 – 16 – 17 – 20
+  audio_status: pending-tts
+  situation_vi: Một người đọc các con số riêng lẻ.
+  skill: listening
+  audio:
+    speed: slow
+- id: a1.m01.l04.b11
+  kind: reading
+  title_vi: Phiếu đăng ký khóa học
+  paragraphs:
+  - de: 'Sprachschule Linden – Anmeldung Deutschkurs A1
+
+
+      Nachname:      Nguyen
+
+      Vorname:       Thi Lan
+
+      Land:          Vietnam
+
+      Wohnort:       Leipzig
+
+      Telefon:       0176 248503
+
+      E-Mail:        lan_nguyen@web.de
+
+      Sprachen:      Vietnamesisch, Englisch'
+    vi: 'Trường ngôn ngữ Linden – Đăng ký khóa học tiếng Đức A1
+
+
+      Họ:            Nguyễn
+
+      Tên:           Thị Lan
+
+      Nước:          Việt Nam
+
+      Nơi ở:         Leipzig
+
+      Điện thoại:    0176 248503
+
+      Email:         lan_nguyen@web.de
+
+      Ngôn ngữ:      tiếng Việt, tiếng Anh'
+  text_type_vi: Biểu mẫu
+  skill: reading
+  glossary:
+  - de: die Anmeldung
+    vi: sự đăng ký, phiếu đăng ký
+  - de: der Deutschkurs
+    vi: khóa học tiếng Đức
+  - de: der Wohnort
+    vi: nơi ở
+- id: a1.m01.l04.b12
+  kind: speaking
+  title_vi: Trao đổi thông tin liên lạc
+  skill: speaking
+  task_vi: 'Đóng vai: bạn và một bạn học mới trao đổi số điện thoại và email. Ít nhất một lần, hãy đề nghị nhắc lại hoặc nói chậm, và đánh vần họ của bạn.'
+  steps_vi:
+  - 'Hỏi số điện thoại: Wie ist deine Handynummer?'
+  - Đọc số của bạn theo từng chữ số (dùng zwo cho số 2).
+  - 'Hỏi email; khi nghe chưa rõ, nói: Wie bitte? / Langsam, bitte.'
+  - Đánh vần họ của bạn.
+  lines:
+  - speaker: A
+    de: Wie ist deine Handynummer?
+    vi: Số di động của bạn là gì?
+  - speaker: B
+    de: Null, eins, fünf, zwo – sieben, acht, drei – null, neun.
+    vi: 0152 – 783 – 09.
+  - speaker: A
+    de: Langsam, bitte!
+    vi: Chậm thôi!
+  - speaker: B
+    de: Null – eins – fünf – zwo – sieben – acht – drei – null – neun.
+    vi: 0 – 1 – 5 – 2 – 7 – 8 – 3 – 0 – 9.
+  - speaker: A
+    de: Danke! Und deine E-Mail-Adresse?
+    vi: Cảm ơn! Còn email của bạn?
+  - speaker: B
+    de: tom Punkt berg at gmx Punkt de.
+    vi: tom.berg@gmx.de
+- id: a1.m01.l04.b13
+  kind: writing
+  title_vi: Điền phiếu đăng ký
+  skill: writing
+  task_vi: Điền phiếu đăng ký khóa học với thông tin của chính bạn (giống mẫu ở phần Đọc).
+  model:
+    de: 'Nachname: Pham · Vorname: Minh · Land: Vietnam · Wohnort: Hamburg · Telefon: 0152 78309 · E-Mail: minh.pham@gmx.de · Sprachen: Vietnamesisch, Englisch, ein bisschen Deutsch'
+    vi: 'Họ: Phạm · Tên: Minh · Nước: Việt Nam · Nơi ở: Hamburg · Điện thoại · Email · Ngôn ngữ: tiếng Việt, tiếng Anh, một chút tiếng Đức'
+  checklist_vi:
+  - Nachname = họ, Vorname = tên (có thể ghi cả tên đệm).
+  - Tên nước và ngôn ngữ viết hoa.
+  - Viết đúng ký hiệu email.

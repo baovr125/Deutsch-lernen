@@ -1,0 +1,78 @@
+schema_version: "2.0"
+content_type: grammar-topic
+id: a1.g.ortspraepositionen
+level: A1
+introduced_in: a1.m07
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  references:
+    - { work: "Netzwerk neu A1.2 – Stoffverteilungsplan (Klett)", scope: "Kapitel 7, Grammatik: Ortsangaben: Präpositionen mit Dativ + Kurzformen (im, am, beim, zum, zur, vom)", verification: verified }
+    - { work: "Dự án Deutsch-lernen", scope: "Danh sách giới từ cụ thể (bei, zu, aus, von, nach; in/an chỉ cho câu hỏi Wo?) là lựa chọn của dự án", verification: proposed }
+  tags: ["dativ", "praeposition", "ort"]
+title_de: "Ortsangaben: Präpositionen mit Dativ"
+title_vi: "Giới từ chỉ nơi chốn đi với Dativ và dạng rút gọn"
+summary_vi: "Hỏi Wo? (ở đâu), Wohin? (đi đâu), Woher? (từ đâu) đều dùng giới từ + Dativ: bei, zu, aus, von, nach (và in/an cho ‘Wo?’). Một số giới từ + dem/der được rút gọn: beim, zum, zur, vom, im, am."
+usage_vi: "Dùng để nói ai đang ở đâu, đi đâu, từ đâu đến — rất cần trong cuộc sống hằng ngày và ở nơi làm việc."
+objectives:
+  - { id: a1.g.ortspraepositionen.obj1, text_vi: "Chọn đúng giới từ + dạng Dativ/rút gọn khi nói về nơi chốn (Wo/Wohin/Woher).", skill: grammar }
+rules:
+  - id: a1.g.ortspraepositionen.r1
+    title_vi: "Ba câu hỏi: Wo? Wohin? Woher?"
+    body_vi: "Mỗi câu hỏi dùng một nhóm giới từ riêng. Bạn hãy hỏi ‘Wo / Wohin / Woher?’ trước, rồi mới chọn giới từ."
+    table:
+      header: ["Câu hỏi", "Ý nghĩa", "Giới từ", "Ví dụ"]
+      rows:
+        - ["Wo?", "ở đâu", "in, an, bei", "im Büro, am Schreibtisch, bei der Bank"]
+        - ["Wohin?", "đi đâu", "zu, nach", "zum Chef, zur Post, nach Hause"]
+        - ["Woher?", "từ đâu", "aus, von", "aus dem Büro, vom Bahnhof"]
+    examples:
+      - { de: "Wo ist der Chef? – Er ist im Büro.", vi: "Sếp ở đâu? – Sếp ở văn phòng." }
+      - { de: "Wohin gehst du? – Ich gehe zur Post.", vi: "Bạn đi đâu? – Tôi đi bưu điện." }
+      - { de: "Woher kommst du? – Ich komme vom Bahnhof.", vi: "Bạn từ đâu đến? – Tôi đến từ nhà ga." }
+  - id: a1.g.ortspraepositionen.r2
+    title_vi: "Dạng rút gọn (Kurzformen)"
+    body_vi: "Khi giới từ gặp „dem“ hoặc „der“, tiếng Đức thường viết liền cho gọn. Dùng dạng rút gọn khi nói về nơi chốn thông thường; chỉ dùng dạng đầy đủ khi muốn nhấn mạnh."
+    table:
+      header: ["Đầy đủ", "Rút gọn", "Ví dụ"]
+      rows:
+        - ["in dem", "im", "im Büro"]
+        - ["an dem", "am", "am Schreibtisch"]
+        - ["bei dem", "beim", "beim Arzt"]
+        - ["zu dem", "zum", "zum Bahnhof"]
+        - ["zu der", "zur", "zur Bank"]
+        - ["von dem", "vom", "vom Supermarkt"]
+    examples:
+      - { de: "Ich bin im Büro und arbeite am Computer.", vi: "Tôi ở văn phòng và làm việc ở máy tính." }
+      - { de: "Wir gehen zum Supermarkt und dann zur Apotheke.", vi: "Chúng tôi đi siêu thị rồi đến hiệu thuốc." }
+  - id: a1.g.ortspraepositionen.r3
+    title_vi: "zu Hause – nach Hause"
+    body_vi: "Hai cụm cố định, không có mạo từ: „zu Hause“ = đang ở nhà (Wo?); „nach Hause“ = về nhà (Wohin?). Với tên thành phố/nước không mạo từ dùng „nach“: nach Berlin, nach Wien."
+    examples:
+      - { de: "Ich bin um sieben Uhr zu Hause.", vi: "Lúc bảy giờ tôi ở nhà." }
+      - { de: "Ich fahre nach der Arbeit nach Hause.", vi: "Sau giờ làm tôi về nhà." }
+  - id: a1.g.ortspraepositionen.r4
+    title_vi: "Dativ của mạo từ: dem / der"
+    body_vi: "Danh từ giống đực và trung → dem; giống cái → der. Đó là lý do có zum (zu + dem) cho Bahnhof/Supermarkt và zur (zu + der) cho Bank/Post/Apotheke."
+    examples:
+      - { de: "Der Bahnhof ist nicht weit, ich gehe zum Bahnhof.", vi: "Nhà ga không xa, tôi đi đến nhà ga." }
+      - { de: "Die Apotheke ist neben der Bank.", vi: "Hiệu thuốc ở cạnh ngân hàng." }
+sentence_structures:
+  - { pattern: "Subjekt + sein + Präposition (in/an/bei) + Dativ", example: { de: "Der Kollege ist beim Chef.", vi: "Đồng nghiệp đang ở chỗ sếp." } }
+  - { pattern: "Subjekt + gehen/fahren + zu/nach + Dativ", example: { de: "Die Kundin fährt zum Bahnhof.", vi: "Vị khách nữ đi đến nhà ga." } }
+  - { pattern: "Subjekt + kommen + aus/von + Dativ", example: { de: "Mein Chef kommt gerade vom Termin.", vi: "Sếp tôi vừa từ cuộc hẹn về." } }
+examples:
+  - { de: "Ich bin heute nicht im Büro.", vi: "Hôm nay tôi không ở văn phòng." }
+  - { de: "Meine Kollegin geht zur Besprechung.", vi: "Đồng nghiệp nữ của tôi đi họp." }
+  - { de: "Der Kunde kommt aus dem Café.", vi: "Vị khách ra từ quán cà phê." }
+  - { de: "Nach der Arbeit gehe ich zum Supermarkt.", vi: "Sau giờ làm tôi đi siêu thị." }
+common_mistakes:
+  - { wrong: "Ich gehe zu Bank.", right: "Ich gehe zur Bank.", explanation_vi: "Không bỏ mạo từ. „Bank“ giống cái nên zu + der = zur." }
+  - { wrong: "Ich bin nach Hause.", right: "Ich bin zu Hause.", explanation_vi: "‘Đang ở nhà’ (Wo?) dùng „zu Hause“; „nach Hause“ chỉ dùng khi đi/về (Wohin?)." }
+  - { wrong: "Ich gehe zu dem Supermarkt.", right: "Ich gehe zum Supermarkt.", explanation_vi: "Dạng đầy đủ không sai ngữ pháp nhưng nghe không tự nhiên; ưu tiên dạng rút gọn „zum“ trong lời nói thường ngày." }
+exercise_refs: [a1.m07.l03.ex.01, a1.m07.l03.ex.02, a1.m07.l03.ex.04, a1.m07.l03.ex.05]

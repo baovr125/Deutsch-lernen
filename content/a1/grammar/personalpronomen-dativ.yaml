@@ -1,0 +1,73 @@
+schema_version: "2.0"
+content_type: grammar-topic
+id: a1.g.personalpronomen-dativ
+level: A1
+introduced_in: a1.m11
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  references:
+    - { work: "Netzwerk neu A1.2 – Stoffverteilungsplan (Klett)", scope: "Kapitel 11, Grammatik: Personalpronomen im Dativ", verification: verified }
+  tags: ["pronomen", "dativ"]
+title_de: "Personalpronomen im Dativ"
+title_vi: "Đại từ nhân xưng ở Dativ (tặng cách)"
+summary_vi: "mir, dir, ihm, ihr, uns, euch, ihnen, Ihnen là đại từ nhân xưng ở Dativ. Dùng với một số động từ như gefallen, passen, gehören, helfen: ‘Die Jacke gefällt mir.’"
+usage_vi: "Nói ai thích gì, cái gì hợp với ai, cái gì thuộc về ai, ai giúp ai: „Die Jacke gefällt mir.“, „Der Mantel passt ihm.“, „Kann ich Ihnen helfen?“"
+objectives:
+  - { id: a1.g.personalpronomen-dativ.obj1, text_vi: "Dùng đúng đại từ Dativ với gefallen, passen, gehören, helfen.", skill: grammar }
+rules:
+  - id: a1.g.personalpronomen-dativ.r1
+    title_vi: "Bảng đại từ Dativ"
+    body_vi: "Mỗi ngôi có dạng Nominativ (chủ ngữ) và Dativ. Học thuộc cặp này."
+    table:
+      header: ["Nominativ", "Dativ", "Ví dụ"]
+      rows:
+        - ["ich", "mir", "gefällt mir"]
+        - ["du", "dir", "gefällt dir"]
+        - ["er / es", "ihm", "passt ihm"]
+        - ["sie (nữ)", "ihr", "passt ihr"]
+        - ["wir", "uns", "gehört uns"]
+        - ["ihr", "euch", "gefällt euch"]
+        - ["sie (nhiều người)", "ihnen", "passt ihnen"]
+        - ["Sie (lịch sự)", "Ihnen", "Kann ich Ihnen helfen?"]
+    examples:
+      - { de: "Die Jacke gefällt mir.", vi: "Tôi thích chiếc áo khoác này." }
+      - { de: "Der Pullover passt ihr gut.", vi: "Chiếc áo len rất vừa với cô ấy." }
+  - id: a1.g.personalpronomen-dativ.r2
+    title_vi: "Động từ đi với Dativ"
+    body_vi: "Ở A1 bạn cần nhớ bốn động từ chính: gefallen (thích), passen (vừa/hợp), gehören (thuộc về), helfen (giúp). Chủ ngữ của câu thường là đồ vật; người ở Dativ."
+    table:
+      header: ["Động từ", "Nghĩa", "Ví dụ"]
+      rows:
+        - ["gefallen", "thích", "Das Kleid gefällt ihr."]
+        - ["passen", "vừa / hợp", "Die Schuhe passen mir nicht."]
+        - ["gehören", "thuộc về", "Die Mütze gehört ihm."]
+        - ["helfen", "giúp", "Kann ich dir helfen?"]
+    examples:
+      - { de: "Die Schuhe passen mir nicht.", vi: "Đôi giày không vừa với tôi." }
+      - { de: "Wem gehört die Jacke? – Sie gehört mir.", vi: "Áo khoác này của ai? – Của tôi." }
+  - id: a1.g.personalpronomen-dativ.r3
+    title_vi: "Vị trí trong câu"
+    body_vi: "Thứ tự thông thường: Chủ ngữ – động từ – (Dativ) – … Với câu hỏi: „Gefällt dir die Jacke?“ (động từ đứng đầu)."
+    examples:
+      - { de: "Gefällt dir die Jacke?", vi: "Bạn có thích chiếc áo khoác này không?" }
+      - { de: "Hilft er dir?", vi: "Anh ấy có giúp bạn không?" }
+sentence_structures:
+  - { pattern: "Sache (Nominativ) + gefallen/passen/gehören + Person (Dativ)", example: { de: "Der Mantel gefällt mir.", vi: "Tôi thích chiếc áo măng tô." } }
+  - { pattern: "Helfen + Person (Dativ)", example: { de: "Ich helfe dir.", vi: "Tôi giúp bạn." } }
+  - { pattern: "Gefällt/Passt + Dativ + Sache?", example: { de: "Passt dir die Hose?", vi: "Cái quần có vừa với bạn không?" } }
+examples:
+  - { de: "Die Hose gefällt mir, aber sie passt mir nicht.", vi: "Tôi thích cái quần nhưng nó không vừa với tôi." }
+  - { de: "Der Pullover gehört ihm.", vi: "Chiếc áo len là của anh ấy." }
+  - { de: "Gefallen euch die Schuhe?", vi: "Các bạn có thích đôi giày không?" }
+  - { de: "Kann ich Ihnen helfen?", vi: "Tôi có thể giúp gì cho ông/bà ạ?" }
+common_mistakes:
+  - { wrong: "Ich gefalle die Jacke.", right: "Die Jacke gefällt mir.", explanation_vi: "Chủ ngữ là thứ được thích (die Jacke), người thích ở Dativ (mir)." }
+  - { wrong: "Die Hose passt mich nicht.", right: "Die Hose passt mir nicht.", explanation_vi: "„passen“ đi với Dativ „mir“, không phải Akkusativ „mich“." }
+  - { wrong: "Ich helfe dich.", right: "Ich helfe dir.", explanation_vi: "„helfen“ luôn đi với Dativ." }
+exercise_refs: [a1.m11.l01.ex.03, a1.m11.l03.ex.02]

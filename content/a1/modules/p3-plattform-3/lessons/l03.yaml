@@ -1,0 +1,80 @@
+schema_version: "2.0"
+content_type: lesson
+id: a1.p3.l03
+level: A1
+module: a1.p3
+version: "1.0.0"
+status: draft
+language: { target: de, explanation: vi }
+metadata:
+  authors: ["Deutsch-lernen"]
+  created: "2026-11-21"
+  updated: "2026-11-21"
+  origin: original
+  references:
+    - { work: "Netzwerk neu A1.2 – Stoffverteilungsplan (Klett)", scope: "Plattform 3: Prüfungstraining – Lesen Teil 2, Hören Teil 3, Sprechen Teil 3", verification: verified }
+    - { work: "Dự án Deutsch-lernen", scope: "Đề luyện thi hoàn toàn tự soạn theo cấu trúc phần thi nêu trong a1-assessment-spec", verification: proposed }
+  tags: ["pruefung"]
+order: 3
+title_de: "Prüfungstraining: Lesen Teil 2, Hören Teil 3, Sprechen Teil 3"
+title_vi: "Luyện thi: Đọc phần 2, Nghe phần 3, Nói phần 3"
+topic_vi: "Đọc quảng cáo, nghe tin nhắn thoại, đưa ra lời nhờ"
+duration_min: 90
+difficulty: 2
+objectives:
+  - { id: a1.p3.l03.obj1, text_vi: "Làm được bài Đọc phần 2: tìm thông tin cần thiết trong quảng cáo (nhà, cửa hàng).", skill: reading }
+  - { id: a1.p3.l03.obj2, text_vi: "Làm được bài Nghe phần 3: hiểu tin nhắn thoại ngắn và chọn đáp án đúng.", skill: listening }
+  - { id: a1.p3.l03.obj3, text_vi: "Làm được bài Nói phần 3: đưa ra lời nhờ vả lịch sự theo thẻ tình huống.", skill: speaking }
+vocabulary_refs: []
+review_vocabulary_refs: [a1.m09.v.miete, a1.m09.v.anzeige, a1.m07.v.termin]
+grammar_refs: [a1.g.imperativ-ihr-sie, a1.g.muessen-duerfen]
+expression_refs: [a1.p3.x.bitte-sie, a1.p3.x.bitte-du, a1.p3.x.haben-sie]
+exercise_set_ref: a1.p3.l03.ex
+blocks:
+  - id: a1.p3.l03.b1
+    kind: explanation
+    title_vi: "Chiến lược làm bài"
+    body_vi: |
+      **Lesen Teil 2:** đọc câu hỏi trước, rồi tìm từ khóa (giá, ngày giờ, số điện thoại) trong quảng cáo. Không cần hiểu từng từ.
+      **Hören Teil 3:** nghe lần đầu để nắm *ai nói – về việc gì*, lần hai để tìm chi tiết (giờ, nơi, việc cần làm).
+      **Sprechen Teil 3:** nhìn thẻ, dựng một câu lịch sự: *Können Sie bitte …? / Haben Sie bitte …?* Giữ giọng rõ ràng, nói chậm.
+  - id: a1.p3.l03.b2
+    kind: reading
+    skill: reading
+    title_vi: "Đề luyện: Lesen Teil 2 (ba quảng cáo)"
+    text_type_vi: "Quảng cáo nhà và cửa hàng"
+    paragraphs:
+      - { de: "Anzeige A: Zimmer frei! WG in Köln sucht Mitbewohner. 18 m², möbliert, 350 Euro warm. Besichtigung: Samstag, 14 Uhr.", vi: "Quảng cáo A: Còn phòng! Nhà ở chung ở Köln tìm người ở cùng. 18 m², có nội thất, 350 euro đã gồm chi phí. Xem phòng: thứ Bảy, 14 giờ." }
+      - { de: "Anzeige B: Wohnung zu vermieten: 2 Zimmer, Balkon, Küche, 55 m², 620 Euro kalt. Nur Nichtraucher. Anruf bitte ab 18 Uhr.", vi: "Quảng cáo B: Cho thuê căn hộ: 2 phòng, ban công, bếp, 55 m², 620 euro chưa gồm chi phí. Chỉ nhận người không hút thuốc. Xin gọi điện từ 18 giờ." }
+      - { de: "Anzeige C: Möbelhaus Rieger. Sofas ab 199 Euro, Schränke ab 89 Euro. Montag bis Samstag 10 bis 19 Uhr. Heute im Angebot: Lampen für 10 Euro.", vi: "Quảng cáo C: Cửa hàng nội thất Rieger. Sofa từ 199 euro, tủ từ 89 euro. Thứ Hai đến thứ Bảy 10 đến 19 giờ. Hôm nay khuyến mãi: đèn 10 euro." }
+    glossary:
+      - { de: "möbliert", vi: "có sẵn đồ nội thất" }
+      - { de: "Mitbewohner", vi: "người ở cùng" }
+      - { de: "zu vermieten", vi: "cho thuê" }
+      - { de: "Nichtraucher", vi: "người không hút thuốc" }
+  - id: a1.p3.l03.b3
+    kind: listening
+    skill: listening
+    title_vi: "Đề luyện: Hören Teil 3 (ba tin nhắn thoại)"
+    audio_status: pending-tts
+    situation_vi: "Ba tin nhắn thoại để lại trên điện thoại."
+    lines:
+      - { speaker: "Frau Lehmann", de: "Hallo Herr Tran, hier ist Frau Lehmann von der Hausverwaltung. Der Techniker kommt morgen um neun Uhr. Bitte seien Sie zu Hause.", vi: "Chào ông Tran, đây là bà Lehmann ở ban quản lý nhà. Thợ kỹ thuật sẽ đến vào lúc chín giờ sáng mai. Xin ông ở nhà." }
+      - { speaker: "Praxis Dr. Berger", de: "Guten Tag, Herr Aydin. Hier ist die Praxis Dr. Berger. Ihr Termin am Montag ist leider nicht möglich. Bitte rufen Sie uns an und machen Sie einen neuen Termin.", vi: "Chào ông Aydin. Đây là phòng khám bác sĩ Berger. Tiếc là lịch hẹn thứ Hai của ông không thực hiện được. Xin ông gọi lại và đặt lịch mới." }
+      - { speaker: "Lea", de: "Hi Paul, hier ist Lea. Ich ziehe am Samstag um. Kannst du helfen? Wir fangen um zehn Uhr an. Bring bitte Kartons mit!", vi: "Chào Paul, Lea đây. Thứ Bảy mình chuyển nhà. Bạn giúp được không? Chúng mình bắt đầu lúc mười giờ. Mang theo các thùng các-tông nhé!" }
+  - id: a1.p3.l03.b4
+    kind: speaking
+    skill: speaking
+    title_vi: "Đề luyện: Sprechen Teil 3 (thẻ tình huống)"
+    task_vi: "Bạn nhận một thẻ có hình hoặc từ khóa (Fenster, Wasser, Stift, Pause). Hãy đặt một câu nhờ hoặc xin lịch sự; người chấm trả lời."
+    steps_vi: ["Đọc từ trên thẻ.", "Chọn Können Sie bitte …? hoặc Haben Sie bitte …?", "Nói rõ vật hoặc việc cần nhờ.", "Cảm ơn sau khi nhận được câu trả lời."]
+    lines:
+      - { speaker: "Teilnehmer", de: "Können Sie bitte das Fenster aufmachen?", vi: "Ông/bà có thể mở cửa sổ giúp được không ạ?" }
+      - { speaker: "Prüfer", de: "Ja, gern.", vi: "Vâng, sẵn lòng." }
+      - { speaker: "Teilnehmer", de: "Haben Sie bitte einen Stift?", vi: "Ông/bà có bút không ạ?" }
+      - { speaker: "Prüfer", de: "Ja, hier bitte.", vi: "Có, xin mời." }
+      - { speaker: "Teilnehmer", de: "Danke schön!", vi: "Cảm ơn nhiều!" }
+summary_vi: "Bạn đã luyện ba phần thi: Đọc phần 2, Nghe phần 3 và Nói phần 3 bằng đề tự soạn."
+self_check:
+  - "Tôi tìm từ khóa (giá, giờ, ngày) trước khi đọc kỹ."
+  - "Tôi dựng được câu nhờ lịch sự với Können Sie bitte …? và Haben Sie bitte …?"

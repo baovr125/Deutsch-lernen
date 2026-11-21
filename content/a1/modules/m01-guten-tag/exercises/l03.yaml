@@ -1,0 +1,393 @@
+schema_version: '2.0'
+content_type: exercise-set
+id: a1.m01.l03.ex
+level: A1
+module: a1.m01
+lesson: a1.m01.l03
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+exercises:
+- id: a1.m01.l03.ex.01
+  type: multiple-choice
+  skill: grammar
+  difficulty: 1
+  objective_refs:
+  - a1.m01.l03.obj5
+  - a1.m01.l03.obj1
+  - a1.m01.l03.obj2
+  instructions_vi: Chọn từ để hỏi đúng.
+  items:
+  - id: a1.m01.l03.ex.01.q1
+    prompt: ___ kommen Sie? – Aus Deutschland.
+    options:
+    - id: a
+      text: Woher
+    - id: b
+      text: Wo
+    - id: c
+      text: Wie
+    answer:
+    - a
+    explanation_vi: aus → hỏi woher.
+  - id: a1.m01.l03.ex.01.q2
+    prompt: ___ wohnst du? – In Leipzig.
+    options:
+    - id: a
+      text: Wer
+    - id: b
+      text: Woher
+    - id: c
+      text: Wo
+    answer:
+    - c
+    explanation_vi: in → hỏi wo.
+  - id: a1.m01.l03.ex.01.q3
+    prompt: ___ ist das? – Das ist Frau Koch.
+    options:
+    - id: a
+      text: Was
+    - id: b
+      text: Wo
+    - id: c
+      text: Wer
+    answer:
+    - c
+    explanation_vi: Hỏi người → wer.
+  - id: a1.m01.l03.ex.01.q4
+    prompt: ___ ist das? – Das ist ein Taxi.
+    options:
+    - id: a
+      text: Was
+    - id: b
+      text: Wer
+    - id: c
+      text: Woher
+    answer:
+    - a
+    explanation_vi: Hỏi vật → was.
+  - id: a1.m01.l03.ex.01.q5
+    prompt: ___ Sprachen sprichst du? – Vietnamesisch und Deutsch.
+    options:
+    - id: a
+      text: Was
+    - id: b
+      text: Wie
+    - id: c
+      text: Welche
+    answer:
+    - c
+    explanation_vi: Hỏi chọn trong nhóm → welche.
+- id: a1.m01.l03.ex.02
+  type: word-order
+  skill: grammar
+  difficulty: 1
+  objective_refs:
+  - a1.m01.l03.obj5
+  instructions_vi: Sắp xếp thành câu hỏi hoặc câu kể đúng.
+  items:
+  - id: a1.m01.l03.ex.02.q1
+    tokens:
+    - Sie
+    - kommen
+    - Woher
+    answer: Woher kommen Sie?
+    explanation_vi: W-Wort – động từ – chủ ngữ.
+  - id: a1.m01.l03.ex.02.q2
+    tokens:
+    - in
+    - wohne
+    - Hamburg
+    - Ich
+    answer: Ich wohne in Hamburg.
+    explanation_vi: Chủ ngữ (1) – động từ (2) – in Hamburg.
+  - id: a1.m01.l03.ex.02.q3
+    tokens:
+    - spricht
+    - Er
+    - Englisch
+    answer: Er spricht Englisch.
+    explanation_vi: Er (1) – spricht (2) – Englisch.
+- id: a1.m01.l03.ex.03
+  type: fill-blank
+  skill: grammar
+  difficulty: 2
+  objective_refs:
+  - a1.m01.l03.obj4
+  - a1.m01.l03.obj3
+  instructions_vi: Chia động từ trong ngoặc.
+  items:
+  - id: a1.m01.l03.ex.03.q1
+    prompt: Das ist Mai. Sie ___ aus Vietnam. (kommen)
+    answers:
+    - kommt
+    explanation_vi: sie (cô ấy) → kommt.
+  - id: a1.m01.l03.ex.03.q2
+    prompt: Paul ___ in Köln. (wohnen)
+    answers:
+    - wohnt
+    explanation_vi: er (Paul) → wohnt.
+  - id: a1.m01.l03.ex.03.q3
+    prompt: ___ du Deutsch? (sprechen)
+    answers:
+    - Sprichst
+    explanation_vi: 'du: e → i → sprichst.'
+  - id: a1.m01.l03.ex.03.q4
+    prompt: Frau Koch ___ Englisch und Spanisch. (sprechen)
+    answers:
+    - spricht
+    explanation_vi: sie → spricht.
+  - id: a1.m01.l03.ex.03.q5
+    prompt: Woher ___ Sie? (kommen)
+    answers:
+    - kommen
+    explanation_vi: Sie → kommen.
+- id: a1.m01.l03.ex.04
+  type: matching
+  skill: grammar
+  difficulty: 1
+  objective_refs:
+  - a1.m01.l03.obj1
+  - a1.m01.l03.obj2
+  - a1.m01.l03.obj3
+  - a1.m01.l03.obj5
+  instructions_vi: Nối câu hỏi với câu trả lời phù hợp.
+  items:
+  - id: a1.m01.l03.ex.04.q1
+    pairs:
+    - left: Woher kommst du?
+      right: Aus Vietnam.
+    - left: Wo wohnst du?
+      right: In Berlin.
+    - left: Welche Sprachen sprichst du?
+      right: Vietnamesisch und Englisch.
+    - left: Wie heißt du?
+      right: Ich heiße Hoa.
+    - left: Wer ist das?
+      right: Das ist Paul.
+    explanation_vi: woher → aus; wo → in; welche Sprachen → tên ngôn ngữ; wie heißt → tên; wer → người.
+- id: a1.m01.l03.ex.05
+  type: multiple-choice
+  skill: listening
+  difficulty: 2
+  objective_refs:
+  - a1.m01.l03.obj1
+  - a1.m01.l03.obj2
+  - a1.m01.l03.obj3
+  instructions_vi: Nghe cuộc phỏng vấn. Chọn đáp án đúng.
+  stimulus:
+    ref: a1.m01.l03.b6
+  items:
+  - id: a1.m01.l03.ex.05.q1
+    prompt: Minh sống ở đâu?
+    options:
+    - id: a
+      text: Hanoi
+    - id: b
+      text: Leipzig
+    - id: c
+      text: Hamburg
+    answer:
+    - b
+    explanation_vi: 'Minh: Ich wohne in Leipzig. (Hà Nội là quê của Minh.)'
+  - id: a1.m01.l03.ex.05.q2
+    prompt: Bà Schneider làm nghề gì?
+    options:
+    - id: a
+      text: Reiseführerin
+    - id: b
+      text: Lehrerin
+    - id: c
+      text: Studentin
+    answer:
+    - a
+    explanation_vi: Ich bin Reiseführerin.
+  - id: a1.m01.l03.ex.05.q3
+    prompt: Bà Schneider nói một chút tiếng gì?
+    options:
+    - id: a
+      text: Englisch
+    - id: b
+      text: Vietnamesisch
+    - id: c
+      text: Deutsch
+    answer:
+    - b
+    explanation_vi: … und ein bisschen Vietnamesisch!
+- id: a1.m01.l03.ex.06
+  type: true-false
+  skill: listening
+  difficulty: 2
+  objective_refs:
+  - a1.m01.l03.obj1
+  - a1.m01.l03.obj2
+  instructions_vi: Nghe lại. Đúng hay sai?
+  stimulus:
+    ref: a1.m01.l03.b6
+  items:
+  - id: a1.m01.l03.ex.06.q1
+    prompt: Minh đến từ Hà Nội.
+    answer: true
+    explanation_vi: Ich komme aus Vietnam, aus Hanoi.
+  - id: a1.m01.l03.ex.06.q2
+    prompt: Bà Schneider sống ở Hamburg.
+    answer: true
+    explanation_vi: Ich wohne in Hamburg.
+  - id: a1.m01.l03.ex.06.q3
+    prompt: Người phỏng vấn xưng “du” với bà Schneider.
+    answer: false
+    explanation_vi: 'Người phỏng vấn dùng Sie: Woher kommen Sie?'
+- id: a1.m01.l03.ex.07
+  type: multiple-choice
+  skill: reading
+  difficulty: 1
+  objective_refs:
+  - a1.m01.l03.obj4
+  instructions_vi: Đọc danh thiếp và lời giới thiệu. Chọn đáp án đúng.
+  stimulus:
+    ref: a1.m01.l03.b7
+  items:
+  - id: a1.m01.l03.ex.07.q1
+    prompt: Sabine Koch đến từ đâu?
+    options:
+    - id: a
+      text: Hamburg
+    - id: b
+      text: Berlin
+    - id: c
+      text: Wien
+    answer:
+    - c
+    explanation_vi: Sie kommt aus Österreich, aus Wien.
+  - id: a1.m01.l03.ex.07.q2
+    prompt: Cô ấy sống ở đâu?
+    options:
+    - id: a
+      text: Spanien
+    - id: b
+      text: Berlin
+    - id: c
+      text: Wien
+    answer:
+    - b
+    explanation_vi: Sie wohnt in Berlin.
+  - id: a1.m01.l03.ex.07.q3
+    prompt: Cô ấy nói mấy ngôn ngữ?
+    options:
+    - id: a
+      text: zwei
+    - id: b
+      text: vier
+    - id: c
+      text: drei
+    answer:
+    - c
+    explanation_vi: Deutsch, Englisch, Spanisch = 3.
+- id: a1.m01.l03.ex.08
+  type: sentence-construction
+  skill: grammar
+  difficulty: 2
+  objective_refs:
+  - a1.m01.l03.obj4
+  - a1.m01.l03.obj5
+  instructions_vi: Viết câu hoàn chỉnh (chia động từ đúng).
+  items:
+  - id: a1.m01.l03.ex.08.q1
+    prompt_vi: er / kommen / aus Deutschland
+    answers:
+    - Er kommt aus Deutschland.
+    explanation_vi: er → kommt.
+  - id: a1.m01.l03.ex.08.q2
+    prompt_vi: sie (cô ấy) / sprechen / Vietnamesisch
+    answers:
+    - Sie spricht Vietnamesisch.
+    explanation_vi: sie → spricht (e → i).
+  - id: a1.m01.l03.ex.08.q3
+    prompt_vi: wo / wohnen / Sie ?
+    answers:
+    - Wo wohnen Sie?
+    explanation_vi: W-Wort – động từ – Sie.
+- id: a1.m01.l03.ex.09
+  type: translation
+  skill: grammar
+  difficulty: 2
+  objective_refs:
+  - a1.m01.l03.obj1
+  - a1.m01.l03.obj2
+  - a1.m01.l03.obj3
+  instructions_vi: Dịch sang tiếng Đức.
+  items:
+  - id: a1.m01.l03.ex.09.q1
+    direction: vi-de
+    source: Tôi đến từ Việt Nam và sống ở Berlin.
+    answers:
+    - Ich komme aus Vietnam und wohne in Berlin.
+    - Ich komme aus Vietnam und ich wohne in Berlin.
+    explanation_vi: kommen aus, wohnen in; có thể lặp lại ich sau und.
+  - id: a1.m01.l03.ex.09.q2
+    direction: vi-de
+    source: Ông/Bà đến từ đâu?
+    answers:
+    - Woher kommen Sie?
+    explanation_vi: Trang trọng → Sie + kommen.
+  - id: a1.m01.l03.ex.09.q3
+    direction: vi-de
+    source: Cô ấy nói tiếng Anh.
+    answers:
+    - Sie spricht Englisch.
+    explanation_vi: sie → spricht.
+- id: a1.m01.l03.ex.10
+  type: speaking-practice
+  skill: speaking
+  difficulty: 2
+  objective_refs:
+  - a1.m01.l03.obj4
+  - a1.m01.l03.obj5
+  - a1.m01.l03.obj1
+  - a1.m01.l03.obj2
+  - a1.m01.l03.obj3
+  instructions_vi: Phỏng vấn một người bằng 4 câu hỏi W-, rồi giới thiệu người đó (phần Nói). Ghi âm phần giới thiệu.
+  grading: self
+  rubric:
+  - criterion_vi: Đặt đúng 4 câu hỏi W- (trật tự từ đúng)
+    points: 2
+  - criterion_vi: Giới thiệu bằng er/sie với động từ đuôi -t (spricht)
+    points: 2
+  - criterion_vi: Dùng đúng aus/in
+    points: 1
+  items:
+  - id: a1.m01.l03.ex.10.q1
+    prompt_vi: Giới thiệu người bạn vừa phỏng vấn.
+    model_answer:
+      de: Das ist Tom. Er kommt aus Deutschland. Er wohnt in Köln. Er spricht Deutsch und Englisch.
+    explanation_vi: 'Nếu là nữ: Sie kommt…, Sie wohnt…, Sie spricht…'
+- id: a1.m01.l03.ex.11
+  type: writing-practice
+  skill: writing
+  difficulty: 2
+  objective_refs:
+  - a1.m01.l03.obj4
+  - a1.m01.l03.obj5
+  instructions_vi: Viết 4 câu về Paul Weber từ phiếu thông tin (phần Viết).
+  grading: self
+  rubric:
+  - criterion_vi: 'Đủ 4 thông tin: tên, quê, nơi ở, ngôn ngữ'
+    points: 2
+  - criterion_vi: Động từ chia đúng với er
+    points: 1
+  - criterion_vi: Động từ ở vị trí 2
+    points: 1
+  items:
+  - id: a1.m01.l03.ex.11.q1
+    prompt_vi: 'Name: Paul Weber · Herkunft: Deutschland (Hamburg) · Wohnort: München · Sprachen: Deutsch, Englisch'
+    model_answer:
+      de: Das ist Paul Weber. Er kommt aus Deutschland, aus Hamburg. Er wohnt in München. Er spricht Deutsch und Englisch.
+    explanation_vi: So sánh với bài mẫu ở phần Viết.

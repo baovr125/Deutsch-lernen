@@ -1,0 +1,258 @@
+schema_version: '2.0'
+content_type: lesson
+id: a1.m05.l06
+level: A1
+module: a1.m05
+version: 1.0.0
+status: reviewed
+language:
+  target: de
+  explanation: vi
+metadata:
+  authors:
+  - Deutsch-lernen
+  created: '2026-11-21'
+  updated: '2026-11-21'
+  origin: original
+  references:
+  - work: Netzwerk neu A1 (Klett)
+    scope: 'Kapitel 5: Termine beim Arzt und Pünktlichkeit'
+    verification: verified
+  notes_vi: 'Sprachhandlungen: am Telefon Termine vereinbaren, sich verspäten und sich entschuldigen, Gründe für Verspätungen angeben, über Pünktlichkeit sprechen. Wortschatz: vereinbaren, Praxis, Arzt, Ärztin, Arzttermin, Telefongespräch, Moment, nachschauen, möglich, dringend, Pünktlichkeit, Verspätung, Stau, warten, entschuldigen... Grammatik: Höfliche Wendungen am Telefon, trennbare Verben (vorbereiten, nachschauen).'
+order: 6
+title_de: Termine vereinbaren und Pünktlichkeit
+title_vi: Đặt lịch hẹn và văn hóa đúng giờ
+topic_vi: Gọi điện thoại đặt lịch hẹn tại phòng khám bác sĩ (Praxis), ứng phó khi bị muộn, kẹt xe và văn hóa đúng giờ ở Đức
+duration_min: 85
+difficulty: 2
+cefr:
+- A1.L1
+- A1.H2
+- A1.SP1
+- A1.S2
+prerequisites:
+- a1.m05.l05
+objectives:
+- id: a1.m05.l06.obj1
+  text_vi: Thực hiện cuộc gọi đặt lịch hẹn (Arzttermin) tại phòng khám bác sĩ (Praxis).
+  skill: vocabulary
+- id: a1.m05.l06.obj2
+  text_vi: Hiểu và sử dụng các câu lịch thiệp khi đàm thoại qua điện thoại (Einen Moment bitte, nachschauen, Ist es dringend?).
+  skill: listening
+- id: a1.m05.l06.obj3
+  text_vi: Hiểu văn hóa đúng giờ (Pünktlichkeit) tại Đức và biết cách xin lỗi, giải thích lý do khi đến muộn (Verspätung, Stau, verpassen).
+  skill: vocabulary
+- id: a1.m05.l06.obj4
+  text_vi: Chuẩn bị và hoàn thành đoạn đối thoại thực tế về sắp xếp lịch hẹn cá nhân.
+  skill: reading
+vocabulary_refs:
+- a1.m05.v.vereinbaren
+- a1.m05.v.praxis
+- a1.m05.v.zahnarzt
+- a1.m05.v.zahnaerztin
+- a1.m05.v.arzttermin
+- a1.m05.v.telefongespraech
+- a1.m05.v.augenblick
+- a1.m05.v.nachschauen
+- a1.m05.v.moeglich
+- a1.m05.v.dringend
+- a1.m05.v.puenktlichkeit
+- a1.m05.v.verspaetung
+- a1.m05.v.verpassen
+- a1.m05.v.wartezimmer
+- a1.m05.v.verzeihung
+- a1.m05.v.entschuldigen
+- a1.m05.v.stau
+- a1.m05.v.vorbereiten
+review_vocabulary_refs:
+- a1.m05.v.terminkalender
+- a1.m05.v.koennen
+- a1.m05.v.muessen
+- a1.m05.v.passen
+grammar_refs:
+- a1.g.modalverben
+grammar_focus:
+- ref: a1.g.modalverben
+  focus_vi: Ứng dụng động từ tình thái (können, müssen) và thể lịch sự (möchten) trong hội thoại điện thoại và giao tiếp xã hội
+expression_refs:
+- a1.m05.x.guten-tag-mein-name-ist-ich-moechte-gern
+- a1.m05.x.einen-moment-bitte-ich-schaue-mal-nach-g
+- a1.m05.x.entschuldigung-fuer-die-verspaetung-ich
+exercise_set_ref: a1.m05.l06.ex
+summary_vi: Bài học giúp bạn thành thạo kỹ năng giao tiếp qua điện thoại để đặt lịch hẹn tại phòng khám (Termine vereinbaren), hiểu tầm quan trọng của tính đúng giờ (Pünktlichkeit) tại Đức và biết cách ứng xử lịch thiệp khi bị chậm trễ hoặc kẹt xe.
+self_check:
+- Tôi có thể tự tin gọi điện thoại để xin một lịch hẹn khám bác sĩ (Arzttermin vereinbaren).
+- 'Tôi hiểu các mẫu câu chờ đợi: Einen Moment bitte, ich schaue nach.'
+- Tôi biết cách xin lỗi và giải thích lý do khi đến muộn (Entschuldigung für die Verspätung, im Stau stehen, den Bus verpassen).
+blocks:
+- id: a1.m05.l06.b1
+  kind: explanation
+  title_vi: Giới thiệu bài học
+  body_vi: 'Ở Đức, hệ thống y tế vận hành chủ yếu thông qua các phòng khám tư (*Praxis*), và bạn hầu như luôn cần đặt lịch hẹn (*einen Termin vereinbaren*) trước khi đến khám. Đồng thời, tính đúng giờ (*die Pünktlichkeit*) được coi là một chuẩn mực văn hóa vô cùng quan trọng.
+
+    Trong bài học này, bạn sẽ:
+
+    - Học từ vựng chuyên dùng khi đi khám: *die Praxis, der Arzt, die Ärztin, der Arzttermin, dringend*.
+
+    - Nắm vững các mẫu câu điện thoại: "Xin vui lòng đợi một lát!" (*Einen Moment bitte!*), "Tôi kiểm tra lịch xem sao" (*Ich schaue nach*), "Có thể được không?" (*Ist das möglich?*), chuẩn bị cuộc gọi (*ein Telefongespräch vorbereiten*).
+
+    - Khám phá văn hóa đúng giờ tại Đức và cách xin lỗi khéo léo khi bị chậm trễ: *die Verspätung, der Stau, den Bus verpassen, warten, sich entschuldigen*.'
+- id: a1.m05.l06.b2
+  kind: explanation
+  title_vi: 'Động từ tách: nachschauen và vorbereiten'
+  skill: grammar
+  body_vi: 'Cả hai động từ này đều là động từ tách:
+
+    - nachschauen (kiểm tra lại, tra cứu): tiền tố nach- đứng ở cuối câu: ''Ich schaue im Kalender nach.''
+
+    - vorbereiten (chuẩn bị trước): tiền tố vor- đứng ở cuối câu: ''Er bereitet das Telefongespräch vor.'''
+  examples:
+  - de: Einen Moment, ich schaue gleich nach.
+    vi: Xin đợi một lát, tôi tra cứu ngay đây.
+  - de: Wir bereiten die Präsentation für morgen vor.
+    vi: Chúng tôi chuẩn bị bài thuyết trình cho ngày mai.
+- id: a1.m05.l06.b3
+  kind: explanation
+  title_vi: Văn hóa Pünktlichkeit tại các nước nói tiếng Đức
+  skill: grammar
+  body_vi: Đúng giờ (Pünktlichkeit) là một trong những giá trị cốt lõi trong văn hóa ứng xử Đức, Áo, Thụy Sĩ. Đến sớm 5 phút được coi là đúng giờ. Nếu bạn đến muộn từ 5–10 phút, bạn bắt buộc phải gọi điện thoại thông báo trước và xin lỗi chân thành ('Entschuldigung für die Verspätung').
+  examples:
+  - de: Pünktlichkeit ist in Deutschland sehr wichtig.
+    vi: Tính đúng giờ ở Đức rất quan trọng.
+  - de: Ich stehe im Stau und komme 10 Minuten später.
+    vi: Tôi đang bị tắc đường và sẽ đến muộn 10 phút.
+- id: a1.m05.l06.b4
+  kind: pronunciation
+  title_vi: 'Phụ âm ghép và âm đuôi: -kt, -ng, -ch'
+  skill: pronunciation
+  body_vi: 'Phụ âm ghép và âm đuôi: -kt, -ng, -ch
+
+
+    Chú ý phát âm các cụm phụ âm khó: ''Pünktlichkeit'' [ˈpʏŋktlɪçkaɪ̯t] (chú ý đọc rõ cụm [ŋktl]), ''Verspätung'' [fɛɐ̯ˈʃpɛːtʊŋ] (âm đuôi [ʊŋ]), ''Arzt'' [aːɐ̯tst] (cụm đuôi [tst]).
+
+
+    Luyện tập: Tách từng âm tiết và đọc nối: Pünkt-lich-keit; Ver-spä-tung; Arzt-ter-min.'
+  items:
+  - de: die Pünktlichkeit
+    vi: tính đúng giờ
+    ipa: '[ˈpʏŋktlɪçkaɪ̯t]'
+  - de: die Verspätung
+    vi: sự trễ giờ
+    ipa: '[fɛɐ̯ˈʃpɛːtʊŋ]'
+  - de: der Arzt
+    vi: bác sĩ nam
+    ipa: '[aːɐ̯tst]'
+- id: a1.m05.l06.b5
+  kind: examples
+  title_vi: Câu ví dụ
+  examples:
+  - de: Ich habe morgen früh einen wichtigen Arzttermin in der Praxis.
+    vi: Sáng mai tôi có một cuộc hẹn khám bệnh quan trọng ở phòng khám.
+  - de: Ist ein Termin am Freitagnachmittag noch möglich?
+    vi: Một lịch hẹn vào chiều thứ Sáu còn khả thi không ạ?
+  - de: Bitte entschuldigen Sie, mein Zug hatte zwanzig Minuten Verspätung.
+    vi: Xin quý vị thứ lỗi, chuyến tàu của tôi đã trễ hai mươi phút.
+  - de: Ich stehe mitten im Stau auf der Autobahn.
+    vi: Tôi đang kẹt giữa đám tắc đường trên đường cao tốc.
+  - de: Er bereitet das Telefongespräch mit dem Arzt gründlich vor.
+    vi: Anh ấy chuẩn bị kỹ lưỡng cuộc gọi điện thoại với bác sĩ.
+- id: a1.m05.l06.b6
+  kind: listening
+  title_vi: 'Hội thoại: Đặt lịch hẹn qua điện thoại tại phòng khám'
+  lines:
+  - speaker: Assistentin
+    de: Praxis Dr. Weber, guten Tag!
+    vi: Phòng khám bác sĩ Weber xin chào!
+  - speaker: Herr Pham
+    de: Guten Tag, mein Name ist Pham. Ich möchte gern einen Termin bei Dr. Weber vereinbaren.
+    vi: Xin chào, tên tôi là Pham. Tôi muốn đặt một lịch hẹn ở chỗ bác sĩ Weber.
+  - speaker: Assistentin
+    de: Guten Tag, Herr Pham. Ist es dringend oder eine Routineuntersuchung?
+    vi: Xin chào anh Pham. Việc có khẩn cấp không hay là khám định kỳ ạ?
+  - speaker: Herr Pham
+    de: Es ist nicht dringend, nur eine Routineuntersuchung.
+    vi: Không khẩn cấp đâu ạ, chỉ là khám định kỳ thôi.
+  - speaker: Assistentin
+    de: Einen Moment bitte, ich schaue im Terminkalender nach ... Geht es am nächsten Dienstag um zehn Uhr dreißig?
+    vi: Xin đợi một lát, để tôi tra cứu sổ lịch hẹn... Thứ Ba tuần sau lúc 10:30 có được không ạ?
+  - speaker: Herr Pham
+    de: Ja, Dienstag um zehn Uhr dreißig ist sehr gut möglich. Vielen herzlichen Dank!
+    vi: Vâng, thứ Ba lúc 10:30 thì rất khả thi. Cảm ơn chị rất nhiều!
+  audio_status: pending-tts
+  situation_vi: Anh Pham gọi điện đến phòng khám bác sĩ Weber để xin một lịch hẹn khám bệnh.
+  skill: listening
+  audio:
+    speed: slow
+- id: a1.m05.l06.b7
+  kind: reading
+  title_vi: 'Đọc hiểu: Văn hóa đúng giờ và cuộc hẹn của David'
+  paragraphs:
+  - de: 'David kommt aus Spanien und macht ein Praktikum in Frankfurt.
+
+      Für heute um 14:30 Uhr hat er einen wichtigen Arzttermin in der Praxis Dr. Hoffmann vereinbart.
+
+      Er weiß: In Deutschland ist Pünktlichkeit sehr wichtig. Deshalb geht er schon um 13:45 Uhr los.
+
+      Aber auf der Straße ist ein schwerer Unfall, und der Bus steht zwanzig Minuten im Stau.
+
+      David wird nervös. Er ruft sofort in der Praxis an und sagt:
+
+      „Guten Tag, hier ist David Moreno. Ich stehe leider im Stau und habe Verspätung. Ich komme circa zehn Minuten später.“
+
+      Die Assistentin antwortet freundlich: „Vielen Dank für Ihren Anruf, Herr Moreno! Das ist kein Problem, wir warten auf Sie.“'
+    vi: 'David đến từ Tây Ban Nha và đang thực tập tại Frankfurt.
+
+      Hôm nay lúc 14:30 anh đã đặt một lịch hẹn quan trọng tại phòng khám bác sĩ Hoffmann.
+
+      Anh biết rằng: Ở Đức, tính đúng giờ rất quan trọng. Vì thế anh đã xuất phát từ 13:45.
+
+      Nhưng trên đường xảy ra một vụ tai nạn nghiêm trọng, và xe buýt bị kẹt xe 20 phút.
+
+      David lo lắng. Anh liền gọi điện ngay cho phòng khám và nói:
+
+      „Xin chào, tôi là David Moreno. Tôi tiếc là đang bị kẹt xe và sẽ đến muộn. Tôi sẽ đến trễ khoảng 10 phút ạ.“
+
+      Cô trợ lý đáp lại thân thiện: „Cảm ơn cuộc gọi của anh Moreno! Không có vấn đề gì đâu ạ, chúng tôi sẽ đợi anh.“'
+  text_type_vi: Câu chuyện tình huống về Pünktlichkeit tại Đức
+  skill: reading
+  glossary:
+  - de: das Praktikum
+    vi: kỳ thực tập
+  - de: der Unfall
+    vi: vụ tai nạn
+  - de: nervös
+    vi: bồn chồn, lo lắng
+- id: a1.m05.l06.b8
+  kind: speaking
+  title_vi: 'Đóng vai: Gọi điện thoại xin lịch hẹn tại phòng khám'
+  skill: speaking
+  task_vi: 'Thực hành gọi điện thoại đặt lịch khám bệnh: giới thiệu tên, nêu mong muốn hẹn, thống nhất ngày giờ.'
+  steps_vi:
+  - 'Chào hỏi và giới thiệu: Guten Tag, mein Name ist ... Ich möchte einen Termin vereinbaren.'
+  - 'Nêu mức độ gấp: Es ist dringend / Es ist eine Routineuntersuchung.'
+  - 'Xác nhận thời gian: Ja, am ... um ... Uhr passt es mir sehr gut. Vielen Dank!'
+  lines:
+  - speaker: Assistentin
+    de: Praxis Dr. Klein, guten Tag!
+    vi: Phòng khám bác sĩ Klein xin chào!
+  - speaker: Patient
+    de: Guten Tag, mein Name ist Lisa Müller. Ich möchte bitte einen Termin vereinbaren.
+    vi: Xin chào, tên tôi là Lisa Müller. Tôi muốn xin một lịch hẹn ạ.
+  - speaker: Assistentin
+    de: Geht es am Donnerstag um elf Uhr?
+    vi: Vào thứ Năm lúc 11 giờ có được không ạ?
+  - speaker: Patient
+    de: Ja, Donnerstag um elf Uhr klappt prima. Danke!
+    vi: Vâng, thứ Năm lúc 11 giờ thì rất tốt. Cảm ơn chị!
+- id: a1.m05.l06.b9
+  kind: writing
+  title_vi: Viết tin nhắn xin lỗi vì đến muộn do kẹt xe hoặc lỡ tàu
+  skill: writing
+  task_vi: Viết tin nhắn ngắn (3–4 câu) thông báo cho bạn học hoặc đồng nghiệp biết bạn sẽ đến muộn, nêu lý do và lời xin lỗi.
+  model:
+    de: Hallo Tim! Entschuldigung für die Verspätung! Ich habe leider den Bus verpasst und stehe jetzt im Stau. Ich komme circa fünfzehn Minuten später. Bitte wartet nicht auf mich! Bis gleich, Alex
+    vi: Chào Tim! Cho mình xin lỗi vì đến muộn nhé! Mình tiếc là bị lỡ xe buýt và giờ đang bị kẹt xe. Mình sẽ đến muộn khoảng 15 phút. Mọi người đừng đợi mình nhé! Hẹn gặp lại sớm, Alex
+  checklist_vi:
+  - 'Có mẫu câu xin lỗi: Entschuldigung für die Verspätung!'
+  - 'Nêu lý do rõ ràng: den Bus verpasst / im Stau stehen.'
+  - 'Ước lượng thời gian đến muộn: Ich komme ... Minuten später.'
