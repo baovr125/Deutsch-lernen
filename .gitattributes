@@ -1,0 +1,17 @@
+# Chuẩn hóa xuống dòng LF cho mọi file văn bản (khớp với .editorconfig)
+* text=auto eol=lf
+
+# Script Windows giữ CRLF
+*.cmd text eol=crlf
+*.bat text eol=crlf
+*.ps1 text eol=crlf
+
+# File nhị phân
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.webp binary
+*.mp3 binary
+*.wav binary
+*.ogg binary
+*.pdf binary
