@@ -1,0 +1,245 @@
+id: a1-k03-l03
+kind: lesson
+level: A1
+unit: a1-k03
+order: 3
+title_de: "Kein Glück?!"
+title_vi: "Không may! – Phương tiện giao thông và phủ định kein/keine"
+topic_vi: "Phương tiện giao thông; phủ định danh từ với kein/keine; so sánh với nicht"
+source:
+  type: netzwerk-neu
+  kapitel: 3
+  sections: ["Kein Glück?!"]
+  note_vi: "Sprachhandlungen: Wörter zu einer Bildergeschichte zuordnen; Sätze zu der Geschichte zuordnen; nach Dingen fragen. Grammatik: Negationsartikel kein, keine. Wortschatz: Verkehrsmittel."
+cefr: [A1.L1, A1.H4, A1.SI5, A1.S2]
+objectives:
+  - { id: o1, vi: "Gọi tên các phương tiện giao thông với mạo từ (der Bus, die U-Bahn, das Fahrrad…)." }
+  - { id: o2, vi: "Phủ định danh từ bằng kein/keine: Das ist kein Bus. Ich habe keine Fahrkarte." }
+  - { id: o3, vi: "Phân biệt kein và nicht." }
+  - { id: o4, vi: "Kể lại một câu chuyện tranh đơn giản về một ngày không may." }
+estimated_minutes: 70
+prerequisites: [a1-k03-l02]
+intro_vi: |
+  Một ngày **không may (kein Glück)**: xe buýt không đến, không có vé, điện thoại hết pin…
+  Để kể những chuyện như vậy, bạn cần **kein/keine** – cách phủ định danh từ:
+  *Heute fährt **kein** Bus. Ich habe **keine** Fahrkarte.*
+
+  Mẹo: **kein = k + ein**. Ở đâu có *ein/eine* (hoặc danh từ không mạo từ) thì phủ định bằng *kein/keine*.
+  Phủ định động từ, tính từ thì vẫn dùng **nicht** như Kapitel 1 (chủ điểm *Phủ định danh từ với kein/keine*).
+
+  Bài này cũng dạy tên các **phương tiện giao thông** – rất cần khi sống ở Đức.
+vocabulary:
+  file: vocabulary/03-in-hamburg.csv
+  new: [a1-k03-v051, a1-k03-v052, a1-k03-v053, a1-k03-v054, a1-k03-v055, a1-k03-v056, a1-k03-v057, a1-k03-v058, a1-k03-v059, a1-k03-v060, a1-k03-v061, a1-k03-v062, a1-k03-v063, a1-k03-v064, a1-k03-v065, a1-k03-v066, a1-k03-v067]
+  review: [a1-k03-v030, a1-k03-v024, a1-k02-v093, a1-u00-v006, a1-k02-v041, a1-k02-v150, a1-k01-v100]
+grammar:
+  topics:
+    - { topic: g-a1-negation-kein, focus_vi: "ein → kein, eine → keine, số nhiều → keine; nicht cho động từ, tính từ, der/die/das." }
+  notes:
+    - title_vi: "fahren + phương tiện; zu Fuß gehen"
+      explanation_vi: "Đi bằng phương tiện: mit dem Bus / mit der U-Bahn fahren (mit + Dativ – Kapitel 7). Ở A1 bây giờ, dùng các cụm đơn giản: Ich fahre Fahrrad. Ich fahre Auto. Ich gehe zu Fuß. Ich nehme den Bus (Kapitel 4)."
+      examples:
+        - { de: "Ich fahre Fahrrad.", vi: "Tôi đi xe đạp." }
+        - { de: "Kein Bus? Dann gehe ich zu Fuß.", vi: "Không có xe buýt à? Vậy tôi đi bộ." }
+redemittel:
+  - id: a1-k03-l03-r01
+    de: "Das ist kein …, das ist ein/eine …"
+    vi: "Đó không phải …, đó là …"
+    context_vi: "Sửa lại khi ai đó nhầm."
+    register: neutral
+    dialogue:
+      - { speaker: "Tom", de: "Ist das ein Bus?", vi: "Đó là xe buýt à?" }
+      - { speaker: "Lan", de: "Nein, das ist kein Bus. Das ist eine Straßenbahn.", vi: "Không, đó không phải xe buýt. Đó là tàu điện." }
+  - id: a1-k03-l03-r02
+    de: "So ein Glück! / Kein Glück!"
+    vi: "May quá! / Xui quá!"
+    context_vi: "Phản ứng khi gặp may hoặc xui."
+    register: informal
+    dialogue:
+      - { speaker: "Mai", de: "Der Bus kommt nicht!", vi: "Xe buýt không đến!" }
+      - { speaker: "Minh", de: "Kein Glück! Aber da ist ein Taxi. – So ein Glück!", vi: "Xui quá! Nhưng kia có taxi. – May quá!" }
+  - id: a1-k03-l03-r03
+    de: "Jetzt aber schnell!"
+    vi: "Giờ thì nhanh lên!"
+    context_vi: "Giục nhau khi trễ giờ."
+    register: informal
+    dialogue:
+      - { speaker: "Paul", de: "Die U-Bahn fährt in zwei Minuten!", vi: "Tàu điện ngầm chạy trong hai phút nữa!" }
+      - { speaker: "Lisa", de: "Jetzt aber schnell!", vi: "Giờ thì nhanh lên!" }
+pronunciation:
+  - id: a1-k03-l03-p01
+    focus_vi: "Chữ viết tắt U-Bahn, S-Bahn và cụm phụ âm"
+    explanation_vi: "U-Bahn đọc [ˈuːˌbaːn], S-Bahn đọc [ˈɛsˌbaːn] (theo tên chữ cái). Chú ý cụm phụ âm: jetzt [jɛtst], schnell [ʃnɛl], Flugzeug [ˈfluːkˌtsɔɪ̯k]."
+    examples:
+      - { de: "die U-Bahn", vi: "tàu điện ngầm", ipa: "[ˈuːˌbaːn]" }
+      - { de: "jetzt", vi: "bây giờ", ipa: "[jɛtst]" }
+    practice_vi: "Đọc nhanh 3 lần: Jetzt aber schnell zur U-Bahn!"
+examples:
+  - { de: "Heute fährt kein Bus.", vi: "Hôm nay không có xe buýt." }
+  - { de: "Ich habe keine Fahrkarte!", vi: "Tôi không có vé!" }
+  - { de: "Das ist kein Zug, das ist eine S-Bahn.", vi: "Đó không phải tàu hỏa, đó là tàu S-Bahn." }
+  - { de: "Der Bus kommt nicht. Also gehe ich zu Fuß.", vi: "Xe buýt không đến. Vậy tôi đi bộ." }
+  - { de: "Die U-Bahn ist schnell, aber heute ist sie nicht pünktlich.", vi: "Tàu điện ngầm nhanh, nhưng hôm nay nó không đúng giờ." }
+skills:
+  listening:
+    - id: a1-k03-l03-listen-01
+      title_vi: "Một buổi sáng không may"
+      situation_vi: "Pia kể với bạn về buổi sáng tồi tệ."
+      audio: { status: pending-tts, speed: slow }
+      script:
+        - { speaker: "Pia", de: "Heute habe ich kein Glück! Ich habe einen Test um neun Uhr. Aber der Bus kommt nicht.", vi: "Hôm nay mình xui quá! Mình có bài kiểm tra lúc 9 giờ. Nhưng xe buýt không đến." }
+        - { speaker: "Freund", de: "Und die U-Bahn?", vi: "Thế còn tàu điện ngầm?" }
+        - { speaker: "Pia", de: "Heute fährt keine U-Bahn! Und ich habe kein Fahrrad.", vi: "Hôm nay không có tàu điện ngầm! Và mình không có xe đạp." }
+        - { speaker: "Freund", de: "Und ein Taxi?", vi: "Thế còn taxi?" }
+        - { speaker: "Pia", de: "Ich habe kein Geld! Also gehe ich zu Fuß. Jetzt aber schnell!", vi: "Mình không có tiền! Vậy mình đi bộ. Giờ thì nhanh lên!" }
+      exercises: [a1-k03-l03-ex04]
+  reading:
+    - id: a1-k03-l03-read-01
+      title_vi: "Truyện tranh: Kein Glück?!"
+      text_type_vi: "Lời dẫn truyện tranh (4 tranh)"
+      text_de: |
+        Bild 1: Tom ist am Bahnhof. Er hat keine Fahrkarte.
+        Bild 2: Der Fahrkartenautomat ist kaputt. Kein Glück!
+        Bild 3: Da kommt eine Frau. Sie hat zwei Fahrkarten.
+        Bild 4: „Hier, bitte!“ – „Danke! So ein Glück!“
+      translation_vi: |
+        Tranh 1: Tom ở nhà ga. Anh ấy không có vé.
+        Tranh 2: Máy bán vé bị hỏng. Xui quá!
+        Tranh 3: Một người phụ nữ đi tới. Cô ấy có hai chiếc vé.
+        Tranh 4: “Đây, của anh!” – “Cảm ơn! May quá!”
+      glossary:
+        - { de: "der Fahrkartenautomat", vi: "máy bán vé tự động" }
+        - { de: "kaputt", vi: "hỏng" }
+      exercises: [a1-k03-l03-ex05]
+  speaking:
+    - id: a1-k03-l03-speak-01
+      title_vi: "Kể chuyện: ngày không may của tôi"
+      task_vi: "Kể 4–5 câu về một buổi sáng không may (thật hoặc tưởng tượng), dùng kein/keine và nicht."
+      steps_vi:
+        - "Bạn muốn đi đâu? (Ich fahre heute nach … / zum …)"
+        - "Có vấn đề gì? (Der Bus kommt nicht. Ich habe keine Fahrkarte …)"
+        - "Kết thúc thế nào? (Also gehe ich zu Fuß. / So ein Glück!)"
+      model:
+        - { speaker: "Huy", de: "Heute habe ich kein Glück. Der Bus kommt nicht. Ich habe kein Auto und kein Fahrrad. Also gehe ich zu Fuß. Ich bin nicht pünktlich!", vi: "Hôm nay tôi xui quá. Xe buýt không đến. Tôi không có ô tô, không có xe đạp. Vậy tôi đi bộ. Tôi không đúng giờ!" }
+      exercises: [a1-k03-l03-ex08]
+  writing:
+    - id: a1-k03-l03-write-01
+      title_vi: "Tin nhắn báo đến muộn"
+      task_vi: "Viết tin nhắn (3–4 câu) cho bạn: bạn đến muộn vì có vấn đề với phương tiện."
+      model_de: "Hallo Lisa! Heute fährt keine U-Bahn. Ich habe kein Fahrrad. Ich komme zu Fuß – circa 20 Minuten. Sorry!"
+      model_vi: "Chào Lisa! Hôm nay không có tàu điện ngầm. Mình không có xe đạp. Mình đi bộ đến – khoảng 20 phút. Xin lỗi nhé!"
+      checklist_vi:
+        - "Có ít nhất 2 câu với kein/keine."
+        - "Phương tiện có mạo từ đúng."
+      exercises: [a1-k03-l03-ex09]
+exercises:
+  - id: a1-k03-l03-ex01
+    type: matching
+    skill: vocabulary
+    objectives: [o1]
+    difficulty: 1
+    instructions_vi: "Nối phương tiện với nghĩa tiếng Việt."
+    items:
+      - id: q1
+        pairs:
+          - { left: "der Bus", right: "xe buýt" }
+          - { left: "die U-Bahn", right: "tàu điện ngầm" }
+          - { left: "die Straßenbahn", right: "tàu điện mặt đất" }
+          - { left: "das Fahrrad", right: "xe đạp" }
+          - { left: "das Flugzeug", right: "máy bay" }
+          - { left: "der Zug", right: "tàu hỏa" }
+        explanation_vi: "Phương tiện giao thông thường gặp."
+  - id: a1-k03-l03-ex02
+    type: gap-fill
+    skill: grammar
+    objectives: [o2]
+    difficulty: 1
+    instructions_vi: "Điền kein hoặc keine."
+    items:
+      - { id: q1, prompt: "Heute fährt ___ Bus.", answer: ["kein"], explanation_vi: "der Bus → kein." }
+      - { id: q2, prompt: "Ich habe ___ Fahrkarte.", answer: ["keine"], explanation_vi: "die Fahrkarte → keine." }
+      - { id: q3, prompt: "Das ist ___ Flugzeug.", answer: ["kein"], explanation_vi: "das Flugzeug → kein." }
+      - { id: q4, prompt: "Hier sind ___ Taxis.", answer: ["keine"], explanation_vi: "Số nhiều → keine." }
+  - id: a1-k03-l03-ex03
+    type: multiple-choice
+    skill: grammar
+    objectives: [o3]
+    difficulty: 2
+    instructions_vi: "kein/keine hay nicht?"
+    items:
+      - { id: q1, prompt: "Der Zug kommt ___.", options: ["nicht", "kein", "keine"], answer: "nicht", explanation_vi: "Phủ định động từ." }
+      - { id: q2, prompt: "Ich habe ___ Geld.", options: ["nicht", "kein", "keine"], answer: "kein", explanation_vi: "das Geld (không mạo từ) → kein." }
+      - { id: q3, prompt: "Die U-Bahn ist heute ___ schnell.", options: ["nicht", "kein", "keine"], answer: "nicht", explanation_vi: "Phủ định tính từ." }
+      - { id: q4, prompt: "Das ist ___ Straßenbahn.", options: ["nicht", "kein", "keine"], answer: "keine", explanation_vi: "die Straßenbahn → keine." }
+  - id: a1-k03-l03-ex04
+    type: true-false
+    skill: listening
+    objectives: [o2, o4]
+    difficulty: 2
+    stimulus: a1-k03-l03-listen-01
+    instructions_vi: "Nghe Pia kể. Đúng hay sai?"
+    items:
+      - { id: q1, prompt: "Pia có bài kiểm tra lúc 9 giờ.", answer: true, explanation_vi: "„Ich habe einen Test um neun Uhr.“" }
+      - { id: q2, prompt: "Pia có xe đạp.", answer: false, explanation_vi: "„… ich habe kein Fahrrad.“" }
+      - { id: q3, prompt: "Pia đi taxi.", answer: false, explanation_vi: "Không có tiền → „Also gehe ich zu Fuß.“" }
+  - id: a1-k03-l03-ex05
+    type: ordering
+    skill: reading
+    objectives: [o4]
+    difficulty: 2
+    stimulus: a1-k03-l03-read-01
+    instructions_vi: "Đọc truyện tranh. Sắp xếp các từ thành câu đúng theo truyện."
+    items:
+      - { id: q1, tokens: ["keine", "hat", "Er", "Fahrkarte"], answer: "Er hat keine Fahrkarte.", explanation_vi: "Tranh 1." }
+      - { id: q2, tokens: ["Fahrkarten", "hat", "zwei", "Sie"], answer: "Sie hat zwei Fahrkarten.", explanation_vi: "Tranh 3: người phụ nữ có hai vé." }
+  - id: a1-k03-l03-ex06
+    type: sentence-building
+    skill: grammar
+    objectives: [o2]
+    difficulty: 2
+    instructions_vi: "Viết câu phủ định với kein/keine."
+    items:
+      - { id: q1, prompt: "Das ist ein Bus. (phủ định)", answer: "Das ist kein Bus.", explanation_vi: "ein → kein." }
+      - { id: q2, prompt: "Ich habe eine Fahrkarte. (phủ định)", answer: "Ich habe keine Fahrkarte.", explanation_vi: "eine → keine." }
+      - { id: q3, prompt: "Das sind Fahrräder. (phủ định)", answer: "Das sind keine Fahrräder.", explanation_vi: "Số nhiều → keine." }
+  - id: a1-k03-l03-ex07
+    type: translation
+    skill: grammar
+    objectives: [o2, o3]
+    difficulty: 2
+    direction: vi-de
+    instructions_vi: "Dịch sang tiếng Đức."
+    items:
+      - { id: q1, prompt: "Hôm nay không có xe buýt.", answer: "Heute fährt kein Bus.", accept: ["Heute kommt kein Bus."], explanation_vi: "kein Bus." }
+      - { id: q2, prompt: "Tàu không đến.", answer: "Der Zug kommt nicht.", explanation_vi: "Phủ định động từ → nicht." }
+      - { id: q3, prompt: "Tôi đi bộ.", answer: "Ich gehe zu Fuß.", explanation_vi: "zu Fuß gehen." }
+  - id: a1-k03-l03-ex08
+    type: speaking
+    skill: speaking
+    objectives: [o4, o2, o3]
+    difficulty: 2
+    grading: self
+    instructions_vi: "Ghi âm câu chuyện ngày không may của bạn (phần Nói)."
+    rubric:
+      - { criterion_vi: "Có ít nhất 2 câu với kein/keine và 1 câu với nicht, dùng đúng", points: 3 }
+      - { criterion_vi: "Câu chuyện có mở đầu – vấn đề – kết thúc", points: 1 }
+    items:
+      - { id: q1, prompt: "Ngày không may của tôi", model_answer: "Heute habe ich kein Glück. Der Bus kommt nicht. Ich habe kein Auto und kein Fahrrad. Also gehe ich zu Fuß. Ich bin nicht pünktlich!", explanation_vi: "So sánh với mẫu ở phần Nói." }
+  - id: a1-k03-l03-ex09
+    type: writing
+    skill: writing
+    objectives: [o2, o1]
+    difficulty: 1
+    grading: self
+    instructions_vi: "Viết tin nhắn báo đến muộn (phần Viết)."
+    rubric:
+      - { criterion_vi: "Có 2 câu với kein/keine đúng", points: 2 }
+      - { criterion_vi: "Có lời chào, lý do, thời gian", points: 1 }
+    items:
+      - { id: q1, prompt: "Tin nhắn báo đến muộn", model_answer: "Hallo Lisa! Heute fährt keine U-Bahn. Ich habe kein Fahrrad. Ich komme zu Fuß – circa 20 Minuten. Sorry!", explanation_vi: "So sánh với mẫu." }
+summary_vi: "Phương tiện: der Bus, der Zug, die U-Bahn, die S-Bahn, die Straßenbahn, das Fahrrad, das Flugzeug, das Auto, das Taxi; zu Fuß gehen. Phủ định danh từ: kein (der/das), keine (die, số nhiều). nicht cho động từ, tính từ: Der Bus kommt nicht."
+self_check:
+  - "Tôi gọi tên được 8 phương tiện giao thông kèm mạo từ."
+  - "Tôi dùng đúng kein/keine để phủ định danh từ."
+  - "Tôi phân biệt được kein và nicht."
+  - "Tôi kể được một câu chuyện ngắn về ngày không may."

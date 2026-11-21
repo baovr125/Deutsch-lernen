@@ -1,0 +1,98 @@
+id: g-a1-negation-kein
+level: A1
+title_de: "Der Negationsartikel kein, keine – und nicht"
+title_vi: "Phủ định danh từ với kein/keine (so sánh với nicht)"
+introduced_in: a1-k03-l03
+source:
+  type: netzwerk-neu
+  kapitel: 3
+  sections: ["Kein Glück?!"]
+  note_vi: "Tương ứng Grammatik „Negationsartikel: kein, keine“ của Kapitel 3."
+prerequisites: [g-a1-unbestimmter-artikel]
+explanation_vi: |
+  Ở Kapitel 1 bạn đã dùng **nicht** để phủ định: *Ich verstehe das nicht.*
+  Nhưng khi phủ định một **danh từ đi với ein/eine** (hoặc danh từ không có mạo từ), tiếng Đức dùng **kein/keine**:
+
+  | Khẳng định | Phủ định |
+  |---|---|
+  | Das ist **ein** Bus. | Das ist **kein** Bus. |
+  | Das ist **eine** U-Bahn. | Das ist **keine** U-Bahn. |
+  | Ich habe Zeit. (không mạo từ) | Ich habe **keine** Zeit. |
+  | Das sind Fahrräder. (số nhiều) | Das sind **keine** Fahrräder. |
+
+  **Mẹo:** kein = **k + ein**. Đuôi giống ein/eine: *kein* (der, das), *keine* (die, số nhiều).
+
+  **nicht hay kein?**
+  - **kein** phủ định **danh từ** có ein/eine hoặc không có mạo từ.
+  - **nicht** phủ định **động từ, tính từ, danh từ có der/die/das, tên riêng**:
+    *Der Bus kommt **nicht**. Die U-Bahn ist **nicht** schnell. Das ist **nicht** der Bus nach Altona. Das ist **nicht** Paul.*
+usage_vi: "Dùng khi nói không có/không phải một thứ gì: Heute fährt kein Bus. Ich habe keine Fahrkarte. Đây là một trong những cấu trúc người học A1 hay sai nhất."
+structure:
+  - pattern: "Das ist kein/keine + danh từ."
+    example_de: "Das ist kein Zug, das ist eine S-Bahn."
+    example_vi: "Đó không phải tàu hỏa, đó là tàu S-Bahn."
+  - pattern: "Subjekt + Verb + kein/keine + danh từ."
+    example_de: "Ich habe keine Fahrkarte."
+    example_vi: "Tôi không có vé."
+rules:
+  - rule_vi: "ein → kein, eine → keine. Số nhiều và danh từ không mạo từ → keine (hoặc kein với danh từ giống đực/trung không đếm được)."
+    examples:
+      - { de: "Das ist kein Taxi. Das ist keine Straßenbahn.", vi: "Đó không phải taxi. Đó không phải tàu điện." }
+      - { de: "Das sind keine Busse.", vi: "Đó không phải là những chiếc xe buýt." }
+  - rule_vi: "nicht phủ định động từ, tính từ, tên riêng và danh từ có der/die/das."
+    examples:
+      - { de: "Der Bus kommt nicht.", vi: "Xe buýt không đến." }
+      - { de: "Das ist nicht die U-Bahn nach Altona.", vi: "Đó không phải tàu điện ngầm đi Altona." }
+  - rule_vi: "Câu trả lời “không” cho câu hỏi với ein/eine dùng kein/keine."
+    examples:
+      - { de: "Ist das ein Bus? – Nein, das ist kein Bus.", vi: "Đó có phải xe buýt không? – Không, đó không phải xe buýt." }
+tables:
+  - title_vi: "kein/keine (Nominativ)"
+    columns: ["Giống", "ein-Form", "kein-Form"]
+    rows:
+      - ["đực (m)", "ein Bus", "kein Bus"]
+      - ["trung (n)", "ein Fahrrad", "kein Fahrrad"]
+      - ["cái (f)", "eine Fahrkarte", "keine Fahrkarte"]
+      - ["số nhiều", "– Fahrräder", "keine Fahrräder"]
+examples:
+  - { de: "Heute fährt kein Bus.", vi: "Hôm nay không có xe buýt nào chạy." }
+  - { de: "Ich habe keine Fahrkarte!", vi: "Tôi không có vé!" }
+  - { de: "Kein Bus? Also gehen wir zu Fuß.", vi: "Không có xe buýt à? Vậy mình đi bộ." }
+  - { de: "Die S-Bahn ist nicht schnell.", vi: "Tàu S-Bahn không nhanh." }
+  - { de: "Hamburg hat kein Meer, aber einen Hafen.", vi: "Hamburg không có biển, nhưng có cảng.", note_vi: "einen: Akkusativ – Kapitel 4." }
+common_mistakes:
+  - wrong: "Das ist nicht ein Bus."
+    right: "Das ist kein Bus."
+    explanation_vi: "Danh từ có ein → dùng kein, không dùng “nicht ein”."
+  - wrong: "Ich habe nicht Fahrkarte."
+    right: "Ich habe keine Fahrkarte."
+    explanation_vi: "Phủ định danh từ → keine. Người Việt hay dịch “không có” = “nicht haben”."
+  - wrong: "Der Bus kommt kein."
+    right: "Der Bus kommt nicht."
+    explanation_vi: "Phủ định động từ → nicht."
+comparison_vi: "So sánh nicht và kein: nicht ≈ “không” đứng với động từ/tính từ; kein ≈ “không … nào / không phải là một …” đứng trước danh từ. Tiếng Anh: not a / no (I have no ticket) ≈ kein."
+vietnamese_contrast_vi: "Tiếng Việt chỉ có “không” (và “không phải”) cho mọi trường hợp, đặt TRƯỚC động từ. Tiếng Đức chia hai từ: kein (trước danh từ) và nicht (thường đứng sau động từ, cuối câu). Khi định nói “không có …”, hãy nghĩ ngay đến kein."
+exercises:
+  - id: g-a1-negation-kein-ex01
+    type: gap-fill
+    skill: grammar
+    objectives: [r1, r3]
+    difficulty: 1
+    instructions_vi: "Điền kein hoặc keine."
+    items:
+      - { id: q1, prompt: "Das ist ___ Bus.", answer: ["kein"], explanation_vi: "der Bus → kein." }
+      - { id: q2, prompt: "Ich habe ___ Fahrkarte.", answer: ["keine"], explanation_vi: "die Fahrkarte → keine." }
+      - { id: q3, prompt: "Das ist ___ Fahrrad.", answer: ["kein"], explanation_vi: "das Fahrrad → kein." }
+      - { id: q4, prompt: "Das sind ___ Taxis.", answer: ["keine"], explanation_vi: "Số nhiều → keine." }
+  - id: g-a1-negation-kein-ex02
+    type: multiple-choice
+    skill: grammar
+    objectives: [r2]
+    difficulty: 2
+    instructions_vi: "nicht hay kein/keine?"
+    items:
+      - { id: q1, prompt: "Der Zug kommt ___.", options: ["nicht", "kein", "keine"], answer: "nicht", explanation_vi: "Phủ định động từ → nicht." }
+      - { id: q2, prompt: "Heute fährt ___ U-Bahn.", options: ["nicht", "kein", "keine"], answer: "keine", explanation_vi: "die U-Bahn → keine." }
+      - { id: q3, prompt: "Die Straßenbahn ist ___ schnell.", options: ["nicht", "kein", "keine"], answer: "nicht", explanation_vi: "Phủ định tính từ → nicht." }
+summary_vi: "kein/keine phủ định danh từ có ein/eine hoặc không mạo từ (kein Bus, keine Fahrkarte, keine Fahrräder). nicht phủ định động từ, tính từ, tên riêng, danh từ có der/die/das."
+next_level_note_vi: "keinen (Akkusativ, giống đực) học ở Kapitel 4: Ich habe keinen Stift."

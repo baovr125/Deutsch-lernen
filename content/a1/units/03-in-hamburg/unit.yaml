@@ -1,0 +1,31 @@
+id: a1-k03
+level: A1
+order: 3
+kind: kapitel
+title_de: "In Hamburg"
+title_vi: "Ở Hamburg"
+source:
+  type: netzwerk-neu
+  kapitel: 3
+  sections:
+    - "In Hamburg"
+    - "Die Taxifahrt"
+    - "Kein Glück?!"
+    - "Links, rechts, geradeaus"
+    - "Landeskunde: Events in Hamburg"
+    - "Landeskunde: Jahreszeiten in D-A-CH"
+    - "Film: Die Netzwerk-WG"
+    - "kurz und klar: Redemittel und Grammatik"
+  note_vi: "Trình tự và phạm vi theo Stoffverteilungsplan Netzwerk neu A1.1 (Kapitel 3, 10 UE) và Kapitelwortschatz. Thông tin về Hamburg trong bài đọc là thông tin phổ thông, viết lại hoàn toàn."
+summary_vi: "Tham quan thành phố: địa điểm trong thành phố, mạo từ không xác định ein/eine, phương tiện giao thông và phủ định kein/keine, chỉ đường với câu mệnh lệnh Sie, sự kiện văn hóa và từ quốc tế, tháng và mùa ở D-A-CH; lời chào vùng miền (Moin, Grüß Gott, Grüezi)."
+cefr: [A1.SI5, A1.H2, A1.H4, A1.L1, A1.L3, A1.L4, A1.SP1, A1.SP3, A1.S2]
+lessons: [a1-k03-l01, a1-k03-l02, a1-k03-l03, a1-k03-l04, a1-k03-l05, a1-k03-l06]
+review: a1-k03-review
+grammar_topics: [g-a1-unbestimmter-artikel, g-a1-negation-kein, g-a1-imperativ-sie]
+vocabulary_file: vocabulary/03-in-hamburg.csv
+estimated_minutes: 435
+status: ready
+not_covered_vi:
+  - "Film „Die Netzwerk-WG“ (Szene 6–7): không sử dụng video giáo trình."
+  - "Từ chỉ dùng trong bài tập của giáo trình (bilden, passend, doppelt, Konsonant, Vokal, klopfen, kreisen, würfeln, Start…) không đưa vào danh sách học; Konsonant/Vokal được giải thích trong phần phát âm."
+  - "Nội dung về các sự kiện cụ thể ở Hamburg trong giáo trình không được sao chép; bài đọc về sự kiện là văn bản tự viết."

@@ -1,0 +1,218 @@
+id: a1-k03-l06
+kind: lesson
+level: A1
+unit: a1-k03
+order: 6
+title_de: "Jahreszeiten in D-A-CH"
+title_vi: "Tháng và mùa ở Đức, Áo, Thụy Sĩ"
+topic_vi: "12 tháng, 4 mùa; im + tháng/mùa; hoạt động theo mùa"
+source:
+  type: netzwerk-neu
+  kapitel: 3
+  sections: ["Landeskunde: Jahreszeiten in D-A-CH"]
+  note_vi: "Sprachhandlungen: Monate auf Deutsch notieren; notieren, welche Aktivitäten die Personen machen; mit dem Wörterbuch arbeiten und ein Plakat zu den Jahreszeiten erstellen. Wortschatz: Jahreszeiten + Monate."
+cefr: [A1.H3, A1.H4, A1.SP2, A1.S2]
+objectives:
+  - { id: o1, vi: "Nói và viết đúng 12 tháng và 4 mùa (đều là der)." }
+  - { id: o2, vi: "Dùng im + tháng/mùa: im Januar, im Sommer." }
+  - { id: o3, vi: "Nói hoạt động mình làm theo mùa/tháng." }
+  - { id: o4, vi: "So sánh mùa ở D-A-CH với Việt Nam bằng câu đơn giản." }
+estimated_minutes: 65
+prerequisites: [a1-k03-l05]
+intro_vi: |
+  Ở Việt Nam, miền Bắc có bốn mùa, miền Nam chủ yếu có **mùa mưa** và **mùa khô**. Ở Đức, Áo, Thụy Sĩ có **bốn mùa rõ rệt**:
+  **der Frühling** (xuân), **der Sommer** (hè), **der Herbst** (thu), **der Winter** (đông).
+
+  Tin vui: tên 12 tháng tiếng Đức **rất giống tiếng Anh** (*Januar, Februar, März…*) – và tất cả đều là **der**.
+  “Vào tháng … / vào mùa …” = **im** + tháng/mùa: *im Mai, im Winter*.
+vocabulary:
+  file: vocabulary/03-in-hamburg.csv
+  new: [a1-k03-v093, a1-k03-v094, a1-k03-v095, a1-k03-v096, a1-k03-v097, a1-k03-v098, a1-k03-v099, a1-k03-v100, a1-k03-v101, a1-k03-v102, a1-k03-v103, a1-k03-v104, a1-k03-v105, a1-k03-v106, a1-k03-v107, a1-k03-v108, a1-k03-v109, a1-k03-v110, a1-k03-v111, a1-k03-v112, a1-k03-v113]
+  review: [a1-k02-v015, a1-k02-v014, a1-k02-v006, a1-k03-v081, a1-k03-v038, a1-k02-v122]
+grammar:
+  topics: []
+  notes:
+    - title_vi: "am – im: ngày dùng am, tháng và mùa dùng im"
+      explanation_vi: "am + ngày trong tuần (am Montag, am Wochenende – Kapitel 2); im + tháng/mùa (im Januar, im Sommer). im = in dem."
+      examples:
+        - { de: "Am Samstag schwimme ich.", vi: "Thứ Bảy tôi đi bơi." }
+        - { de: "Im Sommer schwimme ich im See.", vi: "Mùa hè tôi bơi ở hồ." }
+redemittel:
+  - id: a1-k03-l06-r01
+    de: "Im … mache ich gern …"
+    vi: "Vào tháng/mùa … tôi thích …"
+    context_vi: "Nói hoạt động theo mùa."
+    register: neutral
+    dialogue:
+      - { speaker: "Lukas", de: "Im Winter fahre ich gern Ski. Und du?", vi: "Mùa đông mình thích trượt tuyết. Còn bạn?" }
+      - { speaker: "Lan", de: "Im Winter? Ich bleibe zu Hause und lese!", vi: "Mùa đông à? Mình ở nhà đọc sách!" }
+  - id: a1-k03-l06-r02
+    de: "Welche Jahreszeit magst du? – Ich mag den Frühling."
+    vi: "Bạn thích mùa nào? – Tôi thích mùa xuân."
+    context_vi: "Hỏi và nói mùa yêu thích (mögen học kỹ ở Kapitel 4 – ở đây học như cụm)."
+    register: informal
+    dialogue:
+      - { speaker: "Anna", de: "Welche Jahreszeit magst du?", vi: "Bạn thích mùa nào?" }
+      - { speaker: "Huy", de: "Ich mag den Herbst. Er ist schön.", vi: "Mình thích mùa thu. Mùa thu đẹp." }
+pronunciation:
+  - id: a1-k03-l06-p01
+    focus_vi: "Tên tháng và mùa"
+    explanation_vi: "Trọng âm: JA-nu-ar, FE-bru-ar, MÄRZ, a-PRIL, MAI, JU-ni, JU-li, au-GUST, sep-TEM-ber, ok-TO-ber, no-VEM-ber, de-ZEM-ber. Juni/Juli dễ nhầm: khi gọi điện, người Đức hay nói „Juno“ và „Julei“. Herbst [hɛʁpst]: cụm phụ âm cuối -rbst đọc rõ."
+    examples:
+      - { de: "Juni – Juli", vi: "tháng Sáu – tháng Bảy", ipa: "[ˈjuːni] – [ˈjuːli]" }
+      - { de: "der Herbst", vi: "mùa thu", ipa: "[hɛʁpst]" }
+    practice_vi: "Đọc 12 tháng theo thứ tự, rồi đọc tháng sinh của bạn và của 2 người thân."
+examples:
+  - { de: "Ein Jahr hat zwölf Monate und vier Jahreszeiten.", vi: "Một năm có mười hai tháng và bốn mùa." }
+  - { de: "Im Dezember gibt es Weihnachtsmärkte.", vi: "Tháng Mười Hai có chợ Giáng sinh." }
+  - { de: "Im Frühling gehe ich gern in den Park.", vi: "Mùa xuân tôi thích đi công viên." }
+  - { de: "In Vietnam ist es im Juli sehr heiß.", vi: "Ở Việt Nam tháng Bảy rất nóng." }
+  - { de: "Wir machen ein Plakat über die Jahreszeiten.", vi: "Chúng ta làm áp phích về các mùa." }
+skills:
+  listening:
+    - id: a1-k03-l06-listen-01
+      title_vi: "Mùa yêu thích của tôi"
+      situation_vi: "Ba người ở D-A-CH nói về mùa và hoạt động yêu thích."
+      audio: { status: pending-tts, speed: slow }
+      script:
+        - { speaker: "Lukas (Innsbruck)", de: "Ich wohne in Innsbruck, in Österreich. Im Winter fahre ich jedes Wochenende Ski. Der Winter ist super!", vi: "Mình sống ở Innsbruck, Áo. Mùa đông cuối tuần nào mình cũng trượt tuyết. Mùa đông tuyệt lắm!" }
+        - { speaker: "Nina (Zürich)", de: "Im Sommer schwimme ich gern im See. Im Juli und im August ist der Zürichsee toll.", vi: "Mùa hè mình thích bơi ở hồ. Tháng Bảy và tháng Tám hồ Zürich tuyệt vời." }
+        - { speaker: "Jan (Hamburg)", de: "Ich mag den Herbst. Im Oktober joggt man in Hamburg gern an der Alster.", vi: "Mình thích mùa thu. Tháng Mười ở Hamburg người ta hay chạy bộ quanh hồ Alster." }
+      exercises: [a1-k03-l06-ex03]
+  reading:
+    - id: a1-k03-l06-read-01
+      title_vi: "Lịch sự kiện trong năm"
+      text_type_vi: "Lịch (Kalender)"
+      text_de: |
+        Januar: Skifahren in Österreich
+        April: Ostern
+        Juni: Musikfestivals im Park
+        September/Oktober: Oktoberfest in München
+        Dezember: Weihnachtsmärkte in Deutschland, Österreich und der Schweiz
+      translation_vi: |
+        Tháng Một: Trượt tuyết ở Áo
+        Tháng Tư: Lễ Phục sinh
+        Tháng Sáu: Lễ hội âm nhạc trong công viên
+        Tháng Chín/Mười: Lễ hội Oktoberfest ở München
+        Tháng Mười Hai: Chợ Giáng sinh ở Đức, Áo và Thụy Sĩ
+      glossary:
+        - { de: "(das) Ostern", vi: "Lễ Phục sinh (tháng 3 hoặc 4, tùy năm)" }
+        - { de: "der Weihnachtsmarkt, die Weihnachtsmärkte", vi: "chợ Giáng sinh" }
+        - { de: "Ski fahren / das Skifahren", vi: "trượt tuyết" }
+      exercises: [a1-k03-l06-ex04]
+  speaking:
+    - id: a1-k03-l06-speak-01
+      title_vi: "Mùa ở Việt Nam và ở D-A-CH"
+      task_vi: "Nói 4–5 câu: mùa/tháng bạn thích, bạn làm gì vào mùa đó, và so sánh đơn giản với Việt Nam."
+      steps_vi:
+        - "Ich mag den … / Im … mache ich gern …"
+        - "In Vietnam ist es im … (sehr) heiß/kalt."
+      model:
+        - { speaker: "Mai", de: "Ich mag den Frühling. Im April und im Mai gehe ich gern in den Park. In Vietnam ist es im Mai sehr heiß. In Deutschland ist es im Mai schön.", vi: "Tôi thích mùa xuân. Tháng Tư và tháng Năm tôi thích đi công viên. Ở Việt Nam tháng Năm rất nóng. Ở Đức tháng Năm thời tiết đẹp." }
+      exercises: [a1-k03-l06-ex07]
+  writing:
+    - id: a1-k03-l06-write-01
+      title_vi: "Áp phích: Một năm của tôi"
+      task_vi: "Viết nội dung cho áp phích (4 dòng): mỗi mùa một câu – bạn làm gì vào mùa đó."
+      model_de: "Im Frühling gehe ich in den Park. Im Sommer schwimme ich. Im Herbst lese ich viel. Im Winter koche ich gern."
+      model_vi: "Mùa xuân tôi đi công viên. Mùa hè tôi đi bơi. Mùa thu tôi đọc sách nhiều. Mùa đông tôi thích nấu ăn."
+      checklist_vi:
+        - "Mỗi câu bắt đầu bằng Im + mùa."
+        - "Động từ ở vị trí 2, chủ ngữ ngay sau (Im Sommer schwimme ich)."
+      exercises: [a1-k03-l06-ex08]
+exercises:
+  - id: a1-k03-l06-ex01
+    type: ordering
+    skill: vocabulary
+    objectives: [o1]
+    difficulty: 1
+    instructions_vi: "Sắp xếp các tháng theo thứ tự (cách nhau bằng dấu cách)."
+    items:
+      - { id: q1, tokens: ["Mai", "Januar", "April", "März", "Februar"], answer: "Januar Februar März April Mai", explanation_vi: "Tháng 1 → tháng 5." }
+      - { id: q2, tokens: ["Dezember", "Oktober", "September", "November"], answer: "September Oktober November Dezember", explanation_vi: "Tháng 9 → tháng 12." }
+  - id: a1-k03-l06-ex02
+    type: gap-fill
+    skill: grammar
+    objectives: [o2]
+    difficulty: 1
+    instructions_vi: "Điền am hoặc im."
+    items:
+      - { id: q1, prompt: "___ Sommer schwimme ich.", answer: ["Im"], explanation_vi: "Mùa → im." }
+      - { id: q2, prompt: "___ Montag arbeite ich.", answer: ["Am"], explanation_vi: "Ngày → am." }
+      - { id: q3, prompt: "Das Festival ist ___ Juni.", answer: ["im"], explanation_vi: "Tháng → im." }
+      - { id: q4, prompt: "___ Wochenende fahre ich Ski.", answer: ["Am"], explanation_vi: "am Wochenende." }
+  - id: a1-k03-l06-ex03
+    type: multiple-choice
+    skill: listening
+    objectives: [o3]
+    difficulty: 2
+    stimulus: a1-k03-l06-listen-01
+    instructions_vi: "Nghe ba người. Mỗi người thích mùa nào?"
+    items:
+      - { id: q1, prompt: "Lukas", options: ["Sommer", "Winter", "Herbst"], answer: "Winter", explanation_vi: "„Der Winter ist super!“" }
+      - { id: q2, prompt: "Nina", options: ["Sommer", "Frühling", "Winter"], answer: "Sommer", explanation_vi: "„Im Sommer schwimme ich gern im See.“" }
+      - { id: q3, prompt: "Jan", options: ["Herbst", "Sommer", "Frühling"], answer: "Herbst", explanation_vi: "„Ich mag den Herbst.“" }
+  - id: a1-k03-l06-ex04
+    type: true-false
+    skill: reading
+    objectives: [o1, o2]
+    difficulty: 1
+    stimulus: a1-k03-l06-read-01
+    instructions_vi: "Đọc lịch sự kiện. Đúng hay sai?"
+    items:
+      - { id: q1, prompt: "Chợ Giáng sinh vào tháng Mười Hai.", answer: true, explanation_vi: "Dezember: Weihnachtsmärkte." }
+      - { id: q2, prompt: "Oktoberfest chỉ diễn ra vào tháng Mười.", answer: false, explanation_vi: "September/Oktober – bắt đầu từ tháng Chín." }
+      - { id: q3, prompt: "Lễ hội âm nhạc trong công viên vào tháng Sáu.", answer: true, explanation_vi: "Juni: Musikfestivals im Park." }
+  - id: a1-k03-l06-ex05
+    type: matching
+    skill: vocabulary
+    objectives: [o1]
+    difficulty: 1
+    instructions_vi: "Nối mùa với nghĩa tiếng Việt."
+    items:
+      - id: q1
+        pairs:
+          - { left: "der Frühling", right: "mùa xuân" }
+          - { left: "der Sommer", right: "mùa hè" }
+          - { left: "der Herbst", right: "mùa thu" }
+          - { left: "der Winter", right: "mùa đông" }
+        explanation_vi: "Bốn mùa đều là der."
+  - id: a1-k03-l06-ex06
+    type: translation
+    skill: vocabulary
+    objectives: [o2, o3]
+    difficulty: 2
+    direction: vi-de
+    instructions_vi: "Dịch sang tiếng Đức."
+    items:
+      - { id: q1, prompt: "Mùa hè tôi đi bơi.", answer: "Im Sommer schwimme ich.", accept: ["Ich schwimme im Sommer."], explanation_vi: "Im Sommer (1) – schwimme (2) – ich." }
+      - { id: q2, prompt: "Tôi thích mùa thu.", answer: "Ich mag den Herbst.", explanation_vi: "Cụm „Ich mag den …“ (Redemittel của bài); mögen học kỹ ở Kapitel 4." }
+  - id: a1-k03-l06-ex07
+    type: speaking
+    skill: speaking
+    objectives: [o3, o4]
+    difficulty: 2
+    grading: self
+    instructions_vi: "Ghi âm phần so sánh mùa (phần Nói)."
+    rubric:
+      - { criterion_vi: "Nói mùa/tháng yêu thích và hoạt động", points: 2 }
+      - { criterion_vi: "Dùng đúng im + tháng/mùa; động từ ở vị trí 2", points: 2 }
+    items:
+      - { id: q1, prompt: "Mùa ở Việt Nam và ở D-A-CH", model_answer: "Ich mag den Frühling. Im April und im Mai gehe ich gern in den Park. In Vietnam ist es im Mai sehr heiß. In Deutschland ist es im Mai schön.", explanation_vi: "So sánh với mẫu." }
+  - id: a1-k03-l06-ex08
+    type: writing
+    skill: writing
+    objectives: [o2, o3]
+    difficulty: 1
+    grading: self
+    instructions_vi: "Viết nội dung áp phích “Một năm của tôi” (phần Viết)."
+    rubric:
+      - { criterion_vi: "4 câu cho 4 mùa, im đúng", points: 2 }
+      - { criterion_vi: "Đảo chủ ngữ đúng: Im Sommer schwimme ich", points: 2 }
+    items:
+      - { id: q1, prompt: "Một năm của tôi", model_answer: "Im Frühling gehe ich in den Park. Im Sommer schwimme ich. Im Herbst lese ich viel. Im Winter koche ich gern.", explanation_vi: "Khi Im + mùa đứng đầu, động từ ở vị trí 2 và chủ ngữ ra sau (quy tắc học kỹ ở Kapitel 4)." }
+summary_vi: "12 tháng và 4 mùa đều là der. im + tháng/mùa (im Mai, im Winter); am + ngày (am Montag). Khi im + mùa đứng đầu câu: Im Sommer schwimme ich (động từ vẫn ở vị trí 2)."
+self_check:
+  - "Tôi nói được 12 tháng và 4 mùa."
+  - "Tôi dùng đúng im và am."
+  - "Tôi nói được hoạt động yêu thích theo mùa."

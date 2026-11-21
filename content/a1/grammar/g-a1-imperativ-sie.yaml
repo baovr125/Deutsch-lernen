@@ -1,0 +1,98 @@
+id: g-a1-imperativ-sie
+level: A1
+title_de: "Der Imperativ mit Sie"
+title_vi: "Câu mệnh lệnh, yêu cầu lịch sự với Sie"
+introduced_in: a1-k03-l04
+source:
+  type: netzwerk-neu
+  kapitel: 3
+  sections: ["Links, rechts, geradeaus"]
+  note_vi: "Tương ứng Grammatik „Imperativ mit Sie“ của Kapitel 3."
+prerequisites: [g-a1-ja-nein-frage]
+explanation_vi: |
+  **Câu mệnh lệnh (Imperativ)** dùng để **yêu cầu, chỉ dẫn, khuyên** ai đó làm gì. Bạn đã gặp từ phần nhập môn:
+  *Hören Sie. Lesen Sie.*
+
+  **Cấu tạo với Sie:** ĐỘNG TỪ (dạng nguyên mẫu, đứng ĐẦU câu) + **Sie** + phần còn lại + **!** hoặc **.**
+
+  | Câu kể | Câu mệnh lệnh |
+  |---|---|
+  | Sie gehen geradeaus. | **Gehen Sie** geradeaus! |
+  | Sie fahren links. | **Fahren Sie** links! |
+  | Sie nehmen den Bus. | **Nehmen Sie** den Bus! |
+
+  Trông giống câu hỏi có/không (*Gehen Sie geradeaus?*) – khác ở **ngữ điệu** (xuống giọng) và **dấu câu** (! hoặc .).
+
+  **Lịch sự hơn:** thêm **bitte**: *Gehen Sie bitte geradeaus.* / *Bitte gehen Sie geradeaus.*
+
+  **Đặc biệt:** sein → **Seien Sie** …! (*Seien Sie pünktlich!* – Hãy đúng giờ!)
+
+  **Động từ tách** (aufstehen, ansehen…): phần tách đứng **cuối câu**: *Stehen Sie **auf**! Sehen Sie das Bild **an**!*
+usage_vi: "Chỉ đường, hướng dẫn, đề bài, yêu cầu trong tình huống trang trọng. Mệnh lệnh với du và ihr học ở Kapitel 8."
+structure:
+  - pattern: "Verb (nguyên mẫu) + Sie + … (+ bitte) !"
+    example_de: "Gehen Sie bitte zuerst geradeaus!"
+    example_vi: "Xin hãy đi thẳng trước!"
+  - pattern: "Verb + Sie + … + Präfix (động từ tách)"
+    example_de: "Stehen Sie bitte auf."
+    example_vi: "Xin hãy đứng dậy."
+rules:
+  - rule_vi: "Động từ (dạng nguyên mẫu) đứng đầu câu, ngay sau là Sie."
+    examples:
+      - { de: "Fahren Sie geradeaus!", vi: "Hãy lái thẳng!" }
+      - { de: "Zeigen Sie mir den Weg, bitte.", vi: "Xin hãy chỉ đường cho tôi." }
+  - rule_vi: "Thêm bitte để lịch sự hơn."
+    examples:
+      - { de: "Warten Sie bitte hier.", vi: "Xin hãy đợi ở đây." }
+  - rule_vi: "sein → Seien Sie; động từ tách: phần tách ở cuối câu."
+    examples:
+      - { de: "Seien Sie bitte leise.", vi: "Xin hãy giữ yên lặng." }
+      - { de: "Sehen Sie den Plan an.", vi: "Hãy xem bản đồ." }
+tables:
+  - title_vi: "Imperativ mit Sie"
+    columns: ["Nguyên mẫu", "Imperativ"]
+    rows:
+      - ["gehen", "Gehen Sie!"]
+      - ["fahren", "Fahren Sie!"]
+      - ["warten", "Warten Sie!"]
+      - ["sein", "Seien Sie!"]
+      - ["auf|stehen", "Stehen Sie auf!"]
+examples:
+  - { de: "Gehen Sie geradeaus und dann links.", vi: "Hãy đi thẳng rồi rẽ trái." }
+  - { de: "Nehmen Sie die U-Bahn!", vi: "Hãy đi tàu điện ngầm!", note_vi: "nehmen = lấy, đi (phương tiện)." }
+  - { de: "Fahren Sie bitte zum Bahnhof.", vi: "Xin lái đến nhà ga.", note_vi: "zum = zu dem (đến) – học ở Kapitel 7." }
+  - { de: "Fragen Sie im Hotel.", vi: "Hãy hỏi ở khách sạn." }
+common_mistakes:
+  - wrong: "Sie gehen geradeaus! (khi muốn ra lệnh)"
+    right: "Gehen Sie geradeaus!"
+    explanation_vi: "Câu mệnh lệnh: động từ đứng đầu."
+  - wrong: "Geht Sie links!"
+    right: "Gehen Sie links!"
+    explanation_vi: "Với Sie dùng dạng nguyên mẫu (-en)."
+  - wrong: "Sind Sie pünktlich!"
+    right: "Seien Sie pünktlich!"
+    explanation_vi: "sein có dạng mệnh lệnh đặc biệt: Seien Sie."
+comparison_vi: "So sánh với câu hỏi có/không: cùng trật tự (động từ – Sie), khác ngữ điệu và dấu câu. Gehen Sie geradeaus? ↗ (Ông có đi thẳng không?) – Gehen Sie geradeaus! ↘ (Hãy đi thẳng!)."
+vietnamese_contrast_vi: "Tiếng Việt ra lệnh lịch sự bằng “Xin hãy …”, “Mời …”, “… nhé”. Tiếng Đức: động từ lên đầu + Sie (+ bitte). Đừng quên Sie – thiếu Sie thì thành mệnh lệnh với du (thân mật, Kapitel 8)."
+exercises:
+  - id: g-a1-imperativ-sie-ex01
+    type: sentence-building
+    skill: grammar
+    objectives: [r1, r2]
+    difficulty: 1
+    instructions_vi: "Viết câu mệnh lệnh với Sie."
+    items:
+      - { id: q1, prompt: "geradeaus gehen", answer: "Gehen Sie geradeaus!", accept: ["Gehen Sie geradeaus.", "Gehen Sie bitte geradeaus!", "Gehen Sie bitte geradeaus."], explanation_vi: "Gehen Sie …" }
+      - { id: q2, prompt: "hier warten (+ bitte)", answer: "Warten Sie bitte hier!", accept: ["Warten Sie bitte hier.", "Bitte warten Sie hier."], explanation_vi: "Warten Sie bitte hier." }
+      - { id: q3, prompt: "links fahren", answer: "Fahren Sie links!", accept: ["Fahren Sie links."], explanation_vi: "Fahren Sie links." }
+  - id: g-a1-imperativ-sie-ex02
+    type: multiple-choice
+    skill: grammar
+    objectives: [r3]
+    difficulty: 2
+    instructions_vi: "Chọn dạng đúng."
+    items:
+      - { id: q1, prompt: "___ Sie bitte pünktlich!", options: ["Sind", "Seien", "Sein"], answer: "Seien", explanation_vi: "sein → Seien Sie." }
+      - { id: q2, prompt: "Câu nào đúng? (auf|stehen)", options: ["Aufstehen Sie!", "Stehen Sie auf!", "Stehen auf Sie!"], answer: "Stehen Sie auf!", explanation_vi: "Phần tách auf ở cuối câu." }
+summary_vi: "Imperativ mit Sie: động từ nguyên mẫu đứng đầu + Sie (+ bitte) + … ! Ví dụ: Gehen Sie geradeaus! Đặc biệt: Seien Sie …! Động từ tách: Stehen Sie auf!"
+next_level_note_vi: "Mệnh lệnh với du (Geh!) và ihr (Geht!) học ở Kapitel 8."

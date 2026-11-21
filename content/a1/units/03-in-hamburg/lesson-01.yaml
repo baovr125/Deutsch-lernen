@@ -1,0 +1,253 @@
+id: a1-k03-l01
+kind: lesson
+level: A1
+unit: a1-k03
+order: 1
+title_de: "In Hamburg"
+title_vi: "Tham quan Hamburg – các địa điểm trong thành phố"
+topic_vi: "Địa điểm trong thành phố, mô tả đơn giản (hoch, lang, breit), số đo"
+source:
+  type: netzwerk-neu
+  kapitel: 3
+  sections: ["In Hamburg"]
+  note_vi: "Sprachhandlungen: eine Stadttour verstehen und die Stationen den Fotos zuordnen; Wortschatz verstehen; Informationen ergänzen; Recherche: Stadt/Ort. Wortschatz: Orte in der Stadt."
+cefr: [A1.L1, A1.L3, A1.H4, A1.SP1]
+objectives:
+  - { id: o1, vi: "Gọi tên các địa điểm trong thành phố với mạo từ (der Bahnhof, die Kirche, das Rathaus…)." }
+  - { id: o2, vi: "Mô tả đơn giản bằng sein + tính từ và số đo: Der Turm ist 130 Meter hoch." }
+  - { id: o3, vi: "Hiểu thông tin chính trong một chuyến tham quan thành phố (nghe/đọc)." }
+  - { id: o4, vi: "Giới thiệu ngắn một thành phố mình biết." }
+estimated_minutes: 75
+prerequisites: [a1-k02-review]
+intro_vi: |
+  **Kapitel 3 đưa bạn đến Hamburg** – thành phố lớn thứ hai nước Đức, nằm bên **sông Elbe** và có **bến cảng** rất lớn.
+
+  Trong bài này, bạn tham gia một **chuyến tham quan thành phố (Stadttour)** và học tên các địa điểm:
+  *der Bahnhof, die Kirche, das Rathaus, der Hafen, die Brücke…* Nhớ học **kèm mạo từ**!
+
+  Bạn cũng học cách **mô tả**: *Der Turm ist hoch. Die Brücke ist lang. Der Fluss ist breit.*
+  Và nói số đo: *über 130 Meter hoch*, *circa 2 Stunden*.
+
+  **Động từ mới quan trọng:** *sehen* (nhìn thấy) – đổi nguyên âm: *du siehst, er sieht*.
+vocabulary:
+  file: vocabulary/03-in-hamburg.csv
+  new: [a1-k03-v001, a1-k03-v002, a1-k03-v003, a1-k03-v004, a1-k03-v005, a1-k03-v006, a1-k03-v007, a1-k03-v008, a1-k03-v009, a1-k03-v010, a1-k03-v011, a1-k03-v012, a1-k03-v013, a1-k03-v014, a1-k03-v015, a1-k03-v016, a1-k03-v017, a1-k03-v018, a1-k03-v019, a1-k03-v020, a1-k03-v021, a1-k03-v022, a1-k03-v023, a1-k03-v024, a1-k03-v025, a1-k03-v026, a1-k03-v027, a1-k03-v028, a1-k03-v029]
+  review: [a1-k01-v106, a1-k02-v125, a1-k02-v041, a1-k02-v054, a1-k02-v159, a1-k02-v134]
+grammar:
+  topics: []
+  notes:
+    - title_vi: "Mô tả với sein + tính từ"
+      explanation_vi: "Tiếng Đức mô tả bằng sein + tính từ (tính từ đứng cuối, không đổi đuôi): Der Turm ist hoch. Số đo đứng trước tính từ: 130 Meter hoch, 500 Meter lang. Chủ điểm sein + tính từ được học kỹ hơn ở Kapitel 9."
+      examples:
+        - { de: "Die Brücke ist 500 Meter lang.", vi: "Cây cầu dài 500 mét." }
+        - { de: "Die Elbe ist breit.", vi: "Sông Elbe rộng." }
+    - title_vi: "nach + thành phố: đi đến đâu"
+      explanation_vi: "Tàu xe đi đến một thành phố/nước (không mạo từ): nach + tên. Der Zug fährt nach Berlin. Đến từ đâu: aus (Kapitel 1)."
+      examples:
+        - { de: "Die Schiffe fahren nach Amerika.", vi: "Những con tàu đi đến châu Mỹ." }
+redemittel:
+  - id: a1-k03-l01-r01
+    de: "Da sehen Sie …"
+    vi: "Ở đó quý vị thấy …"
+    context_vi: "Hướng dẫn viên giới thiệu địa điểm trong chuyến tham quan."
+    register: formal
+    dialogue:
+      - { speaker: "Stadtführerin", de: "Und da sehen Sie das Rathaus.", vi: "Và ở đó quý vị thấy tòa thị chính." }
+      - { speaker: "Tourist", de: "Oh, das Rathaus ist sehr schön!", vi: "Ồ, tòa thị chính đẹp quá!" }
+  - id: a1-k03-l01-r02
+    de: "Wie hoch / lang ist …? – … ist circa … Meter hoch / lang."
+    vi: "… cao/dài bao nhiêu? – … cao/dài khoảng … mét."
+    context_vi: "Hỏi và nói số đo."
+    register: neutral
+    dialogue:
+      - { speaker: "Minh", de: "Wie hoch ist der Turm?", vi: "Tòa tháp cao bao nhiêu?" }
+      - { speaker: "Lisa", de: "Er ist über 130 Meter hoch.", vi: "Nó cao hơn 130 mét." }
+  - id: a1-k03-l01-r03
+    de: "Das ist … Er/Sie/Es ist …"
+    vi: "Đây là … Nó …"
+    context_vi: "Giới thiệu một địa điểm và mô tả nó (dùng er/sie/es thay cho danh từ)."
+    register: neutral
+    dialogue:
+      - { speaker: "Lan", de: "Das ist die Elbphilharmonie. Sie ist ein Konzerthaus.", vi: "Đây là Elbphilharmonie. Đó là một nhà hòa nhạc." }
+      - { speaker: "Tom", de: "Toll!", vi: "Tuyệt!" }
+pronunciation:
+  - id: a1-k03-l01-p01
+    focus_vi: "Từ ghép chỉ địa điểm"
+    explanation_vi: "Từ ghép nhấn phần đầu: BAHN-hof, RAT-haus, KON-zert-haus (Konzert nhấn ZERT: kon-ZERT-haus). th trong Rathaus đọc [t] (Rat + Haus)."
+    examples:
+      - { de: "der Bahnhof", vi: "nhà ga", ipa: "[ˈbaːnˌhoːf]" }
+      - { de: "das Rathaus", vi: "tòa thị chính", ipa: "[ˈʁaːtˌhaʊ̯s]" }
+    practice_vi: "Đọc to các địa điểm trong bài, mỗi từ kèm mạo từ."
+examples:
+  - { de: "Hamburg ist eine Stadt in Deutschland.", vi: "Hamburg là một thành phố ở Đức." }
+  - { de: "Der Hafen ist sehr groß.", vi: "Bến cảng rất lớn." }
+  - { de: "Da sehen Sie die Kirche.", vi: "Ở đó quý vị thấy nhà thờ." }
+  - { de: "Die Tour dauert circa zwei Stunden.", vi: "Chuyến tham quan kéo dài khoảng hai tiếng." }
+  - { de: "Die Schiffe fahren auf der Elbe.", vi: "Những con tàu chạy trên sông Elbe." }
+  - { de: "In Hamburg wohnen fast zwei Millionen Menschen.", vi: "Hamburg có gần hai triệu người sinh sống." }
+skills:
+  listening:
+    - id: a1-k03-l01-listen-01
+      title_vi: "Stadttour: chuyến tham quan Hamburg"
+      situation_vi: "Hướng dẫn viên giới thiệu ba điểm dừng."
+      audio: { status: pending-tts, speed: slow }
+      script:
+        - { speaker: "Stadtführerin", de: "Herzlich willkommen in Hamburg! Die erste Station ist das Rathaus. Es ist sehr schön und über 100 Jahre alt.", vi: "Chào mừng quý vị đến Hamburg! Điểm dừng đầu tiên là tòa thị chính. Nó rất đẹp và hơn 100 năm tuổi." }
+        - { speaker: "Stadtführerin", de: "Und da sehen Sie den Michel. Der Michel ist eine Kirche. Der Turm ist über 130 Meter hoch.", vi: "Và ở đó quý vị thấy Michel. Michel là một nhà thờ. Tòa tháp cao hơn 130 mét." }
+        - { speaker: "Stadtführerin", de: "Jetzt sind wir am Hafen. Die Elbe ist hier sehr breit. Da sehen Sie viele Schiffe. Und da ist die Elbphilharmonie – ein Konzerthaus und ein Star in Hamburg!", vi: "Bây giờ chúng ta ở bến cảng. Sông Elbe ở đây rất rộng. Ở đó quý vị thấy nhiều con tàu. Và kia là Elbphilharmonie – một nhà hòa nhạc và là “ngôi sao” của Hamburg!" }
+      exercises: [a1-k03-l01-ex03, a1-k03-l01-ex04]
+  reading:
+    - id: a1-k03-l01-read-01
+      title_vi: "Tờ thông tin du lịch"
+      text_type_vi: "Tờ rơi thông tin"
+      text_de: |
+        Hamburg – Stadttour (circa 2 Stunden, 15 Euro)
+        Station 1: das Rathaus – in der Mitte der Stadt
+        Station 2: der Michel – eine Kirche, der Turm ist über 130 Meter hoch
+        Station 3: der Hafen – viele Schiffe aus der ganzen Welt
+        Station 4: die Elbphilharmonie – ein Konzerthaus, circa 110 Meter hoch
+        Start: am Rathaus, jeden Tag um 11 Uhr
+      translation_vi: |
+        Hamburg – Tham quan thành phố (khoảng 2 tiếng, 15 euro)
+        Điểm 1: tòa thị chính – ở trung tâm thành phố
+        Điểm 2: Michel – một nhà thờ, tòa tháp cao hơn 130 mét
+        Điểm 3: bến cảng – nhiều con tàu từ khắp thế giới
+        Điểm 4: Elbphilharmonie – một nhà hòa nhạc, cao khoảng 110 mét
+        Xuất phát: ở tòa thị chính, mỗi ngày lúc 11 giờ
+      glossary:
+        - { de: "die Station", vi: "điểm dừng" }
+        - { de: "um 11 Uhr", vi: "lúc 11 giờ (Kapitel 5)" }
+      exercises: [a1-k03-l01-ex05]
+  speaking:
+    - id: a1-k03-l01-speak-01
+      title_vi: "Giới thiệu thành phố của bạn"
+      task_vi: "Giới thiệu thành phố của bạn (hoặc một thành phố bạn biết) bằng 4–5 câu: tên, có những địa điểm gì, mô tả một địa điểm."
+      steps_vi:
+        - "Das ist … Es ist eine Stadt in …"
+        - "… hat einen Bahnhof / eine Kirche / viele Brücken …"
+        - "Mô tả: Der Fluss ist breit. Die Brücke ist lang."
+      model:
+        - { speaker: "Minh", de: "Das ist Hanoi. Hanoi ist eine Stadt in Vietnam. Da ist der Rote Fluss. Er ist breit. Die Long-Bien-Brücke ist sehr lang und alt.", vi: "Đây là Hà Nội. Hà Nội là một thành phố ở Việt Nam. Ở đó có sông Hồng. Sông rộng. Cầu Long Biên rất dài và cổ." }
+      exercises: [a1-k03-l01-ex08]
+  writing:
+    - id: a1-k03-l01-write-01
+      title_vi: "Tờ thông tin cho thành phố của bạn"
+      task_vi: "Viết tờ thông tin ngắn (4 điểm dừng) cho một chuyến tham quan thành phố bạn biết, giống phần Đọc."
+      model_de: "Hanoi – Stadttour: Station 1: der See Hoan Kiem – in der Mitte der Stadt. Station 2: die Long-Bien-Brücke – sehr lang und alt. Station 3: der Bahnhof. Station 4: das Theater."
+      model_vi: "Hà Nội – Tham quan: Điểm 1: hồ Hoàn Kiếm – ở trung tâm. Điểm 2: cầu Long Biên – rất dài và cổ. Điểm 3: nhà ga. Điểm 4: nhà hát."
+      checklist_vi:
+        - "Mỗi địa điểm có mạo từ đúng."
+        - "Có ít nhất 2 mô tả với tính từ (alt, lang, schön, hoch…)."
+      exercises: [a1-k03-l01-ex09]
+exercises:
+  - id: a1-k03-l01-ex01
+    type: matching
+    skill: vocabulary
+    objectives: [o1]
+    difficulty: 1
+    instructions_vi: "Nối địa điểm với nghĩa tiếng Việt."
+    items:
+      - id: q1
+        pairs:
+          - { left: "der Bahnhof", right: "nhà ga" }
+          - { left: "die Kirche", right: "nhà thờ" }
+          - { left: "das Rathaus", right: "tòa thị chính" }
+          - { left: "der Hafen", right: "bến cảng" }
+          - { left: "die Brücke", right: "cây cầu" }
+          - { left: "der Fluss", right: "con sông" }
+        explanation_vi: "Sáu địa điểm quan trọng trong thành phố."
+  - id: a1-k03-l01-ex02
+    type: gap-fill
+    skill: vocabulary
+    objectives: [o1]
+    difficulty: 1
+    instructions_vi: "Điền der, die hoặc das."
+    items:
+      - { id: q1, prompt: "___ Turm", answer: ["der"], explanation_vi: "der Turm." }
+      - { id: q2, prompt: "___ Schiff", answer: ["das"], explanation_vi: "das Schiff." }
+      - { id: q3, prompt: "___ Ausstellung", answer: ["die"], explanation_vi: "-ung → die." }
+      - { id: q4, prompt: "___ Meer", answer: ["das"], explanation_vi: "das Meer." }
+      - { id: q5, prompt: "___ Rathaus (der Rat + das Haus)", answer: ["das"], explanation_vi: "Theo từ cuối: das Haus." }
+  - id: a1-k03-l01-ex03
+    type: multiple-choice
+    skill: listening
+    objectives: [o3]
+    difficulty: 1
+    stimulus: a1-k03-l01-listen-01
+    instructions_vi: "Nghe chuyến tham quan. Chọn đáp án đúng."
+    items:
+      - { id: q1, prompt: "Điểm dừng đầu tiên là gì?", options: ["das Rathaus", "der Hafen", "die Kirche"], answer: "das Rathaus", explanation_vi: "„Die erste Station ist das Rathaus.“" }
+      - { id: q2, prompt: "„Der Michel“ là gì?", options: ["ein Turm", "eine Kirche", "ein Schiff"], answer: "eine Kirche", explanation_vi: "„Der Michel ist eine Kirche.“" }
+      - { id: q3, prompt: "Elbphilharmonie là gì?", options: ["ein Bahnhof", "ein Konzerthaus", "ein Museum"], answer: "ein Konzerthaus", explanation_vi: "„… ein Konzerthaus und ein Star in Hamburg!“" }
+  - id: a1-k03-l01-ex04
+    type: true-false
+    skill: listening
+    objectives: [o2, o3]
+    difficulty: 2
+    stimulus: a1-k03-l01-listen-01
+    instructions_vi: "Nghe lại. Đúng hay sai?"
+    items:
+      - { id: q1, prompt: "Tòa tháp của Michel cao hơn 130 mét.", answer: true, explanation_vi: "„über 130 Meter hoch“." }
+      - { id: q2, prompt: "Ở bến cảng, sông Elbe hẹp.", answer: false, explanation_vi: "„Die Elbe ist hier sehr breit.“ – rộng." }
+      - { id: q3, prompt: "Tòa thị chính hơn 100 năm tuổi.", answer: true, explanation_vi: "„… über 100 Jahre alt.“" }
+  - id: a1-k03-l01-ex05
+    type: multiple-choice
+    skill: reading
+    objectives: [o3, o2]
+    difficulty: 1
+    stimulus: a1-k03-l01-read-01
+    instructions_vi: "Đọc tờ thông tin. Chọn đáp án đúng."
+    items:
+      - { id: q1, prompt: "Chuyến tham quan giá bao nhiêu?", options: ["2 Euro", "15 Euro", "110 Euro"], answer: "15 Euro", explanation_vi: "„15 Euro“." }
+      - { id: q2, prompt: "Chuyến tham quan bắt đầu ở đâu?", options: ["am Hafen", "am Rathaus", "am Michel"], answer: "am Rathaus", explanation_vi: "„Start: am Rathaus“." }
+      - { id: q3, prompt: "Cái gì cao khoảng 110 mét?", options: ["der Michel", "die Elbphilharmonie", "das Rathaus"], answer: "die Elbphilharmonie", explanation_vi: "Station 4." }
+  - id: a1-k03-l01-ex06
+    type: sentence-building
+    skill: grammar
+    objectives: [o2]
+    difficulty: 2
+    instructions_vi: "Viết câu mô tả."
+    items:
+      - { id: q1, prompt: "die Brücke / sein / 500 Meter / lang", answer: "Die Brücke ist 500 Meter lang.", explanation_vi: "sein + số đo + tính từ." }
+      - { id: q2, prompt: "der Fluss / sein / breit", answer: "Der Fluss ist breit.", explanation_vi: "sein + tính từ." }
+      - { id: q3, prompt: "du / sehen / das Rathaus ?", answer: "Siehst du das Rathaus?", explanation_vi: "du siehst (e → ie); câu hỏi có/không." }
+  - id: a1-k03-l01-ex07
+    type: gap-fill
+    skill: grammar
+    objectives: [o2]
+    difficulty: 2
+    instructions_vi: "Chia động từ sehen hoặc fahren."
+    items:
+      - { id: q1, prompt: "Da ___ Sie das Rathaus. (sehen)", answer: ["sehen"], explanation_vi: "Sie sehen." }
+      - { id: q2, prompt: "___ du die Schiffe? (sehen)", answer: ["Siehst"], explanation_vi: "du siehst." }
+      - { id: q3, prompt: "Der Zug ___ nach Berlin. (fahren)", answer: ["fährt"], explanation_vi: "er fährt." }
+  - id: a1-k03-l01-ex08
+    type: speaking
+    skill: speaking
+    objectives: [o4, o2]
+    difficulty: 2
+    grading: self
+    instructions_vi: "Ghi âm phần giới thiệu thành phố của bạn (phần Nói)."
+    rubric:
+      - { criterion_vi: "Giới thiệu được tên và ít nhất 2 địa điểm (kèm mạo từ)", points: 2 }
+      - { criterion_vi: "Có ít nhất 2 câu mô tả với sein + tính từ", points: 2 }
+    items:
+      - { id: q1, prompt: "Thành phố của bạn", model_answer: "Das ist Hanoi. Hanoi ist eine Stadt in Vietnam. Da ist der Rote Fluss. Er ist breit. Die Long-Bien-Brücke ist sehr lang und alt.", explanation_vi: "So sánh với mẫu ở phần Nói." }
+  - id: a1-k03-l01-ex09
+    type: writing
+    skill: writing
+    objectives: [o4, o1]
+    difficulty: 1
+    grading: self
+    instructions_vi: "Viết tờ thông tin tham quan thành phố của bạn (phần Viết)."
+    rubric:
+      - { criterion_vi: "4 điểm dừng, mạo từ đúng", points: 2 }
+      - { criterion_vi: "Có mô tả bằng tính từ", points: 1 }
+    items:
+      - { id: q1, prompt: "Tờ thông tin tham quan", model_answer: "Hanoi – Stadttour: Station 1: der See Hoan Kiem – in der Mitte der Stadt. Station 2: die Long-Bien-Brücke – sehr lang und alt. Station 3: der Bahnhof. Station 4: das Theater.", explanation_vi: "So sánh với mẫu." }
+summary_vi: "Địa điểm: der Bahnhof, der Hafen, der Turm, der Fluss, die Kirche, die Brücke, die Ausstellung, das Rathaus, das Konzerthaus, das Meer, das Schiff. Mô tả: sein + (số đo) + tính từ: Der Turm ist 130 Meter hoch. sehen: du siehst, er sieht. nach + thành phố: Der Zug fährt nach Berlin."
+self_check:
+  - "Tôi gọi tên được 10 địa điểm trong thành phố kèm mạo từ."
+  - "Tôi mô tả được một địa điểm: hoch, lang, breit, alt, schön."
+  - "Tôi hiểu thông tin chính của một chuyến tham quan."
+  - "Tôi giới thiệu được ngắn gọn thành phố của mình."

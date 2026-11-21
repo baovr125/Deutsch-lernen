@@ -29,7 +29,7 @@ path:
   - { id: a1-u00, order: 0, kind: intro, title_de: "Einstieg", title_vi: "Nhập môn: chữ cái, phát âm, câu đầu tiên", dir: units/00-einstieg, status: ready }
   - { id: a1-k01, order: 1, kind: kapitel, kapitel: 1, title_de: "Guten Tag!", title_vi: "Xin chào!", dir: units/01-guten-tag, status: ready }
   - { id: a1-k02, order: 2, kind: kapitel, kapitel: 2, title_de: "Freunde, Kollegen und ich", title_vi: "Bạn bè, đồng nghiệp và tôi", dir: units/02-freunde-kollegen-und-ich, status: ready }
-  - { id: a1-k03, order: 3, kind: kapitel, kapitel: 3, title_de: "In Hamburg", title_vi: "Ở Hamburg", status: planned }
+  - { id: a1-k03, order: 3, kind: kapitel, kapitel: 3, title_de: "In Hamburg", title_vi: "Ở Hamburg", dir: units/03-in-hamburg, status: ready }
   - { id: a1-p1, order: 4, kind: plattform, covers: [1, 2, 3], title_de: "Plattform 1", title_vi: "Ôn tập 1 (Kapitel 1–3)", status: planned }
   - { id: a1-k04, order: 5, kind: kapitel, kapitel: 4, title_de: "Guten Appetit!", title_vi: "Chúc ngon miệng!", status: planned }
   - { id: a1-k05, order: 6, kind: kapitel, kapitel: 5, title_de: "Alltag und Familie", title_vi: "Cuộc sống hằng ngày và gia đình", status: planned }
