@@ -23,7 +23,7 @@ lessons: [a1-k03-l01, a1-k03-l02, a1-k03-l03, a1-k03-l04, a1-k03-l05, a1-k03-l06
 review: a1-k03-review
 grammar_topics: [g-a1-unbestimmter-artikel, g-a1-negation-kein, g-a1-imperativ-sie]
 vocabulary_file: vocabulary/03-in-hamburg.csv
-estimated_minutes: 435
+estimated_minutes: 485
 status: ready
 not_covered_vi:
   - "Film „Die Netzwerk-WG“ (Szene 6–7): không sử dụng video giáo trình."

@@ -9,7 +9,7 @@
 |---|---|---|
 | **Stoffverteilungsplan Netzwerk neu A1.1** (© Klett 2023, tác giả Birgitta Fröhlich) – kế hoạch phân bổ nội dung Kapitel 1–6 + Plattform 1–2 | [klett-sprachen.de/downloads/31495](https://www.klett-sprachen.de/downloads/31495/netzwerk-neu-a1-1-stoffverteilungsplan/pdf) | ✅ Đọc đủ 21/21 trang (PDF dạng ảnh, đọc bằng cách render từng trang) |
 | **Stoffverteilungsplan Netzwerk neu A1.2** (© Klett 2023) – Kapitel 7–12 + Plattform 3–4 | [klett-sprachen.de/downloads/31496](https://www.klett-sprachen.de/downloads/31496/netzwerk-neu-a1-2-stoffverteilungsplan/pdf) | ✅ Đọc 20/21 trang; **trang 20 chưa đọc** (theo cấu trúc lặp lại, là phần tiếp của mục Film và „kurz und klar“ của Kapitel 12) |
-| **Kapitelwortschatz Netzwerk neu A1, Kapitel 1–12** (© Klett 2019) – danh sách từ theo Kapitel, từ in đậm = Lernwortschatz | [klett-sprachen.de/downloads/22483](https://www.klett-sprachen.de/downloads/22483/netzwerk-neu-a1-kapitelwortschatz-kapitel-1-12/pdf) | ⚠️ Đọc trang 1–6 (toàn bộ Kapitel 1, đầu Kapitel 2). Trang 7–53 **chưa đọc** – sẽ đọc khi biên soạn từng Kapitel |
+| **Kapitelwortschatz Netzwerk neu A1, Kapitel 1–12** (© Klett 2019) – danh sách từ theo Kapitel, từ in đậm = Lernwortschatz | [klett-sprachen.de/downloads/22483](https://www.klett-sprachen.de/downloads/22483/netzwerk-neu-a1-kapitelwortschatz-kapitel-1-12/pdf) | ⚠️ Đọc trang 1–16 (Kapitel 1–3). Trang 17–53 (Kapitel 4–12) **chưa đọc** – sẽ đọc khi biên soạn từng Kapitel |
 | Trang sản phẩm Netzwerk neu A1.1 | [klett-sprachen.de/netzwerk-neu-a1/t-1/9783126071611](https://www.klett-sprachen.de/netzwerk-neu-a1/t-1/9783126071611) | ✅ Thông tin xuất bản |
 | CEFR 2001 (Table 1, Table 2) và CEFR Companion Volume 2020 | [rm.coe.int/16809ea0d4](https://rm.coe.int/16809ea0d4) | Dùng làm chuẩn đầu ra; diễn giải trong `content/a1/cefr-a1.yaml` |
 | Goethe-Zertifikat A1: Start Deutsch 1 – Durchführungsbestimmungen | [goethe.de](https://www.goethe.de/resources/files/pdf325/durchfuehrungsbestimmungen_a1_start_deutsch_1.pdf) | Chỉ dùng để đối chiếu cấu trúc đề thi (phần Prüfungstraining của Plattform bám theo định dạng này) |
@@ -141,7 +141,17 @@ Wiederholungsspiel Kapitel 10–12; Training: Wortspiele, eine Mail schreiben; L
 | `a1-k01-l05` Länder und Sprachen | Kapitel 1: Landeskunde: Länder und Sprachen | + tên nước có mạo từ (cụm cố định) |
 | `a1-k01-review` Kurz und klar – Test | Kapitel 1: kurz und klar | Bảng tổng kết và đề kiểm tra tự biên soạn |
 | *(không có)* | Kapitel 1: Film „Die Netzwerk-WG“ | Không dùng video giáo trình; thay bằng bài nghe tự viết |
-| `a1-k02` … `a1-k12`, `a1-p1` … `a1-p4`, `a1-final` | Kapitel 2–12, Plattform 1–4 | ⏳ Kế hoạch – cùng phương pháp ánh xạ |
+| `a1-k02-l01` Freunde, Kollegen und ich | Kapitel 2: Freunde, Kollegen und ich | Sở thích, gern |
+| `a1-k02-l02` Meine Hobbys, meine Freunde | Kapitel 2: Meine Hobbys, meine Freunde | Chia động từ đầy đủ |
+| `a1-k02-l03` Gehen wir ins Kino? | Kapitel 2: Gehen wir ins Kino? | Ja/Nein-Frage, Wochentage |
+| `a1-k02-l04` Mein Beruf – Artikel lernen | Kapitel 2: Mein Beruf (phần 1) + Strategie: Artikel lernen | Gộp mục Strategie |
+| `a1-k02-l05` Mein Arbeitstag | Kapitel 2: Mein Beruf (phần 2) | Plural, haben/sein, Zahlen ab 20 |
+| `a1-k02-l06` Neu im Club | Kapitel 2: Landeskunde: Neu im Club | Formular |
+| `a1-k02-review` | Kapitel 2: kurz und klar | |
+| `a1-k03-l01` … `l06` | Kapitel 3: In Hamburg · Die Taxifahrt · Kein Glück?! · Links, rechts, geradeaus · Events in Hamburg · Jahreszeiten in D-A-CH | 1 bài / 1 mục |
+| `a1-k03-review` | Kapitel 3: kurz und klar | |
+| `a1-p1-l01` … `l03` | Plattform 1: wiederholen und trainieren · Landeskunde · Prüfungstraining Hören 1 + Sprechen 1 | Đề luyện tự biên soạn |
+| `a1-k04` … `a1-k12`, `a1-p2` … `a1-p4`, `a1-final` | Kapitel 4–12, Plattform 2–4 | ⏳ Kế hoạch – cùng phương pháp ánh xạ |
 
 ## 7. Nội dung bổ sung (không có trong giáo trình)
 

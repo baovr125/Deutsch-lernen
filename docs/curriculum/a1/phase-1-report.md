@@ -103,3 +103,29 @@ Validator hiện là script ngoài repo (Python, dùng PyYAML + jsonschema có s
 6. Nhờ người bản ngữ duyệt nội dung theo từng khối.
 
 Phase 2 (A2) **chưa bắt đầu** và chỉ bắt đầu khi bạn đã trải nghiệm và đánh giá A1.
+
+---
+
+## Cập nhật đợt 2 – Khối 1 hoàn chỉnh (Kapitel 2, Kapitel 3, Plattform 1)
+
+> Ngày: 2026-11-21 · Nhánh: `content/a1-phase1`
+
+**Nghiên cứu thêm:** Kapitelwortschatz trang 7–16 (Kapitel 2–3). Phát hiện: Kapitelwortschatz không có mục riêng cho Plattform.
+
+**Nội dung mới:**
+
+| Phần | Bài | Ngữ pháp | Từ vựng | Bài tập |
+|---|---|---|---|---|
+| Kapitel 2 – Freunde, Kollegen und ich | 6 + Test | verben-praesens, ja-nein-frage, bestimmter-artikel, plural, haben-sein | 182 | 68 |
+| Kapitel 3 – In Hamburg | 6 + Test | unbestimmter-artikel, negation-kein, imperativ-sie | 113 | 61 |
+| Plattform 1 | 3 | – | 7 | 22 |
+
+**Tổng sau đợt 2:** 5 unit · 24 bài học + 3 bài kiểm tra · 14 chủ điểm ngữ pháp · 453 từ · 277 bài tập (709 câu hỏi) · phủ đủ **20/20** mã CEFR A1 · validator **0 lỗi, 0 cảnh báo**.
+
+**Điều chỉnh so với đợt 1:**
+- Từ Kapitel 2, đưa **toàn bộ Lernwortschatz** (từ in đậm) vào danh sách học; các từ Lernwortschatz còn thiếu của Kapitel 1 được dạy ở Kapitel phù hợp (spielen, machen, kennen, Wort → Kapitel 2; ein/eine, dann, zuerst → Kapitel 3; bekannt → Plattform 1). Danh sách còn lại ghi trong a1-vocabulary-syllabus.md.
+- Schema mở rộng (không phá vỡ dữ liệu cũ): `unit.kind` thêm `plattform`; `source` chấp nhận `plattform: 1–4` thay cho `kapitel`.
+- Thư mục Plattform đặt tên `03-plattform-1` để đứng ngay sau Kapitel 3 mà vẫn giữ số thư mục trùng số Kapitel.
+- Soát tiếng Đức: sửa 3 chỗ (tránh „Ich bin nicht Arzt“ khi chưa học kein; đổi „Platz“ → „Tennisplatz“ để tránh nhầm nghĩa; bỏ câu dịch dùng từ chưa học).
+
+**Còn lại:** Kapitel 4–12, Plattform 2–4, Abschlusstest A1; audio TTS; người bản ngữ duyệt.

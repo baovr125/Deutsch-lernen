@@ -77,6 +77,11 @@ Hướng dẫn chi tiết cho người học: [a1-self-study-guide.md](a1-self-s
 |---|---|---|
 | a1-u00 | Einstieg | ✅ ready |
 | a1-k01 | Kapitel 1 – Guten Tag! | ✅ ready |
-| a1-k02 … a1-k12 | Kapitel 2–12 | ⏳ planned |
-| a1-p1 … a1-p4 | Plattform 1–4 | ⏳ planned |
+| a1-k02 | Kapitel 2 – Freunde, Kollegen und ich | ✅ ready |
+| a1-k03 | Kapitel 3 – In Hamburg | ✅ ready |
+| a1-p1 | Plattform 1 | ✅ ready |
+| a1-k04 … a1-k12 | Kapitel 4–12 | ⏳ planned |
+| a1-p2 … a1-p4 | Plattform 2–4 | ⏳ planned |
+
+**Khối 1 (Einstieg + Kapitel 1–3 + Plattform 1) đã hoàn chỉnh.** Thời lượng thực tế: Einstieg 220 phút, Kapitel 1 435 phút, Kapitel 2 520 phút, Kapitel 3 485 phút, Plattform 1 240 phút – tổng khoảng 32 giờ.
 | a1-final | Abschlusstest A1 | ⏳ planned (đã có đặc tả) |

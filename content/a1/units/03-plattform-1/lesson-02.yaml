@@ -1,0 +1,202 @@
+id: a1-p1-l02
+kind: lesson
+level: A1
+unit: a1-p1
+order: 2
+title_de: "Landeskunde: Städte und bekannte Personen in D-A-CH"
+title_vi: "Thành phố và người nổi tiếng ở Đức, Áo, Thụy Sĩ"
+topic_vi: "Thủ đô và thành phố lớn ở D-A-CH; hồ sơ người nổi tiếng"
+source:
+  type: netzwerk-neu
+  plattform: 1
+  sections: ["Landeskunde: bekannte Persönlichkeiten, Städte in D-A-CH"]
+  note_vi: "Thông tin về thành phố và người nổi tiếng là thông tin phổ thông, tự viết lại; không sao chép văn bản giáo trình."
+cefr: [A1.L1, A1.L3, A1.SP1, A1.H4]
+objectives:
+  - { id: o1, vi: "Biết thủ đô và một số thành phố lớn ở D-A-CH và đọc thông tin ngắn về chúng." }
+  - { id: o2, vi: "Đọc hồ sơ ngắn (Steckbrief) của người nổi tiếng và tìm thông tin: tên, nơi sinh, nghề." }
+  - { id: o3, vi: "Giới thiệu một người nổi tiếng (của Việt Nam hoặc D-A-CH) bằng 4–5 câu." }
+estimated_minutes: 60
+prerequisites: [a1-p1-l01]
+intro_vi: |
+  Bạn đã học về Hamburg. Bài này mở rộng ra **ba nước D-A-CH**:
+  - **Deutschland**: thủ đô **Berlin**; các thành phố lớn: Hamburg, München, Köln.
+  - **Österreich**: thủ đô **Wien**; các thành phố: Graz, Salzburg, Innsbruck.
+  - **die Schweiz**: không có thủ đô chính thức theo hiến pháp; **Bern** là “thành phố liên bang” (Bundesstadt), nơi đặt chính phủ. Thành phố lớn nhất là **Zürich**.
+
+  Và vài **người nổi tiếng** của D-A-CH qua hồ sơ ngắn (Steckbrief) – dạng văn bản rất hay gặp trong bài thi.
+vocabulary:
+  file: vocabulary/03-plattform-1.csv
+  new: [a1-p1-v001, a1-p1-v002, a1-p1-v003, a1-p1-v004, a1-p1-v005]
+  review: [a1-k01-v106, a1-k01-v107, a1-k01-v108, a1-k02-v161, a1-k03-v020, a1-k03-v017]
+grammar:
+  topics: []
+  notes:
+    - title_vi: "Steckbrief – hồ sơ ngắn"
+      explanation_vi: "Steckbrief liệt kê thông tin bằng các mục (Name, Geburtsort, Beruf…), không cần câu hoàn chỉnh. Khi giới thiệu thành lời, hãy biến mỗi mục thành một câu: Geburtsort: Salzburg → Er kommt aus Salzburg."
+      examples:
+        - { de: "Beruf: Komponist → Er ist Komponist.", vi: "Nghề: nhà soạn nhạc → Ông ấy là nhà soạn nhạc." }
+redemittel:
+  - id: a1-p1-l02-r01
+    de: "… ist die Hauptstadt von …"
+    vi: "… là thủ đô của …"
+    context_vi: "Nói về thủ đô."
+    register: neutral
+    dialogue:
+      - { speaker: "Tom", de: "Wien ist die Hauptstadt von Österreich, richtig?", vi: "Viên là thủ đô của Áo, đúng không?" }
+      - { speaker: "Lan", de: "Ja, richtig!", vi: "Ừ, đúng rồi!" }
+  - id: a1-p1-l02-r02
+    de: "Das ist … Er/Sie ist … Er/Sie kommt aus …"
+    vi: "Đây là … Ông ấy/Bà ấy là … đến từ …"
+    context_vi: "Giới thiệu một người nổi tiếng."
+    register: neutral
+    dialogue:
+      - { speaker: "Minh", de: "Kennst du Roger Federer?", vi: "Bạn có biết Roger Federer không?" }
+      - { speaker: "Anna", de: "Ja! Er ist Tennisspieler und kommt aus der Schweiz.", vi: "Có! Anh ấy là vận động viên quần vợt và đến từ Thụy Sĩ." }
+pronunciation:
+  - id: a1-p1-l02-p01
+    focus_vi: "Tên thành phố"
+    explanation_vi: "München [ˈmʏnçn̩] (ü + ch [ç]), Köln [kœln] (ö), Zürich [ˈtsyːʁɪç] (z [ts], ü dài, ch [ç]), Wien [viːn] (w [v], ie dài)."
+    examples:
+      - { de: "München", vi: "München (Munich)", ipa: "[ˈmʏnçn̩]" }
+      - { de: "Zürich", vi: "Zürich", ipa: "[ˈtsyːʁɪç]" }
+    practice_vi: "Đọc to tên 6 thành phố trong bài."
+examples:
+  - { de: "Berlin ist die Hauptstadt von Deutschland.", vi: "Berlin là thủ đô của Đức." }
+  - { de: "In Berlin wohnen fast vier Millionen Menschen.", vi: "Berlin có gần bốn triệu dân." }
+  - { de: "Zürich ist die größte Stadt der Schweiz.", vi: "Zürich là thành phố lớn nhất Thụy Sĩ.", note_vi: "größte = lớn nhất (so sánh nhất – học ở A2)." }
+  - { de: "Mozart ist sehr bekannt.", vi: "Mozart rất nổi tiếng." }
+skills:
+  listening:
+    - id: a1-p1-l02-listen-01
+      title_vi: "Câu đố thành phố"
+      situation_vi: "Người dẫn chương trình đố về ba thành phố."
+      audio: { status: pending-tts, speed: slow }
+      script:
+        - { speaker: "Moderator", de: "Stadt Nummer 1: Sie ist die Hauptstadt von Österreich. Hier gibt es viele Cafés und Konzerte.", vi: "Thành phố số 1: Đây là thủ đô của Áo. Ở đây có nhiều quán cà phê và buổi hòa nhạc." }
+        - { speaker: "Moderator", de: "Stadt Nummer 2: Sie ist in Deutschland, im Norden. Hier gibt es einen Hafen und viele Brücken.", vi: "Thành phố số 2: Ở Đức, miền Bắc. Ở đây có bến cảng và nhiều cây cầu." }
+        - { speaker: "Moderator", de: "Stadt Nummer 3: Sie ist in der Schweiz. Sie ist sehr groß und hat einen See.", vi: "Thành phố số 3: Ở Thụy Sĩ. Rất lớn và có một cái hồ." }
+      exercises: [a1-p1-l02-ex03]
+  reading:
+    - id: a1-p1-l02-read-01
+      title_vi: "Ba hồ sơ người nổi tiếng"
+      text_type_vi: "Steckbrief (hồ sơ ngắn)"
+      text_de: |
+        Name: Wolfgang Amadeus Mozart
+        Geburtsort: Salzburg (Österreich)
+        Beruf: Komponist
+        Bekannt für: Musik, z. B. „Die Zauberflöte“
+
+        Name: Albert Einstein
+        Geburtsort: Ulm (Deutschland)
+        Beruf: Physiker
+        Bekannt für: die Relativitätstheorie
+
+        Name: Roger Federer
+        Geburtsort: Basel (Schweiz)
+        Beruf: Tennisspieler
+        Bekannt für: 20 Grand-Slam-Titel
+      translation_vi: |
+        Tên: Wolfgang Amadeus Mozart – Nơi sinh: Salzburg (Áo) – Nghề: nhà soạn nhạc – Nổi tiếng nhờ: âm nhạc, ví dụ “Cây sáo thần”
+        Tên: Albert Einstein – Nơi sinh: Ulm (Đức) – Nghề: nhà vật lý – Nổi tiếng nhờ: thuyết tương đối
+        Tên: Roger Federer – Nơi sinh: Basel (Thụy Sĩ) – Nghề: vận động viên quần vợt – Nổi tiếng nhờ: 20 danh hiệu Grand Slam
+      glossary:
+        - { de: "bekannt für", vi: "nổi tiếng nhờ / về" }
+        - { de: "die Relativitätstheorie", vi: "thuyết tương đối" }
+        - { de: "der Titel", vi: "danh hiệu" }
+      exercises: [a1-p1-l02-ex02]
+  speaking:
+    - id: a1-p1-l02-speak-01
+      title_vi: "Giới thiệu một người nổi tiếng"
+      task_vi: "Giới thiệu một người nổi tiếng mà bạn thích (Việt Nam hoặc D-A-CH) bằng 4–5 câu: tên, quê, nghề, nổi tiếng vì gì."
+      steps_vi:
+        - "Viết Steckbrief cho người đó."
+        - "Biến mỗi mục thành một câu."
+      model:
+        - { speaker: "Huy", de: "Das ist Son Tung M-TP. Er kommt aus Vietnam, aus Thai Binh. Er ist Sänger. Er ist in Vietnam sehr bekannt.", vi: "Đây là Sơn Tùng M-TP. Anh ấy đến từ Việt Nam, từ Thái Bình. Anh ấy là ca sĩ. Anh ấy rất nổi tiếng ở Việt Nam." }
+      exercises: [a1-p1-l02-ex05]
+  writing:
+    - id: a1-p1-l02-write-01
+      title_vi: "Steckbrief"
+      task_vi: "Viết Steckbrief cho một người nổi tiếng (4 mục), rồi viết 3 câu giới thiệu từ Steckbrief đó."
+      model_de: "Name: Ho Xuan Huong · Land: Vietnam · Beruf: Dichterin · Bekannt für: Gedichte. – Ho Xuan Huong kommt aus Vietnam. Sie ist Dichterin. Sie ist sehr bekannt."
+      model_vi: "Tên: Hồ Xuân Hương · Nước: Việt Nam · Nghề: nhà thơ · Nổi tiếng nhờ: thơ. – Hồ Xuân Hương đến từ Việt Nam. Bà là nhà thơ. Bà rất nổi tiếng."
+      checklist_vi:
+        - "Steckbrief có 4 mục."
+        - "Câu dùng er/sie đúng giới tính, động từ đuôi -t."
+      exercises: [a1-p1-l02-ex06]
+exercises:
+  - id: a1-p1-l02-ex01
+    type: matching
+    skill: vocabulary
+    objectives: [o1]
+    difficulty: 1
+    instructions_vi: "Nối nước với thủ đô / thành phố liên bang."
+    items:
+      - id: q1
+        pairs:
+          - { left: "Deutschland", right: "Berlin" }
+          - { left: "Österreich", right: "Wien" }
+          - { left: "die Schweiz", right: "Bern (Bundesstadt)" }
+          - { left: "Vietnam", right: "Hanoi" }
+        explanation_vi: "Thụy Sĩ không có thủ đô chính thức; Bern là thành phố liên bang."
+  - id: a1-p1-l02-ex02
+    type: multiple-choice
+    skill: reading
+    objectives: [o2]
+    difficulty: 1
+    stimulus: a1-p1-l02-read-01
+    instructions_vi: "Đọc ba Steckbrief. Chọn đáp án đúng."
+    items:
+      - { id: q1, prompt: "Ai sinh ra ở Ulm?", options: ["Mozart", "Einstein", "Federer"], answer: "Einstein", explanation_vi: "Geburtsort: Ulm." }
+      - { id: q2, prompt: "Mozart làm nghề gì?", options: ["Physiker", "Komponist", "Tennisspieler"], answer: "Komponist", explanation_vi: "Beruf: Komponist." }
+      - { id: q3, prompt: "Federer đến từ nước nào?", options: ["Österreich", "Deutschland", "die Schweiz"], answer: "die Schweiz", explanation_vi: "Basel (Schweiz)." }
+  - id: a1-p1-l02-ex03
+    type: multiple-choice
+    skill: listening
+    objectives: [o1]
+    difficulty: 1
+    stimulus: a1-p1-l02-listen-01
+    instructions_vi: "Nghe câu đố. Đó là thành phố nào?"
+    items:
+      - { id: q1, prompt: "Stadt Nummer 1", options: ["Wien", "Berlin", "Graz"], answer: "Wien", explanation_vi: "Thủ đô của Áo." }
+      - { id: q2, prompt: "Stadt Nummer 2", options: ["München", "Hamburg", "Köln"], answer: "Hamburg", explanation_vi: "Miền Bắc, có cảng và nhiều cầu." }
+      - { id: q3, prompt: "Stadt Nummer 3", options: ["Zürich", "Salzburg", "Ulm"], answer: "Zürich", explanation_vi: "Ở Thụy Sĩ, rất lớn, có hồ (Zürichsee)." }
+  - id: a1-p1-l02-ex04
+    type: sentence-building
+    skill: grammar
+    objectives: [o3]
+    difficulty: 2
+    instructions_vi: "Biến mục Steckbrief thành câu."
+    items:
+      - { id: q1, prompt: "Einstein – Beruf: Physiker", answer: "Er ist Physiker.", accept: ["Einstein ist Physiker."], explanation_vi: "Nghề không mạo từ." }
+      - { id: q2, prompt: "Federer – Land: die Schweiz", answer: "Er kommt aus der Schweiz.", accept: ["Federer kommt aus der Schweiz."], explanation_vi: "aus der Schweiz." }
+  - id: a1-p1-l02-ex05
+    type: speaking
+    skill: speaking
+    objectives: [o3]
+    difficulty: 2
+    grading: self
+    instructions_vi: "Ghi âm phần giới thiệu người nổi tiếng (phần Nói)."
+    rubric:
+      - { criterion_vi: "Đủ 4 thông tin: tên, quê, nghề, nổi tiếng", points: 2 }
+      - { criterion_vi: "er/sie và động từ đúng", points: 2 }
+    items:
+      - { id: q1, prompt: "Người nổi tiếng bạn thích", model_answer: "Das ist Son Tung M-TP. Er kommt aus Vietnam, aus Thai Binh. Er ist Sänger. Er ist in Vietnam sehr bekannt.", explanation_vi: "So sánh với mẫu." }
+  - id: a1-p1-l02-ex06
+    type: writing
+    skill: writing
+    objectives: [o2, o3]
+    difficulty: 1
+    grading: self
+    instructions_vi: "Viết Steckbrief và 3 câu giới thiệu (phần Viết)."
+    rubric:
+      - { criterion_vi: "Steckbrief 4 mục", points: 2 }
+      - { criterion_vi: "3 câu đúng ngữ pháp", points: 2 }
+    items:
+      - { id: q1, prompt: "Steckbrief + 3 câu", model_answer: "Name: Ho Xuan Huong · Land: Vietnam · Beruf: Dichterin · Bekannt für: Gedichte. – Ho Xuan Huong kommt aus Vietnam. Sie ist Dichterin. Sie ist sehr bekannt.", explanation_vi: "die Dichterin = nữ nhà thơ; das Gedicht, die Gedichte = bài thơ." }
+summary_vi: "Thủ đô: Berlin (Deutschland), Wien (Österreich); Bern là Bundesstadt của Thụy Sĩ; thành phố lớn: Hamburg, München, Köln, Zürich, Graz, Salzburg. Steckbrief: Name, Geburtsort, Beruf, Bekannt für. Giới thiệu: Er/Sie ist … Er/Sie kommt aus …"
+self_check:
+  - "Tôi biết thủ đô của Đức, Áo và thành phố liên bang của Thụy Sĩ."
+  - "Tôi đọc được một Steckbrief và tìm thông tin."
+  - "Tôi giới thiệu được một người nổi tiếng."

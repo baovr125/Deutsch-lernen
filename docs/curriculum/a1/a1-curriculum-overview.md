@@ -91,6 +91,9 @@ Chi tiết từng Kapitel: [netzwerk-neu-a1-mapping.md](netzwerk-neu-a1-mapping.
 | Schema nội dung | ✅ |
 | Einstieg (4 bài) | ✅ Sẵn sàng |
 | Kapitel 1 (5 bài + Test) | ✅ Sẵn sàng |
-| Kapitel 2–12, Plattform 1–4, Abschlusstest | ⏳ Kế hoạch (đã có đặc tả) |
+| Kapitel 2 (6 bài + Test) | ✅ Sẵn sàng |
+| Kapitel 3 (6 bài + Test) | ✅ Sẵn sàng |
+| Plattform 1 (3 bài) | ✅ Sẵn sàng |
+| Kapitel 4–12, Plattform 2–4, Abschlusstest | ⏳ Kế hoạch (đã có đặc tả) |
 
 Chi tiết: [phase-1-report.md](phase-1-report.md).

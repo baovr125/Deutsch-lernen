@@ -22,14 +22,14 @@ Trạng thái: ✅ đã viết · ⏳ kế hoạch. ID của các chủ điểm 
 | 3 | 1 | `g-a1-verben-singular` | Chia động từ số ít (er/sie/es); sprechen e→i | ✅ | er/sie bắt buộc phân biệt nam/nữ |
 | 4 | 1 | `g-a1-w-fragen` | Câu hỏi W- | ✅ | Từ để hỏi đứng ĐẦU câu |
 | 5 | 1 | `g-a1-aussagesatz` | Câu kể: động từ ở vị trí 2 | ✅ | |
-| 6 | 2 | `g-a1-verben-praesens` | Chia động từ đầy đủ (wir, ihr, sie) – quy tắc và bất quy tắc | ⏳ | |
-| 7 | 2 | `g-a1-ja-nein-frage` | Câu hỏi Ja/Nein | ⏳ | Động từ lên đầu; lên giọng |
-| 8 | 2 | `g-a1-bestimmter-artikel` | Mạo từ xác định der/die/das; chiến lược học mạo từ | ⏳ | |
-| 9 | 2 | `g-a1-plural` | Số nhiều của danh từ | ⏳ | Tiếng Việt dùng “những, các” |
-| 10 | 2 | `g-a1-haben-sein` | haben và sein | ⏳ | |
-| 11 | 3 | `g-a1-unbestimmter-artikel` | Mạo từ không xác định ein/eine | ⏳ | |
-| 12 | 3 | `g-a1-negation-kein` | Phủ định kein/keine (và so sánh với nicht) | ⏳ | |
-| 13 | 3 | `g-a1-imperativ-sie` | Câu mệnh lệnh với Sie | ⏳ | |
+| 6 | 2 | `g-a1-verben-praesens` | Chia động từ đầy đủ (wir, ihr, sie) – quy tắc và bất quy tắc | ✅ | |
+| 7 | 2 | `g-a1-ja-nein-frage` | Câu hỏi Ja/Nein | ✅ | Động từ lên đầu; lên giọng |
+| 8 | 2 | `g-a1-bestimmter-artikel` | Mạo từ xác định der/die/das; chiến lược học mạo từ | ✅ | |
+| 9 | 2 | `g-a1-plural` | Số nhiều của danh từ | ✅ | Tiếng Việt dùng “những, các” |
+| 10 | 2 | `g-a1-haben-sein` | haben và sein | ✅ | |
+| 11 | 3 | `g-a1-unbestimmter-artikel` | Mạo từ không xác định ein/eine | ✅ | |
+| 12 | 3 | `g-a1-negation-kein` | Phủ định kein/keine (và so sánh với nicht) | ✅ | |
+| 13 | 3 | `g-a1-imperativ-sie` | Câu mệnh lệnh với Sie | ✅ | |
 | 14 | 4 | `g-a1-akkusativ` | Cách Akkusativ; động từ đi với Akkusativ | ⏳ | Khái niệm “cách” không có trong tiếng Việt – cần giải thích kỹ |
 | 15 | 4 | `g-a1-moechten-moegen` | möchten và mögen | ⏳ | |
 | 16 | 4 | `g-a1-satzpositionen` | Vị trí trong câu (đảo chủ ngữ khi vị trí 1 là thông tin khác) | ⏳ | “Hôm nay tôi học” ≠ “Heute ich lerne” |

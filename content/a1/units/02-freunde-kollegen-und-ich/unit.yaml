@@ -23,7 +23,7 @@ lessons: [a1-k02-l01, a1-k02-l02, a1-k02-l03, a1-k02-l04, a1-k02-l05, a1-k02-l06
 review: a1-k02-review
 grammar_topics: [g-a1-verben-praesens, g-a1-ja-nein-frage, g-a1-bestimmter-artikel, g-a1-plural, g-a1-haben-sein]
 vocabulary_file: vocabulary/02-freunde-kollegen-und-ich.csv
-estimated_minutes: 480
+estimated_minutes: 520
 status: ready
 not_covered_vi:
   - "Film „Die Netzwerk-WG“ (Szene 4–5): không sử dụng video giáo trình."

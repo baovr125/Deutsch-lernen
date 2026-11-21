@@ -37,8 +37,9 @@ example_de, example_vi, usage_vi, level, tags, source
 |---|---|---|---|
 | Einstieg | Chữ cái, từ quốc tế, yêu cầu bài tập, câu giao tiếp sống còn | ✅ | 26 (11 nwn-lern, 1 nwn, 14 supplement) |
 | 1 Guten Tag! | Chào hỏi, Tageszeiten, giới thiệu, Herkunft, Zahlen 0–20, Alphabet, E-Mail, Unverständnis, Länder und Sprachen | ✅ | 125 (82 nwn-lern, 29 nwn, 14 supplement) |
-| 2 | Hobbys und Aktivitäten, Wochentage, Orte, Berufe, Zahlen ab 20, Formular | ⏳ | – |
-| 3 | Orte in der Stadt, Richtungen, Verkehrsmittel, Wegbeschreibung, Events, Jahreszeiten, Monate | ⏳ | – |
+| 2 Freunde, Kollegen und ich | Hobbys und Aktivitäten, Wochentage, Orte, Berufe, Zahlen ab 20, Formular | ✅ | 182 (175 nwn-lern, 7 nwn) – gồm cả spielen, machen, kennen, Wort còn thiếu từ Kapitel 1 |
+| 3 In Hamburg | Orte in der Stadt, Richtungen, Verkehrsmittel, Wegbeschreibung, Events, Jahreszeiten, Monate | ✅ | 113 (103 nwn-lern, 10 nwn) – gồm cả ein/eine, kein/keine, dann, zuerst |
+| Plattform 1 | Städte und Persönlichkeiten in D-A-CH, Prüfung | ✅ | 7 (1 nwn-lern, 6 supplement) |
 | 4 | Lebensmittel, Geschäfte, Preise, Essen und Trinken | ⏳ | – |
 | 5 | Aktivitäten am Tag, Uhrzeit, Familie, Tageszeiten, Termine, Höflichkeit, Entschuldigung | ⏳ | – |
 | 6 | Freizeit, Ordinalzahlen, Monate, Einladung, Restaurant, Trinkgeld, Veranstaltungen | ⏳ | – |
@@ -49,7 +50,9 @@ example_de, example_vi, usage_vi, level, tags, source
 | 11 | Kleidung, Geschäfte, Kaufhaus, Zeitangaben | ⏳ | – |
 | 12 | Urlaub, Reisen, Stadturlaub, Wetter, Himmelsrichtungen | ⏳ | – |
 
-**Tổng số từ A1 dự kiến:** chưa xác định chính xác – Kapitelwortschatz (53 trang, dạng ảnh) mới đọc trang 1–6. Sẽ đếm khi biên soạn từng Kapitel. Để tham chiếu: danh sách từ của kỳ thi Goethe A1 khoảng vài trăm mục; Netzwerk neu A1 có thể nhiều hơn vì gồm cả từ bị động.
+**Tổng hiện tại:** 453 từ (Einstieg + Kapitel 1–3 + Plattform 1). Kapitelwortschatz đã đọc trang 1–16 (Kapitel 1–3). Từ Kapitel 2 trở đi, **toàn bộ Lernwortschatz (từ in đậm) đều được đưa vào**, trừ từ chỉ dùng trong đề bài của giáo trình (ghi trong `not_covered_vi` của từng unit). Tổng A1 sẽ được đếm khi biên soạn các Kapitel còn lại.
+
+**Lernwortschatz Kapitel 1 còn chưa dạy** (quyết định giữ lại để dạy ở Kapitel phù hợp hoặc bỏ qua vì chỉ là từ trong đề bài/trang mở đầu): international, die Autobahn, die Flasche, das Handtuch, der Kindergarten, der Koffer, die Nudel, auf, andere, deutsch (tính từ), sammeln, das Interview, notieren, raten, laut, das Gespräch, man (→ Kapitel 12), darauf. Để tham chiếu: danh sách từ của kỳ thi Goethe A1 khoảng vài trăm mục; Netzwerk neu A1 có thể nhiều hơn vì gồm cả từ bị động.
 
 ## 5. Gợi ý hiển thị và ôn tập (cho frontend/SRS)
 
